@@ -1,31 +1,5 @@
-snapshot_id: github-universe-2026-08-26
+snapshot_id: github-universe-2026-08-26-review-01
 entries:
-- universe: trading
-  repo: zinan92/backtest
-  owned: true
-  starred: false
-  source_kind: owned
-  registry_repo: false
-  registry_role: null
-  primary_category: backtesting-simulation
-  tags:
-  - paper-trading
-  - python
-  source_url: https://github.com/zinan92/backtest
-  visibility: public
-  archived: false
-  description: 回测验证。in 策略定义 → out 胜率/盈亏比/最大回撤
-  status: BUILDING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 回测验证。in 策略定义 → out 胜率/盈亏比/最大回撤
-    license_spdx: NOASSERTION
-    checked_at: '2026-08-26'
-    pushed_at: '2026-03-28T09:08:14Z'
 - universe: trading
   repo: zinan92/chancode
   owned: true
@@ -33,7 +7,7 @@ entries:
   source_kind: owned
   registry_repo: false
   registry_role: null
-  primary_category: market-data-feeds
+  primary_category: strategies-trader-methodologies
   tags:
   - private
   source_url: https://github.com/zinan92/chancode
@@ -49,7 +23,7 @@ entries:
     archived: false
     description: ''
     license_spdx: NOASSERTION
-    checked_at: '2026-08-26'
+    checked_at: 2026-08-26-review-01
     pushed_at: '2026-04-07T01:59:03Z'
 - universe: trading
   repo: zinan92/copilot
@@ -58,7 +32,7 @@ entries:
   source_kind: owned_and_starred
   registry_repo: false
   registry_role: null
-  primary_category: market-data-feeds
+  primary_category: knowledge-collections
   tags:
   - private
   - python
@@ -75,7 +49,7 @@ entries:
     archived: false
     description: 方法论路由。in 信号+上下文 → out 44套方法论匹配分析
     license_spdx: MIT
-    checked_at: '2026-08-26'
+    checked_at: 2026-08-26-review-01
     pushed_at: '2026-03-22T09:40:21Z'
 - universe: trading
   repo: zinan92/datafeed
@@ -100,7 +74,7 @@ entries:
     archived: false
     description: 行情数据。in ticker+timeframe → out OHLCV candles。A股/美股/加密/商品
     license_spdx: NOASSERTION
-    checked_at: '2026-08-26'
+    checked_at: 2026-08-26-review-01
     pushed_at: '2026-08-25T03:34:34Z'
 - universe: trading
   repo: zinan92/equity-research
@@ -126,34 +100,8 @@ entries:
     archived: false
     description: A股长期投委会 + 证据快照深度研报平台(Park 产品层)
     license_spdx: MIT
-    checked_at: '2026-08-26'
+    checked_at: 2026-08-26-review-01
     pushed_at: '2026-08-26T02:32:28Z'
-- universe: trading
-  repo: zinan92/gold-trading
-  owned: true
-  starred: false
-  source_kind: owned
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-systems
-  tags:
-  - private
-  - python
-  source_url: https://github.com/zinan92/gold-trading
-  visibility: private
-  archived: false
-  description: ''
-  status: BUILDING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: private
-    archived: false
-    description: ''
-    license_spdx: NOASSERTION
-    checked_at: '2026-08-26'
-    pushed_at: '2026-02-19T08:53:01Z'
 - universe: trading
   repo: zinan92/human-kline-review
   owned: true
@@ -178,7 +126,7 @@ entries:
     archived: false
     description: Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later
     license_spdx: NOASSERTION
-    checked_at: '2026-08-26'
+    checked_at: 2026-08-26-review-01
     pushed_at: '2026-08-25T04:38:10Z'
 - universe: trading
   repo: zinan92/intel
@@ -203,34 +151,8 @@ entries:
     archived: false
     description: 情报采集。in 10+信息源 → out LLM评分+跨源事件聚类
     license_spdx: NOASSERTION
-    checked_at: '2026-08-26'
+    checked_at: 2026-08-26-review-01
     pushed_at: '2026-08-24T02:30:21Z'
-- universe: trading
-  repo: zinan92/market-direction
-  owned: true
-  starred: false
-  source_kind: owned
-  registry_repo: false
-  registry_role: null
-  primary_category: market-data-feeds
-  tags:
-  - private
-  - research
-  source_url: https://github.com/zinan92/market-direction
-  visibility: private
-  archived: false
-  description: ''
-  status: BUILDING
-  review_status: needs_review
-  review_reason: Private repo name indicates market-direction analysis; no description, so classification is provisional.
-  github_snapshot:
-    default_branch: main
-    visibility: private
-    archived: false
-    description: ''
-    license_spdx: NOASSERTION
-    checked_at: '2026-08-26'
-    pushed_at: '2026-08-11T15:19:59Z'
 - universe: trading
   repo: zinan92/quant-data-pipeline
   owned: true
@@ -257,7 +179,7 @@ entries:
     archived: false
     description: 多市场量化数据平台 — A股/美股/加密/商品，28组API，感知信号引擎，模拟交易
     license_spdx: NOASSERTION
-    checked_at: '2026-08-26'
+    checked_at: 2026-08-26-review-01
     pushed_at: '2026-03-27T14:19:32Z'
 - universe: trading
   repo: zinan92/standard-broker
@@ -285,7 +207,7 @@ entries:
     archived: false
     description: Provider-neutral broker Ports & Adapters for Paper-safe trading systems
     license_spdx: NOASSERTION
-    checked_at: '2026-08-26'
+    checked_at: 2026-08-26-review-01
     pushed_at: '2026-08-24T16:50:28Z'
 - universe: trading
   repo: zinan92/standard-kline
@@ -310,7 +232,7 @@ entries:
     archived: false
     description: 标准 K 线前端组件。in OHLCV bars + provider metadata → out candlestick chart + volume + overlays + synthetic watermark
     license_spdx: MIT
-    checked_at: '2026-08-26'
+    checked_at: 2026-08-26-review-01
     pushed_at: '2026-08-19T17:57:28Z'
 - universe: trading
   repo: zinan92/trading-strategy
@@ -337,7 +259,7 @@ entries:
     description: Engine-neutral Canonical DCA/Grid strategy engine。in plain Python strategy inputs + OHLCV bars → out deterministic
       plans, previews, replays, and lifecycle receipts
     license_spdx: NOASSERTION
-    checked_at: '2026-08-26'
+    checked_at: 2026-08-26-review-01
     pushed_at: '2026-08-25T03:20:04Z'
 - universe: trading
   repo: zinan92/trading-system
@@ -346,7 +268,7 @@ entries:
   source_kind: owned
   registry_repo: false
   registry_role: null
-  primary_category: full-trading-systems
+  primary_category: backtesting-simulation
   tags:
   - orchestration
   - private
@@ -365,5 +287,5 @@ entries:
     archived: false
     description: Gold trading system orchestrator
     license_spdx: NOASSERTION
-    checked_at: '2026-08-26'
-    pushed_at: '2026-08-26T02:15:25Z'
+    checked_at: 2026-08-26-review-01
+    pushed_at: '2026-08-26T08:47:57Z'
