@@ -1,12 +1,12 @@
-snapshot_id: github-universe-2026-08-26-review-03
-generated_from_checksum: 841ddbe708a4c7e96371f1101c7303d37a056179a5509d53e251986bf85f5709
+snapshot_id: github-universe-2026-08-27-taxonomy-01
+generated_from_checksum: f2a07237b4ef237b6058d2ffe3984e2497913eb885c5096ab1b3ec975e358b2c
 locks:
 - repo: 1nchaos/adata
   source_url: https://github.com/1nchaos/adata
   content_lock:
     locked_ref: b14f4e57b2175302f18b6eaf934f7dff9207a141
     locked_url: https://github.com/1nchaos/adata/commit/b14f4e57b2175302f18b6eaf934f7dff9207a141
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: Drakkar-Software/OctoBot
@@ -14,7 +14,7 @@ locks:
   content_lock:
     locked_ref: dc0efc8ec36c138bd619272b2b59042778668408
     locked_url: https://github.com/Drakkar-Software/OctoBot/commit/dc0efc8ec36c138bd619272b2b59042778668408
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: HKUDS/Vibe-Trading
@@ -22,7 +22,7 @@ locks:
   content_lock:
     locked_ref: 5cd08ee1bd5c28e856b20acae3d077ed9bd919ce
     locked_url: https://github.com/HKUDS/Vibe-Trading/commit/5cd08ee1bd5c28e856b20acae3d077ed9bd919ce
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: HiThink-Tech/Financial-API
@@ -30,7 +30,7 @@ locks:
   content_lock:
     locked_ref: 9dbef74d2ce535857e610eec265bcb9302942d48
     locked_url: https://github.com/HiThink-Tech/Financial-API/commit/9dbef74d2ce535857e610eec265bcb9302942d48
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: JerBouma/FinanceDatabase
@@ -38,7 +38,7 @@ locks:
   content_lock:
     locked_ref: e3c554bb511076f5dff3728b38daa75619ae5f8e
     locked_url: https://github.com/JerBouma/FinanceDatabase/commit/e3c554bb511076f5dff3728b38daa75619ae5f8e
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: LLMQuant/quant-wiki
@@ -46,7 +46,7 @@ locks:
   content_lock:
     locked_ref: f08b94e13425c234b20e2641ec525178259b8684
     locked_url: https://github.com/LLMQuant/quant-wiki/commit/f08b94e13425c234b20e2641ec525178259b8684
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: Mathieu2301/TradingView-API
@@ -54,7 +54,7 @@ locks:
   content_lock:
     locked_ref: 5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
     locked_url: https://github.com/Mathieu2301/TradingView-API/commit/5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: OpenBB-finance/OpenBB
@@ -62,7 +62,7 @@ locks:
   content_lock:
     locked_ref: 3e071fcc2cd9f891cac6040ae60296dba76dab46
     locked_url: https://github.com/OpenBB-finance/OpenBB/commit/3e071fcc2cd9f891cac6040ae60296dba76dab46
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: OpenByteInc/QuantDinger
@@ -70,7 +70,7 @@ locks:
   content_lock:
     locked_ref: 615d90c823c475cc5c1918a0d0c2a9f347281981
     locked_url: https://github.com/OpenByteInc/QuantDinger/commit/615d90c823c475cc5c1918a0d0c2a9f347281981
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: RKiding/Awesome-finance-skills
@@ -78,7 +78,7 @@ locks:
   content_lock:
     locked_ref: 853f09b4d0baae747759ed31e21ed5c5b2316a5f
     locked_url: https://github.com/RKiding/Awesome-finance-skills/commit/853f09b4d0baae747759ed31e21ed5c5b2316a5f
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: TA-Lib/ta-lib-python
@@ -86,7 +86,7 @@ locks:
   content_lock:
     locked_ref: a9ff1b47b3ddbd57274116645d688c0ed677338b
     locked_url: https://github.com/TA-Lib/ta-lib-python/commit/a9ff1b47b3ddbd57274116645d688c0ed677338b
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: TauricResearch/TradingAgents
@@ -94,7 +94,7 @@ locks:
   content_lock:
     locked_ref: a33fd4c0f134485a43553a2c23a63cb14adbd88f
     locked_url: https://github.com/TauricResearch/TradingAgents/commit/a33fd4c0f134485a43553a2c23a63cb14adbd88f
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: ZhuLinsen/daily_stock_analysis
@@ -102,7 +102,7 @@ locks:
   content_lock:
     locked_ref: fb4735a1055caefa2396982af3b09121feb9ff30
     locked_url: https://github.com/ZhuLinsen/daily_stock_analysis/commit/fb4735a1055caefa2396982af3b09121feb9ff30
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: akfamily/akshare
@@ -110,7 +110,7 @@ locks:
   content_lock:
     locked_ref: 0e7db00cb98ac6709e2b553efb5a79629aca7a72
     locked_url: https://github.com/akfamily/akshare/commit/0e7db00cb98ac6709e2b553efb5a79629aca7a72
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: bwjoke/BTC-Trading-Since-2020
@@ -118,7 +118,7 @@ locks:
   content_lock:
     locked_ref: f02a691c7f7cfd0cd08ffb7f13a656ebaf2c6ca6
     locked_url: https://github.com/bwjoke/BTC-Trading-Since-2020/commit/f02a691c7f7cfd0cd08ffb7f13a656ebaf2c6ca6
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: ccxt/ccxt
@@ -126,7 +126,7 @@ locks:
   content_lock:
     locked_ref: 9e233b6a18ec24b08d044b1a8d11798c3693145b
     locked_url: https://github.com/ccxt/ccxt/commit/9e233b6a18ec24b08d044b1a8d11798c3693145b
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: deepentropy/tvscreener
@@ -134,7 +134,7 @@ locks:
   content_lock:
     locked_ref: 38f74a11d4b5a568afe8d2d191b6b45f17c16d8f
     locked_url: https://github.com/deepentropy/tvscreener/commit/38f74a11d4b5a568afe8d2d191b6b45f17c16d8f
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: gloom-sh/gloomberb
@@ -142,7 +142,7 @@ locks:
   content_lock:
     locked_ref: cb6dbe6fe5ab8a16678f01e675b0b3776c6c379d
     locked_url: https://github.com/gloom-sh/gloomberb/commit/cb6dbe6fe5ab8a16678f01e675b0b3776c6c379d
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: handsomejustin/easy_tdx
@@ -150,7 +150,7 @@ locks:
   content_lock:
     locked_ref: 7c9e19de937946d231735dabb4a275440578b753
     locked_url: https://github.com/handsomejustin/easy_tdx/commit/7c9e19de937946d231735dabb4a275440578b753
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: lzwme/finance-quant-skills
@@ -158,7 +158,7 @@ locks:
   content_lock:
     locked_ref: b03516e6d6e6f839b3ce3fb8ad529eb5e6b7f874
     locked_url: https://github.com/lzwme/finance-quant-skills/commit/b03516e6d6e6f839b3ce3fb8ad529eb5e6b7f874
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: microsoft/qlib
@@ -166,7 +166,7 @@ locks:
   content_lock:
     locked_ref: 79633dd9506ea689e5400dea0197717b5b3d74b7
     locked_url: https://github.com/microsoft/qlib/commit/79633dd9506ea689e5400dea0197717b5b3d74b7
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: muxuuu/serenity-skill
@@ -174,7 +174,7 @@ locks:
   content_lock:
     locked_ref: c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
     locked_url: https://github.com/muxuuu/serenity-skill/commit/c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: nautechsystems/nautilus_trader
@@ -182,7 +182,7 @@ locks:
   content_lock:
     locked_ref: 41e178f6bc621b8308fd28e638b2287fe7aa43f1
     locked_url: https://github.com/nautechsystems/nautilus_trader/commit/41e178f6bc621b8308fd28e638b2287fe7aa43f1
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: polakowo/vectorbt
@@ -190,7 +190,7 @@ locks:
   content_lock:
     locked_ref: 34b6d5935e3ea3eccd549e2592bc0f455b8045f5
     locked_url: https://github.com/polakowo/vectorbt/commit/34b6d5935e3ea3eccd549e2592bc0f455b8045f5
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: rollingSirius/equity-research-skill
@@ -198,7 +198,7 @@ locks:
   content_lock:
     locked_ref: 3d94e64ff53b325d866ea4bff69ad81a5adca8f5
     locked_url: https://github.com/rollingSirius/equity-research-skill/commit/3d94e64ff53b325d866ea4bff69ad81a5adca8f5
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: shiyu-coder/Kronos
@@ -206,7 +206,7 @@ locks:
   content_lock:
     locked_ref: 67b630e67f6a18c9e9be918d9b4337c960db1e9a
     locked_url: https://github.com/shiyu-coder/Kronos/commit/67b630e67f6a18c9e9be918d9b4337c960db1e9a
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: shy3130/tick-stock-panel
@@ -214,7 +214,7 @@ locks:
   content_lock:
     locked_ref: e346e25101c7dca65f3899978cad053d25f6ffbe
     locked_url: https://github.com/shy3130/tick-stock-panel/commit/e346e25101c7dca65f3899978cad053d25f6ffbe
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: simonlin1212/Vibe-Research
@@ -222,7 +222,7 @@ locks:
   content_lock:
     locked_ref: ab4ffa077e0b1806fc53164dc7b28731f834e79e
     locked_url: https://github.com/simonlin1212/Vibe-Research/commit/ab4ffa077e0b1806fc53164dc7b28731f834e79e
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: simonlin1212/a-stock-data
@@ -230,7 +230,7 @@ locks:
   content_lock:
     locked_ref: f90d67853b8108f13d286e1df20b357e2c5198a9
     locked_url: https://github.com/simonlin1212/a-stock-data/commit/f90d67853b8108f13d286e1df20b357e2c5198a9
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: simonlin1212/global-stock-data
@@ -238,7 +238,7 @@ locks:
   content_lock:
     locked_ref: c0b3ed8d8a1fdff0932e5899fc64a5994308a5ef
     locked_url: https://github.com/simonlin1212/global-stock-data/commit/c0b3ed8d8a1fdff0932e5899fc64a5994308a5ef
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: sstklen/trump-code
@@ -246,7 +246,7 @@ locks:
   content_lock:
     locked_ref: ec5e2de1f7a08c125eb4b40f50c39167617b0d2a
     locked_url: https://github.com/sstklen/trump-code/commit/ec5e2de1f7a08c125eb4b40f50c39167617b0d2a
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: star23/Day1Global-Skills
@@ -254,7 +254,7 @@ locks:
   content_lock:
     locked_ref: 562c14b0c0bc84abff755181ead30ebea613d063
     locked_url: https://github.com/star23/Day1Global-Skills/commit/562c14b0c0bc84abff755181ead30ebea613d063
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: virattt/dexter
@@ -262,7 +262,7 @@ locks:
   content_lock:
     locked_ref: ecaed3011f24ea24ef687ab536aa7f22f7294038
     locked_url: https://github.com/virattt/dexter/commit/ecaed3011f24ea24ef687ab536aa7f22f7294038
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: waditu/czsc
@@ -270,7 +270,7 @@ locks:
   content_lock:
     locked_ref: 701e480a545004f945bb1721e510ae610ad90c4c
     locked_url: https://github.com/waditu/czsc/commit/701e480a545004f945bb1721e510ae610ad90c4c
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: wangzhe3224/awesome-systematic-trading
@@ -278,7 +278,7 @@ locks:
   content_lock:
     locked_ref: cd4389c9482bbad60e2533c62042b780243639d9
     locked_url: https://github.com/wangzhe3224/awesome-systematic-trading/commit/cd4389c9482bbad60e2533c62042b780243639d9
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: wbh604/UZI-Skill
@@ -286,7 +286,7 @@ locks:
   content_lock:
     locked_ref: b004d7a988ca53a4805bf36784af091fa1209f22
     locked_url: https://github.com/wbh604/UZI-Skill/commit/b004d7a988ca53a4805bf36784af091fa1209f22
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - repo: wilsonfreitas/awesome-quant
@@ -294,6 +294,6 @@ locks:
   content_lock:
     locked_ref: 0801566f5815ce1291f3d2b5986fe65b84265912
     locked_url: https://github.com/wilsonfreitas/awesome-quant/commit/0801566f5815ce1291f3d2b5986fe65b84265912
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false

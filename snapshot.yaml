@@ -1,7 +1,7 @@
 universe: trading
-snapshot_id: github-universe-2026-08-26-review-03
+snapshot_id: github-universe-2026-08-27-taxonomy-01
 generated_from: zinan92/park-operating-system
-generated_from_checksum: 841ddbe708a4c7e96371f1101c7303d37a056179a5509d53e251986bf85f5709
+generated_from_checksum: f2a07237b4ef237b6058d2ffe3984e2497913eb885c5096ab1b3ec975e358b2c
 entries:
 - universe: trading
   repo: 1nchaos/adata
@@ -26,12 +26,12 @@ entries:
     archived: false
     description: 免费开源A股量化交易数据库； 专注A股，专注量化，向阳而生； 开放、纯净、持续、为Ai(爱)发电。为个人量化交易而生，保卫3000点，珍惜底部机会......【股票数据，股票行情数据，股票量化数据，股票交易数据，k线行情数据，股票概念数据，股票数据接口，行情数据接口，量化交易数据】【多数据源融合，动态设置代理，保障数据高可用性】
     license_spdx: Apache-2.0
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2025-12-26T11:09:57Z'
   content_lock:
     locked_ref: b14f4e57b2175302f18b6eaf934f7dff9207a141
     locked_url: https://github.com/1nchaos/adata/commit/b14f4e57b2175302f18b6eaf934f7dff9207a141
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -59,12 +59,12 @@ entries:
     description: Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid
       and 15+ exchanges, with a simple interface.
     license_spdx: GPL-3.0
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-26T08:46:52Z'
   content_lock:
     locked_ref: dc0efc8ec36c138bd619272b2b59042778668408
     locked_url: https://github.com/Drakkar-Software/OctoBot/commit/dc0efc8ec36c138bd619272b2b59042778668408
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -90,12 +90,12 @@ entries:
     archived: false
     description: '"Vibe-Trading: Your Personal Trading Agent"'
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-25T08:55:38Z'
   content_lock:
     locked_ref: 5cd08ee1bd5c28e856b20acae3d077ed9bd919ce
     locked_url: https://github.com/HKUDS/Vibe-Trading/commit/5cd08ee1bd5c28e856b20acae3d077ed9bd919ce
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -129,12 +129,12 @@ entries:
       (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements,
       indices, sectors and limit-up data for AI agents, quantitative research and application development.
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-17T09:16:58Z'
   content_lock:
     locked_ref: 9dbef74d2ce535857e610eec265bcb9302942d48
     locked_url: https://github.com/HiThink-Tech/Financial-API/commit/9dbef74d2ce535857e610eec265bcb9302942d48
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -163,12 +163,12 @@ entries:
     description: This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies
       and Money Markets.
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-25T20:22:25Z'
   content_lock:
     locked_ref: e3c554bb511076f5dff3728b38daa75619ae5f8e
     locked_url: https://github.com/JerBouma/FinanceDatabase/commit/e3c554bb511076f5dff3728b38daa75619ae5f8e
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -198,12 +198,12 @@ entries:
     description: We are committed to the open-sourcing quantitative knowledge, aiming to bridge the information gap between
       the domestic and international quantitative finance industries. 我们致力于量化知识的开源与汉化，打破国内外量化金融行业信息差。
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-04-16T10:50:54Z'
   content_lock:
     locked_ref: f08b94e13425c234b20e2641ec525178259b8684
     locked_url: https://github.com/LLMQuant/quant-wiki/commit/f08b94e13425c234b20e2641ec525178259b8684
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -230,12 +230,12 @@ entries:
     archived: false
     description: 📈 Get real-time stocks from TradingView
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-06-23T00:52:57Z'
   content_lock:
     locked_ref: 5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
     locked_url: https://github.com/Mathieu2301/TradingView-API/commit/5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -263,12 +263,12 @@ entries:
     archived: false
     description: Open Data Platform for analysts, quants and AI agents.
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-07-30T17:33:42Z'
   content_lock:
     locked_ref: 3e071fcc2cd9f891cac6040ae60296dba76dab46
     locked_url: https://github.com/OpenBB-finance/OpenBB/commit/3e071fcc2cd9f891cac6040ae60296dba76dab46
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -300,12 +300,12 @@ entries:
     description: AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data,
       and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading
     license_spdx: Apache-2.0
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-24T07:38:06Z'
   content_lock:
     locked_ref: 615d90c823c475cc5c1918a0d0c2a9f347281981
     locked_url: https://github.com/OpenByteInc/QuantDinger/commit/615d90c823c475cc5c1918a0d0c2a9f347281981
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -333,12 +333,12 @@ entries:
     archived: false
     description: A collection of Awesome Finance Agent Skills for free and easy to start | 一系列开源免费的金融分析Agent Skills
     license_spdx: Apache-2.0
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-03-29T05:03:47Z'
   content_lock:
     locked_ref: 853f09b4d0baae747759ed31e21ed5c5b2316a5f
     locked_url: https://github.com/RKiding/Awesome-finance-skills/commit/853f09b4d0baae747759ed31e21ed5c5b2316a5f
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -364,12 +364,12 @@ entries:
     archived: false
     description: Python wrapper for TA-Lib (http://ta-lib.org/).
     license_spdx: BSD-2-Clause
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-07-29T03:37:05Z'
   content_lock:
     locked_ref: a9ff1b47b3ddbd57274116645d688c0ed677338b
     locked_url: https://github.com/TA-Lib/ta-lib-python/commit/a9ff1b47b3ddbd57274116645d688c0ed677338b
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -398,12 +398,12 @@ entries:
     archived: false
     description: 'TradingAgents: Multi-Agents LLM Financial Trading Framework'
     license_spdx: Apache-2.0
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-07-18T15:55:05Z'
   content_lock:
     locked_ref: a33fd4c0f134485a43553a2c23a63cb14adbd88f
     locked_url: https://github.com/TauricResearch/TradingAgents/commit/a33fd4c0f134485a43553a2c23a63cb14adbd88f
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -434,12 +434,12 @@ entries:
     description: LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source
       market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-25T14:54:01Z'
   content_lock:
     locked_ref: fb4735a1055caefa2396982af3b09121feb9ff30
     locked_url: https://github.com/ZhuLinsen/daily_stock_analysis/commit/fb4735a1055caefa2396982af3b09121feb9ff30
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -466,12 +466,12 @@ entries:
     archived: false
     description: AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-26T04:19:00Z'
   content_lock:
     locked_ref: 0e7db00cb98ac6709e2b553efb5a79629aca7a72
     locked_url: https://github.com/akfamily/akshare/commit/0e7db00cb98ac6709e2b553efb5a79629aca7a72
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -497,12 +497,12 @@ entries:
     archived: false
     description: Public BTC trading context since 2020.
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-07-19T12:35:21Z'
   content_lock:
     locked_ref: f02a691c7f7cfd0cd08ffb7f13a656ebaf2c6ca6
     locked_url: https://github.com/bwjoke/BTC-Trading-Since-2020/commit/f02a691c7f7cfd0cd08ffb7f13a656ebaf2c6ca6
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -532,12 +532,12 @@ entries:
     description: 'A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript
       / Python / C# / PHP / Go / Java '
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-25T18:02:57Z'
   content_lock:
     locked_ref: 9e233b6a18ec24b08d044b1a8d11798c3693145b
     locked_url: https://github.com/ccxt/ccxt/commit/9e233b6a18ec24b08d044b1a8d11798c3693145b
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -565,12 +565,12 @@ entries:
     archived: false
     description: TradingView Screener API - Stock, Crypto, Forex, Bond, Futures, Coin
     license_spdx: Apache-2.0
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-07-13T14:45:35Z'
   content_lock:
     locked_ref: 38f74a11d4b5a568afe8d2d191b6b45f17c16d8f
     locked_url: https://github.com/deepentropy/tvscreener/commit/38f74a11d4b5a568afe8d2d191b6b45f17c16d8f
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -597,12 +597,12 @@ entries:
     archived: false
     description: Finance terminal, in your terminal.
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-25T18:57:57Z'
   content_lock:
     locked_ref: cb6dbe6fe5ab8a16678f01e675b0b3776c6c379d
     locked_url: https://github.com/gloom-sh/gloomberb/commit/cb6dbe6fe5ab8a16678f01e675b0b3776c6c379d
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -630,12 +630,12 @@ entries:
     archived: false
     description: 免费Python量化SDK:通达信协议直连 A股/港股/美股数据,内置技术指标、缠论分析、回测引擎与 Web 可视化,JSON 输出适配 AI Agent
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-26T07:47:16Z'
   content_lock:
     locked_ref: 7c9e19de937946d231735dabb4a275440578b753
     locked_url: https://github.com/handsomejustin/easy_tdx/commit/7c9e19de937946d231735dabb4a275440578b753
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -663,12 +663,12 @@ entries:
     archived: false
     description: 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-06-29T01:30:36Z'
   content_lock:
     locked_ref: b03516e6d6e6f839b3ce3fb8ad529eb5e6b7f874
     locked_url: https://github.com/lzwme/finance-quant-skills/commit/b03516e6d6e6f839b3ce3fb8ad529eb5e6b7f874
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -700,12 +700,12 @@ entries:
       exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning,
       market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-07-23T08:15:29Z'
   content_lock:
     locked_ref: 79633dd9506ea689e5400dea0197717b5b3d74b7
     locked_url: https://github.com/microsoft/qlib/commit/79633dd9506ea689e5400dea0197717b5b3d74b7
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -733,12 +733,12 @@ entries:
     archived: false
     description: Serenity-inspired Agent Skill for supply-chain bottleneck stock research
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-05-05T03:23:53Z'
   content_lock:
     locked_ref: c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
     locked_url: https://github.com/muxuuu/serenity-skill/commit/c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -765,12 +765,12 @@ entries:
     archived: false
     description: Production-grade Rust-native trading engine with deterministic event-driven architecture
     license_spdx: LGPL-3.0
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-26T08:33:59Z'
   content_lock:
     locked_ref: 41e178f6bc621b8308fd28e638b2287fe7aa43f1
     locked_url: https://github.com/nautechsystems/nautilus_trader/commit/41e178f6bc621b8308fd28e638b2287fe7aa43f1
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -799,12 +799,12 @@ entries:
     description: The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish
       one.
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-02T09:14:10Z'
   content_lock:
     locked_ref: 34b6d5935e3ea3eccd549e2592bc0f455b8045f5
     locked_url: https://github.com/polakowo/vectorbt/commit/34b6d5935e3ea3eccd549e2592bc0f455b8045f5
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -835,12 +835,12 @@ entries:
     description: 'Possibly the deepest AI equity-research skill: nine-chapter single-stock deep dives and earnings deep-dives,
       with scripted DCF/EPV/EVA and reproducible valuation. Covers US, HK and A-shares. Docs in EN and ZH.'
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-21T20:13:56Z'
   content_lock:
     locked_ref: 3d94e64ff53b325d866ea4bff69ad81a5adca8f5
     locked_url: https://github.com/rollingSirius/equity-research-skill/commit/3d94e64ff53b325d866ea4bff69ad81a5adca8f5
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -867,12 +867,12 @@ entries:
     archived: false
     description: 'Kronos: A Foundation Model for the Language of Financial Markets'
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-04-13T12:38:49Z'
   content_lock:
     locked_ref: 67b630e67f6a18c9e9be918d9b4337c960db1e9a
     locked_url: https://github.com/shiyu-coder/Kronos/commit/67b630e67f6a18c9e9be918d9b4337c960db1e9a
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -900,12 +900,12 @@ entries:
     archived: false
     description: TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据源  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 ,非第三方官方项目
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-26T06:14:19Z'
   content_lock:
     locked_ref: e346e25101c7dca65f3899978cad053d25f6ffbe
     locked_url: https://github.com/shy3130/tick-stock-panel/commit/e346e25101c7dca65f3899978cad053d25f6ffbe
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -934,12 +934,12 @@ entries:
     description: 'Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research
       把数据和功能配齐，由你自己的 AI 驱动投资研究。'
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-20T10:31:04Z'
   content_lock:
     locked_ref: ab4ffa077e0b1806fc53164dc7b28731f834e79e
     locked_url: https://github.com/simonlin1212/Vibe-Research/commit/ab4ffa077e0b1806fc53164dc7b28731f834e79e
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -967,12 +967,12 @@ entries:
     description: A股全栈数据工具包 · 十一层架构 · 54端点 · 19数据源 · 零鉴权 | Full-stack China A-share data toolkit for AI agents — 11 layers,
       54 endpoints, 19 sources, zero-auth
     license_spdx: Apache-2.0
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-20T05:08:43Z'
   content_lock:
     locked_ref: f90d67853b8108f13d286e1df20b357e2c5198a9
     locked_url: https://github.com/simonlin1212/a-stock-data/commit/f90d67853b8108f13d286e1df20b357e2c5198a9
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -1004,12 +1004,12 @@ entries:
       + 0DTE flow, FINRA market-wide short volume, SEC EDGAR filing stream, and a free market-wide screener. 13 layers, 30+
       endpoints, 11 sources. Every source labeled with its compliance tier.
     license_spdx: Apache-2.0
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-07-26T08:24:52Z'
   content_lock:
     locked_ref: c0b3ed8d8a1fdff0932e5899fc64a5994308a5ef
     locked_url: https://github.com/simonlin1212/global-stock-data/commit/c0b3ed8d8a1fdff0932e5899fc64a5994308a5ef
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -1038,12 +1038,12 @@ entries:
     description: 🔐 AI decoding Trump's posts × stock market | AI 解碼川普推文 × 美股 | AIでトランプ投稿×株式市場を解読 — 31.5M models, 61.3% hit
       rate, open source
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-25T14:42:27Z'
   content_lock:
     locked_ref: ec5e2de1f7a08c125eb4b40f50c39167617b0d2a
     locked_url: https://github.com/sstklen/trump-code/commit/ec5e2de1f7a08c125eb4b40f50c39167617b0d2a
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -1070,12 +1070,12 @@ entries:
     archived: false
     description: 'Day1Global Skills Share: US Stock, Macro Market, Crypto'
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-18T10:36:09Z'
   content_lock:
     locked_ref: 562c14b0c0bc84abff755181ead30ebea613d063
     locked_url: https://github.com/star23/Day1Global-Skills/commit/562c14b0c0bc84abff755181ead30ebea613d063
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -1102,12 +1102,12 @@ entries:
     archived: false
     description: An autonomous agent for deep financial research
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-04T15:20:42Z'
   content_lock:
     locked_ref: ecaed3011f24ea24ef687ab536aa7f22f7294038
     locked_url: https://github.com/virattt/dexter/commit/ecaed3011f24ea24ef687ab536aa7f22f7294038
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -1134,12 +1134,12 @@ entries:
     archived: false
     description: 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-16T00:45:49Z'
   content_lock:
     locked_ref: 701e480a545004f945bb1721e510ae610ad90c4c
     locked_url: https://github.com/waditu/czsc/commit/701e480a545004f945bb1721e510ae610ad90c4c
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -1168,12 +1168,12 @@ entries:
     description: A curated list of insanely awesome libraries, packages and resources for systematic trading. Crypto, Stock,
       Futures, Options, CFDs, FX, and more | 量化交易 | 量化投资
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-22T09:33:34Z'
   content_lock:
     locked_ref: cd4389c9482bbad60e2533c62042b780243639d9
     locked_url: https://github.com/wangzhe3224/awesome-systematic-trading/commit/cd4389c9482bbad60e2533c62042b780243639d9
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -1200,12 +1200,12 @@ entries:
     archived: false
     description: '冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 让我们欢迎，股海贼王！66位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 '
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-16T16:53:17Z'
   content_lock:
     locked_ref: b004d7a988ca53a4805bf36784af091fa1209f22
     locked_url: https://github.com/wbh604/UZI-Skill/commit/b004d7a988ca53a4805bf36784af091fa1209f22
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -1232,12 +1232,12 @@ entries:
     archived: false
     description: A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-26T01:28:52Z'
   content_lock:
     locked_ref: 0801566f5815ce1291f3d2b5986fe65b84265912
     locked_url: https://github.com/wilsonfreitas/awesome-quant/commit/0801566f5815ce1291f3d2b5986fe65b84265912
-    locked_at: 2026-08-26-review-03
+    locked_at: 2026-08-27-taxonomy-01
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -1263,7 +1263,7 @@ entries:
     archived: false
     description: ''
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-04-07T01:59:03Z'
 - universe: trading
   repo: zinan92/copilot
@@ -1289,7 +1289,7 @@ entries:
     archived: false
     description: 方法论路由。in 信号+上下文 → out 44套方法论匹配分析
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-03-22T09:40:21Z'
 - universe: trading
   repo: zinan92/datafeed
@@ -1314,7 +1314,7 @@ entries:
     archived: false
     description: 行情数据。in ticker+timeframe → out OHLCV candles。A股/美股/加密/商品
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-25T03:34:34Z'
 - universe: trading
   repo: zinan92/equity-research
@@ -1340,7 +1340,7 @@ entries:
     archived: false
     description: A股长期投委会 + 证据快照深度研报平台(Park 产品层)
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-26T02:32:28Z'
 - universe: trading
   repo: zinan92/human-kline-review
@@ -1366,7 +1366,7 @@ entries:
     archived: false
     description: Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-25T04:38:10Z'
 - universe: trading
   repo: zinan92/intel
@@ -1391,7 +1391,7 @@ entries:
     archived: false
     description: 情报采集。in 10+信息源 → out LLM评分+跨源事件聚类
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-24T02:30:21Z'
 - universe: trading
   repo: zinan92/quant-data-pipeline
@@ -1419,7 +1419,7 @@ entries:
     archived: false
     description: 多市场量化数据平台 — A股/美股/加密/商品，28组API，感知信号引擎，模拟交易
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-03-27T14:19:32Z'
 - universe: trading
   repo: zinan92/standard-broker
@@ -1447,7 +1447,7 @@ entries:
     archived: false
     description: Provider-neutral broker Ports & Adapters for Paper-safe trading systems
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-24T16:50:28Z'
 - universe: trading
   repo: zinan92/standard-kline
@@ -1472,7 +1472,7 @@ entries:
     archived: false
     description: 标准 K 线前端组件。in OHLCV bars + provider metadata → out candlestick chart + volume + overlays + synthetic watermark
     license_spdx: MIT
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-19T17:57:28Z'
 - universe: trading
   repo: zinan92/trading-strategy
@@ -1499,7 +1499,7 @@ entries:
     description: Engine-neutral Canonical DCA/Grid strategy engine。in plain Python strategy inputs + OHLCV bars → out deterministic
       plans, previews, replays, and lifecycle receipts
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-25T03:20:04Z'
 - universe: trading
   repo: zinan92/trading-system
@@ -1527,6 +1527,6 @@ entries:
     archived: false
     description: Gold trading system orchestrator
     license_spdx: NOASSERTION
-    checked_at: 2026-08-26-review-03
+    checked_at: 2026-08-27-taxonomy-01
     pushed_at: '2026-08-26T08:47:57Z'
-export_checksum: ddd90f26f5351b5183ec11a408313c1174257db899d1a467ddc3df30553a05e5
+export_checksum: a9c6f01992bab8fe253fd9449b268b8ff7cb52b5cd88d9dce7646840f0f86eb1
