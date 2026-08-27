@@ -4,7 +4,7 @@
 
 **Trading 的 capability-first registry：按子分类浏览 owned 与 starred repo。**
 
-[![Snapshot](https://img.shields.io/badge/snapshot-48%20repos-0969DA.svg)](snapshot.yaml)
+[![Snapshot](https://img.shields.io/badge/snapshot-50%20repos-0969DA.svg)](snapshot.yaml)
 [![Source](https://img.shields.io/badge/source-Park%20OS-8250DF.svg)](https://github.com/zinan92/park-operating-system)
 
 </div>
@@ -13,14 +13,14 @@
 
 ```text
 in  canonical Park OS snapshot + source provenance + fixed commit locks
-out 48-repo Trading map, grouped by function and owned/starred source
+out 50-repo Trading map, grouped by function and owned/starred source
 
 fail snapshot checksum mismatch → stop before publishing
 fail private source inaccessible → preserve name/link and mark PRIVATE
 fail unclassified placement → keep needs_review; do not guess
 ```
 
-Snapshot: `github-universe-2026-08-27-taxonomy-01` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
+Snapshot: `github-universe-2026-08-27-star-refresh-01` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
 
 ## How to read this page
 
@@ -90,7 +90,7 @@ Snapshot: `github-universe-2026-08-27-taxonomy-01` · canonical source: [Park OS
 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | Production-grade Rust-native trading engine with deterministic event-driven architecture | Starred | `41e178f6bc62` |
 | [zinan92/standard-broker](https://github.com/zinan92/standard-broker) | Provider-neutral broker Ports & Adapters for Paper-safe trading systems | Owned | owned source · PRIVATE |
 
-### Research & Decision Interfaces (4)
+### Research & Decision Interfaces (6)
 
 | Repo | Capability / description | Source | Lock / flags |
 |---|---|---|---|
@@ -98,6 +98,8 @@ Snapshot: `github-universe-2026-08-27-taxonomy-01` · canonical source: [Park OS
 | [gloom-sh/gloomberb](https://github.com/gloom-sh/gloomberb) | Finance terminal, in your terminal. | Starred | `cb6dbe6fe5ab` |
 | [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) | 📈 Get real-time stocks from TradingView | Starred | `5baea86c8c7e` |
 | [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Open Data Platform for analysts, quants and AI agents. | Starred | `3e071fcc2cd9` |
+| [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X) | A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书 | Starred | `444c0db69ff3` |
+| [wenyuanw/a-share-heatmap](https://github.com/wenyuanw/a-share-heatmap) | 免费开源的 A股热力图｜A股大盘云图，各板块涨跌一眼可见 | Starred | `3cfecabff864` |
 
 ### Full Trading Systems (6)
 
