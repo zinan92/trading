@@ -1,123 +1,19 @@
-snapshot_id: github-universe-2026-09-14
-generated_from_checksum: eb9176f3ad7b3195b0c31e597a9c25ee25af4e16591fe59e6d09d8f2a3c383be
+snapshot_id: github-universe-2026-09-19-catalog-order-01
+generated_from_checksum: cf1d439c3a4730a50198508852e2304c7d3aa716a9039f806dca596d68e98d29
 locks:
-- repo: 1nchaos/adata
-  source_url: https://github.com/1nchaos/adata
+- repo: tickflow-org/tickflow
+  source_url: https://github.com/tickflow-org/tickflow
   content_lock:
-    locked_ref: b14f4e57b2175302f18b6eaf934f7dff9207a141
-    locked_url: https://github.com/1nchaos/adata/commit/b14f4e57b2175302f18b6eaf934f7dff9207a141
-    locked_at: '2026-09-14'
+    locked_ref: c27f23c50386c10f2c439cf8345e9aa2c295e0c7
+    locked_url: https://github.com/tickflow-org/tickflow/commit/c27f23c50386c10f2c439cf8345e9aa2c295e0c7
+    locked_at: '2026-09-19'
     update_policy: monthly_pr
     vendored: false
-- repo: Drakkar-Software/OctoBot
-  source_url: https://github.com/Drakkar-Software/OctoBot
+- repo: guangxiangdebizi/FinanceMCP
+  source_url: https://github.com/guangxiangdebizi/FinanceMCP
   content_lock:
-    locked_ref: dc0efc8ec36c138bd619272b2b59042778668408
-    locked_url: https://github.com/Drakkar-Software/OctoBot/commit/dc0efc8ec36c138bd619272b2b59042778668408
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: HKUDS/Vibe-Trading
-  source_url: https://github.com/HKUDS/Vibe-Trading
-  content_lock:
-    locked_ref: e476b4ce4c3b99db81f1034aaf7f1cd42a71911b
-    locked_url: https://github.com/HKUDS/Vibe-Trading/commit/e476b4ce4c3b99db81f1034aaf7f1cd42a71911b
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: HiThink-Tech/Financial-API
-  source_url: https://github.com/HiThink-Tech/Financial-API
-  content_lock:
-    locked_ref: 402574a6221d5e255dba47166df8e5abb7149938
-    locked_url: https://github.com/HiThink-Tech/Financial-API/commit/402574a6221d5e255dba47166df8e5abb7149938
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: JerBouma/FinanceDatabase
-  source_url: https://github.com/JerBouma/FinanceDatabase
-  content_lock:
-    locked_ref: a174c97d3bba96fc1a82b2e1068fb3ec5e02e634
-    locked_url: https://github.com/JerBouma/FinanceDatabase/commit/a174c97d3bba96fc1a82b2e1068fb3ec5e02e634
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: LLMQuant/quant-wiki
-  source_url: https://github.com/LLMQuant/quant-wiki
-  content_lock:
-    locked_ref: f08b94e13425c234b20e2641ec525178259b8684
-    locked_url: https://github.com/LLMQuant/quant-wiki/commit/f08b94e13425c234b20e2641ec525178259b8684
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: Mathieu2301/TradingView-API
-  source_url: https://github.com/Mathieu2301/TradingView-API
-  content_lock:
-    locked_ref: 5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
-    locked_url: https://github.com/Mathieu2301/TradingView-API/commit/5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: OpenByteInc/QuantDinger
-  source_url: https://github.com/OpenByteInc/QuantDinger
-  content_lock:
-    locked_ref: d8508a85a473a9c4dc9894882854ce40f06a3553
-    locked_url: https://github.com/OpenByteInc/QuantDinger/commit/d8508a85a473a9c4dc9894882854ce40f06a3553
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: RKiding/Awesome-finance-skills
-  source_url: https://github.com/RKiding/Awesome-finance-skills
-  content_lock:
-    locked_ref: 853f09b4d0baae747759ed31e21ed5c5b2316a5f
-    locked_url: https://github.com/RKiding/Awesome-finance-skills/commit/853f09b4d0baae747759ed31e21ed5c5b2316a5f
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: TA-Lib/ta-lib-python
-  source_url: https://github.com/TA-Lib/ta-lib-python
-  content_lock:
-    locked_ref: fd6089b183fc23b0e87512c455153043400efff6
-    locked_url: https://github.com/TA-Lib/ta-lib-python/commit/fd6089b183fc23b0e87512c455153043400efff6
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: TauricResearch/TradingAgents
-  source_url: https://github.com/TauricResearch/TradingAgents
-  content_lock:
-    locked_ref: be952b8eccb49720509af544c6675233bc1f10d0
-    locked_url: https://github.com/TauricResearch/TradingAgents/commit/be952b8eccb49720509af544c6675233bc1f10d0
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: Theclues/TradeGenuis-Options
-  source_url: https://github.com/Theclues/TradeGenuis-Options
-  content_lock:
-    locked_ref: a77d13dae84b4364e4decdc0ccf5fa525dc05a21
-    locked_url: https://github.com/Theclues/TradeGenuis-Options/commit/a77d13dae84b4364e4decdc0ccf5fa525dc05a21
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: Vespa314/chan.py
-  source_url: https://github.com/Vespa314/chan.py
-  content_lock:
-    locked_ref: 429d6ed3043e27c93a003ba2b10e70a05575e1f5
-    locked_url: https://github.com/Vespa314/chan.py/commit/429d6ed3043e27c93a003ba2b10e70a05575e1f5
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: ZhuLinsen/daily_stock_analysis
-  source_url: https://github.com/ZhuLinsen/daily_stock_analysis
-  content_lock:
-    locked_ref: 1168e316269baa38752a8901331a4d7aa8b1fd07
-    locked_url: https://github.com/ZhuLinsen/daily_stock_analysis/commit/1168e316269baa38752a8901331a4d7aa8b1fd07
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: akfamily/akshare
-  source_url: https://github.com/akfamily/akshare
-  content_lock:
-    locked_ref: 8e95744b79ae22326308ccd2b4e62650c5b53c55
-    locked_url: https://github.com/akfamily/akshare/commit/8e95744b79ae22326308ccd2b4e62650c5b53c55
+    locked_ref: 784c6176647aad35d6a25a715b62b333db95df90
+    locked_url: https://github.com/guangxiangdebizi/FinanceMCP/commit/784c6176647aad35d6a25a715b62b333db95df90
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
@@ -129,11 +25,187 @@ locks:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- repo: bwjoke/BTC-Trading-Since-2020
-  source_url: https://github.com/bwjoke/BTC-Trading-Since-2020
+- repo: HiThink-Tech/Financial-API
+  source_url: https://github.com/HiThink-Tech/Financial-API
   content_lock:
-    locked_ref: 9ff0d562cffd943d79916c9ce05adae627c8d9a2
-    locked_url: https://github.com/bwjoke/BTC-Trading-Since-2020/commit/9ff0d562cffd943d79916c9ce05adae627c8d9a2
+    locked_ref: 402574a6221d5e255dba47166df8e5abb7149938
+    locked_url: https://github.com/HiThink-Tech/Financial-API/commit/402574a6221d5e255dba47166df8e5abb7149938
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: 1nchaos/adata
+  source_url: https://github.com/1nchaos/adata
+  content_lock:
+    locked_ref: b14f4e57b2175302f18b6eaf934f7dff9207a141
+    locked_url: https://github.com/1nchaos/adata/commit/b14f4e57b2175302f18b6eaf934f7dff9207a141
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: JerBouma/FinanceDatabase
+  source_url: https://github.com/JerBouma/FinanceDatabase
+  content_lock:
+    locked_ref: a174c97d3bba96fc1a82b2e1068fb3ec5e02e634
+    locked_url: https://github.com/JerBouma/FinanceDatabase/commit/a174c97d3bba96fc1a82b2e1068fb3ec5e02e634
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: simonlin1212/global-stock-data
+  source_url: https://github.com/simonlin1212/global-stock-data
+  content_lock:
+    locked_ref: fbf0ae47d64e24fdfce5fbc724b3041adc510739
+    locked_url: https://github.com/simonlin1212/global-stock-data/commit/fbf0ae47d64e24fdfce5fbc724b3041adc510739
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: simonlin1212/a-stock-data
+  source_url: https://github.com/simonlin1212/a-stock-data
+  content_lock:
+    locked_ref: 2012ce7cd0e75d379c5e6cbd3115514f300f3bc8
+    locked_url: https://github.com/simonlin1212/a-stock-data/commit/2012ce7cd0e75d379c5e6cbd3115514f300f3bc8
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: sstklen/trump-code
+  source_url: https://github.com/sstklen/trump-code
+  content_lock:
+    locked_ref: 296b8e14ee88833a89e28e17769e660c48b7e761
+    locked_url: https://github.com/sstklen/trump-code/commit/296b8e14ee88833a89e28e17769e660c48b7e761
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: akfamily/akshare
+  source_url: https://github.com/akfamily/akshare
+  content_lock:
+    locked_ref: 8e95744b79ae22326308ccd2b4e62650c5b53c55
+    locked_url: https://github.com/akfamily/akshare/commit/8e95744b79ae22326308ccd2b4e62650c5b53c55
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: wshobson/maverick-mcp
+  source_url: https://github.com/wshobson/maverick-mcp
+  content_lock:
+    locked_ref: fb55c84c9a9c8cc26b1d4aaf337e6fcc83cf7eb1
+    locked_url: https://github.com/wshobson/maverick-mcp/commit/fb55c84c9a9c8cc26b1d4aaf337e6fcc83cf7eb1
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: wenyuanw/a-share-heatmap
+  source_url: https://github.com/wenyuanw/a-share-heatmap
+  content_lock:
+    locked_ref: c15f94e616cfa94747c3cc2e5caedd02341474f0
+    locked_url: https://github.com/wenyuanw/a-share-heatmap/commit/c15f94e616cfa94747c3cc2e5caedd02341474f0
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: star23/Day1Global-Skills
+  source_url: https://github.com/star23/Day1Global-Skills
+  content_lock:
+    locked_ref: 562c14b0c0bc84abff755181ead30ebea613d063
+    locked_url: https://github.com/star23/Day1Global-Skills/commit/562c14b0c0bc84abff755181ead30ebea613d063
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: rollingSirius/equity-research-skill
+  source_url: https://github.com/rollingSirius/equity-research-skill
+  content_lock:
+    locked_ref: 3d94e64ff53b325d866ea4bff69ad81a5adca8f5
+    locked_url: https://github.com/rollingSirius/equity-research-skill/commit/3d94e64ff53b325d866ea4bff69ad81a5adca8f5
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: wbh604/UZI-Skill
+  source_url: https://github.com/wbh604/UZI-Skill
+  content_lock:
+    locked_ref: 650788c54a9b2e042bf7f983f16dbf8d727fce1d
+    locked_url: https://github.com/wbh604/UZI-Skill/commit/650788c54a9b2e042bf7f983f16dbf8d727fce1d
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: muxuuu/serenity-skill
+  source_url: https://github.com/muxuuu/serenity-skill
+  content_lock:
+    locked_ref: c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
+    locked_url: https://github.com/muxuuu/serenity-skill/commit/c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: virattt/dexter
+  source_url: https://github.com/virattt/dexter
+  content_lock:
+    locked_ref: ecaed3011f24ea24ef687ab536aa7f22f7294038
+    locked_url: https://github.com/virattt/dexter/commit/ecaed3011f24ea24ef687ab536aa7f22f7294038
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: microsoft/qlib
+  source_url: https://github.com/microsoft/qlib
+  content_lock:
+    locked_ref: 79633dd9506ea689e5400dea0197717b5b3d74b7
+    locked_url: https://github.com/microsoft/qlib/commit/79633dd9506ea689e5400dea0197717b5b3d74b7
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: YoungCan-Wang/WyckoffTradingAgent
+  source_url: https://github.com/YoungCan-Wang/WyckoffTradingAgent
+  content_lock:
+    locked_ref: 6bdaf1eb3cff0068b21cc17f801fcb878ab802ce
+    locked_url: https://github.com/YoungCan-Wang/WyckoffTradingAgent/commit/6bdaf1eb3cff0068b21cc17f801fcb878ab802ce
+    locked_at: '2026-09-19'
+    update_policy: monthly_pr
+    vendored: false
+- repo: nhovongoc0-max/meme-radar
+  source_url: https://github.com/nhovongoc0-max/meme-radar
+  content_lock:
+    locked_ref: 9c41a444b9bcfad980a3c9e9c9e24761709df4cb
+    locked_url: https://github.com/nhovongoc0-max/meme-radar/commit/9c41a444b9bcfad980a3c9e9c9e24761709df4cb
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: Vespa314/chan.py
+  source_url: https://github.com/Vespa314/chan.py
+  content_lock:
+    locked_ref: 429d6ed3043e27c93a003ba2b10e70a05575e1f5
+    locked_url: https://github.com/Vespa314/chan.py/commit/429d6ed3043e27c93a003ba2b10e70a05575e1f5
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: neil-pan-s/one-quant-doc
+  source_url: https://github.com/neil-pan-s/one-quant-doc
+  content_lock:
+    locked_ref: 7231f5d5353cf118890de7e186f56c5a7727ea41
+    locked_url: https://github.com/neil-pan-s/one-quant-doc/commit/7231f5d5353cf118890de7e186f56c5a7727ea41
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: waditu/czsc
+  source_url: https://github.com/waditu/czsc
+  content_lock:
+    locked_ref: 701e480a545004f945bb1721e510ae610ad90c4c
+    locked_url: https://github.com/waditu/czsc/commit/701e480a545004f945bb1721e510ae610ad90c4c
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: TA-Lib/ta-lib-python
+  source_url: https://github.com/TA-Lib/ta-lib-python
+  content_lock:
+    locked_ref: fd6089b183fc23b0e87512c455153043400efff6
+    locked_url: https://github.com/TA-Lib/ta-lib-python/commit/fd6089b183fc23b0e87512c455153043400efff6
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: nautechsystems/nautilus_trader
+  source_url: https://github.com/nautechsystems/nautilus_trader
+  content_lock:
+    locked_ref: 23cb3035dff7f3fb28b7f5985a2340b090c3c126
+    locked_url: https://github.com/nautechsystems/nautilus_trader/commit/23cb3035dff7f3fb28b7f5985a2340b090c3c126
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: polakowo/vectorbt
+  source_url: https://github.com/polakowo/vectorbt
+  content_lock:
+    locked_ref: 34b6d5935e3ea3eccd549e2592bc0f455b8045f5
+    locked_url: https://github.com/polakowo/vectorbt/commit/34b6d5935e3ea3eccd549e2592bc0f455b8045f5
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
@@ -142,6 +214,14 @@ locks:
   content_lock:
     locked_ref: c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03
     locked_url: https://github.com/ccxt/ccxt/commit/c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: Drakkar-Software/OctoBot
+  source_url: https://github.com/Drakkar-Software/OctoBot
+  content_lock:
+    locked_ref: dc0efc8ec36c138bd619272b2b59042778668408
+    locked_url: https://github.com/Drakkar-Software/OctoBot/commit/dc0efc8ec36c138bd619272b2b59042778668408
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
@@ -161,11 +241,27 @@ locks:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- repo: guangxiangdebizi/FinanceMCP
-  source_url: https://github.com/guangxiangdebizi/FinanceMCP
+- repo: Mathieu2301/TradingView-API
+  source_url: https://github.com/Mathieu2301/TradingView-API
   content_lock:
-    locked_ref: 784c6176647aad35d6a25a715b62b333db95df90
-    locked_url: https://github.com/guangxiangdebizi/FinanceMCP/commit/784c6176647aad35d6a25a715b62b333db95df90
+    locked_ref: 5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
+    locked_url: https://github.com/Mathieu2301/TradingView-API/commit/5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: FinHackCN/finhack
+  source_url: https://github.com/FinHackCN/finhack
+  content_lock:
+    locked_ref: dedbbd0b7accfed035ba05f07d76726d8754bbf7
+    locked_url: https://github.com/FinHackCN/finhack/commit/dedbbd0b7accfed035ba05f07d76726d8754bbf7
+    locked_at: '2026-09-19'
+    update_policy: monthly_pr
+    vendored: false
+- repo: nishuzumi/fomomo
+  source_url: https://github.com/nishuzumi/fomomo
+  content_lock:
+    locked_ref: a2c6040392e3102753983bc17f28d7cc08b32f9a
+    locked_url: https://github.com/nishuzumi/fomomo/commit/a2c6040392e3102753983bc17f28d7cc08b32f9a
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
@@ -177,115 +273,11 @@ locks:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- repo: lzwme/finance-quant-skills
-  source_url: https://github.com/lzwme/finance-quant-skills
+- repo: Theclues/TradeGenuis-Options
+  source_url: https://github.com/Theclues/TradeGenuis-Options
   content_lock:
-    locked_ref: 7af066194d8dbc68a45ce01073ff56e2f095b79c
-    locked_url: https://github.com/lzwme/finance-quant-skills/commit/7af066194d8dbc68a45ce01073ff56e2f095b79c
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: microsoft/qlib
-  source_url: https://github.com/microsoft/qlib
-  content_lock:
-    locked_ref: 79633dd9506ea689e5400dea0197717b5b3d74b7
-    locked_url: https://github.com/microsoft/qlib/commit/79633dd9506ea689e5400dea0197717b5b3d74b7
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: muxuuu/serenity-skill
-  source_url: https://github.com/muxuuu/serenity-skill
-  content_lock:
-    locked_ref: c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
-    locked_url: https://github.com/muxuuu/serenity-skill/commit/c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: nautechsystems/nautilus_trader
-  source_url: https://github.com/nautechsystems/nautilus_trader
-  content_lock:
-    locked_ref: 23cb3035dff7f3fb28b7f5985a2340b090c3c126
-    locked_url: https://github.com/nautechsystems/nautilus_trader/commit/23cb3035dff7f3fb28b7f5985a2340b090c3c126
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: neil-pan-s/one-quant-doc
-  source_url: https://github.com/neil-pan-s/one-quant-doc
-  content_lock:
-    locked_ref: 7231f5d5353cf118890de7e186f56c5a7727ea41
-    locked_url: https://github.com/neil-pan-s/one-quant-doc/commit/7231f5d5353cf118890de7e186f56c5a7727ea41
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: nhovongoc0-max/meme-radar
-  source_url: https://github.com/nhovongoc0-max/meme-radar
-  content_lock:
-    locked_ref: 9c41a444b9bcfad980a3c9e9c9e24761709df4cb
-    locked_url: https://github.com/nhovongoc0-max/meme-radar/commit/9c41a444b9bcfad980a3c9e9c9e24761709df4cb
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: nishuzumi/fomomo
-  source_url: https://github.com/nishuzumi/fomomo
-  content_lock:
-    locked_ref: a2c6040392e3102753983bc17f28d7cc08b32f9a
-    locked_url: https://github.com/nishuzumi/fomomo/commit/a2c6040392e3102753983bc17f28d7cc08b32f9a
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: polakowo/vectorbt
-  source_url: https://github.com/polakowo/vectorbt
-  content_lock:
-    locked_ref: 34b6d5935e3ea3eccd549e2592bc0f455b8045f5
-    locked_url: https://github.com/polakowo/vectorbt/commit/34b6d5935e3ea3eccd549e2592bc0f455b8045f5
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: rollingSirius/equity-research-skill
-  source_url: https://github.com/rollingSirius/equity-research-skill
-  content_lock:
-    locked_ref: 3d94e64ff53b325d866ea4bff69ad81a5adca8f5
-    locked_url: https://github.com/rollingSirius/equity-research-skill/commit/3d94e64ff53b325d866ea4bff69ad81a5adca8f5
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: shiyu-coder/Kronos
-  source_url: https://github.com/shiyu-coder/Kronos
-  content_lock:
-    locked_ref: 67b630e67f6a18c9e9be918d9b4337c960db1e9a
-    locked_url: https://github.com/shiyu-coder/Kronos/commit/67b630e67f6a18c9e9be918d9b4337c960db1e9a
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: shy3130/tick-stock-panel
-  source_url: https://github.com/shy3130/tick-stock-panel
-  content_lock:
-    locked_ref: bfbccf9c414fc1eee6658b380bf2f7f425943c37
-    locked_url: https://github.com/shy3130/tick-stock-panel/commit/bfbccf9c414fc1eee6658b380bf2f7f425943c37
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: simonlin1212/Vibe-Research
-  source_url: https://github.com/simonlin1212/Vibe-Research
-  content_lock:
-    locked_ref: 34ed58155ca24c98f9009c2e83781f44ecc4a58f
-    locked_url: https://github.com/simonlin1212/Vibe-Research/commit/34ed58155ca24c98f9009c2e83781f44ecc4a58f
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: simonlin1212/a-stock-data
-  source_url: https://github.com/simonlin1212/a-stock-data
-  content_lock:
-    locked_ref: 2012ce7cd0e75d379c5e6cbd3115514f300f3bc8
-    locked_url: https://github.com/simonlin1212/a-stock-data/commit/2012ce7cd0e75d379c5e6cbd3115514f300f3bc8
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: simonlin1212/global-stock-data
-  source_url: https://github.com/simonlin1212/global-stock-data
-  content_lock:
-    locked_ref: fbf0ae47d64e24fdfce5fbc724b3041adc510739
-    locked_url: https://github.com/simonlin1212/global-stock-data/commit/fbf0ae47d64e24fdfce5fbc724b3041adc510739
+    locked_ref: a77d13dae84b4364e4decdc0ccf5fa525dc05a21
+    locked_url: https://github.com/Theclues/TradeGenuis-Options/commit/a77d13dae84b4364e4decdc0ccf5fa525dc05a21
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
@@ -297,19 +289,67 @@ locks:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- repo: sstklen/trump-code
-  source_url: https://github.com/sstklen/trump-code
+- repo: shy3130/tick-stock-panel
+  source_url: https://github.com/shy3130/tick-stock-panel
   content_lock:
-    locked_ref: 296b8e14ee88833a89e28e17769e660c48b7e761
-    locked_url: https://github.com/sstklen/trump-code/commit/296b8e14ee88833a89e28e17769e660c48b7e761
+    locked_ref: bfbccf9c414fc1eee6658b380bf2f7f425943c37
+    locked_url: https://github.com/shy3130/tick-stock-panel/commit/bfbccf9c414fc1eee6658b380bf2f7f425943c37
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- repo: star23/Day1Global-Skills
-  source_url: https://github.com/star23/Day1Global-Skills
+- repo: lzwme/finance-quant-skills
+  source_url: https://github.com/lzwme/finance-quant-skills
   content_lock:
-    locked_ref: 562c14b0c0bc84abff755181ead30ebea613d063
-    locked_url: https://github.com/star23/Day1Global-Skills/commit/562c14b0c0bc84abff755181ead30ebea613d063
+    locked_ref: 7af066194d8dbc68a45ce01073ff56e2f095b79c
+    locked_url: https://github.com/lzwme/finance-quant-skills/commit/7af066194d8dbc68a45ce01073ff56e2f095b79c
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: shiyu-coder/Kronos
+  source_url: https://github.com/shiyu-coder/Kronos
+  content_lock:
+    locked_ref: 67b630e67f6a18c9e9be918d9b4337c960db1e9a
+    locked_url: https://github.com/shiyu-coder/Kronos/commit/67b630e67f6a18c9e9be918d9b4337c960db1e9a
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: simonlin1212/Vibe-Research
+  source_url: https://github.com/simonlin1212/Vibe-Research
+  content_lock:
+    locked_ref: 34ed58155ca24c98f9009c2e83781f44ecc4a58f
+    locked_url: https://github.com/simonlin1212/Vibe-Research/commit/34ed58155ca24c98f9009c2e83781f44ecc4a58f
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: HKUDS/Vibe-Trading
+  source_url: https://github.com/HKUDS/Vibe-Trading
+  content_lock:
+    locked_ref: e476b4ce4c3b99db81f1034aaf7f1cd42a71911b
+    locked_url: https://github.com/HKUDS/Vibe-Trading/commit/e476b4ce4c3b99db81f1034aaf7f1cd42a71911b
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: ZhuLinsen/daily_stock_analysis
+  source_url: https://github.com/ZhuLinsen/daily_stock_analysis
+  content_lock:
+    locked_ref: 1168e316269baa38752a8901331a4d7aa8b1fd07
+    locked_url: https://github.com/ZhuLinsen/daily_stock_analysis/commit/1168e316269baa38752a8901331a4d7aa8b1fd07
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: OpenByteInc/QuantDinger
+  source_url: https://github.com/OpenByteInc/QuantDinger
+  content_lock:
+    locked_ref: d8508a85a473a9c4dc9894882854ce40f06a3553
+    locked_url: https://github.com/OpenByteInc/QuantDinger/commit/d8508a85a473a9c4dc9894882854ce40f06a3553
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: TauricResearch/TradingAgents
+  source_url: https://github.com/TauricResearch/TradingAgents
+  content_lock:
+    locked_ref: be952b8eccb49720509af544c6675233bc1f10d0
+    locked_url: https://github.com/TauricResearch/TradingAgents/commit/be952b8eccb49720509af544c6675233bc1f10d0
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
@@ -321,22 +361,6 @@ locks:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- repo: virattt/dexter
-  source_url: https://github.com/virattt/dexter
-  content_lock:
-    locked_ref: ecaed3011f24ea24ef687ab536aa7f22f7294038
-    locked_url: https://github.com/virattt/dexter/commit/ecaed3011f24ea24ef687ab536aa7f22f7294038
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: waditu/czsc
-  source_url: https://github.com/waditu/czsc
-  content_lock:
-    locked_ref: 701e480a545004f945bb1721e510ae610ad90c4c
-    locked_url: https://github.com/waditu/czsc/commit/701e480a545004f945bb1721e510ae610ad90c4c
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
 - repo: wangzhe3224/awesome-systematic-trading
   source_url: https://github.com/wangzhe3224/awesome-systematic-trading
   content_lock:
@@ -345,19 +369,27 @@ locks:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- repo: wbh604/UZI-Skill
-  source_url: https://github.com/wbh604/UZI-Skill
+- repo: bwjoke/BTC-Trading-Since-2020
+  source_url: https://github.com/bwjoke/BTC-Trading-Since-2020
   content_lock:
-    locked_ref: 650788c54a9b2e042bf7f983f16dbf8d727fce1d
-    locked_url: https://github.com/wbh604/UZI-Skill/commit/650788c54a9b2e042bf7f983f16dbf8d727fce1d
+    locked_ref: 9ff0d562cffd943d79916c9ce05adae627c8d9a2
+    locked_url: https://github.com/bwjoke/BTC-Trading-Since-2020/commit/9ff0d562cffd943d79916c9ce05adae627c8d9a2
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- repo: wenyuanw/a-share-heatmap
-  source_url: https://github.com/wenyuanw/a-share-heatmap
+- repo: RKiding/Awesome-finance-skills
+  source_url: https://github.com/RKiding/Awesome-finance-skills
   content_lock:
-    locked_ref: c15f94e616cfa94747c3cc2e5caedd02341474f0
-    locked_url: https://github.com/wenyuanw/a-share-heatmap/commit/c15f94e616cfa94747c3cc2e5caedd02341474f0
+    locked_ref: 853f09b4d0baae747759ed31e21ed5c5b2316a5f
+    locked_url: https://github.com/RKiding/Awesome-finance-skills/commit/853f09b4d0baae747759ed31e21ed5c5b2316a5f
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: LLMQuant/quant-wiki
+  source_url: https://github.com/LLMQuant/quant-wiki
+  content_lock:
+    locked_ref: f08b94e13425c234b20e2641ec525178259b8684
+    locked_url: https://github.com/LLMQuant/quant-wiki/commit/f08b94e13425c234b20e2641ec525178259b8684
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
@@ -366,14 +398,6 @@ locks:
   content_lock:
     locked_ref: 48e48a76b2054b5fe6eede6852ffef7783b992ce
     locked_url: https://github.com/wilsonfreitas/awesome-quant/commit/48e48a76b2054b5fe6eede6852ffef7783b992ce
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: wshobson/maverick-mcp
-  source_url: https://github.com/wshobson/maverick-mcp
-  content_lock:
-    locked_ref: fb55c84c9a9c8cc26b1d4aaf337e6fcc83cf7eb1
-    locked_url: https://github.com/wshobson/maverick-mcp/commit/fb55c84c9a9c8cc26b1d4aaf337e6fcc83cf7eb1
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false

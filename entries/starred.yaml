@@ -1,7 +1,7 @@
-snapshot_id: github-universe-2026-09-14
+snapshot_id: github-universe-2026-09-19-catalog-order-01
 entries:
 - universe: trading
-  repo: 1nchaos/adata
+  repo: tickflow-org/tickflow
   owned: false
   starred: true
   source_kind: starred
@@ -9,11 +9,14 @@ entries:
   registry_role: null
   primary_category: data
   tags:
+  - api
+  - library
   - python
-  source_url: https://github.com/1nchaos/adata
+  source_url: https://github.com/tickflow-org/tickflow
   visibility: public
   archived: false
-  description: 免费开源A股量化交易数据库； 专注A股，专注量化，向阳而生； 开放、纯净、持续、为Ai(爱)发电。为个人量化交易而生，保卫3000点，珍惜底部机会......【股票数据，股票行情数据，股票量化数据，股票交易数据，k线行情数据，股票概念数据，股票数据接口，行情数据接口，量化交易数据】【多数据源融合，动态设置代理，保障数据高可用性】
+  description: Professional financial data API for China A-shares, US & HK stocks. Python SDK with real-time quotes, K-line
+    data & financial reports.
   status: EXPLORING
   review_status: confirmed
   review_reason: null
@@ -21,63 +24,33 @@ entries:
     default_branch: main
     visibility: public
     archived: false
-    description: 免费开源A股量化交易数据库； 专注A股，专注量化，向阳而生； 开放、纯净、持续、为Ai(爱)发电。为个人量化交易而生，保卫3000点，珍惜底部机会......【股票数据，股票行情数据，股票量化数据，股票交易数据，k线行情数据，股票概念数据，股票数据接口，行情数据接口，量化交易数据】【多数据源融合，动态设置代理，保障数据高可用性】
-    license_spdx: Apache-2.0
-    checked_at: '2026-09-14'
-    pushed_at: '2025-12-26T11:09:57Z'
+    description: Professional financial data API for China A-shares, US & HK stocks. Python SDK with real-time quotes, K-line
+      data & financial reports.
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-19'
+    pushed_at: '2026-08-29T06:00:07Z'
   content_lock:
-    locked_ref: b14f4e57b2175302f18b6eaf934f7dff9207a141
-    locked_url: https://github.com/1nchaos/adata/commit/b14f4e57b2175302f18b6eaf934f7dff9207a141
-    locked_at: '2026-09-14'
+    locked_ref: c27f23c50386c10f2c439cf8345e9aa2c295e0c7
+    locked_url: https://github.com/tickflow-org/tickflow/commit/c27f23c50386c10f2c439cf8345e9aa2c295e0c7
+    locked_at: '2026-09-19'
     update_policy: monthly_pr
     vendored: false
+  catalog_added_at: '2026-09-18T06:02:53Z'
 - universe: trading
-  repo: Drakkar-Software/OctoBot
+  repo: guangxiangdebizi/FinanceMCP
   owned: false
   starred: true
   source_kind: starred
   registry_repo: false
   registry_role: null
-  primary_category: trading-infra
+  primary_category: data
   tags:
-  - python
-  source_url: https://github.com/Drakkar-Software/OctoBot
+  - api
+  - typescript
+  source_url: https://github.com/guangxiangdebizi/FinanceMCP
   visibility: public
   archived: false
-  description: Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid
-    and 15+ exchanges, with a simple interface.
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: master
-    visibility: public
-    archived: false
-    description: Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid
-      and 15+ exchanges, with a simple interface.
-    license_spdx: GPL-3.0
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-13T16:49:12Z'
-  content_lock:
-    locked_ref: dc0efc8ec36c138bd619272b2b59042778668408
-    locked_url: https://github.com/Drakkar-Software/OctoBot/commit/dc0efc8ec36c138bd619272b2b59042778668408
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: HKUDS/Vibe-Trading
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-system-agent
-  tags:
-  - python
-  source_url: https://github.com/HKUDS/Vibe-Trading
-  visibility: public
-  archived: false
-  description: '"Vibe-Trading: Your Personal Trading Agent"'
+  description: 这是一个金融领域相关的mcp,本项目通过集成 Tushare API 和 Binance API 为语言模型（如Claude）提供全面的实时金融数据访问能力，支持股票、基金、债券、宏观经济指标、稳定币、虚拟货币等多维度金融数据分析。其中也包含了金融数据查询、财经新闻查询、国家统计局数据查询等
   status: EXPLORING
   review_status: confirmed
   review_reason: null
@@ -85,16 +58,54 @@ entries:
     default_branch: main
     visibility: public
     archived: false
-    description: '"Vibe-Trading: Your Personal Trading Agent"'
+    description: 这是一个金融领域相关的mcp,本项目通过集成 Tushare API 和 Binance API 为语言模型（如Claude）提供全面的实时金融数据访问能力，支持股票、基金、债券、宏观经济指标、稳定币、虚拟货币等多维度金融数据分析。其中也包含了金融数据查询、财经新闻查询、国家统计局数据查询等
     license_spdx: MIT
     checked_at: '2026-09-14'
-    pushed_at: '2026-09-13T10:08:13Z'
+    pushed_at: '2026-09-07T08:27:53Z'
   content_lock:
-    locked_ref: e476b4ce4c3b99db81f1034aaf7f1cd42a71911b
-    locked_url: https://github.com/HKUDS/Vibe-Trading/commit/e476b4ce4c3b99db81f1034aaf7f1cd42a71911b
+    locked_ref: 784c6176647aad35d6a25a715b62b333db95df90
+    locked_url: https://github.com/guangxiangdebizi/FinanceMCP/commit/784c6176647aad35d6a25a715b62b333db95df90
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
+  catalog_added_at: '2026-09-13T06:47:33Z'
+- universe: trading
+  repo: atilaahmettaner/tradingview-mcp
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: data
+  tags:
+  - dashboard
+  - paper-trading
+  - python
+  - research
+  source_url: https://github.com/atilaahmettaner/tradingview-mcp
+  visibility: public
+  archived: false
+  description: TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT,
+    Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT,
+      Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-01T15:15:48Z'
+  content_lock:
+    locked_ref: a1e54b07e5c21b375363607920f297c5adfbeed4
+    locked_url: https://github.com/atilaahmettaner/tradingview-mcp/commit/a1e54b07e5c21b375363607920f297c5adfbeed4
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-09-12T03:41:23Z'
 - universe: trading
   repo: HiThink-Tech/Financial-API
   owned: false
@@ -134,6 +145,39 @@ entries:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
+  catalog_added_at: '2026-08-26T03:40:37Z'
+- universe: trading
+  repo: 1nchaos/adata
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: data
+  tags:
+  - python
+  source_url: https://github.com/1nchaos/adata
+  visibility: public
+  archived: false
+  description: 免费开源A股量化交易数据库； 专注A股，专注量化，向阳而生； 开放、纯净、持续、为Ai(爱)发电。为个人量化交易而生，保卫3000点，珍惜底部机会......【股票数据，股票行情数据，股票量化数据，股票交易数据，k线行情数据，股票概念数据，股票数据接口，行情数据接口，量化交易数据】【多数据源融合，动态设置代理，保障数据高可用性】
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: 免费开源A股量化交易数据库； 专注A股，专注量化，向阳而生； 开放、纯净、持续、为Ai(爱)发电。为个人量化交易而生，保卫3000点，珍惜底部机会......【股票数据，股票行情数据，股票量化数据，股票交易数据，k线行情数据，股票概念数据，股票数据接口，行情数据接口，量化交易数据】【多数据源融合，动态设置代理，保障数据高可用性】
+    license_spdx: Apache-2.0
+    checked_at: '2026-09-14'
+    pushed_at: '2025-12-26T11:09:57Z'
+  content_lock:
+    locked_ref: b14f4e57b2175302f18b6eaf934f7dff9207a141
+    locked_url: https://github.com/1nchaos/adata/commit/b14f4e57b2175302f18b6eaf934f7dff9207a141
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-07-15T17:28:37Z'
 - universe: trading
   repo: JerBouma/FinanceDatabase
   owned: false
@@ -168,23 +212,570 @@ entries:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
+  catalog_added_at: '2026-07-15T17:28:17Z'
 - universe: trading
-  repo: LLMQuant/quant-wiki
+  repo: simonlin1212/global-stock-data
   owned: false
   starred: true
   source_kind: starred
   registry_repo: false
   registry_role: null
-  primary_category: knowledge-and-collections
+  primary_category: data
   tags:
-  - collection
-  - memory
+  - api
+  - dashboard
   - research
-  source_url: https://github.com/LLMQuant/quant-wiki
+  source_url: https://github.com/simonlin1212/global-stock-data
   visibility: public
   archived: false
-  description: We are committed to the open-sourcing quantitative knowledge, aiming to bridge the information gap between
-    the domestic and international quantitative finance industries. 我们致力于量化知识的开源与汉化，打破国内外量化金融行业信息差。
+  description: US stock market data for AI coding assistants — zero-auth, official sources. CBOE options with full Greeks
+    + 0DTE flow, FINRA market-wide short volume, SEC EDGAR filing stream, and a free market-wide screener. 13 layers, 30+
+    endpoints, 11 sources. Every source labeled with its compliance tier.
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: US stock market data for AI coding assistants — zero-auth, official sources. CBOE options with full Greeks
+      + 0DTE flow, FINRA market-wide short volume, SEC EDGAR filing stream, and a free market-wide screener. 13 layers, 30+
+      endpoints, 11 sources. Every source labeled with its compliance tier.
+    license_spdx: Apache-2.0
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-04T08:32:54Z'
+  content_lock:
+    locked_ref: fbf0ae47d64e24fdfce5fbc724b3041adc510739
+    locked_url: https://github.com/simonlin1212/global-stock-data/commit/fbf0ae47d64e24fdfce5fbc724b3041adc510739
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-07-09T07:00:21Z'
+- universe: trading
+  repo: simonlin1212/a-stock-data
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: data
+  tags:
+  - api
+  - python
+  source_url: https://github.com/simonlin1212/a-stock-data
+  visibility: public
+  archived: false
+  description: A股全栈数据工具包 · 十二层架构 · 60端点 · 22数据源 · 零鉴权 | Full-stack China A-share data toolkit for AI agents — 12 layers, 60
+    endpoints, 22 sources, zero-auth
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: A股全栈数据工具包 · 十二层架构 · 60端点 · 22数据源 · 零鉴权 | Full-stack China A-share data toolkit for AI agents — 12 layers,
+      60 endpoints, 22 sources, zero-auth
+    license_spdx: Apache-2.0
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-05T01:42:56Z'
+  content_lock:
+    locked_ref: 2012ce7cd0e75d379c5e6cbd3115514f300f3bc8
+    locked_url: https://github.com/simonlin1212/a-stock-data/commit/2012ce7cd0e75d379c5e6cbd3115514f300f3bc8
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-07-09T06:59:10Z'
+- universe: trading
+  repo: sstklen/trump-code
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: data
+  tags:
+  - python
+  - research
+  source_url: https://github.com/sstklen/trump-code
+  visibility: public
+  archived: false
+  description: 🔐 AI decoding Trump's posts × stock market | AI 解碼川普推文 × 美股 | AIでトランプ投稿×株式市場を解読 — 31.5M models, 61.3% hit rate,
+    open source
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: 🔐 AI decoding Trump's posts × stock market | AI 解碼川普推文 × 美股 | AIでトランプ投稿×株式市場を解読 — 31.5M models, 61.3% hit
+      rate, open source
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-13T17:15:36Z'
+  content_lock:
+    locked_ref: 296b8e14ee88833a89e28e17769e660c48b7e761
+    locked_url: https://github.com/sstklen/trump-code/commit/296b8e14ee88833a89e28e17769e660c48b7e761
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-03-16T09:19:52Z'
+- universe: trading
+  repo: akfamily/akshare
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: data
+  tags:
+  - library
+  - python
+  source_url: https://github.com/akfamily/akshare
+  visibility: public
+  archived: false
+  description: AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-09T04:20:59Z'
+  content_lock:
+    locked_ref: 8e95744b79ae22326308ccd2b4e62650c5b53c55
+    locked_url: https://github.com/akfamily/akshare/commit/8e95744b79ae22326308ccd2b4e62650c5b53c55
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2025-09-08T04:52:01Z'
+- universe: trading
+  repo: wshobson/maverick-mcp
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: equity-research
+  tags:
+  - python
+  - research
+  source_url: https://github.com/wshobson/maverick-mcp
+  visibility: public
+  archived: false
+  description: MaverickMCP - Personal Stock Analysis MCP Server
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: MaverickMCP - Personal Stock Analysis MCP Server
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-13T13:15:55Z'
+  content_lock:
+    locked_ref: fb55c84c9a9c8cc26b1d4aaf337e6fcc83cf7eb1
+    locked_url: https://github.com/wshobson/maverick-mcp/commit/fb55c84c9a9c8cc26b1d4aaf337e6fcc83cf7eb1
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-09-13T04:34:31Z'
+- universe: trading
+  repo: wenyuanw/a-share-heatmap
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: equity-research
+  tags:
+  - typescript
+  source_url: https://github.com/wenyuanw/a-share-heatmap
+  visibility: public
+  archived: false
+  description: 免费开源的 A股热力图｜A股大盘云图，各板块涨跌一眼可见
+  status: EXPLORING
+  review_status: needs_review
+  review_reason: 'new-star-review: A-share market heatmap and sector-movement dashboard.'
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: 免费开源的 A股热力图｜A股大盘云图，各板块涨跌一眼可见
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-10T08:28:08Z'
+  content_lock:
+    locked_ref: c15f94e616cfa94747c3cc2e5caedd02341474f0
+    locked_url: https://github.com/wenyuanw/a-share-heatmap/commit/c15f94e616cfa94747c3cc2e5caedd02341474f0
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-08-26T21:14:59Z'
+- universe: trading
+  repo: star23/Day1Global-Skills
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: equity-research
+  tags:
+  - research
+  - skill
+  source_url: https://github.com/star23/Day1Global-Skills
+  visibility: public
+  archived: false
+  description: 'Day1Global Skills Share: US Stock, Macro Market, Crypto'
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: 'Day1Global Skills Share: US Stock, Macro Market, Crypto'
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-08-18T10:36:09Z'
+  content_lock:
+    locked_ref: 562c14b0c0bc84abff755181ead30ebea613d063
+    locked_url: https://github.com/star23/Day1Global-Skills/commit/562c14b0c0bc84abff755181ead30ebea613d063
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-07-21T00:26:02Z'
+- universe: trading
+  repo: rollingSirius/equity-research-skill
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: equity-research
+  tags:
+  - image
+  - python
+  - research
+  - skill
+  source_url: https://github.com/rollingSirius/equity-research-skill
+  visibility: public
+  archived: false
+  description: 'Possibly the deepest AI equity-research skill: nine-chapter single-stock deep dives and earnings deep-dives,
+    with scripted DCF/EPV/EVA and reproducible valuation. Covers US, HK and A-shares. Docs in EN and ZH.'
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: 'Possibly the deepest AI equity-research skill: nine-chapter single-stock deep dives and earnings deep-dives,
+      with scripted DCF/EPV/EVA and reproducible valuation. Covers US, HK and A-shares. Docs in EN and ZH.'
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-08-21T20:13:56Z'
+  content_lock:
+    locked_ref: 3d94e64ff53b325d866ea4bff69ad81a5adca8f5
+    locked_url: https://github.com/rollingSirius/equity-research-skill/commit/3d94e64ff53b325d866ea4bff69ad81a5adca8f5
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-07-18T04:18:02Z'
+- universe: trading
+  repo: wbh604/UZI-Skill
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: equity-research
+  tags:
+  - python
+  - skill
+  source_url: https://github.com/wbh604/UZI-Skill
+  visibility: public
+  archived: false
+  description: '冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 让我们欢迎，股海贼王！66位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 '
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: '冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 让我们欢迎，股海贼王！66位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 '
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-05T07:29:04Z'
+  content_lock:
+    locked_ref: 650788c54a9b2e042bf7f983f16dbf8d727fce1d
+    locked_url: https://github.com/wbh604/UZI-Skill/commit/650788c54a9b2e042bf7f983f16dbf8d727fce1d
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-07-09T06:59:08Z'
+- universe: trading
+  repo: muxuuu/serenity-skill
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: equity-research
+  tags:
+  - python
+  - research
+  - skill
+  source_url: https://github.com/muxuuu/serenity-skill
+  visibility: public
+  archived: false
+  description: Serenity-inspired Agent Skill for supply-chain bottleneck stock research
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: Serenity-inspired Agent Skill for supply-chain bottleneck stock research
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-05-05T03:23:53Z'
+  content_lock:
+    locked_ref: c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
+    locked_url: https://github.com/muxuuu/serenity-skill/commit/c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-07-09T06:58:05Z'
+- universe: trading
+  repo: virattt/dexter
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: equity-research
+  tags:
+  - research
+  - typescript
+  source_url: https://github.com/virattt/dexter
+  visibility: public
+  archived: false
+  description: An autonomous agent for deep financial research
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: An autonomous agent for deep financial research
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-08-04T15:20:42Z'
+  content_lock:
+    locked_ref: ecaed3011f24ea24ef687ab536aa7f22f7294038
+    locked_url: https://github.com/virattt/dexter/commit/ecaed3011f24ea24ef687ab536aa7f22f7294038
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-05-09T10:48:03Z'
+- universe: trading
+  repo: microsoft/qlib
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: equity-research
+  tags:
+  - product
+  - python
+  - research
+  source_url: https://github.com/microsoft/qlib
+  visibility: public
+  archived: false
+  description: Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring
+    ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market
+    dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from
+      exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning,
+      market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-02T18:23:05Z'
+  content_lock:
+    locked_ref: 79633dd9506ea689e5400dea0197717b5b3d74b7
+    locked_url: https://github.com/microsoft/qlib/commit/79633dd9506ea689e5400dea0197717b5b3d74b7
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2025-08-11T13:48:06Z'
+- universe: trading
+  repo: YoungCan-Wang/WyckoffTradingAgent
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-strategy
+  tags:
+  - dashboard
+  - python
+  - research
+  - workflow
+  source_url: https://github.com/YoungCan-Wang/WyckoffTradingAgent
+  visibility: public
+  archived: false
+  description: Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI workflows,
+    and MCP tools.灵感来自秋生trader @Hoyooyoo
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI
+      workflows, and MCP tools.灵感来自秋生trader @Hoyooyoo
+    license_spdx: AGPL-3.0
+    checked_at: '2026-09-19'
+    pushed_at: '2026-09-19T00:07:25Z'
+  content_lock:
+    locked_ref: 6bdaf1eb3cff0068b21cc17f801fcb878ab802ce
+    locked_url: https://github.com/YoungCan-Wang/WyckoffTradingAgent/commit/6bdaf1eb3cff0068b21cc17f801fcb878ab802ce
+    locked_at: '2026-09-19'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-09-18T06:00:06Z'
+- universe: trading
+  repo: nhovongoc0-max/meme-radar
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-strategy
+  tags:
+  - javascript
+  source_url: https://github.com/nhovongoc0-max/meme-radar
+  visibility: public
+  archived: false
+  description: Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具
+    license_spdx: AGPL-3.0
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-11T12:19:58Z'
+  content_lock:
+    locked_ref: 9c41a444b9bcfad980a3c9e9c9e24761709df4cb
+    locked_url: https://github.com/nhovongoc0-max/meme-radar/commit/9c41a444b9bcfad980a3c9e9c9e24761709df4cb
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-09-13T06:25:20Z'
+- universe: trading
+  repo: Vespa314/chan.py
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-strategy
+  tags:
+  - python
+  source_url: https://github.com/Vespa314/chan.py
+  visibility: public
+  archived: false
+  description: 开放式的缠论python实现框架，支持形态学/动力学买卖点分析计算，多级别K线联立，区间套策略，可视化绘图，多种数据接入，策略开发，交易系统对接；
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: 开放式的缠论python实现框架，支持形态学/动力学买卖点分析计算，多级别K线联立，区间套策略，可视化绘图，多种数据接入，策略开发，交易系统对接；
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-06-25T08:32:52Z'
+  content_lock:
+    locked_ref: 429d6ed3043e27c93a003ba2b10e70a05575e1f5
+    locked_url: https://github.com/Vespa314/chan.py/commit/429d6ed3043e27c93a003ba2b10e70a05575e1f5
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-09-12T03:47:22Z'
+- universe: trading
+  repo: neil-pan-s/one-quant-doc
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-strategy
+  tags:
+  - python
+  - research
+  source_url: https://github.com/neil-pan-s/one-quant-doc
+  visibility: public
+  archived: false
+  description: 缠中说禅-缠论技术分析 实时自动笔段画线、中枢标识 递归分析整体走势 作为买卖分析参考
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: 缠中说禅-缠论技术分析 实时自动笔段画线、中枢标识 递归分析整体走势 作为买卖分析参考
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2025-08-20T06:15:43Z'
+  content_lock:
+    locked_ref: 7231f5d5353cf118890de7e186f56c5a7727ea41
+    locked_url: https://github.com/neil-pan-s/one-quant-doc/commit/7231f5d5353cf118890de7e186f56c5a7727ea41
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-09-12T03:41:12Z'
+- universe: trading
+  repo: waditu/czsc
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-strategy
+  tags:
+  - research
+  - rust
+  source_url: https://github.com/waditu/czsc
+  visibility: public
+  archived: false
+  description: 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易
   status: EXPLORING
   review_status: confirmed
   review_reason: null
@@ -192,17 +783,254 @@ entries:
     default_branch: master
     visibility: public
     archived: false
-    description: We are committed to the open-sourcing quantitative knowledge, aiming to bridge the information gap between
-      the domestic and international quantitative finance industries. 我们致力于量化知识的开源与汉化，打破国内外量化金融行业信息差。
+    description: 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易
     license_spdx: NOASSERTION
     checked_at: '2026-09-14'
-    pushed_at: '2026-04-16T10:50:54Z'
+    pushed_at: '2026-09-02T16:38:31Z'
   content_lock:
-    locked_ref: f08b94e13425c234b20e2641ec525178259b8684
-    locked_url: https://github.com/LLMQuant/quant-wiki/commit/f08b94e13425c234b20e2641ec525178259b8684
+    locked_ref: 701e480a545004f945bb1721e510ae610ad90c4c
+    locked_url: https://github.com/waditu/czsc/commit/701e480a545004f945bb1721e510ae610ad90c4c
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
+  catalog_added_at: '2025-08-11T16:37:51Z'
+- universe: trading
+  repo: TA-Lib/ta-lib-python
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-strategy
+  tags:
+  - product
+  source_url: https://github.com/TA-Lib/ta-lib-python
+  visibility: public
+  archived: false
+  description: Python wrapper for TA-Lib (http://ta-lib.org/).
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: master
+    visibility: public
+    archived: false
+    description: Python wrapper for TA-Lib (http://ta-lib.org/).
+    license_spdx: BSD-2-Clause
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-14T03:22:04Z'
+  content_lock:
+    locked_ref: fd6089b183fc23b0e87512c455153043400efff6
+    locked_url: https://github.com/TA-Lib/ta-lib-python/commit/fd6089b183fc23b0e87512c455153043400efff6
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2024-04-21T17:01:07Z'
+- universe: trading
+  repo: nautechsystems/nautilus_trader
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-infra
+  tags:
+  - product
+  - rust
+  source_url: https://github.com/nautechsystems/nautilus_trader
+  visibility: public
+  archived: false
+  description: Production-grade Rust-native trading engine with deterministic event-driven architecture
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: develop
+    visibility: public
+    archived: false
+    description: Production-grade Rust-native trading engine with deterministic event-driven architecture
+    license_spdx: LGPL-3.0
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-14T04:56:59Z'
+  content_lock:
+    locked_ref: 23cb3035dff7f3fb28b7f5985a2340b090c3c126
+    locked_url: https://github.com/nautechsystems/nautilus_trader/commit/23cb3035dff7f3fb28b7f5985a2340b090c3c126
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-07-09T04:21:55Z'
+- universe: trading
+  repo: polakowo/vectorbt
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-infra
+  tags:
+  - paper-trading
+  - python
+  source_url: https://github.com/polakowo/vectorbt
+  visibility: public
+  archived: false
+  description: The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish
+    one.
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: master
+    visibility: public
+    archived: false
+    description: The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish
+      one.
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-08-02T09:14:10Z'
+  content_lock:
+    locked_ref: 34b6d5935e3ea3eccd549e2592bc0f455b8045f5
+    locked_url: https://github.com/polakowo/vectorbt/commit/34b6d5935e3ea3eccd549e2592bc0f455b8045f5
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2024-04-21T14:49:14Z'
+- universe: trading
+  repo: ccxt/ccxt
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-infra
+  tags:
+  - api
+  - research
+  - rust
+  source_url: https://github.com/ccxt/ccxt
+  visibility: public
+  archived: false
+  description: A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript
+    / Python / C# / PHP / Go / Java / Rust
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: master
+    visibility: public
+    archived: false
+    description: A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript
+      / Python / C# / PHP / Go / Java / Rust
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-13T20:53:13Z'
+  content_lock:
+    locked_ref: c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03
+    locked_url: https://github.com/ccxt/ccxt/commit/c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2024-04-13T07:03:26Z'
+- universe: trading
+  repo: Drakkar-Software/OctoBot
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-infra
+  tags:
+  - python
+  source_url: https://github.com/Drakkar-Software/OctoBot
+  visibility: public
+  archived: false
+  description: Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid
+    and 15+ exchanges, with a simple interface.
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: master
+    visibility: public
+    archived: false
+    description: Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid
+      and 15+ exchanges, with a simple interface.
+    license_spdx: GPL-3.0
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-13T16:49:12Z'
+  content_lock:
+    locked_ref: dc0efc8ec36c138bd619272b2b59042778668408
+    locked_url: https://github.com/Drakkar-Software/OctoBot/commit/dc0efc8ec36c138bd619272b2b59042778668408
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2024-04-13T06:36:51Z'
+- universe: trading
+  repo: deepentropy/tvscreener
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: dashboard
+  tags:
+  - api
+  - dashboard
+  - javascript
+  source_url: https://github.com/deepentropy/tvscreener
+  visibility: public
+  archived: false
+  description: TradingView Screener API - Stock, Crypto, Forex, Bond, Futures, Coin
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: TradingView Screener API - Stock, Crypto, Forex, Bond, Futures, Coin
+    license_spdx: Apache-2.0
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-08T08:08:00Z'
+  content_lock:
+    locked_ref: 737c9764c1e58f364972a9106108b77e9fc1d6c0
+    locked_url: https://github.com/deepentropy/tvscreener/commit/737c9764c1e58f364972a9106108b77e9fc1d6c0
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-08-10T04:01:13Z'
+- universe: trading
+  repo: gloom-sh/gloomberb
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: dashboard
+  tags:
+  - dashboard
+  - typescript
+  source_url: https://github.com/gloom-sh/gloomberb
+  visibility: public
+  archived: false
+  description: Finance terminal, in your terminal.
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: Finance terminal, in your terminal.
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-13T21:31:34Z'
+  content_lock:
+    locked_ref: 4dc1d5cd2714a65afd3c6c33c3fc551570090002
+    locked_url: https://github.com/gloom-sh/gloomberb/commit/4dc1d5cd2714a65afd3c6c33c3fc551570090002
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-07-21T04:20:17Z'
 - universe: trading
   repo: Mathieu2301/TradingView-API
   owned: false
@@ -235,6 +1063,373 @@ entries:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
+  catalog_added_at: '2026-07-02T11:57:48Z'
+- universe: trading
+  repo: FinHackCN/finhack
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - python
+  source_url: https://github.com/FinHackCN/finhack
+  visibility: public
+  archived: false
+  description: FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-19'
+    pushed_at: '2026-08-19T03:01:18Z'
+  content_lock:
+    locked_ref: dedbbd0b7accfed035ba05f07d76726d8754bbf7
+    locked_url: https://github.com/FinHackCN/finhack/commit/dedbbd0b7accfed035ba05f07d76726d8754bbf7
+    locked_at: '2026-09-19'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-09-18T05:59:33Z'
+- universe: trading
+  repo: nishuzumi/fomomo
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - typescript
+  source_url: https://github.com/nishuzumi/fomomo
+  visibility: public
+  archived: false
+  description: ''
+  status: EXPLORING
+  review_status: needs_review
+  review_reason: 'new-star-review: manual-only reference; desktop group-signal monitor with market data, dashboard, journal,
+    and trade execution; never run its wallet or order path through an Agent.'
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: ''
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-13T08:56:27Z'
+  content_lock:
+    locked_ref: a2c6040392e3102753983bc17f28d7cc08b32f9a
+    locked_url: https://github.com/nishuzumi/fomomo/commit/a2c6040392e3102753983bc17f28d7cc08b32f9a
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-09-13T06:48:34Z'
+- universe: trading
+  repo: ling-0729/KHunter
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - python
+  source_url: https://github.com/ling-0729/KHunter
+  visibility: public
+  archived: false
+  description: KHunter 是一套开箱即用的A股量化交易系统，集数据管理、策略选股、择时交易、风险控制、回测验证于一体，为个人投资者提供从数据到交易的全流程量化解决方案。
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: KHunter 是一套开箱即用的A股量化交易系统，集数据管理、策略选股、择时交易、风险控制、回测验证于一体，为个人投资者提供从数据到交易的全流程量化解决方案。
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-13T08:29:26Z'
+  content_lock:
+    locked_ref: ca93f9e055234e2e4b727602dfa16d6cb6aaa9ae
+    locked_url: https://github.com/ling-0729/KHunter/commit/ca93f9e055234e2e4b727602dfa16d6cb6aaa9ae
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-09-10T04:51:00Z'
+- universe: trading
+  repo: Theclues/TradeGenuis-Options
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - python
+  source_url: https://github.com/Theclues/TradeGenuis-Options
+  visibility: public
+  archived: false
+  description: ''
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: ''
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-04T07:43:34Z'
+  content_lock:
+    locked_ref: a77d13dae84b4364e4decdc0ccf5fa525dc05a21
+    locked_url: https://github.com/Theclues/TradeGenuis-Options/commit/a77d13dae84b4364e4decdc0ccf5fa525dc05a21
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-09-07T11:21:41Z'
+- universe: trading
+  repo: sngyai/Sequoia-X
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - python
+  source_url: https://github.com/sngyai/Sequoia-X
+  visibility: public
+  archived: false
+  description: A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书
+  status: EXPLORING
+  review_status: needs_review
+  review_reason: 'new-star-review: A-share technical-pattern scanner and Feishu-pushed stock selection system.'
+  github_snapshot:
+    default_branch: master
+    visibility: public
+    archived: false
+    description: A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-07-10T23:17:43Z'
+  content_lock:
+    locked_ref: 444c0db69ff36b46ef2b22ab265051d60c16029d
+    locked_url: https://github.com/sngyai/Sequoia-X/commit/444c0db69ff36b46ef2b22ab265051d60c16029d
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-08-26T21:17:05Z'
+- universe: trading
+  repo: shy3130/tick-stock-panel
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - dashboard
+  - python
+  source_url: https://github.com/shy3130/tick-stock-panel
+  visibility: public
+  archived: false
+  description: TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源
+  status: EXPLORING
+  review_status: needs_review
+  review_reason: 'new-star-review: self-hosted A-share screening, monitoring and backtesting workstation; provisional full-trading-systems
+    placement.'
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-14T05:10:44Z'
+  content_lock:
+    locked_ref: bfbccf9c414fc1eee6658b380bf2f7f425943c37
+    locked_url: https://github.com/shy3130/tick-stock-panel/commit/bfbccf9c414fc1eee6658b380bf2f7f425943c37
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-08-26T03:40:12Z'
+- universe: trading
+  repo: lzwme/finance-quant-skills
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - python
+  - research
+  - skill
+  source_url: https://github.com/lzwme/finance-quant-skills
+  visibility: public
+  archived: false
+  description: 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-11T05:40:10Z'
+  content_lock:
+    locked_ref: 7af066194d8dbc68a45ce01073ff56e2f095b79c
+    locked_url: https://github.com/lzwme/finance-quant-skills/commit/7af066194d8dbc68a45ce01073ff56e2f095b79c
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-08-26T02:50:40Z'
+- universe: trading
+  repo: shiyu-coder/Kronos
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - python
+  - research
+  source_url: https://github.com/shiyu-coder/Kronos
+  visibility: public
+  archived: false
+  description: 'Kronos: A Foundation Model for the Language of Financial Markets'
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: master
+    visibility: public
+    archived: false
+    description: 'Kronos: A Foundation Model for the Language of Financial Markets'
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-04-13T12:38:49Z'
+  content_lock:
+    locked_ref: 67b630e67f6a18c9e9be918d9b4337c960db1e9a
+    locked_url: https://github.com/shiyu-coder/Kronos/commit/67b630e67f6a18c9e9be918d9b4337c960db1e9a
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-08-03T03:26:28Z'
+- universe: trading
+  repo: simonlin1212/Vibe-Research
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - research
+  - typescript
+  source_url: https://github.com/simonlin1212/Vibe-Research
+  visibility: public
+  archived: false
+  description: 'Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录、回测。Vibe-Research
+    把数据和功能配齐，由你自己的 Agent 驱动投资研究。基于开源的 Codex Harness 打造。'
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: 'Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录、回测。Vibe-Research
+      把数据和功能配齐，由你自己的 Agent 驱动投资研究。基于开源的 Codex Harness 打造。'
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-12T08:35:49Z'
+  content_lock:
+    locked_ref: 34ed58155ca24c98f9009c2e83781f44ecc4a58f
+    locked_url: https://github.com/simonlin1212/Vibe-Research/commit/34ed58155ca24c98f9009c2e83781f44ecc4a58f
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-08-03T03:25:42Z'
+- universe: trading
+  repo: HKUDS/Vibe-Trading
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - python
+  source_url: https://github.com/HKUDS/Vibe-Trading
+  visibility: public
+  archived: false
+  description: '"Vibe-Trading: Your Personal Trading Agent"'
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: '"Vibe-Trading: Your Personal Trading Agent"'
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-13T10:08:13Z'
+  content_lock:
+    locked_ref: e476b4ce4c3b99db81f1034aaf7f1cd42a71911b
+    locked_url: https://github.com/HKUDS/Vibe-Trading/commit/e476b4ce4c3b99db81f1034aaf7f1cd42a71911b
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-07-21T00:26:22Z'
+- universe: trading
+  repo: ZhuLinsen/daily_stock_analysis
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - dashboard
+  - product
+  - python
+  - research
+  source_url: https://github.com/ZhuLinsen/daily_stock_analysis
+  visibility: public
+  archived: false
+  description: LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source
+    market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source
+      market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-13T09:18:52Z'
+  content_lock:
+    locked_ref: 1168e316269baa38752a8901331a4d7aa8b1fd07
+    locked_url: https://github.com/ZhuLinsen/daily_stock_analysis/commit/1168e316269baa38752a8901331a4d7aa8b1fd07
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-06-08T16:29:14Z'
 - universe: trading
   repo: OpenByteInc/QuantDinger
   owned: false
@@ -273,70 +1468,7 @@ entries:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- universe: trading
-  repo: RKiding/Awesome-finance-skills
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: knowledge-and-collections
-  tags:
-  - collection
-  - python
-  - skill
-  source_url: https://github.com/RKiding/Awesome-finance-skills
-  visibility: public
-  archived: false
-  description: A collection of Awesome Finance Agent Skills for free and easy to start | 一系列开源免费的金融分析Agent Skills
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: A collection of Awesome Finance Agent Skills for free and easy to start | 一系列开源免费的金融分析Agent Skills
-    license_spdx: Apache-2.0
-    checked_at: '2026-09-14'
-    pushed_at: '2026-03-29T05:03:47Z'
-  content_lock:
-    locked_ref: 853f09b4d0baae747759ed31e21ed5c5b2316a5f
-    locked_url: https://github.com/RKiding/Awesome-finance-skills/commit/853f09b4d0baae747759ed31e21ed5c5b2316a5f
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: TA-Lib/ta-lib-python
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: trading-strategy
-  tags:
-  - product
-  source_url: https://github.com/TA-Lib/ta-lib-python
-  visibility: public
-  archived: false
-  description: Python wrapper for TA-Lib (http://ta-lib.org/).
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: master
-    visibility: public
-    archived: false
-    description: Python wrapper for TA-Lib (http://ta-lib.org/).
-    license_spdx: BSD-2-Clause
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-14T03:22:04Z'
-  content_lock:
-    locked_ref: fd6089b183fc23b0e87512c455153043400efff6
-    locked_url: https://github.com/TA-Lib/ta-lib-python/commit/fd6089b183fc23b0e87512c455153043400efff6
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
+  catalog_added_at: '2026-05-01T04:51:32Z'
 - universe: trading
   repo: TauricResearch/TradingAgents
   owned: false
@@ -371,933 +1503,7 @@ entries:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- universe: trading
-  repo: Theclues/TradeGenuis-Options
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-system-agent
-  tags:
-  - python
-  source_url: https://github.com/Theclues/TradeGenuis-Options
-  visibility: public
-  archived: false
-  description: ''
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: ''
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-04T07:43:34Z'
-  content_lock:
-    locked_ref: a77d13dae84b4364e4decdc0ccf5fa525dc05a21
-    locked_url: https://github.com/Theclues/TradeGenuis-Options/commit/a77d13dae84b4364e4decdc0ccf5fa525dc05a21
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: Vespa314/chan.py
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: trading-strategy
-  tags:
-  - python
-  source_url: https://github.com/Vespa314/chan.py
-  visibility: public
-  archived: false
-  description: 开放式的缠论python实现框架，支持形态学/动力学买卖点分析计算，多级别K线联立，区间套策略，可视化绘图，多种数据接入，策略开发，交易系统对接；
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 开放式的缠论python实现框架，支持形态学/动力学买卖点分析计算，多级别K线联立，区间套策略，可视化绘图，多种数据接入，策略开发，交易系统对接；
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-06-25T08:32:52Z'
-  content_lock:
-    locked_ref: 429d6ed3043e27c93a003ba2b10e70a05575e1f5
-    locked_url: https://github.com/Vespa314/chan.py/commit/429d6ed3043e27c93a003ba2b10e70a05575e1f5
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: ZhuLinsen/daily_stock_analysis
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-system-agent
-  tags:
-  - dashboard
-  - product
-  - python
-  - research
-  source_url: https://github.com/ZhuLinsen/daily_stock_analysis
-  visibility: public
-  archived: false
-  description: LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source
-    market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source
-      market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-13T09:18:52Z'
-  content_lock:
-    locked_ref: 1168e316269baa38752a8901331a4d7aa8b1fd07
-    locked_url: https://github.com/ZhuLinsen/daily_stock_analysis/commit/1168e316269baa38752a8901331a4d7aa8b1fd07
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: akfamily/akshare
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: data
-  tags:
-  - library
-  - python
-  source_url: https://github.com/akfamily/akshare
-  visibility: public
-  archived: false
-  description: AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-09T04:20:59Z'
-  content_lock:
-    locked_ref: 8e95744b79ae22326308ccd2b4e62650c5b53c55
-    locked_url: https://github.com/akfamily/akshare/commit/8e95744b79ae22326308ccd2b4e62650c5b53c55
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: atilaahmettaner/tradingview-mcp
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: data
-  tags:
-  - dashboard
-  - paper-trading
-  - python
-  - research
-  source_url: https://github.com/atilaahmettaner/tradingview-mcp
-  visibility: public
-  archived: false
-  description: TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT,
-    Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT,
-      Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-01T15:15:48Z'
-  content_lock:
-    locked_ref: a1e54b07e5c21b375363607920f297c5adfbeed4
-    locked_url: https://github.com/atilaahmettaner/tradingview-mcp/commit/a1e54b07e5c21b375363607920f297c5adfbeed4
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: bwjoke/BTC-Trading-Since-2020
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: knowledge-and-collections
-  tags:
-  - memory
-  source_url: https://github.com/bwjoke/BTC-Trading-Since-2020
-  visibility: public
-  archived: false
-  description: Public BTC trading context since 2020.
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: Public BTC trading context since 2020.
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-11T10:16:43Z'
-  content_lock:
-    locked_ref: 9ff0d562cffd943d79916c9ce05adae627c8d9a2
-    locked_url: https://github.com/bwjoke/BTC-Trading-Since-2020/commit/9ff0d562cffd943d79916c9ce05adae627c8d9a2
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: ccxt/ccxt
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: trading-infra
-  tags:
-  - api
-  - research
-  - rust
-  source_url: https://github.com/ccxt/ccxt
-  visibility: public
-  archived: false
-  description: A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript
-    / Python / C# / PHP / Go / Java / Rust
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: master
-    visibility: public
-    archived: false
-    description: A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript
-      / Python / C# / PHP / Go / Java / Rust
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-13T20:53:13Z'
-  content_lock:
-    locked_ref: c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03
-    locked_url: https://github.com/ccxt/ccxt/commit/c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: deepentropy/tvscreener
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: dashboard
-  tags:
-  - api
-  - dashboard
-  - javascript
-  source_url: https://github.com/deepentropy/tvscreener
-  visibility: public
-  archived: false
-  description: TradingView Screener API - Stock, Crypto, Forex, Bond, Futures, Coin
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: TradingView Screener API - Stock, Crypto, Forex, Bond, Futures, Coin
-    license_spdx: Apache-2.0
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-08T08:08:00Z'
-  content_lock:
-    locked_ref: 737c9764c1e58f364972a9106108b77e9fc1d6c0
-    locked_url: https://github.com/deepentropy/tvscreener/commit/737c9764c1e58f364972a9106108b77e9fc1d6c0
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: gloom-sh/gloomberb
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: dashboard
-  tags:
-  - dashboard
-  - typescript
-  source_url: https://github.com/gloom-sh/gloomberb
-  visibility: public
-  archived: false
-  description: Finance terminal, in your terminal.
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: Finance terminal, in your terminal.
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-13T21:31:34Z'
-  content_lock:
-    locked_ref: 4dc1d5cd2714a65afd3c6c33c3fc551570090002
-    locked_url: https://github.com/gloom-sh/gloomberb/commit/4dc1d5cd2714a65afd3c6c33c3fc551570090002
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: guangxiangdebizi/FinanceMCP
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: data
-  tags:
-  - api
-  - typescript
-  source_url: https://github.com/guangxiangdebizi/FinanceMCP
-  visibility: public
-  archived: false
-  description: 这是一个金融领域相关的mcp,本项目通过集成 Tushare API 和 Binance API 为语言模型（如Claude）提供全面的实时金融数据访问能力，支持股票、基金、债券、宏观经济指标、稳定币、虚拟货币等多维度金融数据分析。其中也包含了金融数据查询、财经新闻查询、国家统计局数据查询等
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 这是一个金融领域相关的mcp,本项目通过集成 Tushare API 和 Binance API 为语言模型（如Claude）提供全面的实时金融数据访问能力，支持股票、基金、债券、宏观经济指标、稳定币、虚拟货币等多维度金融数据分析。其中也包含了金融数据查询、财经新闻查询、国家统计局数据查询等
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-07T08:27:53Z'
-  content_lock:
-    locked_ref: 784c6176647aad35d6a25a715b62b333db95df90
-    locked_url: https://github.com/guangxiangdebizi/FinanceMCP/commit/784c6176647aad35d6a25a715b62b333db95df90
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: ling-0729/KHunter
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-system-agent
-  tags:
-  - python
-  source_url: https://github.com/ling-0729/KHunter
-  visibility: public
-  archived: false
-  description: KHunter 是一套开箱即用的A股量化交易系统，集数据管理、策略选股、择时交易、风险控制、回测验证于一体，为个人投资者提供从数据到交易的全流程量化解决方案。
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: KHunter 是一套开箱即用的A股量化交易系统，集数据管理、策略选股、择时交易、风险控制、回测验证于一体，为个人投资者提供从数据到交易的全流程量化解决方案。
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-13T08:29:26Z'
-  content_lock:
-    locked_ref: ca93f9e055234e2e4b727602dfa16d6cb6aaa9ae
-    locked_url: https://github.com/ling-0729/KHunter/commit/ca93f9e055234e2e4b727602dfa16d6cb6aaa9ae
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: lzwme/finance-quant-skills
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-system-agent
-  tags:
-  - python
-  - research
-  - skill
-  source_url: https://github.com/lzwme/finance-quant-skills
-  visibility: public
-  archived: false
-  description: 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-11T05:40:10Z'
-  content_lock:
-    locked_ref: 7af066194d8dbc68a45ce01073ff56e2f095b79c
-    locked_url: https://github.com/lzwme/finance-quant-skills/commit/7af066194d8dbc68a45ce01073ff56e2f095b79c
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: microsoft/qlib
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: equity-research
-  tags:
-  - product
-  - python
-  - research
-  source_url: https://github.com/microsoft/qlib
-  visibility: public
-  archived: false
-  description: Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring
-    ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market
-    dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from
-      exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning,
-      market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-02T18:23:05Z'
-  content_lock:
-    locked_ref: 79633dd9506ea689e5400dea0197717b5b3d74b7
-    locked_url: https://github.com/microsoft/qlib/commit/79633dd9506ea689e5400dea0197717b5b3d74b7
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: muxuuu/serenity-skill
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: equity-research
-  tags:
-  - python
-  - research
-  - skill
-  source_url: https://github.com/muxuuu/serenity-skill
-  visibility: public
-  archived: false
-  description: Serenity-inspired Agent Skill for supply-chain bottleneck stock research
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: Serenity-inspired Agent Skill for supply-chain bottleneck stock research
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-05-05T03:23:53Z'
-  content_lock:
-    locked_ref: c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
-    locked_url: https://github.com/muxuuu/serenity-skill/commit/c2fe93deedfd0d1bd9fe7ef0601ea1b9c20ea24a
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: nautechsystems/nautilus_trader
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: trading-infra
-  tags:
-  - product
-  - rust
-  source_url: https://github.com/nautechsystems/nautilus_trader
-  visibility: public
-  archived: false
-  description: Production-grade Rust-native trading engine with deterministic event-driven architecture
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: develop
-    visibility: public
-    archived: false
-    description: Production-grade Rust-native trading engine with deterministic event-driven architecture
-    license_spdx: LGPL-3.0
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-14T04:56:59Z'
-  content_lock:
-    locked_ref: 23cb3035dff7f3fb28b7f5985a2340b090c3c126
-    locked_url: https://github.com/nautechsystems/nautilus_trader/commit/23cb3035dff7f3fb28b7f5985a2340b090c3c126
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: neil-pan-s/one-quant-doc
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: trading-strategy
-  tags:
-  - python
-  - research
-  source_url: https://github.com/neil-pan-s/one-quant-doc
-  visibility: public
-  archived: false
-  description: 缠中说禅-缠论技术分析 实时自动笔段画线、中枢标识 递归分析整体走势 作为买卖分析参考
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 缠中说禅-缠论技术分析 实时自动笔段画线、中枢标识 递归分析整体走势 作为买卖分析参考
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2025-08-20T06:15:43Z'
-  content_lock:
-    locked_ref: 7231f5d5353cf118890de7e186f56c5a7727ea41
-    locked_url: https://github.com/neil-pan-s/one-quant-doc/commit/7231f5d5353cf118890de7e186f56c5a7727ea41
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: nhovongoc0-max/meme-radar
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: trading-strategy
-  tags:
-  - javascript
-  source_url: https://github.com/nhovongoc0-max/meme-radar
-  visibility: public
-  archived: false
-  description: Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具
-    license_spdx: AGPL-3.0
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-11T12:19:58Z'
-  content_lock:
-    locked_ref: 9c41a444b9bcfad980a3c9e9c9e24761709df4cb
-    locked_url: https://github.com/nhovongoc0-max/meme-radar/commit/9c41a444b9bcfad980a3c9e9c9e24761709df4cb
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: nishuzumi/fomomo
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-system-agent
-  tags:
-  - typescript
-  source_url: https://github.com/nishuzumi/fomomo
-  visibility: public
-  archived: false
-  description: ''
-  status: EXPLORING
-  review_status: needs_review
-  review_reason: 'new-star-review: manual-only reference; desktop group-signal monitor with market data, dashboard, journal,
-    and trade execution; never run its wallet or order path through an Agent.'
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: ''
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-13T08:56:27Z'
-  content_lock:
-    locked_ref: a2c6040392e3102753983bc17f28d7cc08b32f9a
-    locked_url: https://github.com/nishuzumi/fomomo/commit/a2c6040392e3102753983bc17f28d7cc08b32f9a
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: polakowo/vectorbt
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: trading-infra
-  tags:
-  - paper-trading
-  - python
-  source_url: https://github.com/polakowo/vectorbt
-  visibility: public
-  archived: false
-  description: The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish
-    one.
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: master
-    visibility: public
-    archived: false
-    description: The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish
-      one.
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-08-02T09:14:10Z'
-  content_lock:
-    locked_ref: 34b6d5935e3ea3eccd549e2592bc0f455b8045f5
-    locked_url: https://github.com/polakowo/vectorbt/commit/34b6d5935e3ea3eccd549e2592bc0f455b8045f5
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: rollingSirius/equity-research-skill
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: equity-research
-  tags:
-  - image
-  - python
-  - research
-  - skill
-  source_url: https://github.com/rollingSirius/equity-research-skill
-  visibility: public
-  archived: false
-  description: 'Possibly the deepest AI equity-research skill: nine-chapter single-stock deep dives and earnings deep-dives,
-    with scripted DCF/EPV/EVA and reproducible valuation. Covers US, HK and A-shares. Docs in EN and ZH.'
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 'Possibly the deepest AI equity-research skill: nine-chapter single-stock deep dives and earnings deep-dives,
-      with scripted DCF/EPV/EVA and reproducible valuation. Covers US, HK and A-shares. Docs in EN and ZH.'
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-08-21T20:13:56Z'
-  content_lock:
-    locked_ref: 3d94e64ff53b325d866ea4bff69ad81a5adca8f5
-    locked_url: https://github.com/rollingSirius/equity-research-skill/commit/3d94e64ff53b325d866ea4bff69ad81a5adca8f5
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: shiyu-coder/Kronos
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-system-agent
-  tags:
-  - python
-  - research
-  source_url: https://github.com/shiyu-coder/Kronos
-  visibility: public
-  archived: false
-  description: 'Kronos: A Foundation Model for the Language of Financial Markets'
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: master
-    visibility: public
-    archived: false
-    description: 'Kronos: A Foundation Model for the Language of Financial Markets'
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-04-13T12:38:49Z'
-  content_lock:
-    locked_ref: 67b630e67f6a18c9e9be918d9b4337c960db1e9a
-    locked_url: https://github.com/shiyu-coder/Kronos/commit/67b630e67f6a18c9e9be918d9b4337c960db1e9a
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: shy3130/tick-stock-panel
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-system-agent
-  tags:
-  - dashboard
-  - python
-  source_url: https://github.com/shy3130/tick-stock-panel
-  visibility: public
-  archived: false
-  description: TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源
-  status: EXPLORING
-  review_status: needs_review
-  review_reason: 'new-star-review: self-hosted A-share screening, monitoring and backtesting workstation; provisional full-trading-systems
-    placement.'
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-14T05:10:44Z'
-  content_lock:
-    locked_ref: bfbccf9c414fc1eee6658b380bf2f7f425943c37
-    locked_url: https://github.com/shy3130/tick-stock-panel/commit/bfbccf9c414fc1eee6658b380bf2f7f425943c37
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: simonlin1212/Vibe-Research
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-system-agent
-  tags:
-  - research
-  - typescript
-  source_url: https://github.com/simonlin1212/Vibe-Research
-  visibility: public
-  archived: false
-  description: 'Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录、回测。Vibe-Research
-    把数据和功能配齐，由你自己的 Agent 驱动投资研究。基于开源的 Codex Harness 打造。'
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 'Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录、回测。Vibe-Research
-      把数据和功能配齐，由你自己的 Agent 驱动投资研究。基于开源的 Codex Harness 打造。'
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-12T08:35:49Z'
-  content_lock:
-    locked_ref: 34ed58155ca24c98f9009c2e83781f44ecc4a58f
-    locked_url: https://github.com/simonlin1212/Vibe-Research/commit/34ed58155ca24c98f9009c2e83781f44ecc4a58f
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: simonlin1212/a-stock-data
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: data
-  tags:
-  - api
-  - python
-  source_url: https://github.com/simonlin1212/a-stock-data
-  visibility: public
-  archived: false
-  description: A股全栈数据工具包 · 十二层架构 · 60端点 · 22数据源 · 零鉴权 | Full-stack China A-share data toolkit for AI agents — 12 layers, 60
-    endpoints, 22 sources, zero-auth
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: A股全栈数据工具包 · 十二层架构 · 60端点 · 22数据源 · 零鉴权 | Full-stack China A-share data toolkit for AI agents — 12 layers,
-      60 endpoints, 22 sources, zero-auth
-    license_spdx: Apache-2.0
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-05T01:42:56Z'
-  content_lock:
-    locked_ref: 2012ce7cd0e75d379c5e6cbd3115514f300f3bc8
-    locked_url: https://github.com/simonlin1212/a-stock-data/commit/2012ce7cd0e75d379c5e6cbd3115514f300f3bc8
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: simonlin1212/global-stock-data
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: data
-  tags:
-  - api
-  - dashboard
-  - research
-  source_url: https://github.com/simonlin1212/global-stock-data
-  visibility: public
-  archived: false
-  description: US stock market data for AI coding assistants — zero-auth, official sources. CBOE options with full Greeks
-    + 0DTE flow, FINRA market-wide short volume, SEC EDGAR filing stream, and a free market-wide screener. 13 layers, 30+
-    endpoints, 11 sources. Every source labeled with its compliance tier.
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: US stock market data for AI coding assistants — zero-auth, official sources. CBOE options with full Greeks
-      + 0DTE flow, FINRA market-wide short volume, SEC EDGAR filing stream, and a free market-wide screener. 13 layers, 30+
-      endpoints, 11 sources. Every source labeled with its compliance tier.
-    license_spdx: Apache-2.0
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-04T08:32:54Z'
-  content_lock:
-    locked_ref: fbf0ae47d64e24fdfce5fbc724b3041adc510739
-    locked_url: https://github.com/simonlin1212/global-stock-data/commit/fbf0ae47d64e24fdfce5fbc724b3041adc510739
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: sngyai/Sequoia-X
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-system-agent
-  tags:
-  - python
-  source_url: https://github.com/sngyai/Sequoia-X
-  visibility: public
-  archived: false
-  description: A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书
-  status: EXPLORING
-  review_status: needs_review
-  review_reason: 'new-star-review: A-share technical-pattern scanner and Feishu-pushed stock selection system.'
-  github_snapshot:
-    default_branch: master
-    visibility: public
-    archived: false
-    description: A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-07-10T23:17:43Z'
-  content_lock:
-    locked_ref: 444c0db69ff36b46ef2b22ab265051d60c16029d
-    locked_url: https://github.com/sngyai/Sequoia-X/commit/444c0db69ff36b46ef2b22ab265051d60c16029d
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: sstklen/trump-code
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: data
-  tags:
-  - python
-  - research
-  source_url: https://github.com/sstklen/trump-code
-  visibility: public
-  archived: false
-  description: 🔐 AI decoding Trump's posts × stock market | AI 解碼川普推文 × 美股 | AIでトランプ投稿×株式市場を解読 — 31.5M models, 61.3% hit rate,
-    open source
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 🔐 AI decoding Trump's posts × stock market | AI 解碼川普推文 × 美股 | AIでトランプ投稿×株式市場を解読 — 31.5M models, 61.3% hit
-      rate, open source
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-13T17:15:36Z'
-  content_lock:
-    locked_ref: 296b8e14ee88833a89e28e17769e660c48b7e761
-    locked_url: https://github.com/sstklen/trump-code/commit/296b8e14ee88833a89e28e17769e660c48b7e761
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: star23/Day1Global-Skills
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: equity-research
-  tags:
-  - research
-  - skill
-  source_url: https://github.com/star23/Day1Global-Skills
-  visibility: public
-  archived: false
-  description: 'Day1Global Skills Share: US Stock, Macro Market, Crypto'
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 'Day1Global Skills Share: US Stock, Macro Market, Crypto'
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-08-18T10:36:09Z'
-  content_lock:
-    locked_ref: 562c14b0c0bc84abff755181ead30ebea613d063
-    locked_url: https://github.com/star23/Day1Global-Skills/commit/562c14b0c0bc84abff755181ead30ebea613d063
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
+  catalog_added_at: '2026-02-02T02:08:11Z'
 - universe: trading
   repo: stockServ/chzhshch-108-plus
   owned: false
@@ -1328,70 +1534,7 @@ entries:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- universe: trading
-  repo: virattt/dexter
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: equity-research
-  tags:
-  - research
-  - typescript
-  source_url: https://github.com/virattt/dexter
-  visibility: public
-  archived: false
-  description: An autonomous agent for deep financial research
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: An autonomous agent for deep financial research
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-08-04T15:20:42Z'
-  content_lock:
-    locked_ref: ecaed3011f24ea24ef687ab536aa7f22f7294038
-    locked_url: https://github.com/virattt/dexter/commit/ecaed3011f24ea24ef687ab536aa7f22f7294038
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- universe: trading
-  repo: waditu/czsc
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: trading-strategy
-  tags:
-  - research
-  - rust
-  source_url: https://github.com/waditu/czsc
-  visibility: public
-  archived: false
-  description: 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: master
-    visibility: public
-    archived: false
-    description: 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-02T16:38:31Z'
-  content_lock:
-    locked_ref: 701e480a545004f945bb1721e510ae610ad90c4c
-    locked_url: https://github.com/waditu/czsc/commit/701e480a545004f945bb1721e510ae610ad90c4c
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
+  catalog_added_at: '2026-09-10T04:43:41Z'
 - universe: trading
   repo: wangzhe3224/awesome-systematic-trading
   owned: false
@@ -1426,21 +1569,21 @@ entries:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
+  catalog_added_at: '2026-08-10T03:39:48Z'
 - universe: trading
-  repo: wbh604/UZI-Skill
+  repo: bwjoke/BTC-Trading-Since-2020
   owned: false
   starred: true
   source_kind: starred
   registry_repo: false
   registry_role: null
-  primary_category: equity-research
+  primary_category: knowledge-and-collections
   tags:
-  - python
-  - skill
-  source_url: https://github.com/wbh604/UZI-Skill
+  - memory
+  source_url: https://github.com/bwjoke/BTC-Trading-Since-2020
   visibility: public
   archived: false
-  description: '冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 让我们欢迎，股海贼王！66位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 '
+  description: Public BTC trading context since 2020.
   status: EXPLORING
   review_status: confirmed
   review_reason: null
@@ -1448,47 +1591,87 @@ entries:
     default_branch: main
     visibility: public
     archived: false
-    description: '冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 让我们欢迎，股海贼王！66位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 '
-    license_spdx: MIT
+    description: Public BTC trading context since 2020.
+    license_spdx: NOASSERTION
     checked_at: '2026-09-14'
-    pushed_at: '2026-09-05T07:29:04Z'
+    pushed_at: '2026-09-11T10:16:43Z'
   content_lock:
-    locked_ref: 650788c54a9b2e042bf7f983f16dbf8d727fce1d
-    locked_url: https://github.com/wbh604/UZI-Skill/commit/650788c54a9b2e042bf7f983f16dbf8d727fce1d
+    locked_ref: 9ff0d562cffd943d79916c9ce05adae627c8d9a2
+    locked_url: https://github.com/bwjoke/BTC-Trading-Since-2020/commit/9ff0d562cffd943d79916c9ce05adae627c8d9a2
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
+  catalog_added_at: '2026-07-05T02:06:32Z'
 - universe: trading
-  repo: wenyuanw/a-share-heatmap
+  repo: RKiding/Awesome-finance-skills
   owned: false
   starred: true
   source_kind: starred
   registry_repo: false
   registry_role: null
-  primary_category: equity-research
+  primary_category: knowledge-and-collections
   tags:
-  - typescript
-  source_url: https://github.com/wenyuanw/a-share-heatmap
+  - collection
+  - python
+  - skill
+  source_url: https://github.com/RKiding/Awesome-finance-skills
   visibility: public
   archived: false
-  description: 免费开源的 A股热力图｜A股大盘云图，各板块涨跌一眼可见
+  description: A collection of Awesome Finance Agent Skills for free and easy to start | 一系列开源免费的金融分析Agent Skills
   status: EXPLORING
-  review_status: needs_review
-  review_reason: 'new-star-review: A-share market heatmap and sector-movement dashboard.'
+  review_status: confirmed
+  review_reason: null
   github_snapshot:
     default_branch: main
     visibility: public
     archived: false
-    description: 免费开源的 A股热力图｜A股大盘云图，各板块涨跌一眼可见
-    license_spdx: MIT
+    description: A collection of Awesome Finance Agent Skills for free and easy to start | 一系列开源免费的金融分析Agent Skills
+    license_spdx: Apache-2.0
     checked_at: '2026-09-14'
-    pushed_at: '2026-09-10T08:28:08Z'
+    pushed_at: '2026-03-29T05:03:47Z'
   content_lock:
-    locked_ref: c15f94e616cfa94747c3cc2e5caedd02341474f0
-    locked_url: https://github.com/wenyuanw/a-share-heatmap/commit/c15f94e616cfa94747c3cc2e5caedd02341474f0
+    locked_ref: 853f09b4d0baae747759ed31e21ed5c5b2316a5f
+    locked_url: https://github.com/RKiding/Awesome-finance-skills/commit/853f09b4d0baae747759ed31e21ed5c5b2316a5f
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
+  catalog_added_at: '2026-04-27T07:10:09Z'
+- universe: trading
+  repo: LLMQuant/quant-wiki
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: knowledge-and-collections
+  tags:
+  - collection
+  - memory
+  - research
+  source_url: https://github.com/LLMQuant/quant-wiki
+  visibility: public
+  archived: false
+  description: We are committed to the open-sourcing quantitative knowledge, aiming to bridge the information gap between
+    the domestic and international quantitative finance industries. 我们致力于量化知识的开源与汉化，打破国内外量化金融行业信息差。
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: master
+    visibility: public
+    archived: false
+    description: We are committed to the open-sourcing quantitative knowledge, aiming to bridge the information gap between
+      the domestic and international quantitative finance industries. 我们致力于量化知识的开源与汉化，打破国内外量化金融行业信息差。
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-04-16T10:50:54Z'
+  content_lock:
+    locked_ref: f08b94e13425c234b20e2641ec525178259b8684
+    locked_url: https://github.com/LLMQuant/quant-wiki/commit/f08b94e13425c234b20e2641ec525178259b8684
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2025-08-11T17:05:11Z'
 - universe: trading
   repo: wilsonfreitas/awesome-quant
   owned: false
@@ -1521,35 +1704,4 @@ entries:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- universe: trading
-  repo: wshobson/maverick-mcp
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: equity-research
-  tags:
-  - python
-  - research
-  source_url: https://github.com/wshobson/maverick-mcp
-  visibility: public
-  archived: false
-  description: MaverickMCP - Personal Stock Analysis MCP Server
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: MaverickMCP - Personal Stock Analysis MCP Server
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-13T13:15:55Z'
-  content_lock:
-    locked_ref: fb55c84c9a9c8cc26b1d4aaf337e6fcc83cf7eb1
-    locked_url: https://github.com/wshobson/maverick-mcp/commit/fb55c84c9a9c8cc26b1d4aaf337e6fcc83cf7eb1
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
+  catalog_added_at: '2024-04-12T02:46:41Z'
