@@ -4,6 +4,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 python3 - "$ROOT" <<'PY'
 from pathlib import Path
+import datetime as dt
 import re
 import sys
 import yaml
@@ -15,6 +16,8 @@ entries = snapshot["entries"]
 universe = registry["universe"]
 assert registry["registry_repo"] is True
 assert registry["registry_role"] == "public_scoped"
+assert registry["catalog_order"] == "category_then_added_desc"
+assert registry["catalog_time_source"] == "owned_created_at_external_starred_at"
 assert snapshot["universe"] == universe
 assert snapshot["snapshot_id"] == registry["canonical_snapshot"]
 assert snapshot["generated_from"] == "zinan92/park-operating-system"
@@ -25,6 +28,12 @@ assert all(re.fullmatch(r"https://github\.com/[^/ ]+/[^/ ]+", item["source_url"]
 assert all(item["primary_category"] for item in entries)
 assert all(item["status"] in {"READY", "BUILDING", "EXPLORING"} for item in entries)
 assert all(item["review_status"] in {"confirmed", "needs_review"} for item in entries)
+category_order = ["data", "equity-research", "trading-strategy", "trading-infra", "dashboard", "full-trading-system-agent", "knowledge-and-collections"]
+sort_keys = []
+for item in entries:
+    timestamp = dt.datetime.fromisoformat(item["catalog_added_at"].replace("Z", "+00:00"))
+    sort_keys.append((category_order.index(item["primary_category"]), -timestamp.timestamp(), item["repo"].lower()))
+assert sort_keys == sorted(sort_keys)
 external_ids = {item["repo"] for item in entries if not item["owned"]}
 owned_ids = {item["repo"] for item in entries if item["owned"] and not item["archived"]}
 starred_ids = {item["repo"] for item in entries if item["starred"] and not item["owned"] and not item["archived"]}

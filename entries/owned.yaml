@@ -1,56 +1,30 @@
-snapshot_id: github-universe-2026-09-19
+snapshot_id: github-universe-2026-09-19-catalog-order-01
 entries:
 - universe: trading
-  repo: zinan92/chancode
+  repo: zinan92/watchlist
   owned: true
   starred: false
   source_kind: owned
   registry_repo: false
   registry_role: null
-  primary_category: trading-strategy
-  tags:
-  - private
-  source_url: https://github.com/zinan92/chancode
-  visibility: private
+  primary_category: data
+  tags: []
+  source_url: https://github.com/zinan92/watchlist
+  visibility: public
   archived: false
-  description: ''
-  status: BUILDING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: master
-    visibility: private
-    archived: false
-    description: ''
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-04-07T01:59:03Z'
-- universe: trading
-  repo: zinan92/copilot
-  owned: true
-  starred: true
-  source_kind: owned_and_starred
-  registry_repo: false
-  registry_role: null
-  primary_category: knowledge-and-collections
-  tags:
-  - private
-  - python
-  source_url: https://github.com/zinan92/copilot
-  visibility: private
-  archived: false
-  description: 方法论路由。in 信号+上下文 → out 44套方法论匹配分析
+  description: Park Exposure Registry — 行情与新闻共用的唯一权威名单：6 条宏观主线 / 24 个中观赛道 / 109 个 target
   status: BUILDING
   review_status: confirmed
   review_reason: null
   github_snapshot:
     default_branch: main
-    visibility: private
+    visibility: public
     archived: false
-    description: 方法论路由。in 信号+上下文 → out 44套方法论匹配分析
-    license_spdx: MIT
+    description: Park Exposure Registry — 行情与新闻共用的唯一权威名单：6 条宏观主线 / 24 个中观赛道 / 109 个 target
+    license_spdx: NOASSERTION
     checked_at: '2026-09-14'
-    pushed_at: '2026-03-22T09:40:21Z'
+    pushed_at: '2026-09-03T14:22:57Z'
+  catalog_added_at: '2026-09-03T12:36:57Z'
 - universe: trading
   repo: zinan92/datafeed
   owned: true
@@ -76,58 +50,7 @@ entries:
     license_spdx: NOASSERTION
     checked_at: '2026-09-14'
     pushed_at: '2026-09-09T02:30:05Z'
-- universe: trading
-  repo: zinan92/equity-research
-  owned: true
-  starred: false
-  source_kind: owned
-  registry_repo: false
-  registry_role: null
-  primary_category: equity-research
-  tags:
-  - python
-  - research
-  source_url: https://github.com/zinan92/equity-research
-  visibility: public
-  archived: false
-  description: A股长期投委会 + 证据快照深度研报平台(Park 产品层)
-  status: BUILDING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: A股长期投委会 + 证据快照深度研报平台(Park 产品层)
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-11T04:06:27Z'
-- universe: trading
-  repo: zinan92/human-kline-review
-  owned: true
-  starred: false
-  source_kind: owned
-  registry_repo: false
-  registry_role: null
-  primary_category: dashboard
-  tags:
-  - private
-  - python
-  source_url: https://github.com/zinan92/human-kline-review
-  visibility: private
-  archived: false
-  description: Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later
-  status: BUILDING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: private
-    archived: false
-    description: Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-01T03:03:14Z'
+  catalog_added_at: '2026-03-29T12:09:53Z'
 - universe: trading
   repo: zinan92/intel
   owned: true
@@ -153,6 +76,7 @@ entries:
     license_spdx: NOASSERTION
     checked_at: '2026-09-14'
     pushed_at: '2026-09-11T04:06:33Z'
+  catalog_added_at: '2026-02-13T01:53:06Z'
 - universe: trading
   repo: zinan92/quant-data-pipeline
   owned: true
@@ -181,6 +105,88 @@ entries:
     license_spdx: NOASSERTION
     checked_at: '2026-09-14'
     pushed_at: '2026-03-27T14:19:32Z'
+  catalog_added_at: '2026-02-13T01:53:03Z'
+- universe: trading
+  repo: zinan92/equity-research
+  owned: true
+  starred: false
+  source_kind: owned
+  registry_repo: false
+  registry_role: null
+  primary_category: equity-research
+  tags:
+  - python
+  - research
+  source_url: https://github.com/zinan92/equity-research
+  visibility: public
+  archived: false
+  description: A股长期投委会 + 证据快照深度研报平台(Park 产品层)
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: A股长期投委会 + 证据快照深度研报平台(Park 产品层)
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-11T04:06:27Z'
+  catalog_added_at: '2026-07-20T13:10:00Z'
+- universe: trading
+  repo: zinan92/trading-strategy
+  owned: true
+  starred: false
+  source_kind: owned
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-strategy
+  tags:
+  - python
+  source_url: https://github.com/zinan92/trading-strategy
+  visibility: public
+  archived: false
+  description: Engine-neutral Canonical DCA/Grid strategy engine。in plain Python strategy inputs + OHLCV bars → out deterministic
+    plans, previews, replays, and lifecycle receipts
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: Engine-neutral Canonical DCA/Grid strategy engine。in plain Python strategy inputs + OHLCV bars → out deterministic
+      plans, previews, replays, and lifecycle receipts
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-08-25T03:20:04Z'
+  catalog_added_at: '2026-08-24T07:35:40Z'
+- universe: trading
+  repo: zinan92/chancode
+  owned: true
+  starred: false
+  source_kind: owned
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-strategy
+  tags:
+  - private
+  source_url: https://github.com/zinan92/chancode
+  visibility: private
+  archived: false
+  description: ''
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: master
+    visibility: private
+    archived: false
+    description: ''
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-04-07T01:59:03Z'
+  catalog_added_at: '2026-05-26T11:22:04Z'
 - universe: trading
   repo: zinan92/standard-broker
   owned: true
@@ -209,84 +215,7 @@ entries:
     license_spdx: NOASSERTION
     checked_at: '2026-09-14'
     pushed_at: '2026-09-11T03:59:40Z'
-- universe: trading
-  repo: zinan92/standard-kline
-  owned: true
-  starred: false
-  source_kind: owned
-  registry_repo: false
-  registry_role: null
-  primary_category: dashboard
-  tags:
-  - javascript
-  source_url: https://github.com/zinan92/standard-kline
-  visibility: public
-  archived: false
-  description: 标准 K 线前端组件。in OHLCV bars + provider metadata → out candlestick chart + volume + overlays + synthetic watermark
-  status: BUILDING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 标准 K 线前端组件。in OHLCV bars + provider metadata → out candlestick chart + volume + overlays + synthetic watermark
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-08-19T17:57:28Z'
-- universe: trading
-  repo: zinan92/trading-desk
-  owned: true
-  starred: false
-  source_kind: owned
-  registry_repo: false
-  registry_role: null
-  primary_category: dashboard
-  tags:
-  - private
-  - python
-  source_url: https://github.com/zinan92/trading-desk
-  visibility: private
-  archived: false
-  description: ''
-  status: BUILDING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: private
-    archived: false
-    description: ''
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-19'
-    pushed_at: '2026-09-15T08:37:29Z'
-- universe: trading
-  repo: zinan92/trading-strategy
-  owned: true
-  starred: false
-  source_kind: owned
-  registry_repo: false
-  registry_role: null
-  primary_category: trading-strategy
-  tags:
-  - python
-  source_url: https://github.com/zinan92/trading-strategy
-  visibility: public
-  archived: false
-  description: Engine-neutral Canonical DCA/Grid strategy engine。in plain Python strategy inputs + OHLCV bars → out deterministic
-    plans, previews, replays, and lifecycle receipts
-  status: BUILDING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: Engine-neutral Canonical DCA/Grid strategy engine。in plain Python strategy inputs + OHLCV bars → out deterministic
-      plans, previews, replays, and lifecycle receipts
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-08-25T03:20:04Z'
+  catalog_added_at: '2026-08-21T04:12:09Z'
 - universe: trading
   repo: zinan92/trading-system
   owned: true
@@ -315,19 +244,75 @@ entries:
     license_spdx: NOASSERTION
     checked_at: '2026-09-14'
     pushed_at: '2026-09-14T01:20:38Z'
+  catalog_added_at: '2026-07-03T15:40:12Z'
 - universe: trading
-  repo: zinan92/watchlist
+  repo: zinan92/trading-desk
   owned: true
   starred: false
   source_kind: owned
   registry_repo: false
   registry_role: null
-  primary_category: data
-  tags: []
-  source_url: https://github.com/zinan92/watchlist
+  primary_category: dashboard
+  tags:
+  - private
+  - python
+  source_url: https://github.com/zinan92/trading-desk
+  visibility: private
+  archived: false
+  description: ''
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: private
+    archived: false
+    description: ''
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-19'
+    pushed_at: '2026-09-15T08:37:29Z'
+  catalog_added_at: '2026-09-14T07:51:12Z'
+- universe: trading
+  repo: zinan92/human-kline-review
+  owned: true
+  starred: false
+  source_kind: owned
+  registry_repo: false
+  registry_role: null
+  primary_category: dashboard
+  tags:
+  - private
+  - python
+  source_url: https://github.com/zinan92/human-kline-review
+  visibility: private
+  archived: false
+  description: Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: private
+    archived: false
+    description: Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-01T03:03:14Z'
+  catalog_added_at: '2026-08-23T07:14:32Z'
+- universe: trading
+  repo: zinan92/standard-kline
+  owned: true
+  starred: false
+  source_kind: owned
+  registry_repo: false
+  registry_role: null
+  primary_category: dashboard
+  tags:
+  - javascript
+  source_url: https://github.com/zinan92/standard-kline
   visibility: public
   archived: false
-  description: Park Exposure Registry — 行情与新闻共用的唯一权威名单：6 条宏观主线 / 24 个中观赛道 / 109 个 target
+  description: 标准 K 线前端组件。in OHLCV bars + provider metadata → out candlestick chart + volume + overlays + synthetic watermark
   status: BUILDING
   review_status: confirmed
   review_reason: null
@@ -335,7 +320,35 @@ entries:
     default_branch: main
     visibility: public
     archived: false
-    description: Park Exposure Registry — 行情与新闻共用的唯一权威名单：6 条宏观主线 / 24 个中观赛道 / 109 个 target
-    license_spdx: NOASSERTION
+    description: 标准 K 线前端组件。in OHLCV bars + provider metadata → out candlestick chart + volume + overlays + synthetic watermark
+    license_spdx: MIT
     checked_at: '2026-09-14'
-    pushed_at: '2026-09-03T14:22:57Z'
+    pushed_at: '2026-08-19T17:57:28Z'
+  catalog_added_at: '2026-07-07T15:08:18Z'
+- universe: trading
+  repo: zinan92/copilot
+  owned: true
+  starred: true
+  source_kind: owned_and_starred
+  registry_repo: false
+  registry_role: null
+  primary_category: knowledge-and-collections
+  tags:
+  - private
+  - python
+  source_url: https://github.com/zinan92/copilot
+  visibility: private
+  archived: false
+  description: 方法论路由。in 信号+上下文 → out 44套方法论匹配分析
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: private
+    archived: false
+    description: 方法论路由。in 信号+上下文 → out 44套方法论匹配分析
+    license_spdx: MIT
+    checked_at: '2026-09-14'
+    pushed_at: '2026-03-22T09:40:21Z'
+  catalog_added_at: '2026-03-18T12:37:23Z'
