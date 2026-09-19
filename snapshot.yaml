@@ -1,7 +1,7 @@
 universe: trading
-snapshot_id: github-universe-2026-09-14
+snapshot_id: github-universe-2026-09-19
 generated_from: zinan92/park-operating-system
-generated_from_checksum: eb9176f3ad7b3195b0c31e597a9c25ee25af4e16591fe59e6d09d8f2a3c383be
+generated_from_checksum: 9031b22c57756f11f22956a4a1b1cb0770c8cf2fb263c534b2b2439427671646
 entries:
 - universe: trading
   repo: 1nchaos/adata
@@ -65,6 +65,37 @@ entries:
     locked_ref: dc0efc8ec36c138bd619272b2b59042778668408
     locked_url: https://github.com/Drakkar-Software/OctoBot/commit/dc0efc8ec36c138bd619272b2b59042778668408
     locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- universe: trading
+  repo: FinHackCN/finhack
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - python
+  source_url: https://github.com/FinHackCN/finhack
+  visibility: public
+  archived: false
+  description: FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-19'
+    pushed_at: '2026-08-19T03:01:18Z'
+  content_lock:
+    locked_ref: dedbbd0b7accfed035ba05f07d76726d8754bbf7
+    locked_url: https://github.com/FinHackCN/finhack/commit/dedbbd0b7accfed035ba05f07d76726d8754bbf7
+    locked_at: '2026-09-19'
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -434,6 +465,42 @@ entries:
     locked_ref: 429d6ed3043e27c93a003ba2b10e70a05575e1f5
     locked_url: https://github.com/Vespa314/chan.py/commit/429d6ed3043e27c93a003ba2b10e70a05575e1f5
     locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- universe: trading
+  repo: YoungCan-Wang/WyckoffTradingAgent
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-strategy
+  tags:
+  - dashboard
+  - python
+  - research
+  - workflow
+  source_url: https://github.com/YoungCan-Wang/WyckoffTradingAgent
+  visibility: public
+  archived: false
+  description: Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI workflows,
+    and MCP tools.灵感来自秋生trader @Hoyooyoo
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI
+      workflows, and MCP tools.灵感来自秋生trader @Hoyooyoo
+    license_spdx: AGPL-3.0
+    checked_at: '2026-09-19'
+    pushed_at: '2026-09-19T00:07:25Z'
+  content_lock:
+    locked_ref: 6bdaf1eb3cff0068b21cc17f801fcb878ab802ce
+    locked_url: https://github.com/YoungCan-Wang/WyckoffTradingAgent/commit/6bdaf1eb3cff0068b21cc17f801fcb878ab802ce
+    locked_at: '2026-09-19'
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -1332,6 +1399,41 @@ entries:
     update_policy: monthly_pr
     vendored: false
 - universe: trading
+  repo: tickflow-org/tickflow
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: data
+  tags:
+  - api
+  - library
+  - python
+  source_url: https://github.com/tickflow-org/tickflow
+  visibility: public
+  archived: false
+  description: Professional financial data API for China A-shares, US & HK stocks. Python SDK with real-time quotes, K-line
+    data & financial reports.
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: Professional financial data API for China A-shares, US & HK stocks. Python SDK with real-time quotes, K-line
+      data & financial reports.
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-19'
+    pushed_at: '2026-08-29T06:00:07Z'
+  content_lock:
+    locked_ref: c27f23c50386c10f2c439cf8345e9aa2c295e0c7
+    locked_url: https://github.com/tickflow-org/tickflow/commit/c27f23c50386c10f2c439cf8345e9aa2c295e0c7
+    locked_at: '2026-09-19'
+    update_policy: monthly_pr
+    vendored: false
+- universe: trading
   repo: virattt/dexter
   owned: false
   starred: true
@@ -1791,6 +1893,32 @@ entries:
     checked_at: '2026-09-14'
     pushed_at: '2026-08-19T17:57:28Z'
 - universe: trading
+  repo: zinan92/trading-desk
+  owned: true
+  starred: false
+  source_kind: owned
+  registry_repo: false
+  registry_role: null
+  primary_category: dashboard
+  tags:
+  - private
+  - python
+  source_url: https://github.com/zinan92/trading-desk
+  visibility: private
+  archived: false
+  description: ''
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: private
+    archived: false
+    description: ''
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-19'
+    pushed_at: '2026-09-15T08:37:29Z'
+- universe: trading
   repo: zinan92/trading-strategy
   owned: true
   starred: false
@@ -1869,4 +1997,4 @@ entries:
     license_spdx: NOASSERTION
     checked_at: '2026-09-14'
     pushed_at: '2026-09-03T14:22:57Z'
-export_checksum: 169fc02a2f0aa0ee1c9b06c4ba02561e85b43aff1ba7129061ecd60596d8de6a
+export_checksum: 42072a136052f1592290997d24b9b1e0e6d82725e7895248a0e96b6c78176a50

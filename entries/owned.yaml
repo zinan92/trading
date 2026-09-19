@@ -1,4 +1,4 @@
-snapshot_id: github-universe-2026-09-14
+snapshot_id: github-universe-2026-09-19
 entries:
 - universe: trading
   repo: zinan92/chancode
@@ -234,6 +234,32 @@ entries:
     license_spdx: MIT
     checked_at: '2026-09-14'
     pushed_at: '2026-08-19T17:57:28Z'
+- universe: trading
+  repo: zinan92/trading-desk
+  owned: true
+  starred: false
+  source_kind: owned
+  registry_repo: false
+  registry_role: null
+  primary_category: dashboard
+  tags:
+  - private
+  - python
+  source_url: https://github.com/zinan92/trading-desk
+  visibility: private
+  archived: false
+  description: ''
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: private
+    archived: false
+    description: ''
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-19'
+    pushed_at: '2026-09-15T08:37:29Z'
 - universe: trading
   repo: zinan92/trading-strategy
   owned: true

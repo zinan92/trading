@@ -2,6 +2,6 @@ universe: trading
 registry_repo: true
 registry_role: public_scoped
 canonical_registry_repo: zinan92/park-operating-system
-canonical_snapshot: github-universe-2026-09-14
-generated_from_checksum: eb9176f3ad7b3195b0c31e597a9c25ee25af4e16591fe59e6d09d8f2a3c383be
-export_checksum: 169fc02a2f0aa0ee1c9b06c4ba02561e85b43aff1ba7129061ecd60596d8de6a
+canonical_snapshot: github-universe-2026-09-19
+generated_from_checksum: 9031b22c57756f11f22956a4a1b1cb0770c8cf2fb263c534b2b2439427671646
+export_checksum: 42072a136052f1592290997d24b9b1e0e6d82725e7895248a0e96b6c78176a50

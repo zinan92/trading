@@ -1,4 +1,4 @@
-snapshot_id: github-universe-2026-09-14
+snapshot_id: github-universe-2026-09-19
 entries:
 - universe: trading
   repo: 1nchaos/adata
@@ -62,6 +62,37 @@ entries:
     locked_ref: dc0efc8ec36c138bd619272b2b59042778668408
     locked_url: https://github.com/Drakkar-Software/OctoBot/commit/dc0efc8ec36c138bd619272b2b59042778668408
     locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- universe: trading
+  repo: FinHackCN/finhack
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  tags:
+  - python
+  source_url: https://github.com/FinHackCN/finhack
+  visibility: public
+  archived: false
+  description: FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-19'
+    pushed_at: '2026-08-19T03:01:18Z'
+  content_lock:
+    locked_ref: dedbbd0b7accfed035ba05f07d76726d8754bbf7
+    locked_url: https://github.com/FinHackCN/finhack/commit/dedbbd0b7accfed035ba05f07d76726d8754bbf7
+    locked_at: '2026-09-19'
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -431,6 +462,42 @@ entries:
     locked_ref: 429d6ed3043e27c93a003ba2b10e70a05575e1f5
     locked_url: https://github.com/Vespa314/chan.py/commit/429d6ed3043e27c93a003ba2b10e70a05575e1f5
     locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- universe: trading
+  repo: YoungCan-Wang/WyckoffTradingAgent
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-strategy
+  tags:
+  - dashboard
+  - python
+  - research
+  - workflow
+  source_url: https://github.com/YoungCan-Wang/WyckoffTradingAgent
+  visibility: public
+  archived: false
+  description: Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI workflows,
+    and MCP tools.灵感来自秋生trader @Hoyooyoo
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI
+      workflows, and MCP tools.灵感来自秋生trader @Hoyooyoo
+    license_spdx: AGPL-3.0
+    checked_at: '2026-09-19'
+    pushed_at: '2026-09-19T00:07:25Z'
+  content_lock:
+    locked_ref: 6bdaf1eb3cff0068b21cc17f801fcb878ab802ce
+    locked_url: https://github.com/YoungCan-Wang/WyckoffTradingAgent/commit/6bdaf1eb3cff0068b21cc17f801fcb878ab802ce
+    locked_at: '2026-09-19'
     update_policy: monthly_pr
     vendored: false
 - universe: trading
@@ -1326,6 +1393,41 @@ entries:
     locked_ref: d2a87d5bd9c84baac2918edca668b9f82a20be52
     locked_url: https://github.com/stockServ/chzhshch-108-plus/commit/d2a87d5bd9c84baac2918edca668b9f82a20be52
     locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- universe: trading
+  repo: tickflow-org/tickflow
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: data
+  tags:
+  - api
+  - library
+  - python
+  source_url: https://github.com/tickflow-org/tickflow
+  visibility: public
+  archived: false
+  description: Professional financial data API for China A-shares, US & HK stocks. Python SDK with real-time quotes, K-line
+    data & financial reports.
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: Professional financial data API for China A-shares, US & HK stocks. Python SDK with real-time quotes, K-line
+      data & financial reports.
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-19'
+    pushed_at: '2026-08-29T06:00:07Z'
+  content_lock:
+    locked_ref: c27f23c50386c10f2c439cf8345e9aa2c295e0c7
+    locked_url: https://github.com/tickflow-org/tickflow/commit/c27f23c50386c10f2c439cf8345e9aa2c295e0c7
+    locked_at: '2026-09-19'
     update_policy: monthly_pr
     vendored: false
 - universe: trading

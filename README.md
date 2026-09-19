@@ -4,7 +4,7 @@
 
 **Trading 的 capability-first registry：按子分类浏览 owned 与 starred repo。**
 
-[![Snapshot](https://img.shields.io/badge/snapshot-59%20repos-0969DA.svg)](snapshot.yaml)
+[![Snapshot](https://img.shields.io/badge/snapshot-63%20repos-0969DA.svg)](snapshot.yaml)
 [![Source](https://img.shields.io/badge/source-Park%20OS-8250DF.svg)](https://github.com/zinan92/park-operating-system)
 
 </div>
@@ -13,14 +13,14 @@
 
 ```text
 in  canonical Park OS snapshot + source provenance + fixed commit locks
-out  59-repo Trading map, grouped by function and owned/starred source
+out  63-repo Trading map, grouped by function and owned/starred source
 
 fail snapshot checksum mismatch → stop before publishing
 fail private source inaccessible → preserve name/link and mark PRIVATE
 fail unclassified placement → keep needs_review; do not guess
 ```
 
-Snapshot: `github-universe-2026-09-14` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
+Snapshot: `github-universe-2026-09-19` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
 
 ## How to read this page
 
@@ -31,7 +31,7 @@ Snapshot: `github-universe-2026-09-14` · canonical source: [Park OS](https://gi
 
 ## Browse by function
 
-### Data (13)
+### Data (14)
 
 | Repo | Capability / description | Source | Lock / flags |
 |---|---|---|---|
@@ -48,6 +48,7 @@ Snapshot: `github-universe-2026-09-14` · canonical source: [Park OS](https://gi
 | [zinan92/intel](https://github.com/zinan92/intel) | 情报采集。in 10+信息源 → out LLM评分+跨源事件聚类 | Owned + Starred | `owned source` |
 | [zinan92/quant-data-pipeline](https://github.com/zinan92/quant-data-pipeline) | 多市场量化数据平台 — A股/美股/加密/商品，28组API，感知信号引擎，模拟交易 | Owned + Starred | `owned source` |
 | [zinan92/watchlist](https://github.com/zinan92/watchlist) | Park Exposure Registry — 行情与新闻共用的唯一权威名单：6 条宏观主线 / 24 个中观赛道 / 109 个 target | Owned | `owned source` |
+| [tickflow-org/tickflow](https://github.com/tickflow-org/tickflow) | Professional financial data API for China A-shares, US & HK stocks. Python SDK with real-time quotes, K-line data & financial reports. | Starred | `c27f23c50386` |
 
 ### Equity Research (9)
 
@@ -63,7 +64,7 @@ Snapshot: `github-universe-2026-09-14` · canonical source: [Park OS](https://gi
 | [wshobson/maverick-mcp](https://github.com/wshobson/maverick-mcp) | MaverickMCP - Personal Stock Analysis MCP Server | Starred | `fb55c84c9a9c` |
 | [zinan92/equity-research](https://github.com/zinan92/equity-research) | A股长期投委会 + 证据快照深度研报平台(Park 产品层) | Owned | `owned source` |
 
-### Trading Strategy (7)
+### Trading Strategy (8)
 
 | Repo | Capability / description | Source | Lock / flags |
 |---|---|---|---|
@@ -74,6 +75,7 @@ Snapshot: `github-universe-2026-09-14` · canonical source: [Park OS](https://gi
 | [waditu/czsc](https://github.com/waditu/czsc) | 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 | Starred | `701e480a5450` |
 | [zinan92/chancode](https://github.com/zinan92/chancode) | No description | Owned | `owned source` · PRIVATE |
 | [zinan92/trading-strategy](https://github.com/zinan92/trading-strategy) | Engine-neutral Canonical DCA/Grid strategy engine。in plain Python strategy inputs + OHLCV bars → out deterministic plans, previews, replays, and lifecycle receipts | Owned | `owned source` |
+| [YoungCan-Wang/WyckoffTradingAgent](https://github.com/YoungCan-Wang/WyckoffTradingAgent) | Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI workflows, and MCP tools.灵感来自秋生trader @Hoyooyoo | Starred | `6bdaf1eb3cff` |
 
 ### Trading Infra (6)
 
@@ -86,7 +88,7 @@ Snapshot: `github-universe-2026-09-14` · canonical source: [Park OS](https://gi
 | [zinan92/standard-broker](https://github.com/zinan92/standard-broker) | Provider-neutral broker Ports & Adapters for Paper-safe trading systems | Owned | `owned source` · PRIVATE |
 | [zinan92/trading-system](https://github.com/zinan92/trading-system) | Gold trading system orchestrator | Owned | `owned source` · PRIVATE |
 
-### Dashboard (5)
+### Dashboard (6)
 
 | Repo | Capability / description | Source | Lock / flags |
 |---|---|---|---|
@@ -95,8 +97,9 @@ Snapshot: `github-universe-2026-09-14` · canonical source: [Park OS](https://gi
 | [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) | 📈 Get real-time stocks from TradingView | Starred | `5baea86c8c7e` |
 | [zinan92/human-kline-review](https://github.com/zinan92/human-kline-review) | Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later | Owned | `owned source` · PRIVATE |
 | [zinan92/standard-kline](https://github.com/zinan92/standard-kline) | 标准 K 线前端组件。in OHLCV bars + provider metadata → out candlestick chart + volume + overlays + synthetic watermark | Owned | `owned source` |
+| [zinan92/trading-desk](https://github.com/zinan92/trading-desk) | Park 交易台：滚动新闻、判断与执行记录的工作入口。 | Owned | `owned source` · PRIVATE |
 
-### Full Trading System / Agent (12)
+### Full Trading System / Agent (13)
 
 | Repo | Capability / description | Source | Lock / flags |
 |---|---|---|---|
@@ -112,6 +115,7 @@ Snapshot: `github-universe-2026-09-14` · canonical source: [Park OS](https://gi
 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading Framework | Starred | `be952b8eccb4` |
 | [Theclues/TradeGenuis-Options](https://github.com/Theclues/TradeGenuis-Options) | No description | Starred | `a77d13dae84b` |
 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. | Starred | `1168e316269b` |
+| [FinHackCN/finhack](https://github.com/FinHackCN/finhack) | FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。 | Starred | `dedbbd0b7acc` |
 
 ### Knowledge & Collections (7)
 
