@@ -1,5 +1,5 @@
-snapshot_id: github-universe-2026-09-26-star-refresh-01
-generated_from_checksum: b236a0cfdd4f818f75b9e981953ac88e01fefeed4ee3af34e8ca2bc1b7f70dc0
+snapshot_id: github-universe-2026-09-26-finance-skills-knowledge-01
+generated_from_checksum: 9b98f6417d1129f8a2594a1f180ea7e426b5afc93fb278ee70d3561390609add
 locks:
 - repo: tickflow-org/tickflow
   source_url: https://github.com/tickflow-org/tickflow
@@ -321,14 +321,6 @@ locks:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
-- repo: lzwme/finance-quant-skills
-  source_url: https://github.com/lzwme/finance-quant-skills
-  content_lock:
-    locked_ref: 7af066194d8dbc68a45ce01073ff56e2f095b79c
-    locked_url: https://github.com/lzwme/finance-quant-skills/commit/7af066194d8dbc68a45ce01073ff56e2f095b79c
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
 - repo: shiyu-coder/Kronos
   source_url: https://github.com/shiyu-coder/Kronos
   content_lock:
@@ -382,6 +374,14 @@ locks:
   content_lock:
     locked_ref: d2a87d5bd9c84baac2918edca668b9f82a20be52
     locked_url: https://github.com/stockServ/chzhshch-108-plus/commit/d2a87d5bd9c84baac2918edca668b9f82a20be52
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: lzwme/finance-quant-skills
+  source_url: https://github.com/lzwme/finance-quant-skills
+  content_lock:
+    locked_ref: 7af066194d8dbc68a45ce01073ff56e2f095b79c
+    locked_url: https://github.com/lzwme/finance-quant-skills/commit/7af066194d8dbc68a45ce01073ff56e2f095b79c
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
