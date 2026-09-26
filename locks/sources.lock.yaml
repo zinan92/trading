@@ -1,5 +1,5 @@
-snapshot_id: github-universe-2026-09-19-catalog-order-01
-generated_from_checksum: cf1d439c3a4730a50198508852e2304c7d3aa716a9039f806dca596d68e98d29
+snapshot_id: github-universe-2026-09-26-star-refresh-01
+generated_from_checksum: b236a0cfdd4f818f75b9e981953ac88e01fefeed4ee3af34e8ca2bc1b7f70dc0
 locks:
 - repo: tickflow-org/tickflow
   source_url: https://github.com/tickflow-org/tickflow
@@ -145,6 +145,14 @@ locks:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
+- repo: fmzquant/strategies
+  source_url: https://github.com/fmzquant/strategies
+  content_lock:
+    locked_ref: 7853bb2bf262c4567ac238d3552d97f0e50cb801
+    locked_url: https://github.com/fmzquant/strategies/commit/7853bb2bf262c4567ac238d3552d97f0e50cb801
+    locked_at: 2026-09-26-star-refresh-01
+    update_policy: monthly_pr
+    vendored: false
 - repo: YoungCan-Wang/WyckoffTradingAgent
   source_url: https://github.com/YoungCan-Wang/WyckoffTradingAgent
   content_lock:
@@ -225,6 +233,14 @@ locks:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
+- repo: Open-Dev-Society/OpenStock
+  source_url: https://github.com/Open-Dev-Society/OpenStock
+  content_lock:
+    locked_ref: 87df76a2ce58c33bc98b89760f4cc8f6527834d0
+    locked_url: https://github.com/Open-Dev-Society/OpenStock/commit/87df76a2ce58c33bc98b89760f4cc8f6527834d0
+    locked_at: 2026-09-26-star-refresh-01
+    update_policy: monthly_pr
+    vendored: false
 - repo: deepentropy/tvscreener
   source_url: https://github.com/deepentropy/tvscreener
   content_lock:
@@ -247,6 +263,14 @@ locks:
     locked_ref: 5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
     locked_url: https://github.com/Mathieu2301/TradingView-API/commit/5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
     locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: ArvinLovegood/go-stock
+  source_url: https://github.com/ArvinLovegood/go-stock
+  content_lock:
+    locked_ref: c26304fafab0796765147c7db5049a9c3686319b
+    locked_url: https://github.com/ArvinLovegood/go-stock/commit/c26304fafab0796765147c7db5049a9c3686319b
+    locked_at: 2026-09-26-star-refresh-01
     update_policy: monthly_pr
     vendored: false
 - repo: FinHackCN/finhack
