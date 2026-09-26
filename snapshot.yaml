@@ -1,7 +1,7 @@
 universe: trading
-snapshot_id: github-universe-2026-09-26-star-refresh-01
+snapshot_id: github-universe-2026-09-26-finance-skills-knowledge-01
 generated_from: zinan92/park-operating-system
-generated_from_checksum: b236a0cfdd4f818f75b9e981953ac88e01fefeed4ee3af34e8ca2bc1b7f70dc0
+generated_from_checksum: 9b98f6417d1129f8a2594a1f180ea7e426b5afc93fb278ee70d3561390609add
 entries:
 - universe: trading
   repo: tickflow-org/tickflow
@@ -1689,40 +1689,6 @@ entries:
     vendored: false
   catalog_added_at: '2026-08-26T03:40:12Z'
 - universe: trading
-  repo: lzwme/finance-quant-skills
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: full-trading-system-agent
-  tags:
-  - python
-  - research
-  - skill
-  source_url: https://github.com/lzwme/finance-quant-skills
-  visibility: public
-  archived: false
-  description: 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。
-  status: EXPLORING
-  review_status: confirmed
-  review_reason: null
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。
-    license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-11T05:40:10Z'
-  content_lock:
-    locked_ref: 7af066194d8dbc68a45ce01073ff56e2f095b79c
-    locked_url: https://github.com/lzwme/finance-quant-skills/commit/7af066194d8dbc68a45ce01073ff56e2f095b79c
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-  catalog_added_at: '2026-08-26T02:50:40Z'
-- universe: trading
   repo: shiyu-coder/Kronos
   owned: false
   starred: true
@@ -1965,6 +1931,40 @@ entries:
     vendored: false
   catalog_added_at: '2026-09-10T04:43:41Z'
 - universe: trading
+  repo: lzwme/finance-quant-skills
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: knowledge-and-collections
+  tags:
+  - python
+  - research
+  - skill
+  source_url: https://github.com/lzwme/finance-quant-skills
+  visibility: public
+  archived: false
+  description: 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-14'
+    pushed_at: '2026-09-11T05:40:10Z'
+  content_lock:
+    locked_ref: 7af066194d8dbc68a45ce01073ff56e2f095b79c
+    locked_url: https://github.com/lzwme/finance-quant-skills/commit/7af066194d8dbc68a45ce01073ff56e2f095b79c
+    locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+  catalog_added_at: '2026-08-26T02:50:40Z'
+- universe: trading
   repo: wangzhe3224/awesome-systematic-trading
   owned: false
   starred: true
@@ -2161,4 +2161,4 @@ entries:
     update_policy: monthly_pr
     vendored: false
   catalog_added_at: '2024-04-12T02:46:41Z'
-export_checksum: e3c611b82f748c666f907b92e3f5f1964d419e0e1546d08706834e8e7a5bf15a
+export_checksum: 47a2b622c993d73b8b6d11fc91a51e4fcd21ab4e05ebb5af7b41ddc501390eee

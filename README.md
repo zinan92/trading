@@ -20,7 +20,7 @@ fail missing created_at / starred_at → stop; do not guess ordering
 fail unclassified placement → keep needs_review; do not guess
 ```
 
-Snapshot: `github-universe-2026-09-26-star-refresh-01` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
+Snapshot: `github-universe-2026-09-26-finance-skills-knowledge-01` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
 
 ## How to read this page
 
@@ -101,7 +101,7 @@ Snapshot: `github-universe-2026-09-26-star-refresh-01` · canonical source: [Par
 | [zinan92/standard-kline](https://github.com/zinan92/standard-kline) | 标准 K 线前端组件。in OHLCV bars + provider metadata → out candlestick chart + volume + overlays + synthetic watermark | Owned | `2026-07-07` | `owned source` |
 | [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) | 📈 Get real-time stocks from TradingView | Starred | `2026-07-02` | `5baea86c8c7e` |
 
-### Full Trading System / Agent (14)
+### Full Trading System / Agent (13)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
@@ -112,7 +112,6 @@ Snapshot: `github-universe-2026-09-26-star-refresh-01` · canonical source: [Par
 | [Theclues/TradeGenuis-Options](https://github.com/Theclues/TradeGenuis-Options) | No description | Starred | `2026-09-07` | `a77d13dae84b` |
 | [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X) | A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书 | Starred | `2026-08-26` | `444c0db69ff3` · NEEDS_REVIEW |
 | [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 \| LLM能力驱使策略定制+个股分析+复盘 \| 自由接入第三方数据源与个性化扩展数据 \| 个人开源 | Starred | `2026-08-26` | `bfbccf9c414f` · NEEDS_REVIEW |
-| [lzwme/finance-quant-skills](https://github.com/lzwme/finance-quant-skills) | 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。 | Starred | `2026-08-26` | `7af066194d8d` |
 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | Starred | `2026-08-03` | `67b630e67f6a` |
 | [simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research) | Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录、回测。Vibe-Research 把数据和功能配齐，由你自己的 Agent 驱动投资研究。基于开源的 Codex Harness 打造。 | Starred | `2026-08-03` | `34ed58155ca2` |
 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent" | Starred | `2026-07-21` | `e476b4ce4c3b` |
@@ -120,11 +119,12 @@ Snapshot: `github-universe-2026-09-26-star-refresh-01` · canonical source: [Par
 | [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) | Open-source AI Trading OS and commercial-ready multi-tenant SaaS platform — research markets, build Python strategies, backtest, paper/live trade, and monitor crypto, stocks, and forex, with built-in user management, billing, payments, and settlement to launch and operate your own trading service. | Starred | `2026-05-01` | `d8508a85a473` |
 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading Framework | Starred | `2026-02-02` | `be952b8eccb4` |
 
-### Knowledge & Collections (7)
+### Knowledge & Collections (8)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
 | [stockServ/chzhshch-108-plus](https://github.com/stockServ/chzhshch-108-plus) | 缠中说禅教你炒股票108课加强版 | Starred | `2026-09-10` | `d2a87d5bd9c8` |
+| [lzwme/finance-quant-skills](https://github.com/lzwme/finance-quant-skills) | 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。 | Starred | `2026-08-26` | `7af066194d8d` |
 | [wangzhe3224/awesome-systematic-trading](https://github.com/wangzhe3224/awesome-systematic-trading) | A curated list of insanely awesome libraries, packages and resources for systematic trading. Crypto, Stock, Futures, Options, CFDs, FX, and more \| 量化交易 \| 量化投资 | Starred | `2026-08-10` | `424df5f4acc9` |
 | [bwjoke/BTC-Trading-Since-2020](https://github.com/bwjoke/BTC-Trading-Since-2020) | Public BTC trading context since 2020. | Starred | `2026-07-05` | `9ff0d562cffd` |
 | [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) | A collection of Awesome Finance Agent Skills for free and easy to start \| 一系列开源免费的金融分析Agent Skills | Starred | `2026-04-27` | `853f09b4d0ba` |
