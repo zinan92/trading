@@ -4,7 +4,7 @@
 
 **Trading 的 capability-first catalog：先按功能分类，再按加入时间从新到旧浏览。**
 
-[![Snapshot](https://img.shields.io/badge/snapshot-63%20repos-0969DA.svg)](snapshot.yaml)
+[![Snapshot](https://img.shields.io/badge/snapshot-66%20repos-0969DA.svg)](snapshot.yaml)
 [![Source](https://img.shields.io/badge/source-Park%20OS-8250DF.svg)](https://github.com/zinan92/park-operating-system)
 
 </div>
@@ -13,14 +13,14 @@
 
 ```text
 in  canonical Park OS snapshot + source provenance + fixed commit locks
-out 63-repo Trading catalog, grouped by function and ordered newest-added first
+out 66-repo Trading catalog, grouped by function and ordered newest-added first
 
 fail snapshot checksum mismatch → stop before publishing
 fail missing created_at / starred_at → stop; do not guess ordering
 fail unclassified placement → keep needs_review; do not guess
 ```
 
-Snapshot: `github-universe-2026-09-19-catalog-order-01` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
+Snapshot: `github-universe-2026-09-26-star-refresh-01` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
 
 ## How to read this page
 
@@ -64,10 +64,11 @@ Snapshot: `github-universe-2026-09-19-catalog-order-01` · canonical source: [Pa
 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research | Starred | `2026-05-09` | `ecaed3011f24` |
 | [microsoft/qlib](https://github.com/microsoft/qlib) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process. | Starred | `2025-08-11` | `79633dd9506e` |
 
-### Trading Strategy (8)
+### Trading Strategy (9)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
+| [fmzquant/strategies](https://github.com/fmzquant/strategies) | quantitative trading with Javascript, Python, C++, PineScript, Blockly, MyLanguage(麦语言) | Starred | `2026-09-24` | `7853bb2bf262` |
 | [YoungCan-Wang/WyckoffTradingAgent](https://github.com/YoungCan-Wang/WyckoffTradingAgent) | Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI workflows, and MCP tools.灵感来自秋生trader @Hoyooyoo | Starred | `2026-09-18` | `6bdaf1eb3cff` |
 | [nhovongoc0-max/meme-radar](https://github.com/nhovongoc0-max/meme-radar) | Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具 | Starred | `2026-09-13` | `9c41a444b9bc` |
 | [Vespa314/chan.py](https://github.com/Vespa314/chan.py) | 开放式的缠论python实现框架，支持形态学/动力学买卖点分析计算，多级别K线联立，区间套策略，可视化绘图，多种数据接入，策略开发，交易系统对接； | Starred | `2026-09-12` | `429d6ed3043e` |
@@ -88,10 +89,11 @@ Snapshot: `github-universe-2026-09-19-catalog-order-01` · canonical source: [Pa
 | [ccxt/ccxt](https://github.com/ccxt/ccxt) | A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust | Starred | `2024-04-13` | `c781a2437d88` |
 | [Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot) | Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid and 15+ exchanges, with a simple interface. | Starred | `2024-04-13` | `dc0efc8ec36c` |
 
-### Dashboard (6)
+### Dashboard (7)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
+| [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free. | Starred | `2026-09-24` | `87df76a2ce58` |
 | [zinan92/trading-desk](https://github.com/zinan92/trading-desk) | No description | Owned | `2026-09-14` | `owned source` · PRIVATE |
 | [zinan92/human-kline-review](https://github.com/zinan92/human-kline-review) | Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later | Owned | `2026-08-23` | `owned source` · PRIVATE |
 | [deepentropy/tvscreener](https://github.com/deepentropy/tvscreener) | TradingView Screener API - Stock, Crypto, Forex, Bond, Futures, Coin | Starred | `2026-08-10` | `737c9764c1e5` |
@@ -99,10 +101,11 @@ Snapshot: `github-universe-2026-09-19-catalog-order-01` · canonical source: [Pa
 | [zinan92/standard-kline](https://github.com/zinan92/standard-kline) | 标准 K 线前端组件。in OHLCV bars + provider metadata → out candlestick chart + volume + overlays + synthetic watermark | Owned | `2026-07-07` | `owned source` |
 | [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) | 📈 Get real-time stocks from TradingView | Starred | `2026-07-02` | `5baea86c8c7e` |
 
-### Full Trading System / Agent (13)
+### Full Trading System / Agent (14)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
+| [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) | 🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。 | Starred | `2026-09-24` | `c26304fafab0` |
 | [FinHackCN/finhack](https://github.com/FinHackCN/finhack) | FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。 | Starred | `2026-09-18` | `dedbbd0b7acc` |
 | [nishuzumi/fomomo](https://github.com/nishuzumi/fomomo) | No description | Starred | `2026-09-13` | `a2c6040392e3` · NEEDS_REVIEW |
 | [ling-0729/KHunter](https://github.com/ling-0729/KHunter) | KHunter 是一套开箱即用的A股量化交易系统，集数据管理、策略选股、择时交易、风险控制、回测验证于一体，为个人投资者提供从数据到交易的全流程量化解决方案。 | Starred | `2026-09-10` | `ca93f9e05523` |
