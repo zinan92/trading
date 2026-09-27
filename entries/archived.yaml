@@ -1,2 +1,110 @@
-snapshot_id: github-universe-2026-09-26-star-refresh-01
-entries: []
+snapshot_id: github-universe-2026-09-27-trading-consolidation-01
+entries:
+- universe: trading
+  repo: zinan92/trading-strategy
+  owned: true
+  starred: false
+  source_kind: owned
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-strategy
+  tags:
+  - python
+  source_url: https://github.com/zinan92/trading-strategy
+  visibility: public
+  archived: true
+  description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/trading-strategy)
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: true
+    description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/trading-strategy)
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-27'
+    pushed_at: '2026-08-25T03:20:04Z'
+  catalog_added_at: '2026-08-24T07:35:40Z'
+- universe: trading
+  repo: zinan92/standard-broker
+  owned: true
+  starred: false
+  source_kind: owned
+  registry_repo: false
+  registry_role: null
+  primary_category: trading-infra
+  tags:
+  - paper-trading
+  - private
+  - product
+  - python
+  source_url: https://github.com/zinan92/standard-broker
+  visibility: private
+  archived: true
+  description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-broker)
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: private
+    archived: true
+    description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-broker)
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-27'
+    pushed_at: '2026-09-11T03:59:40Z'
+  catalog_added_at: '2026-08-21T04:12:09Z'
+- universe: trading
+  repo: zinan92/trading-desk
+  owned: true
+  starred: false
+  source_kind: owned
+  registry_repo: false
+  registry_role: null
+  primary_category: dashboard
+  tags:
+  - private
+  - python
+  source_url: https://github.com/zinan92/trading-desk
+  visibility: private
+  archived: true
+  description: Archived 2026-09-27. Moved into zinan92/trading-system (apps/trading-desk)
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: private
+    archived: true
+    description: Archived 2026-09-27. Moved into zinan92/trading-system (apps/trading-desk)
+    license_spdx: NOASSERTION
+    checked_at: '2026-09-27'
+    pushed_at: '2026-09-15T08:37:29Z'
+  catalog_added_at: '2026-09-14T07:51:12Z'
+- universe: trading
+  repo: zinan92/standard-kline
+  owned: true
+  starred: false
+  source_kind: owned
+  registry_repo: false
+  registry_role: null
+  primary_category: dashboard
+  tags:
+  - javascript
+  source_url: https://github.com/zinan92/standard-kline
+  visibility: public
+  archived: true
+  description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-kline)
+  status: BUILDING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: true
+    description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-kline)
+    license_spdx: MIT
+    checked_at: '2026-09-27'
+    pushed_at: '2026-08-19T17:57:28Z'
+  catalog_added_at: '2026-07-07T15:08:18Z'

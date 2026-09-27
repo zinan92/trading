@@ -1,7 +1,7 @@
 universe: trading
-snapshot_id: github-universe-2026-09-26-star-refresh-01
+snapshot_id: github-universe-2026-09-27-trading-consolidation-01
 generated_from: zinan92/park-operating-system
-generated_from_checksum: b236a0cfdd4f818f75b9e981953ac88e01fefeed4ee3af34e8ca2bc1b7f70dc0
+generated_from_checksum: 50ab1a02e973b012ad48cdbb7310a8c4cae6d23246ce61c65cfb3cb81eeeba62
 entries:
 - universe: trading
   repo: tickflow-org/tickflow
@@ -941,20 +941,18 @@ entries:
   - python
   source_url: https://github.com/zinan92/trading-strategy
   visibility: public
-  archived: false
-  description: Engine-neutral Canonical DCA/Grid strategy engine。in plain Python strategy inputs + OHLCV bars → out deterministic
-    plans, previews, replays, and lifecycle receipts
+  archived: true
+  description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/trading-strategy)
   status: BUILDING
   review_status: confirmed
   review_reason: null
   github_snapshot:
     default_branch: main
     visibility: public
-    archived: false
-    description: Engine-neutral Canonical DCA/Grid strategy engine。in plain Python strategy inputs + OHLCV bars → out deterministic
-      plans, previews, replays, and lifecycle receipts
+    archived: true
+    description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/trading-strategy)
     license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
+    checked_at: '2026-09-27'
     pushed_at: '2026-08-25T03:20:04Z'
   catalog_added_at: '2026-08-24T07:35:40Z'
 - universe: trading
@@ -1063,18 +1061,18 @@ entries:
   - python
   source_url: https://github.com/zinan92/standard-broker
   visibility: private
-  archived: false
-  description: Provider-neutral broker Ports & Adapters for Paper-safe trading systems
+  archived: true
+  description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-broker)
   status: BUILDING
   review_status: confirmed
   review_reason: null
   github_snapshot:
     default_branch: main
     visibility: private
-    archived: false
-    description: Provider-neutral broker Ports & Adapters for Paper-safe trading systems
+    archived: true
+    description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-broker)
     license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
+    checked_at: '2026-09-27'
     pushed_at: '2026-09-11T03:59:40Z'
   catalog_added_at: '2026-08-21T04:12:09Z'
 - universe: trading
@@ -1120,23 +1118,23 @@ entries:
   primary_category: trading-infra
   tags:
   - orchestration
-  - private
   - product
   - python
   source_url: https://github.com/zinan92/trading-system
-  visibility: private
+  visibility: public
   archived: false
-  description: Gold trading system orchestrator
+  description: Park 交易平台：trade.park-ai-intel.com/trade 背后的全部代码。GridMind 面板 + 交易台 + broker/strategy/kline 包，Testnet/Paper only
   status: BUILDING
   review_status: confirmed
   review_reason: null
   github_snapshot:
     default_branch: main
-    visibility: private
+    visibility: public
     archived: false
-    description: Gold trading system orchestrator
+    description: Park 交易平台：trade.park-ai-intel.com/trade 背后的全部代码。GridMind 面板 + 交易台 + broker/strategy/kline 包，Testnet/Paper
+      only
     license_spdx: NOASSERTION
-    checked_at: '2026-09-14'
+    checked_at: '2026-09-27'
     pushed_at: '2026-09-14T01:20:38Z'
   catalog_added_at: '2026-07-03T15:40:12Z'
 - universe: trading
@@ -1293,18 +1291,18 @@ entries:
   - python
   source_url: https://github.com/zinan92/trading-desk
   visibility: private
-  archived: false
-  description: ''
+  archived: true
+  description: Archived 2026-09-27. Moved into zinan92/trading-system (apps/trading-desk)
   status: BUILDING
   review_status: confirmed
   review_reason: null
   github_snapshot:
     default_branch: main
     visibility: private
-    archived: false
-    description: ''
+    archived: true
+    description: Archived 2026-09-27. Moved into zinan92/trading-system (apps/trading-desk)
     license_spdx: NOASSERTION
-    checked_at: '2026-09-19'
+    checked_at: '2026-09-27'
     pushed_at: '2026-09-15T08:37:29Z'
   catalog_added_at: '2026-09-14T07:51:12Z'
 - universe: trading
@@ -1413,18 +1411,18 @@ entries:
   - javascript
   source_url: https://github.com/zinan92/standard-kline
   visibility: public
-  archived: false
-  description: 标准 K 线前端组件。in OHLCV bars + provider metadata → out candlestick chart + volume + overlays + synthetic watermark
+  archived: true
+  description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-kline)
   status: BUILDING
   review_status: confirmed
   review_reason: null
   github_snapshot:
     default_branch: main
     visibility: public
-    archived: false
-    description: 标准 K 线前端组件。in OHLCV bars + provider metadata → out candlestick chart + volume + overlays + synthetic watermark
+    archived: true
+    description: Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-kline)
     license_spdx: MIT
-    checked_at: '2026-09-14'
+    checked_at: '2026-09-27'
     pushed_at: '2026-08-19T17:57:28Z'
   catalog_added_at: '2026-07-07T15:08:18Z'
 - universe: trading
@@ -2161,4 +2159,4 @@ entries:
     update_policy: monthly_pr
     vendored: false
   catalog_added_at: '2024-04-12T02:46:41Z'
-export_checksum: e3c611b82f748c666f907b92e3f5f1964d419e0e1546d08706834e8e7a5bf15a
+export_checksum: 8e23fde9412071c277d0abc28ca6bebcf29ed8182640af9bc59dc56bdeedbeb0
