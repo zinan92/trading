@@ -1,0 +1,17 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "sha": "c0ea14f419f62a498a14bd89581de124b3e462dd",
+      "catalog_lock": "a2c6040392e3",
+      "mode": "synthetic dashboard adapter",
+      "native_app_tested": false,
+      "real_chat_tested": false,
+      "real_market_tested": false,
+      "wallet_loaded": false,
+      "url": "[local trial service]",
+      "changes": "added trial-simulation.ts and simulation banner only; original analysis and strategy unchanged"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "product": "12-daily-stock-analysis",
+      "status": "completed_stopped",
+      "source_repo": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "source_sha": "f9e7b778c48c914af4e0c69dd301e6907d7ea5f9",
+      "mode": "Local Python 3.12 venv + built React/Vite static bundle served by FastAPI on loopback",
+      "entry": "[local trial service]",
+      "health": "[local trial service]api/health",
+      "trial_page": "[local trial service]",
+      "sample_watchlist": [
+        "600519",
+        "300750",
+        "002594"
+      ],
+      "checks": {
+        "python_dependencies": "uv installed 143 packages; uv pip check passed",
+        "web_build": "npm ci and npm run build passed",
+        "web_build_source_revision": "f9e7b778c48c",
+        "api_health_http": 200,
+        "app_home_http": 200,
+        "screenshot_count": 16,
+        "stock_daily_rows_600519": 43,
+        "dry_run_result": "AkShare Sina fallback succeeded after Eastmoney timeout; main.py completion logged but process did not exit before 150-second timeout",
+        "screenshot_upload": "HTTP 200",
+        "scheduler_status": {
+          "enabled": false,
+          "running": false,
+          "schedule_times": [
+            "18:00"
+          ],
+          "next_run_at": null,
+          "last_run_at": null,
+          "last_success_at": null,
+          "last_error": null,
+          "last_skipped_at": null,
+          "last_skip_reason": null
+        },
+        "csv_import_parse": "HTTP 200; returned 000001 and 000858 without adding to watchlist",
+        "audit_production": {
+          "total": 3,
+          "high": 3,
+          "packages": [
+            "form-data",
+            "react-router",
+            "react-router-dom"
+          ],
+          "command": "npm audit --omit=dev --json"
+        }
+      },
+      "limitations": [
+        "LLM provider not configured; analysis and Ask disabled",
+        "Notification channels and scheduler disabled",
+        "No historical reports yet; backtest and AI signals have empty input",
+        "npm audit found 3 high vulnerabilities in production dependencies (form-data, react-router, react-router-dom); no package changes applied",
+        "Dry-run process did not exit within 150 seconds despite logging completion; data was verified in SQLite."
+      ],
+      "materials": [
+        "materials/trial-import-stock-codes.csv",
+        "materials/600519-real-daily-bars.csv",
+        "materials/trial-prompts.md",
+        "materials/parse-result.json"
+      ],
+      "data_verification": "data-verification.json",
+      "post_trial_desktop_screenshots": 0
+    }
+  }
+}

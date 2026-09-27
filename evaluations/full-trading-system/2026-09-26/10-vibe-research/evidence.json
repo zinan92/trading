@@ -1,0 +1,17 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "source_sha": "85ba57191ba28cb9b4eeb4f7c1ed006d58d999c3",
+      "start_url": "[local trial service]",
+      "api_port": 8767,
+      "ui_port": 5932,
+      "existing_api_port_8765": "left untouched",
+      "data_root": "isolated .local",
+      "AI_connected": false,
+      "subscription_probe_started": false,
+      "screenshots": 14
+    }
+  }
+}

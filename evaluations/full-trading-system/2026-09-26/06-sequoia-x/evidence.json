@@ -1,0 +1,58 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "source_sha": "444c0db69ff36b46ef2b22ab265051d60c16029d",
+      "status": "local_data_and_strategies_ready",
+      "requested_symbols": 20,
+      "fetched_symbols": 20,
+      "bars": 8414,
+      "last_dates": [
+        "2026-09-24"
+      ],
+      "strategies": {
+        "HighTightFlagStrategy": {
+          "strategy": "HighTightFlagStrategy",
+          "status": "completed",
+          "symbols": [],
+          "elapsed_seconds": 0.015
+        },
+        "TurtleTradeStrategy": {
+          "strategy": "TurtleTradeStrategy",
+          "status": "completed",
+          "symbols": [],
+          "elapsed_seconds": 0.018
+        },
+        "RpsBreakoutStrategy": {
+          "strategy": "RpsBreakoutStrategy",
+          "status": "completed",
+          "symbols": [
+            "000333"
+          ],
+          "elapsed_seconds": 0.012
+        },
+        "MaVolumeStrategy": {
+          "strategy": "MaVolumeStrategy",
+          "status": "completed",
+          "symbols": [],
+          "elapsed_seconds": 0.032
+        },
+        "LimitUpShakeoutStrategy": {
+          "strategy": "LimitUpShakeoutStrategy",
+          "status": "completed",
+          "symbols": [],
+          "elapsed_seconds": 0.013
+        },
+        "UptrendLimitDownStrategy": {
+          "strategy": "UptrendLimitDownStrategy",
+          "status": "completed",
+          "symbols": [],
+          "elapsed_seconds": 0.017
+        }
+      },
+      "notifications_sent": false,
+      "ui": "trial HTML wrapper; upstream CLI has no native tabs"
+    }
+  }
+}

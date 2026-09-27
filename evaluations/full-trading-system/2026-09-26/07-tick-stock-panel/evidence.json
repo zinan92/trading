@@ -1,0 +1,27 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "product": "07-tick-stock-panel",
+      "source_sha": "529be9555ef93836833279a667cda07175abc29c",
+      "image_id": "sha256:2ed379c5e24581f24eaf7e90379c53da7901202290a8cf100d7ce85e3d2b74e9",
+      "url": "[local trial service]",
+      "mode": "none",
+      "pipeline_status": "succeeded",
+      "pipeline_job": "ff51bc3007",
+      "instruments": 5880,
+      "trading_days": 241,
+      "daily_rows": 1321930,
+      "enriched_rows": 1321930,
+      "screener_strategy": "ma_golden_cross",
+      "screener_hits": 65,
+      "backtest_period": "2026-06-26 to 2026-09-26",
+      "backtest_completed_trades": 114,
+      "backtest_total_return_pct": -36.36,
+      "screenshots": 36,
+      "real_time_quotes_available": false,
+      "user_acceptance": "pending"
+    }
+  }
+}

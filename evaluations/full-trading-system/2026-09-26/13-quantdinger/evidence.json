@@ -1,0 +1,51 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "product": "13-quantdinger",
+      "status": "completed_stopped",
+      "backend_repo": "https://github.com/OpenByteInc/QuantDinger",
+      "backend_sha": "7da255c1e754daf939e1c58066ca2e44eb701b43",
+      "backend_version": "5.4.1",
+      "frontend_repo": "https://github.com/OpenByteInc/QuantDinger-Vue",
+      "frontend_sha": "de4059096400929af9b49bc6c9f1610559302d8f",
+      "frontend_package_version": "5.0.20",
+      "mode": "Native local trial: Flask API + isolated PostgreSQL 18 + Vite Vue frontend; Docker avoided because existing Colima content store has missing-blob I/O errors.",
+      "entry": "[local trial service]",
+      "health": "[local trial service]api/health",
+      "trial_page": "[local trial service]",
+      "services": {
+        "postgres": "127.0.0.1:55432",
+        "backend_api": "127.0.0.1:5500",
+        "frontend": "127.0.0.1:8888",
+        "redis": "installed, not started",
+        "trading_worker": "not started",
+        "scheduler_worker": "not started",
+        "celery_worker": "not started"
+      },
+      "checks": {
+        "frontend_build": "pnpm run build passed",
+        "python_dependencies": "uv pip check passed",
+        "backend_health_http": 200,
+        "frontend_http": 200,
+        "frontend_proxy_health_http": 200,
+        "admin_login": "passed in local browser",
+        "database_bootstrap": "migrations complete; critical permission probe passed",
+        "screenshots": 49,
+        "indicator_code_check": "passed",
+        "grid_strategy_code_check": "passed",
+        "grid_strategy_saved": "qd_script_sources id=1",
+        "backtest_execution": "not run; UI short-range date selection blocked",
+        "screenshot_upload_http": 200,
+        "trial_page_http": 200
+      },
+      "post_trial_desktop_screenshots": 0,
+      "services_stopped": [
+        "frontend:8888",
+        "backend_api:5500",
+        "isolated_postgres:55432"
+      ]
+    }
+  }
+}

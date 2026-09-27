@@ -1,0 +1,34 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "product": "11-vibe-trading",
+      "status": "deployed_ready_for_user_trial",
+      "source_repo": "https://github.com/HKUDS/Vibe-Trading",
+      "source_sha": "5e9ffd1a73e71b4a1be45c5b5e330b6877fee849",
+      "source_version": "0.1.15",
+      "deployment": "Native isolated Python venv + source frontend Vite dev server after Docker containerd store returned missing-blob I/O errors during low-disk build. Docker was not restarted or globally pruned.",
+      "api": "[local trial service]",
+      "frontend": "[local trial service]",
+      "trial_page": "[local trial service]",
+      "credentials": "LLM provider/model and Tushare credentials blank; no user-level env file loaded into process.",
+      "connections": "No broker profiles/accounts or IM channels connected; channel runtime stopped; no order path exercised.",
+      "checks": {
+        "locked_python_dependencies": "installed with --require-hashes",
+        "pip_check": "No broken requirements found",
+        "frontend_install": "npm ci passed; npm audit reported 0 vulnerabilities",
+        "frontend_build": "npm run build passed; Vite emitted large-chunk advisory",
+        "api_live_http": 200,
+        "product_home_http": 200,
+        "frontend_home_http": 200,
+        "frontend_settings_http": 200,
+        "screenshots": 14,
+        "user_upload_endpoint": "HTTP 200",
+        "trial_page": "HTTP 200"
+      },
+      "functional_limit": "API preflight reports no configured LLM provider/model, so agent generation is unavailable. Free yfinance endpoint reachable; A-share Tushare token absent.",
+      "trial_scope": "UI navigation, settings, offline/read-only surfaces only. No real-account data or trading."
+    }
+  }
+}

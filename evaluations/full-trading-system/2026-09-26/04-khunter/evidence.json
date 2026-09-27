@@ -1,0 +1,18 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "sha": "ca93f9e055234e2e4b727602dfa16d6cb6aaa9ae",
+      "url": "[local trial service]",
+      "mode": "manual",
+      "ptrade": false,
+      "pipeline_schedule": false,
+      "samples": 3,
+      "bars": 1095,
+      "synthetic": false,
+      "backtest_trades": 0,
+      "full_functionality_verified": false
+    }
+  }
+}

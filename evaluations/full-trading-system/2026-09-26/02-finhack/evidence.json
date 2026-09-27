@@ -1,0 +1,48 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "run-results.json": [
+      {
+        "test": "backtest",
+        "command": [
+          "[local path omitted]",
+          "backtest",
+          "run",
+          "--strategy=sample"
+        ],
+        "exit_code": 1,
+        "log": "backtest.txt"
+      },
+      {
+        "test": "factor-list",
+        "command": [
+          "[local path omitted]",
+          "factor",
+          "list"
+        ],
+        "exit_code": 1,
+        "log": "factor-list.txt"
+      },
+      {
+        "test": "demo-backtest",
+        "command": [
+          "[local path omitted]",
+          "trader",
+          "run",
+          "--strategy=DemoStrategy"
+        ],
+        "exit_code": 1,
+        "log": "demo-backtest.txt"
+      }
+    ],
+    "environment.json": {
+      "finhack": "0.0.3.dev2",
+      "TA-Lib": "0.8.1",
+      "numpy": "2.2.3",
+      "mysql-connector": "2.2.9",
+      "mysql-connector-python": "9.2.0",
+      "mysql-connector-repackaged": "0.3.1"
+    }
+  }
+}

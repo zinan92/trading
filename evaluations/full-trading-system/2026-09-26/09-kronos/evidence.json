@@ -1,0 +1,26 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "model-metric-summary.json": {
+      "CPU": {
+        "model": "Kronos-mini",
+        "device": "cpu",
+        "points": 120,
+        "MAE": 105.5571,
+        "RMSE": 134.5415,
+        "MAPE_percent": 7.74
+      },
+      "MPS": {
+        "model": "Kronos-mini",
+        "device": "mps:0",
+        "points": 120,
+        "MAE": 108.0852,
+        "RMSE": 118.9896,
+        "MAPE_percent": 7.77
+      },
+      "calendar_date_mismatches": 117,
+      "paired_rows": 120
+    }
+  }
+}
