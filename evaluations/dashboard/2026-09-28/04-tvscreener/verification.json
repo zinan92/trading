@@ -1,0 +1,45 @@
+{
+  "tested_at": "2026-09-28",
+  "checkout_path": "isolated trial-local path",
+  "source_commit": "737c9764c1e58f364972a9106108b77e9fc1d6c0",
+  "package_version": "0.4.1",
+  "runtime": {
+    "python": "3.13.7",
+    "installed_mode": "non-editable local package build in isolated venv",
+    "dependency_check": "uv pip check passed"
+  },
+  "unit_tests": {
+    "command": "python -m pytest -q tests/unit",
+    "result": "129 passed; 2 subtests passed"
+  },
+  "code_generator": {
+    "url": "http://127.0.0.1:8934/",
+    "source": "pinned checkout app/index.html and local JavaScript/CSS",
+    "network": "browser-side code generation only; no market request",
+    "screeners_opened": [
+      "Stock",
+      "Crypto",
+      "Forex",
+      "Bond",
+      "Futures",
+      "Coin (DEX)"
+    ],
+    "generated_config": "Price > 50, RSI > 60, Market Capitalization between 1e9 and 1e12, S&P 500, market-cap descending, range 0-25; code called to build payload without network",
+    "valuation_preset_bug": "generated StockField.EV_TO_EBITDA_TTM; installed StockField has no such attribute; confirmed AttributeError before request"
+  },
+  "public_query": {
+    "authenticated": false,
+    "endpoint": "TradingView public screener through package default URL",
+    "request": "one S&P 500 stock screener query with Price > 50, 10-row range, and Name/Price/Change Percent/Volume",
+    "result": "200-equivalent library success; 10 rows and six DataFrame columns",
+    "elapsed_seconds": 0.74,
+    "sample_symbol": "NASDAQ:NVDA",
+    "other_market_screeners_live_tested": false
+  },
+  "safety": "No user credentials/API keys, broker accounts, or orders used.",
+  "evidence": {
+    "captured_screenshots": 18,
+    "unique_screenshots": 17,
+    "manifest": "screenshots.json"
+  }
+}

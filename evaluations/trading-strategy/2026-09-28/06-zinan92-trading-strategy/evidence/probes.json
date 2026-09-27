@@ -1,0 +1,364 @@
+{
+  "product": "trading-strategy",
+  "repo": "zinan92/trading-strategy",
+  "description": "Archived, engine-neutral pure DCA/Grid planning and replay package. All sample markets above are fixed test fixtures, not live market data.",
+  "records": [
+    {
+      "title": "Installed package import",
+      "command": "python -I -c \"import trading_strategy\"",
+      "result": {
+        "distribution": "0.1.0",
+        "runtime": "Python 3.13.7",
+        "imported_from_installed_venv": true,
+        "declared_dependencies": 0
+      },
+      "status": "passed"
+    },
+    {
+      "title": "Deterministic DCA long candidate",
+      "command": "build_deterministic_dca_candidate_payload_v1(direction=\"long\", market_price=4000)",
+      "result": {
+        "candidate_builder_version": "dca-smart-fill-v1",
+        "strategy_type": "dca",
+        "direction": "long",
+        "dca": {
+          "entry_levels": [
+            3994.0,
+            3979.2,
+            3964.4,
+            3949.6,
+            3934.8,
+            3920.0
+          ],
+          "target_price": 4040.0,
+          "stop_price": 3880.0,
+          "notional_per_addition": 2000.0,
+          "max_additions": 6,
+          "loop_enabled": false
+        },
+        "risk_budget": {
+          "leverage": 10.0
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "title": "Deterministic DCA short candidate",
+      "command": "build_deterministic_dca_candidate_payload_v1(direction=\"short\", market_price=4000)",
+      "result": {
+        "candidate_builder_version": "dca-smart-fill-v1",
+        "strategy_type": "dca",
+        "direction": "short",
+        "dca": {
+          "entry_levels": [
+            4006.0,
+            4020.8,
+            4035.6,
+            4050.4,
+            4065.2,
+            4080.0
+          ],
+          "target_price": 3960.0,
+          "stop_price": 4120.0,
+          "notional_per_addition": 2000.0,
+          "max_additions": 6,
+          "loop_enabled": false
+        },
+        "risk_budget": {
+          "leverage": 10.0
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "title": "DCA preview with explicit levels",
+      "command": "build_dca_preview(test fixture)",
+      "result": {
+        "entry_levels": [
+          4004.0,
+          3996.0,
+          3988.0
+        ],
+        "max_additions": 3,
+        "aggregate_take_profit": {
+          "side": "sell",
+          "event": "target",
+          "order_type": "limit",
+          "reduce_only": true,
+          "price": 4050.0,
+          "quantity_source": "reconciled_open_dca_round_quantity",
+          "replace_after_each_entry_fill": true,
+          "one_active_order_required": true
+        },
+        "risk": {
+          "equity": 10000.0,
+          "selected_leverage": 10.0,
+          "leverage_limit": 10.0,
+          "actual_leverage_at_full_depth": 0.5994,
+          "estimated_margin_at_full_depth": 599.4,
+          "maximum_loss_at_full_depth": 39.5814492,
+          "capacity_exceeded": false,
+          "risk_flags": []
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "title": "Versioned strategy-plan projection",
+      "command": "build_dca_strategy_plan(preview, version=1)",
+      "result": {
+        "schema_version": "strategy-plan-v1",
+        "plan_digest": "sha256:f5c8549ea09eaf40850a7b59ad212a5b92eb6317d4a186fe8da129abb282c97d",
+        "status": "active",
+        "strategy_session_id": "session:dca:8a15a0abd161fca91ba2e7ed",
+        "entries": 3
+      },
+      "status": "passed"
+    },
+    {
+      "title": "DCA entry command identities",
+      "command": "build_dca_entry_commands(plan, timestamp=...)",
+      "result": {
+        "command_count": 3,
+        "source_fill_ids": [
+          "strategy-dca:trial-plan-dca:dca-entry-01",
+          "strategy-dca:trial-plan-dca:dca-entry-02",
+          "strategy-dca:trial-plan-dca:dca-entry-03"
+        ],
+        "preview_entry_ids": [
+          "dca-entry-01",
+          "dca-entry-02",
+          "dca-entry-03"
+        ],
+        "sample": [
+          {
+            "cycle_id": "trial-dca",
+            "ts": "2026-07-22T16:00:00+00:00",
+            "symbol": "GOLD",
+            "side": "buy",
+            "event": "entry",
+            "order_type": "limit",
+            "price": 4004.0,
+            "market_price": 4010.0,
+            "quantity": 0.499,
+            "notional": 1997.996,
+            "sl": 3970.0,
+            "source": "strategy_dca_paper",
+            "source_fill_id": "strategy-dca:trial-plan-dca:dca-entry-01",
+            "preview_entry_id": "dca-entry-01",
+            "trade_id": "dca-round:trial-plan-dca",
+            "position_id": "dca-round:trial-plan-dca",
+            "dca_round_id": "dca-round:trial-plan-dca",
+            "strategy_type": "dca",
+            "strategy_plan_id": "trial-plan-dca",
+            "strategy_plan_version": 1
+          },
+          {
+            "cycle_id": "trial-dca",
+            "ts": "2026-07-22T16:00:00+00:00",
+            "symbol": "GOLD",
+            "side": "buy",
+            "event": "entry",
+            "order_type": "limit",
+            "price": 3996.0,
+            "market_price": 4010.0,
+            "quantity": 0.5,
+            "notional": 1998.0,
+            "sl": 3970.0,
+            "source": "strategy_dca_paper",
+            "source_fill_id": "strategy-dca:trial-plan-dca:dca-entry-02",
+            "preview_entry_id": "dca-entry-02",
+            "trade_id": "dca-round:trial-plan-dca",
+            "position_id": "dca-round:trial-plan-dca",
+            "dca_round_id": "dca-round:trial-plan-dca",
+            "strategy_type": "dca",
+            "strategy_plan_id": "trial-plan-dca",
+            "strategy_plan_version": 1
+          }
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "title": "Aggregate target replay",
+      "command": "replay_dca_marks(preview, [4004,3996,4050,3970])",
+      "result": {
+        "schema_version": "strategy-dca-replay-v1",
+        "preview_id": "dca-preview-838195acac99",
+        "direction": "long",
+        "status": "target_closed",
+        "additions_filled": 2,
+        "open_quantity": 0,
+        "average_entry_price": null,
+        "events": [
+          {
+            "sequence": 1,
+            "event": "entry",
+            "entry_id": "dca-entry-01",
+            "price": 4004.0,
+            "quantity": 0.499,
+            "aggregate_quantity": 0.499
+          },
+          {
+            "sequence": 2,
+            "event": "entry",
+            "entry_id": "dca-entry-02",
+            "price": 3996.0,
+            "quantity": 0.5,
+            "aggregate_quantity": 0.999
+          },
+          {
+            "sequence": 3,
+            "event": "target",
+            "price": 4050.0,
+            "quantity": 0.999,
+            "covered_entry_ids": [
+              "dca-entry-01",
+              "dca-entry-02"
+            ]
+          }
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "title": "Aggregate stop replay",
+      "command": "replay_dca_marks(preview, [4004,3970])",
+      "result": {
+        "schema_version": "strategy-dca-replay-v1",
+        "preview_id": "dca-preview-838195acac99",
+        "direction": "long",
+        "status": "stop_closed",
+        "additions_filled": 3,
+        "open_quantity": 0,
+        "average_entry_price": null,
+        "events": [
+          {
+            "sequence": 1,
+            "event": "entry",
+            "entry_id": "dca-entry-01",
+            "price": 4004.0,
+            "quantity": 0.499,
+            "aggregate_quantity": 0.499
+          },
+          {
+            "sequence": 2,
+            "event": "entry",
+            "entry_id": "dca-entry-02",
+            "price": 3996.0,
+            "quantity": 0.5,
+            "aggregate_quantity": 0.999
+          },
+          {
+            "sequence": 2,
+            "event": "entry",
+            "entry_id": "dca-entry-03",
+            "price": 3988.0,
+            "quantity": 0.501,
+            "aggregate_quantity": 1.5
+          },
+          {
+            "sequence": 2,
+            "event": "stop",
+            "price": 3970.0,
+            "quantity": 1.5,
+            "covered_entry_ids": [
+              "dca-entry-01",
+              "dca-entry-02",
+              "dca-entry-03"
+            ]
+          }
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "title": "Manual arithmetic grid geometry",
+      "command": "build_grid_preview(manual 4-grid, fixture market)",
+      "result": {
+        "levels": [
+          90.0,
+          100.0,
+          110.0,
+          120.0,
+          130.0
+        ],
+        "order_quantities": [
+          11.111,
+          10.0,
+          8.333,
+          7.692
+        ],
+        "risk": {
+          "equity": 10000.0,
+          "estimated_margin": 200.0,
+          "max_loss": 311.11,
+          "max_loss_role": "advisory_only",
+          "absolute_notional_ceiling": 100000.0,
+          "capital_budget": 100000.0,
+          "capital_notional_cap_per_grid": 50000.0,
+          "safe_notional_cap_per_grid": 50000.0,
+          "max_simultaneous_same_side_levels": 2,
+          "actual_leverage": 0.2,
+          "capital_utilization_pct": 2.0,
+          "sizing_constraint": "min_net_profit_within_leverage_capacity",
+          "profit_target_met": true,
+          "capital_budget_exceeded": false,
+          "calibration_status": "shadow_candidate"
+        },
+        "preview_id": "grid-preview-4161546d846f"
+      },
+      "status": "passed"
+    },
+    {
+      "title": "Grid hard stop priority",
+      "command": "simulate_explicit_grid(entry=4000, stop=3990)",
+      "result": {
+        "stop_hit": true,
+        "rearms": 0,
+        "fills": [
+          {
+            "event": "entry",
+            "side": "buy",
+            "price": 4000.0,
+            "realized_pnl": -0.05
+          },
+          {
+            "event": "stop",
+            "side": "sell",
+            "price": 3990.0,
+            "realized_pnl": -2.549875
+          }
+        ],
+        "side_notional": 1997.5,
+        "gross_pnl": -2.5,
+        "net_pnl": -2.599875
+      },
+      "status": "passed"
+    },
+    {
+      "title": "Conditional grid re-arm and flatten",
+      "command": "simulate_conditional_grid(re_arm_max=1)",
+      "result": {
+        "stop_hit": true,
+        "rearms": 1,
+        "round_trips": 0,
+        "net_pnl": -91.66214639310519,
+        "fill_count": 20
+      },
+      "status": "passed"
+    },
+    {
+      "title": "Per-side paper cost calculation",
+      "command": "dualtrack_order_cost(price=4000, notional=1000, 0.5 bp)",
+      "result": {
+        "notional": 1000.0,
+        "cost": 0.05,
+        "cost_model": {
+          "cost_per_side_bp": 0.5
+        }
+      },
+      "status": "passed"
+    }
+  ]
+}

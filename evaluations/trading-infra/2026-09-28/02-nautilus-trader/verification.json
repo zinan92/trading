@@ -1,0 +1,49 @@
+{
+  "product": "nautechsystems/nautilus_trader",
+  "tested_commit": "23cb3035dff7f3fb28b7f5985a2340b090c3c126",
+  "source_commit_date": "2026-09-14",
+  "catalog_lock": "23cb3035dff7",
+  "package_version": "2.0.0rc5",
+  "runtime": {
+    "python": "3.13.7",
+    "architecture": "arm64",
+    "installation": "prebuilt PyPI wheel in isolated venv; wheel version matches pinned source pyproject version; not compiled from Git commit (Cargo/Rust toolchain absent)"
+  },
+  "smoke_backtest": {
+    "api": "low-level BacktestEngine",
+    "strategy": "EMA(10/20) crossover",
+    "venue": "SIM local simulator",
+    "bars": 4000,
+    "bar_type": "EUR/USD.SIM 1-minute",
+    "source": "deterministic locally generated synthetic prices; no download",
+    "starting_balance_usd": 1000000,
+    "ending_balance_usd": 1021464.0,
+    "synthetic_net_change_usd": 21464.0,
+    "synthetic_return_pct": 2.1464,
+    "closed_positions": 65,
+    "simulated_fills": 130,
+    "reports": [
+      "account report CSV",
+      "positions report CSV",
+      "fills report CSV"
+    ]
+  },
+  "upstream_quickstart": {
+    "source_file": "docs/getting_started/quickstart.py at the locked commit",
+    "exit_code": 0,
+    "elapsed_seconds": 150.942,
+    "bars": 10000,
+    "data": "synthetic random walk, no network or download"
+  },
+  "screenshots": {
+    "count": 22,
+    "unique_sha256_count": 22,
+    "notes": "GitHub source plus official docs; output screenshots show evaluator harness rather than native application UI"
+  },
+  "limits": [
+    "No real market data, account, broker adapter, Testnet or Live lifecycle.",
+    "The custom 4,000-bar sample does not include an explicit commission/slippage model; its synthetic PnL is not evidence of strategy quality.",
+    "Full repository test suite was not run; package was smoke-tested via its official quickstart and a deterministic local backtest.",
+    "Release-candidate wheel version was used; the exact pinned Git commit was not built from source."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "repo": "wenyuanw/a-share-heatmap",
+  "source_url": "https://github.com/wenyuanw/a-share-heatmap",
+  "tested_commit": "6b4b6744ad16f44fcf1cff17d8813af29aad66f0",
+  "status": "carried forward from completed Equity Research trial; role reclassified as Dashboard",
+  "recommended_role": "Dashboard / A-share market breadth and sector heatmap",
+  "score": 84,
+  "rank": null,
+  "rank_status": "pending Dashboard ranking",
+  "score_components": {
+    "core_result_35": 30,
+    "data_provenance_25": 20,
+    "coverage_depth_15": 14,
+    "onboarding_repro_15": 12,
+    "runtime_stability_10": 8
+  },
+  "screenshots": 24,
+  "unique_screenshots": 24,
+  "score_rationale": "Prior isolated web trial successfully covered nine market scopes, day/week/month/year periods, filters, watchlists, appearance settings and share preview. The captured source data ended at 2026-09-24; this carried-forward score is role-adjusted, not a fresh live-data score."
+}

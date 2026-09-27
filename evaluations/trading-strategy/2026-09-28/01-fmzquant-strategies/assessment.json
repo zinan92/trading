@@ -1,0 +1,17 @@
+{
+  "repo": "fmzquant/strategies",
+  "name": "FMZ Strategy Library",
+  "rank": 7,
+  "score": 60,
+  "score_components": {
+    "core_result_35": 20,
+    "data_provenance_25": 10,
+    "coverage_depth_15": 14,
+    "onboarding_repro_15": 9,
+    "runtime_stability_10": 7
+  },
+  "recommended_role": "多语言策略源码参考库",
+  "score_rationale": "规模与跨语言覆盖大，但没有统一包、运行器或回测；抽查暴露 Python 2 语法失败，授权与策略质量需逐篇确认。",
+  "screenshots": 20,
+  "unique_screenshots": 20
+}

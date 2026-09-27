@@ -1,0 +1,24 @@
+{
+  "full_suite": {
+    "command": "python3 -m pytest -q",
+    "total": 48,
+    "passed": 46,
+    "failed": 2,
+    "skipped": 0,
+    "failed_cases": [
+      "tests/test_capture_provenance.py::test_capture_can_reproduce_the_pinned_git_object_without_current_checkout",
+      "tests/test_package_boundary.py::test_real_external_dca_symbols_are_not_copied_into_the_package"
+    ],
+    "cause": "Both tests call git in the maintainer-specific maintainer-specific local trading-system-testnet checkout path at a pinned source revision. The public clone lacks that local source object; package execution and pure unit cases are not the cause. No files in that external checkout were modified."
+  },
+  "focused_suite": {
+    "command": "python3 -m pytest -q tests/test_canonical_golden.py tests/test_grid_adaptive_characterization.py tests/test_grid_range_adjustment.py",
+    "passed": 38,
+    "failed": 0
+  },
+  "install": {
+    "command": "uv pip install -e . in an isolated Python 3.13 venv",
+    "result": "pass; package import succeeds outside the repository checkout",
+    "declared_runtime_dependencies": 0
+  }
+}

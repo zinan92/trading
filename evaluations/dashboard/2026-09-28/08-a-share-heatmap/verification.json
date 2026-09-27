@@ -1,0 +1,22 @@
+{
+  "tested_at": "2026-09-27 (previous completed trial; carried forward on 2026-09-28)",
+  "source_commit": "6b4b6744ad16f44fcf1cff17d8813af29aad66f0",
+  "role_change": "Equity Research -> Dashboard",
+  "evidence_source": "evaluations/equity-research/2026-09-28/02-a-share-heatmap",
+  "observations": {
+    "api_scenarios": 13,
+    "site_tools": "market, period and filter state; search and watchlist add/remove; native share preview; theme changes",
+    "all_market_rows": 5917,
+    "sectors": 32,
+    "markets_checked": 9,
+    "periods_checked": [
+      "day",
+      "week",
+      "month",
+      "year"
+    ],
+    "data_snapshot_latest": "2026-09-24 15:30/16:15 Asia/Shanghai",
+    "screenshot_count": 24
+  },
+  "caveat": "This is previous trial evidence with a fixed snapshot; no fresh provider fetch was made during the overnight Dashboard pass."
+}

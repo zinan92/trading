@@ -1,0 +1,53 @@
+{
+  "repository": "nhovongoc0-max/meme-radar",
+  "commit": "dbe1fa27cb5735c6fb7b6060ef80bae4f06cc7b6",
+  "version": "0.1.10",
+  "node": "v26.8.1",
+  "npm_setup": "pass; pinned npm ci installed 7 packages",
+  "npm_doctor": "pass; dependencies ready",
+  "npm_test": {
+    "tests": 360,
+    "passed": 360,
+    "failed": 0,
+    "skipped": 0,
+    "duration_ms": 870.812291
+  },
+  "dashboard": {
+    "port": 3981,
+    "http_status": 200,
+    "health": {
+      "ok": true,
+      "service": "meme-radar",
+      "version": "0.1.10",
+      "ready": false,
+      "degraded": true,
+      "scanner": {
+        "status": "AVE_AUTH_REQUIRED",
+        "fresh": false,
+        "scanInProgress": false,
+        "cycleStartedAt": 0,
+        "lastSuccessAt": 0,
+        "ageMs": null,
+        "maxAgeMs": 900000
+      },
+      "execution": false,
+      "source": "GET /health observed at 127.0.0.1:3981"
+    },
+    "screenshots": 12,
+    "distinct_screenshots": 12,
+    "local_api_reads": 17,
+    "blank_key_local_validation": [
+      {
+        "path": "/api/ave-configure",
+        "status": 400
+      }
+    ],
+    "external_ui_requests": [],
+    "page_errors": []
+  },
+  "api_key_configured": false,
+  "state_key_file_present": false,
+  "server_stopped": true,
+  "external_fetch_guard_log": [],
+  "fixture": "none; no market data fabricated"
+}

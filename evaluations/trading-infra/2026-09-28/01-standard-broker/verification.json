@@ -1,0 +1,62 @@
+{
+  "product": "zinan92/trading-system/packages/standard-broker",
+  "tested_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "package_version": "0.1.0",
+  "tested_on": "2026-09-28",
+  "runtime": {
+    "python": "3.13.7",
+    "install": "isolated wheel built from migrated package"
+  },
+  "package_tests": {
+    "summary": "348 passed, 5 skipped in 0.42s",
+    "exit_code": 0,
+    "scope": "packages/standard-broker/tests",
+    "optional_dependency": "NautilusTrader not installed; five optional Nautilus-dependent cases skipped"
+  },
+  "paper_smoke": {
+    "version": "0.1.0",
+    "paper_ports": [
+      "market_data",
+      "instrument",
+      "account",
+      "order_execution",
+      "protection_order",
+      "fee"
+    ],
+    "preflight": {
+      "environment": "paper",
+      "network_io": false,
+      "real_money_eligible": false,
+      "credential_required": false
+    },
+    "allowed_local_request": {
+      "accepted": true,
+      "network_io": false,
+      "real_money_eligible": false,
+      "provenance_source": "paper_fixture",
+      "transport_state": "local_fixture",
+      "transport_calls": 1
+    },
+    "unsupported_execution_request": {
+      "type": "BrokerCapabilityError",
+      "reason_code": "capability_gap",
+      "calls_after_block": 1
+    },
+    "unsafe_identity_rejections": [
+      "Paper adapter only accepts the paper environment",
+      "Paper adapter cannot accept a signer"
+    ],
+    "scope": "In-memory local fixture only; this transport returns acceptance receipts and does not simulate fills or execute orders."
+  },
+  "network_and_credentials": "No direct HTTP/socket client call patterns were found in package tests/proof script. Proof script not run. Credential-like environment variables were removed for pytest. No external Testnet/Live requests or orders.",
+  "not_verified": [
+    "Optional Nautilus integration cases (5 skipped because nautilus_trader extra not installed)",
+    "Real provider account/market data",
+    "External Testnet or Live lifecycle",
+    "Matching, fills, fee accounting and position updates: InMemoryPaperTransport returns only an accepted fixture receipt"
+  ],
+  "screenshots": {
+    "count": 19,
+    "unique_sha256_count": 19
+  }
+}

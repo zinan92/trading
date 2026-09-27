@@ -1,0 +1,17 @@
+{
+  "repo": "zinan92/trading-strategy",
+  "name": "DCA/Grid strategy package（归档）",
+  "rank": 3,
+  "score": 76,
+  "score_components": {
+    "core_result_35": 27,
+    "data_provenance_25": 18,
+    "coverage_depth_15": 10,
+    "onboarding_repro_15": 13,
+    "runtime_stability_10": 8
+  },
+  "recommended_role": "DCA/Grid 计划与离线回放组件",
+  "score_rationale": "安装及 12 个确定性 DCA/Grid 场景可运行，核心测试 38 通过；完整测试的 2 个失败依赖维护者本机外部 checkout。仓库已归档迁入 trading-system。",
+  "screenshots": 12,
+  "unique_screenshots": 12
+}

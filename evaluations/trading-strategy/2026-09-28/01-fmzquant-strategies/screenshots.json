@@ -1,0 +1,187 @@
+{
+  "product": "fmzquant/strategies",
+  "count": 20,
+  "unique_sha256_count": 20,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/02-20均线趋势突破量化交易策略-EMA-20-Breakout-Trend-Following-Q.png",
+      "title": "20均线趋势突破量化交易策略-EMA-20-Breakout-Trend-Following-Quantitative-Trading-Strategy",
+      "source": "https://github.com/fmzquant/strategies/blob/master/20%E5%9D%87%E7%BA%BF%E8%B6%8B%E5%8A%BF%E7%AA%81%E7%A0%B4%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5-EMA-20-Breakout-Trend-Following-Quantitative-Trading-Strategy.md",
+      "sha256": "94ecf8c985a54be9926ff0c9d334e50a7b3a9ea071266d69854f5aa55da52f8b",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 2,
+      "file": "images/03-1-2-3-形态与-EMAMACD-和第四根蜡烛线延伸的量化交易策略1-2-3-Pattern-.png",
+      "title": "1-2-3-形态与-EMAMACD-和第四根蜡烛线延伸的量化交易策略1-2-3-Pattern-Quantitative-Trading-Strategy-with-EMAs-MACD-and-4th-Candle-Extension",
+      "source": "https://github.com/fmzquant/strategies/blob/master/1-2-3-%E5%BD%A2%E6%80%81%E4%B8%8E-EMAMACD-%E5%92%8C%E7%AC%AC%E5%9B%9B%E6%A0%B9%E8%9C%A1%E7%83%9B%E7%BA%BF%E5%BB%B6%E4%BC%B8%E7%9A%84%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A51-2-3-Pattern-Quantitative-Trading-Strategy-with-EMAs-MACD-and-4th-Candle-Extension.md",
+      "sha256": "ec3f652e5a4ed16192c5ff3a9f034022146c989e756a46c218e835a6448ac658",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 3,
+      "file": "images/04-双EMA金叉死叉趋势策略Dual-EMA-Crossover-Trend-Strategy.png",
+      "title": "双EMA金叉死叉趋势策略Dual-EMA-Crossover-Trend-Strategy",
+      "source": "https://github.com/fmzquant/strategies/blob/master/%E5%8F%8CEMA%E9%87%91%E5%8F%89%E6%AD%BB%E5%8F%89%E8%B6%8B%E5%8A%BF%E7%AD%96%E7%95%A5Dual-EMA-Crossover-Trend-Strategy.md",
+      "sha256": "f9ac48adf209644f117240a319ca3d00c2d775bb8c92c38f9ee113f5bd00705b",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 4,
+      "file": "images/05-Python版简单网格策略教学.png",
+      "title": "Python版简单网格策略教学",
+      "source": "https://github.com/fmzquant/strategies/blob/master/Python%E7%89%88%E7%AE%80%E5%8D%95%E7%BD%91%E6%A0%BC%E7%AD%96%E7%95%A5%E6%95%99%E5%AD%A6.md",
+      "sha256": "662bac61f5af54d733ea797985b257c7a1155d0b44e2445f75bc18ddf622d6c6",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 5,
+      "file": "images/06-50行网格策略教学.png",
+      "title": "50行网格策略教学",
+      "source": "https://github.com/fmzquant/strategies/blob/master/50%E8%A1%8C%E7%BD%91%E6%A0%BC%E7%AD%96%E7%95%A5%E6%95%99%E5%AD%A6.md",
+      "sha256": "fefd23597d9ffc32cae493be63dcac17ff5c168c20704ea27951b5acba28ce1a",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 6,
+      "file": "images/07-60行三角对冲策略教学.png",
+      "title": "60行三角对冲策略教学",
+      "source": "https://github.com/fmzquant/strategies/blob/master/60%E8%A1%8C%E4%B8%89%E8%A7%92%E5%AF%B9%E5%86%B2%E7%AD%96%E7%95%A5%E6%95%99%E5%AD%A6.md",
+      "sha256": "fc7c2855f02268b70383bc38ef49ecda81d5b9505ed2e2dfd5788b78a18b6462",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 7,
+      "file": "images/08-交易终端插件范例.png",
+      "title": "交易终端插件范例",
+      "source": "https://github.com/fmzquant/strategies/blob/master/%E4%BA%A4%E6%98%93%E7%BB%88%E7%AB%AF%E6%8F%92%E4%BB%B6%E8%8C%83%E4%BE%8B.md",
+      "sha256": "0f6819bb62352f7b37c524eb4ef1bbc41e4a6d3481d569b5cf0adf4a3362bef7",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 8,
+      "file": "images/09-15MIN-BTCUSDTPERP-BOT.png",
+      "title": "15MIN-BTCUSDTPERP-BOT",
+      "source": "https://github.com/fmzquant/strategies/blob/master/15MIN-BTCUSDTPERP-BOT.md",
+      "sha256": "4ee0cf381e851f24aa0a68a294bb357b37902d0c836e76834d017e287dfdfab1",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 9,
+      "file": "images/10-ADX-RSI策略ADX-RSI-Strategy.png",
+      "title": "ADX-RSI策略ADX-RSI-Strategy",
+      "source": "https://github.com/fmzquant/strategies/blob/master/ADX-RSI%E7%AD%96%E7%95%A5ADX-RSI-Strategy.md",
+      "sha256": "5bd2a4c8116d0b60a997d043e11ab9a91f674391cd519224ff27c7a664097eb6",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 10,
+      "file": "images/11-additional-11.png",
+      "title": "GitHub 多周期 PSAR-MACD-RSI 策略",
+      "source": "https://github.com/fmzquant/strategies/blob/master/%E5%9F%BA%E4%BA%8EPSARMACD%E5%92%8CRSI%E7%9A%84%E5%A4%9A%E6%97%B6%E9%97%B4%E6%A1%86%E6%9E%B6%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5Multi-timeframe-Quantitative-Trading-Strategy-Based-on-PSAR-MACD-and-RSI.md",
+      "sha256": "cfd8dd306472b888d616f47f69cffb95efc2a6cf47b181e2cbc34c8a474c55f6",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 11,
+      "file": "images/12-additional-12.png",
+      "title": "GitHub ATR 动态止盈止损策略",
+      "source": "https://github.com/fmzquant/strategies/blob/master/%E5%A4%9A%E6%8C%87%E6%A0%87%E8%B6%8B%E5%8A%BF%E8%B7%9F%E8%B8%AA%E7%AD%96%E7%95%A5%E7%BB%93%E5%90%88ATR%E5%8A%A8%E6%80%81%E6%AD%A2%E7%9B%88%E6%AD%A2%E6%8D%9F-Multi-Indicator-Trend-Following-Strategy-with-ATR-Dynamic-Stop-Loss-Take-Profit.md",
+      "sha256": "b0d74b950eb23e0f5c83de696ebe1058419bda090bc2bb5372b88a9bcfcec199",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 12,
+      "file": "images/13-additional-13.png",
+      "title": "GitHub Python 移植策略",
+      "source": "https://github.com/fmzquant/strategies/blob/master/%E7%A7%BB%E6%A4%8D-OKCoin-%E9%9F%AD%E8%8F%9C%E6%94%B6%E5%89%B2%E6%9C%BA-%E6%B3%A8%E9%87%8Apython%E7%89%88.md",
+      "sha256": "1f2c58f62d2e0c61f508d2b430585f0813365f0cdb3e939ee175d66c4c2c791e",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 13,
+      "file": "images/14-additional-14.png",
+      "title": "GitHub 网格策略管理工具",
+      "source": "https://github.com/fmzquant/strategies/blob/master/%E7%BD%91%E6%A0%BC%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7.md",
+      "sha256": "80668d829562c97decbb8e5322ec3a0c451f3eb351fb4adb3e180704ff01ba1c",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 14,
+      "file": "images/15-additional-15.png",
+      "title": "GitHub MyLanguage 海龟策略",
+      "source": "https://github.com/fmzquant/strategies/blob/master/%E9%BA%A6%E8%AF%AD%E8%A8%80%E6%B5%B7%E9%BE%9F%E7%AD%96%E7%95%A5%E4%BD%93%E9%AA%8C.md",
+      "sha256": "571b2c5bca184fef842561d477b9ffa5da7de39df608cefeb52cba9bcafd773c",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 15,
+      "file": "images/16-additional-16.png",
+      "title": "GitHub MyLanguage 网格策略",
+      "source": "https://github.com/fmzquant/strategies/blob/master/%E9%BA%A6%E8%AF%AD%E8%A8%80%E7%BD%91%E6%A0%BC%E7%AD%96%E7%95%A5.md",
+      "sha256": "c5d8fb9300923d05e28c7a03cd16c08792233924b63102c60023e0bda4cc5745",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 16,
+      "file": "images/17-additional-17.png",
+      "title": "GitHub C API 示例",
+      "source": "https://github.com/fmzquant/strategies/blob/master/C-API%E8%B0%83%E7%94%A8%E4%BE%8B%E5%AD%90.md",
+      "sha256": "2fee3f5a8ed7632288a0dcf9dcc4f7f3137ee5eb6d02242bba24c3289bf6f708",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 17,
+      "file": "images/18-additional-18.png",
+      "title": "GitHub C++ 高频策略",
+      "source": "https://github.com/fmzquant/strategies/blob/master/C%E6%9C%9F%E8%B4%A7%E9%AB%98%E9%A2%91%E5%A5%97%E5%B8%81%E7%AD%96%E7%95%A5OKEX-Websocket%E7%89%88.md",
+      "sha256": "d220e1cd7da65fef7e70682de8b9dc094854cbf09da9d9841014ffbab4811b69",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 18,
+      "file": "images/19-additional-19.png",
+      "title": "GitHub OKX 配对交易策略",
+      "source": "https://github.com/fmzquant/strategies/blob/master/%E9%85%8D%E5%AF%B9%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5OKX.md",
+      "sha256": "fde5ae6da14ff949fb090d4f33be2df21cb01392ec7f12c47a96b02779ec0e02",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 19,
+      "file": "images/21-additional-21.png",
+      "title": "FMZ 原始公开策略页面 489157",
+      "source": "https://www.fmz.com/strategy/489157",
+      "sha256": "473a41caaceb8743a3c73f642753aca9465196988faebebe4bd190c2262dbdb4",
+      "kind": "captured",
+      "http_status": 200
+    },
+    {
+      "number": 20,
+      "file": "images/22-additional-22.png",
+      "title": "FMZ 原始公开策略页面 437017",
+      "source": "https://www.fmz.com/strategy/437017",
+      "sha256": "14547dead06a7c64608cbc60a12a95817520060fc361a2c5d078a502de38a960",
+      "kind": "captured",
+      "http_status": 200
+    }
+  ]
+}

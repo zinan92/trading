@@ -1,0 +1,234 @@
+{
+  "repo": "zinan92/human-kline-review (owned workspace; no commit available)",
+  "tested_at": "2026-09-28",
+  "captured_files": 25,
+  "unique_screenshots": 21,
+  "published_unique_files": 21,
+  "items": [
+    {
+      "capture_file": "01-initial-overview.jpg",
+      "sha256": "a86374980baa32e953b496c5da6bb74ee15b9067e261bc83ec5bcb9531785e72",
+      "bytes": 60609,
+      "description": "隔离合成样例首页与 400 根 K 线",
+      "unique": true,
+      "stored_as": "01-initial-overview.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "02-source-provenance-expanded.jpg",
+      "sha256": "3cf2d03060ea0eee8aaa6e11b337a53384ba99eb87fbeb66f67f57c8f68bae57",
+      "bytes": 58324,
+      "description": "展开 Macro Source 只读来源、报告截止与状态",
+      "unique": true,
+      "stored_as": "02-source-provenance-expanded.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "03-daily-chart.jpg",
+      "sha256": "b8694eb779014930e5d4942a05b0492478bd50b6d09d8b2663e1d4067d6d7cd7",
+      "bytes": 58278,
+      "description": "切换日线图：合成 OHLC 与标准指标",
+      "unique": true,
+      "stored_as": "03-daily-chart.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "04-weekly-chart.jpg",
+      "sha256": "3ce6994cb3cbca35ef7735bbd94159d0b99dcb4e99ddee160b316c0eaab8e1d9",
+      "bytes": 58218,
+      "description": "切换周线图：EMA20/50/100/200、MACD 与 sRSI",
+      "unique": true,
+      "stored_as": "04-weekly-chart.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "05-focus-mode.jpg",
+      "sha256": "2dbfd3dc5f827cb33e9f108eb0c010f997766410b2a1d7e2354a81ac468695d5",
+      "bytes": 58632,
+      "description": "专注模式入口",
+      "unique": true,
+      "stored_as": "05-focus-mode.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "06-review-created.jpg",
+      "sha256": "d33fb08742116bf3c9c37640aebce4cc27696c36027334cf34f92f3420e3e551",
+      "bytes": 60466,
+      "description": "创建隔离 SPY Asset Review",
+      "unique": true,
+      "stored_as": "06-review-created.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "07-focus-candle-observation.jpg",
+      "sha256": "da3945112a6fa1a8b6b3e659e53199fea429bde0869be69121cfbf3583a34422",
+      "bytes": 48184,
+      "description": "逐根观察模式与 K 线日期导航",
+      "unique": true,
+      "stored_as": "07-focus-candle-observation.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "08-key-candle-marker.jpg",
+      "sha256": "1aa07fc1564285a639a5d0e517466c09f6793408bb6d61c427ebdf043be2380b",
+      "bytes": 44138,
+      "description": "添加合成 K 线标注并展示日期关联",
+      "unique": true,
+      "stored_as": "08-key-candle-marker.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "09-weekly-draft-saved.jpg",
+      "sha256": "8a43c26501291386909573d4b43b6117147dbaeb8921a6737a480b8f48643871",
+      "bytes": 48388,
+      "description": "周线 Human Analysis 草稿与关键标记",
+      "unique": true,
+      "stored_as": "09-weekly-draft-saved.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "10-weekly-completed.jpg",
+      "sha256": "6026e07012d51ea10662fb56e0783a68dd1050845c886fb24e7406a89b827db7",
+      "bytes": 40388,
+      "description": "周线完成后推进到日线",
+      "unique": true,
+      "stored_as": "10-weekly-completed.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "11-daily-review-open.jpg",
+      "sha256": "6026e07012d51ea10662fb56e0783a68dd1050845c886fb24e7406a89b827db7",
+      "bytes": 40388,
+      "description": "日线 Review 表单",
+      "unique": false,
+      "stored_as": "10-weekly-completed.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "12-daily-draft-saved.jpg",
+      "sha256": "2109fe7270c8de8dfcf6486329c03a36c911c3bb6cec7c5e958d9efd86a9898e",
+      "bytes": 44458,
+      "description": "日线草稿保存状态",
+      "unique": true,
+      "stored_as": "12-daily-draft-saved.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "13-daily-completed.jpg",
+      "sha256": "78dac962ec32478271ea2ad66e432ea0e6fa77ceebd2e74b6a6d4754ea1266a3",
+      "bytes": 48983,
+      "description": "日线完成尝试后状态",
+      "unique": true,
+      "stored_as": "13-daily-completed.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "14-four-hour-unavailable.jpg",
+      "sha256": "bd2a46727fc0dadd05b69a83e7cd0cef4c3e9d0ccbbe532dcbe3e7e58b9fdd1d",
+      "bytes": 40776,
+      "description": "缺失 4H 数据的 fail-closed 状态",
+      "unique": true,
+      "stored_as": "14-four-hour-unavailable.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "15-four-hour-skipped.jpg",
+      "sha256": "bd2a46727fc0dadd05b69a83e7cd0cef4c3e9d0ccbbe532dcbe3e7e58b9fdd1d",
+      "bytes": 40776,
+      "description": "4H 跳过状态（与前一帧重复）",
+      "unique": false,
+      "stored_as": "14-four-hour-unavailable.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "16-daily-completion-retry.jpg",
+      "sha256": "78dac962ec32478271ea2ad66e432ea0e6fa77ceebd2e74b6a6d4754ea1266a3",
+      "bytes": 48983,
+      "description": "等待 debounce 稳定后的日线完成状态",
+      "unique": false,
+      "stored_as": "13-daily-completed.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "17-daily-autosave-settled.jpg",
+      "sha256": "5e206fd4be90dc9cafefc2bd0df26068d7f78ce1e9d3062be967ae26bce2bc97",
+      "bytes": 49619,
+      "description": "700ms 自动保存写入的日线草稿",
+      "unique": true,
+      "stored_as": "17-daily-autosave-settled.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "18-daily-completed-after-debounce.jpg",
+      "sha256": "ac908145f836712987ff63be9b64acb5eb7c6dd16a4650aee2a0917b4e7cdc38",
+      "bytes": 49758,
+      "description": "自动保存稳定后日线推进至 4H",
+      "unique": true,
+      "stored_as": "18-daily-completed-after-debounce.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "19-four-hour-skip-form.jpg",
+      "sha256": "2e6f6f192c5728e1a7f4aae1f95d823bbc946192af1220636163dfb359053576",
+      "bytes": 61729,
+      "description": "4H 显式跳过理由表单",
+      "unique": true,
+      "stored_as": "19-four-hour-skip-form.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "20-four-hour-skipped.jpg",
+      "sha256": "f21bdd7a219a50acd94fa593c2a08b4c1e5d3d80e319fd9e34bb8308444c8f4e",
+      "bytes": 55288,
+      "description": "含原因的 4H skip receipt",
+      "unique": true,
+      "stored_as": "20-four-hour-skipped.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "21-asset-finalization-review.jpg",
+      "sha256": "f21bdd7a219a50acd94fa593c2a08b4c1e5d3d80e319fd9e34bb8308444c8f4e",
+      "bytes": 55288,
+      "description": "Asset 综合判断表单（与 skip receipt 画面重复）",
+      "unique": false,
+      "stored_as": "20-four-hour-skipped.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "22-asset-confirmed.jpg",
+      "sha256": "91fb65704ed1a75852518d86e1a33fa96c43ed11fefc09ac4b9252d68fe8a3dd",
+      "bytes": 54268,
+      "description": "Asset Review confirmed 状态",
+      "unique": true,
+      "stored_as": "22-asset-confirmed.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "23-summary-entry-mock-enabled.jpg",
+      "sha256": "4e6238bfb26d8d1440d0a53f644054e2e94202eef5aef5138d57199cf2bb25b5",
+      "bytes": 61706,
+      "description": "汇总入口：明确使用本地 mock provider",
+      "unique": true,
+      "stored_as": "23-summary-entry-mock-enabled.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "24-synthetic-summary-draft.jpg",
+      "sha256": "604b90c45f775125366d500d7f87609681f497360bee4b1c497f399f5cbf0d52",
+      "bytes": 64126,
+      "description": "本地 synthetic summary draft 与证据摘录",
+      "unique": true,
+      "stored_as": "24-synthetic-summary-draft.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    },
+    {
+      "capture_file": "25-synthetic-summary-confirmed.jpg",
+      "sha256": "fc4d6b553ef65b098c402e920089fbc75f5d31a9de28d34fb1e37a483f2e81b0",
+      "bytes": 52802,
+      "description": "本地 synthetic summary 确认后出现的导出入口",
+      "unique": true,
+      "stored_as": "25-synthetic-summary-confirmed.jpg",
+      "capture_source": "Human K-line Review local UI served on isolated localhost:8933 with deterministic synthetic fixture; browser screenshot"
+    }
+  ]
+}

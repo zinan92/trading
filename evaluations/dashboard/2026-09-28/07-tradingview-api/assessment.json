@@ -1,0 +1,22 @@
+{
+  "repo": "Mathieu2301/TradingView-API",
+  "source_url": "https://github.com/Mathieu2301/TradingView-API",
+  "tested_commit": "5baea86c8c7e576f13464919c86c3b4c4b0ecf4c",
+  "package": "@mathieuc/tradingview",
+  "version": "3.5.2",
+  "status": "unauthenticated public WebSocket example and package tests passed",
+  "recommended_role": "Trading Data / third-party TradingView WebSocket data client",
+  "score": 78,
+  "rank": null,
+  "rank_status": "catalog role mismatch; propose relocate from Dashboard to Trading Data",
+  "score_components": {
+    "core_result_35": 31,
+    "data_provenance_25": 17,
+    "coverage_depth_15": 14,
+    "onboarding_repro_15": 9,
+    "runtime_stability_10": 7
+  },
+  "screenshots": 13,
+  "unique_screenshots": 13,
+  "score_rationale": "A pinned unauthenticated public chart example loaded two crypto markets, changed interval to 15 minutes and changed chart type; full tests passed except credential-gated cases. The library has no dashboard UI, and only the public chart path was validated without cookies."
+}

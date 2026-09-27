@@ -1,0 +1,70 @@
+{
+  "repository": "fmzquant/strategies",
+  "locked_commit": "7853bb2bf262c4567ac238d3552d97f0e50cb801",
+  "commit_date": "2025-04-30T11:10:28+08:00",
+  "markdown_strategy_files": 5806,
+  "readme_bytes": 745435,
+  "readme_fmz_links": 5810,
+  "local_docs_with_source_links": 5806,
+  "source_languages": {
+    "PineScript": 5283,
+    "javascript": 362,
+    "python": 131,
+    "MyLanguage": 27,
+    "cpp": 3
+  },
+  "source_block_coverage": {
+    "nonempty": 5806,
+    "empty": 0,
+    "missing_source_or_block": 0,
+    "unclosed": 0,
+    "code_length_median_chars": 2563
+  },
+  "readme_links_without_local_file": [
+    {
+      "fmz_id": "289308",
+      "title": "海龟策略btc现货版"
+    },
+    {
+      "fmz_id": "380258",
+      "title": "AlphaTrend-Strategy"
+    },
+    {
+      "fmz_id": "380255",
+      "title": "Hull-Suite-Strategy"
+    },
+    {
+      "fmz_id": "362014",
+      "title": "RSI-MTF-ObOs"
+    }
+  ],
+  "local_files_not_listed_in_readme": [
+    {
+      "fmz_id": "5349",
+      "files": [
+        "记录净资产变动情况20.md"
+      ]
+    }
+  ],
+  "root_license_present": false,
+  "external_source_checks": [
+    {
+      "url": "https://www.fmz.com/strategy/489157",
+      "http_status": 200,
+      "response_bytes": 656445,
+      "title": "EMA 20 Breakout Trend Following Quantitative Trading Strategy | FMZ"
+    },
+    {
+      "url": "https://www.fmz.com/strategy/437017",
+      "http_status": 200,
+      "response_bytes": 774774,
+      "title": "Dual EMA Crossover Trend Strategy | FMZ"
+    },
+    {
+      "url": "https://www.fmz.com/strategy/1088",
+      "http_status": 200,
+      "response_bytes": 776095,
+      "title": "2014年的简易比特币高频策略机器人 | FMZ"
+    }
+  ]
+}

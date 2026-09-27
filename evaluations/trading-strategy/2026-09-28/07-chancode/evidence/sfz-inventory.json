@@ -1,0 +1,82 @@
+[
+  {
+    "file": "BTC_USDT_2424_biseg_1m_buy_sell_v4_no2s_new2_hide_usecross_NOT_onebi_min_zs_cnt_1_df_20240201_20250201_normal_div_099_bothdiv_CD_tightytime.csv",
+    "bytes": 156746,
+    "rows": 1215,
+    "columns": [
+      "time",
+      "price",
+      "lidu",
+      "direction",
+      "type",
+      "Seg_avg_recent_7",
+      "Seg_avg_recent_14",
+      "Seg_avg_length_7",
+      "Seg_avg_length_14",
+      "bi_14_avg_diff"
+    ],
+    "time_min": "2024-02-01 11:12:00",
+    "time_max": "2025-01-28 12:49:00",
+    "has_ohlc": false
+  },
+  {
+    "file": "BTC_USDT_2424_biseg_1m_buy_sell_v4_no2s_new2_hide_usecross_NOT_onebi_min_zs_cnt_1_df_20250201_20260221_normal_div_099_bothdiv_CD_tightytime.csv",
+    "bytes": 164263,
+    "rows": 1267,
+    "columns": [
+      "time",
+      "price",
+      "lidu",
+      "direction",
+      "type",
+      "Seg_avg_recent_7",
+      "Seg_avg_recent_14",
+      "Seg_avg_length_7",
+      "Seg_avg_length_14",
+      "bi_14_avg_diff"
+    ],
+    "time_min": "2025-02-01 20:06:00",
+    "time_max": "2026-02-20 09:03:00",
+    "has_ohlc": false
+  },
+  {
+    "file": "BTC_USDT_2424_biseg_1m_buy_sell_v4_no2s_new2_hide_usecross_NOT_onebi_min_zs_cnt_2_df_20240201_20250201_normal_div_099_bothdiv_CD_tightytime.csv",
+    "bytes": 38594,
+    "rows": 299,
+    "columns": [
+      "time",
+      "price",
+      "lidu",
+      "direction",
+      "type",
+      "Seg_avg_recent_7",
+      "Seg_avg_recent_14",
+      "Seg_avg_length_7",
+      "Seg_avg_length_14",
+      "bi_14_avg_diff"
+    ],
+    "time_min": "2024-02-02 00:16:00",
+    "time_max": "2025-01-25 02:42:00",
+    "has_ohlc": false
+  },
+  {
+    "file": "BTC_USDT_2424_biseg_1m_buy_sell_v4_no2s_new2_hide_usecross_NOT_onebi_min_zs_cnt_2_df_20250201_20260221_normal_div_099_bothdiv_CD_tightytime.csv",
+    "bytes": 49814,
+    "rows": 384,
+    "columns": [
+      "time",
+      "price",
+      "lidu",
+      "direction",
+      "type",
+      "Seg_avg_recent_7",
+      "Seg_avg_recent_14",
+      "Seg_avg_length_7",
+      "Seg_avg_length_14",
+      "bi_14_avg_diff"
+    ],
+    "time_min": "2025-02-03 01:09:00",
+    "time_max": "2026-02-15 14:48:00",
+    "has_ohlc": false
+  }
+]

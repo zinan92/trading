@@ -1,0 +1,178 @@
+{
+  "product": "zinan92/trading-system/packages/standard-broker",
+  "tested_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "count": 19,
+  "unique_sha256_count": 19,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-integrated-repository.png",
+      "source": "https://github.com/zinan92/trading-system/tree/bbdcf9005cbf15860b6a6214a408634925580923",
+      "description": "Migrated trading-system repository at tested commit",
+      "http_status": 200,
+      "sha256": "5669c5ca227b2100f860a6500a06bc5344c25ae3b9f1c82f0d0066051028b240",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 2,
+      "file": "images/02-broker-package-tree.png",
+      "source": "https://github.com/zinan92/trading-system/tree/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker",
+      "description": "Integrated standard-broker package file tree",
+      "http_status": 200,
+      "sha256": "9695b1b4ce698f5f921e0e01c15ea091764882633fcf3e5aa1da46af94b686f2",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 3,
+      "file": "images/03-package-readme.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/README.md",
+      "description": "Package-level identity and role",
+      "http_status": 200,
+      "sha256": "51775b9df71d64fe4bf92242b2481d00de1e066234b1e38f64d3b089065d6104",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 4,
+      "file": "images/04-broker-context.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/CONTEXT.md",
+      "description": "Canonical Broker, Paper, Testnet and Live boundaries",
+      "http_status": 200,
+      "sha256": "6f5e3992791830301ce644d9473eb248bc47cec244786d1184a6bd7d28534279",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 5,
+      "file": "images/05-package-metadata.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/pyproject.toml",
+      "description": "Python distribution metadata and dependency extras",
+      "http_status": 200,
+      "sha256": "94c29c254134f6369c270983a8945f0e978f4c453ce9eb092deb9d23c84d6298",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 6,
+      "file": "images/06-paper-adapter.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/src/standard_broker/paper.py",
+      "description": "Local Paper adapter and in-memory transport implementation",
+      "http_status": 200,
+      "sha256": "5218a48a6ec06bf7c59abb872532566c1700b0cb3f99f9a4ce82592548fcaef4",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 7,
+      "file": "images/07-canonical-ports.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/src/standard_broker/ports.py",
+      "description": "Six provider-neutral broker port contracts",
+      "http_status": 200,
+      "sha256": "e369ec0be72d363bd799e5fb126dbc0e03404706095a83d8ae2505df7cbe8922",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 8,
+      "file": "images/08-capability-contract.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/src/standard_broker/capabilities.py",
+      "description": "Capability descriptors and fail-closed checks",
+      "http_status": 200,
+      "sha256": "1392b015a97283c9f2e0a6c0d908e5383df33cd442717284ad4b9c3fb94ee43f",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 9,
+      "file": "images/09-canonical-models.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/src/standard_broker/models.py",
+      "description": "Identity, environment and canonical broker models",
+      "http_status": 200,
+      "sha256": "bcd85456f1b614bf27f12875eb0d9f7dbdbda4bb866ce17055e7d42055bc843d",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 10,
+      "file": "images/10-orders-contract.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/src/standard_broker/orders.py",
+      "description": "Order intent and lifecycle contract",
+      "http_status": 200,
+      "sha256": "de4a860b95255e20039cc786a4fbbd88681073046b6c7fac406e0dc237a50979",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 11,
+      "file": "images/11-protection-contract.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/src/standard_broker/protection.py",
+      "description": "Protection order contract and lifecycle statuses",
+      "http_status": 200,
+      "sha256": "dca19e03716f962392d20e72f77e50b85103ce0d0263b85704a24cd96d6e4b0f",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 12,
+      "file": "images/12-market-data-contract.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/src/standard_broker/market_data.py",
+      "description": "Canonical market data and provenance contract",
+      "http_status": 200,
+      "sha256": "dc638a8ede5683b2d1d9c373615abc7fe87bd6d899799c2707e2f0235c94e8b7",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 13,
+      "file": "images/13-account-contract.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/src/standard_broker/account.py",
+      "description": "Account/position facts and normalized state",
+      "http_status": 200,
+      "sha256": "39101654134ecad0af738979dbef56d422cf4deef9a8f7d7ce8d6e8ee541a4ba",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 14,
+      "file": "images/14-external-host.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/src/standard_broker/external_host.py",
+      "description": "External runtime host boundary",
+      "http_status": 200,
+      "sha256": "4de54746e88c7daef2c17dc95f6d89e951ff55f45d8bc34abd9707e3c97251e8",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 15,
+      "file": "images/15-hyperliquid-profile.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/src/standard_broker/adapters/hyperliquid/profile.py",
+      "description": "External Hyperliquid profile and approval gate",
+      "http_status": 200,
+      "sha256": "f43eda0c042b78c53ac575ed35bc5f4fc3750666ea6629c26430e1b2f36e8648",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 16,
+      "file": "images/16-paper-tests.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/tests/test_paper_contract.py",
+      "description": "Paper-only identity, no-network and capability-gap tests",
+      "http_status": 200,
+      "sha256": "e224dd26880c8dfcdf680b33804c92135fbc1d87607b40358cefbe3896a1ea6a",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 17,
+      "file": "images/17-host-contract-tests.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/tests/test_host_contract.py",
+      "description": "Host control authority and fail-closed tests",
+      "http_status": 200,
+      "sha256": "4fd7f89e53becc14a9021c9d0ad4e8ffc5714a809f30ebfb5a2091045978406e",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 18,
+      "file": "images/18-testnet-fixture-lifecycle-tests.png",
+      "source": "https://github.com/zinan92/trading-system/blob/bbdcf9005cbf15860b6a6214a408634925580923/packages/standard-broker/tests/test_hyperliquid_runtime_order_lifecycle.py",
+      "description": "Fixture lifecycle tests (not external Testnet orders)",
+      "http_status": 200,
+      "sha256": "b904866492712a77abbd2603bb1fea67a292370d941c6c3ae1d1e9f180c5073e",
+      "kind": "Chrome screenshot of public GitHub source UI"
+    },
+    {
+      "number": 19,
+      "file": "images/19-local-paper-contract-output.png",
+      "source": "results/paper-harness.html",
+      "description": "Actual PaperBrokerAdapter fixture preflight, capability-gap and local receipt output; auxiliary evaluator view, not a native product UI",
+      "sha256": "ac4d23cb92e29b5f25d0f8fcb8fdaab3ae6ddac6c71a11fb25e632271d1978a2",
+      "kind": "Chrome screenshot of local in-memory Paper smoke output"
+    }
+  ]
+}

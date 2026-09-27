@@ -1,0 +1,21 @@
+{
+  "repo": "Drakkar-Software/OctoBot",
+  "tested_commit": "d63148e57627ea622fb14401bfe778d1a9b06183",
+  "package_version": "3.0.0-beta2",
+  "status": "tested; first-round role-based score",
+  "recommended_role": "Full Trading System / crypto bot migration candidate",
+  "score": 30,
+  "screenshots": 17,
+  "unique_screenshots": 17,
+  "ui_started": false,
+  "orders_submitted": 0,
+  "rank": 6,
+  "score_components": {
+    "core_result_35": 5,
+    "data_provenance_25": 5,
+    "coverage_depth_15": 9,
+    "onboarding_repro_15": 7,
+    "runtime_stability_10": 4
+  },
+  "score_rationale": "package/CLI install works, but clean simulated UI cannot start because default tentacles are unavailable as a verifiable signed package; no trading workflow was proven."
+}

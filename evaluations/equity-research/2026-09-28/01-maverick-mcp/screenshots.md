@@ -1,0 +1,24 @@
+# Screenshot inventory
+
+1. [01-01-maverick-mcp.jpg](images/01-01-maverick-mcp.jpg) · `1d0b24d61123f4dc9588c2a7cb4ac9c43750d2ad11477ee213d92c3c398d1def`
+2. [02-02-maverick-mcp.jpg](images/02-02-maverick-mcp.jpg) · `2c2d8908577a61da4aff984fbdc9ef6a9746fdd34e450e40d70313a70175cfe7`
+3. [03-03-maverick-mcp.jpg](images/03-03-maverick-mcp.jpg) · `27c0b1ce083ab0643ec4ab916d4cda3b1c1c02f9fe40b867a45be2996010c7c5`
+4. [04-04-maverick-mcp.jpg](images/04-04-maverick-mcp.jpg) · `a9bdc98945cb1791817d1ff16bd6c0093ea2e61b881a4fc57092b8dec6270b24`
+5. [05-05-maverick-mcp.jpg](images/05-05-maverick-mcp.jpg) · `7bd93b5c05267a578b63173dbfcfba618215ef7e61a5f45b4db7b8831a264ea8`
+6. [06-06-maverick-mcp.jpg](images/06-06-maverick-mcp.jpg) · `aa75ad5ee1069b1f5bb0e4effca9c424275ff0677fed855c462722bdaf0c0934`
+7. [07-07-maverick-mcp.jpg](images/07-07-maverick-mcp.jpg) · `f8d0885c06493a85310d21539abc7cf5d77b393088d215c7895e6fed2beef41e`
+8. [08-08-maverick-mcp.jpg](images/08-08-maverick-mcp.jpg) · `20de5717856a64bf5d0769faee60651e02caf67a8b32bd2a68154c7c37e64def`
+9. [09-09-maverick-mcp.jpg](images/09-09-maverick-mcp.jpg) · `4b3390a9da34ca4c0e9f552fd3c2d39f591811f0a2d627897c5e2c2b78c456b4`
+10. [10-10-maverick-mcp.jpg](images/10-10-maverick-mcp.jpg) · `80f8d141a1bf0eae36889415badeec579533f7c208bd721ac9fdce8189a88dfa`
+11. [11-11-maverick-mcp.jpg](images/11-11-maverick-mcp.jpg) · `ab8b4dc42a055b579410234f622c395f043b39e8fe942761bd7d497f8810c03b`
+12. [12-12-maverick-mcp.jpg](images/12-12-maverick-mcp.jpg) · `72a2b367806cc9e93eecff938f14e3a3b77f08beab3a5937be5b1abed80789e5`
+13. [13-13-maverick-mcp.jpg](images/13-13-maverick-mcp.jpg) · `387745273c4a7bc1006820d2ed60d314a6c931f43fee95c8bba73880a3c3ef0b`
+14. [14-14-maverick-mcp.jpg](images/14-14-maverick-mcp.jpg) · `eb616438f97197911dc6e4dba6e140bd63443b8b66351833dec99207ec419753`
+15. [15-15-maverick-mcp.jpg](images/15-15-maverick-mcp.jpg) · `166371b6bb6b97958334699041aa707dd838a8af0d52c779e57918d94262c7f7`
+16. [16-16-maverick-mcp.jpg](images/16-16-maverick-mcp.jpg) · `481d409407a1268ae54635a2007cba0a6914bf3ad9b9255f775d82cdefff8be4`
+17. [17-17-maverick-mcp.jpg](images/17-17-maverick-mcp.jpg) · `cb7177354db7717c2e7c1437ccd1a45dd50c19428fb6a2a71419d4a1f7527458`
+18. [18-18-maverick-mcp.jpg](images/18-18-maverick-mcp.jpg) · `45af3a3fcdb52d7747a34153732be2e62fb18cad3ea32f47d560eb61ef91603d`
+19. [19-19-maverick-mcp.jpg](images/19-19-maverick-mcp.jpg) · `9e0f08131f7394c15686c54b7f198a27006b195f63ef60c67f8ebbe74e58c00f`
+20. [20-20-maverick-mcp.jpg](images/20-20-maverick-mcp.jpg) · `80f49d448df7fb47e1df122544c07f93070ccd8bb58323ea664dd12a80283876`
+21. [21-21-maverick-mcp.jpg](images/21-21-maverick-mcp.jpg) · `97414e15f1c08e0f764d9d4407cd5e909318d76b21f212bc67c7d3e4da9185ca`
+22. [22-22-maverick-mcp.jpg](images/22-22-maverick-mcp.jpg) · `8900657826766fe18d3667baa1880a25996d6e92c951a716b7906399c865265f`

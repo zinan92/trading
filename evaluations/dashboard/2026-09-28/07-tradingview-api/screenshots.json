@@ -1,0 +1,99 @@
+{
+  "repo": "Mathieu2301/TradingView-API",
+  "tested_commit": "5baea86c8c7e576f13464919c86c3b4c4b0ecf4c",
+  "captured_files": 13,
+  "unique_screenshots": 13,
+  "items": [
+    {
+      "file": "01-readme-role-and-limitations.jpg",
+      "sha256": "57f36349dc1289d9299a8f36ac93a8f9d95fdcc6cc4eaa88c695da24a4ad5c9d",
+      "bytes": 81630,
+      "description": "README · library claims, scope and authentication boundary",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "02-simple-chart-example.jpg",
+      "sha256": "d3a7665bdf4c56820587e78306ce7a7a51ad8ebf802c117ca8d780c83320f079",
+      "bytes": 78689,
+      "description": "SimpleChart · unauthenticated WebSocket example",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "03-built-in-indicator-example.jpg",
+      "sha256": "283bb8a97528ad10cb2b2b0ecd09dda3a23b72a29dbd7b11c49a240ff4dbf2ff",
+      "bytes": 84435,
+      "description": "Built-in technical indicators example",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "04-custom-chart-types.jpg",
+      "sha256": "83596700040af2c1b00e5be25b8cf601bc3101b7ea065a90c9ea2e33cb688d80",
+      "bytes": 81153,
+      "description": "Custom chart styles: Heikin Ashi, Renko and Point & Figure",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "05-custom-timeframe.jpg",
+      "sha256": "03b550a6e744028c4d9185162046d9eaca9c57e86d1de5c7d44ea37a3a9f9bfc",
+      "bytes": 79542,
+      "description": "Custom timeframe example; source shows it requires SESSION and SIGNATURE",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "06-bounded-history-example.jpg",
+      "sha256": "a507009e97f1ad34a40ee878253f5eca2cc9fb1ae9ce7abc9a2099cc32e05e27",
+      "bytes": 81898,
+      "description": "Date-bounded history and indicator sample; private session required",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "07-replay-mode-example.jpg",
+      "sha256": "cce35b04655a7beaf54bee7364c2f37c41ba94a0ec3cf615ba44769d57c17c98",
+      "bytes": 82091,
+      "description": "Historical replay workflow example",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "08-fake-replay-example.jpg",
+      "sha256": "d301ac6f3121c90361ba8ec2fa4df878d34ad8d6fcf1c519dc0612d2cad90acf",
+      "bytes": 80868,
+      "description": "Fake replay fallback example",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "09-error-handling-example.jpg",
+      "sha256": "c14e13fc91d0c36d7921f8aa4c1811d6d2baa70cfeeeb84779d04641e857ad80",
+      "bytes": 78842,
+      "description": "Error handling and client cleanup example",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "10-live-chart-integration-test.jpg",
+      "sha256": "1db809915946ec1b4003dd5fc2c5425fdd964ce3a71afa70cf2f0793e4152c86",
+      "bytes": 82161,
+      "description": "Repository integration test for daily bars, 15-minute series and Heikin Ashi",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "11-error-contract-tests.jpg",
+      "sha256": "61d7a414be50d52504f6a84bfd3689da2a1a87458594ceb9f64b6b8ab9002ab7",
+      "bytes": 90626,
+      "description": "Error contract tests; credential-gated cases are skipped without session cookies",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "12-websocket-client-source.jpg",
+      "sha256": "771632d4ff6dcdf65ef858d8c3faa95dea8c89bb83a53aaf881a2b48e33a1654",
+      "bytes": 77542,
+      "description": "WebSocket client event and shutdown implementation",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    },
+    {
+      "file": "13-quote-session-source.jpg",
+      "sha256": "a5dbeb725780899fb9fe0418a46fea173ebe1273bb04d4f15ae2a8db43c96e92",
+      "bytes": 78457,
+      "description": "Quote session request lifecycle source",
+      "capture_source": "GitHub source/docs UI at the exact locked commit; library has no native Dashboard UI"
+    }
+  ]
+}

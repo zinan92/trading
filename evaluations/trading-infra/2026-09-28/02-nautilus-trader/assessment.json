@@ -1,0 +1,19 @@
+{
+  "repo": "nautechsystems/nautilus_trader",
+  "tested_commit": "23cb3035dff7f3fb28b7f5985a2340b090c3c126",
+  "package_version": "2.0.0rc5",
+  "status": "tested; first-round role-based score",
+  "recommended_role": "Trading Infra / Rust-Python backtest and execution engine library",
+  "score": 83,
+  "screenshots": 22,
+  "unique_screenshots": 22,
+  "rank": 1,
+  "score_components": {
+    "core_result_35": 33,
+    "data_provenance_25": 14,
+    "coverage_depth_15": 15,
+    "onboarding_repro_15": 13,
+    "runtime_stability_10": 8
+  },
+  "score_rationale": "official quickstart and custom local backtest both completed with deterministic synthetic inputs; RC release and no real provider/account kept the data/runtime components below full."
+}

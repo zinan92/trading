@@ -1,0 +1,17 @@
+{
+  "repo": "zinan92/chancode",
+  "name": "Chancode",
+  "rank": 9,
+  "score": 45,
+  "score_components": {
+    "core_result_35": 15,
+    "data_provenance_25": 7,
+    "coverage_depth_15": 12,
+    "onboarding_repro_15": 5,
+    "runtime_stability_10": 6
+  },
+  "recommended_role": "Chan 信号 Paper/AI 策略系统候选",
+  "score_rationale": "单次合成 replay 和 14 路由前端构建通过；干净 clone 的批处理回放缺模块/行情路径，后端离线时多页客户端报错。",
+  "screenshots": 23,
+  "unique_screenshots": 23
+}

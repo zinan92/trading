@@ -1,0 +1,19 @@
+{
+  "repo": "zinan92/trading-system",
+  "tested_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "status": "tested; first-round role-based score",
+  "recommended_role": "integrated Paper-first trading platform / Full Trading System migration candidate",
+  "score": 65,
+  "screenshots": 50,
+  "unique_screenshots": 50,
+  "focused_tests_passed": 88,
+  "rank": 5,
+  "score_components": {
+    "core_result_35": 20,
+    "data_provenance_25": 9,
+    "coverage_depth_15": 15,
+    "onboarding_repro_15": 12,
+    "runtime_stability_10": 9
+  },
+  "score_rationale": "Dashboard/Desk and read-only APIs run locally and the predeploy gate passes; there are no trusted bars, so production strategy/market path remains blocked. Scope fits Full Trading System better than Infra."
+}

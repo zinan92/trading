@@ -1,0 +1,20 @@
+{
+  "repo": "zinan92/trading-system/packages/standard-kline",
+  "source_url": "https://github.com/zinan92/trading-system/tree/main/packages/standard-kline",
+  "tested_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "status": "component unit tests and isolated browser fixture passed",
+  "recommended_role": "Trading Infra / provider-neutral browser chart component",
+  "score": 79,
+  "rank": null,
+  "rank_status": "catalog role mismatch; do not rank as standalone Dashboard",
+  "score_components": {
+    "core_result_35": 28,
+    "data_provenance_25": 20,
+    "coverage_depth_15": 13,
+    "onboarding_repro_15": 11,
+    "runtime_stability_10": 7
+  },
+  "screenshots": 14,
+  "unique_screenshots": 14,
+  "score_rationale": "21/21 package tests passed and the real browser widget rendered synthetic candles, overlays, quality states and viewport controls. It is a narrow reusable component, not a complete user-facing Dashboard, and no live market provider is part of this package."
+}

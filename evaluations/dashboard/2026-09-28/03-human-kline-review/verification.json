@@ -1,0 +1,72 @@
+{
+  "tested_at": "2026-09-28",
+  "checkout_path": "owned human-kline-review workspace or isolated trial path",
+  "tested_commit": null,
+  "source_fingerprint": "source-fingerprint.json",
+  "server": {
+    "test_url": "http://127.0.0.1:8933/",
+    "test_instance": "started for this evaluation; isolated from existing service",
+    "source_root": "owned human-kline-review workspace or isolated trial path",
+    "review_store": "owned human-kline-review workspace or isolated trial path",
+    "fixture": "400 deterministic OHLC bars with synthetic_fixture provenance; weekly and daily available, four_hour intentionally unavailable",
+    "provider": "LocalEvaluationFixture / fixture-no-network; no external DeepSeek call"
+  },
+  "workflow": {
+    "health": "200; one fixture asset",
+    "overview": "200; weekly and daily chart_available=true with 400 bars; four_hour unavailable and fail-closed",
+    "create_review": "201",
+    "candle_marker": "persisted against 2026-08-21 in isolated SQLite",
+    "weekly": "completed; source identity and note preserved",
+    "daily": "completed after autosave settled",
+    "four_hour_skip": "completed with explicit reason; next timeframe advanced to asset_label",
+    "asset_review": "confirmed",
+    "mock_synthesis": "draft then confirmed; provider is explicitly local fixture only",
+    "exports_before_synthesis_confirmation": {
+      "json": "409 synthesis_unconfirmed",
+      "markdown": "409 synthesis_unconfirmed",
+      "html": "409 synthesis_unconfirmed"
+    },
+    "exports_after_local_mock_confirmation": {
+      "json": 200,
+      "markdown": 200,
+      "html": 200
+    }
+  },
+  "autosave_race": {
+    "debounce_ms": 700,
+    "reproduction": "after daily completion, a pending autosave appended a blank daily draft about 0.66 seconds later; GET review regressed next_timeframe from four_hour to daily",
+    "workaround_verified": "wait for draft autosave to settle, then complete; daily remained completed and next_timeframe advanced to four_hour",
+    "source_locations": {
+      "autosave_scheduler": "static/review_ui.js lines 165-168",
+      "complete_handler": "static/review_ui.js lines 169-174",
+      "input_and_label_hooks": "static/review_ui.js lines 68-105"
+    }
+  },
+  "tests": {
+    "python": {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m pytest -q -p no:cacheprovider",
+      "result": "57 passed, 1 failed",
+      "failure": "test_browser_degrades_insufficient_history_without_rendering_chart: Playwright page.goto(wait_until=networkidle) timed out after 30 seconds"
+    },
+    "javascript": {
+      "command": "npm run test:js",
+      "result": "7 failed, 0 passed",
+      "failure": "chart_config and indicators functions expected by Node tests were undefined"
+    }
+  },
+  "preexisting_local_service": {
+    "port": 8932,
+    "observed_before_trial": true,
+    "screenshot_used": false,
+    "interaction": "read-only initial page only; no forms or refresh action",
+    "version_match": "not established; its UI timeframe labels differed from the source checkout tested on port 8933",
+    "stopped_after_trial": true,
+    "persistent_review_store": "not modified"
+  },
+  "evidence": {
+    "captured_screenshots": 25,
+    "unique_screenshots": 21,
+    "published_unique_images": 21,
+    "manifest": "screenshots.json"
+  }
+}

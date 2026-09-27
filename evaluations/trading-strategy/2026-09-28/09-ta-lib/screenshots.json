@@ -1,0 +1,181 @@
+{
+  "product": "TA-Lib/ta-lib-python",
+  "tested_commit": "fd6089b183fc23b0e87512c455153043400efff6",
+  "capture_date": "2026-09-28",
+  "count": 22,
+  "unique_sha256_count": 22,
+  "screenshots": [
+    {
+      "file": "images/01-repo-pinned-commit.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/tree/fd6089b183fc23b0e87512c455153043400efff6",
+      "description": "Public upstream repository at the catalog-locked commit",
+      "http_status": 200,
+      "sha256": "d3543db580da81d784af0112fc49a61f21accc417917336e3c0c85b0b8972be0",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/02-readme-overview.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/README.md",
+      "description": "README intro and supported package/API claims",
+      "http_status": 200,
+      "sha256": "97a745e09f662ded70632b4ae160680f3292556963186fdfb8c9d47d3f9c32d3",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/08-pyproject.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/pyproject.toml",
+      "description": "Pinned commit package metadata and build requirements",
+      "http_status": 200,
+      "sha256": "a6c0e633af843811ae2cbb81e9ef6241a775b21ed1b17ae8f3aee03144380dbc",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/09-setup.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/setup.py",
+      "description": "Pinned commit native build/link configuration",
+      "http_status": 200,
+      "sha256": "2d9db23e66c888267cecb7d1cd6c613be4e59ab51313fcf1a8e862bb4db81068",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/10-abstract-source.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/talib/abstract.py",
+      "description": "Abstract API implementation",
+      "http_status": 200,
+      "sha256": "80686346adbe98cf5a49cedf53b7aa194066c62bf8da53cfa5f96f6a3ffbb6c7",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/11-stream-source.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/talib/stream.py",
+      "description": "Streaming API generated wrapper dispatch",
+      "http_status": 200,
+      "sha256": "b9d090e7f62e39e12ae76ccc4a724af1a3c0788409f33f691e1a6625f8953206",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/12-function-bindings.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/talib/_func.pxi",
+      "description": "Generated Cython function bindings",
+      "http_status": 200,
+      "sha256": "0f716a32cdb1ed456c30edd6afb1c22b87c3051c7a6eebc3bdb031977cb5deef",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/13-stream-bindings.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/talib/_stream.pxi",
+      "description": "Generated Cython streaming bindings",
+      "http_status": 200,
+      "sha256": "415a1a8ad3f79f46ea3fb7834d649adf950d07186e7dde2bc92748a79b519447",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/14-test-function-api.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/tests/test_func.py",
+      "description": "Function API and indicator correctness tests",
+      "http_status": 200,
+      "sha256": "bacf9eebf5b4fb63789a0a593dc185c8b74822022d07208c91dc1fe9fb62ceae",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/15-test-abstract-api.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/tests/test_abstract.py",
+      "description": "Abstract API tests",
+      "http_status": 200,
+      "sha256": "18cc0ddb8c6e1e8f5c085e0c9097f75bb941ff8d616db7687d3a31e67b65889d",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/16-test-stream-api.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/tests/test_stream.py",
+      "description": "Existing Streaming API test coverage",
+      "http_status": 200,
+      "sha256": "27311ea7fc9ca3baa440f1d255e6b96c446ad7d9324b83dd3d286bb4ac150a05",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/17-test-pandas.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/tests/test_pandas.py",
+      "description": "Pandas adapter tests",
+      "http_status": 200,
+      "sha256": "2267a967c37ae797de6ac2c4823f5e6300ee2f5c22e14ea471f36022f0e67315",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/18-test-polars.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/tests/test_polars.py",
+      "description": "Polars adapter tests",
+      "http_status": 200,
+      "sha256": "afd006e709eca514835eb64beef32f5db1c4ad78cd98df5afb0f72b7fbe70007",
+      "capture": "Chrome screenshot of public upstream GitHub source UI"
+    },
+    {
+      "file": "images/03-readme-installation.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/README.md",
+      "description": "README installation and external C-library build guidance",
+      "http_status": 200,
+      "sha256": "c37d9782406caa0c74465b08461cb925d483797414a0ea9330ec20535f8ee47e",
+      "capture": "Chrome screenshot scrolled to a distinct README section"
+    },
+    {
+      "file": "images/04-readme-function-api.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/README.md",
+      "description": "README Function API input/output and indicator examples",
+      "http_status": 200,
+      "sha256": "999ed77ce0b76b3e8e28982b789a278185645f1e849cd31d2462544b7472466e",
+      "capture": "Chrome screenshot scrolled to a distinct README section"
+    },
+    {
+      "file": "images/05-readme-abstract-api.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/README.md",
+      "description": "README Abstract API support for NumPy/Pandas/Polars",
+      "http_status": 200,
+      "sha256": "0189066ac8683fe1c8d71086f961146ad1d303c21a5a0dbdfe0a754b4937b64b",
+      "capture": "Chrome screenshot scrolled to a distinct README section"
+    },
+    {
+      "file": "images/06-readme-streaming-api.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/README.md",
+      "description": "README experimental latest-value API claim",
+      "http_status": 200,
+      "sha256": "7463a46ef75a87b03cf1f6911ecf7c11d791d2dccad84cff6ff0540f38670245",
+      "capture": "Chrome screenshot scrolled to a distinct README section"
+    },
+    {
+      "file": "images/07-readme-indicator-catalog.png",
+      "source": "https://github.com/TA-Lib/ta-lib-python/blob/fd6089b183fc23b0e87512c455153043400efff6/docs/func_groups/momentum_indicators.md",
+      "description": "Upstream momentum indicator reference docs at the catalog-locked commit",
+      "http_status": 200,
+      "sha256": "7f7e80da06971ee90ee1dbd5f9120cc15e68e1652eb8451f4661bf2d94e1a9cc",
+      "capture": "Chrome screenshot of public upstream GitHub docs UI"
+    },
+    {
+      "file": "images/19-offline-price.png",
+      "source": "results/indicator-harness.html#price",
+      "description": "TA-Lib SMA and Bollinger Bands outputs; auxiliary evaluator-rendered visualization of actual library output on synthetic data",
+      "sha256": "f0902a86a84d585d21b9d6e42c312afd4e8533b03db1c86fe02c0ce355fa691e",
+      "capture": "Chrome screenshot of evaluator harness, not a native TA-Lib UI"
+    },
+    {
+      "file": "images/20-offline-rsi.png",
+      "source": "results/indicator-harness.html#rsi",
+      "description": "TA-Lib RSI output; auxiliary evaluator-rendered visualization of actual library output on synthetic data",
+      "sha256": "99986def23370e895b4c892071cfec6463e3c3c2d67331d51aabc20d30d82659",
+      "capture": "Chrome screenshot of evaluator harness, not a native TA-Lib UI"
+    },
+    {
+      "file": "images/21-offline-macd.png",
+      "source": "results/indicator-harness.html#macd",
+      "description": "TA-Lib MACD output; auxiliary evaluator-rendered visualization of actual library output on synthetic data",
+      "sha256": "ab588114962eb89ad945240e4d16b0b4939800c44be5fe8d2e997f58e2848845",
+      "capture": "Chrome screenshot of evaluator harness, not a native TA-Lib UI"
+    },
+    {
+      "file": "images/22-offline-stream.png",
+      "source": "results/indicator-harness.html#stream",
+      "description": "Batch-versus-stream parity results; auxiliary evaluator-rendered visualization of actual library output on synthetic data",
+      "sha256": "e173b6d55e16d1527e1b2689bbe34a93d3b4f490c0bb148af753761f63a07542",
+      "capture": "Chrome screenshot of evaluator harness, not a native TA-Lib UI"
+    }
+  ]
+}

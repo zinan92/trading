@@ -1,0 +1,11 @@
+{
+  "repo": "neil-pan-s/one-quant-doc",
+  "name": "one-quant-doc",
+  "rank": null,
+  "score": null,
+  "score_components": null,
+  "recommended_role": "产品说明与脚本 API 文档；托管产品若可用则为缠论 Dashboard",
+  "score_rationale": "GitHub 仓库没有可安装应用代码；托管站在三种浏览器呈安全拦截，功能无法评估。",
+  "screenshots": 12,
+  "unique_screenshots": 12
+}

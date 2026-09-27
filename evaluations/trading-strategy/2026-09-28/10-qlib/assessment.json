@@ -1,0 +1,14 @@
+{
+  "repo": "microsoft/qlib",
+  "rank": 5,
+  "score": 70,
+  "score_components": {
+    "core_result_35": 28,
+    "data_provenance_25": 11,
+    "coverage_depth_15": 14,
+    "onboarding_repro_15": 11,
+    "runtime_stability_10": 6
+  },
+  "recommended_role": "offline quant research, feature and model training engine",
+  "screenshots": 12
+}

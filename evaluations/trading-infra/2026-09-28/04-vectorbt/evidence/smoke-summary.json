@@ -1,0 +1,94 @@
+{
+  "vectorbt_version": "1.1.0",
+  "bars_per_asset": 1200,
+  "symbols": [
+    "SYN_A",
+    "SYN_B"
+  ],
+  "input": "deterministic synthetic hourly prices; no market data fetch",
+  "indicator_outputs": {
+    "moving_average_windows": [
+      12,
+      36
+    ],
+    "signals": "fast/slow crossover"
+  },
+  "portfolio_api": "Portfolio.from_signals",
+  "fees_rate": 0.001,
+  "slippage_rate": 0.0005,
+  "init_cash": 10000,
+  "portfolio_value_last": {
+    "SYN_A": 11018.850837633308,
+    "SYN_B": 16327.810200666045
+  },
+  "trade_rows": 33,
+  "stats_by_asset": {
+    "SYN_A": {
+      "Start": "2024-01-01 00:00:00+00:00",
+      "End": "2024-02-19 23:00:00+00:00",
+      "Period": "50 days 00:00:00",
+      "Start Value": "10000.0",
+      "End Value": "11018.850837633308",
+      "Total Return [%]": "10.188508376333084",
+      "Benchmark Return [%]": "22.35803064898272",
+      "Max Gross Exposure [%]": "100.0",
+      "Total Fees Paid": "409.08532371537416",
+      "Max Drawdown [%]": "17.129660804217924",
+      "Max Drawdown Duration": "31 days 00:00:00",
+      "Total Trades": "21",
+      "Total Closed Trades": "20",
+      "Total Open Trades": "1",
+      "Open Trade PnL": "176.2716507961759",
+      "Win Rate [%]": "45.0",
+      "Best Trade [%]": "13.6848385449849",
+      "Worst Trade [%]": "-4.476911535861247",
+      "Avg Winning Trade [%]": "4.581544345607288",
+      "Avg Losing Trade [%]": "-2.8061085194033684",
+      "Avg Winning Trade Duration": "1 days 22:00:00",
+      "Avg Losing Trade Duration": "0 days 14:21:49.090909090",
+      "Profit Factor": "1.2700713915058668",
+      "Expectancy": "42.12895934185667",
+      "Sharpe Ratio": "1.512583737798145",
+      "Calmar Ratio": "6.015663295231218",
+      "Omega Ratio": "1.0591105325439145",
+      "Sortino Ratio": "2.209353742872832"
+    },
+    "SYN_B": {
+      "Start": "2024-01-01 00:00:00+00:00",
+      "End": "2024-02-19 23:00:00+00:00",
+      "Period": "50 days 00:00:00",
+      "Start Value": "10000.0",
+      "End Value": "16327.810200666043",
+      "Total Return [%]": "63.27810200666043",
+      "Benchmark Return [%]": "45.782991878697544",
+      "Max Gross Exposure [%]": "100.0",
+      "Total Fees Paid": "306.4708918611847",
+      "Max Drawdown [%]": "16.31856835259206",
+      "Max Drawdown Duration": "10 days 15:00:00",
+      "Total Trades": "12",
+      "Total Closed Trades": "12",
+      "Total Open Trades": "0",
+      "Open Trade PnL": "0.0",
+      "Win Rate [%]": "41.66666666666667",
+      "Best Trade [%]": "27.73262051398487",
+      "Worst Trade [%]": "-4.764241008713476",
+      "Avg Winning Trade [%]": "15.521472675195486",
+      "Avg Losing Trade [%]": "-2.8687112206368837",
+      "Avg Winning Trade Duration": "4 days 07:00:00",
+      "Avg Losing Trade Duration": "0 days 18:08:34.285714285",
+      "Profit Factor": "3.6656505517742985",
+      "Expectancy": "527.31751672217",
+      "Sharpe Ratio": "7.489581120812287",
+      "Calmar Ratio": "213.50214804595757",
+      "Omega Ratio": "1.3248478874865073",
+      "Sortino Ratio": "11.944988094494839"
+    }
+  },
+  "outputs": [
+    "portfolio.html",
+    "portfolio-syn-b.html",
+    "portfolio-stats.csv",
+    "trades.csv",
+    "synthetic-close.csv"
+  ]
+}

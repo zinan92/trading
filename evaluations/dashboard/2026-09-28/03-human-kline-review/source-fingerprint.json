@@ -1,0 +1,17 @@
+{
+  "tested_checkout": "owned local workspace copy; absolute user path withheld",
+  "git_commit": null,
+  "reason": "local Git repository has an unborn main branch; exact file hashes pin the tested workspace content",
+  "sha256": {
+    "human_kline_review/app.py": "147998dfd9352ba80f7d80deea7211f2151f627ea82b9633bb1a954f290869b8",
+    "human_kline_review/review_store.py": "34689fad0926689c5bb53250ce34b5f2a5186447f6f99e74fee3b441e4e77ab4",
+    "human_kline_review/source.py": "dc4b255dafc1bb0274f158e59f510f38568957c52552563419fdb8c9bf80b0c8",
+    "human_kline_review/synthesis.py": "3f19f2aa77424afc470153a61dafa599c4e136b693692dc153b97833bf0696cf",
+    "static/review_ui.js": "1380818e47ee744ddcab75877d6ee374d6e0a0c958deee8fd247aaaf4be8d8f5",
+    "static/chart_config.js": "14691468f12d2ad5e84a0bf65cb2e8d1e41b2f4d68f62a65ddf0ce5df260d00d",
+    "static/indicators.js": "da423e87bd5761bdd4f8e01d3b1a21dcdc4f0c2ea495eae2adae3fed29aacef5",
+    "tests/test_web_shell.py": "34294c8ef4c51d6ec4bec90ea3b59031ab73a7bb0772e7bc30861f98c31aacc0",
+    "tests/test_chart_config.test.cjs": "cec89c191f481424eada2f66a016deda246ee698945cac3264a58d9db3008aae",
+    "tests/test_indicators.test.cjs": "b2847e7aaa95a9cb997b7ccf3e450f9344e01b8a994af35cbff64f16c94e9a3a"
+  }
+}

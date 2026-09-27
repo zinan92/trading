@@ -1,0 +1,21 @@
+{
+  "repo": "zinan92/human-kline-review",
+  "source_url": "https://github.com/zinan92/human-kline-review",
+  "tested_commit": null,
+  "source_status": "owned workspace content; Git main branch has no commit, file fingerprints recorded",
+  "status": "manual review/export flow tested against isolated synthetic fixture; production Macro Source and DeepSeek not tested",
+  "recommended_role": "Dashboard / human-led macro K-line review workspace",
+  "score": 76,
+  "rank": null,
+  "rank_status": "pending category completion",
+  "score_components": {
+    "core_result_35": 28,
+    "data_provenance_25": 21,
+    "coverage_depth_15": 13,
+    "onboarding_repro_15": 9,
+    "runtime_stability_10": 5
+  },
+  "screenshots": 25,
+  "unique_screenshots": 21,
+  "score_rationale": "The isolated synthetic review completed chart viewing, candle annotation, weekly/daily notes, explicit unavailable-4H skip, asset confirmation, mock synthesis confirmation and all three exports. Production source freshness, real DeepSeek, and a source-pinned running deployment remain unverified; a reproducible 700ms autosave race and failing JS/test-browser cases reduce stability."
+}

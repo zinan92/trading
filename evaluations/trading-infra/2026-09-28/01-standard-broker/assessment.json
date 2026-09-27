@@ -1,0 +1,18 @@
+{
+  "repo": "zinan92/trading-system/packages/standard-broker",
+  "tested_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "status": "tested; first-round role-based score",
+  "recommended_role": "Trading Infra / canonical broker ports and adapter package",
+  "score": 80,
+  "screenshots": 19,
+  "unique_screenshots": 19,
+  "rank": 2,
+  "score_components": {
+    "core_result_35": 29,
+    "data_provenance_25": 21,
+    "coverage_depth_15": 10,
+    "onboarding_repro_15": 12,
+    "runtime_stability_10": 8
+  },
+  "score_rationale": "canonical broker contracts with 348 tests passed; narrow runtime domain and external Nautilus cases remain optional/skipped."
+}

@@ -1,0 +1,68 @@
+{
+  "repo": "zinan92/trading-system",
+  "tested_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "tested_on": "2026-09-28",
+  "deployment": {
+    "checkout": "local isolated trading-system-dev checkout",
+    "dashboard": "127.0.0.1:18765",
+    "desk": "127.0.0.1:18890",
+    "paper_predeploy_gate": "pass in isolated trial output root",
+    "production_checkout_touched": false
+  },
+  "isolation": {
+    "output_root": "trial-only",
+    "market_database": "trial-only",
+    "desk_database": "trial-only",
+    "datafeed_override": "loopback empty test port",
+    "external_server_egress": "blocked by socket/DNS guard",
+    "browser_external_egress": "blocked; four Google Fonts requests denied",
+    "credential_like_environment_variables_removed": true
+  },
+  "http": {
+    "dashboard_v5": 200,
+    "dashboard_read_model": 200,
+    "dualtrack_bars": {
+      "http_status": 200,
+      "status": "blocked",
+      "bar_count": 0,
+      "is_synthetic": false
+    },
+    "supervisor_history": 200,
+    "desk_home": 200,
+    "desk_health": 200,
+    "desk_assets": 200,
+    "integrated_trade_proxy": 200,
+    "browser_mutation_requests": 0,
+    "uncaught_page_errors": 0
+  },
+  "functional_tests": {
+    "paper_gate_boot_output_static_suite": 12,
+    "gridmind_static_contract_suite": 38,
+    "read_model_dashboard_api_state_suites": 38,
+    "total_passed": 88,
+    "full_monorepo_make_test": "not run"
+  },
+  "screenshots": {
+    "count": 50,
+    "unique_sha256_count": 50
+  },
+  "tested_read_only_views": [
+    "GridMind dashboard",
+    "K-line chart/timeframes",
+    "positions/orders/fills",
+    "Supervisor",
+    "12h review",
+    "strategy shadows",
+    "history/NAV",
+    "strategy configuration (not submitted)",
+    "trading-desk /desk",
+    "trading-desk /trade proxy"
+  ],
+  "not_tested": [
+    "trusted current market-data feed",
+    "strategy preview and confirm/execute",
+    "order lifecycle",
+    "Nautilus integration within this host",
+    "external Testnet or Live account"
+  ]
+}

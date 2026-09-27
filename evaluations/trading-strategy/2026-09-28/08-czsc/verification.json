@@ -1,0 +1,87 @@
+{
+  "product": "waditu/czsc",
+  "repository": "https://github.com/waditu/czsc",
+  "tested_commit": "701e480a545004f945bb1721e510ae610ad90c4c",
+  "tested_on": "2026-09-28",
+  "python": "3.13.7",
+  "distribution": "czsc 1.0.1 from PyPI; Python source tree matched checkout for 61/61 .py files, 0 mismatches, 0 local-only Python files",
+  "native_build": "The repository checkout could not be built locally: Rust/Cargo toolchain is absent. The test binary is the PyPI wheel, so its native extension is not independently tied to the locked Git commit.",
+  "dependency_lock": [
+    "numpy 2.3.3",
+    "pandas 2.3.2",
+    "wbt 0.2.1",
+    "pytest 8.4.2",
+    "scipy 1.16.2",
+    "polars 1.38.1",
+    "pyarrow 23.0.1",
+    "plotly 6.3.0",
+    "typer 0.26.5"
+  ],
+  "commands": [
+    {
+      "name": "CLI discovery / --help",
+      "result": "pass"
+    },
+    {
+      "name": "czsc data mock (seed 42, 920 rows)",
+      "result": "pass"
+    },
+    {
+      "name": "czsc data quality on clean mock data",
+      "result": "pass; 0 bad rows"
+    },
+    {
+      "name": "czsc data quality on deliberate negative-volume row",
+      "result": "pass; detected 1 bad row"
+    },
+    {
+      "name": "czsc analyze",
+      "result": "pass; emitted fractal and stroke series"
+    },
+    {
+      "name": "czsc signals list/doc",
+      "result": "pass; discovered 246 signals and fetched a signal schema"
+    },
+    {
+      "name": "czsc schema / research config",
+      "result": "pass"
+    },
+    {
+      "name": "czsc research run and replay",
+      "result": "pass on 7,310 generated 30m bars; zero runtime warnings"
+    },
+    {
+      "name": "czsc backtest",
+      "result": "pass on synthetic bars; wrote JSON and interactive HTML report; synthetic long-only sample had -112.12% absolute return and 126.54% maximum drawdown, not live-market performance evidence"
+    },
+    {
+      "name": "czsc plot czsc",
+      "result": "pass; wrote local HTML chart; LIGHT/DARK toggle interacted successfully"
+    },
+    {
+      "name": "backtest report UI",
+      "result": "pass; statistics and long/short comparison tabs captured"
+    }
+  ],
+  "focused_tests": {
+    "passed": 46,
+    "failed": 3,
+    "skipped": 1,
+    "failures": [
+      "test_bi_list_count_matches_baseline: actual 31, locked baseline 43",
+      "test_bi_directions_sequence_matches_baseline: BI direction sequence differs from locked baseline",
+      "test_bi_lengths_sequence_matches_baseline: BI lengths differ from locked baseline"
+    ],
+    "passing_core_checks": [
+      "FX count",
+      "FX mark sequence",
+      "CZSC class originates under czsc namespace"
+    ]
+  },
+  "screenshots": {
+    "count": 18,
+    "unique_sha256_count": 18,
+    "gallery": "screenshots.md"
+  },
+  "scope": "Offline/local only. No market-data provider, cloud service, account, exchange credential, API key, or order endpoint was used."
+}

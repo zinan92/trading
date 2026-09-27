@@ -1,0 +1,9 @@
+{
+  "module": "replay.replay_multi",
+  "import_status": "blocked",
+  "error": "ModuleNotFoundError: No module named check_out_param",
+  "check_out_param_present": false,
+  "script_market_path_pattern": "D:/code/chancode/sfz/{coin}/BTCUSDT_1m_futures_2025-01-01 00_00_00_2026-02-21 00_00_00.csv",
+  "raw_ohlc_files_in_sfz": 0,
+  "signal_csv_files": 4
+}

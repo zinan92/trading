@@ -1,0 +1,103 @@
+{
+  "product": "neil-pan-s/one-quant-doc",
+  "count": 12,
+  "unique_sha256_count": 12,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-live-site-blocked.png",
+      "title": "Live one-quant.com browser gate",
+      "source": "trial artifact",
+      "sha256": "561506ac9da821540e81489ab962eb6d25c9bc68ae514c7390cb51c73773d056",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 2,
+      "file": "images/02-readme-overview.png",
+      "title": "GitHub README overview",
+      "source": "trial artifact",
+      "sha256": "4e7d087eb30dc54a46f7c8da11786d64d3f56c43d9e59ea81c12125be04deb83",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 3,
+      "file": "images/03-supported-markets.png",
+      "title": "Supported markets",
+      "source": "trial artifact",
+      "sha256": "1a727f8afef1b841e8060ca7cf39bae46586c7724e3cd422da76fcc5c695f36e",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 4,
+      "file": "images/04-tool-usage.md.png",
+      "title": "Tool usage instructions",
+      "source": "trial artifact",
+      "sha256": "75e347b6a902096686e24003bd5c49332aec88ccfed75a6440755e203f835639",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 5,
+      "file": "images/05-rule-configuration.png",
+      "title": "Stroke/segment rule configuration",
+      "source": "trial artifact",
+      "sha256": "8a70d0251cf30866d93046d6fe2989db1e2327332928b68a960f62457eb6d200",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 6,
+      "file": "images/06-multi-timeframe-analysis.png",
+      "title": "Multi-timeframe chart analysis",
+      "source": "trial artifact",
+      "sha256": "fecd4e9e2f3d1a66ffef204d0749630b033386c739ef7147005cb6b68744df3f",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 7,
+      "file": "images/07-buy-sell-formulas.png",
+      "title": "Buy/sell method",
+      "source": "trial artifact",
+      "sha256": "18e6ed50c6c4296bdd918575a77006677061e967f2323bbc404f21b28b2d70b0",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 8,
+      "file": "images/08-feedback-and-issues.png",
+      "title": "Feedback and issue route",
+      "source": "trial artifact",
+      "sha256": "1ce8f1d2050f6cf1402d3c40bbdfa1668aff23233cd86b265d33023773f6fe22",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 9,
+      "file": "images/09-demo-chart.png",
+      "title": "README embedded product preview",
+      "source": "trial artifact",
+      "sha256": "a627a2f1799bc4380b0ce5c7ee909dc178b201d292ac3afc31624e979b4f0a2f",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 10,
+      "file": "images/10-rule-configuration-image.png",
+      "title": "README rule configuration image",
+      "source": "trial artifact",
+      "sha256": "a4071ce734ae28d2e3cdb0645fdbb1b8e8a2d0af8f8e646013e333190175a582",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 11,
+      "file": "images/11-multi-level-image.png",
+      "title": "README multi-level image",
+      "source": "trial artifact",
+      "sha256": "09a5fb972c67c1d3ee92aa484d4f6e9a1919a2d08043e6ef5d07f0ad8de0ef02",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 12,
+      "file": "images/12-buy-sell-pattern-image.png",
+      "title": "README buy/sell image",
+      "source": "trial artifact",
+      "sha256": "0982872750c0119e11a44e92fde2777ce391e9cf4a05644479e7ca54fc9dfe30",
+      "kind": "Chrome screenshot"
+    }
+  ]
+}

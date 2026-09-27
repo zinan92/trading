@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "bars_created": 320,
+  "data_file": "synthetic_chan_demo_day.csv",
+  "batch": {
+    "bars": 320,
+    "combined_klines": 276,
+    "bi": 25,
+    "segments": 7,
+    "centers": 2,
+    "bsp": 14,
+    "incremental_yields": 0,
+    "first": "2024/01/02",
+    "last": "2025/03/24"
+  },
+  "batch_seconds": 0.004,
+  "incremental": {
+    "bars": 320,
+    "combined_klines": 276,
+    "bi": 25,
+    "segments": 7,
+    "centers": 2,
+    "bsp": 14,
+    "incremental_yields": 320,
+    "first": "2024/01/02",
+    "last": "2025/03/24"
+  },
+  "incremental_seconds": 0.039,
+  "counts_match": {
+    "bars": true,
+    "combined_klines": true,
+    "bi": true,
+    "segments": true,
+    "centers": true,
+    "bsp": true
+  },
+  "latest_bsp_types": [
+    "[<BSP_TYPE.T2S: '2s'>]",
+    "[<BSP_TYPE.T1P: '1p'>]",
+    "[<BSP_TYPE.T2: '2'>]",
+    "[<BSP_TYPE.T1P: '1p'>]",
+    "[<BSP_TYPE.T2: '2'>]",
+    "[<BSP_TYPE.T1P: '1p'>]",
+    "[<BSP_TYPE.T2S: '2s'>]",
+    "[<BSP_TYPE.T2: '2'>]",
+    "[<BSP_TYPE.T1P: '1p'>]",
+    "[<BSP_TYPE.T2: '2'>]"
+  ],
+  "chart_file": "synthetic_chan_chart.png"
+}

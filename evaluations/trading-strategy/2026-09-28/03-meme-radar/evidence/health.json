@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "service": "meme-radar",
+  "version": "0.1.10",
+  "ready": false,
+  "degraded": true,
+  "scanner": {
+    "status": "AVE_AUTH_REQUIRED",
+    "fresh": false,
+    "scanInProgress": false,
+    "cycleStartedAt": 0,
+    "lastSuccessAt": 0,
+    "ageMs": null,
+    "maxAgeMs": 900000
+  },
+  "execution": false,
+  "source": "GET /health observed at 127.0.0.1:3981"
+}

@@ -1,0 +1,20 @@
+{
+  "repo": "deepentropy/tvscreener",
+  "source_url": "https://github.com/deepentropy/tvscreener",
+  "tested_commit": "737c9764c1e58f364972a9106108b77e9fc1d6c0",
+  "status": "local Code Generator tested; one unauthenticated public stock query succeeded",
+  "recommended_role": "Trading Data / unofficial TradingView screener client and query builder",
+  "score": 73,
+  "rank": null,
+  "rank_status": "catalog role mismatch; propose relocate from Dashboard to Trading Data",
+  "score_components": {
+    "core_result_35": 27,
+    "data_provenance_25": 17,
+    "coverage_depth_15": 14,
+    "onboarding_repro_15": 9,
+    "runtime_stability_10": 6
+  },
+  "screenshots": 18,
+  "unique_screenshots": 17,
+  "score_rationale": "The local generator built multi-condition stock queries across six screeners, 129 unit tests passed, and one unauthenticated S&P 500 public query returned 10 rows. The tool is a Python data client, not a market dashboard; its Valuation preset generated a StockField enum name absent from the installed package."
+}

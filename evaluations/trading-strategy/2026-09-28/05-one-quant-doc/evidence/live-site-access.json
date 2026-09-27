@@ -1,0 +1,25 @@
+{
+  "target": "https://one-quant.com/#/zen",
+  "attempts": [
+    {
+      "mode": "headless Chromium 145",
+      "initial_http_status": 200,
+      "final_url": "https://one-quant.com/oops",
+      "visible_message": "请使用PC最新版Chrome浏览器访问；您的浏览器版本较低或存在安全风险"
+    },
+    {
+      "mode": "headless Chrome channel",
+      "initial_http_status": 200,
+      "final_url": "https://one-quant.com/oops",
+      "same_visible_message": true
+    },
+    {
+      "mode": "Codex In-app Browser (real browser surface)",
+      "initial_state": "one-quant.com/oops",
+      "visible_message": "请使用PC最新版Chrome浏览器访问；您的浏览器版本较低或存在安全风险"
+    }
+  ],
+  "bypassed": false,
+  "result": "live product UI unavailable to this trial browser; only repository documentation and published screenshots are accessible",
+  "screenshots": 12
+}

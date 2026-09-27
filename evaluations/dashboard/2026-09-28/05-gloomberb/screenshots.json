@@ -1,0 +1,128 @@
+{
+  "repo": "gloom-sh/gloomberb",
+  "tested_commit": "4dc1d5cd2714a65afd3c6c33c3fc551570090002",
+  "captured_files": 15,
+  "unique_screenshots": 15,
+  "items": [
+    {
+      "file": "01-quote-monitor.png",
+      "sha256": "09f503be80c4af0a8aacc678b9fb80b75b10c59c1e4f29baaf1d84aa2d3c374d",
+      "bytes": 72414,
+      "description": "Quote Monitor · AAPL, public delayed quote",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "02-graph-price-AAPL.png",
+      "sha256": "d22843613b1245c07a7853932abad82269c469fcf8be851a643608d51df52167",
+      "bytes": 99557,
+      "description": "Graph Price · AAPL",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "03-comparison-chart.png",
+      "sha256": "50580e9505b5d8542ea34c6d70d946b142dbeb825627d33a1f1d976ea09739f0",
+      "bytes": 232458,
+      "description": "Comparison Chart · AAPL vs MSFT",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "04-financial-analysis.png",
+      "sha256": "aa38dd839fc26418198dda7132458225b8f6d034922ded1fa0f59457b3c7d8d2",
+      "bytes": 406227,
+      "description": "Financial Analysis · AAPL",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "05-valuation-graph.png",
+      "sha256": "0d709803aa004f5ea9e6c883b86a68366383e8d272a6ef3c03d44928a9def100",
+      "bytes": 98624,
+      "description": "Valuation Graph · AAPL",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "06-fundamental-graph.png",
+      "sha256": "e0791be1f928202fb5fb0cacecb952bbbfdd8308ec8bc9e74f0257596ea26009",
+      "bytes": 64188,
+      "description": "Fundamental Graph · AAPL",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "07-intraday-price.png",
+      "sha256": "6a896204ff9d219ae84e0d8e1a8048b844bc4e4e1031dd8c9b5f86e3b96c27a7",
+      "bytes": 105959,
+      "description": "Intraday Price Graph · AAPL",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "08-sector-performance.png",
+      "sha256": "e4ff726395395715612137c7511108641c9ec34c63d36eae206da29bd9859e12",
+      "bytes": 151321,
+      "description": "Sector Performance · 11 sectors",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "09-economic-calendar.png",
+      "sha256": "c390bb11ac05d0a115fb623b6157cf30c4d7bfbc914b4d52357e5319034995d5",
+      "bytes": 440389,
+      "description": "Economic Calendar · 44 rows",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "10-top-news.png",
+      "sha256": "b35fb967e8e203cac1ccb88703336bc8419d0038d1ab12b0780d454937c34906",
+      "bytes": 143318,
+      "description": "Top News · 6 rows",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "11-market-movers.png",
+      "sha256": "97fe1a7701c5045652338396d7d506213e89c827b82c21e33a38a4e8ba6412ad",
+      "bytes": 395061,
+      "description": "Market Movers · 25 rows",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "12-yield-curve.png",
+      "sha256": "195a8b876fb52e0dccee4d4aa41900f543eda1461297346198b1ceafdf163b70",
+      "bytes": 107535,
+      "description": "Treasury Yield Curve · 10 rows",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "13-sec-filings.png",
+      "sha256": "8219dd738fefb24c21ca5046787313d9cbd4e0895cda5d761901c7d71f14627d",
+      "bytes": 344265,
+      "description": "SEC Filings · AAPL",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "14-analyst-research.png",
+      "sha256": "e664c0c8c02372f66c5c333b9a5381489903fa953cc65b5022d68e5a0ae4dc1c",
+      "bytes": 605918,
+      "description": "Analyst Research · AAPL",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    },
+    {
+      "file": "15-eval-only-portfolio.png",
+      "sha256": "556f143386fa6996361fc4d66e5955f5231de768aa70ccea65a5eccd769a0db3",
+      "bytes": 53500,
+      "description": "Portfolio Analytics screenshot helper result: empty Main Portfolio; marked unusable",
+      "unique": true,
+      "source": "product CLI screenshot command: gloomberb shot; local isolated config; EVAL watermark"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "tested_at": "2026-09-28",
+  "checkout_path": "isolated trial-local path",
+  "source_commit": "87df76a2ce58c33bc98b89760f4cc8f6527834d0",
+  "node": "v26.8.1",
+  "npm": "11.19.0",
+  "dependency_install": {
+    "command": "npm ci --no-audit --no-fund",
+    "result": "success; 755 packages installed"
+  },
+  "tests": {
+    "command": "npm test -- --reporter=dot",
+    "result": "6 passed files, 1 skipped file; 99 passed tests, 4 skipped tests",
+    "network": "test harness only; no product account or external order/data action"
+  },
+  "local_runtime": {
+    "result": "blocked before app page rendered",
+    "evidence": "lib/better-auth/auth.ts top-level auth initialization awaits connectToDatabase; database/mongoose.ts throws when MONGODB_URI is absent. Local official Mongo container could not start because Docker daemon returned containerd metadata I/O error.",
+    "environment": "no .env, MONGODB_URI, Finnhub key, or real account credentials created"
+  },
+  "public_ui": {
+    "url": "https://openstock-ods.vercel.app/",
+    "source_link": "listed in upstream README",
+    "deployment_commit": "unknown",
+    "routes": {
+      "/": "public overview and cache cadence visible",
+      "/about": "public",
+      "/help": "public",
+      "/api-docs": "public market/data-mode table visible",
+      "/sponsor": "public",
+      "/terms": "public",
+      "/sign-in": "public; no credentials entered",
+      "/sign-up": "public; empty form validation tested; no submission",
+      "/dashboard": "redirects to /sign-in",
+      "/stocks/SPY": "redirects to /sign-in"
+    },
+    "side_effects": "No account was created; no form was submitted; no broker or exchange API was used."
+  },
+  "evidence": {
+    "screenshots": 17,
+    "unique_screenshots": 17,
+    "manifest": "screenshots.json"
+  }
+}

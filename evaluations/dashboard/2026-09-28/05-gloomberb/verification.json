@@ -1,0 +1,52 @@
+{
+  "tested_at": "2026-09-28",
+  "checkout_path": "isolated trial-local path",
+  "source_commit": "4dc1d5cd2714a65afd3c6c33c3fc551570090002",
+  "version": "0.13.3",
+  "runtime": {
+    "bun": "1.3.9",
+    "install": "bun install --frozen-lockfile; 363 packages installed",
+    "test_config_store": "mocked to isolated local dataDir; does not read ~/.gloomberb",
+    "environment": "env -i with no HOME, API keys, saved account, or broker config",
+    "ui": "TUI launched under isolated tmux server; setup skipped; no user data read"
+  },
+  "tests": {
+    "command": "bun test src/cli/entry.test.ts src/cli/pane-functions/screenshot.test.ts src/cli/commands/automation.test.ts",
+    "result": "23 pass, 0 fail, 56 expect calls"
+  },
+  "cli": {
+    "help": "success; command reference printed",
+    "provider_status": "success; Gloomberb Cloud, Yahoo, RSS and built-in providers listed; no credentials used",
+    "quote_AAPL": {
+      "result": "success",
+      "row_count": 1,
+      "provider": "gloomberb-cloud",
+      "data_source": "delayed",
+      "market_state": "CLOSED",
+      "session_date": "2026-09-25",
+      "api_key": false
+    },
+    "portfolio_test": {
+      "name": "EVAL-ONLY",
+      "position": "10 AAPL shares at 300 USD average cost",
+      "persisted": true,
+      "source": "isolated local manual portfolio; not an actual account"
+    }
+  },
+  "pane_screenshots": {
+    "command_family": "gloomberb shot",
+    "captured": 15,
+    "unique": 15,
+    "usable": 14,
+    "empty_unusable": [
+      "PORT Portfolio Analytics: Main Portfolio remained empty and did not show the separately created EVAL-ONLY holding"
+    ],
+    "manifest": "screenshots.json"
+  },
+  "untested": [
+    "broker connection, broker position sync and order execution",
+    "Gloom Cloud account sign-in or web terminal",
+    "AI provider generation or account credentials",
+    "real-time market freshness"
+  ]
+}

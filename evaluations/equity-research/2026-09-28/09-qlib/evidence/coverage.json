@@ -1,0 +1,165 @@
+{
+  "calendar_total": 3995,
+  "calendar_start": "2005-01-04 00:00:00",
+  "calendar_end": "2021-06-11 00:00:00",
+  "listed_csi300": 731,
+  "tested_instruments": 100,
+  "sample_period": [
+    "2019-03-11 00:00:00",
+    "2021-06-11 00:00:00"
+  ],
+  "best_coverage": [
+    {
+      "instrument": "SH600989",
+      "count": 505,
+      "size": 505,
+      "coverage": 1.0
+    },
+    {
+      "instrument": "SH601077",
+      "count": 395,
+      "size": 395,
+      "coverage": 1.0
+    },
+    {
+      "instrument": "SH600918",
+      "count": 250,
+      "size": 250,
+      "coverage": 1.0
+    },
+    {
+      "instrument": "SH600000",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    },
+    {
+      "instrument": "SH600010",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    },
+    {
+      "instrument": "SH600011",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    },
+    {
+      "instrument": "SH600015",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    },
+    {
+      "instrument": "SH600016",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    },
+    {
+      "instrument": "SH600019",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    },
+    {
+      "instrument": "SH600025",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    },
+    {
+      "instrument": "SH600028",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    },
+    {
+      "instrument": "SH600029",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    },
+    {
+      "instrument": "SH600031",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    },
+    {
+      "instrument": "SH600036",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    },
+    {
+      "instrument": "SH600048",
+      "count": 548,
+      "size": 550,
+      "coverage": 0.9963636363636363
+    }
+  ],
+  "worst_coverage": [
+    {
+      "instrument": "SH600999",
+      "count": 542,
+      "size": 550,
+      "coverage": 0.9854545454545455
+    },
+    {
+      "instrument": "SH601012",
+      "count": 542,
+      "size": 550,
+      "coverage": 0.9854545454545455
+    },
+    {
+      "instrument": "SH601162",
+      "count": 541,
+      "size": 550,
+      "coverage": 0.9836363636363636
+    },
+    {
+      "instrument": "SH600079",
+      "count": 538,
+      "size": 550,
+      "coverage": 0.9781818181818182
+    },
+    {
+      "instrument": "SH600109",
+      "count": 538,
+      "size": 550,
+      "coverage": 0.9781818181818182
+    },
+    {
+      "instrument": "SH600176",
+      "count": 538,
+      "size": 550,
+      "coverage": 0.9781818181818182
+    },
+    {
+      "instrument": "SH600340",
+      "count": 538,
+      "size": 550,
+      "coverage": 0.9781818181818182
+    },
+    {
+      "instrument": "SH600893",
+      "count": 537,
+      "size": 550,
+      "coverage": 0.9763636363636363
+    },
+    {
+      "instrument": "SH600745",
+      "count": 533,
+      "size": 550,
+      "coverage": 0.9690909090909091
+    },
+    {
+      "instrument": "SH600150",
+      "count": 529,
+      "size": 550,
+      "coverage": 0.9618181818181818
+    }
+  ]
+}

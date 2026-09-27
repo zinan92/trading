@@ -1,0 +1,66 @@
+{
+  "synthetic_fixture_only": true,
+  "before_rows": 2,
+  "delete_response": {
+    "status": 200,
+    "body": {
+      "ok": true,
+      "deleted": 1
+    }
+  },
+  "after_rows": 1,
+  "restore_upsert_count": 1,
+  "restored_demo_codes": [
+    "DEMO001",
+    "DEMO002"
+  ],
+  "api_responses": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8951/api/recommendations",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8951/api/signals",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8951/api/portfolio",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8951/api/sync",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8951/api/memory",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8951/api/config",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8951/api/recommendations",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "url": "http://127.0.0.1:8951/api/recommendations/DEMO001",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8951/api/recommendations",
+      "status": 200
+    }
+  ],
+  "screenshot": "13-local-delete-synthetic-row.png",
+  "external_provider_called": false
+}

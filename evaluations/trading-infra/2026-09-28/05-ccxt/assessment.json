@@ -1,0 +1,19 @@
+{
+  "repo": "ccxt/ccxt",
+  "tested_commit": "c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03",
+  "package_version": "4.5.78",
+  "status": "tested; first-round role-based score",
+  "recommended_role": "Trading Infra / unified Broker API adapters",
+  "score": 68,
+  "screenshots": 11,
+  "unique_screenshots": 11,
+  "rank": 4,
+  "score_components": {
+    "core_result_35": 22,
+    "data_provenance_25": 9,
+    "coverage_depth_15": 15,
+    "onboarding_repro_15": 14,
+    "runtime_stability_10": 8
+  },
+  "score_rationale": "104 adapter IDs and mocked ticker/order-book/OHLCV normalization work; no exchange network, freshness, auth or order path was exercised."
+}

@@ -1,0 +1,207 @@
+{
+  "product": "TA-Lib/ta-lib-python",
+  "repository": "https://github.com/TA-Lib/ta-lib-python",
+  "tested_commit": "fd6089b183fc23b0e87512c455153043400efff6",
+  "tested_on": "2026-09-28",
+  "runtime": {
+    "python": "3.13.7",
+    "wrapper": "0.8.0",
+    "C_core": "0.8.1 (Sep 11 2026 04:13:30)",
+    "numpy": "2.3.3",
+    "Cython": "3.3.0",
+    "pandas": "2.3.2",
+    "polars": "1.38.1",
+    "underlying_library_source": "locally installed Homebrew TA-Lib C library; pkg-config reported 0.8.1"
+  },
+  "source_install": "The catalog-locked checkout built successfully from source in an isolated editable environment against the already-installed Homebrew C core. No external Python API or market feed was required.",
+  "suite": {
+    "command": "python -m pytest -q -rA",
+    "exit_code": 0,
+    "summary": "80 passed in 1.29s"
+  },
+  "offline_smoke": {
+    "synthetic_bars": 500,
+    "seed": 20260928,
+    "market_data": "none; synthetic only",
+    "indicators": [
+      "SMA",
+      "RSI",
+      "MACD",
+      "BBANDS"
+    ],
+    "interfaces": [
+      "NumPy Function API",
+      "Pandas Series with index preservation",
+      "Pandas DataFrame Abstract API",
+      "Polars Series",
+      "Polars DataFrame Abstract API"
+    ],
+    "function_count": 201,
+    "groups": [
+      "Cycle Indicators",
+      "Math Operators",
+      "Math Transform",
+      "Momentum Indicators",
+      "Overlap Studies",
+      "Pattern Recognition",
+      "Price Transform",
+      "Statistic Functions",
+      "Volatility Indicators",
+      "Volume Indicators"
+    ],
+    "result_file": "indicator-harness.html"
+  },
+  "stream_parity_checks": [
+    {
+      "function": "SMA",
+      "matches_batch_last": true,
+      "batch_last": [
+        77.9366963885619
+      ],
+      "stream_value": [
+        77.93669638856188
+      ],
+      "delta": [
+        -1.4210854715202004e-14
+      ]
+    },
+    {
+      "function": "MOM",
+      "matches_batch_last": true,
+      "batch_last": [
+        1.4636069238281664
+      ],
+      "stream_value": [
+        1.4636069238281664
+      ],
+      "delta": [
+        0.0
+      ]
+    },
+    {
+      "function": "MAXINDEX",
+      "matches_batch_last": true,
+      "batch_last": [
+        490.0
+      ],
+      "stream_value": [
+        490.0
+      ],
+      "delta": [
+        0.0
+      ]
+    },
+    {
+      "function": "EMA",
+      "matches_batch_last": false,
+      "batch_last": [
+        78.18667568851046
+      ],
+      "stream_value": [
+        77.93669638856188
+      ],
+      "delta": [
+        -0.2499792999485777
+      ]
+    },
+    {
+      "function": "RSI",
+      "matches_batch_last": false,
+      "batch_last": [
+        52.964077861255596
+      ],
+      "stream_value": [
+        60.51135241417535
+      ],
+      "delta": [
+        7.5472745529197525
+      ]
+    },
+    {
+      "function": "MACD",
+      "matches_batch_last": false,
+      "batch_last": [
+        0.503904053178502,
+        0.39015393721973596,
+        0.113750115958766
+      ],
+      "stream_value": [
+        0.8254432953636552,
+        0.8488849660674558,
+        -0.023441670703800543
+      ],
+      "delta": [
+        0.3215392421851533,
+        0.4587310288477198,
+        -0.13719178666256654
+      ]
+    },
+    {
+      "function": "BBANDS",
+      "matches_batch_last": true,
+      "batch_last": [
+        80.36233768715746,
+        77.9366963885619,
+        75.51105508996633
+      ],
+      "stream_value": [
+        80.36233768715678,
+        77.93669638856188,
+        75.51105508996699
+      ],
+      "delta": [
+        -6.821210263296962e-13,
+        -1.4210854715202004e-14,
+        6.536993168992922e-13
+      ]
+    },
+    {
+      "function": "ATR",
+      "matches_batch_last": false,
+      "batch_last": [
+        1.5395489210993571
+      ],
+      "stream_value": [
+        1.614580239278096
+      ],
+      "delta": [
+        0.07503131817873876
+      ]
+    },
+    {
+      "function": "ADX",
+      "matches_batch_last": false,
+      "batch_last": [
+        18.265048189835397
+      ],
+      "stream_value": [
+        18.83769357603868
+      ],
+      "delta": [
+        0.5726453862032841
+      ]
+    },
+    {
+      "function": "STOCH",
+      "matches_batch_last": true,
+      "batch_last": [
+        42.03789098878613,
+        52.86657460387286
+      ],
+      "stream_value": [
+        42.037890988786074,
+        52.86657460387267
+      ],
+      "delta": [
+        -5.684341886080802e-14,
+        -1.9184653865522705e-13
+      ]
+    }
+  ],
+  "finding": "On identical 500-bar arrays and parameters, the experimental stream output differs from the batch API last value for EMA, RSI, MACD, ATR and ADX; matches for SMA, MOM, MAXINDEX, BBANDS and STOCH. The repository suite tests MOM, a candlestick pattern and MAXINDEX in tests/test_stream.py, but does not assert latest-value parity for recursive indicators.",
+  "screenshots": {
+    "count": 22,
+    "unique_sha256_count": 22
+  },
+  "scope": "No API keys, exchange accounts, market-data calls, broker connections or orders. Screenshot sources are public repository/docs pages and local synthetic output views."
+}

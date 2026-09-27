@@ -1,0 +1,171 @@
+{
+  "repo": "deepentropy/tvscreener",
+  "tested_commit": "737c9764c1e58f364972a9106108b77e9fc1d6c0",
+  "captured_files": 18,
+  "unique_screenshots": 17,
+  "published_unique_files": 17,
+  "items": [
+    {
+      "capture_file": "01-stock-default.jpg",
+      "sha256": "54e3e2b17efaa28a26860fa8528777b282a8412ec9c30fa8472b0055d6d8bb75",
+      "bytes": 51797,
+      "description": "Stock 默认筛选器：字段列表与 Python 代码预览",
+      "unique": true,
+      "stored_as": "01-stock-default.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "02-crypto-screen.jpg",
+      "sha256": "9daaedc6036d5608acfbda298fdce837a9a7c4305d36b098d2b7130b08c05460",
+      "bytes": 51242,
+      "description": "Crypto Screener 类型与对应代码",
+      "unique": true,
+      "stored_as": "02-crypto-screen.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "02-forex-screen.jpg",
+      "sha256": "ef6c33e584277061d2c0293f74d655b87bbfebb7e30ca211ec316a1bb82b1944",
+      "bytes": 51147,
+      "description": "Forex Screener 类型与对应代码",
+      "unique": true,
+      "stored_as": "02-forex-screen.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "02-bond-screen.jpg",
+      "sha256": "f4ac876177e6ee59ffaa09493a76e500d1adb4417d709588d82ee0abe4d358fb",
+      "bytes": 50236,
+      "description": "Bond Screener 类型与对应代码",
+      "unique": true,
+      "stored_as": "02-bond-screen.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "02-futures-screen.jpg",
+      "sha256": "8aa0411b91433fcef1018ded6b81b7865ed9fc341c0da32341faa1d8f870ecf6",
+      "bytes": 47600,
+      "description": "Futures Screener 类型与对应代码",
+      "unique": true,
+      "stored_as": "02-futures-screen.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "02-coin-screen.jpg",
+      "sha256": "8aa0411b91433fcef1018ded6b81b7865ed9fc341c0da32341faa1d8f870ecf6",
+      "bytes": 47600,
+      "description": "Coin 屏幕第一次切换尝试（画面重复，真正 Coin 画面见 18）",
+      "unique": false,
+      "stored_as": "02-futures-screen.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "07-filter-chooser-open.jpg",
+      "sha256": "54dddb64419968d251e66a26e6608ac332d002cf2445c2702ded197c7abba176",
+      "bytes": 53103,
+      "description": "添加 Stock filter 的字段和运算符选择器",
+      "unique": true,
+      "stored_as": "07-filter-chooser-open.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "08-price-filter-generated.jpg",
+      "sha256": "9c2fe7c3bba31762bc60ef1e53f19c17deadc9059b544baaa9ac3f5c6b1074c3",
+      "bytes": 56164,
+      "description": "Price > 50 生成代码",
+      "unique": true,
+      "stored_as": "08-price-filter-generated.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "09-price-rsi-filters.jpg",
+      "sha256": "2407a342db7ba7b5b01de1b85573c23960fcce185567a4af4c77e7c247b494b4",
+      "bytes": 59341,
+      "description": "组合 Price 与 RSI 条件",
+      "unique": true,
+      "stored_as": "09-price-rsi-filters.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "10-market-cap-between.jpg",
+      "sha256": "a623a33c2fa229bd061e4d31c5662e41abfe670d150ea5fdde733f751cea28d1",
+      "bytes": 63927,
+      "description": "添加市值 between 区间",
+      "unique": true,
+      "stored_as": "10-market-cap-between.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "11-search-rsi-fields.jpg",
+      "sha256": "df2a018b502238e6746bc8f540f77f1b8ffb3a4b1394948446bd385df6933402",
+      "bytes": 64573,
+      "description": "搜索 RSI 相关字段及分页提示",
+      "unique": true,
+      "stored_as": "11-search-rsi-fields.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "12-rsi-field-selected.jpg",
+      "sha256": "763e0e18468e3166018b77efb133a1d7bdb12d139f28e0270740cdd3bc093aca",
+      "bytes": 60964,
+      "description": "选择 Rsi|30 输出字段",
+      "unique": true,
+      "stored_as": "12-rsi-field-selected.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "13-output-fields-selected.jpg",
+      "sha256": "b64bb8f34ef7da5a18c1523ca5af4a6eb5826cc368dbbd9e2cae8f559ad1be63",
+      "bytes": 71691,
+      "description": "生成 ss.select 输出字段列表",
+      "unique": true,
+      "stored_as": "13-output-fields-selected.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "14-sp500-sort-limit.jpg",
+      "sha256": "1e2bbd0bc7b6eac5458aa1319da9ce61e76e2e1d214ada7519afc2a544985f64",
+      "bytes": 74588,
+      "description": "市值排序和 25 条上限（S&P500 选择前）",
+      "unique": true,
+      "stored_as": "14-sp500-sort-limit.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "15-sp500-index-config.jpg",
+      "sha256": "1db86b59e8e002ab4628f071f93db828043cdc63fb47cdeca0bdde42043b20a2",
+      "bytes": 69648,
+      "description": "S&P 500 index filter 生成代码",
+      "unique": true,
+      "stored_as": "15-sp500-index-config.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "16-field-presets-open.jpg",
+      "sha256": "3ceba7618fa77c452be5cacaf0ddd316b75bfda61790c691010761502869a180",
+      "bytes": 71823,
+      "description": "Basic Info、Valuation、Technical、Performance、Dividends 预设菜单",
+      "unique": true,
+      "stored_as": "16-field-presets-open.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "17-valuation-preset.jpg",
+      "sha256": "6fd6f719f70aa4a0eec0718a5323bc52d125fb84655120da4b22088f3daf4e81",
+      "bytes": 72735,
+      "description": "Valuation preset 生成的完整查询代码",
+      "unique": true,
+      "stored_as": "17-valuation-preset.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    },
+    {
+      "capture_file": "18-coin-screener-generated.jpg",
+      "sha256": "edd9c1ae6d7ca2ad3ee2f7b33006a47c72ea0c1dedf7b90031fe0274bbdbfc0c",
+      "bytes": 52721,
+      "description": "Coin (DEX) Screener 的真实切换与代码",
+      "unique": true,
+      "stored_as": "18-coin-screener-generated.jpg",
+      "capture_source": "localhost:8934 static app from locked tvscreener commit"
+    }
+  ]
+}

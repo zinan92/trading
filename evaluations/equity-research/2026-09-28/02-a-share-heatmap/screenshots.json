@@ -1,0 +1,151 @@
+{
+  "repo": "wenyuanw/a-share-heatmap",
+  "product": "A Share Heatmap",
+  "count": 24,
+  "screenshots": [
+    {
+      "number": 1,
+      "path": "images/01-01-native-all-day.jpg",
+      "sha256": "dfd5a1b8f140230f5efb0bab225ef5a6eec974d19314f12de57497ed7c165c6d",
+      "source_name": "01-native-all-day.png"
+    },
+    {
+      "number": 2,
+      "path": "images/02-02-native-sse-day.jpg",
+      "sha256": "d83aa2088dae7b21de61560a085c4171a753b3443364cc2e5627700ff01ef6c3",
+      "source_name": "02-native-sse-day.png"
+    },
+    {
+      "number": 3,
+      "path": "images/03-03-native-szse-day.jpg",
+      "sha256": "5749bb3bd6648cf5aa8aa9ff0901356e3e6e14533eaa72e4416201dc27afa0f6",
+      "source_name": "03-native-szse-day.png"
+    },
+    {
+      "number": 4,
+      "path": "images/04-04-native-hs300-day.jpg",
+      "sha256": "77269767d790e69358cdd5ff82f31c667d4e6b4178139739f98f962503e1d087",
+      "source_name": "04-native-hs300-day.png"
+    },
+    {
+      "number": 5,
+      "path": "images/05-05-native-zza50-day.jpg",
+      "sha256": "090d6241997eeb23e2fa438d48fb37b974b01b2544d70f7fa3df77ddd53765f1",
+      "source_name": "05-native-zza50-day.png"
+    },
+    {
+      "number": 6,
+      "path": "images/06-06-native-zza500-day.jpg",
+      "sha256": "09d357b98cb82c6f297d741929d8a8b1ce0dcd117b1275800ace01f4b1758814",
+      "source_name": "06-native-zza500-day.png"
+    },
+    {
+      "number": 7,
+      "path": "images/07-07-native-main-day.jpg",
+      "sha256": "6eecdc68273833fc66cc2ccb710c2377914a0144c7981f6adf6c551253c7350d",
+      "source_name": "07-native-main-day.png"
+    },
+    {
+      "number": 8,
+      "path": "images/08-08-native-cyb-day.jpg",
+      "sha256": "7682be372dec6b84fc79eefd3ce3b29f2f17a6a86255d209c70b93054bfa9b00",
+      "source_name": "08-native-cyb-day.png"
+    },
+    {
+      "number": 9,
+      "path": "images/09-09-native-kcb-day.jpg",
+      "sha256": "ca4ed8d9728f8907dd44b67fe2480a5d16202f6f24a600666d9c38a543e4224a",
+      "source_name": "09-native-kcb-day.png"
+    },
+    {
+      "number": 10,
+      "path": "images/10-10-native-all-week.jpg",
+      "sha256": "fd19034a3b017562533d0c369b3e232b67d6a1d000c306218f23e0bc757f3898",
+      "source_name": "10-native-all-week.png"
+    },
+    {
+      "number": 11,
+      "path": "images/11-11-native-all-month.jpg",
+      "sha256": "d1bb60d8d4f2974f623cf18fc5614c2890b8bcb78f4a89deeadb3e0aef4dbc3c",
+      "source_name": "11-native-all-month.png"
+    },
+    {
+      "number": 12,
+      "path": "images/12-12-native-all-year.jpg",
+      "sha256": "212b8e7176343404365e16bc19cd91f233d598f0571f99b0e851bcdda834bd5c",
+      "source_name": "12-native-all-year.png"
+    },
+    {
+      "number": 13,
+      "path": "images/13-13-native-turnover-thumbnails.jpg",
+      "sha256": "f380a1913592c2fb383982f1b4f3430baf477790e45da9ec893c98e4a94de3cd",
+      "source_name": "13-native-turnover-thumbnails.png"
+    },
+    {
+      "number": 14,
+      "path": "images/14-14-native-electronics-falling.jpg",
+      "sha256": "cec9cf86dda61a4f2c670b5dab63222c02e651915639835e0ea45a1eb5167dfd",
+      "source_name": "14-native-electronics-falling.png"
+    },
+    {
+      "number": 15,
+      "path": "images/15-15-native-electronics-rising.jpg",
+      "sha256": "ecc715305ad38f5b9bb9dee13989388e62615b2e03f91b739dcd6d0d7e3dd1c0",
+      "source_name": "15-native-electronics-rising.png"
+    },
+    {
+      "number": 16,
+      "path": "images/16-16-native-all-plus2to4.jpg",
+      "sha256": "b11fe2ea4262ae4d42b94b089e80ab87ff65b25743ed2ece6612e2ba622d1c46",
+      "source_name": "16-native-all-plus2to4.png"
+    },
+    {
+      "number": 17,
+      "path": "images/17-17-native-watchlist-maotai.jpg",
+      "sha256": "d55f2b77b759c063fdeadb375e5637ca183062c06ae105d0babddfddd93930c7",
+      "source_name": "17-native-watchlist-maotai.png"
+    },
+    {
+      "number": 18,
+      "path": "images/18-18-native-watchlist-manager.jpg",
+      "sha256": "74c989184cdb155568132d1e23ece1024a167d956988491542ef845267aee8cf",
+      "source_name": "18-native-watchlist-manager.png"
+    },
+    {
+      "number": 19,
+      "path": "images/19-19-native-appearance-settings.jpg",
+      "sha256": "33b42db9d2a228ad3c9d0634498150f33c8e70b2f40d1f21f30f77d13c50544f",
+      "source_name": "19-native-appearance-settings.png"
+    },
+    {
+      "number": 20,
+      "path": "images/20-20-native-webmcp-settings.jpg",
+      "sha256": "35d0d1c73580fdb3150ceb84bd8255c2f6d0e3eed5612bf5cd10e2ae1c3aec1b",
+      "source_name": "20-native-webmcp-settings.png"
+    },
+    {
+      "number": 21,
+      "path": "images/21-21-native-share-dialog.jpg",
+      "sha256": "fbeb5c1b45b9a545389386a2c2cfe4eb58544b0c3fb96d6953ee6453d89a7d54",
+      "source_name": "21-native-share-dialog.png"
+    },
+    {
+      "number": 22,
+      "path": "images/22-22-native-soft-theme.jpg",
+      "sha256": "b6540e606f12c9b9ea1377a61fc343400af076d944c28c80a0f1d7044aa34ee0",
+      "source_name": "22-native-soft-theme.png"
+    },
+    {
+      "number": 23,
+      "path": "images/23-23-native-custom-theme.jpg",
+      "sha256": "e713c41b64348c48be8e60c75b605634df039d774b727043bef48326ee14aa4d",
+      "source_name": "23-native-custom-theme.png"
+    },
+    {
+      "number": 24,
+      "path": "images/24-24-native-watchlist-removed.jpg",
+      "sha256": "6681173db354b01af49c773561d0c9f35d9f87b74056aa0b1829cea5647434fa",
+      "source_name": "24-native-watchlist-removed.png"
+    }
+  ]
+}
