@@ -1,0 +1,16 @@
+{
+  "source_sha": "3bca7805a4127ece8d81961917e740d2effac6ec",
+  "catalog_lock": "402574a6221d5e255dba47166df8e5abb7149938",
+  "cli_version": "0.1.13",
+  "probes": 23,
+  "local_or_contract_success": 20,
+  "cli_auth_errors": 2,
+  "rest_auth_limited": 1,
+  "screenshots": 23,
+  "reported_capabilities": 104,
+  "remote_capabilities_reported": 88,
+  "local_capabilities_reported": 16,
+  "actual_remote_market_rows": 0,
+  "isolated_db_tables": 0,
+  "production_npm_audit_vulnerabilities": 0
+}

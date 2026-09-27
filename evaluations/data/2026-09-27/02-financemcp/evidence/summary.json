@@ -1,0 +1,19 @@
+{
+  "source_sha": "6fbaceb77c197f3cf9798db1fc4bf54e0a874487",
+  "catalog_lock": "784c6176647aad35d6a25a715b62b333db95df90",
+  "version": "4.11.2",
+  "probes": 14,
+  "success": 11,
+  "limited": 2,
+  "error": 1,
+  "screenshots": 14,
+  "keyless_tools": [
+    "current_timestamp",
+    "finance_news",
+    "stock_data",
+    "stock_data_minutes"
+  ],
+  "audit_production_moderate": 4,
+  "native_web_ui": false,
+  "screenshot_surface": "Product Lab evidence viewer of real localhost JSON-RPC/MCP outputs"
+}

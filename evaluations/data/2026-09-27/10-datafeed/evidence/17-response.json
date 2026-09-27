@@ -1,0 +1,150 @@
+{
+  "ticker": "AAPL",
+  "instrument_id": "AAPL",
+  "provider_symbol": "AAPL",
+  "asset_class": "us_stock",
+  "timeframe": "1h",
+  "count": 5,
+  "raw_timeframe": "1h",
+  "timeframe_origin": "native",
+  "aggregation": {
+    "kind": "none",
+    "rule": "native_passthrough"
+  },
+  "source_identity": {
+    "provider": "yahoo_finance",
+    "source_mode": "yahoo_finance_free",
+    "provider_symbol": "AAPL",
+    "timeframe": "1h",
+    "repair_policy": "yfinance_repair_on_invalid_ohlc",
+    "repair_attempted": false,
+    "repaired_row_count": 0,
+    "repaired_timestamps": [],
+    "quality_flags": [],
+    "exclusion_applied": false,
+    "excluded_row_count": 0,
+    "excluded_timestamps": [],
+    "excluded_rows": [],
+    "source_id": "yahoo_finance_free",
+    "requested_symbol": "AAPL",
+    "selected_source": "yahoo",
+    "fallback_from": null,
+    "adjustment_basis": "raw_unadjusted",
+    "raw_timeframe": "1h",
+    "timeframe_origin": "native",
+    "aggregation": {
+      "kind": "none",
+      "rule": "native_passthrough"
+    }
+  },
+  "schema_version": "kline-candles-v1",
+  "provider": "yahoo_finance",
+  "source_mode": "yahoo_finance_free",
+  "requested_source": "yahoo_finance_free",
+  "selected_source": "yahoo_finance_free",
+  "selection_reason": "requested_or_default",
+  "attempted_sources": [
+    "yahoo_finance_free"
+  ],
+  "cache_policy": "bypass",
+  "quality_policy": "standard",
+  "fallback_policy": "none",
+  "require_execution_venue": false,
+  "quality_flags": [
+    "public_api",
+    "market_hours",
+    "research_only",
+    "entitlement_unverified"
+  ],
+  "is_synthetic": false,
+  "served_from": "upstream",
+  "fresh": null,
+  "latest_timestamp": "2026-09-25T19:30:00+00:00",
+  "age_seconds": 136073.209103,
+  "max_age_seconds": null,
+  "execution_venue": false,
+  "reject_reason": null,
+  "access_issues": [],
+  "candles": [
+    {
+      "timestamp": "2026-09-25T15:30:00+00:00",
+      "open": 338.45001220703125,
+      "high": 340.239990234375,
+      "low": 338.1400146484375,
+      "close": 340.07159423828125,
+      "volume": 3242073.0,
+      "amount": null,
+      "provider": "yahoo_finance",
+      "quality_flags": [
+        "public_api",
+        "market_hours",
+        "research_only",
+        "entitlement_unverified"
+      ]
+    },
+    {
+      "timestamp": "2026-09-25T16:30:00+00:00",
+      "open": 340.0400085449219,
+      "high": 340.20001220703125,
+      "low": 338.8999938964844,
+      "close": 340.1099853515625,
+      "volume": 1966594.0,
+      "amount": null,
+      "provider": "yahoo_finance",
+      "quality_flags": [
+        "public_api",
+        "market_hours",
+        "research_only",
+        "entitlement_unverified"
+      ]
+    },
+    {
+      "timestamp": "2026-09-25T17:30:00+00:00",
+      "open": 340.1099853515625,
+      "high": 340.4599914550781,
+      "low": 339.6000061035156,
+      "close": 339.8598937988281,
+      "volume": 1810657.0,
+      "amount": null,
+      "provider": "yahoo_finance",
+      "quality_flags": [
+        "public_api",
+        "market_hours",
+        "research_only",
+        "entitlement_unverified"
+      ]
+    },
+    {
+      "timestamp": "2026-09-25T18:30:00+00:00",
+      "open": 339.8399963378906,
+      "high": 340.4800109863281,
+      "low": 339.80999755859375,
+      "close": 340.0199890136719,
+      "volume": 4306448.0,
+      "amount": null,
+      "provider": "yahoo_finance",
+      "quality_flags": [
+        "public_api",
+        "market_hours",
+        "research_only",
+        "entitlement_unverified"
+      ]
+    },
+    {
+      "timestamp": "2026-09-25T19:30:00+00:00",
+      "open": 340.010009765625,
+      "high": 341.6700134277344,
+      "low": 339.8999938964844,
+      "close": 341.0400085449219,
+      "volume": 3911681.0,
+      "amount": null,
+      "provider": "yahoo_finance",
+      "quality_flags": [
+        "public_api",
+        "market_hours",
+        "research_only",
+        "entitlement_unverified"
+      ]
+    }
+  ]
+}

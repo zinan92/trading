@@ -1,0 +1,265 @@
+{
+  "date": "2026-09-27",
+  "category": "Data",
+  "weights": {
+    "core": 35,
+    "quality": 25,
+    "coverage": 15,
+    "usability": 15,
+    "operations": 10
+  },
+  "products": [
+    {
+      "repo": "tickflow-org/tickflow",
+      "slug": "01-tickflow",
+      "score_parts": {
+        "core": 29,
+        "quality": 18,
+        "coverage": 12,
+        "usability": 12,
+        "operations": 8
+      },
+      "role": "A股／美股／港股历史行情 SDK",
+      "interface": "Python SDK；截图为辅助证据页",
+      "verdict": "免费历史查询可用；分钟和实时受权限限制",
+      "why": "10 次免费查询取得 A 股、ETF、美股、港股 K 线及标的元数据；分钟线与实时调用明确拒绝未授权账户。覆盖广，免费层的可验证能力主要是历史数据。",
+      "next": "用获授权账户在开市时检验分钟线、实时价格和财报路径。",
+      "hero": "02-tickflow-api.png",
+      "tested_sha": "c27f23c50386c10f2c439cf8345e9aa2c295e0c7"
+    },
+    {
+      "repo": "guangxiangdebizi/FinanceMCP",
+      "slug": "02-financemcp",
+      "score_parts": {
+        "core": 23,
+        "quality": 13,
+        "coverage": 11,
+        "usability": 10,
+        "operations": 6
+      },
+      "role": "AI Agent 金融数据 MCP 路由",
+      "interface": "MCP 服务器；截图为辅助证据页",
+      "verdict": "加密 K 线与公开新闻可用；A／美股需授权",
+      "why": "本轮 11 项返回有效结果，2 项因凭证受限；部分工具内部失败仍回 HTTP 200，调用方必须读取正文，否则会把错误当成功。",
+      "next": "补齐可授权的数据源后逐工具核查股票数据，并让失败状态能被 MCP 客户端直接辨认。",
+      "hero": "03-finance-mcp.png",
+      "tested_sha": "6fbaceb77c197f3cf9798db1fc4bf54e0a874487"
+    },
+    {
+      "repo": "atilaahmettaner/tradingview-mcp",
+      "slug": "03-tradingview-mcp",
+      "score_parts": {
+        "core": 27,
+        "quality": 16,
+        "coverage": 14,
+        "usability": 11,
+        "operations": 7
+      },
+      "role": "多市场研究、筛选与技术分析 MCP",
+      "interface": "MCP 服务器；截图为辅助证据页",
+      "verdict": "23 个场景有结果，部分源与需 Key 工具失败",
+      "why": "本轮实际暴露 39 个工具；美股、A 股、港股筛选及部分回测取得结果，3 个场景失败。部分工具依赖外部 Key，周末未证实实时性。",
+      "next": "开市时复核行情时延，并以同一标的对比跨来源筛选与回测结果。",
+      "hero": "04-tradingview-mcp.png",
+      "tested_sha": "a1e54b07e5c21b375363607920f297c5adfbeed4"
+    },
+    {
+      "repo": "zinan92/watchlist",
+      "slug": "04-watchlist",
+      "score_parts": {
+        "core": 32,
+        "quality": 22,
+        "coverage": 6,
+        "usability": 12,
+        "operations": 9
+      },
+      "role": "资产、赛道和研究对象的静态 reference registry",
+      "interface": "原生静态页面＋辅助校验页",
+      "verdict": "静态名单与引用校验通过；不提供行情",
+      "why": "当前 registry 有 16 个行情资产、6 条宏观主线、26 个赛道和 119 个唯一研究目标；关系引用与别名校验通过。旧目录仍写 24 个赛道／109 目标，说明目录摘要需更新。",
+      "next": "让 Trading 目录摘要随 registry 版本自动更新，并验证下游系统确实读取同一快照。",
+      "hero": "01-native-tree-y0.png",
+      "tested_sha": "29ce3c0ad6c6d5f822c860c42ae5ccd251c240d2"
+    },
+    {
+      "repo": "HiThink-Tech/Financial-API",
+      "slug": "05-financial-api",
+      "score_parts": {
+        "core": 12,
+        "quality": 11,
+        "coverage": 10,
+        "usability": 10,
+        "operations": 6
+      },
+      "role": "需授权的官方 A 股数据 API 与本地 CLI",
+      "interface": "CLI；截图为辅助证据页",
+      "verdict": "本地契约可用；在线行情未获授权验证",
+      "why": "CLI 能构建，104 项能力可枚举，13 个 schema 和本地 DuckDB 可用；无统一 Key 时在线请求返回认证缺失，不能把广告覆盖面当已验证数据。此分数是本轮证据分，非官方服务质量定论。",
+      "next": "使用明确授权的测试 Key 核查实时、历史、财务和批量取数，并复测错误码。",
+      "hero": "03-financial-api.png",
+      "tested_sha": "3bca7805a4127ece8d81961917e740d2effac6ec"
+    },
+    {
+      "repo": "1nchaos/adata",
+      "slug": "06-adata",
+      "score_parts": {
+        "core": 21,
+        "quality": 12,
+        "coverage": 11,
+        "usability": 8,
+        "operations": 6
+      },
+      "role": "A 股历史 K 线与盘口多源 Python SDK",
+      "interface": "Python SDK；截图为辅助证据页",
+      "verdict": "部分 K 线可取；重复调用与实时解析不稳定",
+      "why": "茅台日／周 K、ETF、指数分钟与行业数据有真实返回；另有股票日线空值、周线超时与腾讯 compact 报价解析失配。多源回退不是对所有方法都生效。",
+      "next": "修复当前腾讯报价格式解析，再连续重复测试股票 K 线与回退路径。",
+      "hero": "02-adata.png",
+      "tested_sha": "b14f4e57b2175302f18b6eaf934f7dff9207a141"
+    },
+    {
+      "repo": "JerBouma/FinanceDatabase",
+      "slug": "07-financedatabase",
+      "score_parts": {
+        "core": 31,
+        "quality": 23,
+        "coverage": 15,
+        "usability": 10,
+        "operations": 8
+      },
+      "role": "多市场静态证券标识与分类元数据库",
+      "interface": "Python SDK；截图为辅助证据页",
+      "verdict": "元数据核心任务最扎实；没有市场价格",
+      "why": "七类表合计 305,512 行，本地压缩 CSV 与远端读数都可用；AAPL、茅台、腾讯等代码检索正确。默认远端指向可变 main，个别代码别名须手动确认。",
+      "next": "固定数据快照版本并抽样核对近期上市／退市标的；行情场景需另接价格源。",
+      "hero": "02-financedatabase.png",
+      "tested_sha": "d0b95bd51f9c594c81bac0b20c7ab6cbd084c51e"
+    },
+    {
+      "repo": "simonlin1212/global-stock-data",
+      "slug": "08-global-stock-data",
+      "score_parts": {
+        "core": 22,
+        "quality": 18,
+        "coverage": 12,
+        "usability": 8,
+        "operations": 7
+      },
+      "role": "美股／港股研究数据与技术指标 Agent Skill",
+      "interface": "Python Skill；截图为辅助证据页",
+      "verdict": "官方宏观与本地指标可用；期权主卖点未实测",
+      "why": "美国财政部、CFTC、FINRA 单日文件及本地指标函数有真实结果；SEC 缺真实 contact、CBOE 路径未调用。真实与合成输入在证据中分开标注。",
+      "next": "在允许的授权条件下验证 SEC 与 CBOE；给各来源加时戳、许可与复现记录。",
+      "hero": "02-global-stock-data.png",
+      "tested_sha": "5f27525709ab043b91e53d7a420ce6d46e66a0ce"
+    },
+    {
+      "repo": "simonlin1212/a-stock-data",
+      "slug": "09-a-stock-data",
+      "score_parts": {
+        "core": 25,
+        "quality": 15,
+        "coverage": 12,
+        "usability": 11,
+        "operations": 7
+      },
+      "role": "A 股行情、财务与研究代码 Skill",
+      "interface": "Python Skill；截图为辅助证据页",
+      "verdict": "腾讯／新浪主路径可用；百度均线 K 返回空",
+      "why": "真实取得 A 股、指数、ETF 报价及多周期 K 线、复权因子与财报，输入代码守卫有效；百度均线接口返回空且未抛错。源码宣称的 15 层／87 端点只有样本路径实测。",
+      "next": "让百度空响应显式报错，并扩展测试到资金、公告、ETF 期权等未覆盖层。",
+      "hero": "04-a-stock-data.png",
+      "tested_sha": "f814dcfe209dd7958f4858f9d878d591ee85fb56"
+    },
+    {
+      "repo": "zinan92/datafeed",
+      "slug": "10-datafeed",
+      "score_parts": {
+        "core": 29,
+        "quality": 19,
+        "coverage": 13,
+        "usability": 11,
+        "operations": 8
+      },
+      "role": "A／美股、加密、商品与美债的标准化 OHLCV API",
+      "interface": "原生 HTTP API／健康看板＋辅助证据页",
+      "verdict": "多市场 K 线可用；矩阵采集和授权尚未就绪",
+      "why": "上证、茅台、AAPL、BTC、美债、黄金均有真实蜡烛图；source、缓存、质量和拒绝原因明确。隔离实例健康矩阵无持久采集，Yahoo／腾讯免费路径标记 entitlement_unverified。",
+      "next": "跑持久化采集与矩阵回读，核实各来源许可，并验证交易时段实时性。",
+      "hero": "03-native-api-docs.png",
+      "tested_sha": "4a2f0cff3878f31caf176e355bd6b58c0458b5d7"
+    },
+    {
+      "repo": "sstklen/trump-code",
+      "slug": "11-trump-code",
+      "score_parts": {
+        "core": 14,
+        "quality": 7,
+        "coverage": 7,
+        "usability": 9,
+        "operations": 5
+      },
+      "role": "政治发言驱动的美股事件信号研究",
+      "interface": "原生 Web／API＋辅助数据核对页",
+      "verdict": "历史命中率可复算；最新帖链路断裂",
+      "why": "历史 564 条已验证预测中 346 条正确，61.3% 可复算；但日报到 9 月、最近帖子停在 3 月，模型榜单为空，日报索引指向不存在文件。它也不属于通用 Data feed。",
+      "next": "先修复源帖归档、当日报告和文章索引的一致性，再做新的前瞻验证；建议移到 Trading Strategy／Event Signals。",
+      "hero": "01-dashboard-hero.png",
+      "tested_sha": "fa132e9251cf6f43908fd9855379488709731952"
+    },
+    {
+      "repo": "zinan92/intel",
+      "slug": "12-intel",
+      "score_parts": {
+        "core": 21,
+        "quality": 8,
+        "coverage": 10,
+        "usability": 10,
+        "operations": 5
+      },
+      "role": "跨来源新闻采集、搜索和事件研究平台",
+      "interface": "原生 Web／API＋辅助审计页",
+      "verdict": "采集与搜索可用；跨源确认尚无通过样本",
+      "why": "隔离实例采到 4,610 篇并能检索；63 个聚合事件都只有一个来源，未证明跨源确认。来源健康 24h 计数按类型重复，实际多数文章发表时间远早于采集时间。",
+      "next": "修复发布时间过滤和来源级计数，取得至少一个可复查的双源事件。",
+      "hero": "09-native-feed-all.png",
+      "tested_sha": "54bd1b3f8bc0459a4ff166afd9811c28b94f0ffe"
+    },
+    {
+      "repo": "zinan92/quant-data-pipeline",
+      "slug": "13-quant-data-pipeline",
+      "score_parts": {
+        "core": 19,
+        "quality": 9,
+        "coverage": 13,
+        "usability": 8,
+        "operations": 3
+      },
+      "role": "多资产行情看板＋感知信号＋本地模拟交易",
+      "interface": "原生 React／API＋辅助证据页",
+      "verdict": "商品／加密与纸盘可用；A 股和稳定性缺口大",
+      "why": "商品、加密、美股指数和本地纸盘买卖回读成功；A 股搜索／K 线失败、概念为空，新闻请求超时后拖住整个后端。真实券商执行未出现。",
+      "next": "先隔离新闻源阻塞，再恢复 A 股搜索、历史 K 线和健康判断；模拟交易保持纸盘标识。",
+      "hero": "13-dashboard-section.png",
+      "tested_sha": "d306095de3c253535e4b47d08b23e9d0f07c01b4"
+    },
+    {
+      "repo": "akfamily/akshare",
+      "slug": "14-akshare",
+      "score_parts": {
+        "core": 29,
+        "quality": 16,
+        "coverage": 15,
+        "usability": 14,
+        "operations": 9
+      },
+      "role": "A／美股、基金、债券、期货、宏观与新闻 Python 数据接口库",
+      "interface": "Python SDK；截图为辅助证据页",
+      "verdict": "广覆盖历史数据强；实时接口须逐个验时效",
+      "why": "A 股日／分钟、ETF、美股、指数、期货、LPR、新闻真实取数通过；东财日线和 ETF 现价失败，crypto_js_spot 仍给 2020／2023 年旧价，FX 25 行全空。",
+      "next": "给不同来源建立健康与时效性检查；优先避免把 HTTP 成功的旧价、空表当实时数据。",
+      "hero": "05-AKShare.png",
+      "tested_sha": "0191689d57c667b7c7a198fd0cf97316837ef311"
+    }
+  ]
+}

@@ -1,0 +1,4424 @@
+[
+  {
+    "slug": "no-content",
+    "label": "No Content",
+    "count": 11,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "ethereum-scaling",
+    "label": "Ethereum Scaling",
+    "count": 10,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "gold-futures",
+    "label": "Gold Futures",
+    "count": 10,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "promo-codes",
+    "label": "Promo Codes",
+    "count": 9,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-philosophy",
+    "label": "Crypto Philosophy",
+    "count": 8,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "ethereum-roadmap",
+    "label": "Ethereum Roadmap",
+    "count": 8,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "noise",
+    "label": "Noise",
+    "count": 7,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "no-market-content",
+    "label": "No Market Content",
+    "count": 7,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "retail-deals",
+    "label": "Retail Deals",
+    "count": 7,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "empty-content",
+    "label": "Empty Content",
+    "count": 7,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "gitcoin-grants",
+    "label": "Gitcoin Grants",
+    "count": 6,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "promo-code",
+    "label": "Promo Code",
+    "count": 6,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "consumer-retail",
+    "label": "Consumer Retail",
+    "count": 6,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "consumer-tech",
+    "label": "Consumer Tech",
+    "count": 5,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "product-launch",
+    "label": "Product Launch",
+    "count": 5,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "dev-tool",
+    "label": "Dev Tool",
+    "count": 5,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-infrastructure",
+    "label": "Crypto Infrastructure",
+    "count": 5,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-concepts",
+    "label": "Crypto Concepts",
+    "count": 5,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "proof-of-stake",
+    "label": "Proof Of Stake",
+    "count": 5,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "non-market",
+    "label": "Non Market",
+    "count": 4,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "public-goods-funding",
+    "label": "Public Goods Funding",
+    "count": 4,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "zk-snarks",
+    "label": "Zk Snarks",
+    "count": 4,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-governance",
+    "label": "Crypto Governance",
+    "count": 4,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-theory",
+    "label": "Crypto Theory",
+    "count": 4,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "ethereum-technical-docs",
+    "label": "Ethereum Technical Docs",
+    "count": 4,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "consumer-ai",
+    "label": "Consumer Ai",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "llm-tooling",
+    "label": "Llm Tooling",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "ai-coding-tools",
+    "label": "Ai Coding Tools",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "fed-rate-hike",
+    "label": "Fed Rate Hike",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-security",
+    "label": "Crypto Security",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "cryptography-research",
+    "label": "Cryptography Research",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "not-market-relevant",
+    "label": "Not Market Relevant",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "privacy-tech",
+    "label": "Privacy Tech",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "prediction-markets",
+    "label": "Prediction Markets",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "protocol-development",
+    "label": "Protocol Development",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "non-market-content",
+    "label": "Non Market Content",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "zk-evm-types",
+    "label": "Zk Evm Types",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "blockchain-scalability",
+    "label": "Blockchain Scalability",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-governance-theory",
+    "label": "Crypto Governance Theory",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "starks",
+    "label": "Starks",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "gold-price-daily",
+    "label": "Gold Price Daily",
+    "count": 3,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "open-weight-llm",
+    "label": "Open Weight Llm",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "llm-research-papers",
+    "label": "Llm Research Papers",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "ai-research-curation",
+    "label": "Ai Research Curation",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "ai-education",
+    "label": "Ai Education",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "llm-architecture-comparison",
+    "label": "Llm Architecture Comparison",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "nvidia-competition",
+    "label": "Nvidia Competition",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "ai-safety-concerns",
+    "label": "Ai Safety Concerns",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "wildlife-photography",
+    "label": "Wildlife Photography",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "datasette-plugin-release",
+    "label": "Datasette Plugin Release",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "ai-agent-security",
+    "label": "Ai Agent Security",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "enterprise-ai",
+    "label": "Enterprise Ai",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-commentary",
+    "label": "Crypto Commentary",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "blockchain-architecture",
+    "label": "Blockchain Architecture",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "layer-2s",
+    "label": "Layer 2S",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "zero-knowledge-proofs",
+    "label": "Zero Knowledge Proofs",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-culture",
+    "label": "Crypto Culture",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "revenue-evil-curve",
+    "label": "Revenue Evil Curve",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "market-commentary",
+    "label": "Market Commentary",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "dao-governance",
+    "label": "Dao Governance",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "blockchain-voting",
+    "label": "Blockchain Voting",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "legitimacy",
+    "label": "Legitimacy",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-education",
+    "label": "Crypto Education",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "layer2-rollups",
+    "label": "Layer2 Rollups",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "retrospective",
+    "label": "Retrospective",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-privacy",
+    "label": "Crypto Privacy",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "quadratic-funding",
+    "label": "Quadratic Funding",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "layer2-scaling",
+    "label": "Layer2 Scaling",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "technical-education",
+    "label": "Technical Education",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "crypto-design",
+    "label": "Crypto Design",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "gift-guide",
+    "label": "Gift Guide",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "meta-ai-hardware",
+    "label": "Meta Ai Hardware",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "tech-culture-history",
+    "label": "Tech Culture History",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "consumer-products",
+    "label": "Consumer Products",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "china-ev-market",
+    "label": "China Ev Market",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "gold-etf-tax",
+    "label": "Gold Etf Tax",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "gold.com-dividend",
+    "label": "Gold.Com Dividend",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "gold.com-earnings",
+    "label": "Gold.Com Earnings",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "gold-price-target",
+    "label": "Gold Price Target",
+    "count": 2,
+    "momentum_label": "rising"
+  },
+  {
+    "slug": "ai-social-media",
+    "label": "Ai Social Media",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "linkedin-automation",
+    "label": "Linkedin Automation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-photo-tools",
+    "label": "Ai Photo Tools",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "project-planning",
+    "label": "Project Planning",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "local-ai",
+    "label": "Local Ai",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "genai-optimization",
+    "label": "Genai Optimization",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-cost-management",
+    "label": "Ai Cost Management",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bot-detection",
+    "label": "Bot Detection",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "web-security",
+    "label": "Web Security",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "civil-engineering",
+    "label": "Civil Engineering",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "web-cad",
+    "label": "Web Cad",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "whatsapp-automation",
+    "label": "Whatsapp Automation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-workflows",
+    "label": "Ai Workflows",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "iot-novelty",
+    "label": "Iot Novelty",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "developer-tools",
+    "label": "Developer Tools",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gaming-hardware",
+    "label": "Gaming Hardware",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "music-tech",
+    "label": "Music Tech",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "legal-tech",
+    "label": "Legal Tech",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-consumer-tool",
+    "label": "Ai Consumer Tool",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "anomaly-detection",
+    "label": "Anomaly Detection",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "geospatial-data",
+    "label": "Geospatial Data",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "screen-recording",
+    "label": "Screen Recording",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "creator-tool",
+    "label": "Creator Tool",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "presentation-tool",
+    "label": "Presentation Tool",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "productivity-app",
+    "label": "Productivity App",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "hardware-gadget",
+    "label": "Hardware Gadget",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "social-app",
+    "label": "Social App",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "carbon-accounting",
+    "label": "Carbon Accounting",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-sustainability",
+    "label": "Ai Sustainability",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "email-automation",
+    "label": "Email Automation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-agent-tool",
+    "label": "Ai Agent Tool",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "neuroscience-sandbox",
+    "label": "Neuroscience Sandbox",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "dbt-tooling",
+    "label": "Dbt Tooling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "devops-niche",
+    "label": "Devops Niche",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "media-visuals",
+    "label": "Media Visuals",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "creative-tool",
+    "label": "Creative Tool",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "subtitle-tool",
+    "label": "Subtitle Tool",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "mac-app",
+    "label": "Mac App",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "brand-monitoring",
+    "label": "Brand Monitoring",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-marketing",
+    "label": "Ai Marketing",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "self-reflection-app",
+    "label": "Self Reflection App",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "react-framework",
+    "label": "React Framework",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "github-hn",
+    "label": "Github Hn",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-app",
+    "label": "Consumer App",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "impulse-purchase",
+    "label": "Impulse Purchase",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "scheduling-tool",
+    "label": "Scheduling Tool",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-agent-tools",
+    "label": "Ai Agent Tools",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "dashboard-builder",
+    "label": "Dashboard Builder",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "product-tours",
+    "label": "Product Tours",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "visual-feedback",
+    "label": "Visual Feedback",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gpt-6-astra",
+    "label": "Gpt 6 Astra",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "looped-transformers",
+    "label": "Looped Transformers",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "hidden-reasoning",
+    "label": "Hidden Reasoning",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-watermarking",
+    "label": "Ai Watermarking",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "claude-text-detection",
+    "label": "Claude Text Detection",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-text-detection",
+    "label": "Ai Text Detection",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "small-language-models",
+    "label": "Small Language Models",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "reasoning-models",
+    "label": "Reasoning Models",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gpt-5-6-release",
+    "label": "Gpt 5 6 Release",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "local-coding-agents",
+    "label": "Local Coding Agents",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-architecture-research",
+    "label": "Llm Architecture Research",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "long-context-efficiency",
+    "label": "Long Context Efficiency",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-architecture-workflow",
+    "label": "Llm Architecture Workflow",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "coding-agents",
+    "label": "Coding Agents",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-agent-architecture",
+    "label": "Ai Agent Architecture",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "attention-variants",
+    "label": "Attention Variants",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-architecture-guide",
+    "label": "Llm Architecture Guide",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "open-weight-llm-releases",
+    "label": "Open Weight Llm Releases",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "inference-time-scaling",
+    "label": "Inference Time Scaling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-reasoning",
+    "label": "Llm Reasoning",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-2025-review",
+    "label": "Llm 2025 Review",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-progress-predictions",
+    "label": "Ai Progress Predictions",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "deepseek-model-release",
+    "label": "Deepseek Model Release",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-architecture-trends",
+    "label": "Llm Architecture Trends",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "open-weight-models",
+    "label": "Open Weight Models",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-evaluation-methods",
+    "label": "Llm Evaluation Methods",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "qwen3-implementation",
+    "label": "Qwen3 Implementation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "openai-open-weight-models",
+    "label": "Openai Open Weight Models",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "intel-panther-lake",
+    "label": "Intel Panther Lake",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "intel-18a-comeback",
+    "label": "Intel 18A Comeback",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "china-ai-datacenter-boom",
+    "label": "China Ai Datacenter Boom",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "china-ai-infrastructure",
+    "label": "China Ai Infrastructure",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gpu-cloud-rating",
+    "label": "Gpu Cloud Rating",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "neocloud-competition",
+    "label": "Neocloud Competition",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-inference-economics",
+    "label": "Ai Inference Economics",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "moe-architecture",
+    "label": "Moe Architecture",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "hbm-demand",
+    "label": "Hbm Demand",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "memory-offloading",
+    "label": "Memory Offloading",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "datacenter-moratoriums",
+    "label": "Datacenter Moratoriums",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "us-ai-buildout",
+    "label": "Us Ai Buildout",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "nvidia-rubin-performance",
+    "label": "Nvidia Rubin Performance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-inference-efficiency",
+    "label": "Ai Inference Efficiency",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "on-device-inference",
+    "label": "On Device Inference",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "robotics-ai",
+    "label": "Robotics Ai",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "edge-computing",
+    "label": "Edge Computing",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "hbm-supply-shift",
+    "label": "Hbm Supply Shift",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "dram-shortage",
+    "label": "Dram Shortage",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "nvidia-rubin",
+    "label": "Nvidia Rubin",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-buildout-financing",
+    "label": "Ai Buildout Financing",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "nvidia-backstop",
+    "label": "Nvidia Backstop",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "credit-markets",
+    "label": "Credit Markets",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "behind-the-meter-power",
+    "label": "Behind The Meter Power",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "datacenter-energy",
+    "label": "Datacenter Energy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-infrastructure",
+    "label": "Ai Infrastructure",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tpu-inference-economics",
+    "label": "Tpu Inference Economics",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-accelerator-market",
+    "label": "Ai Accelerator Market",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "korea-sovereign-ai",
+    "label": "Korea Sovereign Ai",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "nvidia-demand",
+    "label": "Nvidia Demand",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "hynix-hbm",
+    "label": "Hynix Hbm",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "neocloud-security",
+    "label": "Neocloud Security",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-infrastructure-risk",
+    "label": "Ai Infrastructure Risk",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "openai-custom-chip",
+    "label": "Openai Custom Chip",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-asic",
+    "label": "Ai Asic",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "agentic-inference-benchmark",
+    "label": "Agentic Inference Benchmark",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-hardware-performance",
+    "label": "Ai Hardware Performance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "open-source-ai-competition",
+    "label": "Open Source Ai Competition",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "model-commoditization-risk",
+    "label": "Model Commoditization Risk",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-token-demand",
+    "label": "Ai Token Demand",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "cerebras-cs4",
+    "label": "Cerebras Cs4",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-inference-speed",
+    "label": "Ai Inference Speed",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "wafer-scale-inference",
+    "label": "Wafer Scale Inference",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "pjm-power-auction",
+    "label": "Pjm Power Auction",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "electricity-costs",
+    "label": "Electricity Costs",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "utility-bills",
+    "label": "Utility Bills",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-inference-latency",
+    "label": "Ai Inference Latency",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "nvidia-gpu-limits",
+    "label": "Nvidia Gpu Limits",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "cerebras-groq-lpu",
+    "label": "Cerebras Groq Lpu",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-pixel-art-demo",
+    "label": "Ai Pixel Art Demo",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "meta-muse-agent",
+    "label": "Meta Muse Agent",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-ai-agents",
+    "label": "Consumer Ai Agents",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "coding-agents-commentary",
+    "label": "Coding Agents Commentary",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-dev-workflow",
+    "label": "Ai Dev Workflow",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "git-tooling-release",
+    "label": "Git Tooling Release",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "datasette-release",
+    "label": "Datasette Release",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "opentelemetry-support",
+    "label": "Opentelemetry Support",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gemini-tts-models",
+    "label": "Gemini Tts Models",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-voice-tools",
+    "label": "Ai Voice Tools",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "css-tutorial",
+    "label": "Css Tutorial",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "web-development",
+    "label": "Web Development",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "agentic-engineering",
+    "label": "Agentic Engineering",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "sf-event",
+    "label": "Sf Event",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-price-war",
+    "label": "Ai Price War",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "model-releases",
+    "label": "Model Releases",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-pricing",
+    "label": "Llm Pricing",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "openai-models",
+    "label": "Openai Models",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-content-detection",
+    "label": "Ai Content Detection",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "social-media",
+    "label": "Social Media",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "anthropic-model-release",
+    "label": "Anthropic Model Release",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-plugin",
+    "label": "Llm Plugin",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "typesafe-ai",
+    "label": "Typesafe Ai",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "decision-models",
+    "label": "Decision Models",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-innovation",
+    "label": "Llm Innovation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "cloudflare-python-workers",
+    "label": "Cloudflare Python Workers",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "serverless-platform",
+    "label": "Serverless Platform",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-misuse",
+    "label": "Ai Misuse",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "workplace-commentary",
+    "label": "Workplace Commentary",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "mcp-debate",
+    "label": "Mcp Debate",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-agent-infrastructure",
+    "label": "Ai Agent Infrastructure",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-api-key-tooling",
+    "label": "Llm Api Key Tooling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gemini-hack-disclosure",
+    "label": "Gemini Hack Disclosure",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-skepticism-commentary",
+    "label": "Llm Skepticism Commentary",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "claude-code-agents-md",
+    "label": "Claude Code Agents Md",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "film-animation-history",
+    "label": "Film Animation History",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "rust-supply-chain-attack",
+    "label": "Rust Supply Chain Attack",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "open-source-security",
+    "label": "Open Source Security",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-writing-tips",
+    "label": "Llm Writing Tips",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-compression-research",
+    "label": "Llm Compression Research",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-model-misalignment",
+    "label": "Ai Model Misalignment",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "btc-etf-inflows",
+    "label": "Btc Etf Inflows",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitcoin-institutional-demand",
+    "label": "Bitcoin Institutional Demand",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "prediction-market-regulation",
+    "label": "Prediction Market Regulation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "kalshi-legal",
+    "label": "Kalshi Legal",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "sec-crypto-guidance",
+    "label": "Sec Crypto Guidance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "token-regulation",
+    "label": "Token Regulation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-policy-leadership",
+    "label": "Crypto Policy Leadership",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-fraud-enforcement",
+    "label": "Crypto Fraud Enforcement",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "nft-security-exploit",
+    "label": "Nft Security Exploit",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "defi-collateral-innovation",
+    "label": "Defi Collateral Innovation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tokenized-stocks",
+    "label": "Tokenized Stocks",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "strategy-preferred-dividends",
+    "label": "Strategy Preferred Dividends",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "mstr-capital-structure",
+    "label": "Mstr Capital Structure",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethena-usde-strategy",
+    "label": "Ethena Usde Strategy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "equity-perpetuals",
+    "label": "Equity Perpetuals",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "defi-exploit-lawsuit",
+    "label": "Defi Exploit Lawsuit",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "layerzero-liability",
+    "label": "Layerzero Liability",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "exchange-security-breach",
+    "label": "Exchange Security Breach",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitget-hot-wallet-hack",
+    "label": "Bitget Hot Wallet Hack",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "stablecoin-regulation",
+    "label": "Stablecoin Regulation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "fed-capital-rules",
+    "label": "Fed Capital Rules",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "genius-act",
+    "label": "Genius Act",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "solana-treasury-governance",
+    "label": "Solana Treasury Governance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "rwa-tokenization",
+    "label": "Rwa Tokenization",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ark-invest-onchain",
+    "label": "Ark Invest Onchain",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "btc-miner-selling",
+    "label": "Btc Miner Selling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitcoin-production-cost",
+    "label": "Bitcoin Production Cost",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "polymarket-regulatory-risk",
+    "label": "Polymarket Regulatory Risk",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "prediction-markets-crackdown",
+    "label": "Prediction Markets Crackdown",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tokenized-portfolios",
+    "label": "Tokenized Portfolios",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "blackrock-strategies",
+    "label": "Blackrock Strategies",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ondo-rwa",
+    "label": "Ondo Rwa",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "solana-institutional-adoption",
+    "label": "Solana Institutional Adoption",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "payments-expansion",
+    "label": "Payments Expansion",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-hiring",
+    "label": "Crypto Hiring",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tokenized-capital-markets",
+    "label": "Tokenized Capital Markets",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "hifi-funding",
+    "label": "Hifi Funding",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "settlement-infrastructure",
+    "label": "Settlement Infrastructure",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tokenized-deposits",
+    "label": "Tokenized Deposits",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ibm-swift-integration",
+    "label": "Ibm Swift Integration",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "blockchain-banking",
+    "label": "Blockchain Banking",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-plugin-development",
+    "label": "Ai Plugin Development",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-product-update",
+    "label": "Ai Product Update",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-development",
+    "label": "Llm Development",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-platform-scaling",
+    "label": "Ai Platform Scaling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-code-modernization",
+    "label": "Ai Code Modernization",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-marketplace",
+    "label": "Ai Marketplace",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-ecosystem",
+    "label": "Ai Ecosystem",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-in-finance",
+    "label": "Ai In Finance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "hedge-fund-tech",
+    "label": "Hedge Fund Tech",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "product-update",
+    "label": "Product Update",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "salesforce-integration",
+    "label": "Salesforce Integration",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "claude-ecosystem",
+    "label": "Claude Ecosystem",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-revenue-ops",
+    "label": "Ai Revenue Ops",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "agentic-coding",
+    "label": "Agentic Coding",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ci-scaling",
+    "label": "Ci Scaling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "claude-finance",
+    "label": "Claude Finance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-adoption",
+    "label": "Ai Adoption",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "claude-enterprise",
+    "label": "Claude Enterprise",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "healthcare-ai",
+    "label": "Healthcare Ai",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-safety-risk",
+    "label": "Ai Safety Risk",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-capex-surge",
+    "label": "Ai Capex Surge",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "big-tech-infrastructure",
+    "label": "Big Tech Infrastructure",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "goldman-forecast",
+    "label": "Goldman Forecast",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "defense-robotics",
+    "label": "Defense Robotics",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ukraine-military-tech",
+    "label": "Ukraine Military Tech",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-roi-skepticism",
+    "label": "Ai Roi Skepticism",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-bubble-debate",
+    "label": "Ai Bubble Debate",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-overreliance-study",
+    "label": "Ai Overreliance Study",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-accuracy-concerns",
+    "label": "Ai Accuracy Concerns",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "nvidia-sol-pi",
+    "label": "Nvidia Sol Pi",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "coding-agent-efficiency",
+    "label": "Coding Agent Efficiency",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gpt6-astra-capabilities",
+    "label": "Gpt6 Astra Capabilities",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-benchmark-progress",
+    "label": "Ai Benchmark Progress",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "openai-model-pause",
+    "label": "Openai Model Pause",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-agent-safety",
+    "label": "Ai Agent Safety",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "anthropic-pentagon-ban",
+    "label": "Anthropic Pentagon Ban",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-defense-contracts",
+    "label": "Ai Defense Contracts",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "deepmind-researcher-exit",
+    "label": "Deepmind Researcher Exit",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitcoin-bear-market",
+    "label": "Bitcoin Bear Market",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "btc-resilience",
+    "label": "Btc Resilience",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-private-funding",
+    "label": "Ai Private Funding",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-capex-returns",
+    "label": "Ai Capex Returns",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "higher-rates-impact",
+    "label": "Higher Rates Impact",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-safety-debate",
+    "label": "Ai Safety Debate",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "anthropic-pacing",
+    "label": "Anthropic Pacing",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitcoin-bottoming",
+    "label": "Bitcoin Bottoming",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "golden-cross-signal",
+    "label": "Golden Cross Signal",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-productivity-tools",
+    "label": "Ai Productivity Tools",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "personal-ai-use",
+    "label": "Personal Ai Use",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitcoin-gold-land",
+    "label": "Bitcoin Gold Land",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "hard-asset-thesis",
+    "label": "Hard Asset Thesis",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitcoin-bull-market",
+    "label": "Bitcoin Bull Market",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "btc-technical-charts",
+    "label": "Btc Technical Charts",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "macro-traders",
+    "label": "Macro Traders",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bessent-druckenmiller",
+    "label": "Bessent Druckenmiller",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitcoin-rally",
+    "label": "Bitcoin Rally",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-sentiment-shift",
+    "label": "Crypto Sentiment Shift",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-compute-costs",
+    "label": "Ai Compute Costs",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "llm-economics",
+    "label": "Llm Economics",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "blockchain-branding-decline",
+    "label": "Blockchain Branding Decline",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-narrative-shift",
+    "label": "Crypto Narrative Shift",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gen-z-gambling-trend",
+    "label": "Gen Z Gambling Trend",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "retail-investor-behavior",
+    "label": "Retail Investor Behavior",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-application-specific",
+    "label": "Ai Application Specific",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "us-reindustrialization",
+    "label": "Us Reindustrialization",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "manufacturing-shift",
+    "label": "Manufacturing Shift",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "reshoring-trend",
+    "label": "Reshoring Trend",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-capex-boom",
+    "label": "Ai Capex Boom",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "big-tech-spending",
+    "label": "Big Tech Spending",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-investment-cycle",
+    "label": "Ai Investment Cycle",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-financial-tools",
+    "label": "Ai Financial Tools",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitcoin-cold-storage-hack",
+    "label": "Bitcoin Cold Storage Hack",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "self-custody-risk",
+    "label": "Self Custody Risk",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "equal-weight-outperformance",
+    "label": "Equal Weight Outperformance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "market-breadth",
+    "label": "Market Breadth",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bull-market-signal",
+    "label": "Bull Market Signal",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-trade-drawdown",
+    "label": "Ai Trade Drawdown",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "btfd-sentiment",
+    "label": "Btfd Sentiment",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "nasdaq-correction",
+    "label": "Nasdaq Correction",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "formal-verification",
+    "label": "Formal Verification",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "self-sovereign-ai",
+    "label": "Self Sovereign Ai",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-governance-philosophy",
+    "label": "Crypto Governance Philosophy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "privacy-tech-tutorial",
+    "label": "Privacy Tech Tutorial",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "cryptography-tutorial",
+    "label": "Cryptography Tutorial",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "technical-computer-science",
+    "label": "Technical Computer Science",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "open-source-verifiability",
+    "label": "Open Source Verifiability",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "defi-ethereum-narrative",
+    "label": "Defi Ethereum Narrative",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "open-source-advocacy",
+    "label": "Open Source Advocacy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "idea-generation",
+    "label": "Idea Generation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-risk",
+    "label": "Ai Risk",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-2027",
+    "label": "Ai 2027",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "open-source-licensing",
+    "label": "Open Source Licensing",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "digital-id",
+    "label": "Digital Id",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "zk-privacy",
+    "label": "Zk Privacy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "math-puzzle",
+    "label": "Math Puzzle",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "rollup-stages",
+    "label": "Rollup Stages",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "l1-scalability",
+    "label": "L1 Scalability",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "privacy-advocacy",
+    "label": "Privacy Advocacy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "open-source-funding",
+    "label": "Open Source Funding",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "public-goods",
+    "label": "Public Goods",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "culture-politics-essay",
+    "label": "Culture Politics Essay",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-human-alignment",
+    "label": "Ai Human Alignment",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-gas-limits",
+    "label": "Ethereum Gas Limits",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "l1-scaling",
+    "label": "L1 Scaling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "l1-l2-roadmap",
+    "label": "L1 L2 Roadmap",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "dacc",
+    "label": "Dacc",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-safety",
+    "label": "Ai Safety",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-wallet-ux",
+    "label": "Crypto Wallet Ux",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "info-finance",
+    "label": "Info Finance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "the-scourge",
+    "label": "The Scourge",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "the-surge",
+    "label": "The Surge",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "the-merge",
+    "label": "The Merge",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-alignment",
+    "label": "Ethereum Alignment",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ecosystem-governance",
+    "label": "Ecosystem Governance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "glue-coprocessor",
+    "label": "Glue Coprocessor",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-architecture",
+    "label": "Ethereum Architecture",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "plurality-philosophy",
+    "label": "Plurality Philosophy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "museums-future",
+    "label": "Museums Future",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-zk-tech",
+    "label": "Ethereum Zk Tech",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "circle-starks",
+    "label": "Circle Starks",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-politics",
+    "label": "Crypto Politics",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-regulation",
+    "label": "Crypto Regulation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "transaction-confirmation",
+    "label": "Transaction Confirmation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitcoin-block-size-war",
+    "label": "Bitcoin Block Size War",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-history",
+    "label": "Crypto History",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-culture",
+    "label": "Ethereum Culture",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "execution-sharding",
+    "label": "Execution Sharding",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-decentralization",
+    "label": "Ethereum Decentralization",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "permissionlessness",
+    "label": "Permissionlessness",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gas-pricing",
+    "label": "Gas Pricing",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "binius",
+    "label": "Binius",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "degen-communism",
+    "label": "Degen Communism",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "memecoins",
+    "label": "Memecoins",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-blobs",
+    "label": "Ethereum Blobs",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "eth-scaling",
+    "label": "Eth Scaling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "security-questions",
+    "label": "Security Questions",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "personal-essay",
+    "label": "Personal Essay",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-ai-narrative",
+    "label": "Crypto Ai Narrative",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-crypto-convergence",
+    "label": "Ai Crypto Convergence",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-cypherpunk",
+    "label": "Ethereum Cypherpunk",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-values",
+    "label": "Crypto Values",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "techno-optimism",
+    "label": "Techno Optimism",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "evm-validiums",
+    "label": "Evm Validiums",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "plasma-exit-games",
+    "label": "Plasma Exit Games",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-l2-scaling",
+    "label": "Ethereum L2 Scaling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "layer2-taxonomy",
+    "label": "Layer2 Taxonomy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-protocol-design",
+    "label": "Ethereum Protocol Design",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "enshrinement-debate",
+    "label": "Enshrinement Debate",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "community-notes",
+    "label": "Community Notes",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "social-media-moderation",
+    "label": "Social Media Moderation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "biometric-identity",
+    "label": "Biometric Identity",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "proof-of-personhood",
+    "label": "Proof Of Personhood",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-l2-infrastructure",
+    "label": "Ethereum L2 Infrastructure",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "wallet-tech",
+    "label": "Wallet Tech",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-transitions",
+    "label": "Ethereum Transitions",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-trends",
+    "label": "Crypto Trends",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-consensus",
+    "label": "Ethereum Consensus",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "network-scaling",
+    "label": "Network Scaling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "travel-time-formula",
+    "label": "Travel Time Formula",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-zk-evm",
+    "label": "Ethereum Zk Evm",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "multi-client",
+    "label": "Multi Client",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "personal-experiences",
+    "label": "Personal Experiences",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "stealth-addresses",
+    "label": "Stealth Addresses",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "institutional-definition",
+    "label": "Institutional Definition",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-chatbot-experiment",
+    "label": "Ai Chatbot Experiment",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-ecosystem",
+    "label": "Ethereum Ecosystem",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-development",
+    "label": "Crypto Development",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "cex-solvency",
+    "label": "Cex Solvency",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-personal-experience",
+    "label": "Crypto Personal Experience",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "decentralization",
+    "label": "Decentralization",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "layer3-scaling",
+    "label": "Layer3 Scaling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ens-domains",
+    "label": "Ens Domains",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "protocol-fees",
+    "label": "Protocol Fees",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "network-state-concept",
+    "label": "Network State Concept",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "network-states",
+    "label": "Network States",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "travel-guide",
+    "label": "Travel Guide",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "personal",
+    "label": "Personal",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "blockchain-use-cases",
+    "label": "Blockchain Use Cases",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "non-financial-apps",
+    "label": "Non Financial Apps",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "stablecoins",
+    "label": "Stablecoins",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "automated-stablecoins",
+    "label": "Automated Stablecoins",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitcoin-maximalism",
+    "label": "Bitcoin Maximalism",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-debate",
+    "label": "Crypto Debate",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "general-commentary",
+    "label": "General Commentary",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "trusted-setups",
+    "label": "Trusted Setups",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "protocol-design",
+    "label": "Protocol Design",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "soulbound-tokens",
+    "label": "Soulbound Tokens",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "political-theory",
+    "label": "Political Theory",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "endgame",
+    "label": "Endgame",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "optimism-retro-funding",
+    "label": "Optimism Retro Funding",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "incremental-verification",
+    "label": "Incremental Verification",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-cities",
+    "label": "Crypto Cities",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "governance-experiments",
+    "label": "Governance Experiments",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "cryptoeconomics-limits",
+    "label": "Cryptoeconomics Limits",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "token-distribution",
+    "label": "Token Distribution",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "fairness-mechanisms",
+    "label": "Fairness Mechanisms",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "coin-voting",
+    "label": "Coin Voting",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gini-coefficient-critique",
+    "label": "Gini Coefficient Critique",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "verkle-trees",
+    "label": "Verkle Trees",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "layer-2",
+    "label": "Layer 2",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-sharding",
+    "label": "Ethereum Sharding",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "election-odds",
+    "label": "Election Odds",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-wallet-security",
+    "label": "Crypto Wallet Security",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "social-recovery",
+    "label": "Social Recovery",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-2020-retrospective",
+    "label": "Crypto 2020 Retrospective",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "general-crypto-commentary",
+    "label": "General Crypto Commentary",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "blockchain-validation",
+    "label": "Blockchain Validation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "philosophy",
+    "label": "Philosophy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "homomorphic-encryption",
+    "label": "Homomorphic Encryption",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "garbled-circuits",
+    "label": "Garbled Circuits",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-primer",
+    "label": "Crypto Primer",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "election-story",
+    "label": "Election Story",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gitcoin-funding",
+    "label": "Gitcoin Funding",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "base-layers",
+    "label": "Base Layers",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "christmas-special",
+    "label": "Christmas Special",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "quadratic-payments-primer",
+    "label": "Quadratic Payments Primer",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-hard-problems",
+    "label": "Crypto Hard Problems",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "long-term-thesis",
+    "label": "Long Term Thesis",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "zk-proofs",
+    "label": "Zk Proofs",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "technical-primer",
+    "label": "Technical Primer",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "set-theory",
+    "label": "Set Theory",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "mathematical-philosophy",
+    "label": "Mathematical Philosophy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "casper-consensus",
+    "label": "Casper Consensus",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "central-planning",
+    "label": "Central Planning",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "overfitting",
+    "label": "Overfitting",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "layer1-scaling",
+    "label": "Layer1 Scaling",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consensus-mechanisms",
+    "label": "Consensus Mechanisms",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "fault-tolerance",
+    "label": "Fault Tolerance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "radical-markets",
+    "label": "Radical Markets",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "economic-theory",
+    "label": "Economic Theory",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "plutocracy",
+    "label": "Plutocracy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "sharding",
+    "label": "Sharding",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "blockchain-governance",
+    "label": "Blockchain Governance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gas-price-analysis",
+    "label": "Gas Price Analysis",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-network",
+    "label": "Ethereum Network",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "fri-protocol",
+    "label": "Fri Protocol",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "token-valuation",
+    "label": "Token Valuation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "medium-of-exchange",
+    "label": "Medium Of Exchange",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ethereum-history",
+    "label": "Ethereum History",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "metcalfes-law",
+    "label": "Metcalfes Law",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ecosystem-splits",
+    "label": "Ecosystem Splits",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "triangle-of-harm",
+    "label": "Triangle Of Harm",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "path-independence",
+    "label": "Path Independence",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "token-sale-models",
+    "label": "Token Sale Models",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-fundamentals",
+    "label": "Crypto Fundamentals",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "coordination-problems",
+    "label": "Coordination Problems",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "hard-forks",
+    "label": "Hard Forks",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "crypto-economics",
+    "label": "Crypto Economics",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "price-discrimination",
+    "label": "Price Discrimination",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "elliptic-curve-cryptography",
+    "label": "Elliptic Curve Cryptography",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "zk-cryptography",
+    "label": "Zk Cryptography",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "diabetes-research",
+    "label": "Diabetes Research",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "biotech-innovation",
+    "label": "Biotech Innovation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "credit-card-fraud",
+    "label": "Credit Card Fraud",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-risk",
+    "label": "Consumer Risk",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-tech-review",
+    "label": "Consumer Tech Review",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tech-productivity",
+    "label": "Tech Productivity",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "science-research",
+    "label": "Science Research",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "retail-promo",
+    "label": "Retail Promo",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-spending",
+    "label": "Consumer Spending",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-product-review",
+    "label": "Consumer Product Review",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "nvidia-supply-chain-theft",
+    "label": "Nvidia Supply Chain Theft",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "anthropic-pentagon-dispute",
+    "label": "Anthropic Pentagon Dispute",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-regulation-risk",
+    "label": "Ai Regulation Risk",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "eu-tech-regulation",
+    "label": "Eu Tech Regulation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "musk-x-legal-risk",
+    "label": "Musk X Legal Risk",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "us-eu-trade-tension",
+    "label": "Us Eu Trade Tension",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-tech-reviews",
+    "label": "Consumer Tech Reviews",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "cybersecurity-scams",
+    "label": "Cybersecurity Scams",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "media-culture",
+    "label": "Media Culture",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-tech-tips",
+    "label": "Consumer Tech Tips",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "design",
+    "label": "Design",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tesla-semi",
+    "label": "Tesla Semi",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ev-truck-launch",
+    "label": "Ev Truck Launch",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "lifestyle",
+    "label": "Lifestyle",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "cyberharassment",
+    "label": "Cyberharassment",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "social-issues",
+    "label": "Social Issues",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-agent-review",
+    "label": "Ai Agent Review",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-ai-features",
+    "label": "Consumer Ai Features",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "google-pixel",
+    "label": "Google Pixel",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-electronics",
+    "label": "Consumer Electronics",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "product-deal",
+    "label": "Product Deal",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "openai-security-breach",
+    "label": "Openai Security Breach",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-regulation",
+    "label": "Ai Regulation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "theme-park-marketing",
+    "label": "Theme Park Marketing",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-trends",
+    "label": "Consumer Trends",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "medical-research",
+    "label": "Medical Research",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "womens-health",
+    "label": "Womens Health",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "weather-event",
+    "label": "Weather Event",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "nor-easter",
+    "label": "Nor Easter",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tech-culture",
+    "label": "Tech Culture",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "social-commentary",
+    "label": "Social Commentary",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "prime-day-sales",
+    "label": "Prime Day Sales",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-gadgets",
+    "label": "Consumer Gadgets",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "astronomy-research",
+    "label": "Astronomy Research",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "linux-laptops",
+    "label": "Linux Laptops",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "space-science",
+    "label": "Space Science",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "exoplanet-discovery",
+    "label": "Exoplanet Discovery",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ikea-matter-smart-home",
+    "label": "Ikea Matter Smart Home",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "china-smart-home-market",
+    "label": "China Smart Home Market",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "entertainment-media",
+    "label": "Entertainment Media",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-gadget-reviews",
+    "label": "Consumer Gadget Reviews",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "lifestyle-content",
+    "label": "Lifestyle Content",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "microsoft-gaming-history",
+    "label": "Microsoft Gaming History",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "retro-computing-history",
+    "label": "Retro Computing History",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "xiaomi-product-launch",
+    "label": "Xiaomi Product Launch",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "qwen-ai-model",
+    "label": "Qwen Ai Model",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-tech-news",
+    "label": "Consumer Tech News",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "visionos-update",
+    "label": "Visionos Update",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "apple-software",
+    "label": "Apple Software",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "wallpaper-app",
+    "label": "Wallpaper App",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "deepseek-revenue-growth",
+    "label": "Deepseek Revenue Growth",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "huawei-auto-strategy",
+    "label": "Huawei Auto Strategy",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "china-tech-briefs",
+    "label": "China Tech Briefs",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "china-ev-pricing",
+    "label": "China Ev Pricing",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "phev-launch",
+    "label": "Phev Launch",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "huawei-ev-partnership",
+    "label": "Huawei Ev Partnership",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "meta-smart-glasses",
+    "label": "Meta Smart Glasses",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-wearables",
+    "label": "Ai Wearables",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "harmonyos-developer-story",
+    "label": "Harmonyos Developer Story",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "harmonyos-developer-ecosystem",
+    "label": "Harmonyos Developer Ecosystem",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "xiaomi-flagship-launch",
+    "label": "Xiaomi Flagship Launch",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "smartphone-pricing",
+    "label": "Smartphone Pricing",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "qualcomm-ai-platform",
+    "label": "Qualcomm Ai Platform",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-ai-hardware",
+    "label": "Consumer Ai Hardware",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "qualcomm-edge-ai",
+    "label": "Qualcomm Edge Ai",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tsmc-2nm-adoption",
+    "label": "Tsmc 2Nm Adoption",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "cross-device-agents",
+    "label": "Cross Device Agents",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "harmonyos-wearable-ecosystem",
+    "label": "Harmonyos Wearable Ecosystem",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "muse-user-growth",
+    "label": "Muse User Growth",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "daily-tech-recap",
+    "label": "Daily Tech Recap",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "china-consumer-electronics",
+    "label": "China Consumer Electronics",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ev-product-launches",
+    "label": "Ev Product Launches",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "xiaomi-premium-smartphones",
+    "label": "Xiaomi Premium Smartphones",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "xiaomi-pro-sales",
+    "label": "Xiaomi Pro Sales",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "apple-photo-authentication",
+    "label": "Apple Photo Authentication",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tencent-office-agents",
+    "label": "Tencent Office Agents",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "enterprise-ai-adoption",
+    "label": "Enterprise Ai Adoption",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "consumer-charger-launch",
+    "label": "Consumer Charger Launch",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "anthropic-model-upgrade",
+    "label": "Anthropic Model Upgrade",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-inference-cost-reduction",
+    "label": "Ai Inference Cost Reduction",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-inference-price-war",
+    "label": "Ai Inference Price War",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "openai-deepseek-competition",
+    "label": "Openai Deepseek Competition",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "ai-model-releases",
+    "label": "Ai Model Releases",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tech-product-launches",
+    "label": "Tech Product Launches",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "nissan-n7-launch",
+    "label": "Nissan N7 Launch",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "australian-small-caps",
+    "label": "Australian Small Caps",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bond-yield-pressure",
+    "label": "Bond Yield Pressure",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "silver-gold-drill-results",
+    "label": "Silver Gold Drill Results",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "junior-miner-exploration",
+    "label": "Junior Miner Exploration",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "royalty-acquisition",
+    "label": "Royalty Acquisition",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "mining-streams-deal",
+    "label": "Mining Streams Deal",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "bitcoin-bull-thesis",
+    "label": "Bitcoin Bull Thesis",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "btc-300k-target",
+    "label": "Btc 300K Target",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "draftkings-merger",
+    "label": "Draftkings Merger",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gaming-sector-consolidation",
+    "label": "Gaming Sector Consolidation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "junior-miner-deals",
+    "label": "Junior Miner Deals",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "copper-gold-projects",
+    "label": "Copper Gold Projects",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "china-gold-demand",
+    "label": "China Gold Demand",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-record-imports",
+    "label": "Gold Record Imports",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-mining-feasibility",
+    "label": "Gold Mining Feasibility",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "junior-miner-drill-results",
+    "label": "Junior Miner Drill Results",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "btc-surge-correlation-shift",
+    "label": "Btc Surge Correlation Shift",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "btc-vs-gold-stocks",
+    "label": "Btc Vs Gold Stocks",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "kinross-gold-drop",
+    "label": "Kinross Gold Drop",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-miners-divergence",
+    "label": "Gold Miners Divergence",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "all-weather-portfolio",
+    "label": "All Weather Portfolio",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "etf-allocation",
+    "label": "Etf Allocation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "btc-gold-correlation",
+    "label": "Btc Gold Correlation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "portfolio-positioning",
+    "label": "Portfolio Positioning",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "treasury-yields-rise",
+    "label": "Treasury Yields Rise",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "oil-prices-fall",
+    "label": "Oil Prices Fall",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "middle-east-tensions",
+    "label": "Middle East Tensions",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "us-china-talks",
+    "label": "Us China Talks",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "qqq-breakout-watch",
+    "label": "Qqq Breakout Watch",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "micron-earnings",
+    "label": "Micron Earnings",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-etf-inflows-record",
+    "label": "Gold Etf Inflows Record",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "summer-slump-over",
+    "label": "Summer Slump Over",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "seasonal-tailwinds",
+    "label": "Seasonal Tailwinds",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "us-iran-talks",
+    "label": "Us Iran Talks",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "pre-bell-futures-mixed",
+    "label": "Pre Bell Futures Mixed",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-slide",
+    "label": "Gold Slide",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "fed-higher-for-longer",
+    "label": "Fed Higher For Longer",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-etf-inflows",
+    "label": "Gold Etf Inflows",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "real-yields-spike",
+    "label": "Real Yields Spike",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tax-treatment",
+    "label": "Tax Treatment",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "collectible-tax",
+    "label": "Collectible Tax",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-etf-rally",
+    "label": "Gold Etf Rally",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "central-bank-demand",
+    "label": "Central Bank Demand",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-etf-fees",
+    "label": "Gold Etf Fees",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gld-cost-drag",
+    "label": "Gld Cost Drag",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-etf-launch",
+    "label": "Gold Etf Launch",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "fee-competition",
+    "label": "Fee Competition",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-inflation-hedge",
+    "label": "Gold Inflation Hedge",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-etf-flows",
+    "label": "Gold Etf Flows",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-miners-vs-bullion",
+    "label": "Gold Miners Vs Bullion",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-rally",
+    "label": "Gold Rally",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-miners-selloff",
+    "label": "Gold Miners Selloff",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "contrarian-rebound",
+    "label": "Contrarian Rebound",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "kinross-gold-selloff",
+    "label": "Kinross Gold Selloff",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-miner-risk",
+    "label": "Gold Miner Risk",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "alamos-gold-setback",
+    "label": "Alamos Gold Setback",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-mining-costs",
+    "label": "Gold Mining Costs",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "newmont-investor-attention",
+    "label": "Newmont Investor Attention",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "fed-hawkish-gold-drop",
+    "label": "Fed Hawkish Gold Drop",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "newmont-sentiment",
+    "label": "Newmont Sentiment",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-miner-comparison",
+    "label": "Gold Miner Comparison",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "aem-vs-nem",
+    "label": "Aem Vs Nem",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "newmont-stock-decline",
+    "label": "Newmont Stock Decline",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "daily-stock-move",
+    "label": "Daily Stock Move",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-fed-rate-hike",
+    "label": "Gold Fed Rate Hike",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "central-bank-gold-buying",
+    "label": "Central Bank Gold Buying",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-investment-plays",
+    "label": "Gold Investment Plays",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "newmont-free-cash-flow",
+    "label": "Newmont Free Cash Flow",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-miner-growth",
+    "label": "Gold Miner Growth",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "agnico-eagle-capital-returns",
+    "label": "Agnico Eagle Capital Returns",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-miner-dividends",
+    "label": "Gold Miner Dividends",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "b2gold-production-beat",
+    "label": "B2Gold Production Beat",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-mining-guidance",
+    "label": "Gold Mining Guidance",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold.com-stock-drop",
+    "label": "Gold.Com Stock Drop",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "valuation",
+    "label": "Valuation",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold.com-stock-move",
+    "label": "Gold.Com Stock Move",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "acquisition-growth",
+    "label": "Acquisition Growth",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "activist-investor-13d",
+    "label": "Activist Investor 13D",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "xerox-dynatrace",
+    "label": "Xerox Dynatrace",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "copper-tariff-uncertainty",
+    "label": "Copper Tariff Uncertainty",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "freeport-mcmoran-drop",
+    "label": "Freeport Mcmoran Drop",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "revenue-decline-sequential",
+    "label": "Revenue Decline Sequential",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-demand-softening",
+    "label": "Gold Demand Softening",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "tether-growth",
+    "label": "Tether Growth",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-price-hold",
+    "label": "Gold Price Hold",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "macro-uncertainty",
+    "label": "Macro Uncertainty",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "kinross-gold",
+    "label": "Kinross Gold",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "analyst-rating",
+    "label": "Analyst Rating",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "inflation-concerns",
+    "label": "Inflation Concerns",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-price-recovery",
+    "label": "Gold Price Recovery",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "wall-street-forecast",
+    "label": "Wall Street Forecast",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "china-iran-relations",
+    "label": "China Iran Relations",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "china-gold-imports",
+    "label": "China Gold Imports",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-mining-project",
+    "label": "Gold Mining Project",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "mining-economics",
+    "label": "Mining Economics",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-price-forecast",
+    "label": "Gold Price Forecast",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "long-term-outlook",
+    "label": "Long Term Outlook",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-outlook",
+    "label": "Gold Outlook",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "gold-trading-access",
+    "label": "Gold Trading Access",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "retail-brokerage",
+    "label": "Retail Brokerage",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "dollar-slip",
+    "label": "Dollar Slip",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "yields-rise",
+    "label": "Yields Rise",
+    "count": 1,
+    "momentum_label": "stable"
+  },
+  {
+    "slug": "dollar-strength",
+    "label": "Dollar Strength",
+    "count": 1,
+    "momentum_label": "stable"
+  }
+]

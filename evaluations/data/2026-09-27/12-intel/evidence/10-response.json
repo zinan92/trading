@@ -1,0 +1,187 @@
+[
+  {
+    "id": 4610,
+    "source": "yahoo_finance",
+    "source_id": "yf_19ec85e7e5a0a4d2",
+    "author": "Associated Press",
+    "title": "BC-Gold Futures",
+    "content": null,
+    "url": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140025321.html",
+    "tags": [
+      "gold",
+      "finance",
+      "search:gold futures",
+      "commodity",
+      "trading",
+      "commodities"
+    ],
+    "score": 0,
+    "relevance_score": 2,
+    "narrative_tags": [
+      "gold-futures",
+      "empty-content"
+    ],
+    "collection_lane": "hourly",
+    "triage": {
+      "status": null,
+      "bucket": null,
+      "direction": null,
+      "rationale": null,
+      "affected_assets": [],
+      "watch_for": [],
+      "model": null,
+      "error": null,
+      "triaged_at": null
+    },
+    "published_at": "2026-09-17T14:00:25",
+    "collected_at": "2026-09-27T09:34:00.348604"
+  },
+  {
+    "id": 4609,
+    "source": "yahoo_finance",
+    "source_id": "yf_c3cafff10fe83f8d",
+    "author": "Associated Press",
+    "title": "BC-Gold Futures",
+    "content": null,
+    "url": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140024188.html",
+    "tags": [
+      "gold",
+      "finance",
+      "search:gold futures",
+      "commodity",
+      "trading",
+      "commodities"
+    ],
+    "score": 0,
+    "relevance_score": 2,
+    "narrative_tags": [
+      "gold-futures",
+      "empty-content"
+    ],
+    "collection_lane": "hourly",
+    "triage": {
+      "status": null,
+      "bucket": null,
+      "direction": null,
+      "rationale": null,
+      "affected_assets": [],
+      "watch_for": [],
+      "model": null,
+      "error": null,
+      "triaged_at": null
+    },
+    "published_at": "2026-09-18T14:00:24",
+    "collected_at": "2026-09-27T09:34:00.348195"
+  },
+  {
+    "id": 4608,
+    "source": "yahoo_finance",
+    "source_id": "yf_029c0be38b1930bd",
+    "author": "Associated Press",
+    "title": "BC-Gold Futures",
+    "content": null,
+    "url": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140133563.html",
+    "tags": [
+      "gold",
+      "finance",
+      "search:gold futures",
+      "commodity",
+      "trading",
+      "commodities"
+    ],
+    "score": 0,
+    "relevance_score": 2,
+    "narrative_tags": [
+      "gold-futures",
+      "empty-content"
+    ],
+    "collection_lane": "hourly",
+    "triage": {
+      "status": null,
+      "bucket": null,
+      "direction": null,
+      "rationale": null,
+      "affected_assets": [],
+      "watch_for": [],
+      "model": null,
+      "error": null,
+      "triaged_at": null
+    },
+    "published_at": "2026-09-21T14:01:33",
+    "collected_at": "2026-09-27T09:34:00.347886"
+  },
+  {
+    "id": 4607,
+    "source": "yahoo_finance",
+    "source_id": "yf_1acc7ca95c27f488",
+    "author": "Associated Press",
+    "title": "BC-Gold Futures",
+    "content": null,
+    "url": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140028595.html",
+    "tags": [
+      "gold",
+      "finance",
+      "search:gold futures",
+      "commodity",
+      "trading",
+      "commodities"
+    ],
+    "score": 0,
+    "relevance_score": 2,
+    "narrative_tags": [
+      "gold-futures",
+      "empty-content"
+    ],
+    "collection_lane": "hourly",
+    "triage": {
+      "status": null,
+      "bucket": null,
+      "direction": null,
+      "rationale": null,
+      "affected_assets": [],
+      "watch_for": [],
+      "model": null,
+      "error": null,
+      "triaged_at": null
+    },
+    "published_at": "2026-09-22T14:00:28",
+    "collected_at": "2026-09-27T09:34:00.347581"
+  },
+  {
+    "id": 4606,
+    "source": "yahoo_finance",
+    "source_id": "yf_f12220160cdb5891",
+    "author": "The Wall Street Journal",
+    "title": "Gold Futures Slip As U.S. Dollar Gains",
+    "content": null,
+    "url": "https://finance.yahoo.com/m/41d024dc-7f7e-3987-a6b1-89033891bd98/gold-futures-slip-as-u.s..html",
+    "tags": [
+      "gold",
+      "finance",
+      "search:gold futures",
+      "commodity",
+      "trading",
+      "commodities"
+    ],
+    "score": 0,
+    "relevance_score": 3,
+    "narrative_tags": [
+      "gold-futures",
+      "dollar-strength"
+    ],
+    "collection_lane": "hourly",
+    "triage": {
+      "status": null,
+      "bucket": null,
+      "direction": null,
+      "rationale": null,
+      "affected_assets": [],
+      "watch_for": [],
+      "model": null,
+      "error": null,
+      "triaged_at": null
+    },
+    "published_at": "2026-09-22T18:17:00",
+    "collected_at": "2026-09-27T09:34:00.347295"
+  }
+]

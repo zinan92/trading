@@ -1,0 +1,913 @@
+{
+  "repo": "HiThink-Tech/Financial-API",
+  "tested_sha": "3bca7805a4127ece8d81961917e740d2effac6ec",
+  "cli_version": "0.1.13",
+  "profile": "new isolated trial profile; no key loaded",
+  "records": [
+    {
+      "id": 1,
+      "title": "CLI 版本",
+      "command": "version",
+      "arguments": [],
+      "checked_at_utc": "2026-09-27T08:30:51.514089+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.2,
+      "result": {
+        "ok": true,
+        "command": "version",
+        "data": {
+          "package": "@hithink-tech/hithink-finance-cli",
+          "version": "0.1.13",
+          "node": "v26.8.1"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "能力总表",
+      "command": "capabilities",
+      "arguments": [],
+      "checked_at_utc": "2026-09-27T08:30:51.718591+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.12,
+      "result": {
+        "ok": true,
+        "count": 104,
+        "source_counts": {
+          "remote": 88,
+          "local": 16
+        },
+        "sample_ids": [
+          "symbol.search",
+          "symbol.list",
+          "market.snapshot",
+          "market.history",
+          "market.corporate-actions",
+          "financials.income",
+          "financials.balance-sheet",
+          "financials.cash-flow",
+          "financials.indicators",
+          "valuation.snapshot",
+          "market.calendar",
+          "market.auction-snapshot",
+          "market.auction-benchmark",
+          "index.catalog",
+          "index.constituents"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "标的搜索契约",
+      "command": "schema",
+      "arguments": [
+        "symbol.search"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:51.839345+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.14,
+      "result": {
+        "ok": true,
+        "id": "symbol.search",
+        "command": [
+          "symbol",
+          "search"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--q <query>",
+            "description": "name, ticker, or thscode",
+            "type": "string",
+            "required": true
+          },
+          {
+            "flags": "--exchange <exchange>",
+            "description": "exchange filter",
+            "type": "string",
+            "choices": [
+              "SH",
+              "SZ",
+              "BJ"
+            ]
+          },
+          {
+            "flags": "--asset-type <type>",
+            "type": "string",
+            "description": "comma-separated asset types: a-share, a-share-index, forex, fund-otc, fund-etf, fund-lof, fund-reits, futures, options",
+            "query_name": "asset_type"
+          },
+          {
+            "flags": "--limit <number>",
+            "description": "maximum matches (1-50)",
+            "type": "integer",
+            "default_value": 10
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 4,
+      "title": "A 股快照契约",
+      "command": "schema",
+      "arguments": [
+        "market.snapshot"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:51.982906+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.13,
+      "result": {
+        "ok": true,
+        "id": "market.snapshot",
+        "command": [
+          "market",
+          "snapshot"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--thscodes <codes>",
+            "description": "comma-separated A-share thscodes",
+            "type": "string"
+          },
+          {
+            "flags": "--limit <number>",
+            "description": "page size",
+            "type": "integer",
+            "default_value": 100
+          },
+          {
+            "flags": "--offset <number>",
+            "description": "row offset",
+            "type": "integer",
+            "default_value": 0
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 5,
+      "title": "A 股历史日线契约",
+      "command": "schema",
+      "arguments": [
+        "market.history"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:52.112977+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.2,
+      "result": {
+        "ok": true,
+        "id": "market.history",
+        "command": [
+          "market",
+          "history"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--thscode <code>",
+            "description": "single A-share thscode",
+            "type": "string",
+            "required": true
+          },
+          {
+            "flags": "--start-ms <milliseconds>",
+            "description": "start timestamp",
+            "type": "integer",
+            "required": true,
+            "query_name": "start"
+          },
+          {
+            "flags": "--end-ms <milliseconds>",
+            "description": "end timestamp",
+            "type": "integer",
+            "required": true,
+            "query_name": "end"
+          },
+          {
+            "flags": "--adjust <mode>",
+            "description": "adjustment mode",
+            "type": "string",
+            "choices": [
+              "none",
+              "forward",
+              "backward"
+            ],
+            "default_value": "forward"
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 6,
+      "title": "利润表契约",
+      "command": "schema",
+      "arguments": [
+        "financials.income"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:52.315220+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.13,
+      "result": {
+        "ok": true,
+        "id": "financials.income",
+        "command": [
+          "financials",
+          "income"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--thscode <code>",
+            "description": "single A-share thscode",
+            "type": "string",
+            "required": true
+          },
+          {
+            "flags": "--period <period>",
+            "description": "financial period",
+            "type": "string",
+            "choices": [
+              "annual",
+              "quarterly"
+            ],
+            "default_value": "annual"
+          },
+          {
+            "flags": "--limit <number>",
+            "description": "recent report count (1-20)",
+            "type": "integer"
+          },
+          {
+            "flags": "--start-ms <milliseconds>",
+            "description": "range start in milliseconds",
+            "type": "integer",
+            "query_name": "start"
+          },
+          {
+            "flags": "--end-ms <milliseconds>",
+            "description": "range end in milliseconds",
+            "type": "integer",
+            "query_name": "end"
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 7,
+      "title": "指数成分契约",
+      "command": "schema",
+      "arguments": [
+        "index.constituents"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:52.449133+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.18,
+      "result": {
+        "ok": true,
+        "id": "index.constituents",
+        "command": [
+          "index",
+          "constituents"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--thscode <code>",
+            "description": "single index thscode",
+            "type": "string",
+            "required": true
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 8,
+      "title": "基金净值契约",
+      "command": "schema",
+      "arguments": [
+        "fund.nav"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:52.624968+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.13,
+      "result": {
+        "ok": true,
+        "id": "fund.nav",
+        "command": [
+          "fund",
+          "nav"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--thscode <code>",
+            "description": "single fund thscode",
+            "type": "string",
+            "required": true
+          },
+          {
+            "flags": "--range <range>",
+            "description": "NAV history range; omit for the latest point",
+            "type": "string",
+            "choices": [
+              "week",
+              "month",
+              "tmonth",
+              "hyear",
+              "year",
+              "twoyear",
+              "tyear",
+              "fyear"
+            ]
+          },
+          {
+            "flags": "--nav-type <type>",
+            "description": "NAV fields to return",
+            "type": "string",
+            "choices": [
+              "unit",
+              "adj",
+              "unit,adj"
+            ],
+            "default_value": "unit,adj",
+            "query_name": "nav_type"
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 9,
+      "title": "期货合约契约",
+      "command": "schema",
+      "arguments": [
+        "futures.contracts"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:52.760264+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.15,
+      "result": {
+        "ok": true,
+        "id": "futures.contracts",
+        "command": [
+          "futures",
+          "contracts"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--limit <number>",
+            "description": "page size (1-1000)",
+            "type": "integer",
+            "default_value": 100
+          },
+          {
+            "flags": "--offset <number>",
+            "description": "row offset",
+            "type": "integer",
+            "default_value": 0
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 10,
+      "title": "期权合约契约",
+      "command": "schema",
+      "arguments": [
+        "options.contracts"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:52.910175+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.15,
+      "result": {
+        "ok": true,
+        "id": "options.contracts",
+        "command": [
+          "options",
+          "contracts"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--limit <number>",
+            "description": "page size (1-1000)",
+            "type": "integer",
+            "default_value": 100
+          },
+          {
+            "flags": "--offset <number>",
+            "description": "row offset",
+            "type": "integer",
+            "default_value": 0
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 11,
+      "title": "内置 Skills 状态",
+      "command": "skills",
+      "arguments": [
+        "status"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:53.059836+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.12,
+      "result": {
+        "ok": true,
+        "command": "skills.status",
+        "data": {
+          "canonical": "[isolated source]/hithink-finance-cli/skills",
+          "protocol_version": "1",
+          "cli_version": "0.1.13",
+          "skill_count": 12,
+          "file_count": 118,
+          "targets_verified": false,
+          "target_status": "not-verified",
+          "strategy": {
+            "mode": "auto",
+            "explicit": [],
+            "excluded": []
+          },
+          "content": {
+            "directory": "[isolated source]/trial-home/Library/Application Support/hithink-finance/data/skills/current",
+            "available": false,
+            "cli_version": "0.1.13"
+          },
+          "targets": []
+        }
+      }
+    },
+    {
+      "id": 12,
+      "title": "本地数据库状态",
+      "command": "data",
+      "arguments": [
+        "status"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:53.184719+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.23,
+      "result": {
+        "ok": true,
+        "command": "data.status",
+        "data": {
+          "path": "[isolated source]/trial-home/empty-market.duckdb",
+          "version": 0
+        }
+      }
+    },
+    {
+      "id": 13,
+      "title": "本地只读 SQL",
+      "command": "db",
+      "arguments": [
+        "query",
+        "--sql",
+        "SELECT 1 AS trial_ok"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:53.419036+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.15,
+      "result": {
+        "ok": true,
+        "command": "db.query",
+        "data_rows": 1,
+        "data_sample": [
+          {
+            "trial_ok": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "title": "无凭证标的搜索",
+      "command": "symbol",
+      "arguments": [
+        "search",
+        "--q",
+        "600519",
+        "--limit",
+        "1",
+        "--source",
+        "remote"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:53.574259+00:00",
+      "exit_code": 3,
+      "status": "error",
+      "duration_s": 0.15,
+      "result": {
+        "ok": false,
+        "error": {
+          "code": "AUTH_API_KEY_MISSING",
+          "category": "authentication",
+          "message": "No API key is configured for the selected profile.",
+          "hint": "Get an API key at https://fuyao.aicubes.cn/admin/, then run `hithink-finance auth login`. For non-interactive use, pipe it to `hithink-finance auth login --api-key-stdin`, or set HITHINK_FINANCE_API_KEY for the current process.",
+          "retryable": false
+        }
+      }
+    },
+    {
+      "id": 15,
+      "title": "无凭证最新行情",
+      "command": "market",
+      "arguments": [
+        "snapshot",
+        "--thscodes",
+        "600519.SH",
+        "--source",
+        "remote"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:53.723886+00:00",
+      "exit_code": 3,
+      "status": "error",
+      "duration_s": 0.15,
+      "result": {
+        "ok": false,
+        "error": {
+          "code": "AUTH_API_KEY_MISSING",
+          "category": "authentication",
+          "message": "No API key is configured for the selected profile.",
+          "hint": "Get an API key at https://fuyao.aicubes.cn/admin/, then run `hithink-finance auth login`. For non-interactive use, pipe it to `hithink-finance auth login --api-key-stdin`, or set HITHINK_FINANCE_API_KEY for the current process.",
+          "retryable": false
+        }
+      }
+    },
+    {
+      "id": 16,
+      "title": "交易日历契约",
+      "command": "schema",
+      "arguments": [
+        "market.calendar"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:53.877149+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.14,
+      "result": {
+        "ok": true,
+        "id": "market.calendar",
+        "command": [
+          "market",
+          "calendar"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 17,
+      "title": "涨停池契约",
+      "command": "schema",
+      "arguments": [
+        "special.limit-up-pool"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:54.015563+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.17,
+      "result": {
+        "ok": true,
+        "id": "special.limit-up-pool",
+        "command": [
+          "special",
+          "limit-up-pool"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--date-ms <milliseconds>",
+            "description": "trade date at Asia/Shanghai midnight",
+            "type": "integer",
+            "query_name": "date_ms"
+          },
+          {
+            "flags": "--page <number>",
+            "description": "page number",
+            "type": "integer",
+            "default_value": 1
+          },
+          {
+            "flags": "--size <number>",
+            "description": "page size (1-200)",
+            "type": "integer",
+            "default_value": 50
+          },
+          {
+            "flags": "--sort-field <field>",
+            "description": "sort field",
+            "type": "string",
+            "choices": [
+              "last_price",
+              "continue_day_cnt",
+              "seal_money",
+              "limit_up_time"
+            ],
+            "default_value": "last_price",
+            "query_name": "sort_field"
+          },
+          {
+            "flags": "--sort-dir <direction>",
+            "description": "sort direction",
+            "type": "string",
+            "choices": [
+              "asc",
+              "desc"
+            ],
+            "default_value": "desc",
+            "query_name": "sort_dir"
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 18,
+      "title": "基金历史数据契约",
+      "command": "schema",
+      "arguments": [
+        "fund.history"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:54.188020+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.15,
+      "result": {
+        "ok": true,
+        "id": "fund.history",
+        "command": [
+          "fund",
+          "history"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--thscode <code>",
+            "description": "single ETF thscode",
+            "type": "string",
+            "required": true
+          },
+          {
+            "flags": "--interval <interval>",
+            "description": "bar interval",
+            "type": "string",
+            "choices": [
+              "1d"
+            ],
+            "default_value": "1d"
+          },
+          {
+            "flags": "--start-ms <milliseconds>",
+            "description": "start timestamp",
+            "type": "integer",
+            "required": true,
+            "query_name": "start"
+          },
+          {
+            "flags": "--end-ms <milliseconds>",
+            "description": "end timestamp",
+            "type": "integer",
+            "required": true,
+            "query_name": "end"
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 19,
+      "title": "期货日线契约",
+      "command": "schema",
+      "arguments": [
+        "futures.daily"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:54.341831+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.14,
+      "result": {
+        "ok": true,
+        "id": "futures.daily",
+        "command": [
+          "futures",
+          "daily"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--thscode <code>",
+            "description": "full futures or options thscode",
+            "type": "string",
+            "required": true
+          },
+          {
+            "flags": "--start <milliseconds>",
+            "description": "range start in Unix milliseconds",
+            "type": "integer"
+          },
+          {
+            "flags": "--end <milliseconds>",
+            "description": "range end in Unix milliseconds",
+            "type": "integer"
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 20,
+      "title": "期权日线契约",
+      "command": "schema",
+      "arguments": [
+        "options.daily"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:54.480460+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.13,
+      "result": {
+        "ok": true,
+        "id": "options.daily",
+        "command": [
+          "options",
+          "daily"
+        ],
+        "source": null,
+        "options": [
+          {
+            "flags": "--thscode <code>",
+            "description": "full futures or options thscode",
+            "type": "string",
+            "required": true
+          },
+          {
+            "flags": "--start <milliseconds>",
+            "description": "range start in Unix milliseconds",
+            "type": "integer"
+          },
+          {
+            "flags": "--end <milliseconds>",
+            "description": "range end in Unix milliseconds",
+            "type": "integer"
+          },
+          {
+            "flags": "--output <path>",
+            "description": "write the full JSON response envelope to a file",
+            "type": "string"
+          }
+        ],
+        "endpoint": null
+      }
+    },
+    {
+      "id": 21,
+      "title": "非敏感配置快照",
+      "command": "config",
+      "arguments": [
+        "show"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:54.614449+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.17,
+      "result": {
+        "ok": true,
+        "command": "config.show",
+        "data": {
+          "db_path": "[isolated source]/trial-home/empty-market.duckdb",
+          "profile": "product-lab-20260927",
+          "format": "json",
+          "update_check": true
+        }
+      }
+    },
+    {
+      "id": 22,
+      "title": "本地数据库表元数据",
+      "command": "db",
+      "arguments": [
+        "query",
+        "--sql",
+        "SELECT COUNT(*) AS table_count FROM information_schema.tables"
+      ],
+      "checked_at_utc": "2026-09-27T08:30:54.788516+00:00",
+      "exit_code": 0,
+      "status": "success",
+      "duration_s": 0.17,
+      "result": {
+        "ok": true,
+        "command": "db.query",
+        "data_rows": 1,
+        "data_sample": [
+          {
+            "table_count": "0"
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "title": "无 Key 远端 REST 响应",
+      "command": "GET /api/meta/tickers/search",
+      "arguments": [
+        "q=600519",
+        "limit=1"
+      ],
+      "checked_at_utc": "2026-09-27T08:31:19.396619+00:00",
+      "http_status": 200,
+      "status": "limited",
+      "duration_s": 1.24,
+      "result": {
+        "code": 2003,
+        "message": "Missing X-api-key",
+        "data_is_null": true,
+        "request_id_present": true
+      }
+    }
+  ]
+}

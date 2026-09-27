@@ -1,0 +1,94 @@
+{
+  "status": "unhealthy",
+  "timestamp": "2026-09-27T17:52:05.830494+08:00",
+  "quant": {
+    "index_realtime": {
+      "status": "ok",
+      "last_update": "17:52:06",
+      "price": 3888.3738,
+      "latency_ms": 605
+    },
+    "commodities_realtime": {
+      "status": "ok",
+      "last_update": "2026-09-27 09:52:12 UTC",
+      "count": 4,
+      "latency_ms": 6449
+    },
+    "crypto_ws": {
+      "status": "ok",
+      "symbols": 15,
+      "stale": 0,
+      "latency_ms": 0
+    },
+    "klines_stock_DAY": {
+      "last_update": null,
+      "record_count": 0,
+      "status": "unconfigured"
+    },
+    "klines_stock_MINS_30": {
+      "last_update": null,
+      "record_count": 0,
+      "status": "unconfigured"
+    },
+    "klines_index_DAY": {
+      "last_update": null,
+      "record_count": 0,
+      "status": "unconfigured"
+    },
+    "klines_index_MINS_30": {
+      "last_update": null,
+      "record_count": 0,
+      "status": "unconfigured"
+    },
+    "klines_concept_DAY": {
+      "last_update": null,
+      "record_count": 0,
+      "status": "unconfigured"
+    },
+    "klines_concept_MINS_30": {
+      "last_update": null,
+      "record_count": 0,
+      "status": "unconfigured"
+    },
+    "file_hot_concept_categories": {
+      "exists": false,
+      "last_modified": null,
+      "size_bytes": 0,
+      "status": "unconfigured"
+    },
+    "file_concept_to_tickers": {
+      "exists": false,
+      "last_modified": null,
+      "size_bytes": 0,
+      "status": "unconfigured"
+    },
+    "file_ticker_to_concepts": {
+      "exists": false,
+      "last_modified": null,
+      "size_bytes": 0,
+      "status": "unconfigured"
+    },
+    "file_monitor_cache": {
+      "exists": false,
+      "last_modified": null,
+      "size_bytes": 0,
+      "status": "unconfigured"
+    },
+    "file_momentum_signals": {
+      "exists": false,
+      "last_modified": null,
+      "size_bytes": 0,
+      "status": "unconfigured"
+    },
+    "stock_sectors": {
+      "last_update": null,
+      "record_count": 0,
+      "sector_count": 0,
+      "status": "error",
+      "error": "Internal server error"
+    }
+  },
+  "qualitative": {
+    "service_status": "unavailable"
+  }
+}

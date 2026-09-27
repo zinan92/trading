@@ -1,0 +1,63 @@
+{
+  "count": 4,
+  "source": "yahoo_finance",
+  "last_update": "2026-09-27 09:52:24 UTC",
+  "commodities": [
+    {
+      "symbol": "GC=F",
+      "name": "Gold",
+      "name_cn": "黄金",
+      "unit": "USD/oz",
+      "price": 4321.2,
+      "change": 15.4998,
+      "change_pct": 0.36,
+      "high_24h": 0.0,
+      "low_24h": 0.0,
+      "open_price": 0.0,
+      "prev_close": 4305.7002,
+      "last_update": "2026-09-27 09:52:20 UTC"
+    },
+    {
+      "symbol": "SI=F",
+      "name": "Silver",
+      "name_cn": "白银",
+      "unit": "USD/oz",
+      "price": 64.801,
+      "change": 0.711,
+      "change_pct": 1.11,
+      "high_24h": 0.0,
+      "low_24h": 0.0,
+      "open_price": 0.0,
+      "prev_close": 64.09,
+      "last_update": "2026-09-27 09:52:22 UTC"
+    },
+    {
+      "symbol": "HG=F",
+      "name": "Copper",
+      "name_cn": "铜",
+      "unit": "USD/lb",
+      "price": 6.766,
+      "change": 0.021,
+      "change_pct": 0.31,
+      "high_24h": 0.0,
+      "low_24h": 0.0,
+      "open_price": 0.0,
+      "prev_close": 6.745,
+      "last_update": "2026-09-27 09:52:23 UTC"
+    },
+    {
+      "symbol": "CL=F",
+      "name": "Crude Oil",
+      "name_cn": "原油",
+      "unit": "USD/bbl",
+      "price": 92.41,
+      "change": -0.71,
+      "change_pct": -0.76,
+      "high_24h": 94.75,
+      "low_24h": 91.51,
+      "open_price": 94.75,
+      "prev_close": 93.12,
+      "last_update": "2026-09-27 09:52:24 UTC"
+    }
+  ]
+}

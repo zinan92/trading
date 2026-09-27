@@ -1,0 +1,62 @@
+[
+  {
+    "name": "rss",
+    "kind": "blog",
+    "count": 3755,
+    "last_seen_at": "2026-09-27T09:33:05.599509"
+  },
+  {
+    "name": "google_news",
+    "kind": "news",
+    "count": 629,
+    "last_seen_at": "2026-09-27T09:30:32.656095"
+  },
+  {
+    "name": "yahoo_finance",
+    "kind": "news",
+    "count": 68,
+    "last_seen_at": "2026-09-27T09:34:00.348604"
+  },
+  {
+    "name": "github_trending",
+    "kind": "trend",
+    "count": 66,
+    "last_seen_at": "2026-09-27T09:30:03.688546"
+  },
+  {
+    "name": "hackernews",
+    "kind": "discussion",
+    "count": 43,
+    "last_seen_at": "2026-09-27T09:30:27.018019"
+  },
+  {
+    "name": "reddit",
+    "kind": "discussion",
+    "count": 25,
+    "last_seen_at": "2026-09-27T09:31:23.237428"
+  },
+  {
+    "name": "website_monitor",
+    "kind": "blog",
+    "count": 24,
+    "last_seen_at": "2026-09-27T09:32:53.094320"
+  },
+  {
+    "name": "github_release",
+    "kind": "release",
+    "count": 0,
+    "last_seen_at": null
+  },
+  {
+    "name": "social_kol",
+    "kind": "post",
+    "count": 0,
+    "last_seen_at": null
+  },
+  {
+    "name": "xueqiu",
+    "kind": "post",
+    "count": 0,
+    "last_seen_at": null
+  }
+]

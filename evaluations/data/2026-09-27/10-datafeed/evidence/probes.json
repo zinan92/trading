@@ -1,0 +1,948 @@
+{
+  "source_sha": "4a2f0cff3878f31caf176e355bd6b58c0458b5d7",
+  "base": "http://127.0.0.1:8110",
+  "records": [
+    {
+      "id": 1,
+      "title": "Health and identity",
+      "url": "http://127.0.0.1:8110/api/health",
+      "status_code": 200,
+      "duration_s": 0.02,
+      "summary": {
+        "status": "ok",
+        "registered_sources": [
+          "binance_spot_public",
+          "binance_usdm_futures",
+          "binance_usdm_futures_research",
+          "hyperliquid_perpetual_public",
+          "yahoo_finance",
+          "yahoo_finance_hk",
+          "yahoo_finance_free",
+          "us_authorized_pending",
+          "yahoo_finance_futures",
+          "tushare_pro",
+          "tencent_stock_free",
+          "tencent_etf_free",
+          "tencent_kline",
+          "sina_index",
+          "treasury_official_csv",
+          "treasury_official_csv_derived",
+          "yahoo_finance_index",
+          "yahoo_finance_etf",
+          "fred_public_csv_macro",
+          "fred_public_csv_flow",
+          "fred_public_csv_event"
+        ],
+        "identity": {
+          "runtime_root": null,
+          "module_root": null,
+          "build_sha": null,
+          "database_path": null,
+          "identity_status": null,
+          "query_backend": {
+            "mode": "legacy",
+            "status": "ready",
+            "market_database_path": "not_configured",
+            "market_hits": 0,
+            "market_misses": 0,
+            "legacy_fallbacks": 0,
+            "legacy_unique_cells": 0,
+            "miss_reasons": {}
+          }
+        }
+      },
+      "raw_file": "01-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:43.757375+00:00"
+    },
+    {
+      "id": 2,
+      "title": "Instruments index",
+      "url": "http://127.0.0.1:8110/api/instruments/index/sh000001",
+      "status_code": 502,
+      "duration_s": 0.0,
+      "summary": {
+        "detail": {
+          "error": "instrument_definition_unavailable",
+          "detail": "Source yahoo_finance_index does not expose instrument definitions",
+          "suggestions": [
+            "Choose an execution source with instrument metadata"
+          ],
+          "source_mode": "auto",
+          "is_synthetic": false,
+          "reject_reason": "upstream_error"
+        }
+      },
+      "raw_file": "02-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:43.759295+00:00"
+    },
+    {
+      "id": 3,
+      "title": "A-share index day",
+      "url": "http://127.0.0.1:8110/api/candles/index/sh000001?timeframe=1d&source=tencent_kline&cache_policy=bypass&quality=strict&limit=5",
+      "status_code": 200,
+      "duration_s": 1.07,
+      "summary": {
+        "ticker": "sh000001",
+        "asset_class": "index",
+        "timeframe": "1d",
+        "count": 5,
+        "requested_source": "tencent_kline",
+        "selected_source": "tencent_kline",
+        "selection_reason": "requested_or_default",
+        "source_mode": "tencent_kline",
+        "quality_flags": [
+          "public_api",
+          "market_hours",
+          "research_only"
+        ],
+        "is_synthetic": false,
+        "served_from": "upstream",
+        "fresh": null,
+        "age_seconds": 292664.82709,
+        "schema_version": "kline-candles-v1",
+        "candles_count": 5,
+        "first_candle": {
+          "timestamp": "2026-09-18",
+          "open": 3891.96,
+          "high": 3919.67,
+          "low": 3888.5,
+          "close": 3911.87,
+          "volume": 485712507.0,
+          "amount": null,
+          "provider": "tencent_finance",
+          "quality_flags": [
+            "public_api",
+            "market_hours",
+            "research_only"
+          ]
+        },
+        "last_candle": {
+          "timestamp": "2026-09-24",
+          "open": 3925.32,
+          "high": 3930.5,
+          "low": 3888.37,
+          "close": 3888.37,
+          "volume": 438530412.0,
+          "amount": null,
+          "provider": "tencent_finance",
+          "quality_flags": [
+            "public_api",
+            "market_hours",
+            "research_only"
+          ]
+        }
+      },
+      "raw_file": "03-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:44.828686+00:00"
+    },
+    {
+      "id": 4,
+      "title": "A-share index week",
+      "url": "http://127.0.0.1:8110/api/candles/index/sh000001?timeframe=1w&source=tencent_kline&cache_policy=bypass&quality=strict&limit=3",
+      "status_code": 200,
+      "duration_s": 1.01,
+      "summary": {
+        "ticker": "sh000001",
+        "asset_class": "index",
+        "timeframe": "1w",
+        "count": 3,
+        "requested_source": "tencent_kline",
+        "selected_source": "tencent_kline",
+        "selection_reason": "requested_or_default",
+        "source_mode": "tencent_kline",
+        "quality_flags": [
+          "public_api",
+          "market_hours",
+          "research_only"
+        ],
+        "is_synthetic": false,
+        "served_from": "upstream",
+        "fresh": null,
+        "age_seconds": 292665.837698,
+        "schema_version": "kline-candles-v1",
+        "candles_count": 3,
+        "first_candle": {
+          "timestamp": "2026-09-11",
+          "open": 3942.51,
+          "high": 3958.12,
+          "low": 3852.03,
+          "close": 3888.11,
+          "volume": 2588670519.0,
+          "amount": null,
+          "provider": "tencent_finance",
+          "quality_flags": [
+            "public_api",
+            "market_hours",
+            "research_only"
+          ]
+        },
+        "last_candle": {
+          "timestamp": "2026-09-24",
+          "open": 3920.27,
+          "high": 3967.68,
+          "low": 3888.37,
+          "close": 3888.37,
+          "volume": 1913947591.0,
+          "amount": null,
+          "provider": "tencent_finance",
+          "quality_flags": [
+            "public_api",
+            "market_hours",
+            "research_only"
+          ]
+        }
+      },
+      "raw_file": "04-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:45.841108+00:00"
+    },
+    {
+      "id": 5,
+      "title": "A-share stock",
+      "url": "http://127.0.0.1:8110/api/candles/a_share/600519?timeframe=1d&source=tencent_stock_free&cache_policy=bypass&limit=5",
+      "status_code": 200,
+      "duration_s": 1.35,
+      "summary": {
+        "ticker": "600519",
+        "asset_class": "a_share",
+        "timeframe": "1d",
+        "count": 5,
+        "requested_source": "tencent_stock_free",
+        "selected_source": "tencent_stock_free",
+        "selection_reason": "requested_or_default",
+        "source_mode": "tencent_stock_free",
+        "quality_flags": [
+          "public_api",
+          "market_hours",
+          "research_only",
+          "entitlement_unverified"
+        ],
+        "is_synthetic": false,
+        "served_from": "upstream",
+        "fresh": null,
+        "age_seconds": 321467.189436,
+        "schema_version": "kline-candles-v1",
+        "candles_count": 5,
+        "first_candle": {
+          "timestamp": "2026-09-17T16:00:00+00:00",
+          "open": 1262.99,
+          "high": 1265.88,
+          "low": 1256.1,
+          "close": 1257.12,
+          "volume": 24891.0,
+          "amount": null,
+          "provider": "tencent_finance",
+          "quality_flags": [
+            "public_api",
+            "market_hours",
+            "research_only",
+            "entitlement_unverified"
+          ]
+        },
+        "last_candle": {
+          "timestamp": "2026-09-23T16:00:00+00:00",
+          "open": 1250.01,
+          "high": 1256.13,
+          "low": 1231.05,
+          "close": 1237.0,
+          "volume": 31239.0,
+          "amount": null,
+          "provider": "tencent_finance",
+          "quality_flags": [
+            "public_api",
+            "market_hours",
+            "research_only",
+            "entitlement_unverified"
+          ]
+        }
+      },
+      "raw_file": "05-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:47.192774+00:00"
+    },
+    {
+      "id": 6,
+      "title": "US equity",
+      "url": "http://127.0.0.1:8110/api/candles/us_stock/AAPL?timeframe=1d&source=yahoo_finance_free&cache_policy=bypass&limit=5",
+      "status_code": 200,
+      "duration_s": 0.69,
+      "summary": {
+        "ticker": "AAPL",
+        "asset_class": "us_stock",
+        "timeframe": "1d",
+        "count": 5,
+        "requested_source": "yahoo_finance_free",
+        "selected_source": "yahoo_finance_free",
+        "selection_reason": "requested_or_default",
+        "source_mode": "yahoo_finance_free",
+        "quality_flags": [
+          "public_api",
+          "market_hours",
+          "research_only",
+          "entitlement_unverified"
+        ],
+        "is_synthetic": false,
+        "served_from": "upstream",
+        "fresh": null,
+        "age_seconds": 206267.882967,
+        "schema_version": "kline-candles-v1",
+        "candles_count": 5,
+        "first_candle": {
+          "timestamp": "2026-09-21",
+          "open": 335.2799987792969,
+          "high": 339.6400146484375,
+          "low": 333.04998779296875,
+          "close": 338.9800109863281,
+          "volume": 34999200.0,
+          "amount": null,
+          "provider": "yahoo_finance",
+          "quality_flags": [
+            "public_api",
+            "market_hours",
+            "research_only",
+            "entitlement_unverified"
+          ]
+        },
+        "last_candle": {
+          "timestamp": "2026-09-25",
+          "open": 336.0400085449219,
+          "high": 341.6700134277344,
+          "low": 334.5299987792969,
+          "close": 341.07000732421875,
+          "volume": 29950100.0,
+          "amount": null,
+          "provider": "yahoo_finance",
+          "quality_flags": [
+            "public_api",
+            "market_hours",
+            "research_only",
+            "entitlement_unverified"
+          ]
+        }
+      },
+      "raw_file": "06-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:47.884088+00:00"
+    },
+    {
+      "id": 7,
+      "title": "Bitcoin spot",
+      "url": "http://127.0.0.1:8110/api/candles/crypto/BTC?timeframe=1h&source=binance_spot_public&cache_policy=bypass&limit=5",
+      "status_code": 200,
+      "duration_s": 0.88,
+      "summary": {
+        "ticker": "BTC",
+        "asset_class": "crypto",
+        "timeframe": "1h",
+        "count": 5,
+        "requested_source": "binance_spot_public",
+        "selected_source": "binance_spot_public",
+        "selection_reason": "requested_or_default",
+        "source_mode": "binance_spot_public",
+        "quality_flags": [
+          "public_api",
+          "spot",
+          "research_only",
+          "not_execution_venue"
+        ],
+        "is_synthetic": false,
+        "served_from": "upstream",
+        "fresh": true,
+        "age_seconds": 1068.76202,
+        "schema_version": "kline-candles-v1",
+        "candles_count": 5,
+        "first_candle": {
+          "timestamp": "2026-09-27T05:00:00+00:00",
+          "open": 84329.61,
+          "high": 84654.02,
+          "low": 84325.0,
+          "close": 84478.06,
+          "volume": 357.82469,
+          "amount": 30233936.7579612,
+          "provider": "binance_spot",
+          "quality_flags": [
+            "public_api",
+            "spot",
+            "research_only",
+            "not_execution_venue"
+          ]
+        },
+        "last_candle": {
+          "timestamp": "2026-09-27T09:00:00+00:00",
+          "open": 84800.0,
+          "high": 84800.01,
+          "low": 84590.0,
+          "close": 84658.63,
+          "volume": 274.51029,
+          "amount": 23247599.1614937,
+          "provider": "binance_spot",
+          "quality_flags": [
+            "public_api",
+            "spot",
+            "research_only",
+            "not_execution_venue"
+          ]
+        }
+      },
+      "raw_file": "07-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:48.765180+00:00"
+    },
+    {
+      "id": 8,
+      "title": "Treasury 10Y",
+      "url": "http://127.0.0.1:8110/api/candles/macro/DGS10?timeframe=1d&source=treasury_official_csv&cache_policy=bypass&limit=5",
+      "status_code": 200,
+      "duration_s": 1.91,
+      "summary": {
+        "ticker": "10 Yr",
+        "asset_class": "macro",
+        "timeframe": "1d",
+        "count": 5,
+        "requested_source": "treasury_official_csv",
+        "selected_source": "treasury_official_csv",
+        "selection_reason": "requested_or_default",
+        "source_mode": "treasury_official_csv",
+        "quality_flags": [
+          "official_api",
+          "daily_level",
+          "research_only"
+        ],
+        "is_synthetic": false,
+        "served_from": "upstream",
+        "fresh": null,
+        "age_seconds": 206270.678122,
+        "schema_version": "kline-candles-v1",
+        "candles_count": 5,
+        "first_candle": {
+          "timestamp": "2026-09-21",
+          "open": 4.96,
+          "high": 4.96,
+          "low": 4.96,
+          "close": 4.96,
+          "volume": 0.0,
+          "amount": null,
+          "provider": "treasury_official",
+          "quality_flags": [
+            "official_api",
+            "daily_level",
+            "research_only"
+          ]
+        },
+        "last_candle": {
+          "timestamp": "2026-09-25",
+          "open": 5.17,
+          "high": 5.17,
+          "low": 5.17,
+          "close": 5.17,
+          "volume": 0.0,
+          "amount": null,
+          "provider": "treasury_official",
+          "quality_flags": [
+            "official_api",
+            "daily_level",
+            "research_only"
+          ]
+        }
+      },
+      "raw_file": "08-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:50.679548+00:00"
+    },
+    {
+      "id": 9,
+      "title": "Gold commodity",
+      "url": "http://127.0.0.1:8110/api/candles/commodity/GOLD?timeframe=1d&source=yahoo_finance_futures&cache_policy=bypass&limit=5",
+      "status_code": 200,
+      "duration_s": 0.5,
+      "summary": {
+        "ticker": "GC=F",
+        "asset_class": "commodity",
+        "timeframe": "1d",
+        "count": 5,
+        "requested_source": "yahoo_finance_futures",
+        "selected_source": "yahoo_finance_futures",
+        "selection_reason": "requested_or_default",
+        "source_mode": "yahoo_finance_futures",
+        "quality_flags": [
+          "continuous_contract",
+          "market_hours",
+          "research_only"
+        ],
+        "is_synthetic": false,
+        "served_from": "upstream",
+        "fresh": null,
+        "age_seconds": 206271.174604,
+        "schema_version": "kline-candles-v1",
+        "candles_count": 5,
+        "first_candle": {
+          "timestamp": "2026-09-21",
+          "open": 4413.0,
+          "high": 4422.10009765625,
+          "low": 4360.2998046875,
+          "close": 4383.89990234375,
+          "volume": 138203.0,
+          "amount": null,
+          "provider": "yahoo_finance",
+          "quality_flags": [
+            "continuous_contract",
+            "market_hours",
+            "research_only"
+          ]
+        },
+        "last_candle": {
+          "timestamp": "2026-09-25",
+          "open": 4309.5,
+          "high": 4351.60009765625,
+          "low": 4289.2001953125,
+          "close": 4321.2001953125,
+          "volume": 137070.0,
+          "amount": null,
+          "provider": "yahoo_finance",
+          "quality_flags": [
+            "continuous_contract",
+            "market_hours",
+            "research_only"
+          ]
+        }
+      },
+      "raw_file": "09-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:51.175599+00:00"
+    },
+    {
+      "id": 10,
+      "title": "Invalid timeframe",
+      "url": "http://127.0.0.1:8110/api/candles/crypto/BTC?timeframe=2m&source=binance_spot_public",
+      "status_code": 422,
+      "duration_s": 0.0,
+      "summary": {
+        "detail": [
+          {
+            "type": "enum",
+            "loc": [
+              "query",
+              "timeframe"
+            ],
+            "msg": "Input should be '1m', '5m', '15m', '30m', '1h', '4h', '1d' or '1w'",
+            "input": "2m",
+            "ctx": {
+              "expected": "'1m', '5m', '15m', '30m', '1h', '4h', '1d' or '1w'"
+            }
+          }
+        ]
+      },
+      "raw_file": "10-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:51.177811+00:00"
+    },
+    {
+      "id": 11,
+      "title": "Execution venue guard",
+      "url": "http://127.0.0.1:8110/api/candles/crypto/BTC?timeframe=1m&source=binance_spot_public&require_execution_venue=true&cache_policy=bypass",
+      "status_code": 400,
+      "duration_s": 0.0,
+      "summary": {
+        "detail": {
+          "error": "execution_venue_required",
+          "detail": "Source binance_spot_public is not an execution venue",
+          "suggestions": [
+            "Use source=binance_usdm_futures for XAUUSDT execution live data"
+          ],
+          "provider": "binance_spot",
+          "source_mode": "binance_spot_public",
+          "provider_symbol": "BTC",
+          "timeframe": "1m",
+          "raw_timeframe": null,
+          "timeframe_origin": null,
+          "aggregation": {},
+          "source_identity": {
+            "provider_symbol": "BTC",
+            "provider": "binance_spot",
+            "source_mode": "binance_spot_public",
+            "timeframe": "1m"
+          },
+          "requested_source": "binance_spot_public",
+          "selected_source": "binance_spot_public",
+          "attempted_sources": [
+            "binance_spot_public"
+          ],
+          "cache_policy": "bypass",
+          "quality_policy": "standard",
+          "fallback_policy": "none",
+          "require_execution_venue": true,
+          "served_from": "upstream",
+          "is_synthetic": false,
+          "fresh": null,
+          "latest_timestamp": null,
+          "age_seconds": null,
+          "max_age_seconds": null,
+          "quality_flags": [
+            "public_api",
+            "spot",
+            "research_only",
+            "not_execution_venue"
+          ],
+          "execution_venue": false,
+          "reject_reason": "not_execution_venue",
+          "access_issues": [
+            "binance_spot_public has execution_venue=false"
+          ]
+        }
+      },
+      "raw_file": "11-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:51.180016+00:00"
+    },
+    {
+      "id": 12,
+      "title": "Cache require miss",
+      "url": "http://127.0.0.1:8110/api/candles/index/sh000688?timeframe=1d&source=tencent_kline&cache_policy=require&limit=3",
+      "status_code": 404,
+      "duration_s": 0.0,
+      "summary": {
+        "detail": {
+          "error": "cache_miss",
+          "detail": "cache_policy=require but no cached candles were found",
+          "suggestions": [
+            "Use cache_policy=allow or cache_policy=bypass to fetch upstream"
+          ],
+          "provider": "tencent_finance",
+          "source_mode": "tencent_kline",
+          "provider_symbol": "sh000688",
+          "timeframe": "1d",
+          "raw_timeframe": null,
+          "timeframe_origin": null,
+          "aggregation": {},
+          "source_identity": {
+            "provider_symbol": "sh000688",
+            "provider": "tencent_finance",
+            "source_mode": "tencent_kline",
+            "timeframe": "1d"
+          },
+          "requested_source": "tencent_kline",
+          "selected_source": "tencent_kline",
+          "attempted_sources": [
+            "tencent_kline"
+          ],
+          "cache_policy": "require",
+          "quality_policy": "standard",
+          "fallback_policy": "none",
+          "require_execution_venue": false,
+          "served_from": "cache",
+          "is_synthetic": false,
+          "fresh": null,
+          "latest_timestamp": null,
+          "age_seconds": null,
+          "max_age_seconds": null,
+          "quality_flags": [
+            "public_api",
+            "market_hours",
+            "research_only"
+          ],
+          "execution_venue": false,
+          "reject_reason": "cache_miss",
+          "access_issues": [
+            "cache miss"
+          ]
+        }
+      },
+      "raw_file": "12-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:51.183746+00:00"
+    },
+    {
+      "id": 13,
+      "title": "Market sessions",
+      "url": "http://127.0.0.1:8110/api/sessions/us_stock/AAPL",
+      "status_code": 422,
+      "duration_s": 0.0,
+      "summary": {
+        "detail": [
+          {
+            "type": "missing",
+            "loc": [
+              "query",
+              "source"
+            ],
+            "msg": "Field required",
+            "input": null
+          }
+        ]
+      },
+      "raw_file": "13-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:51.186172+00:00"
+    },
+    {
+      "id": 14,
+      "title": "Stock symbol search",
+      "url": "http://127.0.0.1:8110/api/tickers?query=AAPL",
+      "status_code": 200,
+      "duration_s": 0.0,
+      "summary": {
+        "count": 0,
+        "body_keys": [
+          "count",
+          "source_id",
+          "tickers"
+        ]
+      },
+      "raw_file": "14-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:51.188634+00:00"
+    },
+    {
+      "id": 15,
+      "title": "Futures instrument definition",
+      "url": "http://127.0.0.1:8110/api/instruments/commodity/XAUUSDT?source=binance_usdm_futures",
+      "status_code": 200,
+      "duration_s": 1.01,
+      "summary": {
+        "asset_class": "commodity",
+        "status": "TRADING",
+        "source_mode": "binance_usdm_futures",
+        "is_synthetic": false,
+        "served_from": "upstream",
+        "schema_version": "instrument-definition-v1",
+        "body_keys": [
+          "schema_version",
+          "instrument_id",
+          "venue",
+          "symbol",
+          "asset_class",
+          "market_type",
+          "contract_type",
+          "status",
+          "base_currency",
+          "quote_currency",
+          "settlement_currency",
+          "margin_currency",
+          "is_inverse",
+          "price_precision",
+          "price_increment",
+          "min_price",
+          "max_price",
+          "size_precision",
+          "size_increment",
+          "min_quantity"
+        ]
+      },
+      "raw_file": "15-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:52.196020+00:00"
+    },
+    {
+      "id": 16,
+      "title": "US session metadata boundary",
+      "url": "http://127.0.0.1:8110/api/sessions/us_stock/AAPL?source=yahoo_finance_free",
+      "status_code": 400,
+      "duration_s": 0.0,
+      "summary": {
+        "detail": {
+          "error": "market_sessions_unavailable",
+          "detail": "Source yahoo_finance_free does not expose market sessions",
+          "source": "yahoo_finance_free"
+        }
+      },
+      "raw_file": "16-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:52.197397+00:00"
+    },
+    {
+      "id": 17,
+      "title": "US equity intraday",
+      "url": "http://127.0.0.1:8110/api/candles/us_stock/AAPL?timeframe=1h&source=yahoo_finance_free&cache_policy=bypass&limit=5",
+      "status_code": 200,
+      "duration_s": 1.01,
+      "summary": {
+        "ticker": "AAPL",
+        "asset_class": "us_stock",
+        "timeframe": "1h",
+        "count": 5,
+        "requested_source": "yahoo_finance_free",
+        "selected_source": "yahoo_finance_free",
+        "selection_reason": "requested_or_default",
+        "source_mode": "yahoo_finance_free",
+        "quality_flags": [
+          "public_api",
+          "market_hours",
+          "research_only",
+          "entitlement_unverified"
+        ],
+        "is_synthetic": false,
+        "served_from": "upstream",
+        "fresh": null,
+        "age_seconds": 136073.209103,
+        "schema_version": "kline-candles-v1",
+        "candles_count": 5,
+        "first_candle": {
+          "timestamp": "2026-09-25T15:30:00+00:00",
+          "open": 338.45001220703125,
+          "high": 340.239990234375,
+          "low": 338.1400146484375,
+          "close": 340.07159423828125,
+          "volume": 3242073.0,
+          "amount": null,
+          "provider": "yahoo_finance",
+          "quality_flags": [
+            "public_api",
+            "market_hours",
+            "research_only",
+            "entitlement_unverified"
+          ]
+        },
+        "last_candle": {
+          "timestamp": "2026-09-25T19:30:00+00:00",
+          "open": 340.010009765625,
+          "high": 341.6700134277344,
+          "low": 339.8999938964844,
+          "close": 341.0400085449219,
+          "volume": 3911681.0,
+          "amount": null,
+          "provider": "yahoo_finance",
+          "quality_flags": [
+            "public_api",
+            "market_hours",
+            "research_only",
+            "entitlement_unverified"
+          ]
+        }
+      },
+      "raw_file": "17-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:53.210682+00:00"
+    },
+    {
+      "id": 18,
+      "title": "Bitcoin realtime strict",
+      "url": "http://127.0.0.1:8110/api/candles/crypto/BTC?timeframe=1m&source=binance_spot_public&profile=realtime&limit=5",
+      "status_code": 200,
+      "duration_s": 0.53,
+      "summary": {
+        "ticker": "BTC",
+        "asset_class": "crypto",
+        "timeframe": "1m",
+        "count": 5,
+        "requested_source": "binance_spot_public",
+        "selected_source": "binance_spot_public",
+        "selection_reason": "requested_or_default",
+        "source_mode": "binance_spot_public",
+        "quality_flags": [
+          "public_api",
+          "spot",
+          "research_only",
+          "not_execution_venue"
+        ],
+        "is_synthetic": false,
+        "served_from": "upstream",
+        "fresh": true,
+        "age_seconds": 53.738036,
+        "schema_version": "kline-candles-v1",
+        "candles_count": 5,
+        "first_candle": {
+          "timestamp": "2026-09-27T09:13:00+00:00",
+          "open": 84664.0,
+          "high": 84672.02,
+          "low": 84648.59,
+          "close": 84672.01,
+          "volume": 8.3859,
+          "amount": 709942.1950295,
+          "provider": "binance_spot",
+          "quality_flags": [
+            "public_api",
+            "spot",
+            "research_only",
+            "not_execution_venue"
+          ]
+        },
+        "last_candle": {
+          "timestamp": "2026-09-27T09:17:00+00:00",
+          "open": 84646.27,
+          "high": 84658.64,
+          "low": 84631.59,
+          "close": 84658.63,
+          "volume": 7.56227,
+          "amount": 640064.4062106,
+          "provider": "binance_spot",
+          "quality_flags": [
+            "public_api",
+            "spot",
+            "research_only",
+            "not_execution_venue"
+          ]
+        }
+      },
+      "raw_file": "18-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:53.740254+00:00"
+    },
+    {
+      "id": 19,
+      "title": "Bitcoin 4H native",
+      "url": "http://127.0.0.1:8110/api/candles/crypto/BTC?timeframe=4h&source=binance_spot_public&cache_policy=bypass&limit=5",
+      "status_code": 200,
+      "duration_s": 0.62,
+      "summary": {
+        "ticker": "BTC",
+        "asset_class": "crypto",
+        "timeframe": "4h",
+        "count": 5,
+        "requested_source": "binance_spot_public",
+        "selected_source": "binance_spot_public",
+        "selection_reason": "requested_or_default",
+        "source_mode": "binance_spot_public",
+        "quality_flags": [
+          "public_api",
+          "spot",
+          "research_only",
+          "not_execution_venue"
+        ],
+        "is_synthetic": false,
+        "served_from": "upstream",
+        "fresh": true,
+        "age_seconds": 4674.35626,
+        "schema_version": "kline-candles-v1",
+        "candles_count": 5,
+        "first_candle": {
+          "timestamp": "2026-09-26T16:00:00+00:00",
+          "open": 84156.0,
+          "high": 84174.33,
+          "low": 83976.74,
+          "close": 84016.63,
+          "volume": 1367.19274,
+          "amount": 114943062.1456758,
+          "provider": "binance_spot",
+          "quality_flags": [
+            "public_api",
+            "spot",
+            "research_only",
+            "not_execution_venue"
+          ]
+        },
+        "last_candle": {
+          "timestamp": "2026-09-27T08:00:00+00:00",
+          "open": 84790.99,
+          "high": 84883.98,
+          "low": 84590.0,
+          "close": 84658.64,
+          "volume": 1231.78346,
+          "amount": 104418221.2982598,
+          "provider": "binance_spot",
+          "quality_flags": [
+            "public_api",
+            "spot",
+            "research_only",
+            "not_execution_venue"
+          ]
+        }
+      },
+      "raw_file": "19-response.json",
+      "error": null,
+      "observed_at": "2026-09-27T09:17:54.358121+00:00"
+    }
+  ]
+}

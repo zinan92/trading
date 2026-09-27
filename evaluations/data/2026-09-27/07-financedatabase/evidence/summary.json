@@ -1,0 +1,13 @@
+{
+  "source_sha": "d0b95bd51f9c594c81bac0b20c7ab6cbd084c51e",
+  "catalog_lock": "a174c97d3bba96fc1a82b2e1068fb3ec5e02e634",
+  "package_version": "2.4.0",
+  "probes": 20,
+  "success": 17,
+  "empty": 2,
+  "error": 1,
+  "screenshots": 20,
+  "total_raw_metadata_rows": 305512,
+  "no_market_prices": true,
+  "default_remote_rows": 112707
+}

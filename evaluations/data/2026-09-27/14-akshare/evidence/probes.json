@@ -1,0 +1,671 @@
+{
+  "source_sha": "0191689d57c667b7c7a198fd0cf97316837ef311",
+  "source_version": "1.18.97",
+  "records": [
+    {
+      "id": 1,
+      "title": "Version and breadth",
+      "command": "import akshare as ak; result={\"version\":ak.__version__,\"callables\":sum(callable(getattr(ak,n)) for n in dir(ak) if not n.startswith(\"_\"))}",
+      "status": "success",
+      "result": {
+        "type": "dict",
+        "keys": [
+          "version",
+          "callables"
+        ],
+        "value": {
+          "version": "1.18.97",
+          "callables": "1102"
+        }
+      },
+      "error": null,
+      "duration_s": 0.64,
+      "observed_at": "2026-09-27T09:59:50.996596+00:00"
+    },
+    {
+      "id": 2,
+      "title": "Offline interface search",
+      "command": "import akshare as ak; result=ak.search(\"可转债 实时行情\",limit=5)",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 5,
+        "columns": [
+          "接口名",
+          "类目",
+          "描述",
+          "有无文档",
+          "匹配分"
+        ],
+        "first": {
+          "接口名": "bond_cb_jsl",
+          "类目": "bond",
+          "描述": "集思录可转债实时数据，包含行情数据（涨跌幅，成交量和换手率等）及可转债基本信息（转股价，溢价率和到期收益率等）",
+          "有无文档": true,
+          "匹配分": 27.0
+        },
+        "last": {
+          "接口名": "fund_etf_spot_em",
+          "类目": "fund",
+          "描述": "东方财富-ETF 实时行情",
+          "有无文档": true,
+          "匹配分": 17.0
+        }
+      },
+      "error": null,
+      "duration_s": 0.45,
+      "observed_at": "2026-09-27T09:59:51.449724+00:00"
+    },
+    {
+      "id": 3,
+      "title": "Offline interface metadata",
+      "command": "import akshare as ak; result=ak.interface_info(\"stock_zh_a_hist\")",
+      "status": "success",
+      "result": {
+        "type": "dict",
+        "keys": [
+          "category",
+          "desc",
+          "documented",
+          "example",
+          "limit_desc",
+          "module",
+          "name",
+          "outputs",
+          "params",
+          "url"
+        ],
+        "value": {
+          "category": "stock",
+          "desc": "东方财富-沪深京 A 股日频率数据；历史行情数据按日频率更新，当日收盘价请在收盘后获取",
+          "documented": "True",
+          "example": "import akshare as ak\n\nstock_zh_a_hist_df = ak.stock_zh_a_hist(symbol=\"000001\", period=\"daily\", start_date=\"20170301\", end_date='20240528', adjust=\"\")\nprint(stock_zh_a_hist_df)",
+          "limit_desc": "单次返回指定沪深京 A 股上市公司、指定周期和指定日期间的历史行情日频率数据",
+          "module": "akshare.stock_feature.stock_hist_em",
+          "name": "stock_zh_a_hist",
+          "outputs": "[]",
+          "params": "[{'desc': \"symbol='603777'；股票代码可以在 **ak.stock_zh_a_spot_em()** 中获取\", 'name': 'symbol', 'type': 'str'}, {'desc': \"period='daily'; choice of {'daily', 'weekly', 'monthly'}\", 'name': 'period', 'type': 'str'}, {'desc': \"start_date='20210301'；开始查询的日期\", 'name': 'start_date', 'type': 'str'}, {'desc': \"end_date='20210616'；结束查询的日期\", 'name': 'end_date', 'type': 'str'}, {'desc': '默认返回不复权的数据；qfq: 返回前复权后的数据；hf",
+          "url": "https://quote.eastmoney.com/concept/sh603777.html?from=classic(示例)"
+        }
+      },
+      "error": null,
+      "duration_s": 0.47,
+      "observed_at": "2026-09-27T09:59:51.924209+00:00"
+    },
+    {
+      "id": 4,
+      "title": "A-share daily Eastmoney",
+      "command": "import akshare as ak; result=ak.stock_zh_a_hist(symbol=\"600519\",period=\"daily\",start_date=\"20260901\",end_date=\"20260927\",adjust=\"\")",
+      "status": "error",
+      "result": null,
+      "error": "ameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/requests/sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n  File \"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/requests/adapters.py\", line 675, in send\n    raise SSLError(e, request=request)\nrequests.exceptions.SSLError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&secid=1.600519&beg=20260901&end=20260927 (Caused by SSLError(SSLError(1, '[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)')))",
+      "duration_s": 6.75,
+      "observed_at": "2026-09-27T09:59:58.676819+00:00"
+    },
+    {
+      "id": 5,
+      "title": "A-share daily Sina",
+      "command": "import akshare as ak; result=ak.stock_zh_a_daily(symbol=\"sh600519\",start_date=\"20260901\",end_date=\"20260927\",adjust=\"\")",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 18,
+        "columns": [
+          "date",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "amount",
+          "outstanding_share",
+          "turnover"
+        ],
+        "first": {
+          "date": "2026-09-01T00:00:00.000",
+          "open": 1295.0,
+          "high": 1307.99,
+          "low": 1286.1,
+          "close": 1299.56,
+          "volume": 3266402.0,
+          "amount": 4242440861.0,
+          "outstanding_share": 1250081601.0,
+          "turnover": 0.002612951
+        },
+        "last": {
+          "date": "2026-09-24T00:00:00.000",
+          "open": 1250.01,
+          "high": 1256.13,
+          "low": 1231.05,
+          "close": 1237.0,
+          "volume": 3123935.0,
+          "amount": 3867310920.0,
+          "outstanding_share": 1250081601.0,
+          "turnover": 0.0024989849
+        }
+      },
+      "error": null,
+      "duration_s": 2.98,
+      "observed_at": "2026-09-27T10:00:01.655139+00:00"
+    },
+    {
+      "id": 6,
+      "title": "A-share minute Sina",
+      "command": "import akshare as ak; result=ak.stock_zh_a_minute(symbol=\"sh600519\",period=\"5\",adjust=\"\")",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 1970,
+        "columns": [
+          "day",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "amount"
+        ],
+        "first": {
+          "day": "2026-07-29 14:55:00",
+          "open": "1319.120",
+          "high": "1319.820",
+          "low": "1318.020",
+          "close": "1318.970",
+          "volume": "164956",
+          "amount": "217555040.0313"
+        },
+        "last": {
+          "day": "2026-09-24 15:00:00",
+          "open": "1238.200",
+          "high": "1238.370",
+          "low": "1237.000",
+          "close": "1237.000",
+          "volume": "52563",
+          "amount": "65046423.9219"
+        }
+      },
+      "error": null,
+      "duration_s": 6.54,
+      "observed_at": "2026-09-27T10:00:08.197874+00:00"
+    },
+    {
+      "id": 7,
+      "title": "Shanghai index daily Sina",
+      "command": "import akshare as ak; result=ak.stock_zh_index_daily(symbol=\"sh000001\")",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 8733,
+        "columns": [
+          "date",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume"
+        ],
+        "first": {
+          "date": "1990-12-19T00:00:00.000",
+          "open": 96.05,
+          "high": 99.98,
+          "low": 95.79,
+          "close": 99.98,
+          "volume": 126000
+        },
+        "last": {
+          "date": "2026-09-24T00:00:00.000",
+          "open": 3925.323,
+          "high": 3930.496,
+          "low": 3888.374,
+          "close": 3888.374,
+          "volume": 43853041200
+        }
+      },
+      "error": null,
+      "duration_s": 1.67,
+      "observed_at": "2026-09-27T10:00:09.865629+00:00"
+    },
+    {
+      "id": 8,
+      "title": "ETF spot Eastmoney",
+      "command": "import akshare as ak; result=ak.fund_etf_spot_em()",
+      "status": "error",
+      "result": null,
+      "error": "^\n  File \"/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/requests/models.py\", line 1026, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://push2delay.eastmoney.com/api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0021%2Cb%3AMK0022%2Cb%3AMK0023%2Cb%3AMK0024%2Cb%3AMK0827&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf30%2Cf31%2Cf32%2Cf33%2Cf34%2Cf35%2Cf38%2Cf62%2Cf63%2Cf64%2Cf65%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf115%2Cf124%2Cf128%2Cf136%2Cf152%2Cf184%2Cf297%2Cf402%2Cf441",
+      "duration_s": 11.61,
+      "observed_at": "2026-09-27T10:00:21.479131+00:00"
+    },
+    {
+      "id": 9,
+      "title": "ETF history Sina",
+      "command": "import akshare as ak; result=ak.fund_etf_hist_sina(symbol=\"sh510300\")",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 3485,
+        "columns": [
+          "date",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "amount",
+          "postVol",
+          "postAmt"
+        ],
+        "first": {
+          "date": "2012-05-28T00:00:00.000",
+          "open": 2.551,
+          "high": 2.607,
+          "low": 2.544,
+          "close": 2.604,
+          "volume": 1277518720,
+          "amount": 3285755392,
+          "postVol": null,
+          "postAmt": null
+        },
+        "last": {
+          "date": "2026-09-24T00:00:00.000",
+          "open": 4.578,
+          "high": 4.579,
+          "low": 4.512,
+          "close": 4.515,
+          "volume": 710251931,
+          "amount": 3220888135,
+          "postVol": 402600.0,
+          "postAmt": 1817739.0
+        }
+      },
+      "error": null,
+      "duration_s": 2.18,
+      "observed_at": "2026-09-27T10:00:23.663337+00:00"
+    },
+    {
+      "id": 10,
+      "title": "US stock daily Sina",
+      "command": "import akshare as ak; result=ak.stock_us_daily(symbol=\"AAPL\",adjust=\"\")",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 10040,
+        "columns": [
+          "date",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume"
+        ],
+        "first": {
+          "date": "1984-09-07T00:00:00.000",
+          "open": 26.5,
+          "high": 26.87,
+          "low": 26.25,
+          "close": 26.5,
+          "volume": 2981600.0
+        },
+        "last": {
+          "date": "2026-09-25T00:00:00.000",
+          "open": 336.04,
+          "high": 341.67,
+          "low": 334.53,
+          "close": 341.07,
+          "volume": 30002507.0
+        }
+      },
+      "error": null,
+      "duration_s": 2.51,
+      "observed_at": "2026-09-27T10:00:26.169953+00:00"
+    },
+    {
+      "id": 11,
+      "title": "US S&P index Sina",
+      "command": "import akshare as ak; result=ak.index_us_stock_sina(symbol=\".INX\")",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 5722,
+        "columns": [
+          "date",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "amount"
+        ],
+        "first": {
+          "date": "2004-01-02T00:00:00.000",
+          "open": 1111.92,
+          "high": 1118.85,
+          "low": 1105.08,
+          "close": 1108.48,
+          "volume": 1153200000,
+          "amount": 1281300000000
+        },
+        "last": {
+          "date": "2026-09-25T00:00:00.000",
+          "open": 7709.8599,
+          "high": 7752.0698,
+          "low": 7693.0801,
+          "close": 7743.4102,
+          "volume": 2644756076,
+          "amount": 0
+        }
+      },
+      "error": null,
+      "duration_s": 1.86,
+      "observed_at": "2026-09-27T10:00:28.028674+00:00"
+    },
+    {
+      "id": 12,
+      "title": "Crypto spot",
+      "command": "import akshare as ak; result=ak.crypto_js_spot()",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 10,
+        "columns": [
+          "市场",
+          "交易品种",
+          "最近报价",
+          "涨跌额",
+          "涨跌幅",
+          "24小时最高",
+          "24小时最低",
+          "24小时成交量",
+          "更新时间"
+        ],
+        "first": {
+          "市场": "Bitfinex(香港)",
+          "交易品种": "LTCUSD",
+          "最近报价": 67.465,
+          "涨跌额": 0.59,
+          "涨跌幅": 0.87,
+          "24小时最高": 68.867,
+          "24小时最低": 66.259,
+          "24小时成交量": 6893.13,
+          "更新时间": "2023-10-02 22:45:09"
+        },
+        "last": {
+          "市场": "Kraken(美国)",
+          "交易品种": "BTCUSD",
+          "最近报价": 28320.0,
+          "涨跌额": 1217.6,
+          "涨跌幅": 4.49,
+          "24小时最高": 28572.5,
+          "24小时最低": 27059.6,
+          "24小时成交量": 3632.92,
+          "更新时间": "2023-10-02 22:45:09"
+        }
+      },
+      "error": null,
+      "duration_s": 2.1,
+      "observed_at": "2026-09-27T10:00:30.131554+00:00"
+    },
+    {
+      "id": 13,
+      "title": "Convertible bond spot",
+      "command": "import akshare as ak; result=ak.bond_zh_hs_cov_spot()",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 320,
+        "columns": [
+          "symbol",
+          "name",
+          "trade",
+          "pricechange",
+          "changepercent",
+          "buy",
+          "sell",
+          "settlement",
+          "open",
+          "high",
+          "low",
+          "volume",
+          "amount",
+          "code",
+          "ticktime"
+        ],
+        "first": {
+          "symbol": "sh110072",
+          "name": "广汇转债",
+          "trade": "44.267",
+          "pricechange": "0.000",
+          "changepercent": "0.000",
+          "buy": "0.000",
+          "sell": "0.000",
+          "settlement": "44.267",
+          "open": "0.000",
+          "high": "0.000",
+          "low": "0.000",
+          "volume": 0,
+          "amount": 0,
+          "code": "110072",
+          "ticktime": "09:00:00"
+        },
+        "last": {
+          "symbol": "sz128134",
+          "name": "鸿路转债",
+          "trade": "110.900",
+          "pricechange": "-2.700",
+          "changepercent": "-2.377",
+          "buy": "110.900",
+          "sell": "110.992",
+          "settlement": "113.600",
+          "open": "113.601",
+          "high": "115.999",
+          "low": "110.581",
+          "volume": 2694985,
+          "amount": 299926769,
+          "code": "128134",
+          "ticktime": "15:00:00"
+        }
+      },
+      "error": null,
+      "duration_s": 4.42,
+      "observed_at": "2026-09-27T10:00:34.551980+00:00"
+    },
+    {
+      "id": 14,
+      "title": "Futures continuous Sina",
+      "command": "import akshare as ak; result=ak.futures_main_sina(symbol=\"AU0\",start_date=\"20260901\",end_date=\"20260927\")",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 18,
+        "columns": [
+          "日期",
+          "开盘价",
+          "最高价",
+          "最低价",
+          "收盘价",
+          "成交量",
+          "持仓量",
+          "动态结算价"
+        ],
+        "first": {
+          "日期": "2026-09-01T00:00:00.000",
+          "开盘价": 961.1,
+          "最高价": 965.6,
+          "最低价": 957.32,
+          "收盘价": 959.94,
+          "成交量": 224035,
+          "持仓量": 172261,
+          "动态结算价": 961.04
+        },
+        "last": {
+          "日期": "2026-09-24T00:00:00.000",
+          "开盘价": 934.82,
+          "最高价": 936.04,
+          "最低价": 927.4,
+          "收盘价": 927.66,
+          "成交量": 183228,
+          "持仓量": 222206,
+          "动态结算价": 931.32
+        }
+      },
+      "error": null,
+      "duration_s": 2.31,
+      "observed_at": "2026-09-27T10:00:36.857221+00:00"
+    },
+    {
+      "id": 15,
+      "title": "China LPR",
+      "command": "import akshare as ak; result=ak.macro_china_lpr()",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 1576,
+        "columns": [
+          "TRADE_DATE",
+          "LPR1Y",
+          "LPR5Y",
+          "RATE_1",
+          "RATE_2"
+        ],
+        "first": {
+          "TRADE_DATE": "1991-04-21T00:00:00.000",
+          "LPR1Y": null,
+          "LPR5Y": null,
+          "RATE_1": 8.64,
+          "RATE_2": 9.72
+        },
+        "last": {
+          "TRADE_DATE": "2026-09-20T00:00:00.000",
+          "LPR1Y": 3.0,
+          "LPR5Y": 3.5,
+          "RATE_1": 4.35,
+          "RATE_2": 4.9
+        }
+      },
+      "error": null,
+      "duration_s": 6.79,
+      "observed_at": "2026-09-27T10:00:43.644684+00:00"
+    },
+    {
+      "id": 16,
+      "title": "Interbank Shibor",
+      "command": "import akshare as ak; result=ak.rate_interbank(market=\"上海银行同业拆借市场\",symbol=\"Shibor人民币\",indicator=\"隔夜\")",
+      "status": "timeout",
+      "result": null,
+      "error": "Subprocess exceeded 18 seconds",
+      "duration_s": 18.02,
+      "observed_at": "2026-09-27T10:01:01.660141+00:00"
+    },
+    {
+      "id": 17,
+      "title": "CLS financial news",
+      "command": "import akshare as ak; result=ak.stock_info_global_cls(symbol=\"全部\")",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 20,
+        "columns": [
+          "标题",
+          "内容",
+          "发布日期",
+          "发布时间"
+        ],
+        "first": {
+          "标题": "华统股份：控股子公司拟获拆迁补偿4.38亿元",
+          "内容": "【华统股份：控股子公司拟获拆迁补偿4.38亿元】财联社9月27日电，华统股份(002840.SZ)公告称，义乌市赤岸镇人民政府拟对公司控股子公司义乌华昇牧业有限公司位于赤岸镇下水碓等村集体土地总面积约457.23亩厂房及附属物进行关停拆迁，由义乌市赤岸镇人民政府给予拆迁补偿。补偿金额为4.38亿元，预计会增加公司净利润超6000万元。",
+          "发布日期": "2026-09-27T00:00:00.000",
+          "发布时间": "16:19:29"
+        },
+        "last": {
+          "标题": "俄外长：美伊应回归伊斯兰堡谅解备忘录",
+          "内容": "【俄外长：美伊应回归伊斯兰堡谅解备忘录】财联社9月27日电，俄罗斯外交部长拉夫罗夫9月26日表示，美国和伊朗此前达成了伊斯兰堡谅解备忘录，这是一项公平的协议，并且由双方最高级别官员签署，美伊双方应该考虑重新回归伊斯兰堡谅解备忘录。拉夫罗夫还表示，建立阿拉伯国家与伊朗之间的互信，对于化解中东地区危机非常重要。",
+          "发布日期": "2026-09-27T00:00:00.000",
+          "发布时间": "17:55:46"
+        }
+      },
+      "error": null,
+      "duration_s": 2.98,
+      "observed_at": "2026-09-27T10:01:04.636869+00:00"
+    },
+    {
+      "id": 18,
+      "title": "Eastmoney stock news",
+      "command": "import akshare as ak; result=ak.stock_news_em(symbol=\"600519\")",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 10,
+        "columns": [
+          "关键词",
+          "新闻标题",
+          "新闻内容",
+          "发布时间",
+          "文章来源",
+          "新闻链接"
+        ],
+        "first": {
+          "关键词": "600519",
+          "新闻标题": "贵州茅台600519.SH)：2026年中报净利润为445.17亿元、同比较去年同期下降1.95%",
+          "新闻内容": "2026年8月15日，贵州茅台600519.SH)发布2026年中报。 公司营业总收入为922.78亿元，较去年同报告期营业总收入增加11.84亿元，实现5年连续上涨，同比较去年同期上涨1.30%。",
+          "发布时间": "2026-08-15 10:11:51",
+          "文章来源": "界面新闻",
+          "新闻链接": "http://finance.eastmoney.com/a/202608153842377958.html"
+        },
+        "last": {
+          "关键词": "600519",
+          "新闻标题": "“9·24”至今A股涨了48万亿 电子行业超越银行市值登顶",
+          "新闻内容": "作为行业权重的贵州茅台（600519.SH）两年内市值微增7.43%，但二线白酒、调味品等细分普遍承压，行业整体处于估值消化与需求换挡的叠加期。 房地产则原地踏步，总市值维持在0.97万亿元左右，两年微降约0.5%。煤炭、钢铁、交通运输虽未缩水，但增幅有限。",
+          "发布时间": "2026-09-21 00:06:10",
+          "文章来源": "第一财经",
+          "新闻链接": "http://finance.eastmoney.com/a/202609213879485320.html"
+        }
+      },
+      "error": null,
+      "duration_s": 3.67,
+      "observed_at": "2026-09-27T10:01:08.306381+00:00"
+    },
+    {
+      "id": 19,
+      "title": "FX spot quote",
+      "command": "import akshare as ak; result=ak.fx_spot_quote()",
+      "status": "success",
+      "result": {
+        "type": "DataFrame",
+        "rows": 25,
+        "columns": [
+          "货币对",
+          "买报价",
+          "卖报价"
+        ],
+        "first": {
+          "货币对": "USD/CNY",
+          "买报价": null,
+          "卖报价": null
+        },
+        "last": {
+          "货币对": "CNY/THB",
+          "买报价": null,
+          "卖报价": null
+        }
+      },
+      "error": null,
+      "duration_s": 2.46,
+      "observed_at": "2026-09-27T10:01:10.767036+00:00"
+    }
+  ],
+  "quality_audit": {
+    "crypto_js_spot": {
+      "rows": 10,
+      "update_times": [
+        "2020-11-16 21:02:04",
+        "2023-10-02 22:45:09"
+      ],
+      "verdict": "stale for 2026-09-27 realtime use"
+    },
+    "fx_spot_quote": {
+      "rows": 25,
+      "non_null_bid": 0,
+      "non_null_ask": 0,
+      "verdict": "no actionable quote values"
+    }
+  }
+}

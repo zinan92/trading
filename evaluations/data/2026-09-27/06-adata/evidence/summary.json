@@ -1,0 +1,15 @@
+{
+  "source_sha": "b14f4e57b2175302f18b6eaf934f7dff9207a141",
+  "catalog_lock": "b14f4e57b2175302f18b6eaf934f7dff9207a141",
+  "version": "2.9.5",
+  "initial_probes": 15,
+  "post_repair_probes": 15,
+  "initial_success": 7,
+  "post_repair_success": 7,
+  "post_repair_empty": 4,
+  "post_repair_timeout": 3,
+  "post_repair_error": 1,
+  "screenshots": 20,
+  "independent_tencent_crosscheck_symbols": 3,
+  "native_ui": false
+}

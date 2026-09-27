@@ -1,0 +1,47 @@
+{
+  "detail": {
+    "error": "cache_miss",
+    "detail": "cache_policy=require but no cached candles were found",
+    "suggestions": [
+      "Use cache_policy=allow or cache_policy=bypass to fetch upstream"
+    ],
+    "provider": "tencent_finance",
+    "source_mode": "tencent_kline",
+    "provider_symbol": "sh000688",
+    "timeframe": "1d",
+    "raw_timeframe": null,
+    "timeframe_origin": null,
+    "aggregation": {},
+    "source_identity": {
+      "provider_symbol": "sh000688",
+      "provider": "tencent_finance",
+      "source_mode": "tencent_kline",
+      "timeframe": "1d"
+    },
+    "requested_source": "tencent_kline",
+    "selected_source": "tencent_kline",
+    "attempted_sources": [
+      "tencent_kline"
+    ],
+    "cache_policy": "require",
+    "quality_policy": "standard",
+    "fallback_policy": "none",
+    "require_execution_venue": false,
+    "served_from": "cache",
+    "is_synthetic": false,
+    "fresh": null,
+    "latest_timestamp": null,
+    "age_seconds": null,
+    "max_age_seconds": null,
+    "quality_flags": [
+      "public_api",
+      "market_hours",
+      "research_only"
+    ],
+    "execution_venue": false,
+    "reject_reason": "cache_miss",
+    "access_issues": [
+      "cache miss"
+    ]
+  }
+}

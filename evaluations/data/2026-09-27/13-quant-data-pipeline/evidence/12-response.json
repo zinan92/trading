@@ -1,0 +1,47 @@
+{
+  "count": 6,
+  "funding_rates": [
+    {
+      "symbol": "BTC",
+      "funding_rate": 0.001449,
+      "funding_time": "2026-09-27T16:00:00.001000",
+      "mark_price": 0.0,
+      "last_update": "2026-09-27T17:52:26.693289"
+    },
+    {
+      "symbol": "ETH",
+      "funding_rate": 0.01,
+      "funding_time": "2026-09-27T16:00:00.001000",
+      "mark_price": 0.0,
+      "last_update": "2026-09-27T17:52:26.692255"
+    },
+    {
+      "symbol": "SOL",
+      "funding_rate": 0.0066890000000000005,
+      "funding_time": "2026-09-27T16:00:00.001000",
+      "mark_price": 0.0,
+      "last_update": "2026-09-27T17:52:26.583938"
+    },
+    {
+      "symbol": "BNB",
+      "funding_rate": 0.0,
+      "funding_time": "2026-09-27T16:00:00.001000",
+      "mark_price": 0.0,
+      "last_update": "2026-09-27T17:52:26.692094"
+    },
+    {
+      "symbol": "DOGE",
+      "funding_rate": 0.0047929999999999995,
+      "funding_time": "2026-09-27T16:00:00.001000",
+      "mark_price": 0.0,
+      "last_update": "2026-09-27T17:52:26.693433"
+    },
+    {
+      "symbol": "ADA",
+      "funding_rate": 0.009314000000000001,
+      "funding_time": "2026-09-27T16:00:00.001000",
+      "mark_price": 0.0,
+      "last_update": "2026-09-27T17:52:26.690674"
+    }
+  ]
+}

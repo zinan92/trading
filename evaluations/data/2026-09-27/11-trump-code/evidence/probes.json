@@ -1,0 +1,281 @@
+{
+  "source_sha": "fa132e9251cf6f43908fd9855379488709731952",
+  "records": [
+    {
+      "id": 1,
+      "title": "Dashboard HTML",
+      "path": "/",
+      "status_code": 200,
+      "result": {
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 110295,
+        "title": "Dashboard HTML"
+      },
+      "observed_at": "2026-09-27T09:24:51.281728+00:00"
+    },
+    {
+      "id": 2,
+      "title": "Daily UI",
+      "path": "/daily.html",
+      "status_code": 200,
+      "result": {
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 7916,
+        "title": "Daily UI"
+      },
+      "observed_at": "2026-09-27T09:24:51.282604+00:00"
+    },
+    {
+      "id": 3,
+      "title": "Analysis UI",
+      "path": "/analysis.html",
+      "status_code": 200,
+      "result": {
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 23431,
+        "title": "Analysis UI"
+      },
+      "observed_at": "2026-09-27T09:24:51.283295+00:00"
+    },
+    {
+      "id": 4,
+      "title": "Game UI",
+      "path": "/game.html",
+      "status_code": 200,
+      "result": {
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 34259,
+        "title": "Game UI"
+      },
+      "observed_at": "2026-09-27T09:24:51.283937+00:00"
+    },
+    {
+      "id": 5,
+      "title": "Status",
+      "path": "/api/status",
+      "status_code": 200,
+      "result": {
+        "date": "2026-09-26",
+        "posts_today": 18,
+        "signals": [
+          "DEAL",
+          "CHINA",
+          "IRAN",
+          "DEAL_ONLY"
+        ],
+        "consensus": "NEUTRAL",
+        "system_health": "needs_attention",
+        "total_rules": 546,
+        "models": 11
+      },
+      "observed_at": "2026-09-27T09:24:51.284871+00:00"
+    },
+    {
+      "id": 6,
+      "title": "Dashboard data",
+      "path": "/api/dashboard",
+      "status_code": 200,
+      "result": {
+        "stats": {
+          "verified": 564,
+          "hit_rate": 61.3,
+          "rules": 600,
+          "models": 0,
+          "markets": 516
+        },
+        "funnel": {
+          "total_posts": 7411,
+          "features": 384,
+          "models_tested": 31554180,
+          "survivors": 600,
+          "elimination_rate": 99.84
+        },
+        "keys": [
+          "funnel",
+          "stats",
+          "highlights",
+          "discoveries_top3",
+          "discoveries_all",
+          "playbook",
+          "live",
+          "recent_signals",
+          "signal_confidence",
+          "models",
+          "polymarket",
+          "engines",
+          "dual_platform",
+          "opus_priority"
+        ]
+      },
+      "observed_at": "2026-09-27T09:24:51.294929+00:00"
+    },
+    {
+      "id": 7,
+      "title": "Signals",
+      "path": "/api/signals",
+      "status_code": 200,
+      "result": {
+        "date": "2026-09-26",
+        "signals": [
+          "DEAL",
+          "CHINA",
+          "IRAN",
+          "DEAL_ONLY"
+        ],
+        "posts": 18,
+        "consensus": "NEUTRAL"
+      },
+      "observed_at": "2026-09-27T09:24:51.298047+00:00"
+    },
+    {
+      "id": 8,
+      "title": "Models",
+      "path": "/api/models",
+      "status_code": 200,
+      "result": {
+        "model_count": 0,
+        "date": "?"
+      },
+      "observed_at": "2026-09-27T09:24:51.298682+00:00"
+    },
+    {
+      "id": 9,
+      "title": "Recent posts",
+      "path": "/api/recent-posts",
+      "status_code": 200,
+      "result": {
+        "total": 20,
+        "returned": 20,
+        "newest_returned": "2026-03-25T10:08:00.000Z"
+      },
+      "observed_at": "2026-09-27T09:24:51.417346+00:00"
+    },
+    {
+      "id": 10,
+      "title": "Prediction markets",
+      "path": "/api/polymarket-trump",
+      "status_code": 200,
+      "result": {
+        "total": 360,
+        "source": "public-search",
+        "sample": [
+          {
+            "question": "Will Trump acquire Greenland before 2027?",
+            "yes_price": 0.028,
+            "no_price": 0.972,
+            "liquidity": 215586.46459,
+            "volume": 35581112.08319516,
+            "slug": "will-trump-acquire-greenland-before-2027",
+            "url": "https://polymarket.com/event/will-trump-acquire-greenland-before-2027",
+            "sub_markets": 1
+          }
+        ]
+      },
+      "observed_at": "2026-09-27T09:24:52.929280+00:00"
+    },
+    {
+      "id": 11,
+      "title": "Playbook",
+      "path": "/api/playbook",
+      "status_code": 200,
+      "result": {
+        "updated_at": "2026-03-15",
+        "source": "564 verified predictions analysis",
+        "keys": [
+          "updated_at",
+          "source",
+          "hedge_signals",
+          "position_signals",
+          "pump_signals",
+          "most_dangerous",
+          "most_profitable",
+          "biggest_surprise"
+        ]
+      },
+      "observed_at": "2026-09-27T09:24:52.931776+00:00"
+    },
+    {
+      "id": 12,
+      "title": "Community insights",
+      "path": "/api/insights",
+      "status_code": 200,
+      "result": {
+        "total": 0
+      },
+      "observed_at": "2026-09-27T09:24:52.933320+00:00"
+    },
+    {
+      "id": 13,
+      "title": "Data catalog",
+      "path": "/api/data",
+      "status_code": 200,
+      "result": {
+        "total": 14,
+        "names": [
+          "trump_posts_all.json",
+          "trump_posts_lite.json",
+          "predictions_log.json",
+          "surviving_rules.json",
+          "daily_features.json",
+          "trump_playbook.json",
+          "signal_confidence.json",
+          "market_SP500.json",
+          "own_archive.json",
+          "x_posts_full.json",
+          "daily_report.json",
+          "polymarket_live.json",
+          "opus_analysis.json",
+          "learning_report.json"
+        ]
+      },
+      "observed_at": "2026-09-27T09:24:52.935024+00:00"
+    },
+    {
+      "id": 14,
+      "title": "Archive UI target",
+      "path": "/articles/2026-04/04-zh.md",
+      "status_code": 404,
+      "result": {
+        "content_type": null,
+        "bytes": 0,
+        "title": "Archive UI target"
+      },
+      "observed_at": "2026-09-27T09:24:52.936239+00:00"
+    },
+    {
+      "id": 15,
+      "title": "Actual archived article",
+      "path": "/articles/2026-04/04-flash-2306-zh.md",
+      "status_code": 200,
+      "result": {
+        "content_type": "text/markdown; charset=utf-8",
+        "bytes": 1639,
+        "title": "Actual archived article"
+      },
+      "observed_at": "2026-09-27T09:24:52.937583+00:00"
+    }
+  ],
+  "crosscheck": {
+    "posts_total": 44182,
+    "posts_len": 44182,
+    "posts_latest": "2026-03-25",
+    "predictions_total": 566,
+    "predictions_verified": 564,
+    "predictions_pending": 2,
+    "correct_verified": 346,
+    "computed_hit_rate_percent": 61.3,
+    "rules_count": 600,
+    "rules_meta": {
+      "total_surviving": 600,
+      "last_evolution": "2026-09-26T17:37:36Z",
+      "evolved_rules_added": 48
+    },
+    "daily_report_date": "2026-09-26",
+    "daily_report_latest_post_time": "2026-09-26T15:58",
+    "daily_report_models_triggered": 0,
+    "health_status": "degraded",
+    "health_updated": "2026-04-04T22:00:14.578524+00:00",
+    "archive_ui_target_exists": false,
+    "actual_archive_article_exists": true
+  }
+}
