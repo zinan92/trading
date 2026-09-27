@@ -1,0 +1,16 @@
+{
+  "source_sha": "5f27525709ab043b91e53d7a420ce6d46e66a0ce",
+  "catalog_lock": "fbf0ae47d64e24fdfce5fbc724b3041adc510739",
+  "skill_version": "2.0.3",
+  "probes": 16,
+  "screenshots": 16,
+  "treasury_dates": 185,
+  "treasury_latest": "09/25/2026",
+  "cftc_latest_report": "2026-09-22T00:00:00.000",
+  "finra_single_file_symbols": 12349,
+  "sec_remote_tested": false,
+  "cboe_remote_tested": false,
+  "quote_endpoints_tested": false,
+  "synthetic_indicator_probes": 6,
+  "flat_rsi_edge": 100
+}

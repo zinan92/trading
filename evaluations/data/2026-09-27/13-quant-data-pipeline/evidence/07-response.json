@@ -1,0 +1,65 @@
+{
+  "count": 5,
+  "quotes": [
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "cn_name": "S&P 500",
+      "price": 7743.41,
+      "change": 39.28,
+      "change_pct": 0.51,
+      "volume": 2644756000,
+      "market_cap": 0,
+      "pe_ratio": 0.0,
+      "last_update": "2026-09-27 17:52:15"
+    },
+    {
+      "symbol": "^DJI",
+      "name": "Dow Jones Industrial Average",
+      "cn_name": "道琼斯",
+      "price": 51828.62,
+      "change": 478.62,
+      "change_pct": 0.93,
+      "volume": 390601297,
+      "market_cap": 0,
+      "pe_ratio": 0.0,
+      "last_update": "2026-09-27 17:52:16"
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "NASDAQ Composite",
+      "cn_name": "纳斯达克",
+      "price": 27068.717,
+      "change": 129.34,
+      "change_pct": 0.48,
+      "volume": 6299972000,
+      "market_cap": 0,
+      "pe_ratio": 0.0,
+      "last_update": "2026-09-27 17:52:17"
+    },
+    {
+      "symbol": "^NDX",
+      "name": "NASDAQ-100",
+      "cn_name": "纳斯达克100",
+      "price": 30608.135,
+      "change": 129.28,
+      "change_pct": 0.42,
+      "volume": 1056650000,
+      "market_cap": 0,
+      "pe_ratio": 0.0,
+      "last_update": "2026-09-27 17:52:18"
+    },
+    {
+      "symbol": "^VIX",
+      "name": "CBOE Volatility Index",
+      "cn_name": "恐慌指数",
+      "price": 14.87,
+      "change": -0.8,
+      "change_pct": -5.11,
+      "volume": 0,
+      "market_cap": 0,
+      "pe_ratio": 0.0,
+      "last_update": "2026-09-27 17:52:19"
+    }
+  ]
+}

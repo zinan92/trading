@@ -1,0 +1,621 @@
+{
+  "repo": "tickflow-org/tickflow",
+  "tested_sha": "c27f23c50386c10f2c439cf8345e9aa2c295e0c7",
+  "package_version": "0.1.25",
+  "auth": "TickFlow.free() only; no account/key",
+  "records": [
+    {
+      "id": 1,
+      "title": "SDK 安装与免费入口",
+      "code": "import tickflow; tf = TickFlow.free()",
+      "kind": "setup",
+      "checked_at_utc": "2026-09-27T08:08:10.365584+00:00",
+      "duration_s": 0.0,
+      "status": "success",
+      "result": {
+        "type": "dict",
+        "keys": [
+          "package_version",
+          "client",
+          "base_url"
+        ],
+        "sample": {
+          "package_version": "0.1.25",
+          "client": "TickFlow",
+          "base_url": "https://free-api.tickflow.org"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "A 股日 K：浦发银行",
+      "code": "tf.klines.get(\"600000.SH\", period=\"1d\", count=5)",
+      "kind": "api",
+      "checked_at_utc": "2026-09-27T08:08:10.366261+00:00",
+      "duration_s": 1.44,
+      "status": "success",
+      "result": {
+        "type": "compact_klines",
+        "rows": 5,
+        "columns": [
+          "timestamp",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "amount"
+        ],
+        "first_utc": "2026-09-17T16:00:00+00:00",
+        "last_utc": "2026-09-23T16:00:00+00:00",
+        "first_close": 9.07,
+        "last_close": 9.0,
+        "last_volume": 528364,
+        "sample_tail": {
+          "timestamp": [
+            1790092800000,
+            1790179200000
+          ],
+          "open": [
+            9.02,
+            8.99
+          ],
+          "high": [
+            9.05,
+            9.05
+          ],
+          "low": [
+            8.95,
+            8.97
+          ],
+          "close": [
+            8.98,
+            9.0
+          ],
+          "volume": [
+            511244,
+            528364
+          ],
+          "amount": [
+            458952162.0,
+            475964884.0
+          ]
+        }
+      },
+      "last_market_date": "2026-09-24"
+    },
+    {
+      "id": 3,
+      "title": "A 股 ETF 日 K：沪深 300",
+      "code": "tf.klines.get(\"510300.SH\", period=\"1d\", count=5)",
+      "kind": "api",
+      "checked_at_utc": "2026-09-27T08:08:11.805299+00:00",
+      "duration_s": 0.44,
+      "status": "success",
+      "result": {
+        "type": "compact_klines",
+        "rows": 5,
+        "columns": [
+          "timestamp",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "amount"
+        ],
+        "first_utc": "2026-09-17T16:00:00+00:00",
+        "last_utc": "2026-09-23T16:00:00+00:00",
+        "first_close": 4.582,
+        "last_close": 4.515,
+        "last_volume": 7102519,
+        "sample_tail": {
+          "timestamp": [
+            1790092800000,
+            1790179200000
+          ],
+          "open": [
+            4.62,
+            4.578
+          ],
+          "high": [
+            4.621,
+            4.579
+          ],
+          "low": [
+            4.586,
+            4.512
+          ],
+          "close": [
+            4.59,
+            4.515
+          ],
+          "volume": [
+            6364575,
+            7102519
+          ],
+          "amount": [
+            2928541597.0,
+            3220888135.0
+          ]
+        }
+      },
+      "last_market_date": "2026-09-24"
+    },
+    {
+      "id": 4,
+      "title": "A 股周 K：浦发银行",
+      "code": "tf.klines.get(\"600000.SH\", period=\"1w\", count=5)",
+      "kind": "api",
+      "checked_at_utc": "2026-09-27T08:08:12.242902+00:00",
+      "duration_s": 0.86,
+      "status": "success",
+      "result": {
+        "type": "compact_klines",
+        "rows": 5,
+        "columns": [
+          "timestamp",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "amount"
+        ],
+        "first_utc": "2026-08-27T16:00:00+00:00",
+        "last_utc": "2026-09-23T16:00:00+00:00",
+        "first_close": 9.0,
+        "last_close": 9.0,
+        "last_volume": 2231337,
+        "sample_tail": {
+          "timestamp": [
+            1789660800000,
+            1790179200000
+          ],
+          "open": [
+            9.28,
+            9.04
+          ],
+          "high": [
+            9.43,
+            9.07
+          ],
+          "low": [
+            9.0,
+            8.91
+          ],
+          "close": [
+            9.07,
+            9.0
+          ],
+          "volume": [
+            3363141,
+            2231337
+          ],
+          "amount": [
+            3087285880.0,
+            2009204983.0
+          ]
+        }
+      },
+      "last_market_date": "2026-09-24"
+    },
+    {
+      "id": 5,
+      "title": "美股日 K：AAPL",
+      "code": "tf.klines.get(\"AAPL.US\", period=\"1d\", count=5)",
+      "kind": "api",
+      "checked_at_utc": "2026-09-27T08:08:13.099747+00:00",
+      "duration_s": 0.42,
+      "status": "success",
+      "result": {
+        "type": "compact_klines",
+        "rows": 5,
+        "columns": [
+          "timestamp",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "amount"
+        ],
+        "first_utc": "2026-09-21T04:00:00+00:00",
+        "last_utc": "2026-09-25T04:00:00+00:00",
+        "first_close": 338.98,
+        "last_close": 341.07,
+        "last_volume": 29649787,
+        "sample_tail": {
+          "timestamp": [
+            1790222400000,
+            1790308800000
+          ],
+          "open": [
+            336.72,
+            336.04
+          ],
+          "high": [
+            338.91,
+            341.67
+          ],
+          "low": [
+            334.3,
+            334.53
+          ],
+          "close": [
+            335.92,
+            341.07
+          ],
+          "volume": [
+            24733100,
+            29649787
+          ],
+          "amount": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "last_market_date": "2026-09-25"
+    },
+    {
+      "id": 6,
+      "title": "港股日 K：腾讯",
+      "code": "tf.klines.get(\"00700.HK\", period=\"1d\", count=5)",
+      "kind": "api",
+      "checked_at_utc": "2026-09-27T08:08:13.519455+00:00",
+      "duration_s": 0.44,
+      "status": "success",
+      "result": {
+        "type": "compact_klines",
+        "rows": 5,
+        "columns": [
+          "timestamp",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "amount"
+        ],
+        "first_utc": "2026-09-20T16:00:00+00:00",
+        "last_utc": "2026-09-24T16:00:00+00:00",
+        "first_close": 430.0,
+        "last_close": 436.6,
+        "last_volume": 9113746,
+        "sample_tail": {
+          "timestamp": [
+            1790179200000,
+            1790265600000
+          ],
+          "open": [
+            435.0,
+            433.8
+          ],
+          "high": [
+            439.8,
+            437.2
+          ],
+          "low": [
+            433.4,
+            431.2
+          ],
+          "close": [
+            438.4,
+            436.6
+          ],
+          "volume": [
+            14277944,
+            9113746
+          ],
+          "amount": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "last_market_date": "2026-09-25"
+    },
+    {
+      "id": 7,
+      "title": "A 股批量日 K",
+      "code": "tf.klines.batch([\"600000.SH\",\"000001.SZ\"],period=\"1d\",count=5)",
+      "kind": "api",
+      "checked_at_utc": "2026-09-27T08:08:13.958482+00:00",
+      "duration_s": 1.01,
+      "status": "success",
+      "result": {
+        "type": "dict",
+        "keys": [
+          "600000.SH",
+          "000001.SZ"
+        ],
+        "sample": {
+          "600000.SH": {
+            "timestamp": [
+              1789660800000,
+              1789920000000,
+              1790006400000,
+              1790092800000,
+              1790179200000
+            ],
+            "open": [
+              9.05,
+              9.04,
+              9.03,
+              9.02,
+              8.99
+            ],
+            "high": [
+              9.15,
+              9.06,
+              9.07,
+              9.05,
+              9.05
+            ],
+            "low": [
+              9.0,
+              8.91,
+              8.97,
+              8.95,
+              8.97
+            ],
+            "close": [
+              9.07,
+              9.01,
+              9.04,
+              8.98,
+              9.0
+            ],
+            "volume": [
+              517593,
+              659062,
+              532667,
+              511244,
+              528364
+            ],
+            "amount": [
+              469969405.0,
+              593492200.0,
+              480795737.0,
+              458952162.0,
+              475964884.0
+            ]
+          },
+          "000001.SZ": {
+            "timestamp": [
+              1789660800000,
+              1789920000000,
+              1790006400000,
+              1790092800000,
+              1790179200000
+            ],
+            "open": [
+              11.340220307506852,
+              11.447849663315804,
+              11.447849663315804,
+              11.42828068953236,
+              11.35
+            ],
+            "high": [
+              11.56526350601648,
+              11.477203123990973,
+              11.49677209777442,
+              11.457634150207529,
+              11.47
+            ],
+            "low": [
+              11.310866846831685,
+              11.350004794398576,
+              11.36957376818202,
+              11.301082359939961,
+              11.29
+            ],
+            "close": [
+              11.447849663315804,
+              11.477203123990973,
+              11.457634150207529,
+              11.350004794398576,
+              11.3
+            ],
+            "volume": [
+              853038,
+              817555,
+              759457,
+              906726,
+              1043819
+            ],
+            "amount": [
+              999918139.0,
+              954184678.0,
+              887703116.0,
+              1052015092.0,
+              1186736895.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "title": "跨市场标的元数据",
+      "code": "tf.instruments.batch([\"600000.SH\",\"510300.SH\",\"AAPL.US\",\"00700.HK\"])",
+      "kind": "api",
+      "checked_at_utc": "2026-09-27T08:08:14.965630+00:00",
+      "duration_s": 0.42,
+      "status": "success",
+      "result": {
+        "type": "list",
+        "rows": 4,
+        "sample": [
+          {
+            "symbol": "600000.SH",
+            "exchange": "SH",
+            "code": "600000",
+            "name": "浦发银行",
+            "region": "CN",
+            "type": "stock",
+            "ext": {
+              "type": "cn_equity",
+              "listing_date": "1999-11-10",
+              "total_shares": 33305838300.0,
+              "float_shares": 33305838300.0,
+              "tick_size": 0.01,
+              "limit_up": 9.88,
+              "limit_down": 8.08
+            }
+          },
+          {
+            "symbol": "510300.SH",
+            "exchange": "SH",
+            "code": "510300",
+            "name": "沪深300ETF华泰柏瑞",
+            "region": "CN",
+            "type": "etf",
+            "ext": {
+              "type": "cn_equity",
+              "listing_date": "2012-05-28",
+              "total_shares": 24005287700.0,
+              "float_shares": 24005287700.0,
+              "tick_size": 0.001,
+              "limit_up": 5.049,
+              "limit_down": 4.131
+            }
+          },
+          {
+            "symbol": "AAPL.US",
+            "exchange": "US",
+            "code": "AAPL",
+            "name": "苹果",
+            "region": "US",
+            "type": "stock",
+            "ext": {
+              "type": "us_equity",
+              "total_shares": 14594180000.0,
+              "float_shares": 14569109471.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "title": "标的池列表",
+      "code": "tf.universes.list()",
+      "kind": "api",
+      "checked_at_utc": "2026-09-27T08:08:15.388120+00:00",
+      "duration_s": 0.86,
+      "status": "success",
+      "result": {
+        "type": "list",
+        "rows": 1015,
+        "sample": [
+          {
+            "id": "CN_Equity_SW3_610301",
+            "name": "SW3耐火材料",
+            "description": "申万3级行业: 耐火材料",
+            "region": "CN",
+            "category": "equity",
+            "symbol_count": 5
+          },
+          {
+            "id": "CN_Equity_SW1_730103",
+            "name": "SW1通信",
+            "description": "申万1级行业: 通信",
+            "region": "CN",
+            "category": "equity",
+            "symbol_count": 19
+          },
+          {
+            "id": "CN_Equity_SW2_220206",
+            "name": "SW2化学原料",
+            "description": "申万2级行业: 化学原料",
+            "region": "CN",
+            "category": "equity",
+            "symbol_count": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "title": "异步 A 股日 K",
+      "code": "await AsyncTickFlow.free().klines.get(\"600000.SH\",period=\"1d\",count=3)",
+      "kind": "api",
+      "checked_at_utc": "2026-09-27T08:08:16.249014+00:00",
+      "duration_s": 2.29,
+      "status": "success",
+      "result": {
+        "type": "compact_klines",
+        "rows": 3,
+        "columns": [
+          "timestamp",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "amount"
+        ],
+        "first_utc": "2026-09-21T16:00:00+00:00",
+        "last_utc": "2026-09-23T16:00:00+00:00",
+        "first_close": 9.04,
+        "last_close": 9.0,
+        "last_volume": 528364,
+        "sample_tail": {
+          "timestamp": [
+            1790092800000,
+            1790179200000
+          ],
+          "open": [
+            9.02,
+            8.99
+          ],
+          "high": [
+            9.05,
+            9.05
+          ],
+          "low": [
+            8.95,
+            8.97
+          ],
+          "close": [
+            8.98,
+            9.0
+          ],
+          "volume": [
+            511244,
+            528364
+          ],
+          "amount": [
+            458952162.0,
+            475964884.0
+          ]
+        }
+      },
+      "last_market_date": "2026-09-24"
+    },
+    {
+      "id": 11,
+      "title": "免费入口分钟 K 边界",
+      "code": "tf.klines.get(\"600000.SH\",period=\"1m\",count=3)",
+      "kind": "api",
+      "checked_at_utc": "2026-09-27T08:08:18.540026+00:00",
+      "duration_s": 0.42,
+      "status": "error",
+      "error_type": "PermissionError",
+      "error": "免费服务不支持K线数据。免费服务仅提供日K数据和标的信息查询。如需使用完整服务，请访问 https://tickflow.org 注册账号，并使用 https://api.tickflow.org 作为 API 端点。"
+    },
+    {
+      "id": 12,
+      "title": "免费入口实时行情边界",
+      "code": "tf.quotes.get(symbols=[\"600000.SH\"])",
+      "kind": "api",
+      "checked_at_utc": "2026-09-27T08:08:18.964125+00:00",
+      "duration_s": 0.43,
+      "status": "error",
+      "error_type": "PermissionError",
+      "error": "免费服务不支持实时行情数据。免费服务仅提供日K数据和标的信息查询。如需使用完整服务，请访问 https://tickflow.org 注册账号，并使用 https://api.tickflow.org 作为 API 端点。"
+    }
+  ]
+}

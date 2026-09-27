@@ -1,0 +1,136 @@
+{
+  "ticker": "BTC",
+  "instrument_id": "BTC",
+  "provider_symbol": "BTCUSDT",
+  "asset_class": "crypto",
+  "timeframe": "1m",
+  "count": 5,
+  "raw_timeframe": "1m",
+  "timeframe_origin": "native",
+  "aggregation": {
+    "kind": "none",
+    "rule": "native_passthrough"
+  },
+  "source_identity": {
+    "provider": "binance_spot",
+    "source_mode": "binance_spot_public",
+    "provider_symbol": "BTCUSDT",
+    "timeframe": "1m",
+    "raw_timeframe": "1m",
+    "timeframe_origin": "native",
+    "aggregation": {
+      "kind": "none",
+      "rule": "native_passthrough"
+    }
+  },
+  "schema_version": "kline-candles-v1",
+  "provider": "binance_spot",
+  "source_mode": "binance_spot_public",
+  "requested_source": "binance_spot_public",
+  "selected_source": "binance_spot_public",
+  "selection_reason": "requested_or_default",
+  "attempted_sources": [
+    "binance_spot_public"
+  ],
+  "cache_policy": "bypass",
+  "quality_policy": "strict",
+  "fallback_policy": "none",
+  "require_execution_venue": false,
+  "quality_flags": [
+    "public_api",
+    "spot",
+    "research_only",
+    "not_execution_venue"
+  ],
+  "is_synthetic": false,
+  "served_from": "upstream",
+  "fresh": true,
+  "latest_timestamp": "2026-09-27T09:17:00+00:00",
+  "age_seconds": 53.738036,
+  "max_age_seconds": 180.0,
+  "execution_venue": false,
+  "reject_reason": null,
+  "access_issues": [],
+  "candles": [
+    {
+      "timestamp": "2026-09-27T09:13:00+00:00",
+      "open": 84664.0,
+      "high": 84672.02,
+      "low": 84648.59,
+      "close": 84672.01,
+      "volume": 8.3859,
+      "amount": 709942.1950295,
+      "provider": "binance_spot",
+      "quality_flags": [
+        "public_api",
+        "spot",
+        "research_only",
+        "not_execution_venue"
+      ]
+    },
+    {
+      "timestamp": "2026-09-27T09:14:00+00:00",
+      "open": 84672.01,
+      "high": 84672.78,
+      "low": 84658.0,
+      "close": 84658.0,
+      "volume": 10.32263,
+      "amount": 873989.2548418,
+      "provider": "binance_spot",
+      "quality_flags": [
+        "public_api",
+        "spot",
+        "research_only",
+        "not_execution_venue"
+      ]
+    },
+    {
+      "timestamp": "2026-09-27T09:15:00+00:00",
+      "open": 84658.0,
+      "high": 84672.0,
+      "low": 84656.7,
+      "close": 84671.99,
+      "volume": 6.45174,
+      "amount": 546227.1686614,
+      "provider": "binance_spot",
+      "quality_flags": [
+        "public_api",
+        "spot",
+        "research_only",
+        "not_execution_venue"
+      ]
+    },
+    {
+      "timestamp": "2026-09-27T09:16:00+00:00",
+      "open": 84671.99,
+      "high": 84672.0,
+      "low": 84646.26,
+      "close": 84646.26,
+      "volume": 12.69191,
+      "amount": 1074572.9547984,
+      "provider": "binance_spot",
+      "quality_flags": [
+        "public_api",
+        "spot",
+        "research_only",
+        "not_execution_venue"
+      ]
+    },
+    {
+      "timestamp": "2026-09-27T09:17:00+00:00",
+      "open": 84646.27,
+      "high": 84658.64,
+      "low": 84631.59,
+      "close": 84658.63,
+      "volume": 7.56227,
+      "amount": 640064.4062106,
+      "provider": "binance_spot",
+      "quality_flags": [
+        "public_api",
+        "spot",
+        "research_only",
+        "not_execution_venue"
+      ]
+    }
+  ]
+}

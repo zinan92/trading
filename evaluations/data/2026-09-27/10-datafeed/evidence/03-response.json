@@ -1,0 +1,133 @@
+{
+  "ticker": "sh000001",
+  "instrument_id": "shanghai",
+  "provider_symbol": "sh000001",
+  "asset_class": "index",
+  "timeframe": "1d",
+  "count": 5,
+  "raw_timeframe": "1d",
+  "timeframe_origin": "native",
+  "aggregation": {
+    "kind": "none",
+    "rule": "native_passthrough"
+  },
+  "source_identity": {
+    "provider": "tencent_finance",
+    "source_mode": "tencent_kline",
+    "provider_symbol": "sh000001",
+    "timeframe": "1d",
+    "source_id": "tencent_kline",
+    "endpoint": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+    "price_adjustment": "qfq",
+    "raw_timeframe": "1d",
+    "timeframe_origin": "native",
+    "aggregation": {
+      "kind": "none",
+      "rule": "native_passthrough"
+    }
+  },
+  "schema_version": "kline-candles-v1",
+  "provider": "tencent_finance",
+  "source_mode": "tencent_kline",
+  "requested_source": "tencent_kline",
+  "selected_source": "tencent_kline",
+  "selection_reason": "requested_or_default",
+  "attempted_sources": [
+    "tencent_kline"
+  ],
+  "cache_policy": "bypass",
+  "quality_policy": "strict",
+  "fallback_policy": "none",
+  "require_execution_venue": false,
+  "quality_flags": [
+    "public_api",
+    "market_hours",
+    "research_only"
+  ],
+  "is_synthetic": false,
+  "served_from": "upstream",
+  "fresh": null,
+  "latest_timestamp": "2026-09-24",
+  "age_seconds": 292664.82709,
+  "max_age_seconds": null,
+  "execution_venue": false,
+  "reject_reason": null,
+  "access_issues": [],
+  "candles": [
+    {
+      "timestamp": "2026-09-18",
+      "open": 3891.96,
+      "high": 3919.67,
+      "low": 3888.5,
+      "close": 3911.87,
+      "volume": 485712507.0,
+      "amount": null,
+      "provider": "tencent_finance",
+      "quality_flags": [
+        "public_api",
+        "market_hours",
+        "research_only"
+      ]
+    },
+    {
+      "timestamp": "2026-09-21",
+      "open": 3920.27,
+      "high": 3950.94,
+      "low": 3918.13,
+      "close": 3949.91,
+      "volume": 502354877.0,
+      "amount": null,
+      "provider": "tencent_finance",
+      "quality_flags": [
+        "public_api",
+        "market_hours",
+        "research_only"
+      ]
+    },
+    {
+      "timestamp": "2026-09-22",
+      "open": 3963.81,
+      "high": 3967.68,
+      "low": 3945.42,
+      "close": 3952.13,
+      "volume": 506148369.0,
+      "amount": null,
+      "provider": "tencent_finance",
+      "quality_flags": [
+        "public_api",
+        "market_hours",
+        "research_only"
+      ]
+    },
+    {
+      "timestamp": "2026-09-23",
+      "open": 3951.37,
+      "high": 3951.52,
+      "low": 3934.46,
+      "close": 3936.52,
+      "volume": 466913933.0,
+      "amount": null,
+      "provider": "tencent_finance",
+      "quality_flags": [
+        "public_api",
+        "market_hours",
+        "research_only"
+      ]
+    },
+    {
+      "timestamp": "2026-09-24",
+      "open": 3925.32,
+      "high": 3930.5,
+      "low": 3888.37,
+      "close": 3888.37,
+      "volume": 438530412.0,
+      "amount": null,
+      "provider": "tencent_finance",
+      "quality_flags": [
+        "public_api",
+        "market_hours",
+        "research_only"
+      ]
+    }
+  ]
+}

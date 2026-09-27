@@ -1,0 +1,24 @@
+{
+  "provider": "Tencent direct quote via a-stock-data skill",
+  "scope": "read-only independent cross-check",
+  "rows": [
+    {
+      "symbol": "sh600519",
+      "name": "贵州茅台",
+      "last_price": "1237.00",
+      "quote_time": "20260924161444"
+    },
+    {
+      "symbol": "sh000001",
+      "name": "上证指数",
+      "last_price": "3888.37",
+      "quote_time": "20260924161401"
+    },
+    {
+      "symbol": "sh510300",
+      "name": "沪深300ETF华泰柏瑞",
+      "last_price": "4.515",
+      "quote_time": "20260924161456"
+    }
+  ]
+}

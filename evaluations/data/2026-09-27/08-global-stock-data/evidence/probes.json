@@ -1,0 +1,302 @@
+{
+  "repo": "simonlin1212/global-stock-data",
+  "tested_sha": "5f27525709ab043b91e53d7a420ce6d46e66a0ce",
+  "skill_version": "2.0.3",
+  "source": "selected inspected Python code blocks in SKILL.md",
+  "records": [
+    {
+      "id": 1,
+      "title": "Skill 版本与代码分层",
+      "command": "read SKILL.md sections, select inspected Python blocks",
+      "source_type": "source inspection",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:02:57.642510+00:00",
+      "result": {
+        "skill_version": "2.0.3",
+        "code_blocks_executed": 8,
+        "distribution": "Markdown + embedded Python; no market-data bundle"
+      }
+    },
+    {
+      "id": 2,
+      "title": "美国财政部 2026 收益率曲线",
+      "command": "treasury_yield_curve(2026)",
+      "source_type": "S: US Treasury",
+      "status": "success",
+      "duration_s": 1.06,
+      "checked_at_utc": "2026-09-27T09:02:58.707752+00:00",
+      "result": {
+        "rows": 185,
+        "latest": {
+          "Date": "09/25/2026",
+          "1 Mo": "4.04",
+          "1.5 Month": "4.14",
+          "2 Mo": "4.20",
+          "3 Mo": "4.24",
+          "4 Mo": "4.32",
+          "6 Mo": "4.33",
+          "1 Yr": "4.50",
+          "2 Yr": "4.81",
+          "3 Yr": "4.94",
+          "5 Yr": "4.98",
+          "7 Yr": "5.06",
+          "10 Yr": "5.17",
+          "20 Yr": "5.54",
+          "30 Yr": "5.49"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "10Y－2Y 利差本地计算",
+      "command": "float(latest[\"10 Yr\"])-float(latest[\"2 Yr\"])",
+      "source_type": "S: US Treasury + local math",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:02:58.708158+00:00",
+      "result": {
+        "date": "09/25/2026",
+        "2 Yr": "4.81",
+        "10 Yr": "5.17",
+        "spread_pct_points": 0.36
+      }
+    },
+    {
+      "id": 4,
+      "title": "CFTC 最新 20 条持仓",
+      "command": "cftc_cot(limit=20)",
+      "source_type": "S: CFTC",
+      "status": "success",
+      "duration_s": 2.16,
+      "checked_at_utc": "2026-09-27T09:03:00.869262+00:00",
+      "result": {
+        "rows": 20,
+        "latest_report_date": "2026-09-22T00:00:00.000",
+        "sample_contracts": [
+          "GULF # 6 FUEL OIL CRACK",
+          "GULF JET NY HEAT OIL SPR",
+          "PGP PROPYLENE (PCW) CAL",
+          "3 YEAR ERIS SOFR SWAP"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "CFTC 标的过滤",
+      "command": "cftc_cot(limit=5,market_contains=\"E-MINI S&P 500\")",
+      "source_type": "S: CFTC",
+      "status": "success",
+      "duration_s": 2.14,
+      "checked_at_utc": "2026-09-27T09:03:03.011905+00:00",
+      "result": {
+        "rows": 5,
+        "sample_contracts": [
+          "MICRO E-MINI S&P 500 INDEX",
+          "E-MINI S&P 500",
+          "E-MINI S&P 500"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "FINRA 单日文件摘要",
+      "command": "short_volume_all(date=\"20260925\")",
+      "source_type": "B: FINRA single published file",
+      "status": "success",
+      "duration_s": 1.94,
+      "checked_at_utc": "2026-09-27T09:03:04.951495+00:00",
+      "result": {
+        "date": "20260925",
+        "market": "CNMS",
+        "count": 12349,
+        "raw_market_rows_retained": false
+      }
+    },
+    {
+      "id": 7,
+      "title": "FINRA AAPL 收录核对",
+      "command": "\"AAPL\" in snapshot[\"data\"]",
+      "source_type": "B: FINRA local check only",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:03:04.992747+00:00",
+      "result": {
+        "date": "20260925",
+        "AAPL_present": true,
+        "raw_ratio_redistributed": false
+      }
+    },
+    {
+      "id": 8,
+      "title": "MA / EMA 纯计算",
+      "command": "calc_ma(explicitly synthetic 30-row candles)",
+      "source_type": "local synthetic math",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:03:04.992999+00:00",
+      "result": {
+        "input": "30 synthetic candles, not market data",
+        "last": {
+          "date": "day-30",
+          "close": 120.6,
+          "ma5": 119.0,
+          "ma10": 117.2,
+          "ma20": 113.7,
+          "ma60": null,
+          "ema12": 116.5493,
+          "ema26": 112.5229
+        }
+      }
+    },
+    {
+      "id": 9,
+      "title": "MACD 纯计算",
+      "command": "calc_macd(explicitly synthetic 30-row candles)",
+      "source_type": "local synthetic math",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:03:04.993252+00:00",
+      "result": {
+        "input": "30 synthetic candles, not market data",
+        "last": {
+          "date": "day-30",
+          "close": 120.6,
+          "dif": 4.0264,
+          "dea": 3.6539,
+          "macd_hist": 0.745
+        }
+      }
+    },
+    {
+      "id": 10,
+      "title": "RSI 纯计算",
+      "command": "calc_rsi(explicitly synthetic 30-row candles)",
+      "source_type": "local synthetic math",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:03:04.993508+00:00",
+      "result": {
+        "input": "30 synthetic candles, not market data",
+        "last": {
+          "date": "day-30",
+          "close": 120.6,
+          "rsi6": 100.0,
+          "rsi12": 100.0,
+          "rsi24": 100.0
+        }
+      }
+    },
+    {
+      "id": 11,
+      "title": "KDJ 纯计算",
+      "command": "calc_kdj(explicitly synthetic 30-row candles)",
+      "source_type": "local synthetic math",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:03:04.993757+00:00",
+      "result": {
+        "input": "30 synthetic candles, not market data",
+        "last": {
+          "date": "day-30",
+          "close": 120.6,
+          "k": 86.84,
+          "d": 86.8,
+          "j": 86.91
+        }
+      }
+    },
+    {
+      "id": 12,
+      "title": "布林带 纯计算",
+      "command": "calc_boll(explicitly synthetic 30-row candles)",
+      "source_type": "local synthetic math",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:03:04.994056+00:00",
+      "result": {
+        "input": "30 synthetic candles, not market data",
+        "last": {
+          "date": "day-30",
+          "close": 120.6,
+          "upper": 121.8314,
+          "middle": 113.7,
+          "lower": 105.5686,
+          "bandwidth": 14.3
+        }
+      }
+    },
+    {
+      "id": 13,
+      "title": "恒定价格 RSI 边界",
+      "command": "calc_rsi(flat 30 candles)[-1]",
+      "source_type": "local synthetic math",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:03:04.994322+00:00",
+      "result": {
+        "input": "30 synthetic flat candles",
+        "last": {
+          "date": "day-30",
+          "close": 100,
+          "rsi6": 100.0,
+          "rsi12": 100.0,
+          "rsi24": 100.0
+        }
+      }
+    },
+    {
+      "id": 14,
+      "title": "SEC 联系人缺失守卫",
+      "command": "official_get(\"https://data.sec.gov/...\") with placeholder SEC_CONTACT",
+      "source_type": "local guard; SEC not requested",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:03:04.994573+00:00",
+      "result": {
+        "guard_type": "RuntimeError",
+        "message": "请先把 SEC_CONTACT 改成你的真实姓名与邮箱 —— SEC 要求声明 User-Agent，否则返回 Undeclared Automated Tool 错误。",
+        "network_request_sent": false
+      }
+    },
+    {
+      "id": 15,
+      "title": "港股误入美股专用层守卫",
+      "command": "assert_us_ticker(\"00700.HK\")",
+      "source_type": "local input guard",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:03:04.994758+00:00",
+      "result": {
+        "guard_type": "ValueError",
+        "message": "'00700.HK' 看起来是港股代码；该层仅支持美股。港股请用 Layer 1-5 的港股端点。"
+      }
+    },
+    {
+      "id": 16,
+      "title": "官方源许可分级清单",
+      "command": "read SKILL.md S/B/C definitions",
+      "source_type": "source contract only",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T09:03:04.994947+00:00",
+      "result": {
+        "S": [
+          "SEC EDGAR (UA required)",
+          "US Treasury",
+          "CFTC"
+        ],
+        "B": [
+          "FINRA single public file; no public raw redistribution"
+        ],
+        "C": [
+          "CBOE permission required",
+          "Yahoo personal use",
+          "Nasdaq terms unverified"
+        ],
+        "CBOE_queried": false,
+        "SEC_queried": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "total_sources": 81,
+  "healthy_count": 71,
+  "stale_count": 0,
+  "degraded_count": 0,
+  "error_count": 0,
+  "disabled_count": 10,
+  "total_articles_24h": 196908,
+  "scheduler_alive": true,
+  "process": {
+    "started_at": "2026-09-27T09:29:21.369413+00:00",
+    "uptime_seconds": 496,
+    "restart_loop_warning": true
+  },
+  "processing": {
+    "llm_tagger": {
+      "status": "ok",
+      "attempted": 500,
+      "scored": 500,
+      "failed": 0,
+      "unscored": 4110,
+      "provider": "codex-cli,deepseek",
+      "fallback_reason": "DeepSeekError",
+      "last_error": null,
+      "last_run_at": "2026-09-27T09:36:33.198337"
+    },
+    "event_aggregation": {
+      "status": "degraded",
+      "fresh_articles": 580,
+      "usable_articles": 39,
+      "events_updated": 63,
+      "failed": 541,
+      "provider": null,
+      "fallback_reason": null,
+      "last_error": "unusable_articles=541; narrative_failures=0",
+      "last_run_at": "2026-09-27T09:35:57.618653"
+    }
+  }
+}

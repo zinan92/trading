@@ -1,0 +1,12 @@
+{
+  "detail": {
+    "error": "instrument_definition_unavailable",
+    "detail": "Source yahoo_finance_index does not expose instrument definitions",
+    "suggestions": [
+      "Choose an execution source with instrument metadata"
+    ],
+    "source_mode": "auto",
+    "is_synthetic": false,
+    "reject_reason": "upstream_error"
+  }
+}

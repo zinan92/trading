@@ -1,0 +1,8 @@
+{
+  "error": "DATABASE_ERROR",
+  "message": "Database get_index_quote failed: Internal server error",
+  "details": {
+    "operation": "get_index_quote",
+    "reason": "Internal server error"
+  }
+}

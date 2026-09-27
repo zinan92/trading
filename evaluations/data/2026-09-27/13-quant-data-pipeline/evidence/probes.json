@@ -1,0 +1,329 @@
+{
+  "source_sha": "d306095de3c253535e4b47d08b23e9d0f07c01b4",
+  "records": [
+    {
+      "id": 1,
+      "title": "Unified health",
+      "url": "http://127.0.0.1:8000/api/health/unified",
+      "status_code": 200,
+      "duration_s": 7.08,
+      "summary": {
+        "status": "unhealthy",
+        "quant": {
+          "index_realtime": {
+            "status": "ok"
+          },
+          "commodities_realtime": {
+            "status": "ok",
+            "count": 4
+          },
+          "crypto_ws": {
+            "status": "ok",
+            "symbols": 15
+          },
+          "klines_stock_DAY": {
+            "record_count": 0,
+            "status": "unconfigured"
+          },
+          "klines_stock_MINS_30": {
+            "record_count": 0,
+            "status": "unconfigured"
+          },
+          "klines_index_DAY": {
+            "record_count": 0,
+            "status": "unconfigured"
+          },
+          "klines_index_MINS_30": {
+            "record_count": 0,
+            "status": "unconfigured"
+          },
+          "klines_concept_DAY": {
+            "record_count": 0,
+            "status": "unconfigured"
+          },
+          "klines_concept_MINS_30": {
+            "record_count": 0,
+            "status": "unconfigured"
+          },
+          "file_hot_concept_categories": {
+            "status": "unconfigured"
+          },
+          "file_concept_to_tickers": {
+            "status": "unconfigured"
+          },
+          "file_ticker_to_concepts": {
+            "status": "unconfigured"
+          },
+          "file_monitor_cache": {
+            "status": "unconfigured"
+          },
+          "file_momentum_signals": {
+            "status": "unconfigured"
+          },
+          "stock_sectors": {
+            "record_count": 0,
+            "status": "error",
+            "error": "Internal server error"
+          }
+        },
+        "qualitative": {
+          "service_status": "unavailable"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "Symbol search",
+      "url": "http://127.0.0.1:8000/api/symbols/search?q=600519",
+      "status_code": 500,
+      "duration_s": 0.0,
+      "summary": {
+        "keys": [
+          "non_json"
+        ],
+        "preview": "{'non_json': 'Internal Server Error'}"
+      }
+    },
+    {
+      "id": 3,
+      "title": "A-share index quote",
+      "url": "http://127.0.0.1:8000/api/index/quote/000001.SH",
+      "status_code": 500,
+      "duration_s": 0.0,
+      "summary": {
+        "error": "DATABASE_ERROR",
+        "message": "Database get_index_quote failed: Internal server error"
+      }
+    },
+    {
+      "id": 4,
+      "title": "A-share index realtime",
+      "url": "http://127.0.0.1:8000/api/index/realtime/000001.SH",
+      "status_code": 200,
+      "duration_s": 0.67,
+      "summary": {
+        "last_update": "17:52:13"
+      }
+    },
+    {
+      "id": 5,
+      "title": "A-share index Kline",
+      "url": "http://127.0.0.1:8000/api/index/kline/000001.SH?limit=10",
+      "status_code": 404,
+      "duration_s": 0.01,
+      "summary": {
+        "detail": "未找到指数数据: 000001.SH"
+      }
+    },
+    {
+      "id": 6,
+      "title": "A-share stock Kline",
+      "url": "http://127.0.0.1:8000/api/candles/600519?timeframe=day&limit=10",
+      "status_code": 404,
+      "duration_s": 0.01,
+      "summary": {
+        "detail": "No candles available for ticker 600519. Failed to fetch from API."
+      }
+    },
+    {
+      "id": 7,
+      "title": "US stock indexes",
+      "url": "http://127.0.0.1:8000/api/us-stock/indexes",
+      "status_code": 200,
+      "duration_s": 6.02,
+      "summary": {
+        "count": 5
+      }
+    },
+    {
+      "id": 8,
+      "title": "Commodities realtime",
+      "url": "http://127.0.0.1:8000/api/commodities/realtime",
+      "status_code": 200,
+      "duration_s": 5.33,
+      "summary": {
+        "count": 4,
+        "source": "yahoo_finance",
+        "last_update": "2026-09-27 09:52:24 UTC",
+        "commodities_count": 4,
+        "commodities_first": {
+          "symbol": "GC=F",
+          "name": "Gold",
+          "name_cn": "黄金",
+          "unit": "USD/oz",
+          "price": 4321.2,
+          "change": 15.4998,
+          "change_pct": 0.36,
+          "high_24h": 0.0,
+          "low_24h": 0.0,
+          "open_price": 0.0,
+          "prev_close": 4305.7002,
+          "last_update": "2026-09-27 09:52:20 UTC"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "title": "Gold daily Kline",
+      "url": "http://127.0.0.1:8000/api/commodities/klines/GC%3DF?period=1mo&interval=1d&limit=10",
+      "status_code": 200,
+      "duration_s": 0.43,
+      "summary": {
+        "count": 10
+      }
+    },
+    {
+      "id": 10,
+      "title": "Crypto WebSocket realtime",
+      "url": "http://127.0.0.1:8000/api/crypto/realtime",
+      "status_code": 200,
+      "duration_s": 0.01,
+      "summary": {
+        "count": 15,
+        "source": "binance_websocket",
+        "tickers_count": 15,
+        "tickers_first": {
+          "symbol": "BTC",
+          "pair": "BTCUSDT",
+          "price": 84928.62,
+          "change_24h": 914.61,
+          "change_pct_24h": 1.089,
+          "high_24h": 84958.99,
+          "low_24h": 83838.0,
+          "volume_24h": 9224.68459,
+          "quote_volume_24h": 778219196.4132422,
+          "open_price": 84014.01,
+          "trades_count": 940835,
+          "last_update": "2026-09-27T09:52:25.379322+00:00",
+          "is_stale": false,
+          "source": "binance_ws"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "title": "Bitcoin hourly Kline",
+      "url": "http://127.0.0.1:8000/api/crypto/kline/BTC?interval=1h&limit=10",
+      "status_code": 200,
+      "duration_s": 0.57,
+      "summary": {
+        "count": 10
+      }
+    },
+    {
+      "id": 12,
+      "title": "Crypto funding rates",
+      "url": "http://127.0.0.1:8000/api/crypto/funding-rates",
+      "status_code": 200,
+      "duration_s": 0.74,
+      "summary": {
+        "count": 6
+      }
+    },
+    {
+      "id": 13,
+      "title": "Concept boards",
+      "url": "http://127.0.0.1:8000/api/concepts",
+      "status_code": 200,
+      "duration_s": 0.0,
+      "summary": {
+        "total": 0,
+        "concepts_count": 0,
+        "concepts_first": null
+      }
+    },
+    {
+      "id": 14,
+      "title": "Latest news",
+      "url": "http://127.0.0.1:8000/api/news/latest?limit=10",
+      "status_code": null,
+      "duration_s": 25.01,
+      "summary": {
+        "exception": "ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=25)"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Perception health",
+      "url": "http://127.0.0.1:8000/api/perception/health",
+      "status_code": null,
+      "duration_s": 25.01,
+      "summary": {
+        "exception": "ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=25)"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Perception signals",
+      "url": "http://127.0.0.1:8000/api/perception/signals",
+      "status_code": null,
+      "duration_s": 25.01,
+      "summary": {
+        "exception": "ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=25)"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Paper account",
+      "url": "http://127.0.0.1:8000/api/simulated/account",
+      "status_code": null,
+      "duration_s": 25.0,
+      "summary": {
+        "exception": "ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=25)"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Paper trade history",
+      "url": "http://127.0.0.1:8000/api/simulated/trades",
+      "status_code": null,
+      "duration_s": 25.0,
+      "summary": {
+        "exception": "ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=8000): Read timed out. (read timeout=25)"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Watchlist",
+      "url": "http://127.0.0.1:8000/api/watchlist",
+      "status_code": null,
+      "duration_s": 23.83,
+      "summary": {
+        "exception": "ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Quant data health",
+      "url": "http://127.0.0.1:8000/api/health/data",
+      "status_code": null,
+      "duration_s": 0.0,
+      "summary": {
+        "exception": "ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /api/health/data (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [Errno 61] Connection refused\"))"
+      }
+    }
+  ],
+  "paper_actions": [
+    {
+      "action": "buy",
+      "ticker": "600519",
+      "price": 1237,
+      "position_pct": 1,
+      "result": "insufficient_for_100_shares"
+    },
+    {
+      "action": "buy",
+      "ticker": "600519",
+      "price": 1237,
+      "position_pct": 2,
+      "result": "100_shares_123700_paper"
+    },
+    {
+      "action": "sell",
+      "ticker": "600519",
+      "price": 1237,
+      "sell_pct": 100,
+      "result": "100_shares_closed_zero_pnl"
+    }
+  ]
+}

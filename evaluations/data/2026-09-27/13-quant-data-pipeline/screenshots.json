@@ -1,0 +1,236 @@
+[
+  {
+    "file": "01-native-home.png",
+    "sha256": "8e801a197c4858b3afb4f9834368d82b9ee712069dd54db59fd8fb54cdf3c796",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "02-native-health.png",
+    "sha256": "981a5ff5d903098fb6e43dfcef75daaa11454e0551b4cb0f42e35716c28b16c2",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "03-native-health-loaded.png",
+    "sha256": "25e2487be3a3d9b50c4ce589a1ce03b605c0baa960c9fb7d4f46e5056ff2eaa1",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "04-native-market.png",
+    "sha256": "a307e518c5234ea4f956831932e8bbb6d7ffe3adcadd06370865bb953e9d31b9",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "05-native-watchlist.png",
+    "sha256": "3faded5b08b45bd62d215240e512bca34ef501434dd10061c8f0526d6716d728",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "06-native-momentum.png",
+    "sha256": "b7fb6ff7d15c15e7faa07a4c3f01af9148ca4b85d019d3ce9dfed6169648c164",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "07-native-portfolio.png",
+    "sha256": "65989fbddb909c2a6f20083571afc9a58b38d3864c7e4416df56f3d91e632a2e",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "08-native-search-maotai.png",
+    "sha256": "ba89ddf39969db9f7a35e3c3c4c9e6ac970a58862c6cd14ca17fca5a972755e4",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "09-native-search-result.png",
+    "sha256": "c2d486e1663a4358b3008f1d157cadaeaee8c54efb2d3380d5e34fd00edfef33",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "10-native-search-enter.png",
+    "sha256": "50140ea317734ab6991e19a6a850ec2c012e7437a1dc04932ee19017c62261d3",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "11-native-multiasset-dashboard.png",
+    "sha256": "c6880f67a951c5993634762524e47683f8d27f656745d732b62bb706f3a31123",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "12-native-dashboard-loaded.png",
+    "sha256": "5b3f916b80ce7a57c166fc073a5acabc31c44af4d5fb527773167f6603a30d6f",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "13-dashboard-section.png",
+    "sha256": "d4ea1d06c042cac1464adef1c6e5068e89a63e41eb98171522a67d6ec8a20162",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "17-native-paper-position.png",
+    "sha256": "ae05b3787d05db2c0bf51ac1a2860b780aee257f3e9e352c498d2d7baf08cf2a",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "18-native-paper-position-settled.png",
+    "sha256": "2807aa1f4c920cad18070353c2153af7dba856134620308dce7bf919ccb579b0",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "19-native-paper-trade-history.png",
+    "sha256": "700d7fba0351c70d77875c908db21d28170c24fdec8859c67a12625a48f26cd0",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "20-native-paper-roundtrip.png",
+    "sha256": "99d368480c504bcea228bc92629fbaa0c4c594ca2621f7fc6ceb6dd5a7b2be36",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "21-native-paper-two-trades.png",
+    "sha256": "bc1d5cc37db54f042b4e10a4233e3ca4606a081eeca26d5cced226f7d3472a39",
+    "kind": "原生产品界面",
+    "redacted": false
+  },
+  {
+    "file": "22-evidence-01.png",
+    "sha256": "2523e65ea8379d145710ff776fc43f7eaa32e85d636d1f80ba1919e4a41c74ae",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "23-evidence-02.png",
+    "sha256": "cfc4c90ff19d763230156ded59a3d52dd5218a0a67c4e450cd84add803a3b0e2",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "24-evidence-03.png",
+    "sha256": "65a2049b919f6385482b1450b25c5d137d10c88fb1d78bfed65baa33d346af01",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "25-evidence-04.png",
+    "sha256": "264957a9d7cb29b3f5891e5463c2979ed3808bb90469110b34c1909f23881ac2",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "26-evidence-05.png",
+    "sha256": "220129c5c8c03110317f6d3e92258f65eba55f57cd765b336648c77d4b84027d",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "27-evidence-06.png",
+    "sha256": "ddbe579f9fd44741f167888ab6869fa32226f28a5b099ad2087f79ee274873d5",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "28-evidence-07.png",
+    "sha256": "032b62b28a114365c4d20780c08bb709fffb62d7086c752282c416b09ff2ea52",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "29-evidence-08.png",
+    "sha256": "3dd30daa30c510f21e4ebf6bdc7f6fa9570a12e7f73cd4addb646323734d7318",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "30-evidence-09.png",
+    "sha256": "fc1e9a6127f42228725478026751dd61ff158b13ab10d47ebcf007e37b7bb40d",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "31-evidence-10.png",
+    "sha256": "30534cd34d864f43920e4ad3ff02a7e51d6609bc114f926581d9e7c9c0d4836a",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "32-evidence-11.png",
+    "sha256": "070f5073741574546c5f9cb2eece832946dfb9bf7eb5a0ff9f33b44ca901c348",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "33-evidence-12.png",
+    "sha256": "ee36577332fe635da9193971a75113257cd2195d78e6dffab8347efb3e3b1614",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "34-evidence-13.png",
+    "sha256": "04518b5b2b220a7f5ee431249062912a82c23b07d5ea5022317c7051731734b0",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "35-evidence-14.png",
+    "sha256": "8198dbcc5d2e1629ce514478b47b05dd46830a3e84cf46e9490b773f0f7103ed",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "36-evidence-15.png",
+    "sha256": "a65c46a2fb9b8a75c1156c5985830751b90a88066c336cec5f2761f957356717",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "37-evidence-16.png",
+    "sha256": "a68687e8d5387f11092d23d31304f9ffed02aee24caf371b8c6e0b86fa19c6e0",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "38-evidence-17.png",
+    "sha256": "e316948aeb249c97eb51897f250258ca509cce7b3fb4fb2b19ab4a23dbae8d54",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "39-evidence-18.png",
+    "sha256": "ed3fa7773702199958f8fc78b8dabcdcd492265f0349dbebbc5aba83eef23c5b",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "40-evidence-19.png",
+    "sha256": "9d9ead882cefb6315f2501caa244a5ddce7b57e4fe15cfa8f2a244e101ba4376",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "41-evidence-20.png",
+    "sha256": "fc1ef0cf31c314bde96e3548e245492de03d64f1721f4936db8bcd0273fdb15c",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  },
+  {
+    "file": "42-evidence-21.png",
+    "sha256": "4e07858f0c08690094aac6c7c90b96e502edbec8de2105f904e1f3cd1154af78",
+    "kind": "Product Lab 辅助证据页（非上游原生 UI）",
+    "redacted": false
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "source_sha": "29ce3c0ad6c6d5f822c860c42ae5ccd251c240d2",
+  "yaml_sha256": "e43fdea4c50b0d559803f271ef098b2dbcac1aa0631dfde2c5150a601baddb0b",
+  "html_sha256": "ece23db506000a8302540aacc8d643ae91b6412a0cc8d789f599c4f60ed4dc91",
+  "checks": 8,
+  "passed": 7,
+  "findings": 1,
+  "screenshots": 16,
+  "source_type": "static reference registry; no market quote or time-series endpoint",
+  "native_screenshots": 8,
+  "auxiliary_checks_screenshots": 8
+}

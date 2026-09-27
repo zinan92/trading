@@ -1,0 +1,741 @@
+{
+  "repo": "JerBouma/FinanceDatabase",
+  "tested_sha": "d0b95bd51f9c594c81bac0b20c7ab6cbd084c51e",
+  "version": "2.4.0",
+  "snapshot": "local packaged compression/*.bz2 except default-remote check",
+  "records": [
+    {
+      "id": 1,
+      "title": "包与七类数据加载",
+      "code": "{asset_class: len(obj.data) for ...}",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T08:53:46.284148+00:00",
+      "result": {
+        "package_version": "2.4.0",
+        "counts": {
+          "Equities": 112707,
+          "ETFs": 36481,
+          "Funds": 57853,
+          "Indices": 91181,
+          "Currencies": 2556,
+          "Cryptos": 3367,
+          "Moneymarkets": 1367
+        },
+        "total_rows": 305512
+      }
+    },
+    {
+      "id": 2,
+      "title": "默认远程数据加载",
+      "code": "fd.Equities() (default GitHub Raw)",
+      "status": "success",
+      "duration_s": 4.96,
+      "checked_at_utc": "2026-09-27T08:53:46.285736+00:00",
+      "result": {
+        "remote_rows": 112707
+      }
+    },
+    {
+      "id": 3,
+      "title": "上市股权默认筛选",
+      "code": "fd.Equities(local).select()",
+      "status": "success",
+      "duration_s": 0.03,
+      "checked_at_utc": "2026-09-27T08:53:51.250400+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 102303,
+        "columns": [
+          "name",
+          "summary",
+          "currency",
+          "sector",
+          "industry_group",
+          "industry",
+          "exchange",
+          "mic",
+          "market",
+          "country",
+          "state",
+          "city",
+          "zipcode",
+          "website",
+          "market_cap",
+          "isin",
+          "cusip",
+          "figi",
+          "composite_figi",
+          "shareclass_figi",
+          "delisted"
+        ],
+        "sample": [
+          {
+            "symbol": "000002.SZ",
+            "name": "China Vanke Co., Ltd.",
+            "currency": "CNY",
+            "sector": "Real Estate",
+            "industry": "Real Estate Management & Development",
+            "exchange": "SHZ",
+            "market": "Shenzhen Stock Exchange",
+            "country": "China"
+          },
+          {
+            "symbol": "000004.SZ",
+            "name": "Shenzhen GuoHua Network Security Technology Co., Ltd.",
+            "currency": "CNY",
+            "sector": "Financials",
+            "industry": "Diversified Financial Services",
+            "exchange": "SHZ",
+            "market": "Shenzhen Stock Exchange",
+            "country": "China"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "美股 AAPL 精确查找",
+      "code": "Equities.search(index=\"^AAPL$\")",
+      "status": "success",
+      "duration_s": 0.02,
+      "checked_at_utc": "2026-09-27T08:53:51.278949+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 1,
+        "columns": [
+          "name",
+          "summary",
+          "currency",
+          "sector",
+          "industry_group",
+          "industry",
+          "exchange",
+          "mic",
+          "market",
+          "country",
+          "state",
+          "city",
+          "zipcode",
+          "website",
+          "market_cap",
+          "isin",
+          "cusip",
+          "figi",
+          "composite_figi",
+          "shareclass_figi",
+          "delisted"
+        ],
+        "sample": [
+          {
+            "symbol": "AAPL",
+            "name": "Apple Inc.",
+            "currency": "USD",
+            "sector": "Information Technology",
+            "industry": "Electronic Equipment, Instruments & Components",
+            "exchange": "NMS",
+            "market": "NASDAQ Global Select",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "A 股贵州茅台精确查找",
+      "code": "Equities.search(index=\"^600519\\.SS$\")",
+      "status": "success",
+      "duration_s": 0.02,
+      "checked_at_utc": "2026-09-27T08:53:51.298083+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 1,
+        "columns": [
+          "name",
+          "summary",
+          "currency",
+          "sector",
+          "industry_group",
+          "industry",
+          "exchange",
+          "mic",
+          "market",
+          "country",
+          "state",
+          "city",
+          "zipcode",
+          "website",
+          "market_cap",
+          "isin",
+          "cusip",
+          "figi",
+          "composite_figi",
+          "shareclass_figi",
+          "delisted"
+        ],
+        "sample": [
+          {
+            "symbol": "600519.SS",
+            "name": "Kweichow Moutai Co., Ltd.",
+            "currency": "CNY",
+            "sector": "Consumer Staples",
+            "industry": "Beverages",
+            "exchange": "SHH",
+            "market": "Shanghai Stock Exchange",
+            "country": "China"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "港股腾讯精确查找",
+      "code": "Equities.search(index=\"^0700\\.HK$\")",
+      "status": "success",
+      "duration_s": 0.02,
+      "checked_at_utc": "2026-09-27T08:53:51.315588+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 1,
+        "columns": [
+          "name",
+          "summary",
+          "currency",
+          "sector",
+          "industry_group",
+          "industry",
+          "exchange",
+          "mic",
+          "market",
+          "country",
+          "state",
+          "city",
+          "zipcode",
+          "website",
+          "market_cap",
+          "isin",
+          "cusip",
+          "figi",
+          "composite_figi",
+          "shareclass_figi",
+          "delisted"
+        ],
+        "sample": [
+          {
+            "symbol": "0700.HK",
+            "name": "Tencent Holding Ltd.",
+            "currency": "HKD",
+            "sector": "Communication Services",
+            "industry": "Diversified Telecommunication Services",
+            "exchange": "HKG",
+            "market": "Hong Kong Stock Exchange",
+            "country": "China"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "模糊 00700 的多市场歧义",
+      "code": "Equities.search(index=\"00700\")",
+      "status": "success",
+      "duration_s": 0.02,
+      "checked_at_utc": "2026-09-27T08:53:51.333115+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 5,
+        "columns": [
+          "name",
+          "summary",
+          "currency",
+          "sector",
+          "industry_group",
+          "industry",
+          "exchange",
+          "mic",
+          "market",
+          "country",
+          "state",
+          "city",
+          "zipcode",
+          "website",
+          "market_cap",
+          "isin",
+          "cusip",
+          "figi",
+          "composite_figi",
+          "shareclass_figi",
+          "delisted"
+        ],
+        "sample": [
+          {
+            "symbol": "000700.KS",
+            "name": "Eusu Holdings Co., Ltd.",
+            "currency": "KRW",
+            "sector": "Industrials",
+            "industry": "Marine",
+            "exchange": "KSC",
+            "market": "KOSPI Stock Market",
+            "country": "South Korea"
+          },
+          {
+            "symbol": "000700.SZ",
+            "name": "Jiangnan Mould & Plastic Technology Co., Ltd.",
+            "currency": "CNY",
+            "sector": "Consumer Discretionary",
+            "industry": "Auto Components",
+            "exchange": "SHZ",
+            "market": "Shenzhen Stock Exchange",
+            "country": "China"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "A 股 .SH 后缀不匹配",
+      "code": "Equities.search(index=\"^600519\\.SH$\")",
+      "status": "empty",
+      "duration_s": 0.02,
+      "checked_at_utc": "2026-09-27T08:53:51.350068+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 0,
+        "columns": [
+          "name",
+          "summary",
+          "currency",
+          "sector",
+          "industry_group",
+          "industry",
+          "exchange",
+          "mic",
+          "market",
+          "country",
+          "state",
+          "city",
+          "zipcode",
+          "website",
+          "market_cap",
+          "isin",
+          "cusip",
+          "figi",
+          "composite_figi",
+          "shareclass_figi",
+          "delisted"
+        ],
+        "sample": []
+      }
+    },
+    {
+      "id": 9,
+      "title": "中国上海交易所筛选",
+      "code": "Equities.select(country=\"China\",exchange=\"SHH\")",
+      "status": "success",
+      "duration_s": 0.13,
+      "checked_at_utc": "2026-09-27T08:53:51.366531+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 1523,
+        "columns": [
+          "name",
+          "summary",
+          "currency",
+          "sector",
+          "industry_group",
+          "industry",
+          "exchange",
+          "mic",
+          "market",
+          "country",
+          "state",
+          "city",
+          "zipcode",
+          "website",
+          "market_cap",
+          "isin",
+          "cusip",
+          "figi",
+          "composite_figi",
+          "shareclass_figi",
+          "delisted"
+        ],
+        "sample": [
+          {
+            "symbol": "513060.SS",
+            "name": "Bosera Asset Management Co.,Limited - Hangseng Health Care Fund",
+            "currency": "CNY",
+            "sector": "Health Care",
+            "industry": NaN,
+            "exchange": "SHH",
+            "market": "Shanghai Stock Exchange",
+            "country": "China"
+          },
+          {
+            "symbol": "516180.SS",
+            "name": "Ping An Fund Management Company Limited - Photovoltaic Industry Fund",
+            "currency": "CNY",
+            "sector": "Energy",
+            "industry": NaN,
+            "exchange": "SHH",
+            "market": "Shanghai Stock Exchange",
+            "country": "China"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "title": "美国科技板块筛选",
+      "code": "Equities.select(country=\"United States\",sector=\"Information Technology\")",
+      "status": "success",
+      "duration_s": 0.12,
+      "checked_at_utc": "2026-09-27T08:53:51.496594+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 3297,
+        "columns": [
+          "name",
+          "summary",
+          "currency",
+          "sector",
+          "industry_group",
+          "industry",
+          "exchange",
+          "mic",
+          "market",
+          "country",
+          "state",
+          "city",
+          "zipcode",
+          "website",
+          "market_cap",
+          "isin",
+          "cusip",
+          "figi",
+          "composite_figi",
+          "shareclass_figi",
+          "delisted"
+        ],
+        "sample": [
+          {
+            "symbol": "002990.SZ",
+            "name": "Vision Technology Corp.",
+            "currency": "CNY",
+            "sector": "Information Technology",
+            "industry": "Software",
+            "exchange": "SHZ",
+            "market": "Shenzhen Stock Exchange",
+            "country": "United States"
+          },
+          {
+            "symbol": "02B.BE",
+            "name": "BlackLine, Inc.",
+            "currency": "EUR",
+            "sector": "Information Technology",
+            "industry": NaN,
+            "exchange": "BER",
+            "market": "Berlin Stock Exchange",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "title": "ETF 股权类别筛选",
+      "code": "ETFs.select(category_group=\"Equities\")",
+      "status": "success",
+      "duration_s": 0.01,
+      "checked_at_utc": "2026-09-27T08:53:51.620794+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 3535,
+        "columns": [
+          "name",
+          "currency",
+          "summary",
+          "category_group",
+          "category",
+          "family",
+          "exchange",
+          "mic",
+          "isin"
+        ],
+        "sample": [
+          {
+            "symbol": "0IXR.L",
+            "name": "Global X MSCI Nigeria ETF",
+            "currency": NaN,
+            "exchange": NaN,
+            "category_group": "Equities",
+            "category": "Emerging Markets"
+          },
+          {
+            "symbol": "234310.KS",
+            "name": "KB KBSTAR V&S Select Value Securities ETF Investment Trust - Equity",
+            "currency": "KRW",
+            "exchange": "KSC",
+            "category_group": "Equities",
+            "category": "Value"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "title": "基金名称检索 Vanguard",
+      "code": "Funds.search(name=\"Vanguard\")",
+      "status": "success",
+      "duration_s": 0.02,
+      "checked_at_utc": "2026-09-27T08:53:51.633330+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 374,
+        "columns": [
+          "name",
+          "currency",
+          "summary",
+          "category_group",
+          "category",
+          "family",
+          "exchange",
+          "mic"
+        ],
+        "sample": [
+          {
+            "symbol": "0P0000SHY6.L",
+            "name": "Vanguard U.K. Inflation-Linked Gilt Index Fund GBP Inc",
+            "currency": "GBP",
+            "exchange": "LSE",
+            "category_group": "Fixed Income",
+            "category": "Inflation-Protected Securities"
+          },
+          {
+            "symbol": "0P0000TKZG.L",
+            "name": "Vanguard LifeStrategy 20% Equity Fund A Gross Acc",
+            "currency": "GBP",
+            "exchange": "LSE",
+            "category_group": "Alternatives",
+            "category": "Alternative"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "title": "指数 S&P 500 符号检索",
+      "code": "Indices.search(index=\"^\\^GSPC$\")",
+      "status": "success",
+      "duration_s": 0.01,
+      "checked_at_utc": "2026-09-27T08:53:51.649944+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 1,
+        "columns": [
+          "name",
+          "currency",
+          "summary",
+          "category_group",
+          "category",
+          "exchange",
+          "mic"
+        ],
+        "sample": [
+          {
+            "symbol": "^GSPC",
+            "name": "S&P 500",
+            "currency": "USD",
+            "exchange": "SNP",
+            "category_group": "Equities",
+            "category": "Large Cap"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "title": "以太坊货币对元数据",
+      "code": "Cryptos.search(index=\"^ETH-USD$\")",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T08:53:51.663130+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 1,
+        "columns": [
+          "name",
+          "cryptocurrency",
+          "currency",
+          "summary",
+          "exchange",
+          "website"
+        ],
+        "sample": [
+          {
+            "symbol": "ETH-USD",
+            "name": "Ethereum USD",
+            "currency": "USD",
+            "exchange": "CCC",
+            "cryptocurrency": "ETH"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "title": "比特币 BTC-USD 覆盖检查",
+      "code": "Cryptos.search(index=\"^BTC-USD$\")",
+      "status": "empty",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T08:53:51.664488+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 0,
+        "columns": [
+          "name",
+          "cryptocurrency",
+          "currency",
+          "summary",
+          "exchange",
+          "website"
+        ],
+        "sample": []
+      }
+    },
+    {
+      "id": 16,
+      "title": "外汇 EURUSD 符号检索",
+      "code": "Currencies.search(index=\"^EURUSD=X$\")",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T08:53:51.665686+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 1,
+        "columns": [
+          "name",
+          "base_currency",
+          "quote_currency",
+          "summary",
+          "exchange"
+        ],
+        "sample": [
+          {
+            "symbol": "EURUSD=X",
+            "name": "EUR/USD",
+            "exchange": "CCY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "title": "货币市场基金示例检索",
+      "code": "Moneymarkets.search(index=\"^AABXX$\")",
+      "status": "success",
+      "duration_s": 0.0,
+      "checked_at_utc": "2026-09-27T08:53:51.666770+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 1,
+        "columns": [
+          "name",
+          "currency",
+          "summary",
+          "family",
+          "exchange"
+        ],
+        "sample": [
+          {
+            "symbol": "AABXX",
+            "name": "SEI Daily Income Trust Government Fund",
+            "currency": "USD",
+            "exchange": "NAS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "title": "股权国家选项",
+      "code": "Equities.show_options(selection=\"country\")",
+      "status": "success",
+      "duration_s": 0.05,
+      "checked_at_utc": "2026-09-27T08:53:51.667758+00:00",
+      "result": {
+        "type": "StringArray",
+        "value": "<StringArray>\n[         'Afghanistan',             'Anguilla',            'Argentina',\n            'Australia',              'Austria',           'Azerbaijan',\n              'Bahamas',           'Bangladesh',             'Barbados',\n              'Belgium',\n ...\n             'Thailand',               'Turkey',  'U.S. Virgin Islands',\n              'Ukraine', 'United Arab Emirates',       'United K"
+      }
+    },
+    {
+      "id": 19,
+      "title": "仅保留主要上市",
+      "code": "Equities.select(only_primary_listing=True)",
+      "status": "success",
+      "duration_s": 0.03,
+      "checked_at_utc": "2026-09-27T08:53:51.717967+00:00",
+      "result": {
+        "type": "FinanceFrame",
+        "rows": 20583,
+        "columns": [
+          "name",
+          "summary",
+          "currency",
+          "sector",
+          "industry_group",
+          "industry",
+          "exchange",
+          "mic",
+          "market",
+          "country",
+          "state",
+          "city",
+          "zipcode",
+          "website",
+          "market_cap",
+          "isin",
+          "cusip",
+          "figi",
+          "composite_figi",
+          "shareclass_figi",
+          "delisted"
+        ],
+        "sample": [
+          {
+            "symbol": "A",
+            "name": "Agilent Technologies, Inc.",
+            "currency": "USD",
+            "sector": "Health Care",
+            "industry": "Biotechnology",
+            "exchange": "NYQ",
+            "market": "New York Stock Exchange",
+            "country": "United States"
+          },
+          {
+            "symbol": "AA",
+            "name": "Alcoa Corporation",
+            "currency": "USD",
+            "sector": "Materials",
+            "industry": "Metals & Mining",
+            "exchange": "NYQ",
+            "market": "New York Stock Exchange",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "title": "无效国家显式拒绝",
+      "code": "Equities.select(country=\"Atlantis\")",
+      "status": "error",
+      "duration_s": 0.07,
+      "checked_at_utc": "2026-09-27T08:53:51.748592+00:00",
+      "result": {
+        "error_type": "ValueError",
+        "message": "The country 'Atlantis' is not available in the database. Please check the available countries using the 'show_options' method."
+      }
+    }
+  ]
+}

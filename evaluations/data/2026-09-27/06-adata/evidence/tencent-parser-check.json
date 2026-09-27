@@ -1,0 +1,20 @@
+{
+  "source_function": "StockMarketQQ.list_market_current",
+  "source_condition": "if len(code) == 11",
+  "endpoint": "Tencent compact quote",
+  "observed": [
+    {
+      "symbol": "sh600519",
+      "actual_tilde_fields": 12,
+      "parser_accepts_if_fields": 11,
+      "parser_accepts": false
+    },
+    {
+      "symbol": "sz000001",
+      "actual_tilde_fields": 12,
+      "parser_accepts_if_fields": 11,
+      "parser_accepts": false
+    }
+  ],
+  "inference": "Both valid compact responses are skipped because each has 12 tilde-separated fields, while parser accepts exactly 11."
+}

@@ -1,0 +1,1577 @@
+{
+  "items": [
+    {
+      "id": 4602,
+      "title": "BC-Gold Futures",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/bc-gold-futures-140025259.html",
+      "summary": "",
+      "relevance_score": 2,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "search:gold futures",
+        "commodity",
+        "trading",
+        "commodities"
+      ],
+      "narrative_tags": [
+        "gold-futures",
+        "empty-content"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "target:GOLD;text:gold",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-25T14:00:25Z",
+      "collected_at": "2026-09-27T09:34:00.346061Z",
+      "in_event": true
+    },
+    {
+      "id": 4601,
+      "title": "Gold Futures Settle Higher As Dollar Slips",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/m/e3398238-2790-3179-9293-e0c7a1b2d9de/gold-futures-settle-higher-as.html",
+      "summary": "",
+      "relevance_score": 3,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "search:gold futures",
+        "commodity",
+        "trading",
+        "commodities"
+      ],
+      "narrative_tags": [
+        "gold-futures",
+        "dollar-slip"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "target:GOLD;text:gold",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-25T18:20:00Z",
+      "collected_at": "2026-09-27T09:34:00.345757Z",
+      "in_event": true
+    },
+    {
+      "id": 4590,
+      "title": "Gold price today, Friday, September 25, 2026: Gold prices hold as investors have a lot to consider",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-september-25-2026-gold-prices-hold-as-investors-have-a-lot-to-consider-110139291.html",
+      "summary": "",
+      "relevance_score": 3,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "search:gold price",
+        "commodity",
+        "commodities"
+      ],
+      "narrative_tags": [
+        "gold-price-hold",
+        "macro-uncertainty"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "target:GOLD;text:gold",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-25T11:01:39Z",
+      "collected_at": "2026-09-27T09:34:00.341180Z",
+      "in_event": true
+    },
+    {
+      "id": 4573,
+      "title": "Investors Heavily Search Newmont Corporation (NEM): Here is What You Need to Know",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-newmont-corporation-120006889.html",
+      "summary": "Recently, Zacks.com users have been paying close attention to Newmont (NEM). This makes it worthwhile to examine what the stock has in store.",
+      "relevance_score": 2,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:nem",
+        "mining"
+      ],
+      "narrative_tags": [
+        "newmont-investor-attention"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "constituent:NEM;constituent:NEWMONT;target:NEM",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "NEM",
+          "name": "纽蒙特",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "sp500",
+          "name": "标普500指数",
+          "market": "US",
+          "kind": "index"
+        },
+        {
+          "type": "asset",
+          "id": "us_dividend",
+          "name": "美股红利ETF",
+          "market": "US",
+          "kind": "etf"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-25T12:00:06Z",
+      "collected_at": "2026-09-27T09:34:00.328922Z",
+      "in_event": true
+    },
+    {
+      "id": 4572,
+      "title": "Will Young-Davidson Setbacks Weigh on Alamos Gold's Performance?",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/young-davidson-setbacks-weigh-alamos-133600896.html",
+      "summary": "AGI faces lower 2026 production and higher costs after seismic events disrupt Young-Davidson, but expects stronger H2 operations.",
+      "relevance_score": 3,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:nem",
+        "commodity",
+        "commodities"
+      ],
+      "narrative_tags": [
+        "alamos-gold-setback",
+        "gold-mining-costs"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "constituent:NEM;target:GOLD;target:NEM;text:gold",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "NEM",
+          "name": "纽蒙特",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "sp500",
+          "name": "标普500指数",
+          "market": "US",
+          "kind": "index"
+        },
+        {
+          "type": "asset",
+          "id": "us_dividend",
+          "name": "美股红利ETF",
+          "market": "US",
+          "kind": "etf"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-25T13:36:00Z",
+      "collected_at": "2026-09-27T09:34:00.328279Z",
+      "in_event": true
+    },
+    {
+      "id": 4571,
+      "title": "Are You Sure You Understand Kinross Gold Stock's Risk?",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://www.trefis.com/articles/616646/are-you-sure-you-understand-kinross-gold-stocks-risk/2026-09-25",
+      "summary": "Kinross Gold (KGC) shares lost 27% in the past month, while the S&P 500 gained 0.5%. You may still think the business makes this a passing fall, since the miner keeps 52% of its sales as operating profit. That comfort needs two things: a business sturdier than before, and a stock that held up when m",
+      "relevance_score": 3,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:nem",
+        "commodity",
+        "commodities",
+        "us-market"
+      ],
+      "narrative_tags": [
+        "kinross-gold-selloff",
+        "gold-miner-risk"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "constituent:NEM;target:GOLD;target:NEM;text:gold;text:sp500",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "NEM",
+          "name": "纽蒙特",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "sp500",
+          "name": "标普500指数",
+          "market": "US",
+          "kind": "index"
+        },
+        {
+          "type": "asset",
+          "id": "us_dividend",
+          "name": "美股红利ETF",
+          "market": "US",
+          "kind": "etf"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-25T21:45:31Z",
+      "collected_at": "2026-09-27T09:34:00.327658Z",
+      "in_event": true
+    },
+    {
+      "id": 4555,
+      "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132448177.html",
+      "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra",
+      "relevance_score": 3,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gld",
+        "macro",
+        "commodity",
+        "sector/energy",
+        "trading",
+        "us-market"
+      ],
+      "narrative_tags": [
+        "treasury-yields-rise",
+        "oil-prices-fall"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "alias:federal_reserve:Treasury;text:sp500",
+      "exposure_targets": [
+        {
+          "type": "macro",
+          "id": "federal-reserve",
+          "name": "美联储",
+          "sector": "美联储路径",
+          "macro": "rates",
+          "listed": false,
+          "reason": "thesis",
+          "links_assets": [
+            "DXY",
+            "SPX",
+            "XAU"
+          ]
+        },
+        {
+          "type": "asset",
+          "id": "sp500",
+          "name": "标普500指数",
+          "market": "US",
+          "kind": "index"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-25T13:24:48Z",
+      "collected_at": "2026-09-27T09:34:00.313187Z",
+      "in_event": true
+    },
+    {
+      "id": 4554,
+      "title": "Is StoneX or Bitwise Right About Bitcoin and Gold?",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://247wallst.com/investing/cryptocurrency/2026/09/25/is-stonex-or-bitwise-right-about-bitcoin-and-gold/",
+      "summary": "StoneX sees Bitcoin outrunning gold right now, while Bitwise data reveals the two assets moving in lockstep at a six-year high. Both camps make compelling cases, and the difference between them could reshape how you position your portfolio.",
+      "relevance_score": 3,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gld",
+        "commodity",
+        "crypto",
+        "commodities"
+      ],
+      "narrative_tags": [
+        "btc-gold-correlation",
+        "portfolio-positioning"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "target:GOLD;text:bitcoin;text:gold",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "bitcoin",
+          "name": "比特币",
+          "market": "CRYPTO",
+          "kind": "crypto"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-25T19:27:07Z",
+      "collected_at": "2026-09-27T09:34:00.312410Z",
+      "in_event": true
+    },
+    {
+      "id": 4553,
+      "title": "What a $500,000 All Weather Portfolio Actually Looks Like, Built With ETFs",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://247wallst.com/personal-finance/2026/09/25/what-a-500000-all-weather-portfolio-actually-looks-like-built-with-etfs/",
+      "summary": "Ray Dalio's All Weather portfolio promises to survive every economic regime, but the design forces real tradeoffs that most investors never see until they check the five-year returns on their largest sleeve.",
+      "relevance_score": 2,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gld",
+        "etf"
+      ],
+      "narrative_tags": [
+        "all-weather-portfolio",
+        "etf-allocation"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "unmatched",
+      "exposure_assets": [],
+      "exposure_reason": "no_approved_exposure",
+      "exposure_targets": [],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-25T22:05:28Z",
+      "collected_at": "2026-09-27T09:34:00.311387Z",
+      "in_event": true
+    },
+    {
+      "id": 4552,
+      "title": "Gold Is High, So Why Did Kinross (KGC) Just Fall 12%?",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-high-why-did-kinross-000119152.html",
+      "summary": "Kinross Gold Corporation (NYSE:KGC) is one of the world’s larger gold miners. The company has mines across the Americas and West Africa. This industry giant’s stock fell 11.6% to $24.42 on September 24, 2026, leaving it about 38% below its high and near its 52-week low. What’s strange about the fall",
+      "relevance_score": 3,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gc=f",
+        "commodity",
+        "commodities",
+        "us-market"
+      ],
+      "narrative_tags": [
+        "kinross-gold-drop",
+        "gold-miners-divergence"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "asset:gold;target:GOLD;text:gold",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-26T00:01:19Z",
+      "collected_at": "2026-09-27T09:34:00.307625Z",
+      "in_event": true
+    },
+    {
+      "id": 4551,
+      "title": "Bitcoin Surges 36% Since August 18 While Gold and Stocks Remain Stagnant: A Shift in Correlation?",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://247wallst.com/investing/cryptocurrency/2026/09/26/bitcoin-surges-36-since-august-18-while-gold-and-stocks-remain-stagnant-a-shift-in-correlation/",
+      "summary": "Bitcoin just posted a 36-point performance gap over stocks and gold in five weeks, but the mechanics behind that rally raise an uncomfortable question about whether the move reflects a genuine shift or a squeeze that is already running out of fuel.",
+      "relevance_score": 4,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gc=f",
+        "commodity",
+        "crypto",
+        "commodities"
+      ],
+      "narrative_tags": [
+        "btc-surge-correlation-shift",
+        "btc-vs-gold-stocks"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "asset:gold;target:GOLD;text:bitcoin;text:gold",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "bitcoin",
+          "name": "比特币",
+          "market": "CRYPTO",
+          "kind": "crypto"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-26T08:25:38Z",
+      "collected_at": "2026-09-27T09:34:00.306138Z",
+      "in_event": true
+    },
+    {
+      "id": 4550,
+      "title": "What Does i-80 Gold (TSX:IAU) Feasibility Study Mean For Granite Creek And Mineral Point?",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-80-gold-tsx-iau-091022828.html",
+      "summary": "i-80 Gold (TSX:IAU) released a feasibility study for its Granite Creek underground gold project, outlining updated reserves and mine planning. The Granite Creek study includes new measured and indicated resource figures alongside the first formal reserve estimates for the deposit. Management also re",
+      "relevance_score": 2,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gc=f",
+        "commodity",
+        "etf",
+        "mining",
+        "commodities"
+      ],
+      "narrative_tags": [
+        "gold-mining-feasibility",
+        "junior-miner-drill-results"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "asset:gold;target:GOLD;text:gold",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-26T09:10:22Z",
+      "collected_at": "2026-09-27T09:34:00.304947Z",
+      "in_event": true
+    },
+    {
+      "id": 4549,
+      "title": "China imported 1,100 tonnes of gold in 8 months — a record $158.8B haul that beats 2025, and a potential sign",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/china-imported-1-100-tonnes-103000537.html",
+      "summary": "China’s big gold play could spark interest for everyday American investors.",
+      "relevance_score": 3,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gc=f",
+        "commodity",
+        "commodities"
+      ],
+      "narrative_tags": [
+        "china-gold-demand",
+        "gold-record-imports"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "asset:gold;target:GOLD;text:gold",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-26T10:30:00Z",
+      "collected_at": "2026-09-27T09:34:00.303263Z",
+      "in_event": true
+    },
+    {
+      "id": 4548,
+      "title": "Silver Range Resources strikes two project deals – ICYMI",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://www.proactiveinvestors.com/companies/news/1099166/silver-range-resources-strikes-two-project-deals-icymi-1099166.html",
+      "summary": "Silver Range Resources Ltd (TSX-V:SNG, OTC:SLRRF, FRA:8SR) earlier this week outlined agreements with Resilience Minerals covering its Sand Springs and Alamo copper-gold projects in the southwestern United States, with CEO Mike Power explaining how the transactions fit the company’s prospect...",
+      "relevance_score": 2,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gc=f",
+        "commodity",
+        "commodities"
+      ],
+      "narrative_tags": [
+        "junior-miner-deals",
+        "copper-gold-projects"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "asset:gold;target:GOLD;text:gold;text:silver",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        },
+        {
+          "type": "asset",
+          "id": "silver",
+          "name": "白银",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-26T13:03:00Z",
+      "collected_at": "2026-09-27T09:34:00.302035Z",
+      "in_event": true
+    },
+    {
+      "id": 4547,
+      "title": "DraftKings (DKNG) In Focus After Shareholders Back Multibillion Dollar Gaming Merger",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/draftkings-dkng-focus-shareholders-back-131056027.html",
+      "summary": "DraftKings (NasdaqGS:DKNG) is in focus after Caesars Entertainment investors backed a multibillion dollar merger with Fertitta Gaming. Shareholders of Caesars Entertainment approved the Fertitta Gaming tie up at a special meeting held ahead of completion of the transaction. Tilman Fertitta, who cont",
+      "relevance_score": 3,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gc=f"
+      ],
+      "narrative_tags": [
+        "draftkings-merger",
+        "gaming-sector-consolidation"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "asset:gold;text:gold",
+      "exposure_targets": [
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-26T13:10:56Z",
+      "collected_at": "2026-09-27T09:34:00.300314Z",
+      "in_event": true
+    },
+    {
+      "id": 4546,
+      "title": "Fidelity Macro Chief Jurrien Timmer Says Bitcoin Bull Market Is Back, Targets $300K By 2029",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/fidelity-bitcoin-bull-market-is-back-price-target-300k-2029/cZMgS4qRBO6",
+      "summary": "Bitcoin is far above Timmer's important $60,000 support level but still around 33% below its all-time high of $126,198 in 2025.",
+      "relevance_score": 4,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gc=f",
+        "crypto"
+      ],
+      "narrative_tags": [
+        "bitcoin-bull-thesis",
+        "btc-300k-target"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "asset:gold;text:bitcoin;text:gold",
+      "exposure_targets": [
+        {
+          "type": "asset",
+          "id": "bitcoin",
+          "name": "比特币",
+          "market": "CRYPTO",
+          "kind": "crypto"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-26T14:25:23Z",
+      "collected_at": "2026-09-27T09:34:00.298056Z",
+      "in_event": true
+    },
+    {
+      "id": 4545,
+      "title": "Elemental Royalty (TSX:ELE) Could Be 124% Below Fair Value Following Orion Deal",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elemental-royalty-tsx-ele-could-170905194.html",
+      "summary": "Elemental Royalty (TSX:ELE) is in the spotlight after agreeing to acquire a US$290 million portfolio of streams and royalties from Orion managed funds, adding several cash flowing and development stage assets. Recent trading shows that Elemental Royalty’s acquisition plans are landing in an already ",
+      "relevance_score": 2,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gc=f",
+        "trading"
+      ],
+      "narrative_tags": [
+        "royalty-acquisition",
+        "mining-streams-deal"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "asset:gold;text:gold",
+      "exposure_targets": [
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-26T17:09:05Z",
+      "collected_at": "2026-09-27T09:34:00.296322Z",
+      "in_event": true
+    },
+    {
+      "id": 4544,
+      "title": "Is Sinda (SIND) Overvalued Following Its Caracol Drill Results?",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sinda-sind-overvalued-following-caracol-190931649.html",
+      "summary": "Sinda (SIND) reported its highest-grade drill intercept so far at the Caracol zone of the Sinda Silver-Gold Project in Guanajuato, Mexico, and outlined progress on site preparation for a planned exploration decline. Recent drilling news arrives against a mixed trading backdrop for Sinda, with the sh",
+      "relevance_score": 2,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gc=f",
+        "commodities",
+        "trading"
+      ],
+      "narrative_tags": [
+        "silver-gold-drill-results",
+        "junior-miner-exploration"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "asset:gold;target:GOLD;text:gold;text:silver",
+      "exposure_targets": [
+        {
+          "type": "company",
+          "id": "GOLD",
+          "name": "巴里克",
+          "sector": "避险与央行购金",
+          "macro": "geopolitics",
+          "market": "US",
+          "listed": true,
+          "reason": "黄金的股票表达"
+        },
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        },
+        {
+          "type": "asset",
+          "id": "silver",
+          "name": "白银",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-26T19:09:31Z",
+      "collected_at": "2026-09-27T09:34:00.293590Z",
+      "in_event": true
+    },
+    {
+      "id": 4543,
+      "title": "3 Australian Quality Small Cap Stocks To Watch In September 2026",
+      "source": "yahoo_finance",
+      "source_kind": "news",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-australian-quality-small-cap-021012540.html",
+      "summary": "US government bond yields sitting at two decade highs have put pressure on richly priced Australian blue chips and pushed many investors to the sidelines. That creates a rare opening in smaller quality businesses that big funds are ignoring. This article walks through three under the radar Australia",
+      "relevance_score": 2,
+      "priority_score": 6.35,
+      "momentum_label": "trending",
+      "tags": [
+        "gold",
+        "finance",
+        "ticker:gc=f"
+      ],
+      "narrative_tags": [
+        "australian-small-caps",
+        "bond-yield-pressure"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "matched",
+      "exposure_assets": [],
+      "exposure_reason": "asset:gold;text:gold",
+      "exposure_targets": [
+        {
+          "type": "asset",
+          "id": "gold",
+          "name": "黄金",
+          "market": "COMDTY",
+          "kind": "commodity"
+        }
+      ],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-27T02:10:12Z",
+      "collected_at": "2026-09-27T09:34:00.289991Z",
+      "in_event": true
+    },
+    {
+      "id": 4513,
+      "title": "宜家 Matter 智能家居终于要来了？在中国市场它将如何破局",
+      "source": "rss",
+      "source_kind": "blog",
+      "url": "https://sspai.com/post/114958",
+      "summary": "距离宜家首批Matter智能家居产品在海外上市已有大半年的时间，而中国市场则是许久未有消息。直到今年年中，多款宜家智能新品陆续出现在国家CCC认证数据库中，我们才得知：这批主打高性价比、支持新一代智能 ...查看全文",
+      "relevance_score": 2,
+      "priority_score": 6.3,
+      "momentum_label": "trending",
+      "tags": [
+        "cn-tech"
+      ],
+      "narrative_tags": [
+        "ikea-matter-smart-home",
+        "china-smart-home-market"
+      ],
+      "collection_lane": "hourly",
+      "exposure_universe_version": "park-exposure-registry-v6",
+      "exposure_status": "unmatched",
+      "exposure_assets": [],
+      "exposure_reason": "no_approved_exposure",
+      "exposure_targets": [],
+      "source_authority": null,
+      "corroboration_state": null,
+      "pin_eligibility": null,
+      "review_state": null,
+      "provider_channel_id": null,
+      "provider_message_id": null,
+      "upstream_url": null,
+      "upstream_attribution": null,
+      "provider_edit_at": null,
+      "is_backfill": false,
+      "backfill_reason": null,
+      "triage": {
+        "status": null,
+        "bucket": null,
+        "direction": null,
+        "rationale": null,
+        "affected_assets": [],
+        "watch_for": [],
+        "model": null,
+        "error": null,
+        "triaged_at": null
+      },
+      "published_at": "2026-09-26T06:00:00Z",
+      "collected_at": "2026-09-27T09:33:02.332384Z",
+      "in_event": true
+    }
+  ],
+  "context": {
+    "rising_topics": [
+      {
+        "topic": "no-content",
+        "count": 11,
+        "momentum_label": "rising"
+      },
+      {
+        "topic": "ethereum-scaling",
+        "count": 10,
+        "momentum_label": "rising"
+      },
+      {
+        "topic": "gold-futures",
+        "count": 10,
+        "momentum_label": "rising"
+      },
+      {
+        "topic": "promo-codes",
+        "count": 9,
+        "momentum_label": "rising"
+      },
+      {
+        "topic": "crypto-philosophy",
+        "count": 8,
+        "momentum_label": "rising"
+      },
+      {
+        "topic": "ethereum-roadmap",
+        "count": 8,
+        "momentum_label": "rising"
+      },
+      {
+        "topic": "noise",
+        "count": 7,
+        "momentum_label": "rising"
+      },
+      {
+        "topic": "no-market-content",
+        "count": 7,
+        "momentum_label": "rising"
+      },
+      {
+        "topic": "retail-deals",
+        "count": 7,
+        "momentum_label": "rising"
+      },
+      {
+        "topic": "empty-content",
+        "count": 7,
+        "momentum_label": "rising"
+      }
+    ],
+    "source_health": [
+      {
+        "source": "github_release",
+        "count": 0,
+        "last_seen_at": null,
+        "last_attempt_at": "2026-09-27T09:29:23.504165Z",
+        "status": "no_data"
+      },
+      {
+        "source": "github_trending",
+        "count": 66,
+        "last_seen_at": "2026-09-27T09:30:03.688546Z",
+        "last_attempt_at": "2026-09-27T09:30:03.689105Z",
+        "status": "ok"
+      },
+      {
+        "source": "google_news",
+        "count": 629,
+        "last_seen_at": "2026-09-27T09:30:32.656095Z",
+        "last_attempt_at": "2026-09-27T09:30:32.656691Z",
+        "status": "ok"
+      },
+      {
+        "source": "hackernews",
+        "count": 43,
+        "last_seen_at": "2026-09-27T09:30:27.018019Z",
+        "last_attempt_at": "2026-09-27T09:31:06.550514Z",
+        "status": "ok"
+      },
+      {
+        "source": "reddit",
+        "count": 25,
+        "last_seen_at": "2026-09-27T09:31:23.237428Z",
+        "last_attempt_at": "2026-09-27T09:31:35.567288Z",
+        "status": "ok"
+      },
+      {
+        "source": "rss",
+        "count": 3755,
+        "last_seen_at": "2026-09-27T09:33:05.599509Z",
+        "last_attempt_at": "2026-09-27T09:33:05.600253Z",
+        "status": "ok"
+      },
+      {
+        "source": "social_kol",
+        "count": 0,
+        "last_seen_at": null,
+        "last_attempt_at": "2026-09-27T09:32:21.460250Z",
+        "status": "no_data"
+      },
+      {
+        "source": "website_monitor",
+        "count": 24,
+        "last_seen_at": "2026-09-27T09:32:53.094320Z",
+        "last_attempt_at": "2026-09-27T09:32:53.674337Z",
+        "status": "ok"
+      },
+      {
+        "source": "xueqiu",
+        "count": 0,
+        "last_seen_at": null,
+        "last_attempt_at": "2026-09-27T09:33:22.543720Z",
+        "status": "no_data"
+      },
+      {
+        "source": "yahoo_finance",
+        "count": 68,
+        "last_seen_at": "2026-09-27T09:34:00.348604Z",
+        "last_attempt_at": "2026-09-27T09:34:00.349151Z",
+        "status": "ok"
+      }
+    ],
+    "top_events": []
+  },
+  "page": {
+    "next_cursor": "6.3000:4513"
+  }
+}

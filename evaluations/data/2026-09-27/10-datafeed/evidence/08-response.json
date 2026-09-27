@@ -1,0 +1,136 @@
+{
+  "ticker": "10 Yr",
+  "instrument_id": "us10y",
+  "provider_symbol": "10 Yr",
+  "asset_class": "macro",
+  "timeframe": "1d",
+  "count": 5,
+  "raw_timeframe": "1d",
+  "timeframe_origin": "native",
+  "aggregation": {
+    "kind": "none",
+    "rule": "native_passthrough"
+  },
+  "source_identity": {
+    "provider": "treasury_official",
+    "source_mode": "treasury_official_csv",
+    "provider_symbol": "10 Yr",
+    "timeframe": "1d",
+    "source_id": "treasury_official_csv",
+    "endpoint": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/{year}/all",
+    "dataset": "daily_treasury_yield_curve",
+    "series_kind": "rate_level",
+    "unit": "percent",
+    "observation_count": 5,
+    "raw_timeframe": "1d",
+    "timeframe_origin": "native",
+    "aggregation": {
+      "kind": "none",
+      "rule": "native_passthrough"
+    }
+  },
+  "schema_version": "kline-candles-v1",
+  "provider": "treasury_official",
+  "source_mode": "treasury_official_csv",
+  "requested_source": "treasury_official_csv",
+  "selected_source": "treasury_official_csv",
+  "selection_reason": "requested_or_default",
+  "attempted_sources": [
+    "treasury_official_csv"
+  ],
+  "cache_policy": "bypass",
+  "quality_policy": "standard",
+  "fallback_policy": "none",
+  "require_execution_venue": false,
+  "quality_flags": [
+    "official_api",
+    "daily_level",
+    "research_only"
+  ],
+  "is_synthetic": false,
+  "served_from": "upstream",
+  "fresh": null,
+  "latest_timestamp": "2026-09-25",
+  "age_seconds": 206270.678122,
+  "max_age_seconds": null,
+  "execution_venue": false,
+  "reject_reason": null,
+  "access_issues": [],
+  "candles": [
+    {
+      "timestamp": "2026-09-21",
+      "open": 4.96,
+      "high": 4.96,
+      "low": 4.96,
+      "close": 4.96,
+      "volume": 0.0,
+      "amount": null,
+      "provider": "treasury_official",
+      "quality_flags": [
+        "official_api",
+        "daily_level",
+        "research_only"
+      ]
+    },
+    {
+      "timestamp": "2026-09-22",
+      "open": 4.96,
+      "high": 4.96,
+      "low": 4.96,
+      "close": 4.96,
+      "volume": 0.0,
+      "amount": null,
+      "provider": "treasury_official",
+      "quality_flags": [
+        "official_api",
+        "daily_level",
+        "research_only"
+      ]
+    },
+    {
+      "timestamp": "2026-09-23",
+      "open": 5.11,
+      "high": 5.11,
+      "low": 5.11,
+      "close": 5.11,
+      "volume": 0.0,
+      "amount": null,
+      "provider": "treasury_official",
+      "quality_flags": [
+        "official_api",
+        "daily_level",
+        "research_only"
+      ]
+    },
+    {
+      "timestamp": "2026-09-24",
+      "open": 5.18,
+      "high": 5.18,
+      "low": 5.18,
+      "close": 5.18,
+      "volume": 0.0,
+      "amount": null,
+      "provider": "treasury_official",
+      "quality_flags": [
+        "official_api",
+        "daily_level",
+        "research_only"
+      ]
+    },
+    {
+      "timestamp": "2026-09-25",
+      "open": 5.17,
+      "high": 5.17,
+      "low": 5.17,
+      "close": 5.17,
+      "volume": 0.0,
+      "amount": null,
+      "provider": "treasury_official",
+      "quality_flags": [
+        "official_api",
+        "daily_level",
+        "research_only"
+      ]
+    }
+  ]
+}

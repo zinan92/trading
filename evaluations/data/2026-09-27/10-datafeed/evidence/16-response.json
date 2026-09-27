@@ -1,0 +1,7 @@
+{
+  "detail": {
+    "error": "market_sessions_unavailable",
+    "detail": "Source yahoo_finance_free does not expose market sessions",
+    "source": "yahoo_finance_free"
+  }
+}

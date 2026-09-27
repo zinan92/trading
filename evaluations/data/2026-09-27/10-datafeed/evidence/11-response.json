@@ -1,0 +1,48 @@
+{
+  "detail": {
+    "error": "execution_venue_required",
+    "detail": "Source binance_spot_public is not an execution venue",
+    "suggestions": [
+      "Use source=binance_usdm_futures for XAUUSDT execution live data"
+    ],
+    "provider": "binance_spot",
+    "source_mode": "binance_spot_public",
+    "provider_symbol": "BTC",
+    "timeframe": "1m",
+    "raw_timeframe": null,
+    "timeframe_origin": null,
+    "aggregation": {},
+    "source_identity": {
+      "provider_symbol": "BTC",
+      "provider": "binance_spot",
+      "source_mode": "binance_spot_public",
+      "timeframe": "1m"
+    },
+    "requested_source": "binance_spot_public",
+    "selected_source": "binance_spot_public",
+    "attempted_sources": [
+      "binance_spot_public"
+    ],
+    "cache_policy": "bypass",
+    "quality_policy": "standard",
+    "fallback_policy": "none",
+    "require_execution_venue": true,
+    "served_from": "upstream",
+    "is_synthetic": false,
+    "fresh": null,
+    "latest_timestamp": null,
+    "age_seconds": null,
+    "max_age_seconds": null,
+    "quality_flags": [
+      "public_api",
+      "spot",
+      "research_only",
+      "not_execution_venue"
+    ],
+    "execution_venue": false,
+    "reject_reason": "not_execution_venue",
+    "access_issues": [
+      "binance_spot_public has execution_venue=false"
+    ]
+  }
+}

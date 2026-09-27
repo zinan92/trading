@@ -1,0 +1,56 @@
+{
+  "items": [],
+  "buckets": {
+    "high_impact": [],
+    "watch": [],
+    "noise": []
+  },
+  "providers": {
+    "deepseek": {
+      "status": "ok",
+      "observed_at": "2026-09-27T09:36:33.132819+00:00",
+      "model": "deepseek-v4-flash"
+    }
+  },
+  "operational": {
+    "unknown": {
+      "count": 0,
+      "complete_count": 0,
+      "rate": 0.0,
+      "alert_threshold": 0.1,
+      "alert": false
+    },
+    "pending": 0,
+    "failed": 0,
+    "exposure": {
+      "universe_version": "park-exposure-registry-v6",
+      "matched": 0,
+      "excluded": 0,
+      "unclassified": 0
+    }
+  },
+  "stats": {
+    "total": 0,
+    "returned": 0,
+    "displayed_events": 0,
+    "duplicate_reports_collapsed": 0,
+    "operational_events_hidden": 0,
+    "triaged": 0,
+    "pending": 0,
+    "failed": 0,
+    "exposure_excluded": 0,
+    "exposure_unclassified": 0,
+    "last_collected_at": null,
+    "last_triaged_at": null,
+    "refreshed_at": "2026-09-27T09:37:37.602506Z",
+    "ingest_rate": {
+      "status": "ok",
+      "window_minutes": 10,
+      "article_count": 0,
+      "headlines_per_minute": 0.0,
+      "window_started_at": "2026-09-27T09:27:37.602506Z",
+      "window_ended_at": "2026-09-27T09:37:37.602506Z"
+    }
+  },
+  "source_health": []
+}

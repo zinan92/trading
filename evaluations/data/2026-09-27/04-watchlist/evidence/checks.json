@@ -1,0 +1,119 @@
+{
+  "source_sha": "29ce3c0ad6c6d5f822c860c42ae5ccd251c240d2",
+  "source_yaml_sha256": "e43fdea4c50b0d559803f271ef098b2dbcac1aa0631dfde2c5150a601baddb0b",
+  "source_html_sha256": "ece23db506000a8302540aacc8d643ae91b6412a0cc8d789f599c4f60ed4dc91",
+  "checks": [
+    {
+      "id": 1,
+      "title": "版本与规模",
+      "command": "yaml.safe_load(watchlist.yaml)",
+      "status": "pass",
+      "result": {
+        "version": 6,
+        "updated": "2026-09-03",
+        "assets": 16,
+        "macros": 6,
+        "sectors": 26,
+        "target_mentions": 122,
+        "unique_target_ids": 119
+      }
+    },
+    {
+      "id": 2,
+      "title": "原生页面与 YAML 赛道对照",
+      "command": "HTMLParser(index.html td.sector) ↔ sectors[].name",
+      "status": "pass",
+      "result": {
+        "html_sectors": 26,
+        "yaml_sectors": 26,
+        "missing_in_html": [],
+        "extra_in_html": []
+      }
+    },
+    {
+      "id": 3,
+      "title": "target 原因与宏观归属",
+      "command": "check every target.reason and sectors[].macro",
+      "status": "pass",
+      "result": {
+        "missing_reason": [],
+        "invalid_macro_refs": [],
+        "reason_coverage": "122/122"
+      }
+    },
+    {
+      "id": 4,
+      "title": "新闻别名与多重归属",
+      "command": "aliases[].target ⊆ target ids; count repeat memberships",
+      "status": "pass",
+      "result": {
+        "alias_rules": 16,
+        "orphan_alias_targets": [],
+        "multi_sector_ids": {
+          "000660.KS": 2,
+          "长江电力": 2,
+          "MRVL": 2
+        }
+      }
+    },
+    {
+      "id": 5,
+      "title": "资产与 target 市场覆盖",
+      "command": "group assets.market and targets.market",
+      "status": "pass",
+      "result": {
+        "asset_markets": {
+          "US": 4,
+          "FX": 1,
+          "CRYPTO": 3,
+          "CN": 3,
+          "JP": 1,
+          "KR": 1,
+          "COMDTY": 3
+        },
+        "target_mention_markets": {
+          "unspecified": 28,
+          "KR": 2,
+          "US": 49,
+          "CN": 39,
+          "HK": 4
+        },
+        "asset_count": 16,
+        "this_file_contains_prices": false
+      }
+    },
+    {
+      "id": 6,
+      "title": "未上市标的代码检查",
+      "command": "listed:false target must not have six-digit market-code id",
+      "status": "pass",
+      "result": {
+        "unlisted_count": 25,
+        "numeric_code_conflicts": []
+      }
+    },
+    {
+      "id": 7,
+      "title": "Trading 目录介绍与当前源规模",
+      "command": "compare published Trading catalog description with source YAML",
+      "status": "finding",
+      "result": {
+        "catalog_description": "6 条宏观主线 / 24 个中观赛道 / 109 个 target",
+        "source_summary": "6 宏观 / 26 赛道 / 122 target 归属",
+        "catalog_description_stale": true
+      }
+    },
+    {
+      "id": 8,
+      "title": "锁定版本原始 YAML 远程直取",
+      "command": "GET https://raw.githubusercontent.com/zinan92/watchlist/29ce3c0ad6c6d5f822c860c42ae5ccd251c240d2/watchlist.yaml",
+      "status": "pass",
+      "result": {
+        "http_bytes": 22465,
+        "remote_sha256": "e43fdea4c50b0d559803f271ef098b2dbcac1aa0631dfde2c5150a601baddb0b",
+        "local_sha256": "e43fdea4c50b0d559803f271ef098b2dbcac1aa0631dfde2c5150a601baddb0b",
+        "same_content": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "source_sha": "a1e54b07e5c21b375363607920f297c5adfbeed4",
+  "catalog_lock": "a1e54b07e5c21b375363607920f297c5adfbeed4",
+  "version": "0.9.0",
+  "mcp_tools_exposed": 39,
+  "probes": 26,
+  "success": 23,
+  "error": 3,
+  "screenshots": 26,
+  "median_response_seconds": 1.27,
+  "maximum_response_seconds": 20.3,
+  "auth": "no TradingView account, no API key",
+  "screenshot_surface": "Product Lab evidence viewer over real stdio MCP output; no native web UI"
+}
