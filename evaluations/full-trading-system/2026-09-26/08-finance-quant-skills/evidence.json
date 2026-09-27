@@ -1,0 +1,23 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "source_sha": "d973f3595fc7e26ca00de347f76425ae289291ad",
+      "catalog_lock": "7af066194d8d",
+      "installed_skills": 13,
+      "global_install": false,
+      "tested_skills": [
+        "baostock",
+        "backtrader"
+      ],
+      "others": "entry and resource inventory only; not runtime tested",
+      "baostock_bars": 178,
+      "symbol": "sh.600519",
+      "range": "2026-01-05 to 2026-09-24",
+      "backtrader_closed_trades": 8,
+      "backtrader_equity_points": 159,
+      "screenshots": 17
+    }
+  }
+}

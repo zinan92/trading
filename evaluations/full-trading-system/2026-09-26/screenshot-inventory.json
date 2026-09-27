@@ -1,0 +1,3698 @@
+[
+  {
+    "source_id": "01-001",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "cfd5e1eb94fb21b38584233da79a4b4e2ea502f33261ef50977b3fd08cab43ff",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-001.jpg"
+  },
+  {
+    "source_id": "01-002",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "d60206dfdf2f65d787d1dc7a09d579a73b8efe01fb3a00a3ee577e0ade7f4612",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-002.jpg"
+  },
+  {
+    "source_id": "01-003",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "32ac5fe8bf90e654c0387fa38665cfbe5b4393ddb0cc2eac4b23cddcfd95d4a8",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-003.jpg"
+  },
+  {
+    "source_id": "01-004",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "369cbeac446019d51cbb90667970a7bc63545d40b8171bc2882f0a36f7a826f3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-004.jpg"
+  },
+  {
+    "source_id": "01-005",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "f708098f0399218a57b09d3b73bf261259d61b4379ceb57248346d7f40ab8a68",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-005.jpg"
+  },
+  {
+    "source_id": "01-006",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "207045b35615a9dc4b5282704d1379e205ab49c26fae7dc149d50c58369856f4",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-006.jpg"
+  },
+  {
+    "source_id": "01-007",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "b069dbb34bb09f316f032e9e48101a810f8d71f47a454c1373b89ce2af9f697b",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-007.jpg"
+  },
+  {
+    "source_id": "01-008",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "0c3cf4456e93d646d5f18b0f6cfaf753694e3727ab6dc0fb0a4b03cff8f2bd58",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-008.jpg"
+  },
+  {
+    "source_id": "01-009",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "04e1cfc0ae2518646fba59757c60bfb519fd799ed97a1adbfd355c79e6ca5254",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-009.jpg"
+  },
+  {
+    "source_id": "01-010",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "9834a3f219ddf4b58ecdfb6208f4e764edb8a0b600679f3b484802602213aec7",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-010.jpg"
+  },
+  {
+    "source_id": "01-011",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "609b645661e5b68eeab385a6a50d46ccec68d9974094e9b5bf376961fddcb9d8",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-011.jpg"
+  },
+  {
+    "source_id": "01-012",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "5bc2cd7b9703f6a8176758e8ddb5125076f1c040cd758513c13f26bc96c56ae7",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-012.jpg"
+  },
+  {
+    "source_id": "01-013",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "49e4993a10e80a0a76fc675a0e6dd415f6f134aa3b3475d7513cd6749c5a3ee6",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-013.jpg"
+  },
+  {
+    "source_id": "01-014",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "a51dd80e054f85cfaecd43a97527eec9bbd90309ce96a82df58a5c2c75768356",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-014.jpg"
+  },
+  {
+    "source_id": "01-015",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "59b88ebb82532668edc2c015c47cc1daac8a559c5a5c3f43ffdea3e44f2a29ed",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-015.jpg"
+  },
+  {
+    "source_id": "01-016",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "67338a74dbdcf0254741c1403529e01195e68109ee81dd24ffe8b55b8059ed62",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-016.jpg"
+  },
+  {
+    "source_id": "01-017",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "0e667a0549285f83bfb143872218b917b6361f9da186b7b181f6c9f0ea1e0b05",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-017.jpg"
+  },
+  {
+    "source_id": "01-018",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "a787b676197d558de0d3ae8313ee4c4a83b8c4ceff76bb18e46f45236d26330c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-018.jpg"
+  },
+  {
+    "source_id": "01-019",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "b348ba853eb519a8157e825ba4de4d26e93cd78ce4d90dfdbb751f2b757bc61a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-019.jpg"
+  },
+  {
+    "source_id": "01-020",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "d04de7986a6ef9ad52390ceb2214f1fbcca8ce4063669194205774b26097ac80",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-020.jpg"
+  },
+  {
+    "source_id": "01-021",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "e00171e88ad225035a4ce1bffaf579d3ab2d1841c894f226df62b731b8e84d63",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-021.jpg"
+  },
+  {
+    "source_id": "01-022",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "0c30f2c72f1f45b5183c030118b7fe1c2be3f12bec98772e3fad035acbb8edbb",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-022.jpg"
+  },
+  {
+    "source_id": "01-023",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "2e3d367a1856aba71827fd234627076b43321e0eb8603c326a9367246a94685b",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-023.jpg"
+  },
+  {
+    "source_id": "01-024",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "e61cbbd4fd1ec3772c439d6cf21262da643f859b2cb5579bdb7af6b03718338e",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-024.jpg"
+  },
+  {
+    "source_id": "01-025",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "495d61231bfb5e3e7059aa14c29abd4a5d19c841830f702bd208a848bffd4910",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-025.jpg"
+  },
+  {
+    "source_id": "01-026",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "735a0bf9c82c48a1d65f4c4048ff190c731248891b2ef22999bd79bdf71d6013",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-026.jpg"
+  },
+  {
+    "source_id": "01-027",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "bf016362722e458247138795863d302b11a6e5b265e91f2b6d84906b712c57fb",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-027.jpg"
+  },
+  {
+    "source_id": "01-028",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "b2d2032886819d99b4a867c012e66b0e2fdc678490733125aec1b7d1d557ff78",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-028.jpg"
+  },
+  {
+    "source_id": "01-029",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "8687576d47dc4f84956a38e8bba72d7873b7b33a2cd6d13cbc18cb4abbe3bbfb",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-029.jpg"
+  },
+  {
+    "source_id": "01-030",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "32e8ef440f02fd940be41af509ade4589c681734ffe0d92794c75bd2a00d4478",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-030.jpg"
+  },
+  {
+    "source_id": "01-031",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "cf673781dc65fcde79125a91edc66c44b5b553a5589f4efbb8ddab0b180176e3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-031.jpg"
+  },
+  {
+    "source_id": "01-032",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "a3a3befa661d710ba39c5ffeaff049cba165ea87683580b444916cf32113e3fc",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-032.jpg"
+  },
+  {
+    "source_id": "01-033",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "5911fd040410f6b59027ca4e93f289f181e5a9d36c79b314bf6e558b949baad3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-033.jpg"
+  },
+  {
+    "source_id": "01-034",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "72794ed0d05654aab7f247f36e37209a6bcd20a37ceecdf245b28eb5ac14364c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-034.jpg"
+  },
+  {
+    "source_id": "01-035",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "323e109cb2776aae7dacad86761aaff0f74c36f8ce95696e046b25b7e93907c4",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-035.jpg"
+  },
+  {
+    "source_id": "01-036",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "f8d5c762dc8a9aa1cc720838af218f1472841bb5927b91e6e3a580ae02efdd27",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-036.jpg"
+  },
+  {
+    "source_id": "01-037",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "bca983db06bcda98bc0507a1e40fc936b1e59e1de85ab7d68593863cd2922a92",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-037.jpg"
+  },
+  {
+    "source_id": "01-038",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "eae539e29e694e7035fea45e94eb9fa1a7b2efe392fcfbbd5e17a99bbd3b8cac",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-038.jpg"
+  },
+  {
+    "source_id": "01-039",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "80f66372c90f6ee00aec5d2bb4baaad87e20ff25fa227221d5da2de7796a68e8",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-039.jpg"
+  },
+  {
+    "source_id": "01-040",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "6a08314c3392b72982226416ededd53c7193ffd4fe0277c21b7dda646afc65a1",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-040.jpg"
+  },
+  {
+    "source_id": "01-041",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "d02f3167b7b26bbb6f52ca2f6416ce9f40cbf4afae3a14953b49aea793a3e336",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-041.jpg"
+  },
+  {
+    "source_id": "01-042",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "8c564a6edfa6ded550f3d5fec03550c0a21fe9ae6c8c53099e4ebd3b2238549e",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "public_file": "01-go-stock/images/01-042.jpg"
+  },
+  {
+    "source_id": "01-043",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "32ac5fe8bf90e654c0387fa38665cfbe5b4393ddb0cc2eac4b23cddcfd95d4a8",
+    "status": "duplicate",
+    "reason": "同产品像素完全重复：01-003",
+    "published_product": "01-go-stock"
+  },
+  {
+    "source_id": "01-044",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "f253a27d02ae212fe73b1f3c9aa22f18464351977039e8a00123e525c62776b3",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天/个人浏览内容，与产品画面无关",
+    "published_product": "01-go-stock"
+  },
+  {
+    "source_id": "01-045",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "c270907b370b151a686d88cc88dfe9ae47e35b366f5971651b32a9eec9b4dbc6",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "crop": [
+      0,
+      45,
+      2560,
+      1415
+    ],
+    "public_file": "01-go-stock/images/01-045.jpg"
+  },
+  {
+    "source_id": "01-046",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "81c4a02d11f45bd8fd6bafeeff89c7d33667b1a2574b3452a1f8387373d17e60",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天/个人浏览内容，与产品画面无关",
+    "published_product": "01-go-stock"
+  },
+  {
+    "source_id": "01-047",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "96e73b935dedb664989acace37bf28b448800da11fa2f524ae52eb9d36561de2",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "crop": [
+      140,
+      255,
+      2187,
+      1306
+    ],
+    "public_file": "01-go-stock/images/01-047.jpg"
+  },
+  {
+    "source_id": "01-048",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "529355681528e17dca4c3ee27f961881cff79b1930359ab89df0526136c60a3d",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天/个人浏览内容，与产品画面无关",
+    "published_product": "01-go-stock"
+  },
+  {
+    "source_id": "01-049",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "f43015084e0a8431bd8596b288d9dfcf66d5d13b47ac316d7068d393f3eb0d14",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "crop": [
+      140,
+      255,
+      2187,
+      1306
+    ],
+    "public_file": "01-go-stock/images/01-049.jpg"
+  },
+  {
+    "source_id": "01-050",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "14241e13c49d3ee89f3a76bdb08077592c3bcfe5226733fc72741e8e50716af3",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天/个人浏览内容，与产品画面无关",
+    "published_product": "01-go-stock"
+  },
+  {
+    "source_id": "01-051",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "0c3703328b889d205358baf42e787ce48d41f450f9fca2f1b5266202c690c2a7",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "crop": [
+      140,
+      255,
+      2187,
+      1306
+    ],
+    "public_file": "01-go-stock/images/01-051.jpg"
+  },
+  {
+    "source_id": "01-052",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "db8685d63bf11d9e0042d78dc6f6f084681c8288ee457236bbfc2b2593760e5a",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天/个人浏览内容，与产品画面无关",
+    "published_product": "01-go-stock"
+  },
+  {
+    "source_id": "01-053",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "4ab7a0c900f8fbb0dcbeee5df46265f552eda539f34e695d5778b8c4edf4ba87",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "crop": [
+      140,
+      255,
+      2187,
+      1306
+    ],
+    "public_file": "01-go-stock/images/01-053.jpg"
+  },
+  {
+    "source_id": "01-054",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "2f359b928dff80d9a9e9f13a484debcc26d69cfb2ee1f7dca196b004e2c10d03",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天/个人浏览内容，与产品画面无关",
+    "published_product": "01-go-stock"
+  },
+  {
+    "source_id": "01-055",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "9fe28e96680efcc716de81737a48492f63b6565bdf2ec02a48c24d6a5ad67f3c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "crop": [
+      140,
+      255,
+      2187,
+      1306
+    ],
+    "public_file": "01-go-stock/images/01-055.jpg"
+  },
+  {
+    "source_id": "01-056",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "8b6ffa287a74701d8e090ca06a0fd3416e076beec49e3d949e16707bfdde6321",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天/个人浏览内容，与产品画面无关",
+    "published_product": "01-go-stock"
+  },
+  {
+    "source_id": "01-057",
+    "source_product_folder": "01-go-stock",
+    "source_file_sha256": "9d742152510032a5f74c640720ace518fd238cafe58eaa3246566c5fe0e9b9b4",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "01-go-stock",
+    "crop": [
+      140,
+      255,
+      2187,
+      1306
+    ],
+    "public_file": "01-go-stock/images/01-057.jpg"
+  },
+  {
+    "source_id": "02-001",
+    "source_product_folder": "02-finhack",
+    "source_file_sha256": "a314804b09c516a30eb1603d3dd1a83638ea7cdf4cb1ab82c33865b8c81e4583",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "02-finhack",
+    "public_file": "02-finhack/images/02-001.jpg"
+  },
+  {
+    "source_id": "02-002",
+    "source_product_folder": "02-finhack",
+    "source_file_sha256": "72c67b885295ff6fc2d6fbe036c1740fc70ddbff833952d6341e6b4635372cf5",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "02-finhack",
+    "public_file": "02-finhack/images/02-002.jpg",
+    "privacy_redactions_public_coordinates": [
+      [
+        401,
+        874,
+        1030,
+        892
+      ]
+    ]
+  },
+  {
+    "source_id": "03-001",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "0b05628674a238f0a2d0a70f12bdb1110da4a5fa50ddb056cb98f344be2d98a2",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "03-fomomo",
+    "public_file": "03-fomomo/images/03-001.jpg"
+  },
+  {
+    "source_id": "03-002",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "7e2b1a91d5396e4b400dd3bf3c0131f2f632915a058cbf22306e317354613502",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "03-fomomo",
+    "public_file": "03-fomomo/images/03-002.jpg"
+  },
+  {
+    "source_id": "03-003",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "f3a419ff6647ebca3fac6aac6a113c4874d3f2fa0c6f00375278662b61f7e5bd",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "03-fomomo",
+    "public_file": "03-fomomo/images/03-003.jpg"
+  },
+  {
+    "source_id": "03-004",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "dd4d6b89822ab0be939f7ad6c98ee23c1f962a075ee42ae69dea2b2dcb40fcd5",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "03-fomomo",
+    "public_file": "03-fomomo/images/03-004.jpg"
+  },
+  {
+    "source_id": "03-005",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "6b57ab6ee837ce9c95fa9c3c091ae1be8ac2077c750e490e12bb38cc2576eb8c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "03-fomomo",
+    "crop": [
+      0,
+      150,
+      1920,
+      1080
+    ],
+    "public_file": "03-fomomo/images/03-005.jpg"
+  },
+  {
+    "source_id": "03-006",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "cd2f49824dc525b2c318279fd0118a530ac762dab7c1728893fd0fe781f45be9",
+    "status": "excluded",
+    "reason": "聊天界面与重复辅助页，不是新增产品画面",
+    "published_product": "03-fomomo"
+  },
+  {
+    "source_id": "03-007",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "a6f560446b19c9a5ebac1e0e7427f2200e05edc8ee589ec96f6f6b361f1c72e3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "03-fomomo",
+    "crop": [
+      0,
+      150,
+      1920,
+      1080
+    ],
+    "public_file": "03-fomomo/images/03-007.jpg"
+  },
+  {
+    "source_id": "03-008",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "394bfda587a0e158df8f70f5301cdb919206d385361cac4854532d7eef8884c9",
+    "status": "excluded",
+    "reason": "聊天界面与重复辅助页，不是新增产品画面",
+    "published_product": "03-fomomo"
+  },
+  {
+    "source_id": "03-009",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "8216efc4f5b3da684352147f1b9e3fad5e0d39012e5317bea1e871a1bffb9adc",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "03-fomomo",
+    "crop": [
+      0,
+      150,
+      1920,
+      1080
+    ],
+    "public_file": "03-fomomo/images/03-009.jpg"
+  },
+  {
+    "source_id": "03-010",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "7f69c05375845065a60f771f885800d200d00f5263bba450c0fb9845215987bd",
+    "status": "excluded",
+    "reason": "聊天界面与重复辅助页，不是新增产品画面",
+    "published_product": "03-fomomo"
+  },
+  {
+    "source_id": "03-011",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "da17cde762053c88177d5b6d4e267ee6a47f74b58c94ca6a0ff5f25f873a5593",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "03-fomomo",
+    "crop": [
+      0,
+      150,
+      1920,
+      1080
+    ],
+    "public_file": "03-fomomo/images/03-011.jpg"
+  },
+  {
+    "source_id": "03-012",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "c3af5703ebd6800e672ddda9b1b90ff13731b48e3f769ee231950c50638e3715",
+    "status": "excluded",
+    "reason": "聊天界面与重复辅助页，不是新增产品画面",
+    "published_product": "03-fomomo"
+  },
+  {
+    "source_id": "03-013",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "4195a68ca45765368e08b04274fc192396d5016e0dfdf136316a0adbb68164a3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "03-fomomo",
+    "crop": [
+      0,
+      150,
+      1920,
+      1080
+    ],
+    "public_file": "03-fomomo/images/03-013.jpg"
+  },
+  {
+    "source_id": "03-014",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "4cab4f8c5429dcf61abe59f1d12553260bdb9eb3fa8d0c505ab464ed03f5c4a1",
+    "status": "excluded",
+    "reason": "聊天界面与重复辅助页，不是新增产品画面",
+    "published_product": "03-fomomo"
+  },
+  {
+    "source_id": "03-015",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "00a5a209e82660f1c058f8c6896fe1e897cdce04bda1cffdd51aa1993418e8bb",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "03-fomomo",
+    "crop": [
+      0,
+      150,
+      1920,
+      1080
+    ],
+    "public_file": "03-fomomo/images/03-015.jpg"
+  },
+  {
+    "source_id": "03-016",
+    "source_product_folder": "03-fomomo",
+    "source_file_sha256": "92e9adbc31b3cd8e987b4c57e43cb155e1cb017d3a36cef103a99738c43b0414",
+    "status": "excluded",
+    "reason": "聊天界面与重复辅助页，不是新增产品画面",
+    "published_product": "03-fomomo"
+  },
+  {
+    "source_id": "04-001",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "691509a1bac0e722d42461412f5ca95f4805bf91017c62e744d1de8297931261",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-001.jpg"
+  },
+  {
+    "source_id": "04-002",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "3d3db97871c923bea572553a16feb215fe3e88b144d03cd85e7b89caac6ba946",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-002.jpg"
+  },
+  {
+    "source_id": "04-003",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "83ed3ba292aec27a2c60b0eaff671289731717d62e64506f0743bf527b91d164",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-003.jpg"
+  },
+  {
+    "source_id": "04-004",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "a9b2b930994d3fa7ce105e96bfc86f7e23565026b38fcb99d2588cc873f1643b",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-004.jpg"
+  },
+  {
+    "source_id": "04-005",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "51a2d534555106628e05f5bd2b7fa776a4e7ac4f178becefab033eea7c7da50a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-005.jpg"
+  },
+  {
+    "source_id": "04-006",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "f2bfdd7603a7b9765aaf5044862b75677bee5fa9e658cf20a4541f321f310491",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-006.jpg"
+  },
+  {
+    "source_id": "04-007",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "2198ca48a3587c3f1b00323a6fc0027c694f795eb59931f6017526a0877a6766",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-007.jpg"
+  },
+  {
+    "source_id": "04-008",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "0b36023d9eac200fb3a827e398330ac5d52e07f75a54b83f4cee7d12eb835f8c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-008.jpg"
+  },
+  {
+    "source_id": "04-009",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "45d782ca567f3946f1699f19196b2cc038312dddb63402de24c9167591b7a0b8",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-009.jpg"
+  },
+  {
+    "source_id": "04-010",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "ebcb23943407d532cbf261a3b79f75bba40c4b733ad4996226d547ae5b2be2d2",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-010.jpg"
+  },
+  {
+    "source_id": "04-011",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "a37af6c1ddb518fcaf7a8f20fa21c6f8b6f9443ca8bf2c0c474b73b206d9861c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-011.jpg"
+  },
+  {
+    "source_id": "04-012",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "4f3b9befb7ab55bb0d53fbc0da574110e5aac101d3ff45257a718da140884351",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-012.jpg"
+  },
+  {
+    "source_id": "04-013",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "0e2f88a4b81875ddc018dbe920c04322f45f18c6c0cb9c437940c1690efb008b",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-013.jpg"
+  },
+  {
+    "source_id": "04-014",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "d890963c01a44e10457e9c55ee00706db448a4ee0d7dd30d83f08fc99689867b",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-014.jpg"
+  },
+  {
+    "source_id": "04-015",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "75a0965f711ca7b99e2228878354183a80f1d95c93305af22a70d287aa95d2e2",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-015.jpg"
+  },
+  {
+    "source_id": "04-016",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "99dd2b6932f27273c29f4163acfa08b36870f41601a6025e3eb844eaa78d6567",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-016.jpg"
+  },
+  {
+    "source_id": "04-017",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "6150f5ab04ab774b79a8533574ea4ea8435c765227595490bbccf0ab9ef2ac41",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-017.jpg"
+  },
+  {
+    "source_id": "04-018",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "17fc7f1ab2c994e86efa83672a69a20b5b085ec458225a41be7406865993ba21",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-018.jpg"
+  },
+  {
+    "source_id": "04-019",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "b0bd20bbd96399a2a6e415e0fb975e36201b66e091186207a641e3cd6273c2ed",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-019.jpg"
+  },
+  {
+    "source_id": "04-020",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "ce8335109bf1ce7d72fcae87e34e1bb7e449abcad64d21ddb5b9eabfe0857261",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-020.jpg"
+  },
+  {
+    "source_id": "04-021",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "a3821f7aa84345ea29c1f1a885a8512890e17a380733d023e66cc50a6228fd2a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-021.jpg"
+  },
+  {
+    "source_id": "04-022",
+    "source_product_folder": "04-khunter",
+    "source_file_sha256": "f4ad1b92750c6617592b2d47e1818d05c0124aecd9d6d9497787563c06bf40d5",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "public_file": "04-khunter/images/04-022.jpg"
+  },
+  {
+    "source_id": "05-001",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "5e49714fceeea316eb4faa351d3509bb38222863c9c965e47722ec5021e6d20c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-001.jpg",
+    "privacy_redactions_public_coordinates": [
+      [
+        845,
+        654,
+        1303,
+        674
+      ]
+    ]
+  },
+  {
+    "source_id": "05-002",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "c1f2b8bc859bb6a4f1fbf9a504eadaa08c5dda4f159690586b0c2e5732c23433",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-002.jpg"
+  },
+  {
+    "source_id": "05-003",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "6326809e09eb98f35a8172c2e1c1272a113b007b1808319b5579ea5b3ea1a5a3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-003.jpg"
+  },
+  {
+    "source_id": "05-004",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "54ca47d902ee3f29fed51810333cdf8572811e74957e0693b23de37f5223b6f3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-004.jpg"
+  },
+  {
+    "source_id": "05-005",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "00c07199e44e23a8b4f979589253a50d1be3eff174ed16c5eac9f8a0532eef33",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-005.jpg"
+  },
+  {
+    "source_id": "05-006",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "6415424bd475e3d7f7f441213c0c46cfdb844bd5a0bcf582a807ac60a43b1177",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-006.jpg"
+  },
+  {
+    "source_id": "05-007",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "398a788207705555785c706bd78fdab89637e632962158a31a0c982ccd1643aa",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-007.jpg"
+  },
+  {
+    "source_id": "05-008",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "27addf9e177a3ab3e99dcba8ac93c3cd062536ca87a5e6a339684f0be6a9e2ca",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-008.jpg"
+  },
+  {
+    "source_id": "05-009",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "9c16ec35d4c9ed121f2406992778991864967ee1bba448b7f577f8c34eec23f7",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-009.jpg"
+  },
+  {
+    "source_id": "05-010",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "a0850790af7f22b2bf042f95da410f8520104a48167dc2e2c4620e99ff197004",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-010.jpg"
+  },
+  {
+    "source_id": "05-011",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "efd8cf0d2ded8243ef3858fa5517ea30a6810dec76960deb585dadc07b9efcaa",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-011.jpg"
+  },
+  {
+    "source_id": "05-012",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "44e193e9ceac073c7c09e521c7d10efe00e9c15e0a0a968eddcd9033f79d6d62",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "redactions": [
+      [
+        248,
+        155,
+        1108,
+        195
+      ],
+      [
+        248,
+        222,
+        1108,
+        259
+      ],
+      [
+        248,
+        289,
+        1108,
+        328
+      ]
+    ],
+    "public_file": "05-tradegenuis-options/images/05-012.jpg"
+  },
+  {
+    "source_id": "05-013",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "a2c3bea5d040e97a99d0889b13a24ad1d3c3cd63bd4802b73ed2c99bfaf2609c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-013.jpg"
+  },
+  {
+    "source_id": "05-014",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "133d98cd133f3c790828365996eff4a781b5475b38359d6aecb1eee029fdae98",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-014.jpg"
+  },
+  {
+    "source_id": "05-015",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "5676bbca2824947974faac400581db92c5f755fb44c7fce43f13ec72c00edd59",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "public_file": "05-tradegenuis-options/images/05-015.jpg"
+  },
+  {
+    "source_id": "05-016",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "57fe1bf165414a09ffd4b391d58c3c2a81e23198257504898e4846d4a4992eb6",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "04-khunter",
+    "crop": [
+      0,
+      145,
+      1920,
+      1080
+    ],
+    "public_file": "04-khunter/images/05-016.jpg"
+  },
+  {
+    "source_id": "05-017",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "926cb295e169b16a256a4b9181cdf5d4447ccef09b9deb5f3f9b7b1cd2b57469",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "crop": [
+      0,
+      45,
+      2560,
+      1440
+    ],
+    "public_file": "05-tradegenuis-options/images/05-017.jpg"
+  },
+  {
+    "source_id": "05-018",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "5fb72ff212a71a68d7569d0c2463e37bcc377d0688ce8743c9372a8053844329",
+    "status": "duplicate",
+    "reason": "裁剪后的产品区域像素重复：05-016",
+    "published_product": "04-khunter",
+    "crop": [
+      0,
+      145,
+      1920,
+      1080
+    ]
+  },
+  {
+    "source_id": "05-019",
+    "source_product_folder": "05-tradegenuis-options",
+    "source_file_sha256": "dea9db44e7d56a31f0fa791355256bb32eebcd06472d5dcb3e474a60cdb9ac45",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "05-tradegenuis-options",
+    "crop": [
+      0,
+      45,
+      2560,
+      1440
+    ],
+    "public_file": "05-tradegenuis-options/images/05-019.jpg"
+  },
+  {
+    "source_id": "06-001",
+    "source_product_folder": "06-sequoia-x",
+    "source_file_sha256": "fd7a3d6c71df0e343b8bfeaee5112c71248fa5983667be9b951f67bd1fc397b5",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "06-sequoia-x",
+    "public_file": "06-sequoia-x/images/06-001.jpg"
+  },
+  {
+    "source_id": "06-002",
+    "source_product_folder": "06-sequoia-x",
+    "source_file_sha256": "bb0ea4c2190e298e161b4876c783112f2698454988899996c5a6182c7fda307f",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "06-sequoia-x",
+    "public_file": "06-sequoia-x/images/06-002.jpg"
+  },
+  {
+    "source_id": "06-003",
+    "source_product_folder": "06-sequoia-x",
+    "source_file_sha256": "aa59c0027830345984e053d078e302bd9eb2457300135cca9a1f0a09e7bc14f6",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "06-sequoia-x",
+    "public_file": "06-sequoia-x/images/06-003.jpg"
+  },
+  {
+    "source_id": "06-004",
+    "source_product_folder": "06-sequoia-x",
+    "source_file_sha256": "53971725322afb790b0d7b9c493d1fe51d8b1af48160f395a7f489f9d0ed9148",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "06-sequoia-x",
+    "public_file": "06-sequoia-x/images/06-004.jpg"
+  },
+  {
+    "source_id": "06-005",
+    "source_product_folder": "06-sequoia-x",
+    "source_file_sha256": "dfd2b5ebb896f5e58f7e0cda1c6ec0e1eab51940f747fd6b9bd7c6e9879f0f50",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "06-sequoia-x",
+    "public_file": "06-sequoia-x/images/06-005.jpg"
+  },
+  {
+    "source_id": "06-006",
+    "source_product_folder": "06-sequoia-x",
+    "source_file_sha256": "10e3c8af79db5a722a430f0ea1360c6f0406e88e7eb6bab10a17bfd1802b6bfa",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "06-sequoia-x",
+    "public_file": "06-sequoia-x/images/06-006.jpg"
+  },
+  {
+    "source_id": "06-007",
+    "source_product_folder": "06-sequoia-x",
+    "source_file_sha256": "a8c2f94980e4c98a2d5dbfe401895ceacec883e7ce6df63a21954bb8a6de4002",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "06-sequoia-x",
+    "public_file": "06-sequoia-x/images/06-007.jpg"
+  },
+  {
+    "source_id": "06-008",
+    "source_product_folder": "06-sequoia-x",
+    "source_file_sha256": "08fdea236e5cfdef2ea0b104202bf80abecf3cceee705473695cfe657c9031af",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "06-sequoia-x",
+    "public_file": "06-sequoia-x/images/06-008.jpg"
+  },
+  {
+    "source_id": "06-009",
+    "source_product_folder": "06-sequoia-x",
+    "source_file_sha256": "594e1ea49711734cfda0b43ecd70b8c3f5d6eb27c6f7052353cd6ca60962e810",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "06-sequoia-x",
+    "public_file": "06-sequoia-x/images/06-009.jpg"
+  },
+  {
+    "source_id": "06-010",
+    "source_product_folder": "06-sequoia-x",
+    "source_file_sha256": "7466c5d5aea3e3177bdab4751d55fc73cf0b255409d762e8d7954ccf2e5284c6",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "06-sequoia-x",
+    "public_file": "06-sequoia-x/images/06-010.jpg"
+  },
+  {
+    "source_id": "06-011",
+    "source_product_folder": "06-sequoia-x",
+    "source_file_sha256": "acd8637fe63d9be7e0f902caea535db9c7c6f1a8cb0566085eb86e21d90d7488",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "06-sequoia-x",
+    "public_file": "06-sequoia-x/images/06-011.jpg",
+    "privacy_redactions_public_coordinates": [
+      [
+        312,
+        481,
+        911,
+        504
+      ]
+    ]
+  },
+  {
+    "source_id": "07-001",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "9570edd04134e5191bb596193cf9fa839a9f256d58b24edd82693700fec862d8",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-001.jpg"
+  },
+  {
+    "source_id": "07-002",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "72721d647b38506182e95f5f404dfa62a90e3d56d784e4d0f0612277fc8b99db",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-002.jpg"
+  },
+  {
+    "source_id": "07-003",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "b85104b44c4e898c5a96569885d133aab8e33285762a678b955cf90f777befe9",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-003.jpg"
+  },
+  {
+    "source_id": "07-004",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "0e1bf2c9ba74d74bfcf65e3754af1174bf9a1c609886990f0cc59d58674ef7df",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-004.jpg"
+  },
+  {
+    "source_id": "07-005",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "bb1a37d9dd527469993c821f504f91cdb30e1114bf6b1c69db8b187d5eba643a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-005.jpg"
+  },
+  {
+    "source_id": "07-006",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "7ef57981b2db5f60763986ddf8f1591d99644188be748f106121ddd8163faa49",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-006.jpg"
+  },
+  {
+    "source_id": "07-007",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "fac4b541f4b0cc9ff249e7a306d5432d0a898ecbf6d515b0ca6bbebda6bd510a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-007.jpg"
+  },
+  {
+    "source_id": "07-008",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "ae35a1ddbc8a6563aba16a7e93e9527c1da33aef67647c093fd158273a8058cb",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-008.jpg"
+  },
+  {
+    "source_id": "07-009",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "8f14ac4ca928d5e102c45f70e89380b0922fec0d20e05bcd462b45e00352bd3b",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-009.jpg"
+  },
+  {
+    "source_id": "07-010",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "0b0f21be71d02a798ea49346978360ee70133404c4e16128a4555d5076d520c1",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-010.jpg"
+  },
+  {
+    "source_id": "07-011",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "7a044ac3b07527697be431c29eca2aa0073a1ff0feeded623ee78b9f48b277f7",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-011.jpg"
+  },
+  {
+    "source_id": "07-012",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "c46c74f338b26c866fd52d4d66252b4addcd3d47465539406d3bff2f5d3d9507",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-012.jpg"
+  },
+  {
+    "source_id": "07-013",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "139125c3acf76ad70a02590c4caa933ac19c8478bf8427f532b3bed1d6dbaa4f",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-013.jpg"
+  },
+  {
+    "source_id": "07-014",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "7dd3f56065c9accd9414b986bce625969736ca7ec1f4dce1b1aee3765ef3223a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-014.jpg"
+  },
+  {
+    "source_id": "07-015",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "afcaf7939f758b6bf6887d292c4e15e8e1b0d42a1d0e92f22c693221c2c33b83",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-015.jpg"
+  },
+  {
+    "source_id": "07-016",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "e0ec237640d257f5169e1573881ccd093e614fc541c9f0ea192c6fc31c1b175c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-016.jpg"
+  },
+  {
+    "source_id": "07-017",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "c9afe4bd7d063101a8d896a605bc1ad006b6e7f4fbdfb69effad1ce4cc5f8285",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-017.jpg"
+  },
+  {
+    "source_id": "07-018",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "920412fcb00d9a2bc67f928124a0f3e8dacc235c3d551858d496e27a1a602746",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-018.jpg"
+  },
+  {
+    "source_id": "07-019",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "0aa1ffbfcdf452114ec70aa8cac8ac819cbb738beb96f3df2d6a9834f00860d0",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-019.jpg"
+  },
+  {
+    "source_id": "07-020",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "4178529b85165cd6ef91db726fde528856aa32f4c6344a2d4e429c482098822b",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-020.jpg"
+  },
+  {
+    "source_id": "07-021",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "b590205b50fbd188606cf2af769be5bc5fcef3e31b603f40771e35a1a791f295",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-021.jpg"
+  },
+  {
+    "source_id": "07-022",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "666cec8beec2ceda8fd452890896804690421369f2279d5dd901054f609f451d",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-022.jpg"
+  },
+  {
+    "source_id": "07-023",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "07f84bde3c045b7c7b102b06462ceee9dccacfb5843be41bfedfb73fdeca2849",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-023.jpg"
+  },
+  {
+    "source_id": "07-024",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "466d8a2d980cb368e5bfe3945fb407c328f23d55f7f86291a13ca99e380ec628",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-024.jpg"
+  },
+  {
+    "source_id": "07-025",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "ae71d1b0e1459be18ecb031a1ac6e8290d0afa4b63bdcc4da8aa1d0d352109df",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-025.jpg"
+  },
+  {
+    "source_id": "07-026",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "cd0675ec02608b8cafe81170306f5dec420f7fc9cf2d3a85bcb48d6682efd90a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-026.jpg"
+  },
+  {
+    "source_id": "07-027",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "15e2ba0b3fcabb90cf91e487d530b3efdeef9cf7cf571f9346e28bfc98bcdc8f",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-027.jpg"
+  },
+  {
+    "source_id": "07-028",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "b2cbcfc04ede4e3a184b898f492a01acea7fb7bbd3c6a54b7f430ee97a2bce21",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-028.jpg"
+  },
+  {
+    "source_id": "07-029",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "0bc2c1afc27fd9a98f08305675754ededbb340f7bf946c56fd4d1a8bc73fefe2",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-029.jpg"
+  },
+  {
+    "source_id": "07-030",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "d3e85042f99f9d8d7ef594caf50259e2382cdf1f9876eb740ca6fa855734f14d",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-030.jpg"
+  },
+  {
+    "source_id": "07-031",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "ef82d9b71e09b0ac787d5fdb931f213372e9b0b983ce51ebe8f3c3fe5acfde9e",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-031.jpg"
+  },
+  {
+    "source_id": "07-032",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "b771c2ec1fd3c3987304ae8833bcbd19ecd1c971cd302eadb8de4936e0882abe",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-032.jpg"
+  },
+  {
+    "source_id": "07-033",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "f6e90e524b6e70d199079d0048281baf0a503a570ee3f90df7c5848b79e85514",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-033.jpg"
+  },
+  {
+    "source_id": "07-034",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "5f9bba59863bb6b6ffdaf74f7026e9f552eacea489f0fff4c55780ffa3e26fb4",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-034.jpg"
+  },
+  {
+    "source_id": "07-035",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "e3022d915a0274a573b8d40a477317fe9d35fa50858d7f694ff997a178e7fcbd",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-035.jpg"
+  },
+  {
+    "source_id": "07-036",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "01b04a8aaa022b0653301d92bf08b3fbd0b10a93309edd03c8ddc8b3bc37ee8b",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "public_file": "07-tick-stock-panel/images/07-036.jpg"
+  },
+  {
+    "source_id": "07-037",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "2efe8211e0855aa09adeb514dd3005bb9de5ece45c274a33a51eba9103777eb9",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "crop": [
+      0,
+      145,
+      1920,
+      1080
+    ],
+    "public_file": "07-tick-stock-panel/images/07-037.jpg"
+  },
+  {
+    "source_id": "07-038",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "7072e7a39b011664b2ac98cfa9356288fedac40e64c71cdc995504dc9efa4943",
+    "status": "excluded",
+    "reason": "聊天与已收录图库的再次截屏，不计新增产品图",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-039",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "1e21f4459e64b9295e4911538b1ad310e84d3e226edd92cec7faf04957ddb450",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "crop": [
+      0,
+      145,
+      1920,
+      1080
+    ],
+    "public_file": "07-tick-stock-panel/images/07-039.jpg"
+  },
+  {
+    "source_id": "07-040",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "93d344edd1d0d2db644b437d05ddb131a3d8eddae426cad49875649245318fb0",
+    "status": "excluded",
+    "reason": "聊天与已收录图库的再次截屏，不计新增产品图",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-041",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "f707a34aedfc66284e61433bc0d7f7f55e422f25b6f3d208606d7fb3f3951d70",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "crop": [
+      0,
+      145,
+      1920,
+      1080
+    ],
+    "public_file": "07-tick-stock-panel/images/07-041.jpg"
+  },
+  {
+    "source_id": "07-042",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "977f9413c93da4537df89d4d4828906c93d186ca820b0cb65b30a46b243011b1",
+    "status": "excluded",
+    "reason": "聊天与已收录图库的再次截屏，不计新增产品图",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-043",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "9ece55a6d1373022b47acd20e3dccf5a642c6c58cd5d51b80f0764c5f37d3dad",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "crop": [
+      0,
+      145,
+      1920,
+      1080
+    ],
+    "public_file": "07-tick-stock-panel/images/07-043.jpg"
+  },
+  {
+    "source_id": "07-044",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "8db91b71b232c287e39aa6a005931d43d40835e359a9958b819e1eb33d0b9600",
+    "status": "excluded",
+    "reason": "聊天与已收录图库的再次截屏，不计新增产品图",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-045",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "041e00dad3b4b38b7374a748342eab5621e73f7fbeba2d4e8f988a0b30626df3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "crop": [
+      0,
+      145,
+      1920,
+      1080
+    ],
+    "public_file": "07-tick-stock-panel/images/07-045.jpg"
+  },
+  {
+    "source_id": "07-046",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "0740062f81715330f1beec612cb1dd05bb94734a1210ab13fac9bf4111593163",
+    "status": "excluded",
+    "reason": "聊天与已收录图库的再次截屏，不计新增产品图",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-047",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "43dfe2ca36b63134a868b26d848920a6897a1dedd5e9fa6c1b3e7654e16cac68",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "crop": [
+      0,
+      145,
+      1920,
+      1080
+    ],
+    "public_file": "07-tick-stock-panel/images/07-047.jpg"
+  },
+  {
+    "source_id": "07-048",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "008e4db3855a5a565a8660cdf7b2ca9876df4724cc781a3271296f1cad2e89c1",
+    "status": "excluded",
+    "reason": "聊天与已收录图库的再次截屏，不计新增产品图",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-049",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "7fab5b4291784aa8d96c5b43f180016a2d8376f0dca1d85c0129f7622f899b94",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "crop": [
+      0,
+      145,
+      1920,
+      1080
+    ],
+    "public_file": "07-tick-stock-panel/images/07-049.jpg"
+  },
+  {
+    "source_id": "07-050",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "f67615d86dfc1821bca7d4b6d76437a3ec37ace4b5f66bdec2460807c3a850b8",
+    "status": "excluded",
+    "reason": "聊天与已收录图库的再次截屏，不计新增产品图",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-051",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "f7bca7f24f3cc02f731ede1f694ee42ef5e55a2af4f7733b13d17f9114815cbf",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "crop": [
+      0,
+      145,
+      1920,
+      1080
+    ],
+    "public_file": "07-tick-stock-panel/images/07-051.jpg"
+  },
+  {
+    "source_id": "07-052",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "1ba473d859d7f3d890e260905d1a0689cef074409390d857326de3931503e3ac",
+    "status": "excluded",
+    "reason": "聊天与已收录图库的再次截屏，不计新增产品图",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-053",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "95c4af5fb4a6a6bb5353f77d765ed9a1ae2bb7bac4b0555b50c0265083c5d934",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "07-tick-stock-panel",
+    "crop": [
+      0,
+      145,
+      1920,
+      1080
+    ],
+    "public_file": "07-tick-stock-panel/images/07-053.jpg"
+  },
+  {
+    "source_id": "07-054",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "e6faa3f0ce2d07b9083b4d8a8c4c94b7e84751bf5f703dcee9aea696e6a65aa7",
+    "status": "excluded",
+    "reason": "聊天与已收录图库的再次截屏，不计新增产品图",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-055",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "560c91225f96b1813b4a05f586f8ed96e9932e8e8f3981079b375efba162d4d1",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-056",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "d09e2c32a4efc3556f85aead4011eca4c53a6955567dac00b40ef9680fe84533",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "10-vibe-research/images/07-056.jpg"
+  },
+  {
+    "source_id": "07-057",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "35800c782f3379e49659025daecd9ff3a488a6fa30dc6d9997d7dd949ebc20d1",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-058",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "0fb9bfb4b58baf4c82053c90272d3f49c18a26906cc0bfb1ff5b459fb292c3dc",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "10-vibe-research/images/07-058.jpg"
+  },
+  {
+    "source_id": "07-059",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "fd0827c728993971d90f8282fe7dd346fee72efa90d8db7b58b5841d3b46cfee",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-060",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "0a5f84488410533d4f8e8f187810bab187585404a11dd385d1dcde9d9acb8c0e",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "10-vibe-research/images/07-060.jpg"
+  },
+  {
+    "source_id": "07-061",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "a7ac729f5503c2e59bcb63010c9d648e8e4ea80c76680b3d7a2124171eda0f81",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-062",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "b77db221b99ffc5314caaa9abdc53698ca53f82d2f3f068794b848ff5cac46fa",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "10-vibe-research/images/07-062.jpg"
+  },
+  {
+    "source_id": "07-063",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "26b52a3dc19d680c249c94d04d6c1f29f28a3aa5b76a43e63df0a87acbbef124",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-064",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "cff994eba1729061ab51f9ad343fc49cd14670662c57152a18ac8fb42dcf741c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "10-vibe-research/images/07-064.jpg"
+  },
+  {
+    "source_id": "07-065",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "5bc24c0953901c2704177afa4fb05dffe7600c329d78e5847d27845302d4620f",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-066",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "1a840ca1bd29ce943c520ab612a1b6b413722110686f860b56e4d2f18f201aec",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "10-vibe-research/images/07-066.jpg"
+  },
+  {
+    "source_id": "07-067",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "170a49bd956e1c65ff7c1f44f394666ba9725ef9d85fe3934ccc46776162fb8e",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-068",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "dfc3a2087353d99a97e9eee32563a8fdaa45a620099f3bc0a955dd45b00368ae",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "10-vibe-research/images/07-068.jpg"
+  },
+  {
+    "source_id": "07-069",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "529e02ebb767308525d0fbee8de151e4a98a42618581b84defa5a1171c4e9423",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-070",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "1da8902c918552b287b0e7ef4a48bab4b43475328efd2d95114118adc6a47bc2",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "10-vibe-research/images/07-070.jpg"
+  },
+  {
+    "source_id": "07-071",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "26cf923401079a7f6014f453801b1f589bc6643d045bb1601b686e8bad15aeee",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "07-tick-stock-panel"
+  },
+  {
+    "source_id": "07-072",
+    "source_product_folder": "07-tick-stock-panel",
+    "source_file_sha256": "aadb5ae65e7f366dd9cae76da471f8b578c93c7476ef29ca7b3eb77c56e4a830",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "10-vibe-research/images/07-072.jpg"
+  },
+  {
+    "source_id": "08-001",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "2a8eabf6b905596d686d7057542c8ce0c0161b6cd3886892769d36ffb9a8f9ed",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-001.jpg"
+  },
+  {
+    "source_id": "08-002",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "cf1e573aa33fc7af999c72fe4be6c353b5398622c5bda46d3f01b2f15ecb9adf",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-002.jpg"
+  },
+  {
+    "source_id": "08-003",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "c621be05825baef1357efa9096c749bc2575c62361cef28bd8692d012fbc1f12",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-003.jpg"
+  },
+  {
+    "source_id": "08-004",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "eb4c64e03a452fa9896e431f5acabd1f9eb62efea7b7f61e98ccd9b8834403f2",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-004.jpg"
+  },
+  {
+    "source_id": "08-005",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "b32d00a4546e9109bef82becc061e1107661b97d2a7875e31b3babca887c70e0",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-005.jpg"
+  },
+  {
+    "source_id": "08-006",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "7ff2e4fc6ee7269b4bf92834f04c2cfcf0e3eb6d51441ce842c67230b10c77f6",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-006.jpg"
+  },
+  {
+    "source_id": "08-007",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "aeb814eff0f5e7b1d608565bd301acc7fc2a59ddad56c41e270ed441beaa2a54",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-007.jpg"
+  },
+  {
+    "source_id": "08-008",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "bc439604f4e35abf58ebcc488a7657e40c02073ef1dc07e535790d026d81e2d5",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-008.jpg"
+  },
+  {
+    "source_id": "08-009",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "578338a023d8937b8a7c0b99bd008ff27e4560d4dfcb6223822dd38f267fa50e",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-009.jpg"
+  },
+  {
+    "source_id": "08-010",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "e1bdb41a0f0b1dfc1f17735f7beb3dfce5516c80ef8be9e28ea00272c2e74b7e",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-010.jpg"
+  },
+  {
+    "source_id": "08-011",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "5a8f189893868377224ab307b8a37b9d64459680bc75ecbd86ef4381196b5965",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-011.jpg"
+  },
+  {
+    "source_id": "08-012",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "dd0d92510174a39efc811096342f799978025508d4767213f07c7e0c5e858aee",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-012.jpg"
+  },
+  {
+    "source_id": "08-013",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "7fdf8d3b5266b8e886bdbe5770e7aad45a96080791c2b0e49341a93af47663a5",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-013.jpg"
+  },
+  {
+    "source_id": "08-014",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "819b73453b4ef4a1a3b0340ed83dad84ebddc92c9956b4b8ec45d19f1006750c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-014.jpg"
+  },
+  {
+    "source_id": "08-015",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "b6f40849f35207e463ffd3edfc2117a67e655cae4b54a3c0fe2fa188c4f5ca33",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-015.jpg"
+  },
+  {
+    "source_id": "08-016",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "e87aaeb66a1cc30c5c7d35128f32e748326d2ebee09ca4bdce6adf687fe3d435",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-016.jpg"
+  },
+  {
+    "source_id": "08-017",
+    "source_product_folder": "08-finance-quant-skills",
+    "source_file_sha256": "2ee984565eb2beb44190eb0140034ff703056948460cd3d61a85953e9bc49054",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "08-finance-quant-skills",
+    "public_file": "08-finance-quant-skills/images/08-017.jpg"
+  },
+  {
+    "source_id": "09-001",
+    "source_product_folder": "09-kronos",
+    "source_file_sha256": "81ff68da32ab619db3e582c9b45b1fd1cdafe79e7d3328ff8a767254c1c3d70e",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "09-kronos",
+    "public_file": "09-kronos/images/09-001.jpg"
+  },
+  {
+    "source_id": "09-002",
+    "source_product_folder": "09-kronos",
+    "source_file_sha256": "04bf92861580fdd89a93bee423da1853632e111e24f3df4255cfc3f648b856a8",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "09-kronos",
+    "public_file": "09-kronos/images/09-002.jpg"
+  },
+  {
+    "source_id": "09-003",
+    "source_product_folder": "09-kronos",
+    "source_file_sha256": "f4ec2ce8982f3ff14a42043aef6ba8e1b0edda0e6fe257f5232a5d889c4b0c8f",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "09-kronos",
+    "public_file": "09-kronos/images/09-003.jpg"
+  },
+  {
+    "source_id": "09-004",
+    "source_product_folder": "09-kronos",
+    "source_file_sha256": "017d63248423fb15ca1a2cea67c7ee3c308eca384dc2ce1a6fa95846c0f09c68",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "09-kronos",
+    "public_file": "09-kronos/images/09-004.jpg"
+  },
+  {
+    "source_id": "09-005",
+    "source_product_folder": "09-kronos",
+    "source_file_sha256": "cb12730f61a602bde801f69eb6fdbe8527d37ae405ffd4fc3c994e73d449d7c8",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "09-kronos",
+    "public_file": "09-kronos/images/09-005.jpg"
+  },
+  {
+    "source_id": "09-006",
+    "source_product_folder": "09-kronos",
+    "source_file_sha256": "80f73e91ea4b43574244a287ab69025d7407fd3e0aae980e08c3ce7262f3bfa2",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "09-kronos",
+    "public_file": "09-kronos/images/09-006.jpg"
+  },
+  {
+    "source_id": "09-007",
+    "source_product_folder": "09-kronos",
+    "source_file_sha256": "ed72632f877828f6fb3c3947d6e69806a47948c624d0c5ddcb97ab4d06e52d29",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "09-kronos",
+    "public_file": "09-kronos/images/09-007.jpg"
+  },
+  {
+    "source_id": "09-008",
+    "source_product_folder": "09-kronos",
+    "source_file_sha256": "ee0c5cdf372cc04d5ccb3fdf4791866a6eeb015690bc686a9576a25231726002",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "09-kronos",
+    "public_file": "09-kronos/images/09-008.jpg"
+  },
+  {
+    "source_id": "09-009",
+    "source_product_folder": "09-kronos",
+    "source_file_sha256": "1006efba3bffd5d844b9709a503c1cbb3c6b9c17248aa4925f435fc4fbf369d3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "09-kronos",
+    "public_file": "09-kronos/images/09-009.jpg"
+  },
+  {
+    "source_id": "09-010",
+    "source_product_folder": "09-kronos",
+    "source_file_sha256": "ef69c520131b4e99cc358c955f09219c731cf97c7ee2e524fef19453631a09d4",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "09-kronos",
+    "public_file": "09-kronos/images/09-010.jpg"
+  },
+  {
+    "source_id": "09-011",
+    "source_product_folder": "09-kronos",
+    "source_file_sha256": "ef69c520131b4e99cc358c955f09219c731cf97c7ee2e524fef19453631a09d4",
+    "status": "duplicate",
+    "reason": "同产品像素完全重复：09-010",
+    "published_product": "09-kronos"
+  },
+  {
+    "source_id": "10-001",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "d48e7b5335723348223390af7029add3dc77080f147e2aed3b49160bc7faf014",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-001.jpg"
+  },
+  {
+    "source_id": "10-002",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "52e2f5431452e834f39728d70e1bc381f1695747849cc7084381f1f8b2872cfb",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-002.jpg"
+  },
+  {
+    "source_id": "10-003",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "d8be5a4f7c39f20deed3803cc6b7372256c197d5cb4e0de81f0dce7b74a8f1d3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-003.jpg"
+  },
+  {
+    "source_id": "10-004",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "6944b8ff408d68079704ce33da6cc760094e254caff289c9bc16753065de5150",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-004.jpg"
+  },
+  {
+    "source_id": "10-005",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "963fa168fcd29209a405ddae361db475e9f4b3d83676a038a116ec1dd28abd69",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-005.jpg"
+  },
+  {
+    "source_id": "10-006",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "9ad56d3b04b2c8227b80aa6adec63f3fc9c57579e4175e49d9c08261d1b90437",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-006.jpg"
+  },
+  {
+    "source_id": "10-007",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "c50620ba040483969fbc16ed3ae223c99c360b97afecf6426277738cd24160a0",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-007.jpg"
+  },
+  {
+    "source_id": "10-008",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "557118fa6f467914c91c0de4caf58b70a3bf577c3db2284e10cfa627ef9d9905",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-008.jpg"
+  },
+  {
+    "source_id": "10-009",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "a9eeb057ee55ff4cbba6185ab03dad528531d71c1707028b9aa7914dc406686d",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-009.jpg"
+  },
+  {
+    "source_id": "10-010",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "6241ecbc32f121f25145f23eaaf8c7307336d53cc0d630fd603312ad95a9f96b",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-010.jpg"
+  },
+  {
+    "source_id": "10-011",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "cef3d6e31107f9c3cbbef5f47990dc1323ae3f6c906719a954727051e578eea1",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-011.jpg"
+  },
+  {
+    "source_id": "10-012",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "b9fce1dbc6469a33d96acdb3f857a6c57f63fb32593a4074864f7dadb0005937",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-012.jpg"
+  },
+  {
+    "source_id": "10-013",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "f5aef9e8ff0faedabfc72f04bfd1ad0f4207516da35c08c87167e62c792c6810",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-013.jpg"
+  },
+  {
+    "source_id": "10-014",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "2c53a0bc6a810a829136bd0766df1e96b7cf1a7dbe421a3dba0c76ef43a069f5",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "10-vibe-research",
+    "public_file": "10-vibe-research/images/10-014.jpg"
+  },
+  {
+    "source_id": "10-015",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "d09e2c32a4efc3556f85aead4011eca4c53a6955567dac00b40ef9680fe84533",
+    "status": "duplicate",
+    "reason": "裁剪后的产品区域像素重复：07-056",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ]
+  },
+  {
+    "source_id": "10-016",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "560c91225f96b1813b4a05f586f8ed96e9932e8e8f3981079b375efba162d4d1",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "10-vibe-research"
+  },
+  {
+    "source_id": "10-017",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "0fb9bfb4b58baf4c82053c90272d3f49c18a26906cc0bfb1ff5b459fb292c3dc",
+    "status": "duplicate",
+    "reason": "裁剪后的产品区域像素重复：07-058",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ]
+  },
+  {
+    "source_id": "10-018",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "35800c782f3379e49659025daecd9ff3a488a6fa30dc6d9997d7dd949ebc20d1",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "10-vibe-research"
+  },
+  {
+    "source_id": "10-019",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "0a5f84488410533d4f8e8f187810bab187585404a11dd385d1dcde9d9acb8c0e",
+    "status": "duplicate",
+    "reason": "裁剪后的产品区域像素重复：07-060",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ]
+  },
+  {
+    "source_id": "10-020",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "fd0827c728993971d90f8282fe7dd346fee72efa90d8db7b58b5841d3b46cfee",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "10-vibe-research"
+  },
+  {
+    "source_id": "10-021",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "b77db221b99ffc5314caaa9abdc53698ca53f82d2f3f068794b848ff5cac46fa",
+    "status": "duplicate",
+    "reason": "裁剪后的产品区域像素重复：07-062",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ]
+  },
+  {
+    "source_id": "10-022",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "a7ac729f5503c2e59bcb63010c9d648e8e4ea80c76680b3d7a2124171eda0f81",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "10-vibe-research"
+  },
+  {
+    "source_id": "10-023",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "cff994eba1729061ab51f9ad343fc49cd14670662c57152a18ac8fb42dcf741c",
+    "status": "duplicate",
+    "reason": "裁剪后的产品区域像素重复：07-064",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ]
+  },
+  {
+    "source_id": "10-024",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "26b52a3dc19d680c249c94d04d6c1f29f28a3aa5b76a43e63df0a87acbbef124",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "10-vibe-research"
+  },
+  {
+    "source_id": "10-025",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "1a840ca1bd29ce943c520ab612a1b6b413722110686f860b56e4d2f18f201aec",
+    "status": "duplicate",
+    "reason": "裁剪后的产品区域像素重复：07-066",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ]
+  },
+  {
+    "source_id": "10-026",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "5bc24c0953901c2704177afa4fb05dffe7600c329d78e5847d27845302d4620f",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "10-vibe-research"
+  },
+  {
+    "source_id": "10-027",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "dfc3a2087353d99a97e9eee32563a8fdaa45a620099f3bc0a955dd45b00368ae",
+    "status": "duplicate",
+    "reason": "裁剪后的产品区域像素重复：07-068",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ]
+  },
+  {
+    "source_id": "10-028",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "170a49bd956e1c65ff7c1f44f394666ba9725ef9d85fe3934ccc46776162fb8e",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "10-vibe-research"
+  },
+  {
+    "source_id": "10-029",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "1da8902c918552b287b0e7ef4a48bab4b43475328efd2d95114118adc6a47bc2",
+    "status": "duplicate",
+    "reason": "裁剪后的产品区域像素重复：07-070",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ]
+  },
+  {
+    "source_id": "10-030",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "529e02ebb767308525d0fbee8de151e4a98a42618581b84defa5a1171c4e9423",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "10-vibe-research"
+  },
+  {
+    "source_id": "10-031",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "aadb5ae65e7f366dd9cae76da471f8b578c93c7476ef29ca7b3eb77c56e4a830",
+    "status": "duplicate",
+    "reason": "裁剪后的产品区域像素重复：07-072",
+    "published_product": "10-vibe-research",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ]
+  },
+  {
+    "source_id": "10-032",
+    "source_product_folder": "10-vibe-research",
+    "source_file_sha256": "26cf923401079a7f6014f453801b1f589bc6643d045bb1601b686e8bad15aeee",
+    "status": "excluded",
+    "reason": "其他屏幕的聊天与辅助页面",
+    "published_product": "10-vibe-research"
+  },
+  {
+    "source_id": "11-001",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "86b8f6cd8931eb99aad146c5967bcc912f9625ddbd41aad7e703f771aa34cc57",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-001.jpg"
+  },
+  {
+    "source_id": "11-002",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "5e4498c65291d58c9ffcb6a38b875cff41d4c42289c85d383fcfd4b825382594",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-002.jpg"
+  },
+  {
+    "source_id": "11-003",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "6d5510d0abd6a248a8772c252e4c1574cc85cc81a304adfe098481b28a6bc66a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-003.jpg"
+  },
+  {
+    "source_id": "11-004",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "92d7e106305bb20187f709dc80fc537532d18770b033da5e9a2530f4bb1970e1",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-004.jpg"
+  },
+  {
+    "source_id": "11-005",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "9f1dbd762574447efbfc1a82561752f7c28fd8df41baac52985f7a358ed9462f",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-005.jpg"
+  },
+  {
+    "source_id": "11-006",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "eb5f0b61def810a586c57bdeea999de388ca83b506151159a976c3f3f8022a49",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-006.jpg"
+  },
+  {
+    "source_id": "11-007",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "b7b14c706bb068c91a14aa3d19f09b53bb32977c4e66d277e38311dae3a52ec1",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-007.jpg"
+  },
+  {
+    "source_id": "11-008",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "57aa9329db2c079d279ee1912c17c1186d756a3d825e703998e4749d811b0e6d",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-008.jpg"
+  },
+  {
+    "source_id": "11-009",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "72a3cb64565991b96b41dea25a319b337456c2e2273ddba0075cbb7729671a0a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-009.jpg"
+  },
+  {
+    "source_id": "11-010",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "c560b3d2ef27c4a6447743aa4265310dd8c2126d9aa84436889bb2d00037fd0d",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-010.jpg"
+  },
+  {
+    "source_id": "11-011",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "539a09bc4e24f11c1cf3b1097bb11e1d188650f5013f95235484bedeb936e92a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-011.jpg"
+  },
+  {
+    "source_id": "11-012",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "bd2c026db9397aee6555db020449081e6632518cb8eb83830e07da82db0b6585",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-012.jpg"
+  },
+  {
+    "source_id": "11-013",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "1cb4f89ef7468e20168d07250d74e049d1d3a80b7d683c647b8eeab10c68c793",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-013.jpg"
+  },
+  {
+    "source_id": "11-014",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "cca4520a344ba3c9ad0f1f041aa5c206d29240ca869176c227471a34e6dc1c40",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "public_file": "11-vibe-trading/images/11-014.jpg"
+  },
+  {
+    "source_id": "11-015",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "86b8f6cd8931eb99aad146c5967bcc912f9625ddbd41aad7e703f771aa34cc57",
+    "status": "duplicate",
+    "reason": "同产品像素完全重复：11-001",
+    "published_product": "11-vibe-trading"
+  },
+  {
+    "source_id": "11-016",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "f78c54e365e2ce443d8f47607873378b80c4c6b872cf73a58ca527554b185d9b",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-016.jpg"
+  },
+  {
+    "source_id": "11-017",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "f6f56d3031d59bcc6cfe027df73bbc1ff213a3ef129c82f0063336e7dae47c77",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-017.jpg"
+  },
+  {
+    "source_id": "11-018",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "376d8ee9a1d45a547a3049dfa98fa5defbd396c2f6f9e53791e3edce30efb6b1",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-018.jpg"
+  },
+  {
+    "source_id": "11-019",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "7a0847bc48a88bc3f2f7c58c786af70382594c7df809d57be76dc43083044765",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-019.jpg"
+  },
+  {
+    "source_id": "11-020",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "941adde5cf550df64e14bd561a63e586bf8851bac829ffb6fc91f54bf8609b50",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-020.jpg"
+  },
+  {
+    "source_id": "11-021",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "1f786be141954ff9df42d5e06efbbb47e05d8c2180d70811b50fe1d11ca91747",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-021.jpg"
+  },
+  {
+    "source_id": "11-022",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "df3f5aedc792f5e4fa7186d8c372f4d7f2924e5cc6eb47e1c8fb9904bb3b90cf",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-022.jpg"
+  },
+  {
+    "source_id": "11-023",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "6dc6bc64778528c9be2beb12bfd32c7caaa14d82fb180aad9f81fd07e3be387a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-023.jpg"
+  },
+  {
+    "source_id": "11-024",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "1b8bc16b90bd66563f2a76d1392d1dafec58e14fc5aa4bcdd43ca54f73d36014",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-024.jpg"
+  },
+  {
+    "source_id": "11-025",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "db59874693ef95d31d2f64ec8f2088c2449559cabb24d1a7f24d297d72d71ab4",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-025.jpg"
+  },
+  {
+    "source_id": "11-026",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "d419a188c4d1a15835886f32c036bcb370d8008bb424ce2d1bed5b30acb3cb69",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-026.jpg"
+  },
+  {
+    "source_id": "11-027",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "bd41eeba04d364187f56b280138b3fcd82a1a7de4a3f495c6dc903f7849f6668",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-027.jpg"
+  },
+  {
+    "source_id": "11-028",
+    "source_product_folder": "11-vibe-trading",
+    "source_file_sha256": "7aac26c58397519b604b18d4fd1cd7da8788253795b99a94b74d53d8b1655e99",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "11-vibe-trading",
+    "crop": [
+      302,
+      118,
+      2554,
+      1434
+    ],
+    "public_file": "11-vibe-trading/images/11-028.jpg"
+  },
+  {
+    "source_id": "12-001",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "bdf00e5b5e0f564b88cea51d6e4314d791c06ceeb8772e0f8da6b467069de182",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-001.jpg"
+  },
+  {
+    "source_id": "12-002",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "d8b0b1289a419e656c91601aa28f1a2c8f3b44dcafed8313b12d8e741a8cfaf9",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-002.jpg"
+  },
+  {
+    "source_id": "12-003",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "09cd8e82d117caacdb493e0c4726fa77588eae7acc71130267ed1171a7e182cc",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-003.jpg"
+  },
+  {
+    "source_id": "12-004",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "111d4b203716075a762558f541164f62f77c4a53e0b24569aea8040ce5bb4cba",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-004.jpg"
+  },
+  {
+    "source_id": "12-005",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "974834582077fb8585228dd5eb19fe262ee99c89b25fc8412272b984245c6eaa",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-005.jpg"
+  },
+  {
+    "source_id": "12-006",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "ba73e44fea3a3818bd03a383c4d288bcf00412597b2bd3e3ed780f6602840416",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-006.jpg"
+  },
+  {
+    "source_id": "12-007",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "a49d0342ef6b480dfe15edb00152c623f6f5e5864345bb05efba948171e34494",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-007.jpg"
+  },
+  {
+    "source_id": "12-008",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "9efade5fa1d5259a830d6ef2e027733814ba296de9f1bf2c5194572553ea846d",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-008.jpg"
+  },
+  {
+    "source_id": "12-009",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "14d486a5113ba4f0438539adf3661f49febaed46e68a8620b0656614f1137967",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-009.jpg"
+  },
+  {
+    "source_id": "12-010",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "05888b2e24a0472af186dfe90ce13345738510ce48190759fd5f300f0abd0519",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-010.jpg",
+    "privacy_redactions_public_coordinates": [
+      [
+        528,
+        644,
+        844,
+        662
+      ]
+    ]
+  },
+  {
+    "source_id": "12-011",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "a61e26334fb0805495c717077fd836bb399ad3170c22955a2ab760bdd3f3a9c1",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-011.jpg"
+  },
+  {
+    "source_id": "12-012",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "0566cf40f6301a22b261b3189bb3b7d362710ab1791d17e17dff9d2c1952a236",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-012.jpg"
+  },
+  {
+    "source_id": "12-013",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "829b2686ba560f73a4cbecf044cdcc6eb96b3f3ce758218c98fa46008041372b",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-013.jpg"
+  },
+  {
+    "source_id": "12-014",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "2851fdef543a0317d9cf3182d8725d5c742aeac684a8b9b82ebfbffafbfdabfe",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-014.jpg"
+  },
+  {
+    "source_id": "12-015",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "7bcfd7facfbf5e9012ffb7c19bef7173bb35cb3bd7fa90f308e7bbe182dcdf84",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-015.jpg"
+  },
+  {
+    "source_id": "12-016",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "65539b61feb4286173d1dcd2146d116a3036a1f257487551c30dce9f887f8ceb",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "12-daily-stock-analysis",
+    "public_file": "12-daily-stock-analysis/images/12-016.jpg"
+  },
+  {
+    "source_id": "12-017",
+    "source_product_folder": "12-daily-stock-analysis",
+    "source_file_sha256": "bdf00e5b5e0f564b88cea51d6e4314d791c06ceeb8772e0f8da6b467069de182",
+    "status": "duplicate",
+    "reason": "同产品像素完全重复：12-001",
+    "published_product": "12-daily-stock-analysis"
+  },
+  {
+    "source_id": "13-001",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "853342891950a2338048139ad9b4de2929ad70860d47a4e319efdd84bfaa36da",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-001.jpg"
+  },
+  {
+    "source_id": "13-002",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "c67ba1bdbe0a23931d057a6b39e9144f21e252e026141cbf5ba8d38af5adf6aa",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-002.jpg"
+  },
+  {
+    "source_id": "13-003",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "d08c101fc5c3048c42f7b5d0fcc7758b82d70403766ba1a56556c6f48d7db7af",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-003.jpg"
+  },
+  {
+    "source_id": "13-004",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "eebb99921e4117e55daf7f1dccc73d8a73e0a1b9f53fd39a7c7640578aa2ce9f",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-004.jpg"
+  },
+  {
+    "source_id": "13-005",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "500d43d3a3b7b9738ba36f63aab242105b10fef4bbcf22b9d979ff4ea5ba26fe",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-005.jpg"
+  },
+  {
+    "source_id": "13-006",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "4cd93db991d7c39e4949b9d3a11cc4b9e69e26d9643abe6ca41e936e7ec3a151",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-006.jpg"
+  },
+  {
+    "source_id": "13-007",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "ac30fd1ac87f4b3089bd0f380e924d11423e6babd2ce7d3cbfc02ab7500df1e0",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-007.jpg"
+  },
+  {
+    "source_id": "13-008",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "e6c113cccc9fcc53e9a4f2bee2ed372e7271625ba16c35588f9b3a4f30d2e1d8",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-008.jpg"
+  },
+  {
+    "source_id": "13-009",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "f33966e23e1494aba73cce143eae40f569df81a87c409af0809e713058e89bcb",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-009.jpg"
+  },
+  {
+    "source_id": "13-010",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "b074d9fcb9256f74e492b3a84f87f8f600f24eccd4b2d48337969196dfab18ff",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-010.jpg"
+  },
+  {
+    "source_id": "13-011",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "9e1a472707c23cece10b7f55b15851775ca0fa1718c846adcda57d54f056e423",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-011.jpg",
+    "privacy_redactions_public_coordinates": [
+      [
+        142,
+        342,
+        276,
+        360
+      ],
+      [
+        248,
+        574,
+        394,
+        592
+      ]
+    ]
+  },
+  {
+    "source_id": "13-012",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "0ad2ccb398464d246673d134c7ad771e74fceef85722c391c8cac75f1610c2d7",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-012.jpg"
+  },
+  {
+    "source_id": "13-013",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "92f26df28c6286c10202804c6ae534613559897373f58b6dd042a225b9ffd6a1",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-013.jpg"
+  },
+  {
+    "source_id": "13-014",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "213b59a48a67a0e7af525d21a5e5eccddda4f37927a71d97caa3f24bf8e490aa",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-014.jpg"
+  },
+  {
+    "source_id": "13-015",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "9fa5dfd323f0986a8a6a455eb0cc75447438cf142f350a95015bf1375d5c06a8",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-015.jpg",
+    "privacy_redactions_public_coordinates": [
+      [
+        846,
+        304,
+        976,
+        322
+      ],
+      [
+        834,
+        333,
+        996,
+        353
+      ]
+    ]
+  },
+  {
+    "source_id": "13-016",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "9f5fa61b59303dc2fe3b595a9c959f17b3253e6137f83793b80a50a16cebff1a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-016.jpg"
+  },
+  {
+    "source_id": "13-017",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "1badd840d1d851fe1c2b69ce958f9b4a2a5c492ad86d0356603fdfeedc0b595c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-017.jpg"
+  },
+  {
+    "source_id": "13-018",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "479bab87cbaff932056491452a6a2f9564aacfb22f89f03b27592ddcd62d6b1a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-018.jpg"
+  },
+  {
+    "source_id": "13-019",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "dbc49fd6aa0deadb3bbc32ec9602edd928554f2b0e11112eb56bef8bba9826df",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-019.jpg"
+  },
+  {
+    "source_id": "13-020",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "2579fa5841fef77bf6cfd36dffcee4aade027908e02d629be6c669ed8f5a4dc2",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-020.jpg"
+  },
+  {
+    "source_id": "13-021",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "2df173d7cfafeb4d10d95285cd072822dbabe5ad2e454e91f182b9e0ad1d5410",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-021.jpg"
+  },
+  {
+    "source_id": "13-022",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "f6962c782626ff38c615adf78451ff0f5d64dc726889f95816bc0d8383dd189f",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-022.jpg",
+    "privacy_redactions_public_coordinates": [
+      [
+        846,
+        304,
+        976,
+        322
+      ],
+      [
+        834,
+        333,
+        996,
+        353
+      ]
+    ]
+  },
+  {
+    "source_id": "13-023",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "7809388071d5eee999426a569089ae7c322bee07c64475e3afdfb92f935cf8b3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-023.jpg"
+  },
+  {
+    "source_id": "13-024",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "812e30e1a8da6296551d4b795d8b15ca1b53808cf5c91395a2a06a89e17a509e",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-024.jpg"
+  },
+  {
+    "source_id": "13-025",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "7391570ee408658b7a62d343c76eaf5aa146d9486749f609dccdacaa1bd6f6f8",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-025.jpg"
+  },
+  {
+    "source_id": "13-026",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "d895879f123889bcbb568ec5339a724ade227559c50302dfb5c23b0505e45da3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-026.jpg"
+  },
+  {
+    "source_id": "13-027",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "63449bb6052b59e5e0aba8f79a785f41a0d6f0f2f9f274ef66a0d0a08eb9ee22",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-027.jpg"
+  },
+  {
+    "source_id": "13-028",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "59176599217095ee824ab46be98c9d1e42ac71e8f8359bf91a27330cad411edc",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-028.jpg"
+  },
+  {
+    "source_id": "13-029",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "656222d04f64e815417e823c079b9e859e28ddb634c7907ccf0b2a5627c5b85a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-029.jpg"
+  },
+  {
+    "source_id": "13-030",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "563a5b3550ddde7f23cff7b5300246c211b5146bd55895ae6ecb71035cbe617d",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-030.jpg"
+  },
+  {
+    "source_id": "13-031",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "17c7a2d2c994fcc05e7c7b5eb7af2e3f5390e3cb8f973669f56ba7ce15edd5a9",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-031.jpg"
+  },
+  {
+    "source_id": "13-032",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "e43440e037d5a5e37bb6db31ce78e03bc4ec4ab61cc9239e2e85ce21550996f4",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-032.jpg"
+  },
+  {
+    "source_id": "13-033",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "767e05732cf8be49383094175ffd0ca796f3dcf86e7061917f3995271ff77b96",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-033.jpg"
+  },
+  {
+    "source_id": "13-034",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "57d3211ab508e46d846dfc758599c99064d0ba4454879f0f347acb24db2bc044",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-034.jpg"
+  },
+  {
+    "source_id": "13-035",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "19d34010c1bfc9a1da52239f6de2806c49cec451f454afd8a55a3ac53730f9db",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-035.jpg"
+  },
+  {
+    "source_id": "13-036",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "378e08842f72f05a6c88342ca280c75939e58ac5b0544ec078b9bcf6044e4521",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-036.jpg",
+    "privacy_redactions_public_coordinates": [
+      [
+        348,
+        305,
+        506,
+        325
+      ],
+      [
+        336,
+        332,
+        526,
+        352
+      ]
+    ]
+  },
+  {
+    "source_id": "13-037",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "e0f2628ae41ece8ae4da72dcf2a61d1a7992582d3c383f47ea0ac087a6a241c4",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-037.jpg"
+  },
+  {
+    "source_id": "13-038",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "b3fe2de628b4eeefffbbbf26bfe37d3c2f81c2a4140711eb36aa0c58f4f52fcd",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-038.jpg"
+  },
+  {
+    "source_id": "13-039",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "39de6bf8aeee5c6077fc2b3384cc0dca7a104ab23527c0cbd4da0b6fbdcfad1c",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-039.jpg"
+  },
+  {
+    "source_id": "13-040",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "bd486a5173bcfa648bad92ffb04afc5975ca518910343f27df7bcf39bb5216b3",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-040.jpg"
+  },
+  {
+    "source_id": "13-041",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "a693cc5692a19a6a4ce76a8cc666e43a514f27e4785a72336441a8f72f5a3596",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-041.jpg"
+  },
+  {
+    "source_id": "13-042",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "40c9df7899c24168327791b38641f2f3dba6b34aa7c954279a9196965293a7f0",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-042.jpg"
+  },
+  {
+    "source_id": "13-043",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "427d684f4dfcb6594fb1b96be6e4054ba8f860255e538ac8d6a86943c2aaa525",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-043.jpg"
+  },
+  {
+    "source_id": "13-044",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "86dfe9b32c163aba34ae2a64e7f36bb4661c9068d57d8cccab1bb45c95ca28fa",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-044.jpg"
+  },
+  {
+    "source_id": "13-045",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "7e19f5c2a78e1a52835c8e7c1181b34db0e74792226ee4b78c9cff2c5f0f666f",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-045.jpg"
+  },
+  {
+    "source_id": "13-046",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "7be71527dc269a58f31f95914d2ce2f9d9ff45d963bbdefdc500d3cc33b2610f",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-046.jpg"
+  },
+  {
+    "source_id": "13-047",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "4be5e2c4bedcf4fec68a769337b340b78a98ccbd497ac28e1c9d7bda0b9a8c95",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-047.jpg"
+  },
+  {
+    "source_id": "13-048",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "4803ed879cc181339fe094157747911a18e0f9a8c6eb0816891aaebeade6fcf6",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-048.jpg"
+  },
+  {
+    "source_id": "13-049",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "750e0d35ee5ddd0264753a9e8a03d93ac3d499cb90e1d92691afc6da005d779d",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "13-quantdinger",
+    "public_file": "13-quantdinger/images/13-049.jpg"
+  },
+  {
+    "source_id": "13-050",
+    "source_product_folder": "13-quantdinger",
+    "source_file_sha256": "c67ba1bdbe0a23931d057a6b39e9144f21e252e026141cbf5ba8d38af5adf6aa",
+    "status": "duplicate",
+    "reason": "同产品像素完全重复：13-002",
+    "published_product": "13-quantdinger"
+  },
+  {
+    "source_id": "14-001",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "f693816f70344830072b720c8166cf7b7b1f4fe0fceb0ebab2b3e6f95e4e2ac9",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "14-tradingagents",
+    "public_file": "14-tradingagents/images/14-001.jpg"
+  },
+  {
+    "source_id": "14-002",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "c05202f173debf1239bd398a6d3b10ccd76516d828cd7c1ea2e9b74e0d223e64",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "14-tradingagents",
+    "redactions": [
+      [
+        251,
+        315,
+        1190,
+        380
+      ]
+    ],
+    "public_file": "14-tradingagents/images/14-002.jpg"
+  },
+  {
+    "source_id": "14-003",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "6bff8cdcaa7a3ced3aba4952679c2f7db4e76fe442997e531c947b0b8c78cfdf",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "14-tradingagents",
+    "public_file": "14-tradingagents/images/14-003.jpg"
+  },
+  {
+    "source_id": "14-004",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "6d742d32693a392f751acf97d51c84bb515733dd3c2572c7544f4b3d294fbc9a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "14-tradingagents",
+    "public_file": "14-tradingagents/images/14-004.jpg"
+  },
+  {
+    "source_id": "14-005",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "2a29c362ce4d4e900816124d938d8d180ce662262b0cc6cb54bf8864bb84cd91",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "14-tradingagents",
+    "public_file": "14-tradingagents/images/14-005.jpg"
+  },
+  {
+    "source_id": "14-006",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "a6ac4a38132101e1eddde0349b3850e7e54f39aa7f020719b2b714cb8a9c1dd7",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "14-tradingagents",
+    "public_file": "14-tradingagents/images/14-006.jpg"
+  },
+  {
+    "source_id": "14-007",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "16fb26a015227cd986c4f205abb04a658f3769d108f7bece398c953fe5a36aac",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "14-tradingagents",
+    "public_file": "14-tradingagents/images/14-007.jpg"
+  },
+  {
+    "source_id": "14-008",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "adb649bf504bdcafd25dc810531de606e9952c8b0012b980a9857c8da962989a",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "14-tradingagents",
+    "public_file": "14-tradingagents/images/14-008.jpg"
+  },
+  {
+    "source_id": "14-009",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "57c6ed0f98a8962f5c3ae4caa1d8addc09e518383fc506a6bcb3f5f114a9f281",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "14-tradingagents",
+    "public_file": "14-tradingagents/images/14-009.jpg"
+  },
+  {
+    "source_id": "14-010",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "90ae9587e99a6721f7cd32fbf807e4df756df23bb5e5e59c75651dc0b604c894",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "14-tradingagents",
+    "public_file": "14-tradingagents/images/14-010.jpg"
+  },
+  {
+    "source_id": "14-011",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "cb940845036028a40244642658a202a0bb659336623fa05f3ff9c1164af13a9e",
+    "status": "published",
+    "reason": "视觉核对后归档",
+    "published_product": "14-tradingagents",
+    "public_file": "14-tradingagents/images/14-011.jpg"
+  },
+  {
+    "source_id": "14-012",
+    "source_product_folder": "14-tradingagents",
+    "source_file_sha256": "f693816f70344830072b720c8166cf7b7b1f4fe0fceb0ebab2b3e6f95e4e2ac9",
+    "status": "duplicate",
+    "reason": "同产品像素完全重复：14-001",
+    "published_product": "14-tradingagents"
+  }
+]

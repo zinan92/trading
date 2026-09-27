@@ -1,0 +1,37 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "product": "14-tradingagents",
+      "status": "partial_ready_for_user_trial",
+      "repo": "https://github.com/TauricResearch/TradingAgents",
+      "source_sha": "35543d0248bf89fcb92b17a15858ad0c0e940687",
+      "package_version": "0.5.1",
+      "native_ui": "CLI/Python package only",
+      "trial_ui": "[local trial service] (Product Lab companion)",
+      "model": "Ollama qwen3:4b (local, newly pulled)",
+      "model_size": "about 2.5 GB on disk",
+      "checks": {
+        "python_install": "uv pip install -e . passed; 85 packages",
+        "python_dependency_check": "uv pip check passed",
+        "cli_help": "passed",
+        "portfolio_parser": "passed using synthetic sample",
+        "ollama_tool_call": "structured get_price(ticker=AAPL) emitted; no actual price returned",
+        "graph_build": "12 nodes initialized",
+        "aapl_yahoo_data": "YFRateLimitError; no bars",
+        "aapl_full_run": "240-second timeout; no final rating",
+        "trial_html_http": 200,
+        "screenshots": 11,
+        "native_cli_launcher_help": "passed"
+      },
+      "limits": [
+        "No cloud model API key used",
+        "No brokerage account, order, or real trade",
+        "Yahoo rate limiting blocks data validation",
+        "Local model full workflow was not completed"
+      ],
+      "native_cli_launcher": "trials/2026-09-26-trading/14-tradingagents/launch_tui.sh"
+    }
+  }
+}

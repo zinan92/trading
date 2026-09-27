@@ -1,0 +1,18 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "source_sha": "a77d13dae84b4364e4decdc0ccf5fa525dc05a21",
+      "app": "Electron / TradeGenuis Options",
+      "starter_pages_imported": 15,
+      "starter_pages_rejected": 4,
+      "embedding_enabled": false,
+      "ai_key_configured": false,
+      "screenshots": 15,
+      "market_watchlist": 20,
+      "opportunities": 6,
+      "known_issue": "revision_conflict on update; initial create succeeded"
+    }
+  }
+}

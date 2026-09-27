@@ -1,0 +1,19 @@
+{
+  "source": "Product Lab local trial records, 2026-09-26",
+  "public_processing": "Machine paths and credential-file locations removed. No credentials or environment files published.",
+  "records": {
+    "deployment.json": {
+      "release": "v2026.09.26.1-release",
+      "asset": "go-stock-darwin-arm64.zip",
+      "sha256": "49e935556bf7a6803a54a3a9ecb47808c1b31416feeb578d255efae47706f6ff",
+      "catalog_lock": "c26304fafab0",
+      "checks": {
+        "startup": "pass",
+        "watchlist": "pass",
+        "daily_k": "pass",
+        "ai_agent": "VIP2 gate",
+        "human_trial": "pending"
+      }
+    }
+  }
+}

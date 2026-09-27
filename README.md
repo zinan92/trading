@@ -2,12 +2,98 @@
 
 # Trading
 
-**Trading 的 capability-first catalog：先按功能分类，再按加入时间从新到旧浏览。**
+**Trading 产品目录与实测评估：看实际界面、比较使用结果，再选择值得深入测试的产品。**
 
 [![Snapshot](https://img.shields.io/badge/snapshot-66%20repos-0969DA.svg)](snapshot.yaml)
 [![Source](https://img.shields.io/badge/source-Park%20OS-8250DF.svg)](https://github.com/zinan92/park-operating-system)
 
 </div>
+
+<!-- EVALUATION:START -->
+## Full Trading System / Agent · 首轮评测
+
+**首轮试用，非完整功能认证。** 评分为人工的“完整交易产品适配＋本轮已验证可用性”分，不是盈利能力、生产成熟度或 repo-evals 通用分。试用配置与深度不完全一致；未测不等于不支持，几分差距不代表显著优劣。所有产品本轮订单/持仓闭环均未实测通过，该项统一 **0/15**。框架、模型、技能库保留在原样本中；其低分可能源于完整系统定位不匹配，不等于该工具不可用。
+
+采集：2026-09-26 · 14 个产品 · 只覆盖本分组。
+
+[统一评测页与完整图库](evaluations/full-trading-system/2026-09-26/README.md) · [评分依据](evaluations/full-trading-system/2026-09-26/methodology.md)
+
+| 排名 | 产品 · 原仓库 | 分数 | 实际定位 | 本轮结论 | 评测与全部截图 |
+|---:|---|---:|---|---|---|
+| 1 | [tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | **77/100** | A 股量化工作台 / 完整本地模拟交易系统候选 | 本轮核心任务证据最充分 | [判断与证据](evaluations/full-trading-system/2026-09-26/07-tick-stock-panel/README.md) · [图库](evaluations/full-trading-system/2026-09-26/07-tick-stock-panel/screenshots.md) |
+| 2 | [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | **68/100** | 多市场完整交易产品候选 | 策略可创建，回测执行未验 | [判断与证据](evaluations/full-trading-system/2026-09-26/13-quantdinger/README.md) · [图库](evaluations/full-trading-system/2026-09-26/13-quantdinger/screenshots.md) |
+| 3 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | **63/100** | 多市场完整交易 Agent 候选 | 结构完整，核心闭环未验 | [判断与证据](evaluations/full-trading-system/2026-09-26/11-vibe-trading/README.md) · [图库](evaluations/full-trading-system/2026-09-26/11-vibe-trading/screenshots.md) |
+| 4 | [go-stock](https://github.com/ArvinLovegood/go-stock) | **61/100** | 桌面股票研究工具 | 核心研究功能可用 | [判断与证据](evaluations/full-trading-system/2026-09-26/01-go-stock/README.md) · [图库](evaluations/full-trading-system/2026-09-26/01-go-stock/screenshots.md) |
+| 5 | [KHunter](https://github.com/ling-0729/KHunter) | **57/100** | A 股完整交易系统候选（PTrade） | 真实数据可用，交易闭环未验 | [判断与证据](evaluations/full-trading-system/2026-09-26/04-khunter/README.md) · [图库](evaluations/full-trading-system/2026-09-26/04-khunter/screenshots.md) |
+| 6 | [Sequoia-X](https://github.com/sngyai/Sequoia-X) | **54/100** | CLI 选股引擎 / Trading Strategy | 选股任务可用 | [判断与证据](evaluations/full-trading-system/2026-09-26/06-sequoia-x/README.md) · [图库](evaluations/full-trading-system/2026-09-26/06-sequoia-x/screenshots.md) |
+| 7 | [TradeGenuis-Options](https://github.com/Theclues/TradeGenuis-Options) | **52/100** | 期权研究工作台 | 部分可用 | [判断与证据](evaluations/full-trading-system/2026-09-26/05-tradegenuis-options/README.md) · [图库](evaluations/full-trading-system/2026-09-26/05-tradegenuis-options/screenshots.md) |
+| 8 | [Vibe-Research](https://github.com/simonlin1212/Vibe-Research) | **48/100** | 个人投研 Agent / Equity Research | 界面可用，AI 主路径未验 | [判断与证据](evaluations/full-trading-system/2026-09-26/10-vibe-research/README.md) · [图库](evaluations/full-trading-system/2026-09-26/10-vibe-research/screenshots.md) |
+| 9 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | **46/100** | 研究报告与自动推送 / Equity Research | 部分可用 | [判断与证据](evaluations/full-trading-system/2026-09-26/12-daily-stock-analysis/README.md) · [图库](evaluations/full-trading-system/2026-09-26/12-daily-stock-analysis/screenshots.md) |
+| 10 | [finance-quant-skills](https://github.com/lzwme/finance-quant-skills) | **37/100** | Knowledge & Collections / Agent Skills | 两项技能已验，其余未验 | [判断与证据](evaluations/full-trading-system/2026-09-26/08-finance-quant-skills/README.md) · [图库](evaluations/full-trading-system/2026-09-26/08-finance-quant-skills/screenshots.md) |
+| 11 | [Kronos](https://github.com/shiyu-coder/Kronos) | **36/100** | 金融预测模型 / Trading Strategy 组件 | 模型可跑，日期显示有问题 | [判断与证据](evaluations/full-trading-system/2026-09-26/09-kronos/README.md) · [图库](evaluations/full-trading-system/2026-09-26/09-kronos/screenshots.md) |
+| 12 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | **34/100** | CLI 研究决策 Agent 框架 | 组件可用，完整分析未完成 | [判断与证据](evaluations/full-trading-system/2026-09-26/14-tradingagents/README.md) · [图库](evaluations/full-trading-system/2026-09-26/14-tradingagents/screenshots.md) |
+| 13 | [finhack](https://github.com/FinHackCN/finhack) | **30/100** | 量化开发框架 / Trading Infra | 本机关键命令失败 | [判断与证据](evaluations/full-trading-system/2026-09-26/02-finhack/README.md) · [图库](evaluations/full-trading-system/2026-09-26/02-finhack/screenshots.md) |
+| 14 | [fomomo](https://github.com/nishuzumi/fomomo) | **23/100** | 群消息代币监测 / 原生范围待核实 | 仅模拟适配页体验 | [判断与证据](evaluations/full-trading-system/2026-09-26/03-fomomo/README.md) · [图库](evaluations/full-trading-system/2026-09-26/03-fomomo/screenshots.md) |
+
+### 每个产品大概长什么样
+
+**1. [tick-stock-panel](evaluations/full-trading-system/2026-09-26/07-tick-stock-panel/README.md) · 77/100** — 本轮首选。数据、选股和回测产出最充分；源码还有模拟订单/撮合/台账，但尚未实测模拟成交。
+
+[![tick-stock-panel · 原生 Web](evaluations/full-trading-system/2026-09-26/07-tick-stock-panel/preview.jpg)](evaluations/full-trading-system/2026-09-26/07-tick-stock-panel/screenshots.md)
+
+**2. [QuantDinger](evaluations/full-trading-system/2026-09-26/13-quantdinger/README.md) · 68/100** — 产品化界面完整，策略代码验证和保存通过；短区间回测受日期选择问题阻挡。
+
+[![QuantDinger · 原生 Vue Web](evaluations/full-trading-system/2026-09-26/13-quantdinger/preview.jpg)](evaluations/full-trading-system/2026-09-26/13-quantdinger/screenshots.md)
+
+**3. [Vibe-Trading](evaluations/full-trading-system/2026-09-26/11-vibe-trading/README.md) · 63/100** — 研究、回测和券商连接覆盖广；本轮缺模型与券商配置，不能把连接器数量当已可用账户。
+
+[![Vibe-Trading · 原生 Web / CLI](evaluations/full-trading-system/2026-09-26/11-vibe-trading/preview.jpg)](evaluations/full-trading-system/2026-09-26/11-vibe-trading/screenshots.md)
+
+**4. [go-stock](evaluations/full-trading-system/2026-09-26/01-go-stock/README.md) · 61/100** — 桌面成品体验成熟；自选股与日 K 可用，AI Agent 有会员门槛。
+
+[![go-stock · 原生桌面；少量辅助反馈页面](evaluations/full-trading-system/2026-09-26/01-go-stock/preview.jpg)](evaluations/full-trading-system/2026-09-26/01-go-stock/screenshots.md)
+
+**5. [KHunter](evaluations/full-trading-system/2026-09-26/04-khunter/README.md) · 57/100** — 有原生 Web、策略、回测和 PTrade 下单/反馈代码；本轮样本较小。
+
+[![KHunter · 原生 Web；辅助反馈页面另标](evaluations/full-trading-system/2026-09-26/04-khunter/preview.jpg)](evaluations/full-trading-system/2026-09-26/04-khunter/screenshots.md)
+
+**6. [Sequoia-X](evaluations/full-trading-system/2026-09-26/06-sequoia-x/README.md) · 54/100** — 窄任务结果明确：真实数据与 6 个策略跑通；没有原生 Web UI。
+
+[![Sequoia-X · 原生 CLI；所有网页截图来自辅助试用台](evaluations/full-trading-system/2026-09-26/06-sequoia-x/preview.jpg)](evaluations/full-trading-system/2026-09-26/06-sequoia-x/screenshots.md)
+
+**7. [TradeGenuis-Options](evaluations/full-trading-system/2026-09-26/05-tradegenuis-options/README.md) · 52/100** — 原生 Electron 可浏览研究素材与机会，AI 与知识检索效果尚未验证。
+
+[![TradeGenuis-Options · 原生 Electron](evaluations/full-trading-system/2026-09-26/05-tradegenuis-options/preview.jpg)](evaluations/full-trading-system/2026-09-26/05-tradegenuis-options/screenshots.md)
+
+**8. [Vibe-Research](evaluations/full-trading-system/2026-09-26/10-vibe-research/README.md) · 48/100** — 研究台页面覆盖广；本轮主要证明界面能运行。
+
+[![Vibe-Research · 原生 Electron/Web](evaluations/full-trading-system/2026-09-26/10-vibe-research/preview.jpg)](evaluations/full-trading-system/2026-09-26/10-vibe-research/screenshots.md)
+
+**9. [daily_stock_analysis](evaluations/full-trading-system/2026-09-26/12-daily-stock-analysis/README.md) · 46/100** — 数据降级路径有真实结果；核心 AI 报告与推送尚未验证。
+
+[![daily_stock_analysis · 原生 Web](evaluations/full-trading-system/2026-09-26/12-daily-stock-analysis/preview.jpg)](evaluations/full-trading-system/2026-09-26/12-daily-stock-analysis/screenshots.md)
+
+**10. [finance-quant-skills](evaluations/full-trading-system/2026-09-26/08-finance-quant-skills/README.md) · 37/100** — 这是技能集合；低完整系统适配分不表示技能本身不好。
+
+[![finance-quant-skills · 技能/CLI；网页截图为辅助页](evaluations/full-trading-system/2026-09-26/08-finance-quant-skills/preview.jpg)](evaluations/full-trading-system/2026-09-26/08-finance-quant-skills/screenshots.md)
+
+**11. [Kronos](evaluations/full-trading-system/2026-09-26/09-kronos/README.md) · 36/100** — 模型推理有结果；它的任务是预测，不是替用户管理订单和账户。
+
+[![Kronos · 原生模型/Web 展示与辅助记录](evaluations/full-trading-system/2026-09-26/09-kronos/preview.jpg)](evaluations/full-trading-system/2026-09-26/09-kronos/screenshots.md)
+
+**12. [TradingAgents](evaluations/full-trading-system/2026-09-26/14-tradingagents/README.md) · 34/100** — CLI 和研究图构建通过；本轮未取得最终评级，也没有原生 Web UI。
+
+[![TradingAgents · 原生 CLI；所有网页截图是 Product Lab 辅助页](evaluations/full-trading-system/2026-09-26/14-tradingagents/preview.jpg)](evaluations/full-trading-system/2026-09-26/14-tradingagents/screenshots.md)
+
+**13. [finhack](evaluations/full-trading-system/2026-09-26/02-finhack/README.md) · 30/100** — 覆盖数据、因子、策略与交易接入的框架；本轮未得到回测结果。
+
+[![finhack · 原生 CLI；截图为辅助试用记录](evaluations/full-trading-system/2026-09-26/02-finhack/preview.jpg)](evaluations/full-trading-system/2026-09-26/02-finhack/screenshots.md)
+
+**14. [fomomo](evaluations/full-trading-system/2026-09-26/03-fomomo/README.md) · 23/100** — 本轮看到的是明确标注的模拟群消息与价格适配页，不能据此确认原生产品成熟度。
+
+[![fomomo · 辅助 HTML / 模拟适配页，不是原生 UI](evaluations/full-trading-system/2026-09-26/03-fomomo/preview.jpg)](evaluations/full-trading-system/2026-09-26/03-fomomo/screenshots.md)
+
+<!-- EVALUATION:END -->
 
 ---
 
@@ -105,20 +191,20 @@ Snapshot: `github-universe-2026-09-26-star-refresh-01` · canonical source: [Par
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
-| [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) | 🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。 | Starred | `2026-09-24` | `c26304fafab0` |
-| [FinHackCN/finhack](https://github.com/FinHackCN/finhack) | FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。 | Starred | `2026-09-18` | `dedbbd0b7acc` |
-| [nishuzumi/fomomo](https://github.com/nishuzumi/fomomo) | No description | Starred | `2026-09-13` | `a2c6040392e3` · NEEDS_REVIEW |
-| [ling-0729/KHunter](https://github.com/ling-0729/KHunter) | KHunter 是一套开箱即用的A股量化交易系统，集数据管理、策略选股、择时交易、风险控制、回测验证于一体，为个人投资者提供从数据到交易的全流程量化解决方案。 | Starred | `2026-09-10` | `ca93f9e05523` |
-| [Theclues/TradeGenuis-Options](https://github.com/Theclues/TradeGenuis-Options) | No description | Starred | `2026-09-07` | `a77d13dae84b` |
-| [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X) | A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书 | Starred | `2026-08-26` | `444c0db69ff3` · NEEDS_REVIEW |
-| [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 \| LLM能力驱使策略定制+个股分析+复盘 \| 自由接入第三方数据源与个性化扩展数据 \| 个人开源 | Starred | `2026-08-26` | `bfbccf9c414f` · NEEDS_REVIEW |
-| [lzwme/finance-quant-skills](https://github.com/lzwme/finance-quant-skills) | 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。 | Starred | `2026-08-26` | `7af066194d8d` |
-| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | Starred | `2026-08-03` | `67b630e67f6a` |
-| [simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research) | Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录、回测。Vibe-Research 把数据和功能配齐，由你自己的 Agent 驱动投资研究。基于开源的 Codex Harness 打造。 | Starred | `2026-08-03` | `34ed58155ca2` |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent" | Starred | `2026-07-21` | `e476b4ce4c3b` |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. | Starred | `2026-06-08` | `1168e316269b` |
-| [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) | Open-source AI Trading OS and commercial-ready multi-tenant SaaS platform — research markets, build Python strategies, backtest, paper/live trade, and monitor crypto, stocks, and forex, with built-in user management, billing, payments, and settlement to launch and operate your own trading service. | Starred | `2026-05-01` | `d8508a85a473` |
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading Framework | Starred | `2026-02-02` | `be952b8eccb4` |
+| [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) · [首轮评测](evaluations/full-trading-system/2026-09-26/01-go-stock/README.md) | 🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。 | Starred | `2026-09-24` | `c26304fafab0` |
+| [FinHackCN/finhack](https://github.com/FinHackCN/finhack) · [首轮评测](evaluations/full-trading-system/2026-09-26/02-finhack/README.md) | FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。 | Starred | `2026-09-18` | `dedbbd0b7acc` |
+| [nishuzumi/fomomo](https://github.com/nishuzumi/fomomo) · [首轮评测](evaluations/full-trading-system/2026-09-26/03-fomomo/README.md) | No description | Starred | `2026-09-13` | `a2c6040392e3` · NEEDS_REVIEW |
+| [ling-0729/KHunter](https://github.com/ling-0729/KHunter) · [首轮评测](evaluations/full-trading-system/2026-09-26/04-khunter/README.md) | KHunter 是一套开箱即用的A股量化交易系统，集数据管理、策略选股、择时交易、风险控制、回测验证于一体，为个人投资者提供从数据到交易的全流程量化解决方案。 | Starred | `2026-09-10` | `ca93f9e05523` |
+| [Theclues/TradeGenuis-Options](https://github.com/Theclues/TradeGenuis-Options) · [首轮评测](evaluations/full-trading-system/2026-09-26/05-tradegenuis-options/README.md) | No description | Starred | `2026-09-07` | `a77d13dae84b` |
+| [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X) · [首轮评测](evaluations/full-trading-system/2026-09-26/06-sequoia-x/README.md) | A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书 | Starred | `2026-08-26` | `444c0db69ff3` · NEEDS_REVIEW |
+| [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) · [首轮评测](evaluations/full-trading-system/2026-09-26/07-tick-stock-panel/README.md) | TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 \| LLM能力驱使策略定制+个股分析+复盘 \| 自由接入第三方数据源与个性化扩展数据 \| 个人开源 | Starred | `2026-08-26` | `bfbccf9c414f` · NEEDS_REVIEW |
+| [lzwme/finance-quant-skills](https://github.com/lzwme/finance-quant-skills) · [首轮评测](evaluations/full-trading-system/2026-09-26/08-finance-quant-skills/README.md) | 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。 | Starred | `2026-08-26` | `7af066194d8d` |
+| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) · [首轮评测](evaluations/full-trading-system/2026-09-26/09-kronos/README.md) | Kronos: A Foundation Model for the Language of Financial Markets | Starred | `2026-08-03` | `67b630e67f6a` |
+| [simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research) · [首轮评测](evaluations/full-trading-system/2026-09-26/10-vibe-research/README.md) | Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录、回测。Vibe-Research 把数据和功能配齐，由你自己的 Agent 驱动投资研究。基于开源的 Codex Harness 打造。 | Starred | `2026-08-03` | `34ed58155ca2` |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) · [首轮评测](evaluations/full-trading-system/2026-09-26/11-vibe-trading/README.md) | "Vibe-Trading: Your Personal Trading Agent" | Starred | `2026-07-21` | `e476b4ce4c3b` |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) · [首轮评测](evaluations/full-trading-system/2026-09-26/12-daily-stock-analysis/README.md) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. | Starred | `2026-06-08` | `1168e316269b` |
+| [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) · [首轮评测](evaluations/full-trading-system/2026-09-26/13-quantdinger/README.md) | Open-source AI Trading OS and commercial-ready multi-tenant SaaS platform — research markets, build Python strategies, backtest, paper/live trade, and monitor crypto, stocks, and forex, with built-in user management, billing, payments, and settlement to launch and operate your own trading service. | Starred | `2026-05-01` | `d8508a85a473` |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) · [首轮评测](evaluations/full-trading-system/2026-09-26/14-tradingagents/README.md) | TradingAgents: Multi-Agents LLM Financial Trading Framework | Starred | `2026-02-02` | `be952b8eccb4` |
 
 ### Knowledge & Collections (7)
 

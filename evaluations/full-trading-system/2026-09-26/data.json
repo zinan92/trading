@@ -1,0 +1,3044 @@
+{
+  "round": "2026-09-26",
+  "published": "2026-09-27",
+  "scope": "原 Full Trading System / Agent 分组 14 项；保留历史样本，推荐分类不改 canonical registry。",
+  "methodology": "人工首轮完整交易产品适配与已验证可用性分；非 repo-evals 通用分、非生产认证、非盈利评价。跨产品配置/数据/试用深度不完全一致。分数用于本轮筛选，不应将数分差距视作统计显著。",
+  "weights": {
+    "coverage": 35,
+    "core_results": 30,
+    "delivery": 20,
+    "execution_verified": 15
+  },
+  "products": [
+    {
+      "slug": "01-go-stock",
+      "repo": "ArvinLovegood/go-stock",
+      "category_assessment": "桌面股票研究工具",
+      "score_parts": {
+        "coverage": 22,
+        "core_results": 22,
+        "delivery": 17,
+        "execution_verified": 0
+      },
+      "score": 61,
+      "status": "核心研究功能可用",
+      "summary": "桌面成品体验成熟；自选股与日 K 可用，AI Agent 有会员门槛。",
+      "verified": [
+        "原生 macOS 应用启动、自选股和日 K 操作通过",
+        "用户明确反馈：可用，是一个不错的底座"
+      ],
+      "issues": [
+        "AI Agent 页面出现 VIP2 门槛"
+      ],
+      "unverified": [
+        "AI 完整分析输出",
+        "订单执行与持仓回读",
+        "长期稳定运行"
+      ],
+      "next_step": "用同一组标的完成一次 AI 研究，记录会员与模型依赖。",
+      "tested_revision": "release v2026.09.26.1-release; asset SHA256 49e935556bf7a6803a54a3a9ecb47808c1b31416feeb578d255efae47706f6ff",
+      "interface": "原生桌面；少量辅助反馈页面",
+      "materials": "真实行情；反馈表不是产品功能",
+      "score_reason": {
+        "coverage": "桌面股票研究工具；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "原生 macOS 应用启动、自选股和日 K 操作通过；用户明确反馈：可用，是一个不错的底座",
+        "delivery": "桌面成品体验成熟；自选股与日 K 可用，AI Agent 有会员门槛。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "01-001",
+          "file": "01-001.jpg",
+          "caption": "采集画面 01-001 · 01-home",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "131b04bc23c86dc08cc6ae374c70873d1de4dd9c27662ecf565c8a33b7a2a5b3"
+        },
+        {
+          "source_id": "01-002",
+          "file": "01-002.jpg",
+          "caption": "采集画面 01-002 · 02-watchlist",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "a73d3a7147931e5194f16f2a33e21c3d7f3bb0cc1991e8bc58b8dee87f88f902"
+        },
+        {
+          "source_id": "01-003",
+          "file": "01-003.jpg",
+          "caption": "采集画面 01-003 · 03-daily-k",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "2801528e5dac4f5f611ef5a4055579492a0b042640c2bea9bd2daa148063a5c9"
+        },
+        {
+          "source_id": "01-004",
+          "file": "01-004.jpg",
+          "caption": "采集画面 01-004 · 04-ai-gate",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f854c8096a80bd9b87aead46fcb077cc297f0e20bf194d8c1ec8c06ad85d3349"
+        },
+        {
+          "source_id": "01-005",
+          "file": "01-005.jpg",
+          "caption": "采集画面 01-005 · 05-feedback-save",
+          "kind": "Product Lab 辅助反馈页",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "02b4169e2a5db0654ff9786ea71d37a26ee67cabbec30a140f15e143c7c4db42"
+        },
+        {
+          "source_id": "01-006",
+          "file": "01-006.jpg",
+          "caption": "采集画面 01-006 · 06-trial-page",
+          "kind": "Product Lab 辅助反馈页",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "a4692cdc877aba98fcfd72dcb8c747425d87d25f3337cee6b5ec35ee135439b5"
+        },
+        {
+          "source_id": "01-007",
+          "file": "01-007.jpg",
+          "caption": "采集画面 01-007 · 01-首页",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "03b93a00af13da77b79f5324736bd4b766446300ca2f49eeedde5adbaca6c269"
+        },
+        {
+          "source_id": "01-008",
+          "file": "01-008.jpg",
+          "caption": "采集画面 01-008 · 02-市场快讯",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "78c7fc6ee26e446061dc96099abdd697696bcb22fc17f85134900f534fc6b75e"
+        },
+        {
+          "source_id": "01-009",
+          "file": "01-009.jpg",
+          "caption": "采集画面 01-009 · 03-政策新闻",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "79691603e329b3a83f4b3935824449dc492b3279b517b8f75fcabdedc39ebe28"
+        },
+        {
+          "source_id": "01-010",
+          "file": "01-010.jpg",
+          "caption": "采集画面 01-010 · 04-全球股指",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "2ef0ffb5d77047402e19139c47d88b0bd6d8ffb99906b34afb2f61f4eeeccf3e"
+        },
+        {
+          "source_id": "01-011",
+          "file": "01-011.jpg",
+          "caption": "采集画面 01-011 · 05-重大指数",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "c756bedee6662523b7dd1d45660531e8ddb7c1db5aec185df073b44b964c2312"
+        },
+        {
+          "source_id": "01-012",
+          "file": "01-012.jpg",
+          "caption": "采集画面 01-012 · 06-期指多空",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。可见加载/空白状态，未据此判定功能已可用。",
+          "public_sha256": "5b3e744adf1aac077716055cf1ba2123044f4ba3a26d79edfcaaf3e89c43819c"
+        },
+        {
+          "source_id": "01-013",
+          "file": "01-013.jpg",
+          "caption": "采集画面 01-013 · 07-行业排名",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "b6d7656e5e19ddd8300d290133f2603ef0641dda1be142f2e8e431ed7b5e05f4"
+        },
+        {
+          "source_id": "01-014",
+          "file": "01-014.jpg",
+          "caption": "采集画面 01-014 · 08-个股资金流向",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "127554aafd63762066a8c40f8786490b67b5168a7f2a7905c4d9e7f5273af644"
+        },
+        {
+          "source_id": "01-015",
+          "file": "01-015.jpg",
+          "caption": "采集画面 01-015 · 09-板块资金流向",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "57836168dba5e757166776da13327bb217fa469553aba021a74efafdee49347e"
+        },
+        {
+          "source_id": "01-016",
+          "file": "01-016.jpg",
+          "caption": "采集画面 01-016 · 10-概念资金流向",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "a0e2db1ffb4932c3e8d3ba36afe84ce5260a61097c0a2f0ab4d990d5374bcbd9"
+        },
+        {
+          "source_id": "01-017",
+          "file": "01-017.jpg",
+          "caption": "采集画面 01-017 · 11-龙虎榜",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "1aab6252f419a761ceecbdcc13b5e723bb3a793561f915362f8efcb34e5e42ef"
+        },
+        {
+          "source_id": "01-018",
+          "file": "01-018.jpg",
+          "caption": "采集画面 01-018 · 12-游资动向",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。可见加载/空白状态，未据此判定功能已可用。",
+          "public_sha256": "aad6170095b74b2dd575f23b6d61f987f490d238cb5f20f0900c6ed0753d5b14"
+        },
+        {
+          "source_id": "01-019",
+          "file": "01-019.jpg",
+          "caption": "采集画面 01-019 · 13-个股研报",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "902fa7754d4c80a95826c8d471c8de2ab62bb720b00e49d0dbb257ec3383e6e9"
+        },
+        {
+          "source_id": "01-020",
+          "file": "01-020.jpg",
+          "caption": "采集画面 01-020 · 14-公司公告",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f334b3451bc3a197023d9ca05fabeaece77a62394bb163eb40487aeae68c9248"
+        },
+        {
+          "source_id": "01-021",
+          "file": "01-021.jpg",
+          "caption": "采集画面 01-021 · 15-行业研究",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "345715260d17a3b13b871a449874e87e55eb689a47e2f7948252900db3f07461"
+        },
+        {
+          "source_id": "01-022",
+          "file": "01-022.jpg",
+          "caption": "采集画面 01-022 · 16-当前热门",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。可见加载/空白状态，未据此判定功能已可用。",
+          "public_sha256": "d1e4494405757f88c52a09597b052375beb9d47bf46fa9725d12d292ce82e609"
+        },
+        {
+          "source_id": "01-023",
+          "file": "01-023.jpg",
+          "caption": "采集画面 01-023 · 17-名站优选",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。可见加载/空白状态，未据此判定功能已可用。",
+          "public_sha256": "e850a0c8e3eee1a8498f1d44eeaed6840222c678d0b3d5fb744cf6e74f32ca22"
+        },
+        {
+          "source_id": "01-024",
+          "file": "01-024.jpg",
+          "caption": "采集画面 01-024 · 18-融资融券",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。可见加载/空白状态，未据此判定功能已可用。",
+          "public_sha256": "b146aba3fa653201c9fffd266cb1462bb32b362daddec1a9a4ec3dd17e93a988"
+        },
+        {
+          "source_id": "01-025",
+          "file": "01-025.jpg",
+          "caption": "采集画面 01-025 · 19-研究中心",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "301e64e5f6c1072324480b94513de333a6f8f09454783ecbd80fac54dbc9ecd1"
+        },
+        {
+          "source_id": "01-026",
+          "file": "01-026.jpg",
+          "caption": "采集画面 01-026 · 20-AI分析报告",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "e83f8dda1e93d4c5150a35c362dd4d099fdeb1e72f9f69908a00689276b64404"
+        },
+        {
+          "source_id": "01-027",
+          "file": "01-027.jpg",
+          "caption": "采集画面 01-027 · 21-股票推荐记录",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ddcde53b33499cbff5df6bcda89fc0928fc0f2e046a013e70c7924df84739086"
+        },
+        {
+          "source_id": "01-028",
+          "file": "01-028.jpg",
+          "caption": "采集画面 01-028 · 22-异动监控",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。可见加载/空白状态，未据此判定功能已可用。",
+          "public_sha256": "fec900b79276885da7744fcced05fda2931e7bee736ef1c1039af86f6fd3bb63"
+        },
+        {
+          "source_id": "01-029",
+          "file": "01-029.jpg",
+          "caption": "采集画面 01-029 · 23-涨停梯队",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。可见加载/空白状态，未据此判定功能已可用。",
+          "public_sha256": "02475524540e531767bf5fd485215c7182959486d555767d5508c10b17bf23bd"
+        },
+        {
+          "source_id": "01-030",
+          "file": "01-030.jpg",
+          "caption": "采集画面 01-030 · 24-提示词模板",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "18d94adcc96da097adffc649ccec5d817c42b189462383414ed731d8a46637b5"
+        },
+        {
+          "source_id": "01-031",
+          "file": "01-031.jpg",
+          "caption": "采集画面 01-031 · 25-提示词广场",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。可见加载/空白状态，未据此判定功能已可用。",
+          "public_sha256": "297205811104fd5e877df1682d2a846113f3002d933edc72465b3524fdf6a30e"
+        },
+        {
+          "source_id": "01-032",
+          "file": "01-032.jpg",
+          "caption": "采集画面 01-032 · 26-形态选股",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "0828d09c5c0d96e0989c02affa0dd831f0ef694619d8aef58c5115f0a986fe15"
+        },
+        {
+          "source_id": "01-033",
+          "file": "01-033.jpg",
+          "caption": "采集画面 01-033 · 27-指标选股",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "81dbf0e989deeb72ba51e21714faa92404d89b8c37ded19b4863afd533dc60de"
+        },
+        {
+          "source_id": "01-034",
+          "file": "01-034.jpg",
+          "caption": "采集画面 01-034 · 28-定时任务",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "0e1bb75c7c4a049621d06750e4c082f3f7ea67b2d9f1ab7c7c9a5f0cd029a29c"
+        },
+        {
+          "source_id": "01-035",
+          "file": "01-035.jpg",
+          "caption": "采集画面 01-035 · 29-交易日志(beta)",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "8647bf9a7610c5542aabd12a11de0a10d40794ee282a4d52acf53115a488adcd"
+        },
+        {
+          "source_id": "01-036",
+          "file": "01-036.jpg",
+          "caption": "采集画面 01-036 · 30-每日操作计划",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "44925b95ecb2f98df91230a561c4da1f375d36d9c301f1435eb1938d36d0d3f2"
+        },
+        {
+          "source_id": "01-037",
+          "file": "01-037.jpg",
+          "caption": "采集画面 01-037 · 31-MCP服务",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "24811545b8aae729e7d03c0b158eb22dc707975a27a817efaf90bc0f85494f62"
+        },
+        {
+          "source_id": "01-038",
+          "file": "01-038.jpg",
+          "caption": "采集画面 01-038 · 32-技能管理",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "7701c82b8691a9af1a8030096f8f736b54895f22f2ae9dcfa89a17cd70a0d5dd"
+        },
+        {
+          "source_id": "01-039",
+          "file": "01-039.jpg",
+          "caption": "采集画面 01-039 · 33-知识库管理",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "b41a412f9627406422be9d259c3d42daa3d13863872b9e1e3a34a52a305f5835"
+        },
+        {
+          "source_id": "01-040",
+          "file": "01-040.jpg",
+          "caption": "采集画面 01-040 · 34-股票自选",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "a78e3f7bc8b59d60cb798f0960b3f710764f0e5a77ba3f8f977769360a693eeb"
+        },
+        {
+          "source_id": "01-041",
+          "file": "01-041.jpg",
+          "caption": "采集画面 01-041 · 35-复盘策略",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "a92d5ba6e25411c88a3b2bd4687156c43e75b0f51500c906a50e107b69c7ee27"
+        },
+        {
+          "source_id": "01-042",
+          "file": "01-042.jpg",
+          "caption": "采集画面 01-042 · 36-关于与赞助说明",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。可见加载/空白状态，未据此判定功能已可用。",
+          "public_sha256": "fba71f83f1a200af0cd59f387c5adadd241d9a985356040d72c0be01bb9acf60"
+        },
+        {
+          "source_id": "01-045",
+          "file": "01-045.jpg",
+          "caption": "手动试用画面 01-045",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "25eea08c2b919b0f36d9e0a0977c1c1c7c5dcfd35c2f6fa10707412f8e721caa"
+        },
+        {
+          "source_id": "01-047",
+          "file": "01-047.jpg",
+          "caption": "手动试用画面 01-047",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "62ca219ddc78e16eb7d893bf70a2ff6765eaf98279d60960dadc3b0e1f5896a2"
+        },
+        {
+          "source_id": "01-049",
+          "file": "01-049.jpg",
+          "caption": "手动试用画面 01-049",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "094a568e9b722fdc7701730498cc9ab789b927ff2e4dcdbfbc01040779a11141"
+        },
+        {
+          "source_id": "01-051",
+          "file": "01-051.jpg",
+          "caption": "手动试用画面 01-051",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "fee3377fb1f1b03128bbfe495f66246ea3631622670c24a3027c0ffe82c3f7c3"
+        },
+        {
+          "source_id": "01-053",
+          "file": "01-053.jpg",
+          "caption": "手动试用画面 01-053",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "5c963e6a2c22e50cb80ef2a873ec66de880b33a3bed1b47797b49cc39ab275e0"
+        },
+        {
+          "source_id": "01-055",
+          "file": "01-055.jpg",
+          "caption": "手动试用画面 01-055",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "fe4da5cc468634d07da1f9bad48551e83630808b72b1352543cca66f82a4330d"
+        },
+        {
+          "source_id": "01-057",
+          "file": "01-057.jpg",
+          "caption": "手动试用画面 01-057",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "b0d8aeac9035995c1eeb1b61c909a6aeaa86d8146ccb20338b941e84786e88ad"
+        }
+      ],
+      "catalog_lock": "c26304fafab0796765147c7db5049a9c3686319b",
+      "hero": "01-001.jpg"
+    },
+    {
+      "slug": "02-finhack",
+      "repo": "FinHackCN/finhack",
+      "category_assessment": "量化开发框架 / Trading Infra",
+      "score_parts": {
+        "coverage": 25,
+        "core_results": 2,
+        "delivery": 3,
+        "execution_verified": 0
+      },
+      "score": 30,
+      "status": "本机关键命令失败",
+      "summary": "覆盖数据、因子、策略与交易接入的框架；本轮未得到回测结果。",
+      "verified": [
+        "CLI 帮助和项目初始化完成"
+      ],
+      "issues": [
+        "backtest run 失败：缺失 finhack.backtest，后续加载又触发 importlib.util 问题",
+        "factor list 与 DemoStrategy 失败：MySQL connector 缺失 _version"
+      ],
+      "unverified": [
+        "因子计算结果",
+        "回测输出",
+        "实盘适配器"
+      ],
+      "next_step": "先在受支持环境修复依赖并跑通官方最小策略；本轮失败不代表所有环境均失败。",
+      "tested_revision": "PyPI finhack 0.0.3.dev2; Python 3.12; actual source SHA not recorded",
+      "interface": "原生 CLI；截图为辅助试用记录",
+      "materials": "无有效回测输出",
+      "score_reason": {
+        "coverage": "量化开发框架 / Trading Infra；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "CLI 帮助和项目初始化完成",
+        "delivery": "覆盖数据、因子、策略与交易接入的框架；本轮未得到回测结果。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "02-001",
+          "file": "02-001.jpg",
+          "caption": "采集画面 02-001 · 01-cli-help",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "0f4bdf7229b6cd0b9d65c5b5d3f5b9c773c3d189564ec1fb822cae143c354b5f"
+        },
+        {
+          "source_id": "02-002",
+          "file": "02-002.jpg",
+          "caption": "采集画面 02-002 · 02-backtest-failure",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。公开版遮盖了本机路径或联系标识；原文件哈希在清单中保留。",
+          "public_sha256": "3c76811620761fc199700f5e2cc28c825900af075a1c16cfa8a359ebf97e0b5f"
+        }
+      ],
+      "catalog_lock": "dedbbd0b7accfed035ba05f07d76726d8754bbf7",
+      "hero": "02-002.jpg"
+    },
+    {
+      "slug": "03-fomomo",
+      "repo": "nishuzumi/fomomo",
+      "category_assessment": "群消息代币监测 / 原生范围待核实",
+      "score_parts": {
+        "coverage": 18,
+        "core_results": 0,
+        "delivery": 5,
+        "execution_verified": 0
+      },
+      "score": 23,
+      "status": "仅模拟适配页体验",
+      "summary": "本轮看到的是明确标注的模拟群消息与价格适配页，不能据此确认原生产品成熟度。",
+      "verified": [],
+      "issues": [],
+      "unverified": [
+        "原生产品运行",
+        "真实群消息接入",
+        "真实行情与钱包",
+        "原生交易或模拟交易功能"
+      ],
+      "next_step": "接入一个获授权的测试群，用原生流程验证消息→代币识别→结果记录。",
+      "tested_revision": "c0ea14f419f62a498a14bd89581de124b3e462dd",
+      "interface": "辅助 HTML / 模拟适配页，不是原生 UI",
+      "materials": "全部为模拟消息与价格；未接钱包",
+      "score_reason": {
+        "coverage": "群消息代币监测 / 原生范围待核实；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "本轮没有原生核心功能产出，模拟适配页不计核心功能成功。",
+        "delivery": "本轮看到的是明确标注的模拟群消息与价格适配页，不能据此确认原生产品成熟度。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "03-001",
+          "file": "03-001.jpg",
+          "caption": "采集画面 03-001 · 01-overview",
+          "kind": "模拟数据适配页（不代表原生完整功能）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "fa76d8d66fab13b778cabb2e0b9177bcf37a50185ab94597e641040f468b2c39"
+        },
+        {
+          "source_id": "03-002",
+          "file": "03-002.jpg",
+          "caption": "采集画面 03-002 · 02-default-simulation",
+          "kind": "模拟数据适配页（不代表原生完整功能）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "186cfa4e4feda841180d5a2a72ad1f65e645f261ce4cc780d568d345ba3c9c1c"
+        },
+        {
+          "source_id": "03-003",
+          "file": "03-003.jpg",
+          "caption": "采集画面 03-003 · 03-two-times-exit",
+          "kind": "模拟数据适配页（不代表原生完整功能）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "d1976d1b435153ac799a3fd252d0136b90fddd356dfb45034082559fe06e07c8"
+        },
+        {
+          "source_id": "03-004",
+          "file": "03-004.jpg",
+          "caption": "采集画面 03-004 · 04-review",
+          "kind": "模拟数据适配页（不代表原生完整功能）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "dc3bdd0b32fd645e054b28125e5189a466b57e043043ed378954b3e37a99aa1f"
+        },
+        {
+          "source_id": "03-005",
+          "file": "03-005.jpg",
+          "caption": "手动试用画面 03-005",
+          "kind": "用户手动截图 · 模拟数据适配页（不代表原生完整功能）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "623f680555b2f36db896391edc15e60c7bb3989a769e485c225c7f67dd3929e1"
+        },
+        {
+          "source_id": "03-007",
+          "file": "03-007.jpg",
+          "caption": "手动试用画面 03-007",
+          "kind": "用户手动截图 · 模拟数据适配页（不代表原生完整功能）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "93105f3adaf994508a6c7c7828dea419b92fa10a64dd9e15c0596c41a08f6c07"
+        },
+        {
+          "source_id": "03-009",
+          "file": "03-009.jpg",
+          "caption": "手动试用画面 03-009",
+          "kind": "用户手动截图 · 模拟数据适配页（不代表原生完整功能）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "bb1437a21c64e11ae14ec38ebff730f6faa8154747baa190247a747b9f9e1d49"
+        },
+        {
+          "source_id": "03-011",
+          "file": "03-011.jpg",
+          "caption": "手动试用画面 03-011",
+          "kind": "用户手动截图 · 模拟数据适配页（不代表原生完整功能）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "dc2c7ed1cb28d8f02580fc92d6b28399328a1b21902b27e768b00d629058f294"
+        },
+        {
+          "source_id": "03-013",
+          "file": "03-013.jpg",
+          "caption": "手动试用画面 03-013",
+          "kind": "用户手动截图 · 模拟数据适配页（不代表原生完整功能）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "c40ef0e2abbda17c8f58870343ab5652a47cae454761f45a46a3d77a975a6c66"
+        },
+        {
+          "source_id": "03-015",
+          "file": "03-015.jpg",
+          "caption": "手动试用画面 03-015",
+          "kind": "用户手动截图 · 模拟数据适配页（不代表原生完整功能）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "917254b8e5ec28606401c552fbcc89c275a9bfc3954eaf81a9c7be9b0288d0a9"
+        }
+      ],
+      "catalog_lock": "a2c6040392e3102753983bc17f28d7cc08b32f9a",
+      "hero": "03-002.jpg"
+    },
+    {
+      "slug": "04-khunter",
+      "repo": "ling-0729/KHunter",
+      "category_assessment": "A 股完整交易系统候选（PTrade）",
+      "score_parts": {
+        "coverage": 29,
+        "core_results": 16,
+        "delivery": 12,
+        "execution_verified": 0
+      },
+      "score": 57,
+      "status": "真实数据可用，交易闭环未验",
+      "summary": "有原生 Web、策略、回测和 PTrade 下单/反馈代码；本轮样本较小。",
+      "verified": [
+        "3 个真实标的、1095 根 K 线",
+        "原生页面与回测运行，结果 0 笔交易"
+      ],
+      "issues": [],
+      "unverified": [
+        "有成交的回测",
+        "PTrade 下单与反馈",
+        "自动调度"
+      ],
+      "next_step": "扩大样本并先得到有交易明细的回测，再验证 PTrade 模拟环境。",
+      "tested_revision": "ca93f9e055234e2e4b727602dfa16d6cb6aaa9ae",
+      "interface": "原生 Web；辅助反馈页面另标",
+      "materials": "真实 BaoStock / 腾讯数据；PTrade 和自动调度关闭",
+      "score_reason": {
+        "coverage": "A 股完整交易系统候选（PTrade）；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "3 个真实标的、1095 根 K 线；原生页面与回测运行，结果 0 笔交易",
+        "delivery": "有原生 Web、策略、回测和 PTrade 下单/反馈代码；本轮样本较小。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "04-001",
+          "file": "04-001.jpg",
+          "caption": "采集画面 04-001 · 01-stocks",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "30b9f401adf81d30250f86eb1f570d60bb4f699602f9eebc26080c00bee41f3e"
+        },
+        {
+          "source_id": "04-002",
+          "file": "04-002.jpg",
+          "caption": "采集画面 04-002 · 02-kline",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "d9ccca2178eb2f3a48b62338df2689208190333b5f437593b586e211e09911c9"
+        },
+        {
+          "source_id": "04-003",
+          "file": "04-003.jpg",
+          "caption": "采集画面 04-003 · 03-selection-zero",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "c07878a8da0ec4b37fdc2ab73a51c91aabc62fd50c152210e7e952140cba4a4a"
+        },
+        {
+          "source_id": "04-004",
+          "file": "04-004.jpg",
+          "caption": "采集画面 04-004 · 04-backtest-result",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ff5b6ba06c81cb9af282c66d25bcc115d0ba1d0c7a3ae58a3a6801f83d506f50"
+        },
+        {
+          "source_id": "04-005",
+          "file": "04-005.jpg",
+          "caption": "采集画面 04-005 · 01-市场速览",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "a82e6a42f6e8e30f9b202cb3c0125d665c7c1fdb54421803c589e644dfa8844c"
+        },
+        {
+          "source_id": "04-006",
+          "file": "04-006.jpg",
+          "caption": "采集画面 04-006 · 02-策略执行器",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "fda6624f4a4f787ce1a368353108bd065e5cfd801ee9ad10769e28dc0e07568a"
+        },
+        {
+          "source_id": "04-007",
+          "file": "04-007.jpg",
+          "caption": "采集画面 04-007 · 03-狩猎场",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "0af78e379d68caf55b5f7726c7a6818b54b962ac3a256ccd522ffd90af66bfb4"
+        },
+        {
+          "source_id": "04-008",
+          "file": "04-008.jpg",
+          "caption": "采集画面 04-008 · 04-狩猎跟踪",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "4c27d78e98dec0c981f40aa65f9a071d9d447e1fceefc0862fbddee8af802a14"
+        },
+        {
+          "source_id": "04-009",
+          "file": "04-009.jpg",
+          "caption": "采集画面 04-009 · 05-收藏夹",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "77557756fac4dfacd42a35ad5097e70b327794ca1adec2fe8262c07c432ac0c3"
+        },
+        {
+          "source_id": "04-010",
+          "file": "04-010.jpg",
+          "caption": "采集画面 04-010 · 06-选股结果",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "98dc36a244067a46bd02e65dc8be6de3fa24be207e3f1f1834af641a5e0bc06b"
+        },
+        {
+          "source_id": "04-011",
+          "file": "04-011.jpg",
+          "caption": "采集画面 04-011 · 07-历史选股",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ba4b1d773313a6798bcca7f26ee720b70bf25150213881fae16a83a2a416af1d"
+        },
+        {
+          "source_id": "04-012",
+          "file": "04-012.jpg",
+          "caption": "采集画面 04-012 · 08-个股图谱",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "9da4d74b03806c7303964ccd984cccc4f5f95a40926862efe4e01a0ed5f7860f"
+        },
+        {
+          "source_id": "04-013",
+          "file": "04-013.jpg",
+          "caption": "采集画面 04-013 · 09-选股排名",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "3ddcf44caa9391b692fa47480997f43396bb96768b2418663592d217cc3e3b2c"
+        },
+        {
+          "source_id": "04-014",
+          "file": "04-014.jpg",
+          "caption": "采集画面 04-014 · 10-排名跟踪",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "16393c2fa838b16e6d8d7d7a508aa68c213cb498c034369c447f817bc21e3229"
+        },
+        {
+          "source_id": "04-015",
+          "file": "04-015.jpg",
+          "caption": "采集画面 04-015 · 11-策略回测",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "d8d2e37e75cdc61335e0699a098b798ab62e1b1f0e37af2295d5f5607484be9c"
+        },
+        {
+          "source_id": "04-016",
+          "file": "04-016.jpg",
+          "caption": "采集画面 04-016 · 12-回测历史",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "a9f939a413f2001bc2bd01b5d526f78742442a0b33cf1159c2f37a4817162dce"
+        },
+        {
+          "source_id": "04-017",
+          "file": "04-017.jpg",
+          "caption": "采集画面 04-017 · 13-自适应回测",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "51f8bceb6972560038a669e5ae07c4428ed345640f199ef32969e789066927cd"
+        },
+        {
+          "source_id": "04-018",
+          "file": "04-018.jpg",
+          "caption": "采集画面 04-018 · 14-基础数据",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "81a61a38d0ec4e5b77f38c199efe55721262e64e985b7cdb88156e429e5b3228"
+        },
+        {
+          "source_id": "04-019",
+          "file": "04-019.jpg",
+          "caption": "采集画面 04-019 · 15-初始化数据",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "37bd99a6798aefe732eac1e1b6de2e2272ec5d0fa11de1ec2bb2f29f711da939"
+        },
+        {
+          "source_id": "04-020",
+          "file": "04-020.jpg",
+          "caption": "采集画面 04-020 · 16-数据更新",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "69b354c7a5275a1367b9e81a1e86afffcc8f2bace0430332e3aa39fe8140131a"
+        },
+        {
+          "source_id": "04-021",
+          "file": "04-021.jpg",
+          "caption": "采集画面 04-021 · 17-策略配置",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "eafccb1c6976d1f60e5d63ac15555bc94d928342eda2bedcc78f79541963b61e"
+        },
+        {
+          "source_id": "04-022",
+          "file": "04-022.jpg",
+          "caption": "采集画面 04-022 · 18-回测配置",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "de6a5028a11673a5fd66265ee2976a9bb35381691ba0c532ce9f49e0f16556f7"
+        },
+        {
+          "source_id": "05-016",
+          "file": "05-016.jpg",
+          "caption": "手动试用画面 05-016",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。原档案误放在 TradeGenuis，按可见 KHunter 标识更正归属。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "b737c51eeb9d837c50648e7420d691fffe2cde30722bb870723c77a8b523f939"
+        }
+      ],
+      "catalog_lock": "ca93f9e055234e2e4b727602dfa16d6cb6aaa9ae",
+      "hero": "04-002.jpg"
+    },
+    {
+      "slug": "05-tradegenuis-options",
+      "repo": "Theclues/TradeGenuis-Options",
+      "category_assessment": "期权研究工作台",
+      "score_parts": {
+        "coverage": 22,
+        "core_results": 16,
+        "delivery": 14,
+        "execution_verified": 0
+      },
+      "score": 52,
+      "status": "部分可用",
+      "summary": "原生 Electron 可浏览研究素材与机会，AI 与知识检索效果尚未验证。",
+      "verified": [
+        "导入 15 页试用素材",
+        "页面显示 20 个 watchlist 项与 6 个机会（不是收益或推荐有效性证明）"
+      ],
+      "issues": [
+        "4 页素材被拒收",
+        "更新出现 revision_conflict，首次创建成功"
+      ],
+      "unverified": [
+        "AI 分析",
+        "embedding 检索",
+        "机会质量与订单执行"
+      ],
+      "next_step": "修复或复现更新冲突，并用一份可核实的期权材料完成分析。",
+      "tested_revision": "a77d13dae84b4364e4decdc0ccf5fa525dc05a21",
+      "interface": "原生 Electron",
+      "materials": "导入试用素材；没有配置 AI key/embedding",
+      "score_reason": {
+        "coverage": "期权研究工作台；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "导入 15 页试用素材；页面显示 20 个 watchlist 项与 6 个机会（不是收益或推荐有效性证明）",
+        "delivery": "原生 Electron 可浏览研究素材与机会，AI 与知识检索效果尚未验证。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "05-001",
+          "file": "05-001.jpg",
+          "caption": "采集画面 05-001 · 01-机会-首次同步",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。公开版遮盖了本机路径或联系标识；原文件哈希在清单中保留。",
+          "public_sha256": "980097948aad276efa7b51c7670f39e6d18e3ae16472818b940ffd3b9560fbf2"
+        },
+        {
+          "source_id": "05-002",
+          "file": "05-002.jpg",
+          "caption": "采集画面 05-002 · 02-投研-入口",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "b14ede95d477c73a37655b916482f3d5263c53d389c7257043acbb1d716ed042"
+        },
+        {
+          "source_id": "05-003",
+          "file": "05-003.jpg",
+          "caption": "采集画面 05-003 · 03-交易-总览",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "6618fe26af2c33be27c24becb75c6b6fb7481d50bb4df3ebd43e4ce6dbccd14c"
+        },
+        {
+          "source_id": "05-004",
+          "file": "05-004.jpg",
+          "caption": "采集画面 05-004 · 04-交易-历史交易表单",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "460fdfa2f75cca003a4fc5debc349318a9372d3641298c4daa5d82d52228e435"
+        },
+        {
+          "source_id": "05-005",
+          "file": "05-005.jpg",
+          "caption": "采集画面 05-005 · 05-知识库-列表",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "5f5462a97c114c42f6ea7b84a98e6fb5719e6c1e889f75fc30f3dc23ffff592f"
+        },
+        {
+          "source_id": "05-006",
+          "file": "05-006.jpg",
+          "caption": "采集画面 05-006 · 06-知识库-IV框架详情",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ec1ab693074aa79a89d955935e44b5995ef4e2e609d8becbfbb046e8b311b5b3"
+        },
+        {
+          "source_id": "05-007",
+          "file": "05-007.jpg",
+          "caption": "采集画面 05-007 · 07-知识库-Markdown编辑",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "9bdf16fd0a32e99d9138a87587cb8824f4d18fe0c5a15322a9a32634f592e00f"
+        },
+        {
+          "source_id": "05-008",
+          "file": "05-008.jpg",
+          "caption": "采集画面 05-008 · 08-知识库-策略模板",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "65016454ed563cdccecabd845dabc3ec2c02b03d26907f7bbe0683740542b9a9"
+        },
+        {
+          "source_id": "05-009",
+          "file": "05-009.jpg",
+          "caption": "采集画面 05-009 · 09-知识库-财报策略详情",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "fd756a842e136d9c5cace8e0db5a730f072439f6d4509e10b291c954cde8f3aa"
+        },
+        {
+          "source_id": "05-010",
+          "file": "05-010.jpg",
+          "caption": "采集画面 05-010 · 10-知识库-画像列表",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "bc192437c7668410edb71f43b6b9fca4cdf404dca8887c0acad70cc9b6a3f402"
+        },
+        {
+          "source_id": "05-011",
+          "file": "05-011.jpg",
+          "caption": "采集画面 05-011 · 11-问答-入口",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "859653240257e6f71ed78c5ee3abc1b611f5eb3baf1d7a538f83d598dd01460a"
+        },
+        {
+          "source_id": "05-012",
+          "file": "05-012.jpg",
+          "caption": "采集画面 05-012 · 12-设置-依赖状态",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。本机路径已遮盖。",
+          "public_sha256": "bf3a58a5ec953464fa55683f30d60424fdfd6c2eb9f3077fe27d2eea916938f2"
+        },
+        {
+          "source_id": "05-013",
+          "file": "05-013.jpg",
+          "caption": "采集画面 05-013 · 13-知识库-新建笔记",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "3160c42c5f4c8ab3fa1150f8bc8a34ef46d3358b1ae92c7e7a08fd29dffacfee"
+        },
+        {
+          "source_id": "05-014",
+          "file": "05-014.jpg",
+          "caption": "采集画面 05-014 · 14-知识库-更新冲突",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "fe480b05617e191ea389adb44015c36f19ed1b0b0b58dd7f589e85c8f84d05a7"
+        },
+        {
+          "source_id": "05-015",
+          "file": "05-015.jpg",
+          "caption": "采集画面 05-015 · 15-机会-同步完成",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "a1b84db4f585da2128618cd9e93be578c971795ad5baa7b09ce28bdafd103928"
+        },
+        {
+          "source_id": "05-017",
+          "file": "05-017.jpg",
+          "caption": "手动试用画面 05-017",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "43718c52af23cbef41a7e142d77313e11b5518318e8725489ca7827286f47490"
+        },
+        {
+          "source_id": "05-019",
+          "file": "05-019.jpg",
+          "caption": "手动试用画面 05-019",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "aa806eb21a045baa7bd9ae4d5eb8e31dc354e5b32b70653047bbb70a0f7af14a"
+        }
+      ],
+      "catalog_lock": "a77d13dae84b4364e4decdc0ccf5fa525dc05a21",
+      "hero": "05-004.jpg"
+    },
+    {
+      "slug": "06-sequoia-x",
+      "repo": "sngyai/Sequoia-X",
+      "category_assessment": "CLI 选股引擎 / Trading Strategy",
+      "score_parts": {
+        "coverage": 15,
+        "core_results": 25,
+        "delivery": 14,
+        "execution_verified": 0
+      },
+      "score": 54,
+      "status": "选股任务可用",
+      "summary": "窄任务结果明确：真实数据与 6 个策略跑通；没有原生 Web UI。",
+      "verified": [
+        "20 个标的、8414 根 K 线",
+        "6 个策略完成；RPS 命中 000333"
+      ],
+      "issues": [],
+      "unverified": [
+        "通知发送",
+        "定时持续运行",
+        "订单与持仓闭环"
+      ],
+      "next_step": "验证收盘后自动执行及通知送达，核对同一信号可重复出现。",
+      "tested_revision": "444c0db69ff36b46ef2b22ab265051d60c16029d",
+      "interface": "原生 CLI；所有网页截图来自辅助试用台",
+      "materials": "真实行情；未发送通知",
+      "score_reason": {
+        "coverage": "CLI 选股引擎 / Trading Strategy；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "20 个标的、8414 根 K 线；6 个策略完成；RPS 命中 000333",
+        "delivery": "窄任务结果明确：真实数据与 6 个策略跑通；没有原生 Web UI。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "06-001",
+          "file": "06-001.jpg",
+          "caption": "采集画面 06-001 · 01-总览",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "2c3f7032396092e8fe7879894abbcdf78771546f7f3ba5f0fa4b928591b06779"
+        },
+        {
+          "source_id": "06-002",
+          "file": "06-002.jpg",
+          "caption": "采集画面 06-002 · 02-数据来源",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "19d4335a6b40318cfca9a6e6a010441a732b818a8910f09dffd38860ccd9db8e"
+        },
+        {
+          "source_id": "06-003",
+          "file": "06-003.jpg",
+          "caption": "采集画面 06-003 · 03-均线放量",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "0574d420e614f7d1364bbf9263b09d214bb2fd65a2272a19343f213022f38d49"
+        },
+        {
+          "source_id": "06-004",
+          "file": "06-004.jpg",
+          "caption": "采集画面 06-004 · 04-海龟突破",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "d0dd40d352ea600536edaae51696d7c83b87a3de067a80fffebeed2b1d8961fd"
+        },
+        {
+          "source_id": "06-005",
+          "file": "06-005.jpg",
+          "caption": "采集画面 06-005 · 05-高窄旗形",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "3cb38d51f31568067abb87dcaf4950ea22e81b83abb88b8aa6f500587d9c5bb1"
+        },
+        {
+          "source_id": "06-006",
+          "file": "06-006.jpg",
+          "caption": "采集画面 06-006 · 06-涨停洗盘",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "876072d4b58c80f8e104f09497fdaa4671346891799a0a088768ad12b2ebdebc"
+        },
+        {
+          "source_id": "06-007",
+          "file": "06-007.jpg",
+          "caption": "采集画面 06-007 · 07-上升跌停",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "1c5026b32d6617ee7a760efd62b704d19a6448b296d064f018f8777a8c815414"
+        },
+        {
+          "source_id": "06-008",
+          "file": "06-008.jpg",
+          "caption": "采集画面 06-008 · 08-RPS 突破",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "d0b43cd539a523bee86c69e2f6fa1412f2dc927245be570a5a6e1d2b158d60e0"
+        },
+        {
+          "source_id": "06-009",
+          "file": "06-009.jpg",
+          "caption": "采集画面 06-009 · 09-运行日志",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "6ac85a4cdf67a47e96f06e3cccccb67b999f34dd085693f255df130aa896c271"
+        },
+        {
+          "source_id": "06-010",
+          "file": "06-010.jpg",
+          "caption": "采集画面 06-010 · 10-通知与边界",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "4b32fae124c76c85ff197bf7683a83c826a891903dc6ebc3a44c9159426436fc"
+        },
+        {
+          "source_id": "06-011",
+          "file": "06-011.jpg",
+          "caption": "采集画面 06-011 · 11-RPS重新运行",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。公开版遮盖了本机路径或联系标识；原文件哈希在清单中保留。",
+          "public_sha256": "16aff60fa228d90130fc0429be2441d61b50c67e079bfc1381a19f0b003c086e"
+        }
+      ],
+      "catalog_lock": "444c0db69ff36b46ef2b22ab265051d60c16029d",
+      "hero": "06-008.jpg"
+    },
+    {
+      "slug": "07-tick-stock-panel",
+      "repo": "shy3130/tick-stock-panel",
+      "category_assessment": "A 股量化工作台 / 完整本地模拟交易系统候选",
+      "score_parts": {
+        "coverage": 32,
+        "core_results": 27,
+        "delivery": 18,
+        "execution_verified": 0
+      },
+      "score": 77,
+      "status": "本轮核心任务证据最充分",
+      "summary": "本轮首选。数据、选股和回测产出最充分；源码还有模拟订单/撮合/台账，但尚未实测模拟成交。",
+      "verified": [
+        "5880 个标的、241 个交易日、1321930 行日线",
+        "MA 金叉筛选 65 个标的",
+        "回测完成 114 笔交易，收益 -36.36%；该收益仅描述本次策略，不是产品质量分"
+      ],
+      "issues": [
+        "本轮 None 数据模式下实时行情不可用"
+      ],
+      "unverified": [
+        "模拟账户→下单→成交→持仓回读",
+        "AI 输出",
+        "券商实盘接入（本轮实现为本地模拟盘）"
+      ],
+      "next_step": "创建隔离模拟账户，完成一笔模拟买卖并核对现金、费用和持仓。",
+      "tested_revision": "529be9555ef93836833279a667cda07175abc29c",
+      "interface": "原生 Web",
+      "materials": "真实历史行情；AI 未配置；模拟盘截图停在建账户页",
+      "score_reason": {
+        "coverage": "A 股量化工作台 / 完整本地模拟交易系统候选；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "5880 个标的、241 个交易日、1321930 行日线；MA 金叉筛选 65 个标的；回测完成 114 笔交易，收益 -36.36%；该收益仅描述本次策略，不是产品质量分",
+        "delivery": "本轮首选。数据、选股和回测产出最充分；源码还有模拟订单/撮合/台账，但尚未实测模拟成交。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "07-001",
+          "file": "07-001.jpg",
+          "caption": "采集画面 07-001 · 01-首次引导-说明",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "5d3b10509ceb9a31272445a1d7b5dd5da798cae763d1f6c7679c413eafcff7e9"
+        },
+        {
+          "source_id": "07-002",
+          "file": "07-002.jpg",
+          "caption": "采集画面 07-002 · 02-首次引导-欢迎",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "fdf270a809f713dcf82121cc6eb1ade1e6fc9f29b988dc171e9df3d9c550ca68"
+        },
+        {
+          "source_id": "07-003",
+          "file": "07-003.jpg",
+          "caption": "采集画面 07-003 · 03-首次引导-数据源",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f800f5343b02d88fa60a05f6b2e12c3de2d7d40ff8f726ec281512544f055da0"
+        },
+        {
+          "source_id": "07-004",
+          "file": "07-004.jpg",
+          "caption": "采集画面 07-004 · 04-首次引导-能力路由",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "74b3bd4f95b43ccc62b4a7c30f0dca27a04b75d2e6992df1e7fefd33d0d639fe"
+        },
+        {
+          "source_id": "07-005",
+          "file": "07-005.jpg",
+          "caption": "采集画面 07-005 · 05-首次引导-完成",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "c58e597926dc0218bbc8d6ed381821df0f2cb113a07fc53b8c97914dcb091775"
+        },
+        {
+          "source_id": "07-006",
+          "file": "07-006.jpg",
+          "caption": "采集画面 07-006 · 06-看板-同步前",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "912d29166efbd7108941b29c07534450798fe9e3728abd03317ef3c9d0f5c02e"
+        },
+        {
+          "source_id": "07-007",
+          "file": "07-007.jpg",
+          "caption": "采集画面 07-007 · 07-看板",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。本张带模糊遮罩，不用于代表图。",
+          "public_sha256": "35a9404c3a11b3fd210297259a08e4a3900d055def5283838d10f02ea375d27f"
+        },
+        {
+          "source_id": "07-008",
+          "file": "07-008.jpg",
+          "caption": "采集画面 07-008 · 08-自选",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "4c700cb5f6db03b444de36c3fc24479b9c9c4a25d021efdd6e4ea7f37e9b7c93"
+        },
+        {
+          "source_id": "07-009",
+          "file": "07-009.jpg",
+          "caption": "采集画面 07-009 · 09-策略",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "a7f46d82759616c420606b9b9020c7ae452fc4bb90b487b7c84ebd2fae2b4d4f"
+        },
+        {
+          "source_id": "07-010",
+          "file": "07-010.jpg",
+          "caption": "采集画面 07-010 · 10-因子",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "2ffb54314b7ee89206540ba9fc815e8d246a72dae537538ee8dd042887eb30dd"
+        },
+        {
+          "source_id": "07-011",
+          "file": "07-011.jpg",
+          "caption": "采集画面 07-011 · 11-回测",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "27c6cf6bc4b756f4adfd937f71a8c1e992ed7f417d99ba6afd54b9581e6382a7"
+        },
+        {
+          "source_id": "07-012",
+          "file": "07-012.jpg",
+          "caption": "采集画面 07-012 · 12-个股分析",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "41e7141e4d2f2ccd2f0e59bcfc6c8b56a251611781f5ad2698c5c07b55b91ca1"
+        },
+        {
+          "source_id": "07-013",
+          "file": "07-013.jpg",
+          "caption": "采集画面 07-013 · 13-连板梯队",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "b1af5548b9e5d65db7e514e2bc1696cef649daa90c2d22377f7bfeb9086711ed"
+        },
+        {
+          "source_id": "07-014",
+          "file": "07-014.jpg",
+          "caption": "采集画面 07-014 · 14-概念分析",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "4932868085885af6fb2c3ca8184d9f65d33f1f4b9a8411473a493dbeb98ec3f2"
+        },
+        {
+          "source_id": "07-015",
+          "file": "07-015.jpg",
+          "caption": "采集画面 07-015 · 15-行业分析",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "098586c566765eddd71f451c05229eb02048ae178f7f23f9c61b5a2b49ee8e5e"
+        },
+        {
+          "source_id": "07-016",
+          "file": "07-016.jpg",
+          "caption": "采集画面 07-016 · 16-财务分析",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "17df538709ceeae0159940572b57740fe819d98957e6943088b116cbfbc0a4e7"
+        },
+        {
+          "source_id": "07-017",
+          "file": "07-017.jpg",
+          "caption": "采集画面 07-017 · 17-监控中心",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "d3bb80a50da5f79fbdc98dfc1979706180b3f56c8ca5c96ff020e5d96eb18c8a"
+        },
+        {
+          "source_id": "07-018",
+          "file": "07-018.jpg",
+          "caption": "采集画面 07-018 · 18-市场环境",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ad6def2af7960032cdba7468971c86ec86397ed26d3663486dda959d6aa63e6f"
+        },
+        {
+          "source_id": "07-019",
+          "file": "07-019.jpg",
+          "caption": "采集画面 07-019 · 19-异动监控",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "b8d53db93db111eb4861870845ec3826df7821ab67c168451c2ddfb50fa07d41"
+        },
+        {
+          "source_id": "07-020",
+          "file": "07-020.jpg",
+          "caption": "采集画面 07-020 · 20-持仓提醒",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "e438234c3ab569c0b5111a270de4eac29a55cbad950db0c8f6ddff90c5de0783"
+        },
+        {
+          "source_id": "07-021",
+          "file": "07-021.jpg",
+          "caption": "采集画面 07-021 · 21-模拟盘",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "725ffef5bb7e43165b9cff78c50c08e130078cfb15b7f3ddc5be7a4942cf69b4"
+        },
+        {
+          "source_id": "07-022",
+          "file": "07-022.jpg",
+          "caption": "采集画面 07-022 · 22-信号库",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "bdf46209afca46ea7e732b23f081836557b819d4614a2afc51f421d170e5760f"
+        },
+        {
+          "source_id": "07-023",
+          "file": "07-023.jpg",
+          "caption": "采集画面 07-023 · 23-复盘",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "64f4c7e866cad55c5f40fd9431d6fa2a2c19dc4d19ae8f9feda26f8c3df94ea5"
+        },
+        {
+          "source_id": "07-024",
+          "file": "07-024.jpg",
+          "caption": "采集画面 07-024 · 24-指数",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "e2c85bf581c78a9ac16741fa9a83a11448a8e3dc1fb658cf4cf33524576fc38b"
+        },
+        {
+          "source_id": "07-025",
+          "file": "07-025.jpg",
+          "caption": "采集画面 07-025 · 25-数据",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "0dba369c3e86b6f1d33a6244b5e39982ed958d0490c3ac65b5cdfc0d9e5c23ad"
+        },
+        {
+          "source_id": "07-026",
+          "file": "07-026.jpg",
+          "caption": "采集画面 07-026 · 26-设置",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "cd90f4dcd83c014bf764408d08cd734a586f72aef126bb59411a2c522659c01a"
+        },
+        {
+          "source_id": "07-027",
+          "file": "07-027.jpg",
+          "caption": "采集画面 07-027 · 27-设置-AI 设置",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ef1b66e9ebb62eba9e1004d2729aadb2a8bbf8d9f7d46312ec7646fcfb1ece1f"
+        },
+        {
+          "source_id": "07-028",
+          "file": "07-028.jpg",
+          "caption": "采集画面 07-028 · 28-设置-实时监控",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f2a9302b7ef8451ba608c3c486f05a875396631012e4638aaee43c8fb1bf68bf"
+        },
+        {
+          "source_id": "07-029",
+          "file": "07-029.jpg",
+          "caption": "采集画面 07-029 · 29-设置-扩展页面",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "2086a6b7883702af23f117d67b461be92816c8d3d3c8fedd759897c69f05fe2a"
+        },
+        {
+          "source_id": "07-030",
+          "file": "07-030.jpg",
+          "caption": "采集画面 07-030 · 30-设置-网络设置",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "4fa5d3e6fbe1b37045b7d45a198764f326fa6abfee4d22090ae2d01209b8664d"
+        },
+        {
+          "source_id": "07-031",
+          "file": "07-031.jpg",
+          "caption": "采集画面 07-031 · 31-设置-菜单设置",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "1f8f09ab61a3faabdca5c94772870ad4b9bdf86c806a6e685bccc864d211fa2a"
+        },
+        {
+          "source_id": "07-032",
+          "file": "07-032.jpg",
+          "caption": "采集画面 07-032 · 32-设置-系统设置",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "753a81f68f326175d0159b9b49f1b4078a0661d0ea6e78d5dd1b525c3ca17a34"
+        },
+        {
+          "source_id": "07-033",
+          "file": "07-033.jpg",
+          "caption": "采集画面 07-033 · 33-自选-真实行情",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "734608004b75f3674cefc29cf6fea9e38f839944ad14df4621af9f1d6bf4b8a7"
+        },
+        {
+          "source_id": "07-034",
+          "file": "07-034.jpg",
+          "caption": "采集画面 07-034 · 34-贵州茅台-日K",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "fcbf05ed3139dea400a8d9118c49ef37a4a78eb7583f5b2204468f364883e670"
+        },
+        {
+          "source_id": "07-035",
+          "file": "07-035.jpg",
+          "caption": "采集画面 07-035 · 35-策略-MA金叉65只",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "325a4aec1491837478c30583cb1283a8b1d6be46db161c92c4ee7482e41be068"
+        },
+        {
+          "source_id": "07-036",
+          "file": "07-036.jpg",
+          "caption": "采集画面 07-036 · 36-回测-MA金叉结果",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "71cc0c5a75fdff35872fa113c595196c001cf4fe7750004482028045dfc36e45"
+        },
+        {
+          "source_id": "07-037",
+          "file": "07-037.jpg",
+          "caption": "手动试用画面 07-037",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "f6d64d0f426c2ed18189e1d1f9068f94acf9623f067b60b927f88abd0369def5"
+        },
+        {
+          "source_id": "07-039",
+          "file": "07-039.jpg",
+          "caption": "手动试用画面 07-039",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "51f2c57e7976324a0c1f3f8b86972a2fd9a9dd038d1865831afece672378ec0f"
+        },
+        {
+          "source_id": "07-041",
+          "file": "07-041.jpg",
+          "caption": "手动试用画面 07-041",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "bf6914d5308e5e699c51687a9ec3eeb6b43e656b03cb9a025276e2059f6d38be"
+        },
+        {
+          "source_id": "07-043",
+          "file": "07-043.jpg",
+          "caption": "手动试用画面 07-043",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "02bfb23f78bd1033c83dd3ac60599584a9c33754c042edba5aac1b8748e93c3d"
+        },
+        {
+          "source_id": "07-045",
+          "file": "07-045.jpg",
+          "caption": "手动试用画面 07-045",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "5c6dbdd1c86ae0f69b532519cc7fa98e32b9f04f0e8e30786e1b8a0f649be8c3"
+        },
+        {
+          "source_id": "07-047",
+          "file": "07-047.jpg",
+          "caption": "手动试用画面 07-047",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "d55b10c22c7dc138ea169ee33f2f7c0b46a56a567832951fee79ecdd28fc9437"
+        },
+        {
+          "source_id": "07-049",
+          "file": "07-049.jpg",
+          "caption": "手动试用画面 07-049",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "dea5226a905cea1a2a2d49866d32a017e7632bb626e7e7b8929f40367f4d9636"
+        },
+        {
+          "source_id": "07-051",
+          "file": "07-051.jpg",
+          "caption": "手动试用画面 07-051",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "66b8363ce3a174bef4c0fb4308b07c14d5251fdba2e0c8795cdb2083ae22a8d8"
+        },
+        {
+          "source_id": "07-053",
+          "file": "07-053.jpg",
+          "caption": "手动试用画面 07-053",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "baea9618df9c3f3ddbf701058299294198615ad6a3e9e5ead0ba6f2367e7c2dd"
+        }
+      ],
+      "catalog_lock": "bfbccf9c414fc1eee6658b380bf2f7f425943c37",
+      "hero": "07-036.jpg"
+    },
+    {
+      "slug": "08-finance-quant-skills",
+      "repo": "lzwme/finance-quant-skills",
+      "category_assessment": "Knowledge & Collections / Agent Skills",
+      "score_parts": {
+        "coverage": 10,
+        "core_results": 15,
+        "delivery": 12,
+        "execution_verified": 0
+      },
+      "score": 37,
+      "status": "两项技能已验，其余未验",
+      "summary": "这是技能集合；低完整系统适配分不表示技能本身不好。",
+      "verified": [
+        "隔离安装 13 项技能",
+        "BaoStock 178 根 K 线",
+        "Backtrader 完成 8 笔平仓、159 个权益点"
+      ],
+      "issues": [],
+      "unverified": [
+        "其他 11 项技能的运行效果",
+        "完整交易产品闭环"
+      ],
+      "next_step": "按技能逐项验收，不以整套交易系统的要求认定其质量。",
+      "tested_revision": "d973f3595fc7e26ca00de347f76425ae289291ad",
+      "interface": "技能/CLI；网页截图为辅助页",
+      "materials": "真实数据与试用策略；其余仅盘点",
+      "score_reason": {
+        "coverage": "Knowledge & Collections / Agent Skills；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "隔离安装 13 项技能；BaoStock 178 根 K 线；Backtrader 完成 8 笔平仓、159 个权益点",
+        "delivery": "这是技能集合；低完整系统适配分不表示技能本身不好。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "08-001",
+          "file": "08-001.jpg",
+          "caption": "采集画面 08-001 · 01-总览",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "d2d2f929e9c3d288c3db72077f7fcd9282d69f8a756b4551653fc721e58fc172"
+        },
+        {
+          "source_id": "08-002",
+          "file": "08-002.jpg",
+          "caption": "采集画面 08-002 · 02-akquant",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "e47ed0c6ade10f2ffa8b54889e5680539c526c373bfdde5c87dc260915205971"
+        },
+        {
+          "source_id": "08-003",
+          "file": "08-003.jpg",
+          "caption": "采集画面 08-003 · 03-akshare",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f65637c1c71fb8d340600ee7d59d6b528f35527009dda2eea161e8dab96206f0"
+        },
+        {
+          "source_id": "08-004",
+          "file": "08-004.jpg",
+          "caption": "采集画面 08-004 · 04-backtrader",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "292702a8ad3abe922fe7108d6b3799f6161607d44d9ce5e09283c8a6d2eb3e11"
+        },
+        {
+          "source_id": "08-005",
+          "file": "08-005.jpg",
+          "caption": "采集画面 08-005 · 05-baostock",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "df774bfa3ccb87e898cd12a75debb530febe23ebaf3d6c1b537cb441b7131afa"
+        },
+        {
+          "source_id": "08-006",
+          "file": "08-006.jpg",
+          "caption": "采集画面 08-006 · 06-equity-researcher",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "602f1388129236eea3ec67259936feefd432ca7ae97cbd19a28d7028aaac9cd6"
+        },
+        {
+          "source_id": "08-007",
+          "file": "08-007.jpg",
+          "caption": "采集画面 08-007 · 07-joinquant-strategy",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f615783117cd74e614af4040d806f0e33900b47b04ee4128528172e2f1962f81"
+        },
+        {
+          "source_id": "08-008",
+          "file": "08-008.jpg",
+          "caption": "采集画面 08-008 · 08-jqdatasdk",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "d778f03e92c1f3b6221495c82fe9a9d168056b63342461b37779804c97bab7bf"
+        },
+        {
+          "source_id": "08-009",
+          "file": "08-009.jpg",
+          "caption": "采集画面 08-009 · 09-miniqmt",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "cb94de549bf8a6d2916ca7579f1113a9917edec48d1da1e09b8e4d255b761b51"
+        },
+        {
+          "source_id": "08-010",
+          "file": "08-010.jpg",
+          "caption": "采集画面 08-010 · 10-pywencai",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "b735f537996e1b089c08e2196ae26cbbaaf637ad922de5642d39260a30604960"
+        },
+        {
+          "source_id": "08-011",
+          "file": "08-011.jpg",
+          "caption": "采集画面 08-011 · 11-qmt-strategy",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "e18151e5778c06c2c7e3026554157a98f7afd047a5b008da210bd9d3b4947a26"
+        },
+        {
+          "source_id": "08-012",
+          "file": "08-012.jpg",
+          "caption": "采集画面 08-012 · 12-rqalpha",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "988fa4b820ee43acf7375025e1f5f749f7cc1003e8b433f9ce011c0f7c7618e4"
+        },
+        {
+          "source_id": "08-013",
+          "file": "08-013.jpg",
+          "caption": "采集画面 08-013 · 13-tdxquant",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "0f2dc82c0ae0e59b7d35236cbec42826d2791606d40e45b23255f42ed44e37d5"
+        },
+        {
+          "source_id": "08-014",
+          "file": "08-014.jpg",
+          "caption": "采集画面 08-014 · 14-tushare",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "c439e64e7223f4f4f91427d3af2a70f33518bc2c2747f613783cc69d0c4f28ef"
+        },
+        {
+          "source_id": "08-015",
+          "file": "08-015.jpg",
+          "caption": "采集画面 08-015 · 15-截图与反馈",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "e371f57673085f848e69b4c4401153b1fbdfd94f694417c5a983f774ca676a4d"
+        },
+        {
+          "source_id": "08-016",
+          "file": "08-016.jpg",
+          "caption": "采集画面 08-016 · 16-baostock-重新取数",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "1794770b14609e4d6a5f10908e2996b3e6d4e22214720a1cbfe636058b04fd59"
+        },
+        {
+          "source_id": "08-017",
+          "file": "08-017.jpg",
+          "caption": "采集画面 08-017 · 17-backtrader-重新回测",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ae9c733fb37a41d81593317146812707cc9c212c219068adf0d1c978446460a4"
+        }
+      ],
+      "catalog_lock": "7af066194d8dbc68a45ce01073ff56e2f095b79c",
+      "hero": "08-016.jpg"
+    },
+    {
+      "slug": "09-kronos",
+      "repo": "shiyu-coder/Kronos",
+      "category_assessment": "金融预测模型 / Trading Strategy 组件",
+      "score_parts": {
+        "coverage": 11,
+        "core_results": 16,
+        "delivery": 9,
+        "execution_verified": 0
+      },
+      "score": 36,
+      "status": "模型可跑，日期显示有问题",
+      "summary": "模型推理有结果；它的任务是预测，不是替用户管理订单和账户。",
+      "verified": [
+        "Kronos-mini 在 CPU 与 MPS 路径生成 120 个预测点"
+      ],
+      "issues": [
+        "Web 日期轴与交易日不一致，117/120 点错位"
+      ],
+      "unverified": [
+        "预测准确性与长期基线比较",
+        "预测驱动交易的收益和风险"
+      ],
+      "next_step": "修正日期对齐后，用固定留出集和简单基线比较预测质量。",
+      "tested_revision": "67b630e67f6a18c9e9be918d9b4337c960db1e9a; Kronos-mini",
+      "interface": "原生模型/Web 展示与辅助记录",
+      "materials": "真实 BaoStock 输入；预测结果不是已实现收益",
+      "score_reason": {
+        "coverage": "金融预测模型 / Trading Strategy 组件；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "Kronos-mini 在 CPU 与 MPS 路径生成 120 个预测点",
+        "delivery": "模型推理有结果；它的任务是预测，不是替用户管理订单和账户。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "09-001",
+          "file": "09-001.jpg",
+          "caption": "采集画面 09-001 · 01-初始界面",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "917fed116a6a2b196c9d264014890d32e1a13bd75e429f27c374b49f4a24c9f2"
+        },
+        {
+          "source_id": "09-002",
+          "file": "09-002.jpg",
+          "caption": "采集画面 09-002 · 02-选中真实数据",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "b4b80ae40749cae273e33a1bd4fc4d1bdd3499b6f529270487676bdb7267312f"
+        },
+        {
+          "source_id": "09-003",
+          "file": "09-003.jpg",
+          "caption": "采集画面 09-003 · 03-数据加载成功",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "106fe37523e8f502a2a7451bf36d5683ee0128d9365125637664ead36cb1b4cd"
+        },
+        {
+          "source_id": "09-004",
+          "file": "09-004.jpg",
+          "caption": "采集画面 09-004 · 04-模型已选未加载",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "2378429e1df5b6d65f2154caa93b1d1706fa9db00449a149608a421a7c4fa714"
+        },
+        {
+          "source_id": "09-005",
+          "file": "09-005.jpg",
+          "caption": "采集画面 09-005 · 05-Kronos-mini真实模型已加载",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "92ad5760e82785ad8cf89ca2f6872f5600218e8707368a427821748b7c61e01d"
+        },
+        {
+          "source_id": "09-006",
+          "file": "09-006.jpg",
+          "caption": "采集画面 09-006 · 06-真实预测-图表与比较",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "717a3f02a981b22501737336bde7e9077be6933cf98afa877312dbb4d54eef09"
+        },
+        {
+          "source_id": "09-007",
+          "file": "09-007.jpg",
+          "caption": "采集画面 09-007 · 07-预测对照-误差与逐行表",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "6c9ae2db6ede1f624e7d2b6911feef43184e2b097ab14019bb95bf4e591ee34a"
+        },
+        {
+          "source_id": "09-008",
+          "file": "09-008.jpg",
+          "caption": "采集画面 09-008 · 08-预测对照-后段行",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "c3d8d6c4f45462cb70ebd294b947c2fe7c9596f4dd91ddecdbbef8ed8c3e2eb0"
+        },
+        {
+          "source_id": "09-009",
+          "file": "09-009.jpg",
+          "caption": "采集画面 09-009 · 09-AppleSilicon-MPS模型已加载",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "3f4bfd0b99b12bed95cd83265304cef84b844b6c096cb868b99f8a7b2775dfc3"
+        },
+        {
+          "source_id": "09-010",
+          "file": "09-010.jpg",
+          "caption": "采集画面 09-010 · 10-MPS真实预测-图表",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "619904a1c83c2c39591ae85af3603c7dc67821a38800fde3b957d683ef0d7d8f"
+        }
+      ],
+      "catalog_lock": "67b630e67f6a18c9e9be918d9b4337c960db1e9a",
+      "hero": "09-006.jpg"
+    },
+    {
+      "slug": "10-vibe-research",
+      "repo": "simonlin1212/Vibe-Research",
+      "category_assessment": "个人投研 Agent / Equity Research",
+      "score_parts": {
+        "coverage": 24,
+        "core_results": 10,
+        "delivery": 14,
+        "execution_verified": 0
+      },
+      "score": 48,
+      "status": "界面可用，AI 主路径未验",
+      "summary": "研究台页面覆盖广；本轮主要证明界面能运行。",
+      "verified": [
+        "本地原生界面和主要页面可打开"
+      ],
+      "issues": [],
+      "unverified": [
+        "AI 研究完整输出",
+        "订阅额度与数据质量",
+        "回测与组合研究结果"
+      ],
+      "next_step": "配置可用模型后，完成一个带来源和可复核结论的单股研究。",
+      "tested_revision": "85ba57191ba28cb9b4eeb4f7c1ed006d58d999c3",
+      "interface": "原生 Electron/Web",
+      "materials": "部署记录未连接 AI；手动画面出现 Codex 订阅入口，但本轮未核实模型调用成功，也未产出可验收研究报告。",
+      "score_reason": {
+        "coverage": "个人投研 Agent / Equity Research；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "本地原生界面和主要页面可打开",
+        "delivery": "研究台页面覆盖广；本轮主要证明界面能运行。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "07-056",
+          "file": "07-056.jpg",
+          "caption": "手动试用画面 07-056",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。原档案误放在 Tick Stock Panel，按可见 Vibe-Research 标识更正归属。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "ab821cf5607165d6d3ddcb1463bf0efc113488757a12b5b62246736abdb2cfe2"
+        },
+        {
+          "source_id": "07-058",
+          "file": "07-058.jpg",
+          "caption": "手动试用画面 07-058",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。原档案误放在 Tick Stock Panel，按可见 Vibe-Research 标识更正归属。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "6a09f23af96402d8b8e508d1b6eadf30d44c354dcc8f6f63be5960ebb598dd57"
+        },
+        {
+          "source_id": "07-060",
+          "file": "07-060.jpg",
+          "caption": "手动试用画面 07-060",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。原档案误放在 Tick Stock Panel，按可见 Vibe-Research 标识更正归属。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "a090ba80bc21f7c07525f5f254e96969cdcc46b6e27d7e0d78383d269229f94a"
+        },
+        {
+          "source_id": "07-062",
+          "file": "07-062.jpg",
+          "caption": "手动试用画面 07-062",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。原档案误放在 Tick Stock Panel，按可见 Vibe-Research 标识更正归属。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "6f33bb2cafd23923a606e9a81403b640dde0fc32a99365778da8c67b4669e5ca"
+        },
+        {
+          "source_id": "07-064",
+          "file": "07-064.jpg",
+          "caption": "手动试用画面 07-064",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。原档案误放在 Tick Stock Panel，按可见 Vibe-Research 标识更正归属。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "985d837a93c35964ee018d3bf41c496aa55969ed78a3775ca4db68b76fcf5e07"
+        },
+        {
+          "source_id": "07-066",
+          "file": "07-066.jpg",
+          "caption": "手动试用画面 07-066",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。原档案误放在 Tick Stock Panel，按可见 Vibe-Research 标识更正归属。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "dbb78116d86814d26b22ee3092cc755395f90d4e2a2ec228d1b730e43abfedf3"
+        },
+        {
+          "source_id": "07-068",
+          "file": "07-068.jpg",
+          "caption": "手动试用画面 07-068",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。原档案误放在 Tick Stock Panel，按可见 Vibe-Research 标识更正归属。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "19ac882cd662c926b649bb323a678c34f1b362d1c6a63e2f789ed41bd6bc2b56"
+        },
+        {
+          "source_id": "07-070",
+          "file": "07-070.jpg",
+          "caption": "手动试用画面 07-070",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。原档案误放在 Tick Stock Panel，按可见 Vibe-Research 标识更正归属。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "9ae3175c43b9d2037d3cd615889e9e6a153d45839fbad25a3ac17541fe38f39e"
+        },
+        {
+          "source_id": "07-072",
+          "file": "07-072.jpg",
+          "caption": "手动试用画面 07-072",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。原档案误放在 Tick Stock Panel，按可见 Vibe-Research 标识更正归属。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "e0201d5efd4459177c17a84ab681c69fb4241357f5c97d9c589b99b2002ec085"
+        },
+        {
+          "source_id": "10-001",
+          "file": "10-001.jpg",
+          "caption": "采集画面 10-001 · 01-接入AI-额度提示",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "241f2d5f5b4d828fc9491af6d4fee9d1b301da4c5ec61f8b2161f5f8ae03472a"
+        },
+        {
+          "source_id": "10-002",
+          "file": "10-002.jpg",
+          "caption": "采集画面 10-002 · 02-首页-未接入AI",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ecb31db44971a232aca04bd78466ea5da1469e0aa65f50c1abc52fec9401fb0c"
+        },
+        {
+          "source_id": "10-003",
+          "file": "10-003.jpg",
+          "caption": "采集画面 10-003 · 03-每日复盘",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ac75ff2b6e33de03d72b21acd0a7e2337adf2bd0a76f3e6085c00213bf856de3"
+        },
+        {
+          "source_id": "10-004",
+          "file": "10-004.jpg",
+          "caption": "采集画面 10-004 · 04-资讯雷达",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "2d723d1ffe1b953560f3af55e2bc1bfcb580f77d5a586447ae11b97bf0a3b736"
+        },
+        {
+          "source_id": "10-005",
+          "file": "10-005.jpg",
+          "caption": "采集画面 10-005 · 05-产业信号",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f92cb21a47daf8ae70d4a30ebf6dbc5a333bfc17234c16fc29c5850c95ca9693"
+        },
+        {
+          "source_id": "10-006",
+          "file": "10-006.jpg",
+          "caption": "采集画面 10-006 · 06-板块中心",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "e16e482c46d472d48f1e95828d0bc42acfb08865e5722f4f2070cb50681636ec"
+        },
+        {
+          "source_id": "10-007",
+          "file": "10-007.jpg",
+          "caption": "采集画面 10-007 · 07-个股研究",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "338a624b5f861f39743fb1480978f3b662bf56f0c6f23aae6d5ce3f48306905b"
+        },
+        {
+          "source_id": "10-008",
+          "file": "10-008.jpg",
+          "caption": "采集画面 10-008 · 08-多空辩论",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "9219d4f884ac97d469c06512484c0b6fd7a158743cbc7cc71084839acd9b78fd"
+        },
+        {
+          "source_id": "10-009",
+          "file": "10-009.jpg",
+          "caption": "采集画面 10-009 · 09-回测",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "afbce77d82316f41fe379ef2df04088c76a3370e683ee87663f3a016f2dc4f4d"
+        },
+        {
+          "source_id": "10-010",
+          "file": "10-010.jpg",
+          "caption": "采集画面 10-010 · 10-自选股",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "3b16eb2a8d9cdb59e3dd96e945834b67ae216960318e59c868fc7ae82a9417ba"
+        },
+        {
+          "source_id": "10-011",
+          "file": "10-011.jpg",
+          "caption": "采集画面 10-011 · 11-我的持仓",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "0ce0b4ef9bd28152770a3ad906fe8d6110cd4190564fe9a6c05b64d0f9e36ffa"
+        },
+        {
+          "source_id": "10-012",
+          "file": "10-012.jpg",
+          "caption": "采集画面 10-012 · 12-我的研报",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "bd5ce023639a3b808f3fbff8a4b7ce7111bdeb277ad1dbb1d8a782ee19de6631"
+        },
+        {
+          "source_id": "10-013",
+          "file": "10-013.jpg",
+          "caption": "采集画面 10-013 · 13-研究记录",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "fcfae59ad35c2cdbc6f1863092c2313383257768346e3d604d21dd95b015a1e4"
+        },
+        {
+          "source_id": "10-014",
+          "file": "10-014.jpg",
+          "caption": "采集画面 10-014 · 14-接入 AI",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "dcadf2b9c9506af6c83fc8017fdcd9103c13c8afeae9c99f8811830aa535e2a4"
+        }
+      ],
+      "catalog_lock": "34ed58155ca24c98f9009c2e83781f44ecc4a58f",
+      "hero": "10-009.jpg"
+    },
+    {
+      "slug": "11-vibe-trading",
+      "repo": "HKUDS/Vibe-Trading",
+      "category_assessment": "多市场完整交易 Agent 候选",
+      "score_parts": {
+        "coverage": 34,
+        "core_results": 11,
+        "delivery": 18,
+        "execution_verified": 0
+      },
+      "score": 63,
+      "status": "结构完整，核心闭环未验",
+      "summary": "研究、回测和券商连接覆盖广；本轮缺模型与券商配置，不能把连接器数量当已可用账户。",
+      "verified": [
+        "锁定依赖安装、前端构建通过",
+        "API 与主要页面可用"
+      ],
+      "issues": [],
+      "unverified": [
+        "LLM 研究输出",
+        "回测产出",
+        "券商授权、订单执行与持仓回读"
+      ],
+      "next_step": "用同一研究任务验证模型输出，再在 paper connector 完成订单回读。",
+      "tested_revision": "5e9ffd1a73e71b4a1be45c5b5e330b6877fee849 (0.1.15)",
+      "interface": "原生 Web / CLI",
+      "materials": "模型、券商、IM 未配置；界面显示的默认模型名不证明连接成功",
+      "score_reason": {
+        "coverage": "多市场完整交易 Agent 候选；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "锁定依赖安装、前端构建通过；API 与主要页面可用",
+        "delivery": "研究、回测和券商连接覆盖广；本轮缺模型与券商配置，不能把连接器数量当已可用账户。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "11-001",
+          "file": "11-001.jpg",
+          "caption": "采集画面 11-001 · 01-agent-home",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "11d991f613a0ed48153b05e2147a21498cffbe77293cde08123c859b2b4e1526"
+        },
+        {
+          "source_id": "11-002",
+          "file": "11-002.jpg",
+          "caption": "采集画面 11-002 · 02-runtime",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "291bdb4a49cb375762c64535e041919a39323211128b9f8e39da540acae29150"
+        },
+        {
+          "source_id": "11-003",
+          "file": "11-003.jpg",
+          "caption": "采集画面 11-003 · 03-scheduled",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f77e2b1ba767bc789cc0700e05b273d9d508f770e0601b6854407841f7751326"
+        },
+        {
+          "source_id": "11-004",
+          "file": "11-004.jpg",
+          "caption": "采集画面 11-004 · 04-reports",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "bc84083f5117aa0d3f29dd0a1a8fc997e6bbd2c715dd0b24125caa2bd11cda8b"
+        },
+        {
+          "source_id": "11-005",
+          "file": "11-005.jpg",
+          "caption": "采集画面 11-005 · 05-portfolio",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "b5a6b81442824d04bc2f34f0eb34069364efd166dfe820d6f3e2345e8571e248"
+        },
+        {
+          "source_id": "11-006",
+          "file": "11-006.jpg",
+          "caption": "采集画面 11-006 · 06-alpha-zoo",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "879fc6ea2d3fece8d4ad175baac8cd34bd25476501a769dc9d96dd3e0c213329"
+        },
+        {
+          "source_id": "11-007",
+          "file": "11-007.jpg",
+          "caption": "采集画面 11-007 · 07-options-lab",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "92b11a5d973d1d6d5b50b17cbde6dbe6090358f8e9396dec5cd0d41841ff7c59"
+        },
+        {
+          "source_id": "11-008",
+          "file": "11-008.jpg",
+          "caption": "采集画面 11-008 · 08-settings",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "54c84484fbff2072852e87304c0c96de65371f9d1f5d96110872e364460e8973"
+        },
+        {
+          "source_id": "11-009",
+          "file": "11-009.jpg",
+          "caption": "采集画面 11-009 · 09-correlation-matrix",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "62a62f232f045b50a5cf577a6b49dfa9ef4d9c746922614308e67a0c5b0f0175"
+        },
+        {
+          "source_id": "11-010",
+          "file": "11-010.jpg",
+          "caption": "采集画面 11-010 · 10-about",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "13d4543717dff7860301ce7ac86ab7bfc054c97913095a421ad3f21d79095a07"
+        },
+        {
+          "source_id": "11-011",
+          "file": "11-011.jpg",
+          "caption": "采集画面 11-011 · 11-compare",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "553d81047ee5b85657d4070b0c185a6cd416e8da8fa7ad0cafc67405124322ae"
+        },
+        {
+          "source_id": "11-012",
+          "file": "11-012.jpg",
+          "caption": "采集画面 11-012 · 12-alpha-bench",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "608a0af448a756b2c326fc232e309f475570083914304b2ceef869537f803548"
+        },
+        {
+          "source_id": "11-013",
+          "file": "11-013.jpg",
+          "caption": "采集画面 11-013 · 13-alpha-compare",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "70c003b0f498872860c46a6a558fc34fd49cceaf75b9d9a2efa367194a6e626f"
+        },
+        {
+          "source_id": "11-014",
+          "file": "11-014.jpg",
+          "caption": "采集画面 11-014 · 14-settings-full",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "60ec5c4927105f1c08dffc311f43b8b77938a2696abd6ba68d18fee814b4c60b"
+        },
+        {
+          "source_id": "11-016",
+          "file": "11-016.jpg",
+          "caption": "手动试用画面 11-016",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "8619c8230e4fd8fb5a7898277d63dad799aacc6e070b0e7ea443d1f8c56c4f71"
+        },
+        {
+          "source_id": "11-017",
+          "file": "11-017.jpg",
+          "caption": "手动试用画面 11-017",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "dda75b6cab0ece4f986abea4ff4f11419ec297aaae64e3d0a9c83b66dd6685ce"
+        },
+        {
+          "source_id": "11-018",
+          "file": "11-018.jpg",
+          "caption": "手动试用画面 11-018",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "172f60101e8dddea22d15e1ecc48f86d788d6df095a50fd002cc65220d0a2719"
+        },
+        {
+          "source_id": "11-019",
+          "file": "11-019.jpg",
+          "caption": "手动试用画面 11-019",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "b7573454b3ae6fc8bfa4fb819b7e595f1b8a1b6d04fec3f530270e8c2baf7e42"
+        },
+        {
+          "source_id": "11-020",
+          "file": "11-020.jpg",
+          "caption": "手动试用画面 11-020",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "0e16a781e4ee467f772281a218da1d45679f9b923bd13f6b5e6e10ebad7397ad"
+        },
+        {
+          "source_id": "11-021",
+          "file": "11-021.jpg",
+          "caption": "手动试用画面 11-021",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "f9634a1d176c7c210d17806dfac3edc1c6054d79f1d354bac89bb4fa98fae1ed"
+        },
+        {
+          "source_id": "11-022",
+          "file": "11-022.jpg",
+          "caption": "手动试用画面 11-022",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "f85dec93389a964aa47fe487a2d0983b5f842935a710686935a746502bd86860"
+        },
+        {
+          "source_id": "11-023",
+          "file": "11-023.jpg",
+          "caption": "手动试用画面 11-023",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "8e5b3e8f53ad4166e18514d11b7c855fa507c7e5b844bbf06e85878229dc908e"
+        },
+        {
+          "source_id": "11-024",
+          "file": "11-024.jpg",
+          "caption": "手动试用画面 11-024",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "6e5ac7bc68651b3a248f6ef36d043273fc7450194a4f584a4d323ad566b19b81"
+        },
+        {
+          "source_id": "11-025",
+          "file": "11-025.jpg",
+          "caption": "手动试用画面 11-025",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "216f0e29ddcfa098f8bf5b40ae5aa8128d3de1e7e95ce4376a1129b62d8a92a8"
+        },
+        {
+          "source_id": "11-026",
+          "file": "11-026.jpg",
+          "caption": "手动试用画面 11-026",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "4b0b7f2e464a6785f9f7c9e84344b2ad8861a967cbbb7a80547794858bff1037"
+        },
+        {
+          "source_id": "11-027",
+          "file": "11-027.jpg",
+          "caption": "手动试用画面 11-027",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "a5dc1061caa6695bd04a36440433bc096e1f5bc3a700d53b68711cc85f27c119"
+        },
+        {
+          "source_id": "11-028",
+          "file": "11-028.jpg",
+          "caption": "手动试用画面 11-028",
+          "kind": "用户手动截图 · 原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。已裁去浏览器标签、聊天侧栏或无关桌面。",
+          "public_sha256": "8bbb0cacae46a4b9930b79cdf455de3e2aba1398dc717990c613ace3dd78a381"
+        }
+      ],
+      "catalog_lock": "e476b4ce4c3b99db81f1034aaf7f1cd42a71911b",
+      "hero": "11-006.jpg"
+    },
+    {
+      "slug": "12-daily-stock-analysis",
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "category_assessment": "研究报告与自动推送 / Equity Research",
+      "score_parts": {
+        "coverage": 20,
+        "core_results": 14,
+        "delivery": 12,
+        "execution_verified": 0
+      },
+      "score": 46,
+      "status": "部分可用",
+      "summary": "数据降级路径有真实结果；核心 AI 报告与推送尚未验证。",
+      "verified": [
+        "Web 与 CSV 股票代码解析通过",
+        "600519 获取 43 行真实日线，使用 AkShare→Sina 降级"
+      ],
+      "issues": [
+        "dry-run 写入数据并打印完成，但 150 秒内未退出",
+        "本轮 npm audit 记录 3 项 high 生产依赖告警；未验证可利用性"
+      ],
+      "unverified": [
+        "AI 分析与 Ask",
+        "通知和定时任务",
+        "历史报告和回测"
+      ],
+      "next_step": "先查明进程不退出原因，再生成一份可核对来源的报告。",
+      "tested_revision": "f9e7b778c48c914af4e0c69dd301e6907d7ea5f9",
+      "interface": "原生 Web",
+      "materials": "真实行情；LLM、通知、调度未配置",
+      "score_reason": {
+        "coverage": "研究报告与自动推送 / Equity Research；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "Web 与 CSV 股票代码解析通过；600519 获取 43 行真实日线，使用 AkShare→Sina 降级",
+        "delivery": "数据降级路径有真实结果；核心 AI 报告与推送尚未验证。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "12-001",
+          "file": "12-001.jpg",
+          "caption": "采集画面 12-001 · 01-home-history",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "96580744759d6de390f0105fe1ae4dd4ea6a8cace2cf2fc70e5d56784ca01d58"
+        },
+        {
+          "source_id": "12-002",
+          "file": "12-002.jpg",
+          "caption": "采集画面 12-002 · 02-home-watchlist",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "fe28c38f0db84ec7ad6c9fe02239c15b21b2675c9009b0215ab7ce34ca6a90a3"
+        },
+        {
+          "source_id": "12-003",
+          "file": "12-003.jpg",
+          "caption": "采集画面 12-003 · 03-home-today",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "323518937df5f61c9a9e8bbc0d8ccd0d17a5c410d3b8227e4643ce79b2fbaff3"
+        },
+        {
+          "source_id": "12-004",
+          "file": "12-004.jpg",
+          "caption": "采集画面 12-004 · 04-ask",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "563654ca34c3db5d37b4bb5494e70fa94056ac4ef287b7628119dfb4b93a49eb"
+        },
+        {
+          "source_id": "12-005",
+          "file": "12-005.jpg",
+          "caption": "采集画面 12-005 · 05-portfolio",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "83fff58dddbf38ce39b7af6df39352f27322b6637ed9acfb624572488fda201d"
+        },
+        {
+          "source_id": "12-006",
+          "file": "12-006.jpg",
+          "caption": "采集画面 12-006 · 06-ai-signals",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "de5cece355457de0c9297a488f3ed4566725733137a970320596f59c64e8776e"
+        },
+        {
+          "source_id": "12-007",
+          "file": "12-007.jpg",
+          "caption": "采集画面 12-007 · 07-backtest",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "bea6d4755b96f7cacadd8e0635697f044db95de2192f1d272893cd4ef867cb26"
+        },
+        {
+          "source_id": "12-008",
+          "file": "12-008.jpg",
+          "caption": "采集画面 12-008 · 08-alerts",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "71ed4c055fd2a46c5f2137367dc8f433e14c3f6fea06c86ab3eb1933ec9dd0ec"
+        },
+        {
+          "source_id": "12-009",
+          "file": "12-009.jpg",
+          "caption": "采集画面 12-009 · 09-usage",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "e2d0339cc6a3c44ab38527724a7837293ebeaac0d4752faaaf6872e9ec133466"
+        },
+        {
+          "source_id": "12-010",
+          "file": "12-010.jpg",
+          "caption": "采集画面 12-010 · 10-settings",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。公开版遮盖了本机路径或联系标识；原文件哈希在清单中保留。",
+          "public_sha256": "8696a8e08d4cb0f18e68529d009d6f01e3cd326869fa7d76030dd9932bbe4252"
+        },
+        {
+          "source_id": "12-011",
+          "file": "12-011.jpg",
+          "caption": "采集画面 12-011 · 11-settings-ai",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "d4165c8790dabf7defe289f21036272cc0b037a9ca35886aeb338e2573391ad9"
+        },
+        {
+          "source_id": "12-012",
+          "file": "12-012.jpg",
+          "caption": "采集画面 12-012 · 12-settings-data",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "5a48a5898dcfe31fb24a4817b118750656a7ceac12de2ad978f7af41060769c4"
+        },
+        {
+          "source_id": "12-013",
+          "file": "12-013.jpg",
+          "caption": "采集画面 12-013 · 13-settings-notifications",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "4e149fb576073965d4cd52528e2828be8441c0b5bac2bedef7638196391e613b"
+        },
+        {
+          "source_id": "12-014",
+          "file": "12-014.jpg",
+          "caption": "采集画面 12-014 · 14-settings-system",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "494df2dea84d8ddbc43bad83d53f3b08bdbdfd429399819f4946aad35ed6caba"
+        },
+        {
+          "source_id": "12-015",
+          "file": "12-015.jpg",
+          "caption": "采集画面 12-015 · 15-settings-agent",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "7838362004bae8c74facb868107cfd652ae3ae1a0c995c42b24718dac4c793be"
+        },
+        {
+          "source_id": "12-016",
+          "file": "12-016.jpg",
+          "caption": "采集画面 12-016 · 16-settings-backtest",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "850ce595569173722ee2037a21bd6cb9784f7f8dfa7563dd8d84fb12e9769a9e"
+        }
+      ],
+      "catalog_lock": "1168e316269baa38752a8901331a4d7aa8b1fd07",
+      "hero": "12-005.jpg"
+    },
+    {
+      "slug": "13-quantdinger",
+      "repo": "OpenByteInc/QuantDinger",
+      "category_assessment": "多市场完整交易产品候选",
+      "score_parts": {
+        "coverage": 32,
+        "core_results": 18,
+        "delivery": 18,
+        "execution_verified": 0
+      },
+      "score": 68,
+      "status": "策略可创建，回测执行未验",
+      "summary": "产品化界面完整，策略代码验证和保存通过；短区间回测受日期选择问题阻挡。",
+      "verified": [
+        "数据库迁移、登录、前后端构建成功",
+        "SuperTrend 代码检查通过",
+        "GRID BTC/USDT 策略生成、验证、保存到数据库"
+      ],
+      "issues": [
+        "回测短区间日期选择障碍；本轮没有提交回测任务",
+        "前后端分别为 5.4.1 / 5.0.20，不能将界面问题直接归因于单一仓库"
+      ],
+      "unverified": [
+        "回测结果",
+        "模型研究",
+        "paper/live 订单与持仓回读"
+      ],
+      "next_step": "先用短区间跑出回测明细，再验证 paper 交易闭环。",
+      "tested_revision": "backend 7da255c1e754daf939e1c58066ca2e44eb701b43 (5.4.1); frontend de4059096400929af9b49bc6c9f1610559302d8f (5.0.20)",
+      "interface": "原生 Vue Web",
+      "materials": "模型、券商未接；交易/调度 worker 未启动；首页价格来源和时间戳未核实",
+      "score_reason": {
+        "coverage": "多市场完整交易产品候选；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "数据库迁移、登录、前后端构建成功；SuperTrend 代码检查通过；GRID BTC/USDT 策略生成、验证、保存到数据库",
+        "delivery": "产品化界面完整，策略代码验证和保存通过；短区间回测受日期选择问题阻挡。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "13-001",
+          "file": "13-001.jpg",
+          "caption": "采集画面 13-001 · 01-login",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "b6dd0c847b123e8cb60f17ec93324f05de1f776bfd8f970ed410162ddf7dd1bd"
+        },
+        {
+          "source_id": "13-002",
+          "file": "13-002.jpg",
+          "caption": "采集画面 13-002 · 02-ai-research-home",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "3979c546d00afb942ae0699ab687342932d916f4798f9416ac5bf34ed7d241fb"
+        },
+        {
+          "source_id": "13-003",
+          "file": "13-003.jpg",
+          "caption": "采集画面 13-003 · 03-market",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "987e539bc7b3f19361f22fb2e186abdda8ce27965b8a108a557757058c0da07c"
+        },
+        {
+          "source_id": "13-004",
+          "file": "13-004.jpg",
+          "caption": "采集画面 13-004 · 04-indicators",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "de3d617627345fb8684fefbc3cff12869f658b00732682e1cabaf4da8347b2c2"
+        },
+        {
+          "source_id": "13-005",
+          "file": "13-005.jpg",
+          "caption": "采集画面 13-005 · 05-strategies",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "68d004ae8dae4b8e67a2153fa0551855189703ebc59b435b046696d3d8c0c00a"
+        },
+        {
+          "source_id": "13-006",
+          "file": "13-006.jpg",
+          "caption": "采集画面 13-006 · 06-backtest",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "e948a5adab46b7cbe97a32e884ed157863a2151b62cb4743d8148553e6de343e"
+        },
+        {
+          "source_id": "13-007",
+          "file": "13-007.jpg",
+          "caption": "采集画面 13-007 · 07-live-center",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "964504ec484a884f7b46049d42057066518539b10d1e3665f96c9bb0080bb9f1"
+        },
+        {
+          "source_id": "13-008",
+          "file": "13-008.jpg",
+          "caption": "采集画面 13-008 · 08-broker-accounts",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "e672e2ed7fe6803ee5e4dbb05c403a039c306c8132f2676757b6d770cedba7e9"
+        },
+        {
+          "source_id": "13-009",
+          "file": "13-009.jpg",
+          "caption": "采集画面 13-009 · 09-universe",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "07a1f2b3d9d67824b42a772449ea628f471c094dcbe9fb87ce7b95760aba4288"
+        },
+        {
+          "source_id": "13-010",
+          "file": "13-010.jpg",
+          "caption": "采集画面 13-010 · 10-billing",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "579af89c4844ddf35cfab810b38f05ccde07c435c3489626ae04d303e63b9b1c"
+        },
+        {
+          "source_id": "13-011",
+          "file": "13-011.jpg",
+          "caption": "采集画面 13-011 · 11-profile",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。公开版遮盖了本机路径或联系标识；原文件哈希在清单中保留。",
+          "public_sha256": "fb69d0844d3e625e2ae8453d9e91b8b568cefdc74902d31d7d50699f77048a17"
+        },
+        {
+          "source_id": "13-012",
+          "file": "13-012.jpg",
+          "caption": "采集画面 13-012 · 12-user-management",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "46d69cda124efdc73c70e3cdeef4698a338378ec47a77bbcbf4b9ea373f36844"
+        },
+        {
+          "source_id": "13-013",
+          "file": "13-013.jpg",
+          "caption": "采集画面 13-013 · 13-agent-tokens",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "2353b1f90ee70ffcaf87acc56bab270db57f35ebea145b1a9d0a22007826ebde"
+        },
+        {
+          "source_id": "13-014",
+          "file": "13-014.jpg",
+          "caption": "采集画面 13-014 · 14-ai-skills",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ddaf078f2853ef7267d5ded4dc95f38e9de9b3b8224ae37c3724ef8cce5616b0"
+        },
+        {
+          "source_id": "13-015",
+          "file": "13-015.jpg",
+          "caption": "采集画面 13-015 · 15-settings",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。公开版遮盖了本机路径或联系标识；原文件哈希在清单中保留。",
+          "public_sha256": "80e066ae23b0062dcabe412337297f30c49918a8114d74b1ddb8eeba61be8d0d"
+        },
+        {
+          "source_id": "13-016",
+          "file": "13-016.jpg",
+          "caption": "采集画面 13-016 · 16-ai-market-research",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ee58f508cf089df1c534afce4cd66893c1b9edfaec5bf776b1fc6a53d118126f"
+        },
+        {
+          "source_id": "13-017",
+          "file": "13-017.jpg",
+          "caption": "采集画面 13-017 · 17-ai-asset-diagnostic",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "10a9fdff6f39cf807c823d4776c896fea5d3d5f97be067bb2245b156ab45d260"
+        },
+        {
+          "source_id": "13-018",
+          "file": "13-018.jpg",
+          "caption": "采集画面 13-018 · 18-ai-technical-analysis",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f3dc8e597d6929cae62f0f5bb587c69ca66b38b6275dd8760af83d16835a714a"
+        },
+        {
+          "source_id": "13-019",
+          "file": "13-019.jpg",
+          "caption": "采集画面 13-019 · 19-ai-trading-plan",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "5bc7b6c14a2356904ff3292818d98cded0fefa360b2387feec97fc6f8645a807"
+        },
+        {
+          "source_id": "13-020",
+          "file": "13-020.jpg",
+          "caption": "采集画面 13-020 · 20-ai-news-events",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "083368e1481eedd30d8a4c02beb9e79b3380f43447a5a326eb5aa3a3db6cd2ca"
+        },
+        {
+          "source_id": "13-021",
+          "file": "13-021.jpg",
+          "caption": "采集画面 13-021 · 21-ai-macro-data",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "98da33b0bff8e42af4459b8abda76fbab34690ac2177836c410d96df47ac25bc"
+        },
+        {
+          "source_id": "13-022",
+          "file": "13-022.jpg",
+          "caption": "采集画面 13-022 · 22-settings-security",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。公开版遮盖了本机路径或联系标识；原文件哈希在清单中保留。",
+          "public_sha256": "df151b099cfa68a7a29b6183ab3c36895342e7e43151dee839a163c35657706a"
+        },
+        {
+          "source_id": "13-023",
+          "file": "13-023.jpg",
+          "caption": "采集画面 13-023 · 23-settings-llm",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "a6aa679441d321921a3233022e1e8f7462791576e0343418c246fb0ef6025db9"
+        },
+        {
+          "source_id": "13-024",
+          "file": "13-024.jpg",
+          "caption": "采集画面 13-024 · 24-settings-live",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "98d277b7dfd1de26d7137291b970b04bb75e50dbac4a9fc439da6110effc1a1d"
+        },
+        {
+          "source_id": "13-025",
+          "file": "13-025.jpg",
+          "caption": "采集画面 13-025 · 25-settings-markets",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "5871b9907283c790facac5f99ab9045e93e5fb3640f1fd20539a807d5603230c"
+        },
+        {
+          "source_id": "13-026",
+          "file": "13-026.jpg",
+          "caption": "采集画面 13-026 · 26-settings-report-data",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "1890830ff03c200b807a085e35dcff29464786c2e0fa6bd87e3b765299859362"
+        },
+        {
+          "source_id": "13-027",
+          "file": "13-027.jpg",
+          "caption": "采集画面 13-027 · 27-settings-news",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "9398aea160a49f1de97a7ec146b09c2fdc3826b43b11a9159389d24ebd77d88a"
+        },
+        {
+          "source_id": "13-028",
+          "file": "13-028.jpg",
+          "caption": "采集画面 13-028 · 28-settings-agent",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "91b1c956e16dfe296a23ffda58c93219828202812d9e344a445aa710ddc6a39f"
+        },
+        {
+          "source_id": "13-029",
+          "file": "13-029.jpg",
+          "caption": "采集画面 13-029 · 29-settings-data-sync",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "a93472ebac00da12bf1167e78e28f12960c78ce49d200760fcaa50a532b12447"
+        },
+        {
+          "source_id": "13-030",
+          "file": "13-030.jpg",
+          "caption": "采集画面 13-030 · 30-settings-email",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "1789cdd2d90eba983d442461b13fb5cd06e8081717a95a18041a3086c296514b"
+        },
+        {
+          "source_id": "13-031",
+          "file": "13-031.jpg",
+          "caption": "采集画面 13-031 · 31-settings-sms",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "789071fa4ba72ed30420a8734293abae6f848ace1c66400c9ef3cfc8ace762fe"
+        },
+        {
+          "source_id": "13-032",
+          "file": "13-032.jpg",
+          "caption": "采集画面 13-032 · 32-settings-network",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "4c71c9876b3ddb493808bad5e64e8558f7e297fadfc35491140a866e11c0b36a"
+        },
+        {
+          "source_id": "13-033",
+          "file": "13-033.jpg",
+          "caption": "采集画面 13-033 · 33-settings-registration",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "039e610c7bb17c8a90992c50080b4a3f5ca444502431ab28163e6c2b8a6e02ea"
+        },
+        {
+          "source_id": "13-034",
+          "file": "13-034.jpg",
+          "caption": "采集画面 13-034 · 34-settings-billing",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "b89c5ffc7191d2d70691660e2af42e9088b6278f6aeed21960488a60e209bd27"
+        },
+        {
+          "source_id": "13-035",
+          "file": "13-035.jpg",
+          "caption": "采集画面 13-035 · 35-settings-brand",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "fee05d1cc195c0344b8d3e826bbccd7989f6c78e3a17069d593f1d77e75db2bf"
+        },
+        {
+          "source_id": "13-036",
+          "file": "13-036.jpg",
+          "caption": "采集画面 13-036 · 36-settings-contact",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。公开版遮盖了本机路径或联系标识；原文件哈希在清单中保留。",
+          "public_sha256": "7794f9d5fd808b48c65fd209111c4d85bd0f2dd3c060d48b5b4a036193a87fa6"
+        },
+        {
+          "source_id": "13-037",
+          "file": "13-037.jpg",
+          "caption": "采集画面 13-037 · 37-settings-social",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "4875f128068d6a47abfb8dace29d6495a7daa410f1da474756b989b9bbec00d1"
+        },
+        {
+          "source_id": "13-038",
+          "file": "13-038.jpg",
+          "caption": "采集画面 13-038 · 38-settings-legal",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "c22a5a97c014bafbae2c452e46006af6bbc166099efc601c913182515d8d56fc"
+        },
+        {
+          "source_id": "13-039",
+          "file": "13-039.jpg",
+          "caption": "采集画面 13-039 · 39-market-strategies",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "dabe7457eaa7cacf110c45943b933e9232d1d8e4d2fd3a8f721f19124ec0eed8"
+        },
+        {
+          "source_id": "13-040",
+          "file": "13-040.jpg",
+          "caption": "采集画面 13-040 · 40-strategy-portfolio",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "fcb2f71dad8fa214929f8d0b6e1160fe2032720c405d816bf54202414d655b95"
+        },
+        {
+          "source_id": "13-041",
+          "file": "13-041.jpg",
+          "caption": "采集画面 13-041 · 41-backtest-factor",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "be6e3d3c8dd1a163bb8fd66d56021f018eaf7907ee786d5b83045707f3191f9a"
+        },
+        {
+          "source_id": "13-042",
+          "file": "13-042.jpg",
+          "caption": "采集画面 13-042 · 42-indicator-code-check",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "82d2cedc0941e38bf7327a5433c67051ddfa8b31cfe0c50f51b60a6b90900019"
+        },
+        {
+          "source_id": "13-043",
+          "file": "13-043.jpg",
+          "caption": "采集画面 13-043 · 43-grid-template",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "21f9f222b799ce06c11dd141d19fb112b76e843bf183c7e4fd48429cc22ed0a7"
+        },
+        {
+          "source_id": "13-044",
+          "file": "13-044.jpg",
+          "caption": "采集画面 13-044 · 44-generated-grid-code",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "8fa95862c84b1cb05f8a1b9e033a4ef30f9881c9bef5107712202f01d37d4ef7"
+        },
+        {
+          "source_id": "13-045",
+          "file": "13-045.jpg",
+          "caption": "采集画面 13-045 · 45-grid-code-validation",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "2fba5cb18656e9a5af5aca4ca0ee18584fb2af3ee42f134af220df92c5329a2f"
+        },
+        {
+          "source_id": "13-046",
+          "file": "13-046.jpg",
+          "caption": "采集画面 13-046 · 46-saved-grid-strategy",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "2c8095893b143617a611c2f5b4cb295733abe35d4610f65ae6e4b1430696d4b3"
+        },
+        {
+          "source_id": "13-047",
+          "file": "13-047.jpg",
+          "caption": "采集画面 13-047 · 47-backtest-no-eligible-source",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "ac4aead1c9b1e61236901a1facb802aea4d67338f30f2a308eb420978301b349"
+        },
+        {
+          "source_id": "13-048",
+          "file": "13-048.jpg",
+          "caption": "采集画面 13-048 · 48-backtest-month-disabled",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "bc68ef676d4b1708d59112ac5d019e157ebcd1e9b9905b8c963edfd29f6aa72b"
+        },
+        {
+          "source_id": "13-049",
+          "file": "13-049.jpg",
+          "caption": "采集画面 13-049 · 49-backtest-range-limit",
+          "kind": "原生产品界面",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "2ca884293aaf1b914bc72073aa7fdab215c2c89de96ba9e14627acadb49b9eff"
+        }
+      ],
+      "catalog_lock": "d8508a85a473a9c4dc9894882854ce40f06a3553",
+      "hero": "13-046.jpg"
+    },
+    {
+      "slug": "14-tradingagents",
+      "repo": "TauricResearch/TradingAgents",
+      "category_assessment": "CLI 研究决策 Agent 框架",
+      "score_parts": {
+        "coverage": 18,
+        "core_results": 6,
+        "delivery": 10,
+        "execution_verified": 0
+      },
+      "score": 34,
+      "status": "组件可用，完整分析未完成",
+      "summary": "CLI 和研究图构建通过；本轮未取得最终评级，也没有原生 Web UI。",
+      "verified": [
+        "CLI 与依赖检查通过",
+        "本地 qwen3:4b 输出结构化工具调用（未获取价格）",
+        "12 节点研究图构建和虚构持仓输入解析通过"
+      ],
+      "issues": [
+        "Yahoo 获取 AAPL 日线触发限流",
+        "完整分析 240 秒超时，无最终评级；不能把全部超时原因归于限流"
+      ],
+      "unverified": [
+        "完整决策输出",
+        "评级质量",
+        "订单与资金持仓闭环（源码评价模块不模拟成交台账）"
+      ],
+      "next_step": "恢复可用行情后重跑最小分析，保存最终评级及引用数据。",
+      "tested_revision": "35543d0248bf89fcb92b17a15858ad0c0e940687 (0.5.1)",
+      "interface": "原生 CLI；所有网页截图是 Product Lab 辅助页",
+      "materials": "本地模型、虚构持仓样例；没有真实账户",
+      "score_reason": {
+        "coverage": "CLI 研究决策 Agent 框架；按完整交易产品的范围评估，并不等同于该工具在自身领域的质量。",
+        "core_results": "CLI 与依赖检查通过；本地 qwen3:4b 输出结构化工具调用（未获取价格）；12 节点研究图构建和虚构持仓输入解析通过",
+        "delivery": "CLI 和研究图构建通过；本轮未取得最终评级，也没有原生 Web UI。",
+        "execution_verified": "本轮没有完成 paper/券商成交及现金、持仓回读，统一记 0；未测试不等于不支持。"
+      },
+      "screenshots": [
+        {
+          "source_id": "14-001",
+          "file": "14-001.jpg",
+          "caption": "采集画面 14-001 · 01-overview",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f0ec3e17324fe7fb688af40787b35f07f4b5e484d6a7d090322a5912c2e151df"
+        },
+        {
+          "source_id": "14-002",
+          "file": "14-002.jpg",
+          "caption": "采集画面 14-002 · 02-install",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。本机路径已遮盖。",
+          "public_sha256": "63cf6c869c747a38865018e145f537095764064eebbb879d74f7171983c029e9"
+        },
+        {
+          "source_id": "14-003",
+          "file": "14-003.jpg",
+          "caption": "采集画面 14-003 · 03-market-data",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "913854c70fcfb2455cc40ab259693e5aea07842308203803eda6a1af9fdce4ad"
+        },
+        {
+          "source_id": "14-004",
+          "file": "14-004.jpg",
+          "caption": "采集画面 14-004 · 04-local-model",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f88f525264ee6aaaa829f22df56da2cfb37b398d726403beafac13b0ef620150"
+        },
+        {
+          "source_id": "14-005",
+          "file": "14-005.jpg",
+          "caption": "采集画面 14-005 · 05-tool-call",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "cbf807855a8a2441d4a985d10d44cfd22d17d0f9f923f1af399d7b7c366da24d"
+        },
+        {
+          "source_id": "14-006",
+          "file": "14-006.jpg",
+          "caption": "采集画面 14-006 · 06-agent-graph",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "8c7e5b68ff3ab302e684bca6258ec1251229f7ddfc79f64f6e355f14cfb05c81"
+        },
+        {
+          "source_id": "14-007",
+          "file": "14-007.jpg",
+          "caption": "采集画面 14-007 · 07-portfolio",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "e1b1ee1bf21b2d992fc4a3610a1845c30b3438c6854e76494f7d8570530d3840"
+        },
+        {
+          "source_id": "14-008",
+          "file": "14-008.jpg",
+          "caption": "采集画面 14-008 · 08-local-run",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "1e18f999455a3d7b219ed708f3111d21d6f39960a04b76c23e6af9c600d035c6"
+        },
+        {
+          "source_id": "14-009",
+          "file": "14-009.jpg",
+          "caption": "采集画面 14-009 · 09-evidence",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "c10cf6a831d826c4b16a456eb5e54e37306d750bded4e6a69a6212a4f602480f"
+        },
+        {
+          "source_id": "14-010",
+          "file": "14-010.jpg",
+          "caption": "采集画面 14-010 · 10-feedback",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "f5c417c92f8208c386f83c55750037545bb5813d5b87434424afca4dcef6c651"
+        },
+        {
+          "source_id": "14-011",
+          "file": "14-011.jpg",
+          "caption": "采集画面 14-011 · 11-run-timeout",
+          "kind": "Product Lab 辅助页（不是原生 Web UI）",
+          "note": "画面仅记录当时状态；空白、加载、未配置或错误界面不作为功能成功证明。",
+          "public_sha256": "d5a9691a1c18f0ae734535eae98f6a0c4569077186868212a4aa64d409bbfe9a"
+        }
+      ],
+      "catalog_lock": "be952b8eccb49720509af544c6675233bc1f10d0",
+      "hero": "14-001.jpg"
+    }
+  ]
+}
