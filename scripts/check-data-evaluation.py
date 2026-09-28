@@ -34,14 +34,7 @@ for p in products:
     assert (folder/'evidence/probes.json').is_file() or (folder/'evidence/checks.json').is_file()
     assert (folder/'trial-findings.md').is_file()
     assert (folder/'README.md').is_file() and (folder/'screenshots.md').is_file()
-readme=(ROOT/'README.md').read_text()
-assert readme.count('<!-- EVALUATION:START -->')==readme.count('<!-- EVALUATION:END -->')==1
-assert readme.count('<!-- EVALUATION:DATA:START -->')==readme.count('<!-- EVALUATION:DATA:END -->')==1
-positions=[readme.index(f"| {i} | [{p['repo'].split('/')[-1]}]") for i,p in enumerate(ranked,1)]
-assert positions==sorted(positions)
-for p in products:
-    assert readme.count(f"{p['slug']}/README.md")>=2
-for f in [ROOT/'README.md',*BASE.rglob('*.md')]:
+for f in BASE.rglob('*.md'):
     contents=f.read_text()
     assert '/Users/' not in contents,f
     for target in re.findall(r'\]\(([^)]+)\)',contents):

@@ -1,0 +1,386 @@
+{
+  "version": "2026-09-28",
+  "rating_scale": {
+    "done": {
+      "label": "做到",
+      "symbol": "✅",
+      "value": 1.0,
+      "meaning": "本轮有证据表明该标准按产品自己的声明达成"
+    },
+    "partial": {
+      "label": "部分",
+      "symbol": "🟡",
+      "value": 0.5,
+      "meaning": "达成但有实质缺口或附带条件"
+    },
+    "failed": {
+      "label": "未做到",
+      "symbol": "❌",
+      "value": 0.0,
+      "meaning": "本轮尝试过，失败或与声明相反"
+    },
+    "unverified": {
+      "label": "未验证",
+      "symbol": "⬜",
+      "value": 0.0,
+      "meaning": "本轮没测到；缺 key、账户、开市时段或产品阻断。计 0 分但单独统计，不等于不支持"
+    },
+    "na": {
+      "label": "不适用",
+      "symbol": "—",
+      "value": null,
+      "meaning": "该标准对这个产品的角色没有意义，不计入分母"
+    }
+  },
+  "stage_scale": {
+    "run": {
+      "label": "实测跑通",
+      "symbol": "●"
+    },
+    "code": {
+      "label": "源码可见未实测",
+      "symbol": "◐"
+    },
+    "none": {
+      "label": "无",
+      "symbol": "○"
+    },
+    "na": {
+      "label": "不在其角色内",
+      "symbol": "·"
+    }
+  },
+  "stages": [
+    {
+      "id": "fetch",
+      "n": 1,
+      "name": "数据获取",
+      "io": "外部源 → 原始行情、基本面、新闻、事件",
+      "short": "获取"
+    },
+    {
+      "id": "clean",
+      "n": 2,
+      "name": "清洗与标准化",
+      "io": "原始数据 → 统一 schema：代码、时区、复权、缺失处理",
+      "short": "清洗"
+    },
+    {
+      "id": "store",
+      "n": 3,
+      "name": "数据存档",
+      "io": "标准数据 → 可回放的历史库：增量、快照、版本",
+      "short": "存档"
+    },
+    {
+      "id": "indicator",
+      "n": 4,
+      "name": "指标与特征",
+      "io": "历史库 → 指标、因子序列",
+      "short": "指标"
+    },
+    {
+      "id": "strategy",
+      "n": 5,
+      "name": "策略与信号",
+      "io": "指标 → 买卖信号或目标仓位",
+      "short": "策略"
+    },
+    {
+      "id": "backtest",
+      "n": 6,
+      "name": "回测",
+      "io": "策略 + 历史 → 绩效、成交、曲线",
+      "short": "回测"
+    },
+    {
+      "id": "lifecycle",
+      "n": 7,
+      "name": "策略管理",
+      "io": "回测结果 → 注册、参数版本、paper→live 晋级、下线",
+      "short": "管理"
+    },
+    {
+      "id": "risk",
+      "n": 8,
+      "name": "风控",
+      "io": "目标订单 → 通过、拒绝或缩量：仓位、敞口、熔断",
+      "short": "风控"
+    },
+    {
+      "id": "execute",
+      "n": 9,
+      "name": "执行与券商",
+      "io": "通过的订单 → 委托、成交、持仓与资金对账",
+      "short": "执行"
+    },
+    {
+      "id": "monitor",
+      "n": 10,
+      "name": "监控与看板",
+      "io": "全链路状态 → 人能快速看懂并干预",
+      "short": "看板"
+    }
+  ],
+  "categories": {
+    "data": {
+      "name": "Data",
+      "stages": [
+        "fetch",
+        "clean",
+        "store"
+      ],
+      "objective": "取得正确、及时、完整的交易数据，最好免费，并且下游能直接接入。",
+      "criteria": [
+        {
+          "id": "D1",
+          "name": "正确",
+          "weight": 25,
+          "test": "与第二来源交叉核对一致（价格、代码、字段）；错误和空值有明确信号，不是静默返回 200 或空表。"
+        },
+        {
+          "id": "D2",
+          "name": "及时",
+          "weight": 20,
+          "test": "声明的时效（实时、延时、日终）与实测一致；时间戳语义清楚，能区分成交时间和取数时间。"
+        },
+        {
+          "id": "D3",
+          "name": "完整",
+          "weight": 20,
+          "test": "市场（A 股、美股、港股、加密、商品）、资产类别、字段、历史深度、缺失率符合声明。"
+        },
+        {
+          "id": "D4",
+          "name": "免费可得",
+          "weight": 15,
+          "test": "无 key 时可用的范围、限流、许可条款；免费层能否支撑日常研究。"
+        },
+        {
+          "id": "D5",
+          "name": "可接入",
+          "weight": 20,
+          "test": "输出是标准形态（OHLCV、DataFrame、稳定 JSON schema）；安装依赖可控；清洗与存档要么内置，要么交给下游时边界清楚。"
+        }
+      ],
+      "reading_note": "前两名 FinanceDatabase 与 watchlist 是参考数据（证券代码、分类、研究名单），不提供价格；它们高分是因为窄声明被完整兑现。要行情数据，看 datafeed（多市场标准化 OHLCV）和 akshare（历史接口覆盖最广，实时须逐个核时效）。"
+    },
+    "equity-research": {
+      "name": "Equity Research",
+      "stages": [
+        "indicator",
+        "strategy"
+      ],
+      "objective": "为买卖决策提供可核验、可复现的研判，而不是一段无法追溯的文字。",
+      "criteria": [
+        {
+          "id": "R1",
+          "name": "输入可靠",
+          "weight": 20,
+          "test": "数据来源清楚、时效有标注；不把取数时间冒充交易时间。"
+        },
+        {
+          "id": "R2",
+          "name": "方法可复现",
+          "weight": 25,
+          "test": "估值、筛选、评级是规则、模板或脚本，同输入得到同输出；纯 LLM 自由发挥记部分。"
+        },
+        {
+          "id": "R3",
+          "name": "输出可核验",
+          "weight": 25,
+          "test": "报告中的数字能对回原始数据；发现的不一致有记录。"
+        },
+        {
+          "id": "R4",
+          "name": "覆盖",
+          "weight": 15,
+          "test": "市场与研究类型（个股、行业、主题、宏观）符合声明。"
+        },
+        {
+          "id": "R5",
+          "name": "可接入",
+          "weight": 15,
+          "test": "结论结构化、能被策略或人快速消费；安装与凭证门槛可控。"
+        }
+      ]
+    },
+    "trading-strategy": {
+      "name": "Trading Strategy",
+      "stages": [
+        "indicator",
+        "strategy",
+        "backtest"
+      ],
+      "objective": "策略与指标知识库全面（尽量互斥且穷尽）、计算正确、能直接送进回测。",
+      "criteria": [
+        {
+          "id": "S1",
+          "name": "覆盖 MECE",
+          "weight": 25,
+          "test": "趋势、均值回归、突破、波动率、事件驱动、结构形态（如缠论）、市场状态切换；指标族是否成体系而非零散。"
+        },
+        {
+          "id": "S2",
+          "name": "正确",
+          "weight": 25,
+          "test": "与参考实现或自身基准一致；批量与逐根一致；无未来函数。"
+        },
+        {
+          "id": "S3",
+          "name": "可回测接入",
+          "weight": 20,
+          "test": "能输出标准信号或目标仓位给回测器；或自带回测且结果可导出。"
+        },
+        {
+          "id": "S4",
+          "name": "参数化可扩展",
+          "weight": 15,
+          "test": "参数外置、策略可组合、新增一条策略的成本低。"
+        },
+        {
+          "id": "S5",
+          "name": "复现稳定",
+          "weight": 15,
+          "test": "安装、测试套件、确定性输出。"
+        }
+      ]
+    },
+    "trading-infra": {
+      "name": "Trading Infra",
+      "stages": [
+        "backtest",
+        "lifecycle",
+        "risk",
+        "execute"
+      ],
+      "objective": "回测→风控→执行的骨架可靠，组件可以单独替换。",
+      "criteria": [
+        {
+          "id": "I1",
+          "name": "回测引擎正确",
+          "weight": 20,
+          "test": "事件顺序、费用与滑点模型、报告完整；合成数据可复现。"
+        },
+        {
+          "id": "I2",
+          "name": "执行接口",
+          "weight": 25,
+          "test": "paper、testnet、live 分层；订单类型；成交、持仓、资金回读与对账。"
+        },
+        {
+          "id": "I3",
+          "name": "风控钩子",
+          "weight": 15,
+          "test": "下单前检查可插入；失败即关闭（fail-closed），不会默认放行。"
+        },
+        {
+          "id": "I4",
+          "name": "解耦可替换",
+          "weight": 20,
+          "test": "数据源、策略、券商适配器边界清晰，能单独换掉。"
+        },
+        {
+          "id": "I5",
+          "name": "稳定与测试",
+          "weight": 20,
+          "test": "测试套件、错误态、版本稳定性。"
+        }
+      ],
+      "reading_note": "standard-broker 和 vectorbt 排在 NautilusTrader 之前，不表示它们是更好的骨架：两者都是窄组件，standard-broker 只管券商端口、回测一项不适用，vectorbt 只做回测、执行与风控两项不适用；NautilusTrader 覆盖回测到执行的整段，但本轮只在模拟交易所跑过、风控未观察到。要找回测加执行的骨架，先看 NautilusTrader。"
+    },
+    "dashboard": {
+      "name": "Dashboard",
+      "stages": [
+        "monitor"
+      ],
+      "objective": "人能快速、清晰地找到信息，并在需要时干预。",
+      "criteria": [
+        {
+          "id": "V1",
+          "name": "清晰",
+          "weight": 25,
+          "test": "信息层级明确，首屏就有关键信息，找到目标信息的步骤少。"
+        },
+        {
+          "id": "V2",
+          "name": "时效标注",
+          "weight": 20,
+          "test": "数据日期与延时可见；过期数据不冒充实时。"
+        },
+        {
+          "id": "V3",
+          "name": "可操作",
+          "weight": 20,
+          "test": "筛选、自选、告警、切换周期等操作真实可用。"
+        },
+        {
+          "id": "V4",
+          "name": "可接入",
+          "weight": 20,
+          "test": "能消费我们自己的数据或作为组件嵌入；无登录门槛。"
+        },
+        {
+          "id": "V5",
+          "name": "稳定",
+          "weight": 15,
+          "test": "加载、错误态、跨端表现。"
+        }
+      ]
+    },
+    "full-trading-system-agent": {
+      "name": "Full Trading System / Agent",
+      "stages": [
+        "fetch",
+        "clean",
+        "store",
+        "indicator",
+        "strategy",
+        "backtest",
+        "lifecycle",
+        "risk",
+        "execute",
+        "monitor"
+      ],
+      "objective": "有完整骨架，各环节先解耦再重耦，能跑通一次 paper 闭环。",
+      "criteria": [
+        {
+          "id": "F1",
+          "name": "环节覆盖",
+          "weight": 25,
+          "test": "十个环节中实际存在多少；源码可见与实测跑通分开计。"
+        },
+        {
+          "id": "F2",
+          "name": "解耦",
+          "weight": 20,
+          "test": "数据源、策略、券商等组件有边界和接口，能单独替换。"
+        },
+        {
+          "id": "F3",
+          "name": "重耦跑通",
+          "weight": 25,
+          "test": "端到端一次 paper 闭环：数据→信号→风控→模拟成交→持仓回读。"
+        },
+        {
+          "id": "F4",
+          "name": "风控与安全",
+          "weight": 15,
+          "test": "fail-closed、密钥隔离、没有默认实盘。"
+        },
+        {
+          "id": "F5",
+          "name": "运维交付",
+          "weight": 15,
+          "test": "安装、配置、监控、失败恢复。"
+        }
+      ]
+    },
+    "knowledge-and-collections": {
+      "name": "Knowledge & Collections",
+      "stages": [],
+      "objective": "参考资料，不评测。",
+      "criteria": []
+    }
+  }
+}

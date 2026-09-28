@@ -1,0 +1,503 @@
+{
+  "authored": "2026-09-28",
+  "source_rounds": [
+    "evaluations/trading-infra/2026-09-28"
+  ],
+  "products": [
+    {
+      "repo": "zinan92/standard-broker",
+      "name": "standard-broker",
+      "catalog_category": "trading-infra",
+      "evaluated_as": "trading-infra",
+      "evidence_dir": "evaluations/trading-infra/2026-09-28/01-standard-broker",
+      "tested_revision": "bbdcf9005cbf15860b6a6214a408634925580923",
+      "catalog_lock": "owned source",
+      "interface": "Python 库",
+      "markets": [],
+      "claimed": "为 Park 交易系统提供 provider-neutral 的 broker 端口与适配边界，把 Paper、Testnet、Live 分层隔开。",
+      "delivered": {
+        "status": "partial",
+        "summary": "六个 canonical port、Paper preflight 与 capability-gap 阻断在本地实测成立；InMemory fixture 只返回 accepted 回执，不撮合、不成交、不改余额。"
+      },
+      "stages": {
+        "fetch": "code",
+        "clean": "na",
+        "store": "na",
+        "indicator": "na",
+        "strategy": "na",
+        "backtest": "na",
+        "lifecycle": "na",
+        "risk": "code",
+        "execute": "code",
+        "monitor": "na"
+      },
+      "criteria": {
+        "I1": {
+          "rating": "na",
+          "evidence": "broker 契约与适配包，不含回测引擎。",
+          "shots": []
+        },
+        "I2": {
+          "rating": "partial",
+          "evidence": "Paper preflight 返回 network_io=false、real_money_eligible=false、credential_required=false，一次本地请求被 accepted（transport_calls=1）；InMemoryPaperTransport 不撮合、不成交、不更新持仓，Testnet/Live 未测。",
+          "shots": [
+            "images/19-local-paper-contract-output.png",
+            "images/06-paper-adapter.png",
+            "images/04-broker-context.png"
+          ]
+        },
+        "I3": {
+          "rating": "partial",
+          "evidence": "未授予能力的 order_execution.submit 返回 capability_gap 且 transport 调用数保持 1；给 Paper 身份附 signer 或换 Testnet 身份在构造时即被拒绝。fail-closed 成立，但仓位/敞口类可插拔风控钩子未见。",
+          "shots": [
+            "images/19-local-paper-contract-output.png",
+            "images/08-capability-contract.png",
+            "images/17-host-contract-tests.png"
+          ]
+        },
+        "I4": {
+          "rating": "done",
+          "evidence": "运行时枚举出 market_data、instrument、account、order_execution、protection_order、fee 六个 port，PaperBrokerAdapter 按 port 构造；external_host 与 Hyperliquid profile 在源码中是独立适配边界。",
+          "shots": [
+            "images/07-canonical-ports.png",
+            "images/14-external-host.png",
+            "images/15-hyperliquid-profile.png"
+          ]
+        },
+        "I5": {
+          "rating": "done",
+          "evidence": "包级测试 348 passed、5 skipped，0.42s，退出码 0；0.1.0 wheel 在 Python 3.13.7 隔离环境安装导入无需密钥。跳过的 5 项依赖未安装的 nautilus_trader extra。",
+          "shots": [
+            "images/16-paper-tests.png",
+            "images/17-host-contract-tests.png",
+            "images/18-testnet-fixture-lifecycle-tests.png"
+          ]
+        }
+      },
+      "best_for": "在 Park 系统内充当 broker 接口契约与 Paper/Testnet/Live 边界的适配层。",
+      "not_for": "需要真实撮合、成交与资金对账的 Paper 模拟，或任何独立回测。",
+      "unverified": [
+        "Hyperliquid 外部适配器与 Testnet/Live 生命周期（proof script 未运行）",
+        "5 项依赖 nautilus_trader extra 的可选测试（extra 未安装）",
+        "撮合、成交、手续费与持仓更新（fixture 只回 accepted 回执）"
+      ],
+      "next": "装上 nautilus_trader extra 跑完 5 项可选测试，再用 Hyperliquid Testnet 走一次下单→成交→持仓回读。",
+      "suggested_category": null,
+      "hero": "images/19-local-paper-contract-output.png",
+      "notes": "上游 zinan92/standard-broker 已于 2026-09-27 归档，代码迁入 zinan92/trading-system 的 packages/standard-broker；本卡按迁移后的包（0.1.0，monorepo 提交 bbdcf900）评测，截图 01–18 为锁定提交的源码页，19 为本地 fixture 输出的辅助页。"
+    },
+    {
+      "repo": "nautechsystems/nautilus_trader",
+      "name": "NautilusTrader",
+      "catalog_category": "trading-infra",
+      "evaluated_as": "trading-infra",
+      "evidence_dir": "evaluations/trading-infra/2026-09-28/02-nautilus-trader",
+      "tested_revision": "23cb3035dff7f3fb28b7f5985a2340b090c3c126",
+      "catalog_lock": "23cb3035dff7f3fb28b7f5985a2340b090c3c126",
+      "interface": "Python 库",
+      "markets": [],
+      "claimed": "生产级 Rust 原生、确定性事件驱动的交易引擎，同一套策略代码既能回测也能实盘。",
+      "delivered": {
+        "status": "partial",
+        "summary": "本地 SIM 回测跑通：官方 10,000 bar quickstart 退出码 0，自建 4,000 bar EMA 回测产出 65 个仓位、130 笔模拟成交；实盘一侧的券商适配器、Testnet/Live 与费用/滑点模型未测。"
+      },
+      "stages": {
+        "fetch": "code",
+        "clean": "na",
+        "store": "code",
+        "indicator": "run",
+        "strategy": "run",
+        "backtest": "run",
+        "lifecycle": "code",
+        "risk": "code",
+        "execute": "code",
+        "monitor": "none"
+      },
+      "criteria": {
+        "I1": {
+          "rating": "partial",
+          "evidence": "10,000 bar 官方 quickstart 与 4,000 bar EMA(10/20) 回测在 SIM venue 上确定性复现，产出账户/持仓/成交三份报告（65 个平仓、130 笔 fill、期末 1,021,464 USD）；样例没有显式费用/滑点模型。",
+          "shots": [
+            "images/19-local-overview.png",
+            "images/22-local-fills.png",
+            "images/10-fill-models.png"
+          ]
+        },
+        "I2": {
+          "rating": "partial",
+          "evidence": "SIM venue 生成 130 笔模拟 fill，账户余额、持仓、成交报告可回读；没有连接任何券商适配器、账户、Testnet 或 Live，paper→live 分层未实测。",
+          "shots": [
+            "images/20-local-account.png",
+            "images/21-local-positions.png",
+            "images/12-trade-execution.png"
+          ]
+        },
+        "I3": {
+          "rating": "unverified",
+          "evidence": "本轮没有配置或触发任何下单前风控检查；记录里只有事件驱动回放流程的文档截图，没有风控行为观察。",
+          "shots": [
+            "images/09-backtest-execution-flow.png"
+          ]
+        },
+        "I4": {
+          "rating": "done",
+          "evidence": "评测方自建的 4,000 bar 合成数据与自写 EMA(10/20) 策略直接接入 BacktestEngine 和 SIM venue，数据、策略、venue 三个组件在实测中被替换成自定义实现；券商与数据源适配器只源码可见，未替换。",
+          "shots": [
+            "images/06-low-level-backtest-guide.png",
+            "images/08-backtest-data-and-venues.png",
+            "images/13-backtest-python-api.png"
+          ]
+        },
+        "I5": {
+          "rating": "partial",
+          "evidence": "2.0.0rc5 预编译 wheel 在 Python 3.13 arm64 安装并导入 Rust 核心成功，quickstart 退出码 0 但耗时约 151 秒；仍是预发布版，2.x 与 1.x API 不兼容，全量测试套件未跑。",
+          "shots": [
+            "images/16-official-install-docs.png",
+            "images/04-python-package-metadata.png",
+            "images/14-backtest-engine-surface-tests.png"
+          ]
+        }
+      },
+      "best_for": "需要确定性事件驱动回测与模拟撮合、能接受 2.x 预发布 API 的团队。",
+      "not_for": "只想快速扫参数的轻量研究，或期待开箱即有券商/Testnet 接入的用户。",
+      "unverified": [
+        "真实行情导入与 data catalog 工作流",
+        "券商适配器、账户与 Testnet/Live 生命周期",
+        "费用与滑点 FillModel 对结果的影响",
+        "全量仓库测试套件",
+        "从锁定 SHA 源码构建（本机无 Rust 工具链）"
+      ],
+      "next": "给同一 4,000 bar 样例加显式手续费/滑点模型对比报告，再接一个 sandbox 券商适配器走一次 paper 闭环。",
+      "suggested_category": null,
+      "hero": "images/19-local-overview.png",
+      "notes": "使用与锁定源码 pyproject 版本一致的 2.0.0rc5 PyPI wheel，未从 Git 提交编译。截图 19–22 为评测 harness 展示的真实 BacktestEngine 报告，不是产品自带 UI。"
+    },
+    {
+      "repo": "zinan92/trading-system",
+      "name": "trading-system",
+      "catalog_category": "trading-infra",
+      "evaluated_as": "full-trading-system-agent",
+      "evidence_dir": "evaluations/trading-infra/2026-09-28/03-trading-system",
+      "tested_revision": "bbdcf9005cbf15860b6a6214a408634925580923",
+      "catalog_lock": "owned source",
+      "interface": "Web 应用",
+      "markets": [
+        "加密"
+      ],
+      "claimed": "Park 交易平台：GridMind 面板 + 交易台 + broker/strategy/kline 包，Testnet/Paper only 的完整交易系统。",
+      "delivered": {
+        "status": "partial",
+        "summary": "Dashboard、Desk 与 /trade 代理本地可开，预部署闸门 pass，88 个聚焦测试通过；但行情 read-model 为 blocked、bar_count=0，系统保持 Paper/stopped，没有跑通一次 paper 闭环。"
+      },
+      "stages": {
+        "fetch": "code",
+        "clean": "code",
+        "store": "code",
+        "indicator": "none",
+        "strategy": "code",
+        "backtest": "none",
+        "lifecycle": "code",
+        "risk": "code",
+        "execute": "code",
+        "monitor": "run"
+      },
+      "criteria": {
+        "F1": {
+          "rating": "partial",
+          "evidence": "十环中只有 monitor 实测跑通（Dashboard、Desk、/trade 代理均 HTTP 200，31+19 张视图）；fetch/store/strategy/risk/execute 仅源码与空面板可见，行情 bar_count=0，持仓/委托/成交均为 0。",
+          "shots": [
+            "images/01-dashboard-overview.png",
+            "images/desk-overview.png",
+            "images/integrated-trade-dashboard.png"
+          ]
+        },
+        "F2": {
+          "rating": "partial",
+          "evidence": "monorepo 拆成 dashboard、trading-desk、standard-broker、standard-kline、strategy 包，Desk 经 /trade 代理依赖 GridMind 后端，后端隔离时显式报后台不可用；单独替换某一组件未实测。",
+          "shots": [
+            "images/desk-system.png",
+            "images/integrated-trade-dashboard.png",
+            "images/desk-api-health.png"
+          ]
+        },
+        "F3": {
+          "rating": "unverified",
+          "evidence": "评测隔离把 datafeed 指向空 loopback 端口，行情返回 status=blocked、bar_count=0，且本轮 0 次写请求，没有提交预览/执行/启停/撤单/平仓，闭环没有尝试。",
+          "shots": [
+            "images/11-chart-timeframe-11.png"
+          ]
+        },
+        "F4": {
+          "rating": "partial",
+          "evidence": "无可信行情时 read-model 返回 blocked 且 is_synthetic=false，不伪造数据；系统默认 Paper/stopped，Desk /api/health 声明执行范围仅 Hyperliquid Testnet 且需人工动作；密钥隔离未专门检验。",
+          "shots": [
+            "images/01-dashboard-overview.png",
+            "images/desk-api-health.png",
+            "images/34-venue-workflow-scroll.png"
+          ]
+        },
+        "F5": {
+          "rating": "partial",
+          "evidence": "PaperPredeployGate 在隔离输出目录给出 pass 回执，Dashboard/Desk 以临时端口 18765/18890 从开发 checkout 启动，88 个聚焦测试通过；完整 monorepo make test 未跑，失败恢复未测。",
+          "shots": [
+            "images/desk-system.png",
+            "images/31-live-summary-top.png",
+            "images/05-readonly-panel-05.png"
+          ]
+        }
+      },
+      "best_for": "Park 自有的 Paper-first 交易台骨架，作为 Full Trading System 候选继续补数据链路与闭环。",
+      "not_for": "现在就要跑通 paper 闭环、或要看到真实行情与成交的用户。",
+      "unverified": [
+        "可信实时行情接入（本轮 datafeed 被隔离到空端口）",
+        "策略预览→确认→执行的订单生命周期",
+        "trading-system 内的 Nautilus 集成",
+        "外部 Testnet/Live 账户",
+        "完整 monorepo make test"
+      ],
+      "next": "接入一个可信的 Paper 数据源让 bar_count>0，然后走一次 数据→信号→风控→模拟成交→持仓回读 的 paper 闭环。",
+      "suggested_category": "full-trading-system-agent",
+      "hero": "images/01-dashboard-overview.png",
+      "notes": "目录归 Trading Infra，但它是完整平台，本卡按 Full Trading System / Agent 的 F1–F5 评；建议主类迁出，standard-broker 等组件留在 Infra。指标与回测环节本轮记录未见，按无计。浏览器只读：0 次写请求、0 个未捕获页面错误。"
+    },
+    {
+      "repo": "polakowo/vectorbt",
+      "name": "vectorbt",
+      "catalog_category": "trading-infra",
+      "evaluated_as": "trading-infra",
+      "evidence_dir": "evaluations/trading-infra/2026-09-28/04-vectorbt",
+      "tested_revision": "34b6d5935e3ea3eccd549e2592bc0f455b8045f5",
+      "catalog_lock": "34b6d5935e3ea3eccd549e2592bc0f455b8045f5",
+      "interface": "Python 库",
+      "markets": [],
+      "claimed": "向量化回测引擎，让你在别人跑完一个想法之前跑完上千个交易想法。",
+      "delivered": {
+        "status": "partial",
+        "summary": "两资产各 1,200 根合成小时线经 Portfolio.from_signals 得到 33 条交易记录、完整统计与 Plotly 图；但按声明依赖新装解析到 Plotly 7.1.0 时 import vectorbt 失败，锁到 6.3.0 才可用。"
+      },
+      "stages": {
+        "fetch": "na",
+        "clean": "na",
+        "store": "na",
+        "indicator": "run",
+        "strategy": "run",
+        "backtest": "run",
+        "lifecycle": "none",
+        "risk": "none",
+        "execute": "none",
+        "monitor": "none"
+      },
+      "criteria": {
+        "I1": {
+          "rating": "done",
+          "evidence": "seed 3406 的合成小时线，费率 0.1%、滑点 0.05%：SYN_A 付费 409.09、21 笔交易（20 笔平仓），SYN_B 付费 306.47、12 笔，共 33 条交易记录，收益/回撤/Sharpe 等统计齐全且可复现。",
+          "shots": [
+            "images/19-portfolio.png",
+            "images/20-portfolio-syn-b.png",
+            "images/21-evaluator-summary.png"
+          ]
+        },
+        "I2": {
+          "rating": "na",
+          "evidence": "纯回测/研究引擎，不提供 broker 或执行接口。",
+          "shots": []
+        },
+        "I3": {
+          "rating": "na",
+          "evidence": "没有下单路径，风控钩子不在其角色内。",
+          "shots": []
+        },
+        "I4": {
+          "rating": "partial",
+          "evidence": "数据由调用方以 Pandas/Numpy 数组传入，指标工厂、信号工厂与 Portfolio 是独立 API，本轮自建数据加 MA(12/36) 信号即可接入；没有券商或数据源适配层可替换。",
+          "shots": [
+            "images/04-portfolio-api.png",
+            "images/09-indicator-factory.png",
+            "images/10-signal-factory.png"
+          ]
+        },
+        "I5": {
+          "rating": "partial",
+          "evidence": "pyproject 只写 plotly>=4.12.0，解析到 7.1.0 时 import 因 scattermapbox 模板属性失败，锁 6.3.0 后 uv pip check 通过；多列 Portfolio 的 plot()/stats() 需显式 column 或 group_by，上游测试套件未跑。",
+          "shots": [
+            "images/21-evaluator-summary.png",
+            "images/02-tests-tree.png",
+            "images/13-test-portfolio.png"
+          ]
+        }
+      },
+      "best_for": "快速扫参数与多资产组合的向量化策略研究。",
+      "not_for": "需要事件级撮合、券商执行或风控钩子的生产链路。",
+      "unverified": [
+        "上游完整测试套件",
+        "Rust optional extra",
+        "与参考实现的数值对照（本轮只证明管线跑通）",
+        "Plotly 7.x 兼容修复"
+      ],
+      "next": "用同一组合成信号在 Nautilus 或参考实现上对照成交与 PnL，确认数值一致，并向上游提 Plotly 上限。",
+      "suggested_category": null,
+      "hero": "images/19-portfolio.png",
+      "notes": "源码版本 1.1.0，Python 3.13.7、numpy 2.5.3、pandas 3.0.6。记录建议改归 Trading Strategy：它评估策略与组合，不提供 broker/行情连接。 首轮曾建议归 Trading Strategy；本框架把回测引擎放在 Trading Infra 的第 6 环，故不改建议。"
+    },
+    {
+      "repo": "ccxt/ccxt",
+      "name": "CCXT",
+      "catalog_category": "trading-infra",
+      "evaluated_as": "trading-infra",
+      "evidence_dir": "evaluations/trading-infra/2026-09-28/05-ccxt",
+      "tested_revision": "c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03",
+      "catalog_lock": "c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03",
+      "interface": "Python 库",
+      "markets": [
+        "加密"
+      ],
+      "claimed": "覆盖 100 多家加密交易所与预测市场的统一交易 API，JavaScript/Python/C#/PHP/Go/Java/Rust 多语言可用。",
+      "delivered": {
+        "status": "partial",
+        "summary": "104 个交易所适配器可枚举，Binance 的 fetch_ticker/fetch_order_book/fetch_ohlcv 在进程内 fixture 下统一解析通过；0 次网络请求、0 次下单，真实交易所路径未验。"
+      },
+      "stages": {
+        "fetch": "code",
+        "clean": "run",
+        "store": "na",
+        "indicator": "na",
+        "strategy": "na",
+        "backtest": "na",
+        "lifecycle": "na",
+        "risk": "none",
+        "execute": "code",
+        "monitor": "none"
+      },
+      "criteria": {
+        "I1": {
+          "rating": "na",
+          "evidence": "API client 库，不含回测引擎。",
+          "shots": []
+        },
+        "I2": {
+          "rating": "unverified",
+          "evidence": "无密钥、无网络：只看到 binance 声明 createOrder=True 的能力元数据，以及缺 key 时 check_required_credentials 抛 AuthenticationError；下单、成交/持仓/资金回读与 sandbox 分层均未调用。",
+          "shots": [
+            "images/19-mocked-api-results-json.png"
+          ]
+        },
+        "I3": {
+          "rating": "na",
+          "evidence": "统一 API client，不承担下单前风控。",
+          "shots": []
+        },
+        "I4": {
+          "rating": "partial",
+          "evidence": "104 个 exchange ID 共用同一 Exchange 基类，binance 实例的 request 被进程内函数替换后 fetch_ticker/fetch_order_book/fetch_ohlcv 仍走统一 parse（last 67500、两根 OHLCV）；只测了一个适配器。",
+          "shots": [
+            "images/17-exchange-registry-top.png",
+            "images/05-base-exchange.png",
+            "images/19-mocked-api-results-json.png"
+          ]
+        },
+        "I5": {
+          "rating": "partial",
+          "evidence": "ccxt==4.5.78 在 Python 3.13.7 隔离环境安装，uv pip check 通过，缺密钥时明确抛 AuthenticationError 而非静默；上游测试套件未跑，限流与网络错误态未测。",
+          "shots": [
+            "images/03-python-readme.png",
+            "images/14-mock-response-output-0.png"
+          ]
+        }
+      },
+      "best_for": "统一多交易所请求/响应形态的 client 层，自备密钥与网络后逐所验收。",
+      "not_for": "期望它保证行情新鲜度、限流或订单语义的场景。",
+      "unverified": [
+        "真实交易所网络、时效与限流",
+        "下单、撤单与成交/持仓/资金回读",
+        "sandbox/testnet 与 live 分层",
+        "除 binance 外的 103 个适配器",
+        "上游测试套件"
+      ],
+      "next": "用 Binance testnet 密钥走一次 createOrder→fetchOrder→fetchBalance 回读。",
+      "suggested_category": null,
+      "hero": "images/19-mocked-api-results-json.png",
+      "notes": "所有响应由进程内 fixture 注入，external_network_requests=0、orders_submitted=0；截图 14–19 为 fixture 结果与静态注册表页，不是原生 UI。"
+    },
+    {
+      "repo": "Drakkar-Software/OctoBot",
+      "name": "OctoBot",
+      "catalog_category": "trading-infra",
+      "evaluated_as": "trading-infra",
+      "evidence_dir": "evaluations/trading-infra/2026-09-28/06-octobot",
+      "tested_revision": "d63148e57627ea622fb14401bfe778d1a9b06183",
+      "catalog_lock": "dc0efc8ec36c138bd619272b2b59042778668408",
+      "interface": "Web 应用",
+      "markets": [
+        "加密"
+      ],
+      "claimed": "免费开源加密交易机器人，在 Binance、Hyperliquid 等 15+ 交易所自动执行 AI、Grid、DCA 与 TradingView 策略，带简单界面。",
+      "delivered": {
+        "status": "failed",
+        "summary": "3.0.0-beta2 安装与 CLI 可用，但干净的 simulator 启动因官方 tentacles 包缺少 .signature（HTTP 404）被拒绝安装，默认 profile 缺失，Web UI 未启动，任何交易流程都没跑通。"
+      },
+      "stages": {
+        "fetch": "code",
+        "clean": "none",
+        "store": "none",
+        "indicator": "none",
+        "strategy": "code",
+        "backtest": "code",
+        "lifecycle": "none",
+        "risk": "none",
+        "execute": "code",
+        "monitor": "code"
+      },
+      "criteria": {
+        "I1": {
+          "rating": "unverified",
+          "evidence": "回测 runner 工厂只在源码可见；tentacles 未安装、UI 未启动，回测没有跑。",
+          "shots": [
+            "images/10-backtesting-factory.png"
+          ]
+        },
+        "I2": {
+          "rating": "unverified",
+          "evidence": "simulator 与 15+ 交易所连接均未启动：exchange_api_calls=0、orders_submitted=0，没有配置任何密钥。",
+          "shots": [
+            "images/05-default-config.png"
+          ]
+        },
+        "I3": {
+          "rating": "unverified",
+          "evidence": "程序未启动，未观察到任何下单前检查。",
+          "shots": []
+        },
+        "I4": {
+          "rating": "partial",
+          "evidence": "策略、评估器与交易所连接以 tentacles 插件包外置，源码可见 commands.py 的模块安装路径；本轮插件包无法安装，替换能力未实测。",
+          "shots": [
+            "images/07-commands.png",
+            "images/03-octobot-module-tree.png"
+          ]
+        },
+        "I5": {
+          "rating": "failed",
+          "evidence": "官方 tentacles ZIP（2,929,692 字节）下载后因 .signature 侧文件 404 被 SignatureVerificationError 拒绝，5001/18501 无监听；依赖需 --prerelease=allow 才能解析 starfish-protocol==3.0.0a29；未启用 ALLOW_UNSIGNED_TENTACLES。",
+          "shots": [
+            "images/17-startup-failure.png",
+            "images/15-cli-version.png",
+            "images/16-cli-help.png"
+          ]
+        }
+      },
+      "best_for": "想试现成 DCA/Grid 加密机器人、且能接受 beta 与插件签名门槛的个人用户（待 tentacles 修复后再评）。",
+      "not_for": "需要可复现干净部署，或想把它当可嵌入组件的团队。",
+      "unverified": [
+        "模拟成交与回测",
+        "DCA/Grid/TradingView 策略行为",
+        "Web UI 与 15+ 交易所连接器",
+        "Docker 部署路径（未启动）",
+        "Testnet/Live 执行"
+      ],
+      "next": "等官方 tentacles 包附上签名或改用稳定版 tag 后重跑 simulator 启动，验证 Web UI 与模拟成交。",
+      "suggested_category": "full-trading-system-agent",
+      "hero": "images/17-startup-failure.png",
+      "notes": "记录中的实测提交 d63148e5 与目录锁 dc0efc8e 不一致，本卡以记录为准，需复核锁值。记录建议改归 Full Trading System：它是带 UI 与自动交易的整机，不是可复用的 Infra 组件。"
+    }
+  ]
+}

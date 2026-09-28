@@ -102,25 +102,5 @@ for rank,p in enumerate(PRODUCTS,1):
             f"[判断依据]({p['slug']}/README.md) · [全部截图]({p['slug']}/screenshots.md)\n\n")
 (BASE/'README.md').write_text(index.rstrip()+'\n')
 
-block=(f"<!-- EVALUATION:DATA:START -->\n## Data · 首轮实测排名\n\n{NOTICE}\n\n{OVERVIEW}\n\n"
-       f"采集：2026-09-27 · 14 个项目 · 297 张截图。"
-       f"[统一评测页]({REL}/README.md) · [评分口径]({REL}/methodology.md)。\n\n"
-       +table(REL+'/')+'\n\n### 每项代表画面\n\n')
-for p in PRODUCTS:
-    name=p['repo'].split('/')[-1]
-    block+=(f"**[{name}]({REL}/{p['slug']}/README.md) · {score(p)}/100** — {p['verdict']}\n\n"
-            f"[![{name}：{p['interface']}]({REL}/{p['slug']}/images/{p['hero']})]({REL}/{p['slug']}/screenshots.md)\n\n")
-block+='<!-- EVALUATION:DATA:END -->\n'
-readme=(ROOT/'README.md').read_text()
-readme=re.sub(r'\n*<!-- EVALUATION:DATA:START -->.*?<!-- EVALUATION:DATA:END -->\n*','\n\n',readme,flags=re.S)
-for p in PRODUCTS:
-    url='https://github.com/'+p['repo']
-    pat=r'(\| \[[^\]]+\]\('+re.escape(url)+r'\))(?: · \[首轮评测\]\([^\n|]+\))?'
-    readme=re.sub(pat,lambda m:m.group(1)+f" · [首轮评测]({REL}/{p['slug']}/README.md)",readme)
-anchor='<!-- EVALUATION:END -->'
-if anchor in readme:
-    readme=readme.replace(anchor,anchor+'\n\n'+block,1)
-else:
-    readme=readme.replace('</div>\n\n','</div>\n\n'+block+'\n',1)
-(ROOT/'README.md').write_text(readme)
+# Root README overlay retired 2026-09-28: scripts/render-hub.py owns the README block now.
 print('Rendered Data',len(PRODUCTS),'products and',sum(len(json.loads((BASE/p['slug']/'screenshots.json').read_text())) for p in PRODUCTS),'images')
