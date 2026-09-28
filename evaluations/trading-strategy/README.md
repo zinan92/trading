@@ -7,7 +7,7 @@
 
 [评测框架](../FRAMEWORK.md) · [Pipeline 总览](../README.md) · [返回目录](../../README.md)
 
-评级：✅ 做到 · 🟡 部分 · ❌ 未做到 · ⬜ 未验证 · — 不适用。分数 = Σ(权重 × 评级值) ÷ Σ适用权重 × 100；已验证 = 做到、部分、未做到三种评级占适用权重的比例。环节：● 实测跑通 · ◐ 源码可见未实测 · ○ 无 · · 不在其角色内。
+评级：✅ 做到 · 🟡 部分 · ❌ 未做到 · ⬜ 未验证 · — 不适用。分数 = Σ(权重 × 评级值) ÷ Σ适用权重 × 100；已验证 = 做到、部分、未做到三种评级占适用权重的比例。环节：● 实测跑通 · ◐ 源码可见未实测 · ○ 无 · · 不在其角色内；排名表的环节列按 1 获取到 10 看板的顺序排列。
 
 ## 评判标准
 
@@ -21,16 +21,16 @@
 
 ## 排名
 
-| 排名 | 产品 | 分数 | 已验证 | 1 获取 | 2 清洗 | 3 存档 | 4 指标 | 5 策略 | 6 回测 | 7 管理 | 8 风控 | 9 执行 | 10 看板 | 实测 | 卡片 |
-|---:|---|---:|---:|:--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--:|---|---|
-| 1 | [TA-Lib](https://github.com/TA-Lib/ta-lib-python) | **80** | 100% | · | · | · | ● | · | · | · | · | · | · | ✅ 锁定提交源码编译成功，80 项测试通过，201 个指标可枚举，500 根合成 OHLCV 上 SMA/RSI/MACD/BBANDS 经 NumPy/Pandas/Polars 三类接口均出值；实验性 stream 的 5 个递归指标与批量结果不一致。 | [卡片](README.md#ta-lib-python) |
-| 2 | [trading-strategy](https://github.com/zinan92/trading-strategy) | **70** | 100% | · | · | · | ○ | ● | ● | ◐ | ◐ | · | · | ✅ 隔离安装成功，12 个确定性场景按预期输出：6 级 DCA 入场 3994→3920、目标 4040/止损 3880，网格 90–130 五档与数量，同一根 bar 上硬止损优先于新增档；聚焦测试 38 通过。 | [卡片](README.md#trading-strategy) |
-| 3 | [CZSC](https://github.com/waditu/czsc) | **68** | 100% | ◐ | ● | · | ● | ● | ● | · | · | · | · | 🟡 离线链路 mock→质量检查→分析→研究/replay→回测→HTML 图表跑通；但核心 BI 固定基准 3 项失败，1.0.1 wheel 生成 31 笔而仓库基准为 43。 | [卡片](README.md#czsc) |
-| 4 | [Qlib](https://github.com/microsoft/qlib) | **57** | 100% | ● | ◐ | ● | ● | ◐ | ◐ | ◐ | · | · | · | 🟡 隔离安装、CN 简版数据、表达式、Alpha158、LightGBM 训练与 2,094 条样本外预测跑通；数据止于 2021-06-11，SimulatorExecutor 导入超 2 分钟未完成，组合回测未验证。 | [卡片](README.md#qlib) |
-| 5 | [chan.py](https://github.com/Vespa314/chan.py) | **50** | 100% | ◐ | · | · | ● | ◐ | ○ | · | · | · | · | ✅ 320 根合成日线上批处理与逐根 trigger_step 都得到 276 根合并 K 线、25 笔、7 段、2 个中枢、14 个买卖点并成功绘图；真实行情与策略收益未测。 | [卡片](README.md#chan-py) |
-| 6 | [trump-code](https://github.com/sstklen/trump-code) | **50** | 100% | ◐ | ○ | ● | · | ● | ◐ | ◐ | · | · | ● | 🟡 历史 564 条已验证预测中 346 条正确，61.3% 可复算；最新帖停在 2026-03-25 而日报写 09-26，模型榜单为空，文章索引 404。 | [卡片](README.md#trump-code) |
-| 7 | [Chancode](https://github.com/zinan92/chancode) | **42** | 100% | ◐ | · | ◐ | ◐ | ● | ● | · | · | ◐ | ◐ | 🟡 7 根合成蜡烛的单次 replay 跑通（账户 10,000→约 10,201），前端 14 路由构建成功；README 的批量回放在干净 clone 因缺 check_out_param 与 D:/ 写死路径不可复现，后端、AI、行情均未运行。 | [卡片](README.md#chancode) |
-| 8 | [FMZ strategies](https://github.com/fmzquant/strategies) | **40** | 100% | · | · | · | ◐ | ◐ | ○ | · | · | · | · | 🟡 5,806 篇 Markdown 全部含非空代码块、3 个 FMZ 原页 HTTP 200 可开；但无统一安装、运行器或回测，本地没有执行任何一条策略，Python 抽查 5 篇中 1 篇（R-Breaker）是 Python 2 语法。 | [卡片](README.md#strategies) |
+| 排名 | 产品 | 分数 | 已验证 | 环节 1–10 | 实测 | 卡片 |
+|---:|---|---:|---:|---|---|---|
+| 1 | [TA-Lib](https://github.com/TA-Lib/ta-lib-python) | **80** | 100% | `···●······` | ✅ 锁定提交源码编译成功，80 项测试通过，201 个指标可枚举，500 根合成 OHLCV 上 SMA/RSI/MACD/BBANDS 经 NumPy/Pandas/Polars 三类接口均出值；实验性 stream 的 5 个递归指标与批量结果不一致。 | [卡片](README.md#ta-lib-python) |
+| 2 | [trading-strategy](https://github.com/zinan92/trading-strategy) | **70** | 100% | `···○●●◐◐··` | ✅ 隔离安装成功，12 个确定性场景按预期输出：6 级 DCA 入场 3994→3920、目标 4040/止损 3880，网格 90–130 五档与数量，同一根 bar 上硬止损优先于新增档；聚焦测试 38 通过。 | [卡片](README.md#trading-strategy) |
+| 3 | [CZSC](https://github.com/waditu/czsc) | **68** | 100% | `◐●·●●●····` | 🟡 离线链路 mock→质量检查→分析→研究/replay→回测→HTML 图表跑通；但核心 BI 固定基准 3 项失败，1.0.1 wheel 生成 31 笔而仓库基准为 43。 | [卡片](README.md#czsc) |
+| 4 | [Qlib](https://github.com/microsoft/qlib) | **57** | 100% | `●◐●●◐◐◐···` | 🟡 隔离安装、CN 简版数据、表达式、Alpha158、LightGBM 训练与 2,094 条样本外预测跑通；数据止于 2021-06-11，SimulatorExecutor 导入超 2 分钟未完成，组合回测未验证。 | [卡片](README.md#qlib) |
+| 5 | [chan.py](https://github.com/Vespa314/chan.py) | **50** | 100% | `◐··●◐○····` | ✅ 320 根合成日线上批处理与逐根 trigger_step 都得到 276 根合并 K 线、25 笔、7 段、2 个中枢、14 个买卖点并成功绘图；真实行情与策略收益未测。 | [卡片](README.md#chan-py) |
+| 6 | [trump-code](https://github.com/sstklen/trump-code) | **50** | 100% | `◐○●·●◐◐··●` | 🟡 历史 564 条已验证预测中 346 条正确，61.3% 可复算；最新帖停在 2026-03-25 而日报写 09-26，模型榜单为空，文章索引 404。 | [卡片](README.md#trump-code) |
+| 7 | [Chancode](https://github.com/zinan92/chancode) | **42** | 100% | `◐·◐◐●●··◐◐` | 🟡 7 根合成蜡烛的单次 replay 跑通（账户 10,000→约 10,201），前端 14 路由构建成功；README 的批量回放在干净 clone 因缺 check_out_param 与 D:/ 写死路径不可复现，后端、AI、行情均未运行。 | [卡片](README.md#chancode) |
+| 8 | [FMZ strategies](https://github.com/fmzquant/strategies) | **40** | 100% | `···◐◐○····` | 🟡 5,806 篇 Markdown 全部含非空代码块、3 个 FMZ 原页 HTTP 200 可开；但无统一安装、运行器或回测，本地没有执行任何一条策略，Python 抽查 5 篇中 1 篇（R-Breaker）是 Python 2 语法。 | [卡片](README.md#strategies) |
 
 ### 证据不足，不排名
 

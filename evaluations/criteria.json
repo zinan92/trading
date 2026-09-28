@@ -162,7 +162,8 @@
           "weight": 20,
           "test": "输出是标准形态（OHLCV、DataFrame、稳定 JSON schema）；安装依赖可控；清洗与存档要么内置，要么交给下游时边界清楚。"
         }
-      ]
+      ],
+      "reading_note": "前两名 FinanceDatabase 与 watchlist 是参考数据（证券代码、分类、研究名单），不提供价格；它们高分是因为窄声明被完整兑现。要行情数据，看 datafeed（多市场标准化 OHLCV）和 akshare（历史接口覆盖最广，实时须逐个核时效）。"
     },
     "equity-research": {
       "name": "Equity Research",
@@ -285,7 +286,8 @@
           "weight": 20,
           "test": "测试套件、错误态、版本稳定性。"
         }
-      ]
+      ],
+      "reading_note": "standard-broker 和 vectorbt 排在 NautilusTrader 之前，不表示它们是更好的骨架：两者都是窄组件，standard-broker 只管券商端口、回测一项不适用，vectorbt 只做回测、执行与风控两项不适用；NautilusTrader 覆盖回测到执行的整段，但本轮只在模拟交易所跑过、风控未观察到。要找回测加执行的骨架，先看 NautilusTrader。"
     },
     "dashboard": {
       "name": "Dashboard",

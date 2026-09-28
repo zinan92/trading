@@ -140,8 +140,8 @@
           ]
         },
         "I4": {
-          "rating": "partial",
-          "evidence": "评测方自建的 4,000 bar 合成数据与 EMA 策略直接接入 BacktestEngine 和 SIM venue，数据/策略/venue 边界在实测中成立；券商与数据源适配器只源码可见，未替换。",
+          "rating": "done",
+          "evidence": "评测方自建的 4,000 bar 合成数据与自写 EMA(10/20) 策略直接接入 BacktestEngine 和 SIM venue，数据、策略、venue 三个组件在实测中被替换成自定义实现；券商与数据源适配器只源码可见，未替换。",
           "shots": [
             "images/06-low-level-backtest-guide.png",
             "images/08-backtest-data-and-venues.png",

@@ -95,6 +95,10 @@ def stage_cells(p: dict) -> str:
     return " | ".join(STAGE_SYM[p["stages"][s]] for s in STAGE_IDS)
 
 
+def stage_compact(p: dict) -> str:
+    return "`" + "".join(STAGE_SYM[p["stages"][s]] for s in STAGE_IDS) + "`"
+
+
 def stage_header() -> tuple[str, str]:
     head = " | ".join(f"{s['n']} {s['short']}" for s in STAGES)
     sep = " | ".join(":--:" for _ in STAGES)
@@ -192,12 +196,11 @@ def card(p: dict, rank: int | None, from_dir: Path) -> str:
 
 
 def ranking_table(products: list[dict], from_dir: Path, page: str) -> str:
-    h, s = stage_header()
-    rows = [f"| 排名 | 产品 | 分数 | 已验证 | {h} | 实测 | 卡片 |", f"|---:|---|---:|---:|{s.replace(':--:', ':--:')}|---|---|"]
+    rows = ["| 排名 | 产品 | 分数 | 已验证 | 环节 1–10 | 实测 | 卡片 |", "|---:|---|---:|---:|---|---|---|"]
     for i, p in enumerate(products, 1):
         sc = p["_score"]
         rows.append(
-            f"| {i} | [{p['name']}](https://github.com/{p['repo']}) | **{sc['score']}** | {round(sc['verified']*100)}% | {stage_cells(p)} | {short_status(p)} | [卡片]({page}#{slug(p['repo'])}) |"
+            f"| {i} | [{p['name']}](https://github.com/{p['repo']}) | **{sc['score']}** | {round(sc['verified']*100)}% | {stage_compact(p)} | {short_status(p)} | [卡片]({page}#{slug(p['repo'])}) |"
         )
     return "\n".join(rows)
 
@@ -240,10 +243,12 @@ def render_category(cat_id: str, products: list[dict], all_products: list[dict])
     out = [GEN_NOTE, f"# {cat['name']} · 评测", "", f"**目标：** {cat['objective']}", "", f"**环节：** {stage_names}", ""]
     out.append(f"[评测框架](../FRAMEWORK.md) · [Pipeline 总览](../README.md) · [返回目录](../../README.md)")
     out.append("")
-    out.append("评级：✅ 做到 · 🟡 部分 · ❌ 未做到 · ⬜ 未验证 · — 不适用。分数 = Σ(权重 × 评级值) ÷ Σ适用权重 × 100；已验证 = 做到、部分、未做到三种评级占适用权重的比例。环节：● 实测跑通 · ◐ 源码可见未实测 · ○ 无 · · 不在其角色内。")
+    out.append("评级：✅ 做到 · 🟡 部分 · ❌ 未做到 · ⬜ 未验证 · — 不适用。分数 = Σ(权重 × 评级值) ÷ Σ适用权重 × 100；已验证 = 做到、部分、未做到三种评级占适用权重的比例。环节：● 实测跑通 · ◐ 源码可见未实测 · ○ 无 · · 不在其角色内；排名表的环节列按 1 获取到 10 看板的顺序排列。")
     out.append("")
     out += ["## 评判标准", "", criteria_table(cat), ""]
     out += ["## 排名", ""]
+    if cat.get("reading_note"):
+        out += [f"**怎么读这个排名：** {cat['reading_note']}", ""]
     if ranked:
         out.append(ranking_table(ranked, page_dir, "README.md"))
     else:
@@ -316,15 +321,14 @@ def render_hub(products: list[dict]) -> None:
             link = product_link(p, EVAL)
             out.append(f"| {link} | {CATS[p['catalog_category']]['name']} | {CATS[target]['name']} | {note} |")
         out.append("")
-    out += ["## 全部产品", ""]
-    h, s = stage_header()
-    out += [f"| 产品 | 评测类别 | 分数 | 已验证 | {h} | 实测 |", f"|---|---|---:|---:|{s}|---|"]
+    out += ["## 全部产品", "", "环节列按 1 获取、2 清洗、3 存档、4 指标、5 策略、6 回测、7 管理、8 风控、9 执行、10 看板的顺序排列：● 实测跑通 · ◐ 源码可见 · ○ 无 · · 不在角色内。", ""]
+    out += ["| 产品 | 评测类别 | 分数 | 已验证 | 环节 1–10 | 实测 |", "|---|---|---:|---:|---|---|"]
     allp = sorted([p for p in products if not p.get("stub")], key=lambda p: (CATALOG_ORDER.index(p["evaluated_as"]), -(p["_score"]["score"] or -1), p["name"].lower()))
     for p in allp:
         sc = p["_score"]
         score_txt = str(sc["score"]) if sc["score"] is not None else "—"
         ver_txt = f"{round(sc['verified']*100)}%" if sc["score"] is not None else "—"
-        out.append(f"| {product_link(p, EVAL)} | {CATS[p['evaluated_as']]['name']} | {score_txt} | {ver_txt} | {stage_cells(p)} | {short_status(p)} |")
+        out.append(f"| {product_link(p, EVAL)} | {CATS[p['evaluated_as']]['name']} | {score_txt} | {ver_txt} | {stage_compact(p)} | {short_status(p)} |")
     out.append("")
     out += ["## 原始证据轮次", ""]
     rounds = sorted({p["evidence_dir"].rsplit("/", 1)[0] for p in products if p.get("evidence_dir")})

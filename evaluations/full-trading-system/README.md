@@ -7,7 +7,7 @@
 
 [评测框架](../FRAMEWORK.md) · [Pipeline 总览](../README.md) · [返回目录](../../README.md)
 
-评级：✅ 做到 · 🟡 部分 · ❌ 未做到 · ⬜ 未验证 · — 不适用。分数 = Σ(权重 × 评级值) ÷ Σ适用权重 × 100；已验证 = 做到、部分、未做到三种评级占适用权重的比例。环节：● 实测跑通 · ◐ 源码可见未实测 · ○ 无 · · 不在其角色内。
+评级：✅ 做到 · 🟡 部分 · ❌ 未做到 · ⬜ 未验证 · — 不适用。分数 = Σ(权重 × 评级值) ÷ Σ适用权重 × 100；已验证 = 做到、部分、未做到三种评级占适用权重的比例。环节：● 实测跑通 · ◐ 源码可见未实测 · ○ 无 · · 不在其角色内；排名表的环节列按 1 获取到 10 看板的顺序排列。
 
 ## 评判标准
 
@@ -21,20 +21,20 @@
 
 ## 排名
 
-| 排名 | 产品 | 分数 | 已验证 | 1 获取 | 2 清洗 | 3 存档 | 4 指标 | 5 策略 | 6 回测 | 7 管理 | 8 风控 | 9 执行 | 10 看板 | 实测 | 卡片 |
-|---:|---|---:|---:|:--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--:|---|---|
-| 1 | [tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | **70** | 100% | ● | ● | ● | ● | ● | ● | ◐ | ○ | ◐ | ● | 🟡 选股与回测按声明跑通（65 只、114 笔），监控页面可用但 None 数据模式下无实时行情，LLM 能力未配置。 | [卡片](README.md#tick-stock-panel) |
-| 2 | [KHunter](https://github.com/ling-0729/KHunter) | **62** | 100% | ● | ○ | ● | ◐ | ● | ● | ◐ | ○ | ◐ | ◐ | 🟡 真实数据、选股与回测都能在原生 Web 里跑，但样本只有 3 个标的、回测 0 笔交易，PTrade 交易闭环未验。 | [卡片](README.md#khunter) |
-| 3 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | **38** | 100% | ● | ○ | ● | ○ | ◐ | ◐ | ○ | ○ | ○ | ◐ | 🟡 数据降级路径拿到 600519 真实日线，但核心 AI 报告与推送未配置未验证，dry-run 进程不退出。 | [卡片](README.md#daily-stock-analysis) |
-| 4 | [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | **38** | 75% | ◐ | ○ | ◐ | ◐ | ◐ | ◐ | ● | ○ | ◐ | ◐ | 🟡 产品化界面完整、策略可生成验证并保存，但回测被日期选择问题挡住未提交，paper/live 未验。 | [卡片](README.md#quantdinger) |
-| 5 | [trading-system](https://github.com/zinan92/trading-system) | **38** | 75% | ◐ | ◐ | ◐ | ○ | ◐ | ○ | ◐ | ◐ | ◐ | ● | 🟡 Dashboard、Desk 与 /trade 代理本地可开，预部署闸门 pass，88 个聚焦测试通过；但行情 read-model 为 blocked、bar_count=0，系统保持 Paper/stopped，没有跑通一次 paper 闭环。 | [卡片](README.md#trading-system) |
-| 6 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | **38** | 75% | ◐ | ○ | ○ | ◐ | ◐ | ◐ | ◐ | ○ | ◐ | ◐ | 🟡 结构完整、API 与主要页面可用，但缺模型与券商配置，研究、回测、订单三条核心路径都没有产出。 | [卡片](README.md#vibe-trading) |
-| 7 | [Sequoia-X](https://github.com/sngyai/Sequoia-X) | **30** | 85% | ● | ○ | ○ | ● | ● | ○ | ○ | ○ | ○ | ◐ | 🟡 选股扫描按声明跑通并命中 000333，但收盘后自动运行与飞书推送未验证。 | [卡片](README.md#sequoia-x) |
-| 8 | [finhack](https://github.com/FinHackCN/finhack) | **22** | 85% | ◐ | ○ | ◐ | ◐ | ◐ | ◐ | ○ | ○ | ◐ | ○ | ❌ CLI 帮助与项目初始化可用，但因子、回测、交易三条关键命令全部失败，没有拿到任何回测结果。 | [卡片](README.md#finhack) |
-| 9 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | **21** | 100% | ◐ | · | · | ◐ | ◐ | ○ | · | ○ | ○ | ○ | ❌ CLI、12 节点图构建与本地模型工具调用可用，但一次完整分析都没跑完（240 秒超时、无最终评级）。 | [卡片](README.md#tradingagents) |
-| 10 | [go-stock](https://github.com/ArvinLovegood/go-stock) | **20** | 65% | ● | ○ | ◐ | ◐ | ◐ | ○ | ○ | ○ | ○ | ◐ | 🟡 原生 macOS 应用启动、自选股与日 K 可用，AI 分析被 VIP2 会员门槛挡住，AI 完整输出未验证。 | [卡片](README.md#go-stock) |
-| 11 | [Vibe-Research](https://github.com/simonlin1212/Vibe-Research) | **20** | 65% | ◐ | ○ | ○ | ○ | ◐ | ◐ | ○ | ○ | ○ | ◐ | 🟡 本地原生界面与主要页面能打开，但 AI 未接入，没有产出任何可核验的研究结论。 | [卡片](README.md#vibe-research) |
-| 12 | [TradeGenuis-Options](https://github.com/Theclues/TradeGenuis-Options) | **8** | 65% | ● | ○ | ○ | ○ | ◐ | ○ | ○ | ○ | ○ | ◐ | 🟡 Electron 能浏览素材、20 个 watchlist 项与 6 个机会，但 AI 分析与检索未配置，4 页素材拒收且更新出现冲突。 | [卡片](README.md#tradegenuis-options) |
+| 排名 | 产品 | 分数 | 已验证 | 环节 1–10 | 实测 | 卡片 |
+|---:|---|---:|---:|---|---|---|
+| 1 | [tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | **70** | 100% | `●●●●●●◐○◐●` | 🟡 选股与回测按声明跑通（65 只、114 笔），监控页面可用但 None 数据模式下无实时行情，LLM 能力未配置。 | [卡片](README.md#tick-stock-panel) |
+| 2 | [KHunter](https://github.com/ling-0729/KHunter) | **62** | 100% | `●○●◐●●◐○◐◐` | 🟡 真实数据、选股与回测都能在原生 Web 里跑，但样本只有 3 个标的、回测 0 笔交易，PTrade 交易闭环未验。 | [卡片](README.md#khunter) |
+| 3 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | **38** | 100% | `●○●○◐◐○○○◐` | 🟡 数据降级路径拿到 600519 真实日线，但核心 AI 报告与推送未配置未验证，dry-run 进程不退出。 | [卡片](README.md#daily-stock-analysis) |
+| 4 | [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | **38** | 75% | `◐○◐◐◐◐●○◐◐` | 🟡 产品化界面完整、策略可生成验证并保存，但回测被日期选择问题挡住未提交，paper/live 未验。 | [卡片](README.md#quantdinger) |
+| 5 | [trading-system](https://github.com/zinan92/trading-system) | **38** | 75% | `◐◐◐○◐○◐◐◐●` | 🟡 Dashboard、Desk 与 /trade 代理本地可开，预部署闸门 pass，88 个聚焦测试通过；但行情 read-model 为 blocked、bar_count=0，系统保持 Paper/stopped，没有跑通一次 paper 闭环。 | [卡片](README.md#trading-system) |
+| 6 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | **38** | 75% | `◐○○◐◐◐◐○◐◐` | 🟡 结构完整、API 与主要页面可用，但缺模型与券商配置，研究、回测、订单三条核心路径都没有产出。 | [卡片](README.md#vibe-trading) |
+| 7 | [Sequoia-X](https://github.com/sngyai/Sequoia-X) | **30** | 85% | `●○○●●○○○○◐` | 🟡 选股扫描按声明跑通并命中 000333，但收盘后自动运行与飞书推送未验证。 | [卡片](README.md#sequoia-x) |
+| 8 | [finhack](https://github.com/FinHackCN/finhack) | **22** | 85% | `◐○◐◐◐◐○○◐○` | ❌ CLI 帮助与项目初始化可用，但因子、回测、交易三条关键命令全部失败，没有拿到任何回测结果。 | [卡片](README.md#finhack) |
+| 9 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | **21** | 100% | `◐··◐◐○·○○○` | ❌ CLI、12 节点图构建与本地模型工具调用可用，但一次完整分析都没跑完（240 秒超时、无最终评级）。 | [卡片](README.md#tradingagents) |
+| 10 | [go-stock](https://github.com/ArvinLovegood/go-stock) | **20** | 65% | `●○◐◐◐○○○○◐` | 🟡 原生 macOS 应用启动、自选股与日 K 可用，AI 分析被 VIP2 会员门槛挡住，AI 完整输出未验证。 | [卡片](README.md#go-stock) |
+| 11 | [Vibe-Research](https://github.com/simonlin1212/Vibe-Research) | **20** | 65% | `◐○○○◐◐○○○◐` | 🟡 本地原生界面与主要页面能打开，但 AI 未接入，没有产出任何可核验的研究结论。 | [卡片](README.md#vibe-research) |
+| 12 | [TradeGenuis-Options](https://github.com/Theclues/TradeGenuis-Options) | **8** | 65% | `●○○○◐○○○○◐` | 🟡 Electron 能浏览素材、20 个 watchlist 项与 6 个机会，但 AI 分析与检索未配置，4 页素材拒收且更新出现冲突。 | [卡片](README.md#tradegenuis-options) |
 
 ### 证据不足，不排名
 

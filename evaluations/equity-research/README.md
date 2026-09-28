@@ -7,7 +7,7 @@
 
 [评测框架](../FRAMEWORK.md) · [Pipeline 总览](../README.md) · [返回目录](../../README.md)
 
-评级：✅ 做到 · 🟡 部分 · ❌ 未做到 · ⬜ 未验证 · — 不适用。分数 = Σ(权重 × 评级值) ÷ Σ适用权重 × 100；已验证 = 做到、部分、未做到三种评级占适用权重的比例。环节：● 实测跑通 · ◐ 源码可见未实测 · ○ 无 · · 不在其角色内。
+评级：✅ 做到 · 🟡 部分 · ❌ 未做到 · ⬜ 未验证 · — 不适用。分数 = Σ(权重 × 评级值) ÷ Σ适用权重 × 100；已验证 = 做到、部分、未做到三种评级占适用权重的比例。环节：● 实测跑通 · ◐ 源码可见未实测 · ○ 无 · · 不在其角色内；排名表的环节列按 1 获取到 10 看板的顺序排列。
 
 ## 评判标准
 
@@ -21,13 +21,13 @@
 
 ## 排名
 
-| 排名 | 产品 | 分数 | 已验证 | 1 获取 | 2 清洗 | 3 存档 | 4 指标 | 5 策略 | 6 回测 | 7 管理 | 8 风控 | 9 执行 | 10 看板 | 实测 | 卡片 |
-|---:|---|---:|---:|:--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--:|---|---|
-| 1 | [Maverick MCP](https://github.com/wshobson/maverick-mcp) | **82** | 100% | ● | ○ | ◐ | ● | ● | ◐ | · | · | · | · | 🟡 Core 1.1.0 的 37 个工具真实可用，AAPL 行情/技术/筛选与本地组合、自选、日志闭环跑通；深度研究与回测扩展未装，quote 的 timestamp 是取数时刻而非成交时间。 | [卡片](README.md#maverick-mcp) |
-| 2 | [Equity Research Skill](https://github.com/rollingSirius/equity-research-skill) | **60** | 80% | ○ | · | · | ● | ● | ○ | · | · | · | · | 🟡 估值脚本与检查器可跑（DCF demo 57.5/股、检查器测试 7/7），但本轮未生成新的真实九章研报，作者 NVDA 示例被仓库自身检查器判 1 个 P1。 | [卡片](README.md#equity-research-skill) |
-| 3 | [Serenity Skill](https://github.com/muxuuu/serenity-skill) | **50** | 100% | ○ | · | · | ○ | ◐ | ○ | · | · | · | · | 🟡 validate_skill.py 返回 OK，8 个参考文档、3 篇示例、6 个手工用例可用，作者 CPO 案例的两处一手来源抽查成立；但本轮未让宿主 Agent 从零完成新主题研究。 | [卡片](README.md#serenity-skill) |
-| 4 | [UZI Skill](https://github.com/wbh604/UZI-Skill) | **45** | 100% | ● | ◐ | ◐ | ● | ● | ○ | · | · | · | · | 🟡 AAPL lite 真实生成 720KB 自包含 HTML 报告、分享卡与战报，覆盖率 72%；但币种、ROE 与来源叙述有可复验矛盾，critical_missing=true 时仍给精确价位，结论不能按已核验使用。 | [卡片](README.md#uzi-skill) |
-| 5 | [Equity Research](https://github.com/zinan92/equity-research) | **38** | 100% | ○ | · | ◐ | ◐ | ◐ | ○ | ◐ | ◐ | · | ● | ❌ fresh clone 只有 DEMO 结构：/api/health 报 data_mode=DEMO、report_count=0，/api/committee 为 0/8 深研、0% 可执行，本轮未产出任何真实研报；门禁按设计拒绝伪造，但组合页仍显示 +4.6% 收益。 | [卡片](README.md#equity-research) |
+| 排名 | 产品 | 分数 | 已验证 | 环节 1–10 | 实测 | 卡片 |
+|---:|---|---:|---:|---|---|---|
+| 1 | [Maverick MCP](https://github.com/wshobson/maverick-mcp) | **82** | 100% | `●○◐●●◐····` | 🟡 Core 1.1.0 的 37 个工具真实可用，AAPL 行情/技术/筛选与本地组合、自选、日志闭环跑通；深度研究与回测扩展未装，quote 的 timestamp 是取数时刻而非成交时间。 | [卡片](README.md#maverick-mcp) |
+| 2 | [Equity Research Skill](https://github.com/rollingSirius/equity-research-skill) | **60** | 80% | `○··●●○····` | 🟡 估值脚本与检查器可跑（DCF demo 57.5/股、检查器测试 7/7），但本轮未生成新的真实九章研报，作者 NVDA 示例被仓库自身检查器判 1 个 P1。 | [卡片](README.md#equity-research-skill) |
+| 3 | [Serenity Skill](https://github.com/muxuuu/serenity-skill) | **50** | 100% | `○··○◐○····` | 🟡 validate_skill.py 返回 OK，8 个参考文档、3 篇示例、6 个手工用例可用，作者 CPO 案例的两处一手来源抽查成立；但本轮未让宿主 Agent 从零完成新主题研究。 | [卡片](README.md#serenity-skill) |
+| 4 | [UZI Skill](https://github.com/wbh604/UZI-Skill) | **45** | 100% | `●◐◐●●○····` | 🟡 AAPL lite 真实生成 720KB 自包含 HTML 报告、分享卡与战报，覆盖率 72%；但币种、ROE 与来源叙述有可复验矛盾，critical_missing=true 时仍给精确价位，结论不能按已核验使用。 | [卡片](README.md#uzi-skill) |
+| 5 | [Equity Research](https://github.com/zinan92/equity-research) | **38** | 100% | `○·◐◐◐○◐◐·●` | ❌ fresh clone 只有 DEMO 结构：/api/health 报 data_mode=DEMO、report_count=0，/api/committee 为 0/8 深研、0% 可执行，本轮未产出任何真实研报；门禁按设计拒绝伪造，但组合页仍显示 +4.6% 收益。 | [卡片](README.md#equity-research) |
 
 ### 证据不足，不排名
 
