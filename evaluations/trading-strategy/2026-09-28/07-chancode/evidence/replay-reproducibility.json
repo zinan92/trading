@@ -1,0 +1,26 @@
+{
+  "same_inputs": true,
+  "simulation": "seven-candle synthetic fixture; no external data",
+  "runs": [
+    {
+      "seed": 42,
+      "entry_prices": [
+        99.94422928061685,
+        102.98749462238867
+      ],
+      "ending_balance": 10200.999999999998,
+      "trade_count": 4
+    },
+    {
+      "seed": 43,
+      "entry_prices": [
+        100.18457926426505,
+        102.65188783868147
+      ],
+      "ending_balance": 10201.0,
+      "trade_count": 4
+    }
+  ],
+  "entry_prices_equal": false,
+  "repeatability_note": "Account entry fill uses random.uniform(high, low); seeded runs differ unless the caller controls random state."
+}

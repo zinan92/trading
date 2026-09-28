@@ -1,0 +1,111 @@
+{
+  "product": "YoungCan-Wang/WyckoffTradingAgent",
+  "count": 13,
+  "unique_sha256_count": 13,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-dashboard-overview-synthetic.png",
+      "title": "01-dashboard-overview-synthetic.png",
+      "source": "trial artifact",
+      "sha256": "3adf594dbcfce91c3332ad355965dd088a4ecdd63c7fe648ab952a62f4a85f2a",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 2,
+      "file": "images/02-recommendations-synthetic-or-empty.png",
+      "title": "02-recommendations-synthetic-or-empty.png",
+      "source": "trial artifact",
+      "sha256": "0fbeeafa55920d33c94d279939d1a625a9b3ffa124acd45b406cdea7e5ca3881",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 3,
+      "file": "images/03-signals-synthetic-or-empty.png",
+      "title": "03-signals-synthetic-or-empty.png",
+      "source": "trial artifact",
+      "sha256": "04a1a0be375d9d2f889bcca6cb909d5ffc6b72761335e89e80bd3784dfd036eb",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 4,
+      "file": "images/04-portfolio-synthetic-or-empty.png",
+      "title": "04-portfolio-synthetic-or-empty.png",
+      "source": "trial artifact",
+      "sha256": "126b7be31f3479b2853e10771033654d95c227f9b11c54f8ba8ac067ca7bfe0c",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 5,
+      "file": "images/05-memory-synthetic-or-empty.png",
+      "title": "05-memory-synthetic-or-empty.png",
+      "source": "trial artifact",
+      "sha256": "61a874498666f3b7f867e22d19c8c2aa41963ade5fda3d3915da72f782a641db",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 6,
+      "file": "images/06-bgtasks-synthetic-or-empty.png",
+      "title": "06-bgtasks-synthetic-or-empty.png",
+      "source": "trial artifact",
+      "sha256": "de5895664dc1ecba44dd855b352d6aec681c4d330630e3d83377367114589b0a",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 7,
+      "file": "images/07-chatlog-synthetic-or-empty.png",
+      "title": "07-chatlog-synthetic-or-empty.png",
+      "source": "trial artifact",
+      "sha256": "42add875913669a1207dddb65cd804cc11e19961950459c843b38388149effe7",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 8,
+      "file": "images/08-sync-synthetic-or-empty.png",
+      "title": "08-sync-synthetic-or-empty.png",
+      "source": "trial artifact",
+      "sha256": "5e992c127792760f596e62bad545ed07c17fe4b0aea14a5ab38fb012d2115c47",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 9,
+      "file": "images/09-overview-light-theme.png",
+      "title": "09-overview-light-theme.png",
+      "source": "trial artifact",
+      "sha256": "9ad527f8022f0d63033efc6f156e099bab79fb71e561d81f022ba1b3d5b944ff",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 10,
+      "file": "images/10-overview-light-english.png",
+      "title": "10-overview-light-english.png",
+      "source": "trial artifact",
+      "sha256": "07d75585597da06e563c867b7ad03efb0889cf553465c4a8137afd839c096bd7",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 11,
+      "file": "images/11-overview-mobile-width.png",
+      "title": "11-overview-mobile-width.png",
+      "source": "trial artifact",
+      "sha256": "b5ed34fc0beb2484a78b6c1835253dc9dff8caf346bfa1ec17c464d4b76b9dbf",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 12,
+      "file": "images/12-chatlog-synthetic-transcript.png",
+      "title": "12-chatlog-synthetic-transcript.png",
+      "source": "trial artifact",
+      "sha256": "520817f818c018354a4bc3290edbdbd365705ec89d9d8f620112f1d29b86b31e",
+      "kind": "local native Dashboard screenshot"
+    },
+    {
+      "number": 13,
+      "file": "images/13-local-delete-synthetic-row.png",
+      "title": "13-local-delete-synthetic-row.png",
+      "source": "trial artifact",
+      "sha256": "76fb79adddcc7d6b601f6d4c4db28546779397e1e83e2a3decb8f8ed8e466bce",
+      "kind": "local CRUD action result screenshot"
+    }
+  ]
+}

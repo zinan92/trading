@@ -1,0 +1,142 @@
+{
+  "repo": "zinan92/trading-desk (archived; migrated into trading-system/apps/trading-desk)",
+  "tested_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "items": [
+    {
+      "file": "desk-overview.png",
+      "sha256": "104ff1ae89c3efa2b541dd1dc4e2699ccd1af8082e1ede66b8367a8632b2faee",
+      "bytes": 31354,
+      "description": "Trading Desk 首页",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "desk-system.png",
+      "sha256": "3b72128c198d64820c8315ff3ee3a9854be6dac47683c07bc301f6dca1c98308",
+      "bytes": 73711,
+      "description": "System 面板与空 read model",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "desk-upper.png",
+      "sha256": "956912b0e9db55e8b36b91f96da9cd05acbbb609c007c5107a9bf3645aae1f20",
+      "bytes": 44073,
+      "description": "Desk 页面上半段与隔离 SQLite 状态",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "desk-mobile-390.png",
+      "sha256": "bf5ee5782fa518d4f568f7fb64a78c8848771bddafb707a653b0c1f13e52572f",
+      "bytes": 25262,
+      "description": "390px 手机窄屏",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "desk-api-health.png",
+      "sha256": "c4f14af6a1a4fe477123525dabd498d42213e10557238f007e0b31e57f61d267",
+      "bytes": 16216,
+      "description": "本地 health API 契约",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "desk-api-assets.png",
+      "sha256": "1d92c24f900706d18854fed1fe022fc7b0199810ea8382c35d15595284e4125b",
+      "bytes": 63162,
+      "description": "本地 SQLite fixture 资产目录",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "integrated-trade-dashboard.png",
+      "sha256": "1cca87c7853440c173e370443b189a155bfbea6bf195d15e371fcb0b1bcac467",
+      "bytes": 156135,
+      "description": "/trade 同源集成 dashboard",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "integrated-trade-mobile.png",
+      "sha256": "478f193fbe1682aeff829f4f209d704d0f8331e2cd3b798cfc4dda970128d55d",
+      "bytes": 46968,
+      "description": "集成 /trade 手机视图",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "integrated-trade-section-1.png",
+      "sha256": "7261cd2df29b135c6c553606c848cc1fc24f8cfea2c185c0564c019acc21e3fc",
+      "bytes": 130645,
+      "description": "集成交易台上段",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "integrated-trade-section-2.png",
+      "sha256": "3de60fe5002e00a192f4f22edcae96358f637fb22323919956ea634e0960cc6d",
+      "bytes": 102539,
+      "description": "集成交易台中段",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "integrated-trade-section-3.png",
+      "sha256": "d5035dbc2fdb14ad8376bbd225e55bbd6b4db4ddd380ed912aedb0a7e0b87826",
+      "bytes": 93854,
+      "description": "集成交易台下段",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "integrated-trade-tablet.png",
+      "sha256": "173532f43a4898551b92ef7aca037aaa3edfd569be627e59d7c5e06c8aacfaa9",
+      "bytes": 55410,
+      "description": "集成交易台平板视图",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "trade-fills-read.png",
+      "sha256": "188611686afcf37735ce544d5348e902b42fb1b4da4ca76e40808843cb8e8673",
+      "bytes": 156153,
+      "description": "只读成交面板",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "trade-nav-read.png",
+      "sha256": "d45e9afb8f909a1e30c993648048c9877f0bb506e497103cf01839c18d7f82ef",
+      "bytes": 156245,
+      "description": "交易台导航",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "trade-orders-read.png",
+      "sha256": "7937fee4f7a922c3a5ef652566c821d4ef69b3ab3c9122f6df1b8ff846f94dfd",
+      "bytes": 156222,
+      "description": "只读订单面板",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "trade-positions-read.png",
+      "sha256": "84cf51e6ca39d97f8e1a28f4f789e43d8538e0ae87e9df5071b5833599501670",
+      "bytes": 156183,
+      "description": "只读持仓面板",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "trade-review-read.png",
+      "sha256": "e228880e8a5f4d33d72767eafb2605136ecda0fefae8d5976696b1e943e2e1a5",
+      "bytes": 155959,
+      "description": "只读复盘面板",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "trade-shadows-read.png",
+      "sha256": "4e1b5be0369b5eeb70d78802d7fc552e795237b054193cd563fe7a3a62122ee5",
+      "bytes": 156250,
+      "description": "影子组合面板",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    },
+    {
+      "file": "trade-supervisor-read.png",
+      "sha256": "ffd2e2c6a38a6640a2ea48617cfb3e7adcca2474b392ce3e30d875bd793da7d4",
+      "bytes": 156118,
+      "description": "Supervisor 面板",
+      "capture_source": "previous local isolated trading-system Dashboard/Desk read-only trial"
+    }
+  ],
+  "files": 19,
+  "unique_sha256": 19,
+  "reused_from": "evaluations/trading-infra/2026-09-28/03-trading-system"
+}

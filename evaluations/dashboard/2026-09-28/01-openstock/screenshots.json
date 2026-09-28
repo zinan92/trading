@@ -1,0 +1,127 @@
+{
+  "repo": "Open-Dev-Society/OpenStock",
+  "tested_commit": "87df76a2ce58c33bc98b89760f4cc8f6527834d0",
+  "items": [
+    {
+      "file": "00-github-repo.jpg",
+      "sha256": "8408dcfd84ad8f0c91c2382220dc9b22755e8116943407a49686af02c0e63982",
+      "bytes": 103579,
+      "description": "锁定提交对应的上游仓库入口（代码仓库截图）",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "01-landing-hero.jpg",
+      "sha256": "df8982c545187b15afd6bbae51a4401e5c8c3a886911c02af197271df38712bf",
+      "bytes": 67724,
+      "description": "官方公开部署首屏：市场状态、行情预览与社区层级入口",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "02-home-features.jpg",
+      "sha256": "5006b19cbc708d09f01128ab95dbe0d1759f055f174ab2fdf9df6c58b233a0ec",
+      "bytes": 72629,
+      "description": "首页功能总览：图表、邮件提醒、情绪、市场热图与搜索",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "03-home-data-tiers.jpg",
+      "sha256": "5e01a654c2f182a38caa347367674f4531ab7348bf26006d30f5c85f8eee11ed",
+      "bytes": 68512,
+      "description": "免费社区版与云版数据刷新频率说明",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "04-home-self-host.jpg",
+      "sha256": "227dbaa341ead1e767ef94c6fd0538566e9ee2796c436a07f93dc4f6a94fd4f1",
+      "bytes": 73313,
+      "description": "自托管设置入口与公开部署内容",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "05-home-footer.jpg",
+      "sha256": "c6e13b803dec808002780c2fb843faaead94a117a9e428fef6803e622bcacf4c",
+      "bytes": 78284,
+      "description": "首页底部帮助、架构、条款和社区入口",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "06-about.jpg",
+      "sha256": "7fc4ccac74902e3d602fe9fe61dd31feec29dcf7274c51ee5be58fdaeec20f70",
+      "bytes": 64918,
+      "description": "About：开源原则与项目定位",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "07-help.jpg",
+      "sha256": "219750833270952ca5417becf56995110d6ca968eb05b6c32b18679f5c8b2b1d",
+      "bytes": 56196,
+      "description": "Help：数据源 FAQ 与社区支持入口",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "08-api-docs.jpg",
+      "sha256": "8288b99d736820cd9d8b7c6f5af5f040972d0db29eb007c77231c39df935c569",
+      "bytes": 71571,
+      "description": "Architecture：市场支持、数据模式及缓存说明",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "09-sponsor.jpg",
+      "sha256": "3428b3f2da47b4e678cd548ef0bdfd45029a4cd3d4f41b071ce2233a8e29b398",
+      "bytes": 62674,
+      "description": "赞助页：分层方案和项目指标",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "10-terms.jpg",
+      "sha256": "0230d39b3c2a4e60f3b24183c6da05906c1d067dd676f9196b1fabb3fe75065d",
+      "bytes": 65273,
+      "description": "服务条款和投资用途免责声明",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "11-sign-in.jpg",
+      "sha256": "0b12768fe0dc824057fbd0b554790d914d966b81047193e286a6040b5bbd90d3",
+      "bytes": 63095,
+      "description": "登录页：邮箱密码表单与公开行情侧栏",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "12-sign-up.jpg",
+      "sha256": "fea0f26dd2cdacc9c9a8dc2d12cfac5a10459ff4470d225c04462c7e142a9e7a",
+      "bytes": 71435,
+      "description": "注册表单：个人资料与投资偏好字段（未提交）",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "13-dashboard-unauthenticated.jpg",
+      "sha256": "7f576303dbdcf78651fe501bb6257f78ac694a6e79d5d57da95a27335aabd3c0",
+      "bytes": 72663,
+      "description": "直接访问 dashboard 被重定向到登录页",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "15-sign-up-empty-validation.jpg",
+      "sha256": "945e67c679559ff4282e5849161b1c9517e2a0b4f655e34e609358c3683e4a34",
+      "bytes": 80435,
+      "description": "注册空表单客户端校验：姓名、邮箱、密码必填提示",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "16-home-after-reload.jpg",
+      "sha256": "9a053b46f9a8c5e49d055b483df2a9874e88b21b41cc13fbed812099555e1b87",
+      "bytes": 67788,
+      "description": "刷新后的首页推广层覆盖态",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    },
+    {
+      "file": "17-home-promo-dismissed.jpg",
+      "sha256": "b314de271b3240380e1e9d71f6614d7b9d0c2681963ecb471e76539255300293",
+      "bytes": 61512,
+      "description": "关闭推广层后的首页状态",
+      "capture_source": "Playwright screenshot from official public OpenStock deployment or pinned-source GitHub repo"
+    }
+  ],
+  "files": 17,
+  "unique_sha256": 17
+}

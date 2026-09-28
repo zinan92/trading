@@ -1,0 +1,103 @@
+{
+  "product": "nhovongoc0-max/meme-radar",
+  "count": 12,
+  "unique_sha256_count": 12,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-initial-empty-no-key.png",
+      "title": "initial-empty-no-key",
+      "source": "trial artifact",
+      "sha256": "46edcb81a97375f0a639aa1e6fd4fcda29df1ba73979d48be87a85609217f55c",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 2,
+      "file": "images/02-ave-settings-key-blank.png",
+      "title": "ave-settings-key-blank",
+      "source": "trial artifact",
+      "sha256": "62a949b633c347eaf7efd51b350fef461fce76a2ef62b1b4174ce7e9946db12e",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 3,
+      "file": "images/03-blank-key-local-validation.png",
+      "title": "blank-key-local-validation",
+      "source": "trial artifact",
+      "sha256": "6dee4beb4c68a8727946eecaabd9858ea29a14cda5d6177448b13b3636aff1bf",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 4,
+      "file": "images/04-chain-sol-no-key.png",
+      "title": "chain-sol-no-key",
+      "source": "trial artifact",
+      "sha256": "7c25ac62c50581e6e4a839e916e41280870fa7e285d7f3aff979237a918e8840",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 5,
+      "file": "images/05-chain-bsc-no-key.png",
+      "title": "chain-bsc-no-key",
+      "source": "trial artifact",
+      "sha256": "2e10505856836bd54748a0b16a72032b967eff3298685646987395cf9a3876a2",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 6,
+      "file": "images/06-chain-base-no-key.png",
+      "title": "chain-base-no-key",
+      "source": "trial artifact",
+      "sha256": "896965ad26ed4e12942f781c91042e1ab2fb26ca5d1c7efcfbc69076ba7df980",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 7,
+      "file": "images/07-chain-eth-no-key.png",
+      "title": "chain-eth-no-key",
+      "source": "trial artifact",
+      "sha256": "56d8ae2d7c2dcc3e0f4942ca9ed8dcafbaf6d4644ff3f96634880a3cccf85cf2",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 8,
+      "file": "images/08-chain-robinhood-no-key.png",
+      "title": "chain-robinhood-no-key",
+      "source": "trial artifact",
+      "sha256": "2252b8a15fd909e023a4f5a89479ef4da62d83e182e94f45e754cd24d46a1856",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 9,
+      "file": "images/09-priority-screener-filter-no-key.png",
+      "title": "priority-screener-filter-no-key",
+      "source": "trial artifact",
+      "sha256": "2b9bd866bd17a7ace1cca9c9597f0abdfea6707b1e8078a05a2ec983a260763d",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 10,
+      "file": "images/10-english-empty-state.png",
+      "title": "english-empty-state",
+      "source": "trial artifact",
+      "sha256": "35389920a41228274844ba1cf4d0d62735506000c7337264c3903ee0ebfdef63",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 11,
+      "file": "images/11-mobile-no-key-state.png",
+      "title": "mobile-no-key-state",
+      "source": "trial artifact",
+      "sha256": "fb910a38d12f359cb5bcc5dbb9fc0976d7a91dd871a97ae45c960de140843d78",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 12,
+      "file": "images/12-connection-diagnostics-no-key.png",
+      "title": "connection-diagnostics-no-key",
+      "source": "trial artifact",
+      "sha256": "8e27be12e7b7d72dc051449a07ec727199547d1020469cb504f0bcfcd04455af",
+      "kind": "Chrome screenshot"
+    }
+  ]
+}

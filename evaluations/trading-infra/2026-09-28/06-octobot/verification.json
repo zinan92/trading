@@ -1,0 +1,55 @@
+{
+  "repo": "Drakkar-Software/OctoBot",
+  "tested_commit": "d63148e57627ea622fb14401bfe778d1a9b06183",
+  "commit_date": "2026-08-06",
+  "package_version": "3.0.0-beta2",
+  "runtime": {
+    "python": "3.13.7",
+    "install": "isolated venv",
+    "dependency_resolution": "without prerelease flag failed; --prerelease=allow resolved 199 packages and installed 138"
+  },
+  "cli": {
+    "version": "3.0.0-beta2",
+    "help_exit": 0,
+    "simulation_flags": [
+      "--simulate",
+      "--standalone",
+      "--user-folder",
+      "--no-telegram"
+    ]
+  },
+  "tentacles": {
+    "download_source": "official tentacles package host; static ZIP, no credentials",
+    "archive_bytes": 2929692,
+    "signature_sidecar_status": 404,
+    "local_install_status": "SignatureVerificationError: unsigned package refused",
+    "signature_bypass_enabled": false,
+    "archive_sha256": "f03350ec87ee858c0578facd9945c7c89bb4cf41e6bf1eb2f13fc805515951e4"
+  },
+  "startup": {
+    "mode": "standalone simulated",
+    "ui_started": false,
+    "ports_listening": [],
+    "blocker": "default tentacles not installed; default profile missing"
+  },
+  "scope": {
+    "exchange_api_calls": 0,
+    "exchange_credentials": false,
+    "orders_submitted": 0,
+    "docker_started": false,
+    "tentacles_downloaded": true,
+    "download_kind": "official installation bundle, not exchange market/account data"
+  },
+  "screenshots": {
+    "count": 17,
+    "unique_sha256_count": 17,
+    "live_ui_available": false
+  },
+  "not_tested": [
+    "simulated fills/backtest",
+    "DCA/Grid behaviors",
+    "exchange connectors",
+    "web UI",
+    "real/testnet execution"
+  ]
+}

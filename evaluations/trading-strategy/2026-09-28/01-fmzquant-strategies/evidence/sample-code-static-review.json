@@ -1,0 +1,20 @@
+{
+  "sample_file": "20均线趋势突破量化交易策略-EMA-20-Breakout-Trend-Following-Quantitative-Trading-Strategy.md",
+  "author": "ianzeng123",
+  "fmz_source_ids": [
+    "489157"
+  ],
+  "source_language": "PineScript",
+  "version_annotations": [
+    "6",
+    "5"
+  ],
+  "default_qty_value_100_percent": true,
+  "code_contains_stop_loss": false,
+  "win_rate_counter_fragments": {
+    "totalTrades": true,
+    "increment_gate": true,
+    "assigned_from_open_trades": true
+  },
+  "static_inference": "Because the counter is gated on flat position plus open trades > its initial 0, while it is assigned from open-trade count, normal entry/close lifecycle appears unable to increment it. This was not run in Pine/FMZ and must be treated as static analysis."
+}

@@ -1,0 +1,19 @@
+{
+  "tested_at": "2026-09-28",
+  "source_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "source_status": "catalog repository archived; current app at trading-system/apps/trading-desk",
+  "runtime_trial": "same isolated local run documented under trading-infra/03-trading-system; no second service started",
+  "observed": {
+    "/desk": "HTTP 200",
+    "/api/health": "HTTP 200",
+    "/api/assets": "HTTP 200; isolated fixture database",
+    "/trade": "HTTP 200; same-origin dashboard integration",
+    "market_read_model": "blocked; 0 bars; not synthetic",
+    "write_actions": "not invoked"
+  },
+  "evidence": {
+    "screenshots": 19,
+    "unique_screenshots": 19,
+    "reused_from": "evaluations/trading-infra/2026-09-28/03-trading-system"
+  }
+}

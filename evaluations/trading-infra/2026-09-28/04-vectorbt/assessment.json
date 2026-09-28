@@ -1,0 +1,19 @@
+{
+  "repo": "polakowo/vectorbt",
+  "tested_commit": "34b6d5935e3ea3eccd549e2592bc0f455b8045f5",
+  "status": "tested; first-round role-based score",
+  "recommended_role": "vectorized portfolio backtesting and strategy-research engine",
+  "score": 77,
+  "screenshots": 21,
+  "unique_screenshots": 21,
+  "plotly_compatibility": "initial Plotly 7.1 import failed; Plotly 6.3 within declared lower-bound range passed",
+  "rank": 3,
+  "score_components": {
+    "core_result_35": 30,
+    "data_provenance_25": 16,
+    "coverage_depth_15": 14,
+    "onboarding_repro_15": 10,
+    "runtime_stability_10": 7
+  },
+  "score_rationale": "multi-asset Portfolio.from_signals and per-asset stats/chart run with Plotly 6.3; default Plotly 7.1 resolution breaks import, reducing install/runtime score."
+}

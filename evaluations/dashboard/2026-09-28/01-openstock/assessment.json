@@ -1,0 +1,22 @@
+{
+  "repo": "Open-Dev-Society/OpenStock",
+  "source_url": "https://github.com/Open-Dev-Society/OpenStock",
+  "tested_commit": "87df76a2ce58c33bc98b89760f4cc8f6527834d0",
+  "official_public_deployment": "https://openstock-ods.vercel.app/",
+  "deployment_commit_binding": "unknown; screenshots describe live UI on 2026-09-28 and are not proven to correspond byte-for-byte to the pinned source",
+  "status": "public UI tested; authenticated application workflows blocked",
+  "recommended_role": "Dashboard / open-source market overview and stock research UI",
+  "score": 78,
+  "rank": null,
+  "rank_status": "pending category completion",
+  "score_components": {
+    "core_result_35": 27,
+    "data_provenance_25": 18,
+    "coverage_depth_15": 13,
+    "onboarding_repro_15": 12,
+    "runtime_stability_10": 8
+  },
+  "screenshots": 17,
+  "unique_screenshots": 17,
+  "score_rationale": "Well-finished public market overview and helpful public data-mode documentation; anonymous dashboard and stock-detail routes redirect to sign-in, so private watchlist/alert/chart research paths could not be verified. The repo test suite passed, but local self-host startup requires MongoDB and MONGODB_URI; the Docker daemon failed before a DB could be started."
+}

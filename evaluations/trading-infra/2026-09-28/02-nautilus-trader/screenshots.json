@@ -1,0 +1,204 @@
+{
+  "product": "nautechsystems/nautilus_trader",
+  "tested_commit": "23cb3035dff7f3fb28b7f5985a2340b090c3c126",
+  "package_version": "2.0.0rc5",
+  "capture_date": "2026-09-28",
+  "count": 22,
+  "unique_sha256_count": 22,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-pinned-commit.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/commit/23cb3035dff7f3fb28b7f5985a2340b090c3c126",
+      "description": "Upstream commit page at catalog-locked SHA; tagged v2.0.0rc5",
+      "http_status": 200,
+      "sha256": "66dbac134db167bd7ee4a67fffe133873f47c0dea87412e60b47a64c9a0d5e04",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 2,
+      "file": "images/02-repository-readme.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/README.md",
+      "description": "Upstream README and product scope",
+      "http_status": 200,
+      "sha256": "146c8cdd38d8158b3cba6436b9369496bef359fea8693c8c029a35c6fd7577f8",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 3,
+      "file": "images/03-python-package-tree.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/tree/23cb3035dff7f3fb28b7f5985a2340b090c3c126/python",
+      "description": "Python package and development/test environment",
+      "http_status": 200,
+      "sha256": "60382047a948e388685dae16645cfe3a1f99e257f2408a347eb697d675ccca7f",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 4,
+      "file": "images/04-python-package-metadata.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/python/pyproject.toml",
+      "description": "Pinned Python package version and wheel/build configuration",
+      "http_status": 200,
+      "sha256": "614506535d8a629cdd1fe3871d3acb92a12abe8b8aa7e20844251a637d270c03",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 5,
+      "file": "images/05-upstream-quickstart.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/docs/getting_started/quickstart.py",
+      "description": "Upstream 10,000 synthetic-bar EMA crossover quickstart",
+      "http_status": 200,
+      "sha256": "c09a7f85cbc62f610823d03830ab87030a2c0607a2e6df230d09570abf125b8f",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 6,
+      "file": "images/06-low-level-backtest-guide.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/docs/getting_started/backtest_low_level.py",
+      "description": "Low-level BacktestEngine example",
+      "http_status": 200,
+      "sha256": "f5f67a9f6a64c3f7660e70499ede916dd642e46c520a34d7a55b7716fa2ea248",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 7,
+      "file": "images/07-high-level-backtest-guide.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/docs/getting_started/backtest_high_level.py",
+      "description": "BacktestNode and data-catalog workflow",
+      "http_status": 200,
+      "sha256": "e51699e0fa6500bdef308033a81c349ac63366d688e9fa91890c88d00df2945c",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 8,
+      "file": "images/08-backtest-data-and-venues.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/docs/concepts/backtesting/data-and-venues.md",
+      "description": "Backtest data feeds, venues and simulation components",
+      "http_status": 200,
+      "sha256": "9c422d3ba48ca3b428b80d298a346f25c2fa5fcb33a131e10bab1f1a59b34e19",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 9,
+      "file": "images/09-backtest-execution-flow.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/docs/concepts/backtesting/execution-flow.md",
+      "description": "Event-driven backtest lifecycle",
+      "http_status": 200,
+      "sha256": "3fa19a30bb9bfd21bf293a32a15c2d506b4270f23d3d475d3176cd49b7cca7ea",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 10,
+      "file": "images/10-fill-models.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/docs/concepts/backtesting/fill-models.md",
+      "description": "Fill model and execution simulation configuration",
+      "http_status": 200,
+      "sha256": "db024607481983bfa632bf4ab7e5e82b92a47eac487a76a9011471c342ece022",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 11,
+      "file": "images/11-fill-prices-and-matching.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/docs/concepts/backtesting/fill-prices-and-matching.md",
+      "description": "Matching and simulated fill-price rules",
+      "http_status": 200,
+      "sha256": "b4abb722d96ed8b0aec34a0228c8a318a2ed94d57ea7be30ec87a19c38d5e7a1",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 12,
+      "file": "images/12-trade-execution.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/docs/concepts/backtesting/trade-execution.md",
+      "description": "Trade-based execution semantics",
+      "http_status": 200,
+      "sha256": "e3c89686bf026968342e0f97fac262765280de8305df2229b6bae7312985a65c",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 13,
+      "file": "images/13-backtest-python-api.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/python/nautilus_trader/backtest/__init__.pyi",
+      "description": "Backtest Python API surface",
+      "http_status": 200,
+      "sha256": "242143fa2bdc06cc79ddfed386072cf10773c3cf782eac3385d96219fb4ee552",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 14,
+      "file": "images/14-backtest-engine-surface-tests.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/python/tests/unit/backtest/test_backtest_engine_surface.py",
+      "description": "Backtest engine test coverage",
+      "http_status": 200,
+      "sha256": "efb0900da69cd41f066e55feab2096ade07308abc9578b4ef05af5213693a7aa",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 15,
+      "file": "images/15-backtest-acceptance-test.png",
+      "source": "https://github.com/nautechsystems/nautilus_trader/blob/23cb3035dff7f3fb28b7f5985a2340b090c3c126/python/tests/acceptance/test_backtest.py",
+      "description": "Acceptance workflow test coverage",
+      "http_status": 200,
+      "sha256": "ad994919b1287e2727ca48a3719e59a3e9b524ca90952a6d1ff75ca120b7283b",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 16,
+      "file": "images/16-official-install-docs.png",
+      "source": "https://nautilustrader.io/docs/latest/getting_started/installation/",
+      "description": "Official supported Python/platform matrix and 2.x prerelease install instruction",
+      "http_status": 200,
+      "sha256": "d68adb71e13158db4671a257f5cf4b4d55a0ab63495bbbda08fd69f2e16da7ee",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 17,
+      "file": "images/17-official-backtest-quickstart.png",
+      "source": "https://nautilustrader.io/docs/latest/getting_started/quickstart/",
+      "description": "Official current backtest quickstart and synthetic data path",
+      "http_status": 200,
+      "sha256": "105a2b894c284a7a2b869020e2621e30ab2a37c88f30f69982d287caa38951ee",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 18,
+      "file": "images/18-official-backtest-apis.png",
+      "source": "https://nautilustrader.io/docs/latest/concepts/backtesting/apis-and-runs/",
+      "description": "Official current low/high-level Backtest API documentation",
+      "http_status": 200,
+      "sha256": "c41f71ba7771a3d96aaf511f598b75f14b1c5ca2e1c46ae92eb23d5a6fbd9cf7",
+      "kind": "Chrome screenshot of upstream GitHub or official NautilusTrader documentation UI"
+    },
+    {
+      "number": 19,
+      "file": "images/19-local-overview.png",
+      "source": "results/evidence-harness.html#overview",
+      "description": "Auxiliary overview of actual local BacktestEngine output; not native product UI",
+      "sha256": "d665e94551e77f637890089a7ccd7f627b4ffcf7bc459865e2389b274e04c022",
+      "kind": "Chrome screenshot of evaluator harness around real library output; deterministic synthetic bars"
+    },
+    {
+      "number": 20,
+      "file": "images/20-local-account.png",
+      "source": "results/evidence-harness.html#account",
+      "description": "Actual simulated account-balance report from synthetic data; auxiliary view",
+      "sha256": "b28ca1653f4dc7044f6a7919c8974b14dc2c7a577634fefb08df8db30d39f21d",
+      "kind": "Chrome screenshot of evaluator harness around real library output; deterministic synthetic bars"
+    },
+    {
+      "number": 21,
+      "file": "images/21-local-positions.png",
+      "source": "results/evidence-harness.html#positions",
+      "description": "Actual local position report from synthetic data; auxiliary view",
+      "sha256": "3e184524e783054dd9005334eaa6d57de60482d7ff154d4bfda84014f0cbe39e",
+      "kind": "Chrome screenshot of evaluator harness around real library output; deterministic synthetic bars"
+    },
+    {
+      "number": 22,
+      "file": "images/22-local-fills.png",
+      "source": "results/evidence-harness.html#fills",
+      "description": "Actual local order-fill report from synthetic data; auxiliary view",
+      "sha256": "f22c78676c3e0863cd135cb6598cab0617e1fa7dfbd16cb3b2848c808e1ad8d3",
+      "kind": "Chrome screenshot of evaluator harness around real library output; deterministic synthetic bars"
+    }
+  ]
+}

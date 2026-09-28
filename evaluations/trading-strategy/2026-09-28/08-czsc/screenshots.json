@@ -1,0 +1,165 @@
+{
+  "product": "waditu/czsc",
+  "count": 18,
+  "unique_sha256_count": 18,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-github-repository.png",
+      "title": "Upstream public GitHub repository home",
+      "source": "https://github.com/waditu/czsc",
+      "sha256": "350d4084843ba2d46b0ddb2e7661ecb03c2153f81567e576755ebcc58e385ed9",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 2,
+      "file": "images/02-readme-overview.png",
+      "title": "README introduction and project claims",
+      "source": "https://github.com/waditu/czsc/blob/master/README.md",
+      "sha256": "4b0c78491f336a0c7c363ada0dd2104974ec32073dc80f672aba7584df31f747",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 3,
+      "file": "images/03-readme-architecture.png",
+      "title": "README architecture section, scrolled to the architecture heading",
+      "source": "https://github.com/waditu/czsc/blob/master/README.md",
+      "sha256": "5673b7b511af60f8dafe1a473c211308af131c13b6b61df98a94625376e04d37",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 4,
+      "file": "images/04-readme-installation.png",
+      "title": "README installation section, scrolled to the installation heading",
+      "source": "https://github.com/waditu/czsc/blob/master/README.md",
+      "sha256": "e42290881bbbd108a41bc5008c1cadd30a7eb15d7d6f4f0eeff680b4a75cbece",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 5,
+      "file": "images/05-readme-quickstart.png",
+      "title": "README quickstart section, scrolled to quickstart examples",
+      "source": "https://github.com/waditu/czsc/blob/master/README.md",
+      "sha256": "35902d406e712bcbd81d1077d1c529834aee98faeb9a81aacf91b713bf00c9c0",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 6,
+      "file": "images/06-readme-signals.png",
+      "title": "README examples section, scrolled to sample workflows",
+      "source": "https://github.com/waditu/czsc/blob/master/README.md",
+      "sha256": "6463fcd886efad24be1e6507b0ea686fb1ca0a4d3b4b16ada5212ec994fa07d4",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 7,
+      "file": "images/07-readme-backtest.png",
+      "title": "README visualization section, scrolled to HTML output details",
+      "source": "https://github.com/waditu/czsc/blob/master/README.md",
+      "sha256": "7f4b3dd8f69ac096afca45b2427962b3d7a124bb16c299634fa20310a7566904",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 8,
+      "file": "images/08-cli-command-source.png",
+      "title": "CLI command registration source",
+      "source": "https://github.com/waditu/czsc/blob/master/czsc/cli/__init__.py",
+      "sha256": "5b982d0c99b0d97965bbc161ee7b1226e3e9b5a2cdef79b401f9fc5479f9a1be",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 9,
+      "file": "images/09-cli-data-source.png",
+      "title": "Offline mock-data and quality-check command source",
+      "source": "https://github.com/waditu/czsc/blob/master/czsc/cli/data.py",
+      "sha256": "d24d28b33f7f49aa1ae4a8bc10d73b8da747fac49fbbe7e5f1b0fa7187e3367c",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 10,
+      "file": "images/10-cli-backtest-source.png",
+      "title": "CLI backtest implementation source",
+      "source": "https://github.com/waditu/czsc/blob/master/czsc/cli/backtest.py",
+      "sha256": "700899449467d4877e3b165b793655d0129a398705e57a18403bcc5292e45fe8",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 11,
+      "file": "images/11-rust-workspace.png",
+      "title": "Rust native workspace",
+      "source": "https://github.com/waditu/czsc/tree/master/crates",
+      "sha256": "89dbbde975f31853f274124440aa378274e25cfa028c44d79bd7de081a8bbb4b",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 12,
+      "file": "images/12-cli-tests.png",
+      "title": "CLI acceptance tests",
+      "source": "https://github.com/waditu/czsc/tree/master/tests/cli",
+      "sha256": "36626ff6c995f02420702b2e8b96b1b3063b105e0d9d799bba40a87080f09f3a",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 13,
+      "file": "images/13-core-parity-test.png",
+      "title": "Core FX/BI baseline-parity test",
+      "source": "https://github.com/waditu/czsc/blob/master/tests/unit/test_core_parity.py",
+      "sha256": "90f7d7a1ea79dfcd75ae6b74340fd9b0f57d49e1c99f23e24019775103e8b505",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 14,
+      "file": "images/14-examples-index.png",
+      "title": "Runnable example catalog",
+      "source": "https://github.com/waditu/czsc/blob/master/docs/examples.md",
+      "sha256": "b1e0c3c46351e802d9e215a65394d3fb8d85b339bbf9d8f98d49f297b7c13f65",
+      "kind": "Chrome screenshot of public upstream GitHub UI",
+      "http_status": 200
+    },
+    {
+      "number": 15,
+      "file": "images/15-product-output-chan-structure.png",
+      "title": "Actual CLI-generated Chan structure chart from fixed-seed synthetic candles",
+      "source": "results/structure.html",
+      "sha256": "b85d5a62a17b98a06affaa97f750b648fb65088b2b12f1089e59abff0010a6bc",
+      "kind": "Chrome screenshot of actual local product output; deterministic synthetic data"
+    },
+    {
+      "number": 16,
+      "file": "images/16-product-output-backtest-statistics.png",
+      "title": "Backtest report statistics view; deterministic mock data and one sample long-only Position",
+      "source": "results/backtest-report.html",
+      "sha256": "97d110e475f6410e78237f4595393656cd61896bb5234234f4fca0794d2527d4",
+      "kind": "Chrome screenshot of actual local product output; deterministic synthetic data"
+    },
+    {
+      "number": 17,
+      "file": "images/17-product-output-long-short-tab.png",
+      "title": "Backtest report multi long/short comparison tab, captured after native report-tab interaction on synthetic data",
+      "source": "results/backtest-report.html",
+      "sha256": "90cff0dc774de13752d89b5f953319a5fa3b224fa45aa4c21a086f9c4ffc286e",
+      "kind": "Chrome screenshot of actual local product output; deterministic synthetic data"
+    },
+    {
+      "number": 18,
+      "file": "images/18-product-output-chart-theme.png",
+      "title": "Chan structure chart after using its native theme toggle; synthetic data",
+      "source": "results/structure.html",
+      "sha256": "311168e75d9875159f811e1b4829acb71248788340ef9665ac435481ae5e8e02",
+      "kind": "Chrome screenshot of actual local product output; deterministic synthetic data"
+    }
+  ]
+}

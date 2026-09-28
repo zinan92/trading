@@ -1,0 +1,17 @@
+{
+  "repo": "Vespa314/chan.py",
+  "name": "chan.py",
+  "rank": 2,
+  "score": 78,
+  "score_components": {
+    "core_result_35": 31,
+    "data_provenance_25": 13,
+    "coverage_depth_15": 13,
+    "onboarding_repro_15": 12,
+    "runtime_stability_10": 9
+  },
+  "recommended_role": "缠论结构分析与策略开发引擎",
+  "score_rationale": "320 根合成 OHLC 上批处理和逐根更新得到相同结构计数并成功绘图；本轮未测试真实行情和策略表现。",
+  "screenshots": 13,
+  "unique_screenshots": 13
+}

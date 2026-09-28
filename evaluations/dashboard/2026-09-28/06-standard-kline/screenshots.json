@@ -1,0 +1,132 @@
+{
+  "repo": "zinan92/trading-system/packages/standard-kline",
+  "tested_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "captured_files": 15,
+  "unique_screenshots": 14,
+  "items": [
+    {
+      "file": "01-synthetic-chart.jpg",
+      "sha256": "5c07d587f25fe4ab6058f8e6c774d304e9caa0889b4c6196d86116174d996bef",
+      "bytes": 81947,
+      "description": "400 根合成 OHLCV 标准主图与 synthetic 水印",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "02-indicators-markers.jpg",
+      "sha256": "e534846ab645625fcae7d038a4bd65b1a3a9b1f7e4dd2c60d696a4a37eae7e62",
+      "bytes": 104761,
+      "description": "EMA20/50/200、MACD、价位线和 K 线标记",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "03-zoom-in.jpg",
+      "sha256": "9360c3d72f191be37fb59dfe1e65178e7f4af86578ef27437e651c66658c3d12",
+      "bytes": 102429,
+      "description": "图表 zoom in 控件",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "04-pan-right.jpg",
+      "sha256": "53c1f58561bb2ea90cd479f4dd4c35f6e9cacb28c5f7447e32218db1d68e42ee",
+      "bytes": 102806,
+      "description": "图表 pan right 控件",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "05-fit-all-bars.jpg",
+      "sha256": "ba1fc908f6e8f95f818e05a6ff9c11095a1d0c0d7660a9218fe4b4721990193c",
+      "bytes": 104879,
+      "description": "Fit 全部数据窗口",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "06-auto-fit-visible.jpg",
+      "sha256": "f38b9bde1869939960d115dc0ad8c987ef395f571d785e77cd4747de2ffc0b82",
+      "bytes": 108486,
+      "description": "Auto-fit 当前可见数据",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "07-invalid-ohlc-row-dropped.jpg",
+      "sha256": "fbf21b27ca7399495be639719250b0d46f12836a3f91a2bea9a8a5f600b367dd",
+      "bytes": 87172,
+      "description": "输入包含坏 OHLC 行；组件保留 120 根有效 bar",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "08-stale-source.jpg",
+      "sha256": "0be8e6dd5ac7515f7d09390f632a804cb99c79c07acc7703306257a2fd1336c0",
+      "bytes": 84220,
+      "description": "stale 质量标识和合成数据水印",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "09-blocked-source.jpg",
+      "sha256": "ee5608eb0583bb5a1842ddfe5eaf2a266873ef037cf28af83f60123fe5e0391c",
+      "bytes": 83998,
+      "description": "blocked 状态仍保留可视历史 bars 并标记 synthetic",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "10-empty-payload.jpg",
+      "sha256": "1d8ac6cbd70ad33247f65b33472e3bac704630faf2d4b46c772c2a567de2a766",
+      "bytes": 51341,
+      "description": "空 bars 的 NO LIVE KLINE DATA 状态",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "11-loading-source.jpg",
+      "sha256": "0a80073777a80cd8546ac304fdb7559c3569977a1700c8c7bdd24fbf5997bc74",
+      "bytes": 49995,
+      "description": "显式 loading 状态",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "12-missing-lightweight-charts.jpg",
+      "sha256": "bcfd99646937ec0d224878de692433e2013e5ea07b466807eaa84895a8cd7b90",
+      "bytes": 52033,
+      "description": "加载后才清除全局依赖的无效测试状态（不作结论）",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0",
+      "valid_product_state": false,
+      "exclusion_reason": "Chart library was unset after the browser page already loaded it; this was an invalid dependency-removal attempt and is not counted."
+    },
+    {
+      "file": "13-extreme-range-clamped.jpg",
+      "sha256": "b8c458aea8be06029507b618cd91034e103ce3cade2cbe839f9416395372cee1",
+      "bytes": 82077,
+      "description": "超范围缩放/平移后的数据视窗",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "14-missing-peer-dependency.jpg",
+      "sha256": "212060ae155801d1b42067063b62b91f88b7d1968904b80fbce2a17ff02870e5",
+      "bytes": 37913,
+      "description": "缺少 Lightweight Charts 且 synthetic 输入时的告警优先级",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    },
+    {
+      "file": "15-missing-library-error-state.jpg",
+      "sha256": "3570b49f9ef53104c2796e00d9da25605e424c8030f127405dbbc6d7b46af36d",
+      "bytes": 27179,
+      "description": "缺少 Lightweight Charts 且非 synthetic 输入时的依赖错误态",
+      "unique": true,
+      "source": "localhost:8935 isolated HTML harness loading package source at trading-system commit bbdcf900 and Lightweight Charts 5.2.0"
+    }
+  ],
+  "valid_product_screenshots": 14,
+  "published_unique_files": 14
+}

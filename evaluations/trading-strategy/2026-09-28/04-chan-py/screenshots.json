@@ -1,0 +1,124 @@
+{
+  "product": "Vespa314/chan.py",
+  "count": 13,
+  "unique_sha256_count": 13,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-README.png",
+      "title": "README.md",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/README.md",
+      "sha256": "1e888a3a2bc22a7c2d6cc5869fa7c56f98837950da83c88710d982a870be63fd",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 2,
+      "file": "images/02-quick_guide.png",
+      "title": "quick_guide.md",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/quick_guide.md",
+      "sha256": "929dbef8ffdb7a21635dca506b4f87ef54a3fb7db92c735e2b7b63746a6fe648",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 3,
+      "file": "images/03-Chan.png",
+      "title": "Chan.py",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/Chan.py",
+      "sha256": "a0b50ff307abc0e2ac237abc93662e5ea39b00d40e4b5614c92dc7660fc12ee7",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 4,
+      "file": "images/04-CommonStockAPI.png",
+      "title": "DataAPI/CommonStockAPI.py",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/DataAPI/CommonStockAPI.py",
+      "sha256": "e8de6bf0c7ba3b213a99f02a32c5a2dae5781af17e06fd95ddee6fba16ed64bd",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 5,
+      "file": "images/05-csvAPI.png",
+      "title": "DataAPI/csvAPI.py",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/DataAPI/csvAPI.py",
+      "sha256": "2297c18fcd27b2432f54cd82ad6e8738fa8a48cfc6c5d81607e1ea562e16b7cc",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 6,
+      "file": "images/06-BS_Point.png",
+      "title": "BuySellPoint/BS_Point.py",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/BuySellPoint/BS_Point.py",
+      "sha256": "223885cb337cccf7f3f03b0b2191c90c355cee4bd37947f4fe653af6645e188c",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 7,
+      "file": "images/07-SegListDef.png",
+      "title": "Seg/SegListDef.py",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/Seg/SegListDef.py",
+      "sha256": "b3a99fc75d9112655342439ea097e850b16dd7b08d9d8097ad545c6a63e019d2",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 8,
+      "file": "images/08-ZS.png",
+      "title": "ZS/ZS.py",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/ZS/ZS.py",
+      "sha256": "f7137b96baace038d74536d2c29197b810880a363d344d8c1c63cb714a8bbf85",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 9,
+      "file": "images/09-Features.png",
+      "title": "ChanModel/Features.py",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/ChanModel/Features.py",
+      "sha256": "594fedc6e964bf18cac6b0e83d3c58cec2567336f5a8bf21a9d6f7f067d5711a",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 10,
+      "file": "images/10-PlotDriver.png",
+      "title": "Plot/PlotDriver.py",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/Plot/PlotDriver.py",
+      "sha256": "1976bb502ce10e62a09921e64f99d09712249edb4c49b97da1ccbbfe494e0d7b",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 11,
+      "file": "images/11-strategy_demo.png",
+      "title": "Debug/strategy_demo.py",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/Debug/strategy_demo.py",
+      "sha256": "114dc394c6a1b5b4dcc4cd7b440eb06b4d90f56af020327e7da668554af9636a",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 12,
+      "file": "images/12-LICENSE.png",
+      "title": "LICENSE",
+      "source": "https://github.com/Vespa314/chan.py/blob/main/LICENSE",
+      "sha256": "f6b2ad07ee5ac4ac06423e0e713f221a4ee1ad5ad8d979dcb87b69b788d6a8e5",
+      "kind": "Chrome screenshot",
+      "http_status": 200
+    },
+    {
+      "number": 13,
+      "file": "images/synthetic_chan_chart.png",
+      "title": "Synthetic Chan structure output",
+      "source": "trial artifact",
+      "sha256": "7e048910215468f757b90440e3c1f11961a6ba000e12abd1db988f74a04ca986",
+      "kind": "Chrome screenshot",
+      "http_status": null
+    }
+  ]
+}

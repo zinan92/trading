@@ -1,0 +1,21 @@
+{
+  "repo": "gloom-sh/gloomberb",
+  "source_url": "https://github.com/gloom-sh/gloomberb",
+  "tested_commit": "4dc1d5cd2714a65afd3c6c33c3fc551570090002",
+  "version": "0.13.3",
+  "status": "isolated CLI/TUI and 15 pane screenshots tested; no account or broker access",
+  "recommended_role": "Dashboard / multi-market research terminal (TUI and desktop)",
+  "score": 82,
+  "rank": null,
+  "rank_status": "pending category completion",
+  "score_components": {
+    "core_result_35": 30,
+    "data_provenance_25": 19,
+    "coverage_depth_15": 14,
+    "onboarding_repro_15": 11,
+    "runtime_stability_10": 8
+  },
+  "screenshots": 15,
+  "unique_screenshots": 15,
+  "score_rationale": "Isolated CLI query returned a delayed public AAPL quote without credentials; 14 of 15 built-in pane screenshots were complete and usable, plus targeted CLI tests passed. The default TUI portfolio pane remained empty while a manually created trial portfolio was visible through CLI show."
+}

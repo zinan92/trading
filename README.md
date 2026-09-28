@@ -237,7 +237,7 @@ Snapshot: `github-universe-2026-09-27-trading-consolidation-01` · canonical sou
 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research | Starred | `2026-05-09` | `ecaed3011f24` |
 | [microsoft/qlib](https://github.com/microsoft/qlib) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process. | Starred | `2025-08-11` | `79633dd9506e` |
 
-### Trading Strategy (9)
+### Trading Strategy (9) · [首轮试用、排序与定位](evaluations/trading-strategy/2026-09-28/README.md)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
@@ -251,7 +251,7 @@ Snapshot: `github-universe-2026-09-27-trading-consolidation-01` · canonical sou
 | [waditu/czsc](https://github.com/waditu/czsc) | 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 | Starred | `2025-08-11` | `701e480a5450` |
 | [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python) | Python wrapper for TA-Lib (http://ta-lib.org/). | Starred | `2024-04-21` | `fd6089b183fc` |
 
-### Trading Infra (6)
+### Trading Infra (6) · [首轮试用、排序与定位](evaluations/trading-infra/2026-09-28/README.md)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
@@ -262,7 +262,7 @@ Snapshot: `github-universe-2026-09-27-trading-consolidation-01` · canonical sou
 | [ccxt/ccxt](https://github.com/ccxt/ccxt) | A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust | Starred | `2024-04-13` | `c781a2437d88` |
 | [Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot) | Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid and 15+ exchanges, with a simple interface. | Starred | `2024-04-13` | `dc0efc8ec36c` |
 
-### Dashboard (7)
+### Dashboard (7) · [首轮试用、排序与定位](evaluations/dashboard/2026-09-28/README.md)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|

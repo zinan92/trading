@@ -1,0 +1,18 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CCXT local adapter evidence</title><style>body{margin:0;background:#0b1119;color:#edf2f7;font:15px/1.55 system-ui}header{padding:24px 5vw;background:#172230;border-bottom:1px solid #33465a}main{max-width:1100px;margin:auto;padding:24px}h1{font-size:24px;margin:0 0 8px}h2{font-size:18px}.tag{font-size:12px;color:#ffe1a5;background:#493b1d;border-radius:8px;padding:4px 8px;margin-left:8px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}section,.card{background:#142130;border:1px solid #30445a;border-radius:12px;padding:18px;margin-bottom:16px}.card strong{font-size:23px;color:#5edbb5;display:block}.muted{color:#a8b6c7}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:10px;border-bottom:1px solid #2c3e52;text-align:left}th{color:#9eb0c4}.ok{color:#5edbb5}.warn{color:#ffd38b}code{background:#0b151f;border-radius:6px;padding:3px 6px}</style><header><h1>CCXT · local exchange adapter evidence <span class="tag">evaluation harness · not native UI</span></h1><p class="muted">CCXT 4.5.78 · Binance adapter · every response is an in-process fixture. External network requests: 0. No API keys or exchange account.</p></header><main><section id="overview"><h2>Registry and capability surface</h2><div class="grid"><article class="card"><span class="muted">Registered exchanges</span><strong>104</strong></article><article class="card"><span class="muted">Unified market</span><strong>BTC/USDT</strong><small>constructed test fixture</small></article><article class="card"><span class="muted">Ticker result</span><strong>67,500.0</strong><small>last price from mock public response</small></article><article class="card"><span class="muted">OHLCV rows</span><strong>2</strong><small>fixture candles, hourly</small></article></div><p class="warn">CCXT reports createOrder support for this adapter, but this evaluation never calls createOrder. Credential check without keys raises AuthenticationError.</p></section><section id="responses"><h2>Mocked public endpoint adapters</h2><table><thead><tr><th>Unified call</th><th>CCXT endpoint group</th><th>method</th><th>response source</th></tr></thead><tbody><tr><td>ticker/24hr</td><td>public</td><td>GET</td><td>fixture response</td></tr><tr><td>depth</td><td>public</td><td>GET</td><td>fixture response</td></tr><tr><td>klines</td><td>public</td><td>GET</td><td>fixture response</td></tr></tbody></table><h3>Parsed ticker</h3><p>Last: <code>67500.0</code> · bid <code>67499.9</code> · ask <code>67500.1</code></p><h3>Parsed book and OHLCV</h3><p>Bid 67499.9 × 0.2 · Ask 67500.1 × 0.3</p><pre>[
+  [
+    1700000000000,
+    67000.0,
+    67200.0,
+    66900.0,
+    67100.0,
+    12.5
+  ],
+  [
+    1700003600000,
+    67100.0,
+    67600.0,
+    67050.0,
+    67500.0,
+    15.0
+  ]
+]</pre></section><section id="auth"><h2>Credential and external-action boundary</h2><p>Calling the library's credential preflight without API key/secret raised <code>AuthenticationError</code>. No exchange URLs were contacted; the exchange <code>request</code> adapter was replaced by a test fixture before invoking ticker/book/OHLCV parsers.</p><p class="muted">This confirms adapter parsing and normalization for one exchange only. It does not verify network reachability, market freshness, order creation, cancel/fill behavior or the other 103 adapters.</p></section></main>

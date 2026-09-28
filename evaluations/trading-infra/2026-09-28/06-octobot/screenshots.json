@@ -1,0 +1,159 @@
+{
+  "product": "Drakkar-Software/OctoBot",
+  "tested_commit": "d63148e57627ea622fb14401bfe778d1a9b06183",
+  "package_version": "3.0.0-beta2",
+  "count": 17,
+  "unique_sha256_count": 17,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-repository-tree.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/tree/d63148e57627ea622fb14401bfe778d1a9b06183",
+      "description": "Pinned OctoBot repository at the catalog-locked commit",
+      "http_status": 200,
+      "sha256": "5e5237d261ec5b5a3652978b1f5305ea6dab3435a1258bf9e8313a278b70cabc",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 2,
+      "file": "images/02-readme-overview.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/blob/d63148e57627ea622fb14401bfe778d1a9b06183/README.md",
+      "description": "OctoBot product README and static product presentation",
+      "http_status": 200,
+      "sha256": "910310e88c10cf348ab5093b513d93178dea8bb5f69cbcc56b663f4c981ad62a",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 3,
+      "file": "images/03-octobot-module-tree.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/tree/d63148e57627ea622fb14401bfe778d1a9b06183/octobot",
+      "description": "Core OctoBot package modules",
+      "http_status": 200,
+      "sha256": "a98015c394b47e3f3b1772ae99fc82ff37b93cb049dcc3862361e8f381be6f2d",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 4,
+      "file": "images/04-cli-entry.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/blob/d63148e57627ea622fb14401bfe778d1a9b06183/octobot/cli.py",
+      "description": "OctoBot CLI startup and simulation/backtesting entry",
+      "http_status": 200,
+      "sha256": "f771e71c9deae29872fa1e6556524fb980f11186198d938c496fa5a5757e9f69",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 5,
+      "file": "images/05-default-config.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/blob/d63148e57627ea622fb14401bfe778d1a9b06183/octobot/config/default_config.json",
+      "description": "Default setup configuration; exchange map empty",
+      "http_status": 200,
+      "sha256": "20651905421ad2228038341256ac87bf00a3fd75c92cbdac616b3bc1aa8df9ff",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 6,
+      "file": "images/06-initializer.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/blob/d63148e57627ea622fb14401bfe778d1a9b06183/octobot/initializer.py",
+      "description": "Startup initialization layer",
+      "http_status": 200,
+      "sha256": "e15268a3004d8172169aad05a5b5cbdbbd0ee6fb2b127d5f1b44dc7fbae4354e",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 7,
+      "file": "images/07-commands.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/blob/d63148e57627ea622fb14401bfe778d1a9b06183/octobot/commands.py",
+      "description": "Command operations and module installation",
+      "http_status": 200,
+      "sha256": "1f8f89b1bd0e5ad71e29d2fc397beac6c8dd268baab768d78dd0958cea42937a",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 8,
+      "file": "images/08-core-octobot.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/blob/d63148e57627ea622fb14401bfe778d1a9b06183/octobot/octobot.py",
+      "description": "Manual OctoBot runtime entry",
+      "http_status": 200,
+      "sha256": "bacc6fab35594ec703489f9d0a6ea84a3a89ed02976a8a3adf7e46949c0cd383",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 9,
+      "file": "images/09-node-runtime.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/blob/d63148e57627ea622fb14401bfe778d1a9b06183/octobot/octobot_node.py",
+      "description": "Node mode runtime entry",
+      "http_status": 200,
+      "sha256": "1cfa6daa7cf54b3ad438f50e4235da0ebc668f100a5bf17b7cb3c77329f9ce42",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 10,
+      "file": "images/10-backtesting-factory.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/blob/d63148e57627ea622fb14401bfe778d1a9b06183/octobot/octobot_backtesting_factory.py",
+      "description": "Backtesting runner factory",
+      "http_status": 200,
+      "sha256": "5b6c9d235ab06a980c2b8533ad6b0d5bb5bd77b63247dc169c766f1f32958e4e",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 11,
+      "file": "images/11-dockerfile.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/blob/d63148e57627ea622fb14401bfe778d1a9b06183/Dockerfile",
+      "description": "Official container build definition",
+      "http_status": 200,
+      "sha256": "9f0842ee99de393aa661f8233d4bd6a19be329eef375f3d58516e5c30ae2abae",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 12,
+      "file": "images/12-docker-entrypoint.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/blob/d63148e57627ea622fb14401bfe778d1a9b06183/docker/docker-entrypoint.sh",
+      "description": "Container startup script",
+      "http_status": 200,
+      "sha256": "de538af54c4eb0410fd79ab342a0755dc8aa06e51b594157350e0a85532f8e09",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 13,
+      "file": "images/13-docker-tunnel-script.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot/blob/d63148e57627ea622fb14401bfe778d1a9b06183/docker/tunnel.sh",
+      "description": "Optional tunnel only starts when token is configured",
+      "http_status": 200,
+      "sha256": "44d2f46ec381b60db3e4747ee736ea72b768359684d45679086f3614e603ccb6",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 14,
+      "file": "images/14-official-simulator-doc.png",
+      "source": "https://github.com/Drakkar-Software/OctoBot-Docs/blob/stable/Usage/Simulator.md",
+      "description": "Official simulator-mode guide (archived docs repository)",
+      "http_status": 200,
+      "sha256": "32be10f8226f9bff89b08d0b222a10b8c2c139fa3f62e40680ddca322fc5fe59",
+      "kind": "Chrome screenshot of upstream OctoBot source/docs UI; not a live app screen"
+    },
+    {
+      "number": 15,
+      "file": "images/15-cli-version.png",
+      "source": "results/15-cli-version.html",
+      "description": "Actual OctoBot CLI version output",
+      "sha256": "60a43add46b5826589c844a959781013aba776b059fc7e2685e37ca6cad36a1f",
+      "kind": "Chrome screenshot of actual CLI output or auxiliary evaluation status; not native app UI"
+    },
+    {
+      "number": 16,
+      "file": "images/16-cli-help.png",
+      "source": "results/16-cli-help.html",
+      "description": "Actual OctoBot CLI flags including simulator and standalone mode",
+      "sha256": "4018db4d02fb19f84231ba156e0fa99c480b490e60a97454b3fad57b17a3cc49",
+      "kind": "Chrome screenshot of actual CLI output or auxiliary evaluation status; not native app UI"
+    },
+    {
+      "number": 17,
+      "file": "images/17-startup-failure.png",
+      "source": "results/evaluator-summary.html",
+      "description": "Evaluator summary of simulator-mode startup and tentacle-signature blocker",
+      "sha256": "5f3b8bc438e86e0c43724c9ea7b68b1affb80ed26278a5eb9b802de33197a9c3",
+      "kind": "Chrome screenshot of actual CLI output or auxiliary evaluation status; not native app UI"
+    }
+  ]
+}

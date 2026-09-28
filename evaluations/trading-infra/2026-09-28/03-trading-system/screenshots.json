@@ -1,0 +1,408 @@
+{
+  "product": "zinan92/trading-system",
+  "tested_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "count": 50,
+  "unique_sha256_count": 50,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-dashboard-overview.png",
+      "description": "GridMind dashboard overview and fail-closed status",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "1dd0d3c80d0d0957aeabdd59d49720bea2d558c70157cf87f84554e8f4e99286",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 2,
+      "file": "images/02-readonly-panel-02.png",
+      "description": "Read-only panel: 当前持仓 (0)",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "d7995d1ee8b6edec0de395cb4890214685b3944f2db88fe399a30353562f75ff",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 3,
+      "file": "images/03-readonly-panel-03.png",
+      "description": "Read-only panel: 当前委托 (0)",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "7bcb3188e78cdd58552518182d3e330718648a6a4188861ab42edc5bef1a2784",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 4,
+      "file": "images/04-readonly-panel-04.png",
+      "description": "Read-only panel: 成交记录 (0)",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "954397c14cbdabf7e535f85ce2f9e811064ca9671870360947cd25a7874744b6",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 5,
+      "file": "images/05-readonly-panel-05.png",
+      "description": "Read-only panel: Supervisor",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "4f46cca0793729cf46273fdb323db37f574907562023b3f3f4709ee42613a148",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 6,
+      "file": "images/06-readonly-panel-06.png",
+      "description": "Read-only panel: 12小时复盘",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "068dbc4f4829489944031815a6885dfdc17c931ace276371bd5bfc979890a0df",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 7,
+      "file": "images/07-readonly-panel-07.png",
+      "description": "Read-only panel: Strategy Shadows",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "8622e93e9ad0e0a0f8087a1f4f8317946dcce4980ac543a107959fc474dc8965",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 8,
+      "file": "images/08-readonly-panel-08.png",
+      "description": "Read-only panel: 历史收益 / NAV",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "fa8c7a90009e4ffb7d095e2ae918d6cb51bd365e327d6b14c205cde437b0e83f",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 9,
+      "file": "images/09-readonly-panel-09.png",
+      "description": "Read-only panel: Grid旧版网格",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "9a4f438c34473d2e95c844d549dce6c245a817af8095e67671fd4a710dffac19",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 10,
+      "file": "images/11-chart-timeframe-11.png",
+      "description": "K-line chart timeframe selected: 1m",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "7ddd19e16bda12f70baf6a6051d613e0b333d535eb4f67250decbe117e2a956c",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 11,
+      "file": "images/12-chart-timeframe-12.png",
+      "description": "K-line chart timeframe selected: 5m",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "07ad5a13f05e92f1f3483f9fc072e85775afcc5dbc7006101c19db9821ddc57d",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 12,
+      "file": "images/13-chart-timeframe-13.png",
+      "description": "K-line chart timeframe selected: 15m",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "e69b13e48659c917ab09bb1228f1e6e2861ed3ac5c2dc4e3ff6ed4eb532452d6",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 13,
+      "file": "images/14-chart-timeframe-14.png",
+      "description": "K-line chart timeframe selected: 30m",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "f5ff51d0187d6961f28078be38e03ca2ace6828ba89929a2d63ed1bf542d7a52",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 14,
+      "file": "images/15-chart-timeframe-15.png",
+      "description": "K-line chart timeframe selected: 1h",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "fa4b1686ace767cdcce3eb6f0536d152007deab0f434999c2bdbabe2156500aa",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 15,
+      "file": "images/16-chart-timeframe-16.png",
+      "description": "K-line chart timeframe selected: 4h",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "b7439ba6392225d08165afde42a6a30680efde576495cff40dc42e5cd6bd4504",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 16,
+      "file": "images/18-dashboard-section-16.png",
+      "description": "Dashboard lower section at scroll position 480px",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "ac601354b6c6df3648ac09055bd0c2ae4fda5ae05dee00faca34bf84c7036e0a",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 17,
+      "file": "images/19-dashboard-section-17.png",
+      "description": "Dashboard lower section at scroll position 1050px",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "fc71d07ec7f5a9b181afb0943d76a83da7d97195eb224b49a3b5f052cca0d71e",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 18,
+      "file": "images/20-dashboard-section-18.png",
+      "description": "Dashboard lower section at scroll position 1750px",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "952f56828b2ed703b4602cb2003d48a3514c7088228012f5cb813c76431d091f",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "number": 19,
+      "file": "images/22-dashboard-mobile-390.png",
+      "description": "Responsive 390px dashboard view; read-only, no controls submitted",
+      "url": "http://127.0.0.1:18765/dashboard-v5.html",
+      "sha256": "49c69de477ac24b4560068c143ab2dd2c06ef6ee1d55b15bdcdb6192c347ab0b",
+      "kind": "native local GridMind dashboard screen; isolated no-provider environment"
+    },
+    {
+      "file": "images/23-dashboard-wide-1920.png",
+      "description": "Read-only responsive layout at 1920x1200",
+      "sha256": "b8d656355ae882d4da70f3e23d364bb1fb6809b9cf80a43589ab6fff4905a392",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 20,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/24-dashboard-1280.png",
+      "description": "Read-only responsive layout at 1280x900",
+      "sha256": "0c1b7294a1caff4cc2d6bbe13278c4e9d969d9555dc0d3e0851dcd1c1b284df5",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 21,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/25-dashboard-tablet-landscape.png",
+      "description": "Read-only responsive layout at 1024x768",
+      "sha256": "130fc1d8483ec2b0af858266ab3fbe474e8c2096c136ff13a407a95a65f0386d",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 22,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/26-dashboard-tablet-portrait.png",
+      "description": "Read-only responsive layout at 768x1024",
+      "sha256": "e046a1ab43baf53d09e73ef4a6e7160dd10d06fceda5221750730503af05aab3",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 23,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/27-dashboard-mobile-390.png",
+      "description": "Read-only responsive layout at 390x844",
+      "sha256": "c33273e5975fa60cb4c2955aa5c1e1fd6d0c2b89a5d9d73d9a4a4f7ec1bdfd2e",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 24,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/28-chart-plus.png",
+      "description": "Safe chart navigation control: +; no data and no plan submission",
+      "sha256": "ac900110ba228f27954715878585cd11230e5baf8fbb07620b00b591daeeb9ae",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 25,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/29-chart-fit.png",
+      "description": "Safe chart navigation control: fit; no data and no plan submission",
+      "sha256": "9014c1bf0c93de8926a4c32e1f7a099357708d515f5d7b98fbaf546b68eec8ab",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 26,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/30-chart-minus.png",
+      "description": "Safe chart navigation control: -; no data and no plan submission",
+      "sha256": "6c7db95c3fed8386e647ac97e329d806c3f638cd232605d1a2034532073812e6",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 27,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/31-live-summary-top.png",
+      "description": "Read-only local execution summary at top of its scrollable card",
+      "sha256": "29e4b644c0bbf321152d71993081e4456eef5160a5c87428a84ab354436c547d",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 28,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/33-market-and-panels-scroll.png",
+      "description": "Read-only dashboard section at scroll offset 500px",
+      "sha256": "45851cb7ac40b560301397afa1bc5bfbf01c6bb7232b4e1686f26bc35d6781eb",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 29,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/34-venue-workflow-scroll.png",
+      "description": "Read-only dashboard section at scroll offset 900px",
+      "sha256": "38eb0755c92021bc23ab83a65718f3f269056e7854f5cf8045129a78f4bb39b6",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 30,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/35-strategy-config-scroll.png",
+      "description": "Read-only dashboard section at scroll offset 1100px",
+      "sha256": "9965541e739f003932f626c5f7a3ec8deb6919bfed8e5b46b0aa47a1707a0afe",
+      "kind": "native read-only dashboard view under isolated no-provider environment",
+      "number": 31,
+      "url": "http://127.0.0.1:18765/dashboard-v5.html"
+    },
+    {
+      "file": "images/desk-overview.png",
+      "description": "Trading desk home: report and local service panel",
+      "sha256": "104ff1ae89c3efa2b541dd1dc4e2699ccd1af8082e1ede66b8367a8632b2faee",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 32,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/desk-system.png",
+      "description": "Trading desk system panel with isolated empty read models",
+      "sha256": "3b72128c198d64820c8315ff3ee3a9854be6dac47683c07bc301f6dca1c98308",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 33,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/desk-upper.png",
+      "description": "Desk upper section after scroll, fixture database only",
+      "sha256": "956912b0e9db55e8b36b91f96da9cd05acbbb609c007c5107a9bf3645aae1f20",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 34,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/desk-mobile-390.png",
+      "description": "Trading desk on a 390px viewport; no write action",
+      "sha256": "bf5ee5782fa518d4f568f7fb64a78c8848771bddafb707a653b0c1f13e52572f",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 35,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/desk-api-health.png",
+      "description": "Local API health contract with Testnet execution scope declared",
+      "sha256": "c4f14af6a1a4fe477123525dabd498d42213e10557238f007e0b31e57f61d267",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 36,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/desk-api-assets.png",
+      "description": "Locally seeded asset catalog response; isolated SQLite only",
+      "sha256": "1d92c24f900706d18854fed1fe022fc7b0199810ea8382c35d15595284e4125b",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 37,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/integrated-trade-dashboard.png",
+      "description": "Trading desk same-origin /trade proxy to the isolated GridMind dashboard",
+      "sha256": "1cca87c7853440c173e370443b189a155bfbea6bf195d15e371fcb0b1bcac467",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 38,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/integrated-trade-section-1.png",
+      "description": "Integrated /trade read-only section at scroll offset 450px",
+      "sha256": "7261cd2df29b135c6c553606c848cc1fc24f8cfea2c185c0564c019acc21e3fc",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 39,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/integrated-trade-section-2.png",
+      "description": "Integrated /trade read-only section at scroll offset 850px",
+      "sha256": "3de60fe5002e00a192f4f22edcae96358f637fb22323919956ea634e0960cc6d",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 40,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/integrated-trade-section-3.png",
+      "description": "Integrated /trade read-only section at scroll offset 1250px",
+      "sha256": "d5035dbc2fdb14ad8376bbd225e55bbd6b4db4ddd380ed912aedb0a7e0b87826",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 41,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/integrated-trade-tablet.png",
+      "description": "Integrated /trade at 1024x768",
+      "sha256": "173532f43a4898551b92ef7aca037aaa3edfd569be627e59d7c5e06c8aacfaa9",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 42,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/integrated-trade-mobile.png",
+      "description": "Integrated /trade at 390x844",
+      "sha256": "478f193fbe1682aeff829f4f209d704d0f8331e2cd3b798cfc4dda970128d55d",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 43,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/trade-positions-read.png",
+      "description": "Integrated /trade read-only panel 当前持仓 (0); no order action",
+      "sha256": "84cf51e6ca39d97f8e1a28f4f789e43d8538e0ae87e9df5071b5833599501670",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 44,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/trade-orders-read.png",
+      "description": "Integrated /trade read-only panel 当前委托 (0); no order action",
+      "sha256": "7937fee4f7a922c3a5ef652566c821d4ef69b3ab3c9122f6df1b8ff846f94dfd",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 45,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/trade-fills-read.png",
+      "description": "Integrated /trade read-only panel 成交记录 (0); no order action",
+      "sha256": "188611686afcf37735ce544d5348e902b42fb1b4da4ca76e40808843cb8e8673",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 46,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/trade-supervisor-read.png",
+      "description": "Integrated /trade read-only panel Supervisor; no order action",
+      "sha256": "ffd2e2c6a38a6640a2ea48617cfb3e7adcca2474b392ce3e30d875bd793da7d4",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 47,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/trade-review-read.png",
+      "description": "Integrated /trade read-only panel 12小时复盘; no order action",
+      "sha256": "e228880e8a5f4d33d72767eafb2605136ecda0fefae8d5976696b1e943e2e1a5",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 48,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/trade-shadows-read.png",
+      "description": "Integrated /trade read-only panel Strategy Shadows; no order action",
+      "sha256": "4e1b5be0369b5eeb70d78802d7fc552e795237b054193cd563fe7a3a62122ee5",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 49,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    },
+    {
+      "file": "images/trade-nav-read.png",
+      "description": "Integrated /trade read-only panel 历史收益 / NAV; no order action",
+      "sha256": "d45e9afb8f909a1e30c993648048c9877f0bb506e497103cf01839c18d7f82ef",
+      "kind": "native read-only local desk/dashboard screen or API response",
+      "number": 50,
+      "url": "http://127.0.0.1:18890/desk or /trade"
+    }
+  ]
+}

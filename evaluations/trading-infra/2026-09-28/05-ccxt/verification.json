@@ -1,0 +1,44 @@
+{
+  "repo": "ccxt/ccxt",
+  "tested_commit": "c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03",
+  "commit_date": "2026-08-02",
+  "package_version": "4.5.78",
+  "runtime": {
+    "python": "3.13.7",
+    "package_install": "isolated uv environment",
+    "uv_pip_check": "passed"
+  },
+  "registry": {
+    "exchange_ids": 104,
+    "adapter": "binance"
+  },
+  "mocked_calls": [
+    {
+      "unified_method": "fetch_ticker",
+      "api_group": "public",
+      "network_requests": 0
+    },
+    {
+      "unified_method": "fetch_order_book",
+      "api_group": "public",
+      "network_requests": 0
+    },
+    {
+      "unified_method": "fetch_ohlcv",
+      "api_group": "public",
+      "network_requests": 0
+    }
+  ],
+  "credential_gate": "check_required_credentials raises AuthenticationError with no key/secret",
+  "orders_called": 0,
+  "scope": "All responses injected by in-process fixture; no DNS, HTTP, exchange account, real market data, Testnet, or Live. createOrder capability listing is metadata only.",
+  "screenshots": {
+    "count": 11,
+    "unique_sha256_count": 11
+  },
+  "limitations": [
+    "No upstream repository test suite run; offline API parser/normalization smoke only.",
+    "No freshness or provider reachability verified.",
+    "Only one exchange adapter exercised."
+  ]
+}

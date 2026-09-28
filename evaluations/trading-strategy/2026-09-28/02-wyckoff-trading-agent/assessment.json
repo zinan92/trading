@@ -1,0 +1,17 @@
+{
+  "repo": "YoungCan-Wang/WyckoffTradingAgent",
+  "name": "WyckoffTradingAgent",
+  "rank": 6,
+  "score": 69,
+  "score_components": {
+    "core_result_35": 24,
+    "data_provenance_25": 13,
+    "coverage_depth_15": 12,
+    "onboarding_repro_15": 11,
+    "runtime_stability_10": 9
+  },
+  "recommended_role": "Wyckoff 研究与候选管理工作台",
+  "score_rationale": "无 Key 时本地 UI、历史记录读取及合成候选删除/恢复已实测；AI、实时行情、云同步仍未验证。",
+  "screenshots": 13,
+  "unique_screenshots": 13
+}

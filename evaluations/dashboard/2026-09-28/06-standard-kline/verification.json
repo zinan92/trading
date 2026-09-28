@@ -1,0 +1,35 @@
+{
+  "tested_at": "2026-09-28",
+  "checkout_path": "trading-system-dev/packages/standard-kline",
+  "source_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "version": "0.2.2",
+  "peer_dependency": "Lightweight Charts 5.2.0 from the same checkout's data/vendor bundle",
+  "tests": {
+    "command": "node --test packages/standard-kline/standard-kline.test.js",
+    "result": "21 passed, 0 failed"
+  },
+  "browser_fixture": {
+    "url": "http://127.0.0.1:8935/",
+    "host": "temporary local static server; stopped after test",
+    "package_source": "copied without modifications from the locked package",
+    "data": "400 deterministic synthetic bars; no network or credentials",
+    "states": {
+      "valid_400_bars": "chart available; synthetic-data watermark visible",
+      "indicators_and_markers": "EMA20/50/200, MACD, reference price line and timestamp marker rendered",
+      "invalid_ohlc": "1 malformed row dropped; 120 remaining valid rows rendered",
+      "stale_with_bars": "chart remains visible; stale metadata remains in the toolbar",
+      "blocked_with_bars": "chart remains visible with metadata and synthetic watermark",
+      "empty_payload": "NO LIVE KLINE DATA overlay visible",
+      "loading": "LOADING KLINE overlay visible",
+      "missing_peer_dependency": "non-synthetic fixture shows CHART LIBRARY MISSING; synthetic fixture prioritizes its safety watermark instead",
+      "extreme_zoom_pan": "no uncaught browser errors; chart remained within the data view"
+    }
+  },
+  "evidence": {
+    "captured_screenshots": 15,
+    "valid_product_screenshots": 14,
+    "unique_screenshots": 14,
+    "excluded_attempts": 1,
+    "manifest": "screenshots.json"
+  }
+}

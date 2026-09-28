@@ -1,0 +1,65 @@
+{
+  "version": "4.5.78",
+  "exchange_count": 104,
+  "exchange": "binance",
+  "market": "BTC/USDT",
+  "capabilities": {
+    "fetchTicker": true,
+    "fetchOrderBook": true,
+    "fetchOHLCV": true,
+    "createOrder": true
+  },
+  "mocked_public_api_results": {
+    "ticker_last": 67500.0,
+    "ticker_bid": 67499.9,
+    "ticker_ask": 67500.1,
+    "orderbook_best_bid": [
+      67499.9,
+      0.2
+    ],
+    "orderbook_best_ask": [
+      67500.1,
+      0.3
+    ],
+    "ohlcv_rows": [
+      [
+        1700000000000,
+        67000.0,
+        67200.0,
+        66900.0,
+        67100.0,
+        12.5
+      ],
+      [
+        1700003600000,
+        67100.0,
+        67600.0,
+        67050.0,
+        67500.0,
+        15.0
+      ]
+    ]
+  },
+  "request_adapter_calls": [
+    {
+      "path": "ticker/24hr",
+      "api": "public",
+      "method": "GET"
+    },
+    {
+      "path": "depth",
+      "api": "public",
+      "method": "GET"
+    },
+    {
+      "path": "klines",
+      "api": "public",
+      "method": "GET"
+    }
+  ],
+  "signed_public_url": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+  "private_credentials_absent": "AuthenticationError",
+  "external_network_requests": 0,
+  "orders_submitted": 0,
+  "notes": "All request responses were injected in-process; no DNS, socket, HTTP, exchange account or credential was used."
+}

@@ -1,0 +1,181 @@
+{
+  "repo": "zinan92/equity-research",
+  "product": "Equity Research",
+  "count": 29,
+  "screenshots": [
+    {
+      "number": 1,
+      "path": "images/01-01-native-decision-top.jpg",
+      "sha256": "9c695a8359258ad5a60337ec61ef3f8fa39c79e49053b92c8ca53bcd71c79431",
+      "source_name": "01-native-decision-top.png"
+    },
+    {
+      "number": 2,
+      "path": "images/02-02-native-decision-scroll.jpg",
+      "sha256": "45ee043588cad34a89e35a35de781b90212e50ee4737d82f5e7dccbf318986cc",
+      "source_name": "02-native-decision-scroll.png"
+    },
+    {
+      "number": 3,
+      "path": "images/03-03-native-decision-scroll.jpg",
+      "sha256": "e0cdcff58bb2001cfa87eb8539b2169e9f7a76fc64e7efabb045817cf7b3f289",
+      "source_name": "03-native-decision-scroll.png"
+    },
+    {
+      "number": 4,
+      "path": "images/04-04-native-decision-scroll.jpg",
+      "sha256": "642d59bb170bcab9d880cf5bee3ece1348c0ec4959cdf358dc074bb8f64f390f",
+      "source_name": "04-native-decision-scroll.png"
+    },
+    {
+      "number": 5,
+      "path": "images/05-09-native-industry-map.jpg",
+      "sha256": "8802ac903f20adbad65a14f5e0b2bbe68cc270e3aea8b465e315823b51986c89",
+      "source_name": "09-native-industry-map.png"
+    },
+    {
+      "number": 6,
+      "path": "images/06-10-native-portfolio-performance.jpg",
+      "sha256": "5586f1babc69e2aa3f32fb287a61bb3600a76f8331b72b63823d4a95b683a48d",
+      "source_name": "10-native-portfolio-performance.png"
+    },
+    {
+      "number": 7,
+      "path": "images/07-11-native-performance-details.jpg",
+      "sha256": "c30f1af309252b76420b547939a6e32433c3113b02449119839ef7e7469a9879",
+      "source_name": "11-native-performance-details.png"
+    },
+    {
+      "number": 8,
+      "path": "images/08-12-native-adjustment-history.jpg",
+      "sha256": "845b8a1fb739e1b188e197ae9646391a4a4dbd29b40bc959bdc9df0196a7d239",
+      "source_name": "12-native-adjustment-history.png"
+    },
+    {
+      "number": 9,
+      "path": "images/09-13-native-maotai-detail-top.jpg",
+      "sha256": "4a12d2f0e537330eb648ce268f881e51e7331c8ac4685ad42dcdab837107da8b",
+      "source_name": "13-native-maotai-detail-top.png"
+    },
+    {
+      "number": 10,
+      "path": "images/10-14-native-maotai-detail-evidence.jpg",
+      "sha256": "9643a44c49938d65ed86acfad05bb2e01b7db0823ae619c96e84ba315f2980f4",
+      "source_name": "14-native-maotai-detail-evidence.png"
+    },
+    {
+      "number": 11,
+      "path": "images/11-15-native-maotai-research-status.jpg",
+      "sha256": "92514851135b9a45141292e2c1eae239d86bfd67d57d10072848578d89dda75e",
+      "source_name": "15-native-maotai-research-status.png"
+    },
+    {
+      "number": 12,
+      "path": "images/12-16-native-stock.jpg",
+      "sha256": "6ea881a213a5e62dd599d80b47c41511bff9d66d39d33e7e66af16d9bc5f9a64",
+      "source_name": "16-native-stock-招商银行.png"
+    },
+    {
+      "number": 13,
+      "path": "images/13-17-native-stock.jpg",
+      "sha256": "0c6d8c8c8fa8ca372c06087f52dffceff77068d1480fd1cc9a0a2a4f62ee39d9",
+      "source_name": "17-native-stock-美的集团.png"
+    },
+    {
+      "number": 14,
+      "path": "images/14-18-native-stock.jpg",
+      "sha256": "f2f18e4276c5fc977257fdc08e8629351274424a2951caf37082500ca50b4141",
+      "source_name": "18-native-stock-长江电力.png"
+    },
+    {
+      "number": 15,
+      "path": "images/15-19-native-stock.jpg",
+      "sha256": "e11983731063d748d9f9f4bd9ebf083ef704ed1068becf74c31c316d7efd0275",
+      "source_name": "19-native-stock-宁德时代.png"
+    },
+    {
+      "number": 16,
+      "path": "images/16-20-native-stock.jpg",
+      "sha256": "ce1ab3353db5de5d9af4b9a6bb93c08f591d14d1757d1c175a231b2692b36aa3",
+      "source_name": "20-native-stock-中国移动.png"
+    },
+    {
+      "number": 17,
+      "path": "images/17-21-native-stock.jpg",
+      "sha256": "dc39d9a318f50d43fa8a4b6d8f451c1c6a4e10a431a6947ad3049ca37a83a518",
+      "source_name": "21-native-stock-中国神华.png"
+    },
+    {
+      "number": 18,
+      "path": "images/18-22-native-stock.jpg",
+      "sha256": "519e86eecdfc3ae333c842094fa329344ca2a5dd9af1b92a0c5361bb330009e7",
+      "source_name": "22-native-stock-传音控股.png"
+    },
+    {
+      "number": 19,
+      "path": "images/19-23-api-01.jpg",
+      "sha256": "6ac71a3ae64a917d3ba49f2fbaea9d30e19bb79b3e281957b4a2ef3cb8ccbe4e",
+      "source_name": "23-api-01.png"
+    },
+    {
+      "number": 20,
+      "path": "images/20-24-api-02.jpg",
+      "sha256": "c745878f889573c7e59d1d4c42a9b33f1813674f6fe8dad8766fda195bcc6bb5",
+      "source_name": "24-api-02.png"
+    },
+    {
+      "number": 21,
+      "path": "images/21-25-api-03.jpg",
+      "sha256": "7bdb73648f34ae7dd2ceb5f6fa34596ff16921cedc35e7f08353114161370301",
+      "source_name": "25-api-03.png"
+    },
+    {
+      "number": 22,
+      "path": "images/22-26-api-04.jpg",
+      "sha256": "12e37d595fcc550c0b5561c3c60910f9eec5b6ac848ddaa7443a95bc2e392211",
+      "source_name": "26-api-04.png"
+    },
+    {
+      "number": 23,
+      "path": "images/23-27-api-05.jpg",
+      "sha256": "910cab9a24c523e0d823deb66a8cb5820da10ab783b50b89de0e531a9d41cbd3",
+      "source_name": "27-api-05.png"
+    },
+    {
+      "number": 24,
+      "path": "images/24-28-api-06.jpg",
+      "sha256": "8377240cf14624aa719e1527ef1fbdaeef8acaf145b9b538f45bcf10f3c3fca7",
+      "source_name": "28-api-06.png"
+    },
+    {
+      "number": 25,
+      "path": "images/25-29-api-07.jpg",
+      "sha256": "f7a0d4297fc473588a503ce176c82f795f63f850a85d79346f4dd242c816cc8c",
+      "source_name": "29-api-07.png"
+    },
+    {
+      "number": 26,
+      "path": "images/26-30-api-08.jpg",
+      "sha256": "0de51c050308c94ea97765a1cd97872ca37665f9e93921ac02a2f71d889a2e68",
+      "source_name": "30-api-08.png"
+    },
+    {
+      "number": 27,
+      "path": "images/27-31-api-09.jpg",
+      "sha256": "4660200c1d7a5e7e15063bc7d2624a65569c1391cfd280e1125ee26aed01fc0a",
+      "source_name": "31-api-09.png"
+    },
+    {
+      "number": 28,
+      "path": "images/28-32-api-10.jpg",
+      "sha256": "6666e66858a4c95e152a65173e98354d6bcb53d899cf209a68304ef46ab984dc",
+      "source_name": "32-api-10.png"
+    },
+    {
+      "number": 29,
+      "path": "images/29-33-api-11.jpg",
+      "sha256": "151bfecde6634d5ca155572583df34e56df6236716163031c29b6a32dcd960da",
+      "source_name": "33-api-11.png"
+    }
+  ]
+}

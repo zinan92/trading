@@ -1,0 +1,17 @@
+{
+  "repo": "nhovongoc0-max/meme-radar",
+  "name": "Meme Radar",
+  "rank": 8,
+  "score": 58,
+  "score_components": {
+    "core_result_35": 15,
+    "data_provenance_25": 10,
+    "coverage_depth_15": 11,
+    "onboarding_repro_15": 13,
+    "runtime_stability_10": 9
+  },
+  "recommended_role": "多链 Meme 候选发现与风险复核",
+  "score_rationale": "安装、doctor 与 360 项测试通过；无 AVE Key 时核心候选扫描不可用，UI 显示清晰授权空态。",
+  "screenshots": 12,
+  "unique_screenshots": 12
+}

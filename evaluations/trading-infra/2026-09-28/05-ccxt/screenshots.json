@@ -1,0 +1,102 @@
+{
+  "product": "ccxt/ccxt",
+  "tested_commit": "c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03",
+  "package_version": "4.5.78",
+  "count": 11,
+  "unique_sha256_count": 11,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-source-tree.png",
+      "source": "https://github.com/ccxt/ccxt/tree/c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03/",
+      "description": "CCXT repository at the catalog-locked commit",
+      "http_status": 200,
+      "sha256": "9295c3efa55b7d1d698700d614b91d441849ec76f4e8e4e0978bc7f3608ee3f9",
+      "kind": "Chrome screenshot of upstream repository/docs UI"
+    },
+    {
+      "number": 2,
+      "file": "images/02-python-exchange-directory.png",
+      "source": "https://github.com/ccxt/ccxt/tree/c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03/python/ccxt",
+      "description": "Python implementation listing with 104 exchange adapters",
+      "http_status": 200,
+      "sha256": "17c8692a129841f97315f236c90e077aa1ceaffd82282f4f6304b19ebff6a5ec",
+      "kind": "Chrome screenshot of upstream repository/docs UI"
+    },
+    {
+      "number": 3,
+      "file": "images/03-python-readme.png",
+      "source": "https://github.com/ccxt/ccxt/blob/c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03/python/README.md",
+      "description": "Python installation and unified API docs in the pinned repository",
+      "http_status": 200,
+      "sha256": "6350f080ea5b6b006f47f21ac0e8908859de461eb4641fb3a69315031a6b769c",
+      "kind": "Chrome screenshot of upstream repository/docs UI"
+    },
+    {
+      "number": 4,
+      "file": "images/04-binance-adapter-top.png",
+      "source": "https://github.com/ccxt/ccxt/blob/c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03/python/ccxt/binance.py",
+      "description": "Binance adapter generated endpoint and class setup",
+      "http_status": 200,
+      "sha256": "3131ef847247bae5efa9e105e2570449aeddb487508bf2570b9f814eb5664463",
+      "kind": "Chrome screenshot of upstream repository/docs UI"
+    },
+    {
+      "number": 5,
+      "file": "images/05-base-exchange.png",
+      "source": "https://github.com/ccxt/ccxt/blob/c781a2437d88b9b983de1eb7b3c6c0e0f86f0e03/python/ccxt/base/exchange.py",
+      "description": "Shared Exchange API and market handling",
+      "http_status": 200,
+      "sha256": "4fbb898f875ce3068bf479aaed696e2446f3d2cdfca927bda17111742bcfc4e4",
+      "kind": "Chrome screenshot of upstream repository/docs UI"
+    },
+    {
+      "number": 6,
+      "file": "images/14-mock-response-output-0.png",
+      "source": "results/evaluator-summary.html",
+      "description": "Actual CCXT public adapter parse results from local fixture response; report scroll 0px; not native UI",
+      "sha256": "11165d51f125fd5191b91006cffd8e7bf419235997a22dcd2016a52ab2364b96",
+      "kind": "Chrome screenshot of an auxiliary local mock-response evidence page"
+    },
+    {
+      "number": 7,
+      "file": "images/15-mock-response-output-520.png",
+      "source": "results/evaluator-summary.html",
+      "description": "Actual CCXT public adapter parse results from local fixture response; report scroll 520px; not native UI",
+      "sha256": "c8a7bf8ae57248c93d3e48f8b8e2796abe6f4520d41c2b32e06c45798d211456",
+      "kind": "Chrome screenshot of an auxiliary local mock-response evidence page"
+    },
+    {
+      "number": 8,
+      "file": "images/16-mock-response-output-1040.png",
+      "source": "results/evaluator-summary.html",
+      "description": "Actual CCXT public adapter parse results from local fixture response; report scroll 1040px; not native UI",
+      "sha256": "863fb01c7a0b38abedc85fc4e78bafd445845e62bb358ee476b42cc307d62f28",
+      "kind": "Chrome screenshot of an auxiliary local mock-response evidence page"
+    },
+    {
+      "number": 9,
+      "file": "images/17-exchange-registry-top.png",
+      "source": "results/exchange-registry.html",
+      "description": "Static CCXT exchange registry count and first identifiers",
+      "sha256": "9671ada4f6117b54ca12394c1841951b2bf87fb80ef0e7d937464a2a68505f99",
+      "kind": "Auxiliary evaluator view of package registry metadata; not native UI"
+    },
+    {
+      "number": 10,
+      "file": "images/18-exchange-registry-middle.png",
+      "source": "results/exchange-registry.html",
+      "description": "Static CCXT exchange registry reflow at 1024x768 viewport",
+      "sha256": "1ee08d891dbea9e4027c5237bb83b0903aa0946a8ce1d1d90dbbc900a3ea103b",
+      "kind": "Auxiliary evaluator view of package registry metadata; not native UI"
+    },
+    {
+      "number": 11,
+      "file": "images/19-mocked-api-results-json.png",
+      "source": "results/mock-api-probe.json",
+      "description": "Raw CCXT adapter result object from local mocked responses and zero credentials",
+      "sha256": "326c67d9d08710aaffc9584aa3a50bc2c5be9182092d038a1d87b58bcac6b609",
+      "kind": "Browser view of machine-readable mock probe; no native app UI"
+    }
+  ]
+}

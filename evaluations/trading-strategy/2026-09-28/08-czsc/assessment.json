@@ -1,0 +1,17 @@
+{
+  "repo": "waditu/czsc",
+  "name": "CZSC",
+  "rank": 4,
+  "score": 73,
+  "score_components": {
+    "core_result_35": 27,
+    "data_provenance_25": 14,
+    "coverage_depth_15": 14,
+    "onboarding_repro_15": 11,
+    "runtime_stability_10": 7
+  },
+  "recommended_role": "缠论分析、信号与研究回测 CLI/库",
+  "score_rationale": "mock、数据质量、分析、研究/replay、回测和 HTML 图表可用；核心 BI 固定基准三项失败，原生扩展未从锁定 SHA 构建。",
+  "screenshots": 18,
+  "unique_screenshots": 18
+}

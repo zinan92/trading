@@ -1,0 +1,37 @@
+[
+  {
+    "file": "Python版简单网格策略教学.md",
+    "declared_language": "python",
+    "code_chars": 4165,
+    "python_syntax": "pass",
+    "error": null
+  },
+  {
+    "file": "动态平衡策略-python-版.md",
+    "declared_language": "python",
+    "code_chars": 1389,
+    "python_syntax": "pass",
+    "error": null
+  },
+  {
+    "file": "移植-OKCoin-韭菜收割机-注释python版.md",
+    "declared_language": "python",
+    "code_chars": 10025,
+    "python_syntax": "pass",
+    "error": null
+  },
+  {
+    "file": "R-Breaker-交易策略.md",
+    "declared_language": "python",
+    "code_chars": 8450,
+    "python_syntax": "fail",
+    "error": "SyntaxError: line 41: multiple exception types must be parenthesized"
+  },
+  {
+    "file": "币安永续多币种对冲策略做多超跌做空超涨-张总python版.md",
+    "declared_language": "python",
+    "code_chars": 24293,
+    "python_syntax": "pass",
+    "error": null
+  }
+]

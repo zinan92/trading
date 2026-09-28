@@ -1,0 +1,112 @@
+{
+  "frontend_build": "pass",
+  "next_version": "15.5.12",
+  "routes_prerendered": 14,
+  "typescript_check": "pass",
+  "provider_env": "dummy loopback URL and non-credential placeholder only",
+  "external_hosts_requested_by_browser": [],
+  "dev_backend": "intentionally absent at 127.0.0.1:3983; Supabase stub absent at 127.0.0.1:3982",
+  "browser_page_errors": [
+    "data.map is not a function",
+    "list.map is not a function",
+    "logs.map is not a function"
+  ],
+  "local_api_502_count": 8,
+  "routes": [
+    {
+      "number": 1,
+      "path": "/dashboard",
+      "status": "error",
+      "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:3017/dashboard\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "number": 2,
+      "path": "/signals",
+      "status": 200,
+      "final_path": "/signals",
+      "title": "Chan Trading Bot",
+      "screenshot": "frontend-02-signals.png",
+      "visible_text": "Chan Bot\n\nBTCUSDT Futures\n\nDashboard\nK-Line\nSignals\nTrades\nEquity\nMacro\nResearch\nBacktest\nLogs\nSettings\nSignals\nAll Chan Theory Signals\nNo signals yet. Waiting for BTC data..."
+    },
+    {
+      "number": 3,
+      "path": "/trades",
+      "status": 200,
+      "final_path": "/trades",
+      "title": "",
+      "screenshot": "frontend-03-trades.png",
+      "visible_text": "Application error: a client-side exception has occurred while loading 127.0.0.1 (see the browser console for more information)."
+    },
+    {
+      "number": 4,
+      "path": "/equity",
+      "status": 200,
+      "final_path": "/equity",
+      "title": "Chan Trading Bot",
+      "screenshot": "frontend-04-equity.png",
+      "visible_text": "Chan Bot\n\nBTCUSDT Futures\n\nDashboard\nK-Line\nSignals\nTrades\nEquity\nMacro\nResearch\nBacktest\nLogs\nSettings\nEquity Curve\nEquity Curve\nNo equity data yet. Wait for snapshots to accumulate."
+    },
+    {
+      "number": 5,
+      "path": "/backtest",
+      "status": 200,
+      "final_path": "/backtest",
+      "title": "",
+      "screenshot": "frontend-05-backtest.png",
+      "visible_text": "Application error: a client-side exception has occurred while loading 127.0.0.1 (see the browser console for more information)."
+    },
+    {
+      "number": 6,
+      "path": "/macro",
+      "status": 200,
+      "final_path": "/macro",
+      "title": "Chan Trading Bot",
+      "screenshot": "frontend-06-macro.png",
+      "visible_text": "Chan Bot\n\nBTCUSDT Futures\n\nDashboard\nK-Line\nSignals\nTrades\nEquity\nMacro\nResearch\nBacktest\nLogs\nSettings\n\nHTTP 502\n\n立即采集数据"
+    },
+    {
+      "number": 7,
+      "path": "/research",
+      "status": 200,
+      "final_path": "/research",
+      "title": "Chan Trading Bot",
+      "screenshot": "frontend-07-research.png",
+      "visible_text": "Chan Bot\n\nBTCUSDT Futures\n\nDashboard\nK-Line\nSignals\nTrades\nEquity\nMacro\nResearch\nBacktest\nLogs\nSettings\nOpenClaw Research\n\nNo research data yet. OpenClaw runs Tavily search every 6 hours to build a market thesis."
+    },
+    {
+      "number": 8,
+      "path": "/settings",
+      "status": 200,
+      "final_path": "/settings",
+      "title": "Chan Trading Bot",
+      "screenshot": "frontend-08-settings.png",
+      "visible_text": "Chan Bot\n\nBTCUSDT Futures\n\nDashboard\nK-Line\nSignals\nTrades\nEquity\nMacro\nResearch\nBacktest\nLogs\nSettings\nSettings\nTrading Mode\n\nCurrent mode: PAPER. Trades are simulated.\n\nSwitch to LIVE Mode\nBinance API Keys\n\nEnter your Binance Futures API keys to enable live trading. Keys are stored encrypted. Leave empty for paper trading only.\n\nAPI Key\nAPI Secret\nSave Keys\nRemove Keys"
+    },
+    {
+      "number": 9,
+      "path": "/kline",
+      "status": 200,
+      "final_path": "/kline",
+      "title": "Chan Trading Bot",
+      "screenshot": "frontend-09-kline.png",
+      "visible_text": "Chan Bot\n\nBTCUSDT Futures\n\nDashboard\nK-Line\nSignals\nTrades\nEquity\nMacro\nResearch\nBacktest\nLogs\nSettings\nBTC K-Line\nBTCUSDT 1m K-Line\n0 candles\nRefresh\nAPI error 502: /api/klines?limit=1500\n\t\n\t\n\n\t\n\t"
+    },
+    {
+      "number": 10,
+      "path": "/logs",
+      "status": 200,
+      "final_path": "/logs",
+      "title": "",
+      "screenshot": "frontend-10-logs.png",
+      "visible_text": "Application error: a client-side exception has occurred while loading 127.0.0.1 (see the browser console for more information)."
+    }
+  ],
+  "dashboard_warm_retry": {
+    "path": "/dashboard",
+    "status": 200,
+    "screenshot": "frontend-01-dashboard-backend-offline.png",
+    "visible_result": "Backend offline; metric fields --; no data yet.",
+    "api_health_status": 502,
+    "external_calls": 0
+  }
+}

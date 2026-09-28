@@ -1,0 +1,191 @@
+{
+  "product": "zinan92/chancode",
+  "count": 23,
+  "unique_sha256_count": 23,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-repository-status-and-package-boundary.png",
+      "title": "01-repository-status-and-package-boundary.png",
+      "source": "trial artifact",
+      "sha256": "b380585c1a6c30dceeb6cc538c8247a62eb03e951e90a881abece0197fc928f2",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 2,
+      "file": "images/02-offline-test-data-available-in-clone.png",
+      "title": "02-offline-test-data-available-in-clone.png",
+      "source": "trial artifact",
+      "sha256": "c33f0f9a4ec234de7a3f2aa80d7600ca51a04158d1ad711cc2a9fb7438dfa0d9",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 3,
+      "file": "images/03-documented-full-replay-entry-import.png",
+      "title": "03-documented-full-replay-entry-import.png",
+      "source": "trial artifact",
+      "sha256": "21051e97870ae8174e4ed24916392541187d59fa8c4bd7900aabe1c577a9fba7",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 4,
+      "file": "images/04-synthetic-local-paper-replay.png",
+      "title": "04-synthetic-local-paper-replay.png",
+      "source": "trial artifact",
+      "sha256": "6270604b3595ff51d78cbbfa6ac52df81daf4cf9a74b927b1ed51238448ea9ea",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 5,
+      "file": "images/05-long-trade-entry-and-take-profit-close.png",
+      "title": "05-long-trade-entry-and-take-profit-close.png",
+      "source": "trial artifact",
+      "sha256": "95a39e32b9351f07cc907da7ee97fc194f30b0420d7b7949170579ed6aa1de4c",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 6,
+      "file": "images/06-short-entry-and-cover-close.png",
+      "title": "06-short-entry-and-cover-close.png",
+      "source": "trial artifact",
+      "sha256": "5687549c9afc66b032fceb4f7c89f4db4998cc178807c7be61801a7572af3670",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 7,
+      "file": "images/07-replay-repeatability-under-identical-data.png",
+      "title": "07-replay-repeatability-under-identical-data.png",
+      "source": "trial artifact",
+      "sha256": "f4401efef94d881171437f197d1bc51b319a0451d27769adfff7b4afcb5c30e9",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 8,
+      "file": "images/08-drawdown-diagnostic-output.png",
+      "title": "08-drawdown-diagnostic-output.png",
+      "source": "trial artifact",
+      "sha256": "d3b67a7c6a6622fdc048d675e308ea00bb2d90f996e4f7b7815a36e1e2bdd6de",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 9,
+      "file": "images/09-front-end-local-production-build.png",
+      "title": "09-front-end-local-production-build.png",
+      "source": "trial artifact",
+      "sha256": "267497dcf6d0f55f4f4edc0f27ac07c6f2a422ef592f93d586386f6c5c8801a0",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 10,
+      "file": "images/10-dashboard-without-backend-data.png",
+      "title": "10-dashboard-without-backend-data.png",
+      "source": "trial artifact",
+      "sha256": "e7a155897c000d8d1065a5ba5b7c9f021ab2c179d9f20b71fd9eb918d7e052d6",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 11,
+      "file": "images/11-frontend-degradation-on-failed-data-routes.png",
+      "title": "11-frontend-degradation-on-failed-data-routes.png",
+      "source": "trial artifact",
+      "sha256": "4d1bed45a308baa16f5235ceb2655e0fbfe3e7d4b821fd39be68dd746d165793",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 12,
+      "file": "images/12-supabase-binance-and-claude-integration-boundary.png",
+      "title": "12-supabase-binance-and-claude-integration-boundary.png",
+      "source": "trial artifact",
+      "sha256": "3886949cdf104ee0dec9109cabb61db4c21ccf52e23e3dc5f8de84860a78b875",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 13,
+      "file": "images/13-trade-mode-claim-vs-verification.png",
+      "title": "13-trade-mode-claim-vs-verification.png",
+      "source": "trial artifact",
+      "sha256": "ab9644bd7359499f0096de5b0d292f962006e1bd518b50bd19d1df4833ba349a",
+      "kind": "auxiliary replay / source evidence"
+    },
+    {
+      "number": 14,
+      "file": "images/frontend-01-dashboard-backend-offline.png",
+      "title": "frontend-01-dashboard-backend-offline.png",
+      "source": "trial artifact",
+      "sha256": "c9b4c5681b089cb0bf27a85204393a64830257c7cc1ff0eda82e8231c216980a",
+      "kind": "local Next.js UI, backend deliberately offline"
+    },
+    {
+      "number": 15,
+      "file": "images/frontend-02-signals.png",
+      "title": "frontend-02-signals.png",
+      "source": "trial artifact",
+      "sha256": "837cd3bbd9eb68581bc0532706fcef25387e3cd02e4864ca73fdcbf3913e85da",
+      "kind": "local Next.js UI, backend deliberately offline"
+    },
+    {
+      "number": 16,
+      "file": "images/frontend-03-trades.png",
+      "title": "frontend-03-trades.png",
+      "source": "trial artifact",
+      "sha256": "3fa8ae4f206749f49b61c0e8cc4e07103f7866b24fde0eebfdee20d4da3fbb81",
+      "kind": "local Next.js UI, backend deliberately offline"
+    },
+    {
+      "number": 17,
+      "file": "images/frontend-04-equity.png",
+      "title": "frontend-04-equity.png",
+      "source": "trial artifact",
+      "sha256": "a1f1926cf3bee4eaef84a6f6315d86e9d27902454131844556b24eb0541a6548",
+      "kind": "local Next.js UI, backend deliberately offline"
+    },
+    {
+      "number": 18,
+      "file": "images/frontend-05-backtest.png",
+      "title": "frontend-05-backtest.png",
+      "source": "trial artifact",
+      "sha256": "2ab2bd08388c623cfccee92529616a123902571773f0cee866af45efd7e7b7aa",
+      "kind": "local Next.js UI, backend deliberately offline"
+    },
+    {
+      "number": 19,
+      "file": "images/frontend-06-macro.png",
+      "title": "frontend-06-macro.png",
+      "source": "trial artifact",
+      "sha256": "08fdee7e98562b7e15fc2a7a024fa883393e8a9f4abd8c560bda52968db98808",
+      "kind": "local Next.js UI, backend deliberately offline"
+    },
+    {
+      "number": 20,
+      "file": "images/frontend-07-research.png",
+      "title": "frontend-07-research.png",
+      "source": "trial artifact",
+      "sha256": "992bd553d0617232f49bd10b11e75dcd6a190ac3aa5f88538541bb8b31907d5a",
+      "kind": "local Next.js UI, backend deliberately offline"
+    },
+    {
+      "number": 21,
+      "file": "images/frontend-08-settings.png",
+      "title": "frontend-08-settings.png",
+      "source": "trial artifact",
+      "sha256": "11366b696b4447f6cbbc5f6d09cd43ed8d5fbf1ced07e2fe0eac6624ded8bec5",
+      "kind": "local Next.js UI, backend deliberately offline"
+    },
+    {
+      "number": 22,
+      "file": "images/frontend-09-kline.png",
+      "title": "frontend-09-kline.png",
+      "source": "trial artifact",
+      "sha256": "cee0437b6ad7de9e0e28ceef758bf07fac55a8d8b955a65cc70dc97be444daf0",
+      "kind": "local Next.js UI, backend deliberately offline"
+    },
+    {
+      "number": 23,
+      "file": "images/frontend-10-logs.png",
+      "title": "frontend-10-logs.png",
+      "source": "trial artifact",
+      "sha256": "b0fe92427d2606b53ee1edc5c72fd4d065992f3bd4b4f35dfa4cd996ad84458c",
+      "kind": "local Next.js UI, backend deliberately offline"
+    }
+  ]
+}

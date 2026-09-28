@@ -1,0 +1,103 @@
+{
+  "product": "zinan92/trading-strategy",
+  "count": 12,
+  "unique_sha256_count": 12,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-installed-package-import.png",
+      "title": "01-installed-package-import.png",
+      "source": "trial artifact",
+      "sha256": "bac3e7f39c6a8d362352241fd077c9bcf02cefefc640a4d2cdc5b47ba945eeff",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 2,
+      "file": "images/02-deterministic-dca-long-candidate.png",
+      "title": "02-deterministic-dca-long-candidate.png",
+      "source": "trial artifact",
+      "sha256": "bde543018ac8842e68c50552493f472315ac51e660a2af184955024beedbcd04",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 3,
+      "file": "images/03-deterministic-dca-short-candidate.png",
+      "title": "03-deterministic-dca-short-candidate.png",
+      "source": "trial artifact",
+      "sha256": "8f6eec91946d224bc234acf6f2a434bbedb500565dff2672f5da96a057b8d9cd",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 4,
+      "file": "images/04-dca-preview-with-explicit-levels.png",
+      "title": "04-dca-preview-with-explicit-levels.png",
+      "source": "trial artifact",
+      "sha256": "63472cc7d89f905c1a332b40750eeaf8e760851de6e986fb180c8f51a246f886",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 5,
+      "file": "images/05-versioned-strategy-plan-projection.png",
+      "title": "05-versioned-strategy-plan-projection.png",
+      "source": "trial artifact",
+      "sha256": "6051d96f62013d8a0042b6f065c0f43ff3a81d228b55128ac6ea31861ef9d090",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 6,
+      "file": "images/06-dca-entry-command-identities.png",
+      "title": "06-dca-entry-command-identities.png",
+      "source": "trial artifact",
+      "sha256": "5bb19962321ada4135bd57b9c9b884c49e5de3828b3c8bb37953c769bd4640c2",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 7,
+      "file": "images/07-aggregate-target-replay.png",
+      "title": "07-aggregate-target-replay.png",
+      "source": "trial artifact",
+      "sha256": "f63ac21c1378c446e513badbd72aac380b9155eefd4d20b8606d6f1b0450c504",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 8,
+      "file": "images/08-aggregate-stop-replay.png",
+      "title": "08-aggregate-stop-replay.png",
+      "source": "trial artifact",
+      "sha256": "cad7be649a6c7adc7c99ecbd5eb82bcfacec7cb3e408a86c0af68c85b41fdfb4",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 9,
+      "file": "images/09-manual-arithmetic-grid-geometry.png",
+      "title": "09-manual-arithmetic-grid-geometry.png",
+      "source": "trial artifact",
+      "sha256": "a414ae9a8cd80a206f3340ff8c0ceadab360e33e27a535fc9febadfdf444b300",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 10,
+      "file": "images/10-grid-hard-stop-priority.png",
+      "title": "10-grid-hard-stop-priority.png",
+      "source": "trial artifact",
+      "sha256": "1e0b99e8f988818ed3a76dd49a21a7816d498a499c67af51486a0fd33b07a0ef",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 11,
+      "file": "images/11-conditional-grid-re-arm-and-flatten.png",
+      "title": "11-conditional-grid-re-arm-and-flatten.png",
+      "source": "trial artifact",
+      "sha256": "523e0b77152b308d52a2f763dbf3ff7a329c3752072340f8bb362e7d6102093c",
+      "kind": "Chrome screenshot"
+    },
+    {
+      "number": 12,
+      "file": "images/12-per-side-paper-cost-calculation.png",
+      "title": "12-per-side-paper-cost-calculation.png",
+      "source": "trial artifact",
+      "sha256": "e687bfdec02392fab5186cebb7a7c0b96b77878f0f7721215d36ebad962bc436",
+      "kind": "Chrome screenshot"
+    }
+  ]
+}

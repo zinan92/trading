@@ -1,0 +1,20 @@
+{
+  "repo": "zinan92/trading-desk (archived; migrated into zinan92/trading-system/apps/trading-desk)",
+  "source_url": "https://github.com/zinan92/trading-desk",
+  "tested_commit": "bbdcf9005cbf15860b6a6214a408634925580923",
+  "status": "integrated local UI tested; trusted market data unavailable",
+  "recommended_role": "Full Trading System / integrated trading desk UI module",
+  "score": 70,
+  "rank": null,
+  "rank_status": "pending category completion",
+  "score_components": {
+    "core_result_35": 23,
+    "data_provenance_25": 19,
+    "coverage_depth_15": 13,
+    "onboarding_repro_15": 8,
+    "runtime_stability_10": 7
+  },
+  "screenshots": 19,
+  "unique_screenshots": 19,
+  "score_rationale": "Integrated Desk route, main panels, read-only endpoints and responsive states were available under isolated testing; no trusted market feed meant no actual charts, positions or order lifecycle. The archived repo is not independently deployable, so its strongest fit is as the UI module of trading-system."
+}

@@ -1,0 +1,97 @@
+{
+  "repo": "star23/Day1Global-Skills",
+  "product": "Day1 Global Skills",
+  "count": 15,
+  "screenshots": [
+    {
+      "number": 1,
+      "path": "images/01-01-day1global.jpg",
+      "sha256": "8e3d7ad21718e764be5b6068aea0338bef2ecccba9a66bb8000c25f9f3bedb42",
+      "source_name": "01-day1global.png"
+    },
+    {
+      "number": 2,
+      "path": "images/02-02-day1global.jpg",
+      "sha256": "66425c6e9b6e227e56943df96374457e14a30be0e8558f3fd308cc70a30e8340",
+      "source_name": "02-day1global.png"
+    },
+    {
+      "number": 3,
+      "path": "images/03-03-day1global.jpg",
+      "sha256": "9a8ddd7091a9e296cb6a21871d36490043f0e6e78e1a0b65aff3c5bc35ee17d4",
+      "source_name": "03-day1global.png"
+    },
+    {
+      "number": 4,
+      "path": "images/04-04-day1global.jpg",
+      "sha256": "e18e9fa0f6e5d2509ce54ac46a813d5ffe6c6238fff72503099bd01a27356cc7",
+      "source_name": "04-day1global.png"
+    },
+    {
+      "number": 5,
+      "path": "images/05-05-day1global.jpg",
+      "sha256": "30047cfb9cc2a302e8a79cd4d15400789f9b538bad5adc8c05a17ad30b408937",
+      "source_name": "05-day1global.png"
+    },
+    {
+      "number": 6,
+      "path": "images/06-06-day1global.jpg",
+      "sha256": "8ad993c6ad04f678f278c400f52a53771c9b6a02c05e4cccc0f39742656e5ea8",
+      "source_name": "06-day1global.png"
+    },
+    {
+      "number": 7,
+      "path": "images/07-07-day1global.jpg",
+      "sha256": "c1b029c912e80c142b4f555e91f93089cef1468dfbe02bc438152afe20924339",
+      "source_name": "07-day1global.png"
+    },
+    {
+      "number": 8,
+      "path": "images/08-08-day1global.jpg",
+      "sha256": "9446825112ffde9c7dfb938ee694b97a274b31289c4b5e390b3eabd43c4a911b",
+      "source_name": "08-day1global.png"
+    },
+    {
+      "number": 9,
+      "path": "images/09-09-day1global.jpg",
+      "sha256": "5de74082280f330fe9fd6ea8eea6b955880b6a6a17e1f5615c59cdb3805c0758",
+      "source_name": "09-day1global.png"
+    },
+    {
+      "number": 10,
+      "path": "images/10-10-day1global.jpg",
+      "sha256": "620273429b470b64f29a230a2f4b4a70be711c790d4e0d21854401fa4cc7d890",
+      "source_name": "10-day1global.png"
+    },
+    {
+      "number": 11,
+      "path": "images/11-11-day1global.jpg",
+      "sha256": "69719f6632c45e762e4baf7c730e9906e1d9cd25f8f925e5e57654dab3bfb7d5",
+      "source_name": "11-day1global.png"
+    },
+    {
+      "number": 12,
+      "path": "images/12-12-day1global.jpg",
+      "sha256": "0b1eaa033529ef82a5a304f2cba7ee38c05a12d7feb736b484a4957f9133df13",
+      "source_name": "12-day1global.png"
+    },
+    {
+      "number": 13,
+      "path": "images/13-13-day1global.jpg",
+      "sha256": "5971f3dd927af87df6001bd1c738e853c4f4511ad0e7388e72a14f1f27c8bfc6",
+      "source_name": "13-day1global.png"
+    },
+    {
+      "number": 14,
+      "path": "images/14-14-day1global.jpg",
+      "sha256": "ff288678053d1983d70c8887ac5523135ff1f87112f7fba8ac97e063031547d9",
+      "source_name": "14-day1global.png"
+    },
+    {
+      "number": 15,
+      "path": "images/15-15-day1global.jpg",
+      "sha256": "b1216c64add517310278691b67f61b837818124c279cb1f22a0d9f666baafdd0",
+      "source_name": "15-day1global.png"
+    }
+  ]
+}

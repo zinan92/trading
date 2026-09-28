@@ -1,0 +1,35 @@
+{
+  "tested_at": "2026-09-28",
+  "checkout_path": "isolated trial-local path",
+  "source_commit": "5baea86c8c7e576f13464919c86c3b4c4b0ecf4c",
+  "package": "@mathieuc/tradingview@3.5.2",
+  "install": {
+    "command": "npm ci --no-audit --no-fund",
+    "result": "326 packages installed"
+  },
+  "public_example": {
+    "file": "examples/SimpleChart.js",
+    "command": "env -i PATH=/opt/homebrew/bin:/usr/bin:/bin TMPDIR=/tmp node examples/SimpleChart.js",
+    "result": "success; anonymous public WebSocket",
+    "workflow": [
+      "BINANCE:BTCEUR daily chart loaded",
+      "changed to BINANCE:ETHEUR",
+      "changed series to 15-minute",
+      "changed chart type to Heikin Ashi",
+      "deleted chart and closed client after 25 seconds"
+    ],
+    "credentials": "SESSION and SIGNATURE were absent; no user cookies or login supplied",
+    "raw_log": "trial-only results/simplechart.log; raw prices are not copied to the public evidence package"
+  },
+  "tests": {
+    "command": "env -i PATH=/opt/homebrew/bin:/usr/bin:/bin TMPDIR=/tmp ./node_modules/.bin/vitest run --reporter=dot",
+    "result": "9 files passed, 1 file skipped; 50 passed, 16 skipped",
+    "skip_reason": "private/authenticated tests require SESSION and SIGNATURE; both were intentionally absent"
+  },
+  "evidence": {
+    "screenshots": 13,
+    "unique_screenshots": 13,
+    "screenshots_source": "pinned README/example/test/source pages; no native product UI exists",
+    "manifest": "screenshots.json"
+  }
+}

@@ -1,0 +1,54 @@
+# trading-system evaluation screenshots
+
+**50 distinct screenshots, SHA-256 unique.** Includes 31 GridMind dashboard views plus 19 Desk/integrated `/trade` and local API screens. No submit/confirm/execute/start/stop/close actions were sent.
+
+- ![GridMind dashboard overview and fail-closed status](screenshots/01-dashboard-overview.png) — `01-dashboard-overview.png`
+- ![Read-only panel: 当前持仓 (0)](screenshots/02-readonly-panel-02.png) — `02-readonly-panel-02.png`
+- ![Read-only panel: 当前委托 (0)](screenshots/03-readonly-panel-03.png) — `03-readonly-panel-03.png`
+- ![Read-only panel: 成交记录 (0)](screenshots/04-readonly-panel-04.png) — `04-readonly-panel-04.png`
+- ![Read-only panel: Supervisor](screenshots/05-readonly-panel-05.png) — `05-readonly-panel-05.png`
+- ![Read-only panel: 12小时复盘](screenshots/06-readonly-panel-06.png) — `06-readonly-panel-06.png`
+- ![Read-only panel: Strategy Shadows](screenshots/07-readonly-panel-07.png) — `07-readonly-panel-07.png`
+- ![Read-only panel: 历史收益 / NAV](screenshots/08-readonly-panel-08.png) — `08-readonly-panel-08.png`
+- ![Read-only panel: Grid旧版网格](screenshots/09-readonly-panel-09.png) — `09-readonly-panel-09.png`
+- ![K-line chart timeframe selected: 1m](screenshots/11-chart-timeframe-11.png) — `11-chart-timeframe-11.png`
+- ![K-line chart timeframe selected: 5m](screenshots/12-chart-timeframe-12.png) — `12-chart-timeframe-12.png`
+- ![K-line chart timeframe selected: 15m](screenshots/13-chart-timeframe-13.png) — `13-chart-timeframe-13.png`
+- ![K-line chart timeframe selected: 30m](screenshots/14-chart-timeframe-14.png) — `14-chart-timeframe-14.png`
+- ![K-line chart timeframe selected: 1h](screenshots/15-chart-timeframe-15.png) — `15-chart-timeframe-15.png`
+- ![K-line chart timeframe selected: 4h](screenshots/16-chart-timeframe-16.png) — `16-chart-timeframe-16.png`
+- ![Dashboard lower section at scroll position 480px](screenshots/18-dashboard-section-16.png) — `18-dashboard-section-16.png`
+- ![Dashboard lower section at scroll position 1050px](screenshots/19-dashboard-section-17.png) — `19-dashboard-section-17.png`
+- ![Dashboard lower section at scroll position 1750px](screenshots/20-dashboard-section-18.png) — `20-dashboard-section-18.png`
+- ![Responsive 390px dashboard view; read-only, no controls submitted](screenshots/22-dashboard-mobile-390.png) — `22-dashboard-mobile-390.png`
+- ![Read-only responsive layout at 1920x1200](screenshots/23-dashboard-wide-1920.png) — `23-dashboard-wide-1920.png`
+- ![Read-only responsive layout at 1280x900](screenshots/24-dashboard-1280.png) — `24-dashboard-1280.png`
+- ![Read-only responsive layout at 1024x768](screenshots/25-dashboard-tablet-landscape.png) — `25-dashboard-tablet-landscape.png`
+- ![Read-only responsive layout at 768x1024](screenshots/26-dashboard-tablet-portrait.png) — `26-dashboard-tablet-portrait.png`
+- ![Read-only responsive layout at 390x844](screenshots/27-dashboard-mobile-390.png) — `27-dashboard-mobile-390.png`
+- ![Safe chart navigation control: +; no data and no plan submission](screenshots/28-chart-plus.png) — `28-chart-plus.png`
+- ![Safe chart navigation control: fit; no data and no plan submission](screenshots/29-chart-fit.png) — `29-chart-fit.png`
+- ![Safe chart navigation control: -; no data and no plan submission](screenshots/30-chart-minus.png) — `30-chart-minus.png`
+- ![Read-only local execution summary at top of its scrollable card](screenshots/31-live-summary-top.png) — `31-live-summary-top.png`
+- ![Read-only dashboard section at scroll offset 500px](screenshots/33-market-and-panels-scroll.png) — `33-market-and-panels-scroll.png`
+- ![Read-only dashboard section at scroll offset 900px](screenshots/34-venue-workflow-scroll.png) — `34-venue-workflow-scroll.png`
+- ![Read-only dashboard section at scroll offset 1100px](screenshots/35-strategy-config-scroll.png) — `35-strategy-config-scroll.png`
+- ![Trading desk home: report and local service panel](screenshots/desk-overview.png) — `desk-overview.png`
+- ![Trading desk system panel with isolated empty read models](screenshots/desk-system.png) — `desk-system.png`
+- ![Desk upper section after scroll, fixture database only](screenshots/desk-upper.png) — `desk-upper.png`
+- ![Trading desk on a 390px viewport; no write action](screenshots/desk-mobile-390.png) — `desk-mobile-390.png`
+- ![Local API health contract with Testnet execution scope declared](screenshots/desk-api-health.png) — `desk-api-health.png`
+- ![Locally seeded asset catalog response; isolated SQLite only](screenshots/desk-api-assets.png) — `desk-api-assets.png`
+- ![Trading desk same-origin /trade proxy to the isolated GridMind dashboard](screenshots/integrated-trade-dashboard.png) — `integrated-trade-dashboard.png`
+- ![Integrated /trade read-only section at scroll offset 450px](screenshots/integrated-trade-section-1.png) — `integrated-trade-section-1.png`
+- ![Integrated /trade read-only section at scroll offset 850px](screenshots/integrated-trade-section-2.png) — `integrated-trade-section-2.png`
+- ![Integrated /trade read-only section at scroll offset 1250px](screenshots/integrated-trade-section-3.png) — `integrated-trade-section-3.png`
+- ![Integrated /trade at 1024x768](screenshots/integrated-trade-tablet.png) — `integrated-trade-tablet.png`
+- ![Integrated /trade at 390x844](screenshots/integrated-trade-mobile.png) — `integrated-trade-mobile.png`
+- ![Integrated /trade read-only panel 当前持仓 (0); no order action](screenshots/trade-positions-read.png) — `trade-positions-read.png`
+- ![Integrated /trade read-only panel 当前委托 (0); no order action](screenshots/trade-orders-read.png) — `trade-orders-read.png`
+- ![Integrated /trade read-only panel 成交记录 (0); no order action](screenshots/trade-fills-read.png) — `trade-fills-read.png`
+- ![Integrated /trade read-only panel Supervisor; no order action](screenshots/trade-supervisor-read.png) — `trade-supervisor-read.png`
+- ![Integrated /trade read-only panel 12小时复盘; no order action](screenshots/trade-review-read.png) — `trade-review-read.png`
+- ![Integrated /trade read-only panel Strategy Shadows; no order action](screenshots/trade-shadows-read.png) — `trade-shadows-read.png`
+- ![Integrated /trade read-only panel 历史收益 / NAV; no order action](screenshots/trade-nav-read.png) — `trade-nav-read.png`

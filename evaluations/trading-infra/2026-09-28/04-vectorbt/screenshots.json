@@ -1,0 +1,195 @@
+{
+  "product": "polakowo/vectorbt",
+  "tested_commit": "34b6d5935e3ea3eccd549e2592bc0f455b8045f5",
+  "package_version": "1.1.0",
+  "count": 21,
+  "unique_sha256_count": 21,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-package-tree.png",
+      "source": "https://github.com/polakowo/vectorbt/tree/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/vectorbt",
+      "description": "Pinned vectorbt package source tree",
+      "http_status": 200,
+      "sha256": "02a63505521fc6f64d060522e694d10cdde29fc5af88c664323db87aac715402",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 2,
+      "file": "images/02-tests-tree.png",
+      "source": "https://github.com/polakowo/vectorbt/tree/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/tests",
+      "description": "Pinned test suite tree",
+      "http_status": 200,
+      "sha256": "b2d392ad1dc040ab7fddc40999f4aac5dfd127f7058b80a2d816a6e52a1204d0",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 3,
+      "file": "images/03-package-init.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/vectorbt/__init__.py",
+      "description": "Package public import surface",
+      "http_status": 200,
+      "sha256": "77cf8c75904aa5a7ba4793bdfc74d93d525bbf58a424013e653406f2fb0aced7",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 4,
+      "file": "images/04-portfolio-api.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/vectorbt/portfolio/base.py",
+      "description": "Portfolio API implementation",
+      "http_status": 200,
+      "sha256": "be0c96c4f63a66fd0c4afb581d5c9f972b89ec830ffee94c98732481aa3d305d",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 5,
+      "file": "images/05-portfolio-numerics.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/vectorbt/portfolio/nb.py",
+      "description": "Numba portfolio simulation kernels",
+      "http_status": 200,
+      "sha256": "aafb9d84159f9f0ef08a28101af7d426265100d2b6cea9990a59e4b623616fe4",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 6,
+      "file": "images/06-order-records.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/vectorbt/portfolio/orders.py",
+      "description": "Order records and API",
+      "http_status": 200,
+      "sha256": "9ac612840ef4c11520beca500a1828e4fbae181a32aac34d9d40e1aae707135f",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 7,
+      "file": "images/07-trade-records.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/vectorbt/portfolio/trades.py",
+      "description": "Trade records and analysis",
+      "http_status": 200,
+      "sha256": "22b19da5df4946ec111fb6ac2ed8c28b737600bff8300de8bb45a95030cc0c7c",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 8,
+      "file": "images/08-indicator-basic.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/vectorbt/indicators/basic.py",
+      "description": "Built-in moving average, RSI, and other indicators",
+      "http_status": 200,
+      "sha256": "fa680c83427d16fc5dfc90707b11aafa5aea63921bc7d16becadcead43e95d1f",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 9,
+      "file": "images/09-indicator-factory.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/vectorbt/indicators/factory.py",
+      "description": "Parameterized indicator factory",
+      "http_status": 200,
+      "sha256": "42958104f2df766df04451f83c0c98732c2314e9599a41cc9552df21e1271e74",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 10,
+      "file": "images/10-signal-factory.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/vectorbt/signals/factory.py",
+      "description": "Signal generation API",
+      "http_status": 200,
+      "sha256": "64f71ed531f9128b62bbf22e2de5d6c1f29aeb3658c1b621c8735a10553f7412",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 11,
+      "file": "images/11-array-wrapper.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/vectorbt/base/array_wrapper.py",
+      "description": "Vectorized shape/index wrapper",
+      "http_status": 200,
+      "sha256": "69f4b92af6ecc4ab2e06018d678cbecc68ff39e89aab5373cd5ce6d89059e92a",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 12,
+      "file": "images/12-generic-numerics.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/vectorbt/generic/nb.py",
+      "description": "Numba vector operations",
+      "http_status": 200,
+      "sha256": "987420c822247d151994bf062b4de373f5fdb32afd949d05ac60e55c998884ec",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 13,
+      "file": "images/13-test-portfolio.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/tests/test_portfolio.py",
+      "description": "Portfolio simulation tests",
+      "http_status": 200,
+      "sha256": "0c6dadf168635bf2ddc6a362c61ec5274bc7119eb55c4d817ee5df2138539055",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 14,
+      "file": "images/14-test-indicators.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/tests/test_indicators.py",
+      "description": "Indicator tests",
+      "http_status": 200,
+      "sha256": "56e729d676f4c794323eb1ce81365623db390b7946bdae22a9ab4c27db58b98e",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 15,
+      "file": "images/15-test-signals.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/tests/test_signals.py",
+      "description": "Signal-generation tests",
+      "http_status": 200,
+      "sha256": "01ac2fb29d979821aa9310acb0d5caee05e6fdfd6c4a3deb728c130a845a7d61",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 16,
+      "file": "images/16-test-returns.png",
+      "source": "https://github.com/polakowo/vectorbt/blob/34b6d5935e3ea3eccd549e2592bc0f455b8045f5/tests/test_returns.py",
+      "description": "Returns and statistics tests",
+      "http_status": 200,
+      "sha256": "8fb63cb7048d1fb45789c1c6cca508f39a66d20912fc51bb3382e0dde0dcdca4",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 17,
+      "file": "images/17-official-portfolio-docs.png",
+      "source": "https://vectorbt.dev/api/portfolio/base/",
+      "description": "Official Portfolio.from_signals and multi-column documentation",
+      "http_status": 200,
+      "sha256": "82fab738a559df7c5b1ffb658e0ed4165c267b63f10f32c34347d7eafbdfa39b",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 18,
+      "file": "images/18-official-indicator-docs.png",
+      "source": "https://vectorbt.dev/getting-started/features/",
+      "description": "Official vectorized indicator and parameter-grid feature guide",
+      "http_status": 200,
+      "sha256": "c460fc0bdf5858d107ef88a00b9394bd07664fa39649dbeab4ec4539b0ca2607",
+      "kind": "Chrome screenshot of public pinned GitHub source or official VectorBT docs"
+    },
+    {
+      "number": 19,
+      "file": "images/19-portfolio.png",
+      "source": "results/portfolio.html",
+      "description": "Native vectorbt Plotly portfolio chart generated by Portfolio.plot(column=SYN_A) on synthetic data",
+      "sha256": "7920381943eed3728d97b4e20e7e2be8dcb3ed882f7a4c6c38e2f66aac730b6a",
+      "kind": "Chrome screenshot of library-generated output or explicitly auxiliary evaluator report; synthetic data"
+    },
+    {
+      "number": 20,
+      "file": "images/20-portfolio-syn-b.png",
+      "source": "results/portfolio-syn-b.html",
+      "description": "Native vectorbt Plotly portfolio chart for SYN_B on synthetic data",
+      "sha256": "46574f8eb026627a712b0e9310af4017c4d218cd86e11884dd42b54339b8940e",
+      "kind": "Chrome screenshot of library-generated output or explicitly auxiliary evaluator report; synthetic data"
+    },
+    {
+      "number": 21,
+      "file": "images/21-evaluator-summary.png",
+      "source": "results/evaluator-summary.html",
+      "description": "Auxiliary evaluator comparison of per-asset metrics and dependency compatibility; not native UI",
+      "sha256": "e024c46a49a48d80066e4a726e979cb8bfab17248f9a6b6d5a8c07ae12dd62da",
+      "kind": "Chrome screenshot of library-generated output or explicitly auxiliary evaluator report; synthetic data"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "product": "Chancode",
+  "repo": "zinan92/chancode",
+  "description": "Chan BTC paper-trading system; this trial used only offline synthetic candles and a no-credential local UI.",
+  "records": [
+    {
+      "title": "Repository status and package boundary",
+      "command": "git HEAD · README.md · pyproject.toml",
+      "result": {
+        "head": "d3c21ecacb99317177b0bd81dbf585c0d2d9d957",
+        "readme_position": "BTC Chan trading system with Binance + Supabase + Claude",
+        "package_area": "Paper replay + frontend; credentials needed for integrated service",
+        "real_trade_execution_tested": false,
+        "external_credentials_used": false
+      }
+    },
+    {
+      "title": "Offline test data available in clone",
+      "command": "inventory sfz/BTC/*.csv",
+      "result": [
+        {
+          "file": "BTC_USDT_2424_biseg_1m_buy_sell_v4_no2s_new2_hide_usecross_NOT_onebi_min_zs_cnt_1_df_20240201_20250201_normal_div_099_bothdiv_CD_tightytime.csv",
+          "bytes": 156746,
+          "rows": 1215,
+          "columns": [
+            "time",
+            "price",
+            "lidu",
+            "direction",
+            "type",
+            "Seg_avg_recent_7",
+            "Seg_avg_recent_14",
+            "Seg_avg_length_7",
+            "Seg_avg_length_14",
+            "bi_14_avg_diff"
+          ],
+          "time_min": "2024-02-01 11:12:00",
+          "time_max": "2025-01-28 12:49:00",
+          "has_ohlc": false
+        },
+        {
+          "file": "BTC_USDT_2424_biseg_1m_buy_sell_v4_no2s_new2_hide_usecross_NOT_onebi_min_zs_cnt_1_df_20250201_20260221_normal_div_099_bothdiv_CD_tightytime.csv",
+          "bytes": 164263,
+          "rows": 1267,
+          "columns": [
+            "time",
+            "price",
+            "lidu",
+            "direction",
+            "type",
+            "Seg_avg_recent_7",
+            "Seg_avg_recent_14",
+            "Seg_avg_length_7",
+            "Seg_avg_length_14",
+            "bi_14_avg_diff"
+          ],
+          "time_min": "2025-02-01 20:06:00",
+          "time_max": "2026-02-20 09:03:00",
+          "has_ohlc": false
+        },
+        {
+          "file": "BTC_USDT_2424_biseg_1m_buy_sell_v4_no2s_new2_hide_usecross_NOT_onebi_min_zs_cnt_2_df_20240201_20250201_normal_div_099_bothdiv_CD_tightytime.csv",
+          "bytes": 38594,
+          "rows": 299,
+          "columns": [
+            "time",
+            "price",
+            "lidu",
+            "direction",
+            "type",
+            "Seg_avg_recent_7",
+            "Seg_avg_recent_14",
+            "Seg_avg_length_7",
+            "Seg_avg_length_14",
+            "bi_14_avg_diff"
+          ],
+          "time_min": "2024-02-02 00:16:00",
+          "time_max": "2025-01-25 02:42:00",
+          "has_ohlc": false
+        },
+        {
+          "file": "BTC_USDT_2424_biseg_1m_buy_sell_v4_no2s_new2_hide_usecross_NOT_onebi_min_zs_cnt_2_df_20250201_20260221_normal_div_099_bothdiv_CD_tightytime.csv",
+          "bytes": 49814,
+          "rows": 384,
+          "columns": [
+            "time",
+            "price",
+            "lidu",
+            "direction",
+            "type",
+            "Seg_avg_recent_7",
+            "Seg_avg_recent_14",
+            "Seg_avg_length_7",
+            "Seg_avg_length_14",
+            "bi_14_avg_diff"
+          ],
+          "time_min": "2025-02-03 01:09:00",
+          "time_max": "2026-02-15 14:48:00",
+          "has_ohlc": false
+        }
+      ]
+    },
+    {
+      "title": "Documented full replay entry import",
+      "command": "import replay.replay_multi",
+      "result": {
+        "module": "replay.replay_multi",
+        "import_status": "blocked",
+        "error": "ModuleNotFoundError: No module named check_out_param",
+        "check_out_param_present": false,
+        "script_market_path_pattern": "D:/code/chancode/sfz/{coin}/BTCUSDT_1m_futures_2025-01-01 00_00_00_2026-02-21 00_00_00.csv",
+        "raw_ohlc_files_in_sfz": 0,
+        "signal_csv_files": 4
+      }
+    },
+    {
+      "title": "Synthetic local Paper replay",
+      "command": "replay.run_backtest · 7 synthetic 1-minute OHLC candles · 1 buy + 1 short signal",
+      "result": {
+        "synthetic_fixture": true,
+        "candles": 7,
+        "signals": {
+          "buy": 1,
+          "short": 1
+        },
+        "trade_count": 4,
+        "ending_balance": 10200.999999999998,
+        "end_equity": 10200.999999999998,
+        "last_ratio": 1.0200999999999998,
+        "network_calls": false,
+        "meaning": "not a market return or strategy-performance result"
+      }
+    },
+    {
+      "title": "Long trade entry and take-profit close",
+      "command": "Account.process_minute_data with synthetic signal",
+      "result": [
+        {
+          "type": "buy",
+          "timestamp": "2026-07-05 01:00:00",
+          "price": 99.94422928061685,
+          "volume": 66.70386789364734,
+          "asset": "BTC",
+          "deposit balance": 0.9666666666666666,
+          "signal_type": "1_right"
+        },
+        {
+          "type": "sell",
+          "timestamp": "2026-07-05 01:01:00",
+          "price": 101.4433927198261,
+          "openprice": 99.94422928061685,
+          "volume": 66.70386789364734,
+          "current_gain": 0.01499999999999988,
+          "reason": "win",
+          "asset": "BTC",
+          "balance": 1.0099999999999998,
+          "opentime": "2026-07-05T09:01:00",
+          "signal_type": "1_right",
+          "drop_to_drop_ratio": [
+            null,
+            null
+          ],
+          "max_down": 0.003992015968063929,
+          "unpreal_loss": -0.0014430976320993754,
+          "mins": 1
+        }
+      ]
+    },
+    {
+      "title": "Short entry and cover close",
+      "command": "Account.process_minute_data with synthetic signal",
+      "result": [
+        {
+          "type": "short",
+          "timestamp": "2026-07-05 01:03:00",
+          "price": 102.98749462238867,
+          "volume": 65.38010617717813,
+          "asset": "BTC",
+          "deposit balance": 0.9763333333333332,
+          "signal_type": "1_right"
+        },
+        {
+          "type": "cover",
+          "timestamp": "2026-07-05 01:04:00",
+          "price": 101.44268220305284,
+          "openprice": 102.98749462238867,
+          "volume": 65.38010617717813,
+          "current_gain": 0.014999999999999968,
+          "reason": "win",
+          "asset": "BTC",
+          "balance": 1.0200999999999998,
+          "opentime": "2026-07-05T09:04:00",
+          "signal_type": "1_right",
+          "drop_to_drop_ratio": "True",
+          "max_down": 0.011787819253438142,
+          "unpreal_loss": 0.00012142617564574419,
+          "mins": 1
+        }
+      ]
+    },
+    {
+      "title": "Replay repeatability under identical data",
+      "command": "replay.run_backtest with the same synthetic candles under random seeds 42 and 43",
+      "result": {
+        "same_inputs": true,
+        "simulation": "seven-candle synthetic fixture; no external data",
+        "runs": [
+          {
+            "seed": 42,
+            "entry_prices": [
+              99.94422928061685,
+              102.98749462238867
+            ],
+            "ending_balance": 10200.999999999998,
+            "trade_count": 4
+          },
+          {
+            "seed": 43,
+            "entry_prices": [
+              100.18457926426505,
+              102.65188783868147
+            ],
+            "ending_balance": 10201.0,
+            "trade_count": 4
+          }
+        ],
+        "entry_prices_equal": false,
+        "repeatability_note": "Account entry fill uses random.uniform(high, low); seeded runs differ unless the caller controls random state."
+      }
+    },
+    {
+      "title": "Drawdown diagnostic output",
+      "command": "calculate_max_drawdown(net_values) from the same replay",
+      "result": {
+        "printed_lines": [
+          "Maximum Drawdown: 0.0",
+          "Maximum Drawdown Occurs at Index: 10003.720122698067",
+          "Prior Peak Occurs at Index: 10003.720122698067"
+        ],
+        "source_behavior": "The text says Index but interpolates net_values[index]; displayed number is equity value, not row index."
+      }
+    },
+    {
+      "title": "Front-end local production build",
+      "command": "NEXT_PUBLIC_SUPABASE_URL/ANON_KEY and API_URL pointed to loopback placeholders · npm run build",
+      "result": {
+        "status": "pass",
+        "next": "15.5.12",
+        "typescript": "passed",
+        "routes_prerendered": 14,
+        "external_services": false
+      }
+    },
+    {
+      "title": "Dashboard without backend data",
+      "command": "Next local app page /dashboard · backend port 3983 intentionally absent",
+      "result": {
+        "http_status": 200,
+        "screenshot": "frontend-dashboard-after-warmup.png",
+        "visible": "Backend offline; metrics --; no equity/signals/trades yet.",
+        "api_health_status": 502
+      }
+    },
+    {
+      "title": "Frontend degradation on failed data routes",
+      "command": "open /trades, /backtest, /logs against absent local API",
+      "result": {
+        "client_exceptions": [
+          "data.map is not a function",
+          "list.map is not a function",
+          "logs.map is not a function"
+        ],
+        "API_errors": [
+          {
+            "path": "/api/trades/performance",
+            "status": 502
+          },
+          {
+            "path": "/api/backtest",
+            "status": 502
+          },
+          {
+            "path": "/api/macro/latest",
+            "status": 502
+          },
+          {
+            "path": "/api/openclaw/research",
+            "status": 502
+          },
+          {
+            "path": "/api/config",
+            "status": 502
+          },
+          {
+            "path": "/api/klines",
+            "status": 502
+          },
+          {
+            "path": "/api/logs/recent",
+            "status": 502
+          },
+          {
+            "path": "/api/logs/stream",
+            "status": 502
+          }
+        ],
+        "external_fetches": []
+      }
+    },
+    {
+      "title": "Supabase, Binance and Claude integration boundary",
+      "command": "README + .env.example; no real keys configured",
+      "result": {
+        "credentials_required_for_full_app": [
+          "Supabase URL/key",
+          "Binance API for market/trading modes",
+          "Anthropic key for AI Strategy B"
+        ],
+        "tested_in_this_run": false,
+        "real_orders": false
+      }
+    },
+    {
+      "title": "Trade-mode claim vs verification",
+      "command": "README.md product contract",
+      "result": {
+        "strategy_A": "Paper, all Chan signals",
+        "strategy_B": "Claude-filtered Paper",
+        "paper_strategy_running": false,
+        "AI_filter_running": false,
+        "account_connection": false
+      }
+    }
+  ]
+}

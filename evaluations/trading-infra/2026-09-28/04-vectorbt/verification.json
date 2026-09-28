@@ -1,0 +1,50 @@
+{
+  "repo": "polakowo/vectorbt",
+  "tested_commit": "34b6d5935e3ea3eccd549e2592bc0f455b8045f5",
+  "commit_date": "2026-08-02",
+  "source_version": "1.1.0",
+  "tested_on": "2026-09-28",
+  "runtime": {
+    "python": "3.13.7",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "numba": "0.67.0",
+    "plotly_after_compat_override": "6.3.0",
+    "pip_check": "all installed packages compatible"
+  },
+  "install_observation": {
+    "vectorbt": "1.1.0",
+    "plotly_resolved_by_open_lower_bound": "7.1.0",
+    "import_result": "failed: Plotly layout property scattermapbox rejected by vectorbt default template",
+    "compatible_override": "Plotly 6.3.0; no vectorbt code changed"
+  },
+  "smoke": {
+    "bars_per_asset": 1200,
+    "assets": [
+      "SYN_A",
+      "SYN_B"
+    ],
+    "seed": 3406,
+    "price_source": "deterministic synthetic arrays",
+    "indicator_windows": [
+      12,
+      36
+    ],
+    "api": "Portfolio.from_signals",
+    "fees": 0.001,
+    "slippage": 0.0005,
+    "trades_records": 33,
+    "outputs": [
+      "Plotly native portfolio charts for SYN_A and SYN_B",
+      "per-asset stats CSV",
+      "trade records CSV"
+    ]
+  },
+  "results_are_synthetic": true,
+  "full_upstream_test_suite": "not run; direct install/import/indicator/backtest/plot smoke performed",
+  "screenshots": {
+    "count": 21,
+    "unique_sha256_count": 21
+  },
+  "network": "No external data sources/API keys/accounts/orders used."
+}
