@@ -26,11 +26,11 @@ Gaps: no product completed a paper order→fill→position closed loop in the fi
 | --- | --- | --- |
 | First-round trials and screenshots | complete | [PR #21](https://github.com/zinan92/trading/pull/21), [PR #22](https://github.com/zinan92/trading/pull/22) |
 | Pipeline framework with criteria-first scoring | complete | [PR #23](https://github.com/zinan92/trading/pull/23) |
-| Second round: paper closed loop, lock alignment, unverified criteria | not started | [issue: lock mismatches](https://github.com/zinan92/trading/issues) |
+| Second round: paper closed loop, lock alignment, unverified criteria | not started | [issue #24](https://github.com/zinan92/trading/issues/24) |
 
 ## Next move
 
-1. Re-test the six lock-mismatched products at their catalog lock.
+1. Re-test the six lock-mismatched products at their catalog lock ([issue #24](https://github.com/zinan92/trading/issues/24)).
 2. Run one paper closed loop (data → signal → risk → simulated fill → position readback) on the top Full Trading System candidates.
 
 ## ETA
