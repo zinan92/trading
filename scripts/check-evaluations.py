@@ -16,13 +16,7 @@ for p in ps:
   assert hashlib.sha256(f.read_bytes()).hexdigest()==s['public_sha256']
  assert (BASE/p['slug']/'evidence.json').is_file()
  assert (BASE/p['slug']/'preview.jpg').is_file()
-readme=(ROOT/'README.md').read_text()
-assert readme.count('<!-- EVALUATION:START -->')==1
-assert readme.count('<!-- EVALUATION:END -->')==1
-ranked=sorted(ps,key=lambda p:(-p['score'],p['repo']))
-positions=[readme.index(f"| {i} | [{p['repo'].split('/')[-1]}]") for i,p in enumerate(ranked,1)]
-assert positions==sorted(positions)
-files=[ROOT/'README.md']+list(BASE.rglob('*.md'))
+files=list(BASE.rglob('*.md'))
 for f in files:
  txt=f.read_text()
  assert '/Users/' not in txt,f

@@ -75,18 +75,5 @@ for rank,p in enumerate(P,1):
  if hero:index+=f"[![{name} 代表截图]({p['slug']}/images/{hero})]({link(p)})\n\n"
  index+=f"[完整判断]({link(p)}) · [全部截图]({p['slug']}/screenshots.md)\n\n"
 (BASE/'README.md').write_text(index.rstrip()+'\n')
-block='<!-- EVALUATION:START -->\n## Full Trading System / Agent · 首轮评测\n\n'+NOTICE+'\n\n采集：2026-09-26 · 14 个产品 · 只覆盖本分组。\n\n'+f'[统一评测页与完整图库]({REL}/README.md) · [评分依据]({REL}/methodology.md)\n\n'+table(REL+'/')+'\n\n### 每个产品大概长什么样\n\n'
-for p in P:
- hero=p.get('hero') or (p['screenshots'][0]['file'] if p['screenshots'] else None)
- block+=f"**{p['rank']}. [{p['repo'].split('/')[-1]}]({REL}/{p['slug']}/README.md) · {p['score']}/100** — {p['summary']}\n\n"
- if hero:block+=f"[![{p['repo'].split('/')[-1]} · {p['interface']}]({REL}/{p['slug']}/preview.jpg)]({REL}/{p['slug']}/screenshots.md)\n\n"
-block+='<!-- EVALUATION:END -->\n'
-readme=(ROOT/'README.md').read_text()
-readme=re.sub(r'\n*<!-- EVALUATION:START -->.*?<!-- EVALUATION:END -->\n*', '\n\n',readme,flags=re.S)
-for p in P:
- url='https://github.com/'+p['repo']; pat=r'(\| \[[^\]]+\]\('+re.escape(url)+r'\))(?: · \[首轮评测\]\([^\n|]+\))?'
- readme=re.sub(pat,lambda m:m.group(1)+f" · [首轮评测]({REL}/{p['slug']}/README.md)",readme)
-readme=readme.replace('**Trading 的 capability-first catalog：先按功能分类，再按加入时间从新到旧浏览。**','**Trading 产品目录与实测评估：看实际界面、比较使用结果，再选择值得深入测试的产品。**')
-readme=readme.replace('</div>\n\n','</div>\n\n'+block+'\n',1)
-(ROOT/'README.md').write_text(readme)
-print('Rendered',len(P),'products')
+# Root README overlay retired 2026-09-28: scripts/render-hub.py owns the README block now.
+print('Rendered',len(P),'products (archive pages only)')
