@@ -1,4 +1,4 @@
-snapshot_id: github-universe-2026-09-27-trading-consolidation-01
+snapshot_id: github-universe-2026-10-02-star-refresh-01
 entries:
 - universe: trading
   repo: tickflow-org/tickflow
@@ -997,6 +997,44 @@ entries:
     vendored: false
   catalog_added_at: '2024-04-13T06:36:51Z'
 - universe: trading
+  repo: simonlin1212/vibe-astock
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: dashboard
+  catalog_added_at: '2026-09-27T09:36:05Z'
+  tags:
+  - api
+  - dashboard
+  - python
+  source_url: https://github.com/simonlin1212/vibe-astock
+  visibility: public
+  archived: false
+  description: 'A 股短线复盘看板：涨停池·连板梯队·龙虎榜·板块资金一屏看完，赚钱效应/晋级率/梯队断层/情绪周期等派生指标纯计算直出（不经过 AI），AI 只把数据串成能读的盘面研判。全本地运行，可用 Claude/Codex
+    订阅免 API key。| A-share short-term daily-review dashboard: derived sentiment metrics computed locally, AI only writes the
+    narrative. No API key needed.'
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: 'A 股短线复盘看板：涨停池·连板梯队·龙虎榜·板块资金一屏看完，赚钱效应/晋级率/梯队断层/情绪周期等派生指标纯计算直出（不经过 AI），AI 只把数据串成能读的盘面研判。全本地运行，可用 Claude/Codex
+      订阅免 API key。| A-share short-term daily-review dashboard: derived sentiment metrics computed locally, AI only writes
+      the narrative. No API key needed.'
+    license_spdx: Apache-2.0
+    checked_at: 2026-10-02-star-refresh-01
+    pushed_at: '2026-09-25T09:25:52Z'
+  content_lock:
+    locked_ref: bd96df4045e7a4a68478862d18358139599fcf34
+    locked_url: https://github.com/simonlin1212/vibe-astock/commit/bd96df4045e7a4a68478862d18358139599fcf34
+    locked_at: 2026-10-02-star-refresh-01
+    update_policy: monthly_pr
+    vendored: false
+- universe: trading
   repo: Open-Dev-Society/OpenStock
   owned: false
   starred: true
@@ -1132,6 +1170,37 @@ entries:
     update_policy: monthly_pr
     vendored: false
   catalog_added_at: '2026-07-02T11:57:48Z'
+- universe: trading
+  repo: jundizhou/easy-stock
+  owned: false
+  starred: true
+  source_kind: starred
+  registry_repo: false
+  registry_role: null
+  primary_category: full-trading-system-agent
+  catalog_added_at: '2026-09-27T09:45:03Z'
+  tags: []
+  source_url: https://github.com/jundizhou/easy-stock
+  visibility: public
+  archived: false
+  description: A股行情分析与AI智能投研智能体：股票分析、量化交易分析、盘后复盘桌面工作台——easy stock
+  status: EXPLORING
+  review_status: confirmed
+  review_reason: null
+  github_snapshot:
+    default_branch: main
+    visibility: public
+    archived: false
+    description: A股行情分析与AI智能投研智能体：股票分析、量化交易分析、盘后复盘桌面工作台——easy stock
+    license_spdx: NOASSERTION
+    checked_at: 2026-10-02-star-refresh-01
+    pushed_at: '2026-09-30T15:11:09Z'
+  content_lock:
+    locked_ref: 37a8c1bb3e2e9cabeb11f94dbef50a8b955f1948
+    locked_url: https://github.com/jundizhou/easy-stock/commit/37a8c1bb3e2e9cabeb11f94dbef50a8b955f1948
+    locked_at: 2026-10-02-star-refresh-01
+    update_policy: monthly_pr
+    vendored: false
 - universe: trading
   repo: ArvinLovegood/go-stock
   owned: false

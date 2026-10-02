@@ -2,46 +2,25 @@
 
 # Trading
 
-**Trading 产品目录与实测评估：看实际界面、比较使用结果，再选择值得深入测试的产品。**
+**Trading 的 capability-first catalog：先按功能分类，再按加入时间从新到旧浏览。**
 
-[![Snapshot](https://img.shields.io/badge/snapshot-66%20repos-0969DA.svg)](snapshot.yaml)
+[![Snapshot](https://img.shields.io/badge/snapshot-68%20repos-0969DA.svg)](snapshot.yaml)
 [![Source](https://img.shields.io/badge/source-Park%20OS-8250DF.svg)](https://github.com/zinan92/park-operating-system)
 
 </div>
-
-<!-- HUB:START -->
-## 按交易 pipeline 评测
-
-每个库回答三个问题：在交易 pipeline 的哪一环、是否做到了自己声称的用途、证据是什么。标准按环节事先定义，分数从标准评级机械推导，只在同类内可比；不代表盈利能力或生产成熟度。
-
-Pipeline：1 数据获取 → 2 清洗与标准化 → 3 数据存档 → 4 指标与特征 → 5 策略与信号 → 6 回测 → 7 策略管理 → 8 风控 → 9 执行与券商 → 10 监控与看板
-
-[Pipeline 总览](evaluations/README.md) · [评测框架与标准](evaluations/FRAMEWORK.md)
-
-| 类别 | 目标 | 评测数 | 类内首位 | 页面 |
-|---|---|---:|---|---|
-| Data | 取得正确、及时、完整的交易数据，最好免费，并且下游能直接接入。 | 15 | [FinanceDatabase](evaluations/data/README.md#financedatabase) · 80 | [打开](evaluations/data/README.md) |
-| Equity Research | 为买卖决策提供可核验、可复现的研判，而不是一段无法追溯的文字。 | 6 | [Maverick MCP](evaluations/equity-research/README.md#maverick-mcp) · 82 | [打开](evaluations/equity-research/README.md) |
-| Trading Strategy | 策略与指标知识库全面（尽量互斥且穷尽）、计算正确、能直接送进回测。 | 11 | [TA-Lib](evaluations/trading-strategy/README.md#ta-lib-python) · 80 | [打开](evaluations/trading-strategy/README.md) |
-| Trading Infra | 回测→风控→执行的骨架可靠，组件可以单独替换。 | 5 | [standard-broker](evaluations/trading-infra/README.md#standard-broker) · 75 | [打开](evaluations/trading-infra/README.md) |
-| Dashboard | 人能快速、清晰地找到信息，并在需要时干预。 | 6 | [A Share Heatmap](evaluations/dashboard/README.md#a-share-heatmap) · 82 | [打开](evaluations/dashboard/README.md) |
-| Full Trading System / Agent | 有完整骨架，各环节先解耦再重耦，能跑通一次 paper 闭环。 | 15 | [tick-stock-panel](evaluations/full-trading-system/README.md#tick-stock-panel) · 70 | [打开](evaluations/full-trading-system/README.md) |
-| Knowledge & Collections | 参考资料，不评测。 | — | — | — |
-
-<!-- HUB:END -->
 
 ---
 
 ```text
 in  canonical Park OS snapshot + source provenance + fixed commit locks
-out 66-repo Trading catalog, grouped by function and ordered newest-added first
+out 68-repo Trading catalog, grouped by function and ordered newest-added first
 
 fail snapshot checksum mismatch → stop before publishing
 fail missing created_at / starred_at → stop; do not guess ordering
 fail unclassified placement → keep needs_review; do not guess
 ```
 
-Snapshot: `github-universe-2026-09-27-trading-consolidation-01` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
+Snapshot: `github-universe-2026-10-02-star-refresh-01` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
 
 ## How to read this page
 
@@ -56,90 +35,92 @@ Snapshot: `github-universe-2026-09-27-trading-consolidation-01` · canonical sou
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
-| [tickflow-org/tickflow](https://github.com/tickflow-org/tickflow) · [评测](evaluations/data/README.md#tickflow) | Professional financial data API for China A-shares, US & HK stocks. Python SDK with real-time quotes, K-line data & financial reports. | Starred | `2026-09-18` | `c27f23c50386` |
-| [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) · [评测](evaluations/data/README.md#financemcp) | 这是一个金融领域相关的mcp,本项目通过集成 Tushare API 和 Binance API 为语言模型（如Claude）提供全面的实时金融数据访问能力，支持股票、基金、债券、宏观经济指标、稳定币、虚拟货币等多维度金融数据分析。其中也包含了金融数据查询、财经新闻查询、国家统计局数据查询等 | Starred | `2026-09-13` | `784c6176647a` |
-| [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) · [评测](evaluations/data/README.md#tradingview-mcp) | TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host. | Starred | `2026-09-12` | `a1e54b07e5c2` |
-| [zinan92/watchlist](https://github.com/zinan92/watchlist) · [评测](evaluations/data/README.md#watchlist) | Park Exposure Registry — 行情与新闻共用的唯一权威名单：6 条宏观主线 / 24 个中观赛道 / 109 个 target | Owned | `2026-09-03` | `owned source` |
-| [HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API) · [评测](evaluations/data/README.md#financial-api) | 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development. | Starred | `2026-08-26` | `402574a6221d` · NEEDS_REVIEW |
-| [1nchaos/adata](https://github.com/1nchaos/adata) · [评测](evaluations/data/README.md#adata) | 免费开源A股量化交易数据库； 专注A股，专注量化，向阳而生； 开放、纯净、持续、为Ai(爱)发电。为个人量化交易而生，保卫3000点，珍惜底部机会......【股票数据，股票行情数据，股票量化数据，股票交易数据，k线行情数据，股票概念数据，股票数据接口，行情数据接口，量化交易数据】【多数据源融合，动态设置代理，保障数据高可用性】 | Starred | `2026-07-15` | `b14f4e57b217` |
-| [JerBouma/FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) · [评测](evaluations/data/README.md#financedatabase) | This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets. | Starred | `2026-07-15` | `a174c97d3bba` |
-| [simonlin1212/global-stock-data](https://github.com/simonlin1212/global-stock-data) · [评测](evaluations/data/README.md#global-stock-data) | US stock market data for AI coding assistants — zero-auth, official sources. CBOE options with full Greeks + 0DTE flow, FINRA market-wide short volume, SEC EDGAR filing stream, and a free market-wide screener. 13 layers, 30+ endpoints, 11 sources. Every source labeled with its compliance tier. | Starred | `2026-07-09` | `fbf0ae47d64e` |
-| [simonlin1212/a-stock-data](https://github.com/simonlin1212/a-stock-data) · [评测](evaluations/data/README.md#a-stock-data) | A股全栈数据工具包 · 十二层架构 · 60端点 · 22数据源 · 零鉴权 \| Full-stack China A-share data toolkit for AI agents — 12 layers, 60 endpoints, 22 sources, zero-auth | Starred | `2026-07-09` | `2012ce7cd0e7` |
-| [zinan92/datafeed](https://github.com/zinan92/datafeed) · [评测](evaluations/data/README.md#datafeed) | 行情数据。in ticker+timeframe → out OHLCV candles。A股/美股/加密/商品 | Owned | `2026-03-29` | `owned source` |
-| [sstklen/trump-code](https://github.com/sstklen/trump-code) · [评测](evaluations/trading-strategy/README.md#trump-code) | 🔐 AI decoding Trump's posts × stock market \| AI 解碼川普推文 × 美股 \| AIでトランプ投稿×株式市場を解読 — 31.5M models, 61.3% hit rate, open source | Starred | `2026-03-16` | `296b8e14ee88` |
-| [zinan92/intel](https://github.com/zinan92/intel) · [评测](evaluations/data/README.md#intel) | 情报采集。in 10+信息源 → out LLM评分+跨源事件聚类 | Owned + Starred | `2026-02-13` | `owned source` |
-| [zinan92/quant-data-pipeline](https://github.com/zinan92/quant-data-pipeline) · [评测](evaluations/data/README.md#quant-data-pipeline) | 多市场量化数据平台 — A股/美股/加密/商品，28组API，感知信号引擎，模拟交易 | Owned + Starred | `2026-02-13` | `owned source` |
-| [akfamily/akshare](https://github.com/akfamily/akshare) · [评测](evaluations/data/README.md#akshare) | AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库 | Starred | `2025-09-08` | `8e95744b79ae` |
+| [tickflow-org/tickflow](https://github.com/tickflow-org/tickflow) | Professional financial data API for China A-shares, US & HK stocks. Python SDK with real-time quotes, K-line data & financial reports. | Starred | `2026-09-18` | `c27f23c50386` |
+| [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) | 这是一个金融领域相关的mcp,本项目通过集成 Tushare API 和 Binance API 为语言模型（如Claude）提供全面的实时金融数据访问能力，支持股票、基金、债券、宏观经济指标、稳定币、虚拟货币等多维度金融数据分析。其中也包含了金融数据查询、财经新闻查询、国家统计局数据查询等 | Starred | `2026-09-13` | `784c6176647a` |
+| [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host. | Starred | `2026-09-12` | `a1e54b07e5c2` |
+| [zinan92/watchlist](https://github.com/zinan92/watchlist) | Park Exposure Registry — 行情与新闻共用的唯一权威名单：6 条宏观主线 / 24 个中观赛道 / 109 个 target | Owned | `2026-09-03` | `owned source` |
+| [HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API) | 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development. | Starred | `2026-08-26` | `402574a6221d` · NEEDS_REVIEW |
+| [1nchaos/adata](https://github.com/1nchaos/adata) | 免费开源A股量化交易数据库； 专注A股，专注量化，向阳而生； 开放、纯净、持续、为Ai(爱)发电。为个人量化交易而生，保卫3000点，珍惜底部机会......【股票数据，股票行情数据，股票量化数据，股票交易数据，k线行情数据，股票概念数据，股票数据接口，行情数据接口，量化交易数据】【多数据源融合，动态设置代理，保障数据高可用性】 | Starred | `2026-07-15` | `b14f4e57b217` |
+| [JerBouma/FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) | This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets. | Starred | `2026-07-15` | `a174c97d3bba` |
+| [simonlin1212/global-stock-data](https://github.com/simonlin1212/global-stock-data) | US stock market data for AI coding assistants — zero-auth, official sources. CBOE options with full Greeks + 0DTE flow, FINRA market-wide short volume, SEC EDGAR filing stream, and a free market-wide screener. 13 layers, 30+ endpoints, 11 sources. Every source labeled with its compliance tier. | Starred | `2026-07-09` | `fbf0ae47d64e` |
+| [simonlin1212/a-stock-data](https://github.com/simonlin1212/a-stock-data) | A股全栈数据工具包 · 十二层架构 · 60端点 · 22数据源 · 零鉴权 \| Full-stack China A-share data toolkit for AI agents — 12 layers, 60 endpoints, 22 sources, zero-auth | Starred | `2026-07-09` | `2012ce7cd0e7` |
+| [zinan92/datafeed](https://github.com/zinan92/datafeed) | 行情数据。in ticker+timeframe → out OHLCV candles。A股/美股/加密/商品 | Owned | `2026-03-29` | `owned source` |
+| [sstklen/trump-code](https://github.com/sstklen/trump-code) | 🔐 AI decoding Trump's posts × stock market \| AI 解碼川普推文 × 美股 \| AIでトランプ投稿×株式市場を解読 — 31.5M models, 61.3% hit rate, open source | Starred | `2026-03-16` | `296b8e14ee88` |
+| [zinan92/intel](https://github.com/zinan92/intel) | 情报采集。in 10+信息源 → out LLM评分+跨源事件聚类 | Owned + Starred | `2026-02-13` | `owned source` |
+| [zinan92/quant-data-pipeline](https://github.com/zinan92/quant-data-pipeline) | 多市场量化数据平台 — A股/美股/加密/商品，28组API，感知信号引擎，模拟交易 | Owned + Starred | `2026-02-13` | `owned source` |
+| [akfamily/akshare](https://github.com/akfamily/akshare) | AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库 | Starred | `2025-09-08` | `8e95744b79ae` |
 
 ### Equity Research (9)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
-| [wshobson/maverick-mcp](https://github.com/wshobson/maverick-mcp) · [评测](evaluations/equity-research/README.md#maverick-mcp) | MaverickMCP - Personal Stock Analysis MCP Server | Starred | `2026-09-13` | `fb55c84c9a9c` |
-| [wenyuanw/a-share-heatmap](https://github.com/wenyuanw/a-share-heatmap) · [评测](evaluations/dashboard/README.md#a-share-heatmap) | 免费开源的 A股热力图｜A股大盘云图，各板块涨跌一眼可见 | Starred | `2026-08-26` | `c15f94e616cf` · NEEDS_REVIEW |
+| [wshobson/maverick-mcp](https://github.com/wshobson/maverick-mcp) | MaverickMCP - Personal Stock Analysis MCP Server | Starred | `2026-09-13` | `fb55c84c9a9c` |
+| [wenyuanw/a-share-heatmap](https://github.com/wenyuanw/a-share-heatmap) | 免费开源的 A股热力图｜A股大盘云图，各板块涨跌一眼可见 | Starred | `2026-08-26` | `c15f94e616cf` · NEEDS_REVIEW |
 | [star23/Day1Global-Skills](https://github.com/star23/Day1Global-Skills) | Day1Global Skills Share: US Stock, Macro Market, Crypto | Starred | `2026-07-21` | `562c14b0c0bc` |
-| [zinan92/equity-research](https://github.com/zinan92/equity-research) · [评测](evaluations/equity-research/README.md#equity-research) | A股长期投委会 + 证据快照深度研报平台(Park 产品层) | Owned | `2026-07-20` | `owned source` |
-| [rollingSirius/equity-research-skill](https://github.com/rollingSirius/equity-research-skill) · [评测](evaluations/equity-research/README.md#equity-research-skill) | Possibly the deepest AI equity-research skill: nine-chapter single-stock deep dives and earnings deep-dives, with scripted DCF/EPV/EVA and reproducible valuation. Covers US, HK and A-shares. Docs in EN and ZH. | Starred | `2026-07-18` | `3d94e64ff53b` |
-| [wbh604/UZI-Skill](https://github.com/wbh604/UZI-Skill) · [评测](evaluations/equity-research/README.md#uzi-skill) | 冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 让我们欢迎，股海贼王！66位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 | Starred | `2026-07-09` | `650788c54a9b` |
-| [muxuuu/serenity-skill](https://github.com/muxuuu/serenity-skill) · [评测](evaluations/equity-research/README.md#serenity-skill) | Serenity-inspired Agent Skill for supply-chain bottleneck stock research | Starred | `2026-07-09` | `c2fe93deedfd` |
-| [virattt/dexter](https://github.com/virattt/dexter) · [评测](evaluations/equity-research/README.md#dexter) | An autonomous agent for deep financial research | Starred | `2026-05-09` | `ecaed3011f24` |
-| [microsoft/qlib](https://github.com/microsoft/qlib) · [评测](evaluations/trading-strategy/README.md#qlib) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process. | Starred | `2025-08-11` | `79633dd9506e` |
+| [zinan92/equity-research](https://github.com/zinan92/equity-research) | A股长期投委会 + 证据快照深度研报平台(Park 产品层) | Owned | `2026-07-20` | `owned source` |
+| [rollingSirius/equity-research-skill](https://github.com/rollingSirius/equity-research-skill) | Possibly the deepest AI equity-research skill: nine-chapter single-stock deep dives and earnings deep-dives, with scripted DCF/EPV/EVA and reproducible valuation. Covers US, HK and A-shares. Docs in EN and ZH. | Starred | `2026-07-18` | `3d94e64ff53b` |
+| [wbh604/UZI-Skill](https://github.com/wbh604/UZI-Skill) | 冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 让我们欢迎，股海贼王！66位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 | Starred | `2026-07-09` | `650788c54a9b` |
+| [muxuuu/serenity-skill](https://github.com/muxuuu/serenity-skill) | Serenity-inspired Agent Skill for supply-chain bottleneck stock research | Starred | `2026-07-09` | `c2fe93deedfd` |
+| [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research | Starred | `2026-05-09` | `ecaed3011f24` |
+| [microsoft/qlib](https://github.com/microsoft/qlib) | Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process. | Starred | `2025-08-11` | `79633dd9506e` |
 
-### Trading Strategy (9) · [首轮试用、排序与定位](evaluations/trading-strategy/2026-09-28/README.md)
-
-| Repo | Capability / description | Source | Added | Lock / flags |
-|---|---|---|---|---|
-| [fmzquant/strategies](https://github.com/fmzquant/strategies) · [评测](evaluations/trading-strategy/README.md#strategies) | quantitative trading with Javascript, Python, C++, PineScript, Blockly, MyLanguage(麦语言) | Starred | `2026-09-24` | `7853bb2bf262` |
-| [YoungCan-Wang/WyckoffTradingAgent](https://github.com/YoungCan-Wang/WyckoffTradingAgent) · [评测](evaluations/trading-strategy/README.md#wyckofftradingagent) | Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI workflows, and MCP tools.灵感来自秋生trader @Hoyooyoo | Starred | `2026-09-18` | `6bdaf1eb3cff` |
-| [nhovongoc0-max/meme-radar](https://github.com/nhovongoc0-max/meme-radar) · [评测](evaluations/trading-strategy/README.md#meme-radar) | Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具 | Starred | `2026-09-13` | `9c41a444b9bc` |
-| [Vespa314/chan.py](https://github.com/Vespa314/chan.py) · [评测](evaluations/trading-strategy/README.md#chan-py) | 开放式的缠论python实现框架，支持形态学/动力学买卖点分析计算，多级别K线联立，区间套策略，可视化绘图，多种数据接入，策略开发，交易系统对接； | Starred | `2026-09-12` | `429d6ed3043e` |
-| [neil-pan-s/one-quant-doc](https://github.com/neil-pan-s/one-quant-doc) · [评测](evaluations/trading-strategy/README.md#one-quant-doc) | 缠中说禅-缠论技术分析 实时自动笔段画线、中枢标识 递归分析整体走势 作为买卖分析参考 | Starred | `2026-09-12` | `7231f5d5353c` |
-| [zinan92/trading-strategy](https://github.com/zinan92/trading-strategy) · [评测](evaluations/trading-strategy/README.md#trading-strategy) | Archived 2026-09-27. Moved into zinan92/trading-system (packages/trading-strategy) | Owned | `2026-08-24` | `owned source` · ARCHIVED |
-| [zinan92/chancode](https://github.com/zinan92/chancode) · [评测](evaluations/trading-strategy/README.md#chancode) | No description | Owned | `2026-05-26` | `owned source` · PRIVATE |
-| [waditu/czsc](https://github.com/waditu/czsc) · [评测](evaluations/trading-strategy/README.md#czsc) | 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 | Starred | `2025-08-11` | `701e480a5450` |
-| [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python) · [评测](evaluations/trading-strategy/README.md#ta-lib-python) | Python wrapper for TA-Lib (http://ta-lib.org/). | Starred | `2024-04-21` | `fd6089b183fc` |
-
-### Trading Infra (6) · [首轮试用、排序与定位](evaluations/trading-infra/2026-09-28/README.md)
+### Trading Strategy (9)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
-| [zinan92/standard-broker](https://github.com/zinan92/standard-broker) · [评测](evaluations/trading-infra/README.md#standard-broker) | Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-broker) | Owned | `2026-08-21` | `owned source` · PRIVATE · ARCHIVED |
-| [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) · [评测](evaluations/trading-infra/README.md#nautilus-trader) | Production-grade Rust-native trading engine with deterministic event-driven architecture | Starred | `2026-07-09` | `23cb3035dff7` |
-| [zinan92/trading-system](https://github.com/zinan92/trading-system) · [评测](evaluations/full-trading-system/README.md#trading-system) | Park 交易平台：trade.park-ai-intel.com/trade 背后的全部代码。GridMind 面板 + 交易台 + broker/strategy/kline 包，Testnet/Paper only | Owned | `2026-07-03` | `owned source` |
-| [polakowo/vectorbt](https://github.com/polakowo/vectorbt) · [评测](evaluations/trading-infra/README.md#vectorbt) | The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one. | Starred | `2024-04-21` | `34b6d5935e3e` |
-| [ccxt/ccxt](https://github.com/ccxt/ccxt) · [评测](evaluations/trading-infra/README.md#ccxt) | A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust | Starred | `2024-04-13` | `c781a2437d88` |
-| [Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot) · [评测](evaluations/trading-infra/README.md#octobot) | Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid and 15+ exchanges, with a simple interface. | Starred | `2024-04-13` | `dc0efc8ec36c` |
+| [fmzquant/strategies](https://github.com/fmzquant/strategies) | quantitative trading with Javascript, Python, C++, PineScript, Blockly, MyLanguage(麦语言) | Starred | `2026-09-24` | `7853bb2bf262` |
+| [YoungCan-Wang/WyckoffTradingAgent](https://github.com/YoungCan-Wang/WyckoffTradingAgent) | Open-source Wyckoff trading agent and AI stock screener for volume-price analysis, A-share screening, CLI workflows, and MCP tools.灵感来自秋生trader @Hoyooyoo | Starred | `2026-09-18` | `6bdaf1eb3cff` |
+| [nhovongoc0-max/meme-radar](https://github.com/nhovongoc0-max/meme-radar) | Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具 | Starred | `2026-09-13` | `9c41a444b9bc` |
+| [Vespa314/chan.py](https://github.com/Vespa314/chan.py) | 开放式的缠论python实现框架，支持形态学/动力学买卖点分析计算，多级别K线联立，区间套策略，可视化绘图，多种数据接入，策略开发，交易系统对接； | Starred | `2026-09-12` | `429d6ed3043e` |
+| [neil-pan-s/one-quant-doc](https://github.com/neil-pan-s/one-quant-doc) | 缠中说禅-缠论技术分析 实时自动笔段画线、中枢标识 递归分析整体走势 作为买卖分析参考 | Starred | `2026-09-12` | `7231f5d5353c` |
+| [zinan92/trading-strategy](https://github.com/zinan92/trading-strategy) | Archived 2026-09-27. Moved into zinan92/trading-system (packages/trading-strategy) | Owned | `2026-08-24` | `owned source` · ARCHIVED |
+| [zinan92/chancode](https://github.com/zinan92/chancode) | No description | Owned | `2026-05-26` | `owned source` · PRIVATE |
+| [waditu/czsc](https://github.com/waditu/czsc) | 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 | Starred | `2025-08-11` | `701e480a5450` |
+| [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python) | Python wrapper for TA-Lib (http://ta-lib.org/). | Starred | `2024-04-21` | `fd6089b183fc` |
 
-### Dashboard (7) · [首轮试用、排序与定位](evaluations/dashboard/2026-09-28/README.md)
-
-| Repo | Capability / description | Source | Added | Lock / flags |
-|---|---|---|---|---|
-| [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) · [评测](evaluations/dashboard/README.md#openstock) | OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free. | Starred | `2026-09-24` | `87df76a2ce58` |
-| [zinan92/trading-desk](https://github.com/zinan92/trading-desk) · [评测](evaluations/dashboard/README.md#trading-desk) | Archived 2026-09-27. Moved into zinan92/trading-system (apps/trading-desk) | Owned | `2026-09-14` | `owned source` · PRIVATE · ARCHIVED |
-| [zinan92/human-kline-review](https://github.com/zinan92/human-kline-review) · [评测](evaluations/dashboard/README.md#human-kline-review) | Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later | Owned | `2026-08-23` | `owned source` · PRIVATE |
-| [deepentropy/tvscreener](https://github.com/deepentropy/tvscreener) · [评测](evaluations/data/README.md#tvscreener) | TradingView Screener API - Stock, Crypto, Forex, Bond, Futures, Coin | Starred | `2026-08-10` | `737c9764c1e5` |
-| [gloom-sh/gloomberb](https://github.com/gloom-sh/gloomberb) · [评测](evaluations/dashboard/README.md#gloomberb) | Finance terminal, in your terminal. | Starred | `2026-07-21` | `4dc1d5cd2714` |
-| [zinan92/standard-kline](https://github.com/zinan92/standard-kline) · [评测](evaluations/dashboard/README.md#standard-kline) | Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-kline) | Owned | `2026-07-07` | `owned source` · ARCHIVED |
-| [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) · [评测](evaluations/data/README.md#tradingview-api) | 📈 Get real-time stocks from TradingView | Starred | `2026-07-02` | `5baea86c8c7e` |
-
-### Full Trading System / Agent (14)
+### Trading Infra (6)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
-| [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) · [评测](evaluations/full-trading-system/README.md#go-stock) | 🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。 | Starred | `2026-09-24` | `c26304fafab0` |
-| [FinHackCN/finhack](https://github.com/FinHackCN/finhack) · [评测](evaluations/full-trading-system/README.md#finhack) | FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。 | Starred | `2026-09-18` | `dedbbd0b7acc` |
-| [nishuzumi/fomomo](https://github.com/nishuzumi/fomomo) · [评测](evaluations/full-trading-system/README.md#fomomo) | No description | Starred | `2026-09-13` | `a2c6040392e3` · NEEDS_REVIEW |
-| [ling-0729/KHunter](https://github.com/ling-0729/KHunter) · [评测](evaluations/full-trading-system/README.md#khunter) | KHunter 是一套开箱即用的A股量化交易系统，集数据管理、策略选股、择时交易、风险控制、回测验证于一体，为个人投资者提供从数据到交易的全流程量化解决方案。 | Starred | `2026-09-10` | `ca93f9e05523` |
-| [Theclues/TradeGenuis-Options](https://github.com/Theclues/TradeGenuis-Options) · [评测](evaluations/full-trading-system/README.md#tradegenuis-options) | No description | Starred | `2026-09-07` | `a77d13dae84b` |
-| [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X) · [评测](evaluations/full-trading-system/README.md#sequoia-x) | A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书 | Starred | `2026-08-26` | `444c0db69ff3` · NEEDS_REVIEW |
-| [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) · [评测](evaluations/full-trading-system/README.md#tick-stock-panel) | TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 \| LLM能力驱使策略定制+个股分析+复盘 \| 自由接入第三方数据源与个性化扩展数据 \| 个人开源 | Starred | `2026-08-26` | `bfbccf9c414f` · NEEDS_REVIEW |
-| [lzwme/finance-quant-skills](https://github.com/lzwme/finance-quant-skills) · [评测](evaluations/full-trading-system/README.md#finance-quant-skills) | 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。 | Starred | `2026-08-26` | `7af066194d8d` |
-| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) · [评测](evaluations/full-trading-system/README.md#kronos) | Kronos: A Foundation Model for the Language of Financial Markets | Starred | `2026-08-03` | `67b630e67f6a` |
-| [simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research) · [评测](evaluations/full-trading-system/README.md#vibe-research) | Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录、回测。Vibe-Research 把数据和功能配齐，由你自己的 Agent 驱动投资研究。基于开源的 Codex Harness 打造。 | Starred | `2026-08-03` | `34ed58155ca2` |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) · [评测](evaluations/full-trading-system/README.md#vibe-trading) | "Vibe-Trading: Your Personal Trading Agent" | Starred | `2026-07-21` | `e476b4ce4c3b` |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) · [评测](evaluations/full-trading-system/README.md#daily-stock-analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. | Starred | `2026-06-08` | `1168e316269b` |
-| [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) · [评测](evaluations/full-trading-system/README.md#quantdinger) | Open-source AI Trading OS and commercial-ready multi-tenant SaaS platform — research markets, build Python strategies, backtest, paper/live trade, and monitor crypto, stocks, and forex, with built-in user management, billing, payments, and settlement to launch and operate your own trading service. | Starred | `2026-05-01` | `d8508a85a473` |
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) · [评测](evaluations/full-trading-system/README.md#tradingagents) | TradingAgents: Multi-Agents LLM Financial Trading Framework | Starred | `2026-02-02` | `be952b8eccb4` |
+| [zinan92/standard-broker](https://github.com/zinan92/standard-broker) | Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-broker) | Owned | `2026-08-21` | `owned source` · PRIVATE · ARCHIVED |
+| [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | Production-grade Rust-native trading engine with deterministic event-driven architecture | Starred | `2026-07-09` | `23cb3035dff7` |
+| [zinan92/trading-system](https://github.com/zinan92/trading-system) | Park 交易平台：trade.park-ai-intel.com/trade 背后的全部代码。GridMind 面板 + 交易台 + broker/strategy/kline 包，Testnet/Paper only | Owned | `2026-07-03` | `owned source` |
+| [polakowo/vectorbt](https://github.com/polakowo/vectorbt) | The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one. | Starred | `2024-04-21` | `34b6d5935e3e` |
+| [ccxt/ccxt](https://github.com/ccxt/ccxt) | A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust | Starred | `2024-04-13` | `c781a2437d88` |
+| [Drakkar-Software/OctoBot](https://github.com/Drakkar-Software/OctoBot) | Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid and 15+ exchanges, with a simple interface. | Starred | `2024-04-13` | `dc0efc8ec36c` |
+
+### Dashboard (8)
+
+| Repo | Capability / description | Source | Added | Lock / flags |
+|---|---|---|---|---|
+| [simonlin1212/vibe-astock](https://github.com/simonlin1212/vibe-astock) | A 股短线复盘看板：涨停池·连板梯队·龙虎榜·板块资金一屏看完，赚钱效应/晋级率/梯队断层/情绪周期等派生指标纯计算直出（不经过 AI），AI 只把数据串成能读的盘面研判。全本地运行，可用 Claude/Codex 订阅免 API key。\| A-share short-term daily-review dashboard: derived sentiment metrics computed locally, AI only writes the narrative. No API key needed. | Starred | `2026-09-27` | `bd96df4045e7` |
+| [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free. | Starred | `2026-09-24` | `87df76a2ce58` |
+| [zinan92/trading-desk](https://github.com/zinan92/trading-desk) | Archived 2026-09-27. Moved into zinan92/trading-system (apps/trading-desk) | Owned | `2026-09-14` | `owned source` · PRIVATE · ARCHIVED |
+| [zinan92/human-kline-review](https://github.com/zinan92/human-kline-review) | Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later | Owned | `2026-08-23` | `owned source` · PRIVATE |
+| [deepentropy/tvscreener](https://github.com/deepentropy/tvscreener) | TradingView Screener API - Stock, Crypto, Forex, Bond, Futures, Coin | Starred | `2026-08-10` | `737c9764c1e5` |
+| [gloom-sh/gloomberb](https://github.com/gloom-sh/gloomberb) | Finance terminal, in your terminal. | Starred | `2026-07-21` | `4dc1d5cd2714` |
+| [zinan92/standard-kline](https://github.com/zinan92/standard-kline) | Archived 2026-09-27. Moved into zinan92/trading-system (packages/standard-kline) | Owned | `2026-07-07` | `owned source` · ARCHIVED |
+| [Mathieu2301/TradingView-API](https://github.com/Mathieu2301/TradingView-API) | 📈 Get real-time stocks from TradingView | Starred | `2026-07-02` | `5baea86c8c7e` |
+
+### Full Trading System / Agent (15)
+
+| Repo | Capability / description | Source | Added | Lock / flags |
+|---|---|---|---|---|
+| [jundizhou/easy-stock](https://github.com/jundizhou/easy-stock) | A股行情分析与AI智能投研智能体：股票分析、量化交易分析、盘后复盘桌面工作台——easy stock | Starred | `2026-09-27` | `37a8c1bb3e2e` |
+| [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) | 🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。 | Starred | `2026-09-24` | `c26304fafab0` |
+| [FinHackCN/finhack](https://github.com/FinHackCN/finhack) | FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。 | Starred | `2026-09-18` | `dedbbd0b7acc` |
+| [nishuzumi/fomomo](https://github.com/nishuzumi/fomomo) | No description | Starred | `2026-09-13` | `a2c6040392e3` · NEEDS_REVIEW |
+| [ling-0729/KHunter](https://github.com/ling-0729/KHunter) | KHunter 是一套开箱即用的A股量化交易系统，集数据管理、策略选股、择时交易、风险控制、回测验证于一体，为个人投资者提供从数据到交易的全流程量化解决方案。 | Starred | `2026-09-10` | `ca93f9e05523` |
+| [Theclues/TradeGenuis-Options](https://github.com/Theclues/TradeGenuis-Options) | No description | Starred | `2026-09-07` | `a77d13dae84b` |
+| [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X) | A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书 | Starred | `2026-08-26` | `444c0db69ff3` · NEEDS_REVIEW |
+| [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 \| LLM能力驱使策略定制+个股分析+复盘 \| 自由接入第三方数据源与个性化扩展数据 \| 个人开源 | Starred | `2026-08-26` | `bfbccf9c414f` · NEEDS_REVIEW |
+| [lzwme/finance-quant-skills](https://github.com/lzwme/finance-quant-skills) | 一个面向金融量化交易领域的 Agent Skills 技能维护仓库，主要聚焦A股量化交易。 | Starred | `2026-08-26` | `7af066194d8d` |
+| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | Starred | `2026-08-03` | `67b630e67f6a` |
+| [simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research) | Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录、回测。Vibe-Research 把数据和功能配齐，由你自己的 Agent 驱动投资研究。基于开源的 Codex Harness 打造。 | Starred | `2026-08-03` | `34ed58155ca2` |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent" | Starred | `2026-07-21` | `e476b4ce4c3b` |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. | Starred | `2026-06-08` | `1168e316269b` |
+| [OpenByteInc/QuantDinger](https://github.com/OpenByteInc/QuantDinger) | Open-source AI Trading OS and commercial-ready multi-tenant SaaS platform — research markets, build Python strategies, backtest, paper/live trade, and monitor crypto, stocks, and forex, with built-in user management, billing, payments, and settlement to launch and operate your own trading service. | Starred | `2026-05-01` | `d8508a85a473` |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading Framework | Starred | `2026-02-02` | `be952b8eccb4` |
 
 ### Knowledge & Collections (7)
 

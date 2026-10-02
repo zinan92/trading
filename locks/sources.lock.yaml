@@ -1,5 +1,5 @@
-snapshot_id: github-universe-2026-09-27-trading-consolidation-01
-generated_from_checksum: 50ab1a02e973b012ad48cdbb7310a8c4cae6d23246ce61c65cfb3cb81eeeba62
+snapshot_id: github-universe-2026-10-02-star-refresh-01
+generated_from_checksum: 8036d7497ce0a89e8e2ba8eba972c0f869998126ec2c6bb80038f20794ed3354
 locks:
 - repo: tickflow-org/tickflow
   source_url: https://github.com/tickflow-org/tickflow
@@ -233,6 +233,14 @@ locks:
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false
+- repo: simonlin1212/vibe-astock
+  source_url: https://github.com/simonlin1212/vibe-astock
+  content_lock:
+    locked_ref: bd96df4045e7a4a68478862d18358139599fcf34
+    locked_url: https://github.com/simonlin1212/vibe-astock/commit/bd96df4045e7a4a68478862d18358139599fcf34
+    locked_at: 2026-10-02-star-refresh-01
+    update_policy: monthly_pr
+    vendored: false
 - repo: Open-Dev-Society/OpenStock
   source_url: https://github.com/Open-Dev-Society/OpenStock
   content_lock:
@@ -263,6 +271,14 @@ locks:
     locked_ref: 5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
     locked_url: https://github.com/Mathieu2301/TradingView-API/commit/5baea86c8c7e576f13464919c86c3b4c4b0ecf4c
     locked_at: '2026-09-14'
+    update_policy: monthly_pr
+    vendored: false
+- repo: jundizhou/easy-stock
+  source_url: https://github.com/jundizhou/easy-stock
+  content_lock:
+    locked_ref: 37a8c1bb3e2e9cabeb11f94dbef50a8b955f1948
+    locked_url: https://github.com/jundizhou/easy-stock/commit/37a8c1bb3e2e9cabeb11f94dbef50a8b955f1948
+    locked_at: 2026-10-02-star-refresh-01
     update_policy: monthly_pr
     vendored: false
 - repo: ArvinLovegood/go-stock
