@@ -48,6 +48,14 @@
 
 - **trading-system** 目录归 Trading Infra，按本类标准评测并参与本类排名。
 
+## 新加入、尚未评测
+
+这些库在首轮试用之后才加入目录，还没有实测证据，所以没有卡片和分数。
+
+| 产品 | 加入目录 | 目录描述 |
+|---|---|---|
+| [easy-stock](https://github.com/jundizhou/easy-stock) | 2026-09-27 | A股行情分析与AI智能投研智能体：股票分析、量化交易分析、盘后复盘桌面工作台——easy stock |
+
 ## 产品卡片
 
 <a id="tick-stock-panel"></a>

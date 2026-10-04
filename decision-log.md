@@ -18,3 +18,12 @@
   - A product has one full card, filed under the category it is evaluated as. A placeholder in its catalog-category file carries `stub: true`.
   - Category suggestions are evaluation opinions. The canonical category and lock stay in Park OS.
   - Never hand-edit generated pages: `evaluations/README.md` and `evaluations/<category>/README.md`.
+
+## 2026-10-04 — Catalog entries without a card are pending, not errors
+
+- **Context:** The October 2 Park OS export (PR #25) rewrote the README, which removed the `HUB` block and every `[评测]` link, and added two repos with no evaluation evidence. `check-hub.py` then failed on the missing cards.
+- **Decision:** Restore the hub by re-running `render-hub.py`. Repos in the catalog without a card are listed as 新加入、尚未评测 on their category page and in the overview, with a 待评测 count on the README; the checker reports them as a note instead of failing.
+- **Why:** New stars arrive faster than trial rounds. A failing checker would block every catalog refresh, and an empty card would imply evidence that does not exist.
+- **Alternatives rejected:** Writing placeholder cards with every criterion unverified, because it pads the catalog with fake rows.
+- **Evidence:** this PR; `python3 scripts/check-hub.py` passes with 2 pending.
+- **Gotchas:** The README wipe will recur on every export until the Park OS exporter preserves the `HUB` block; that fix lives in zinan92/park-operating-system.
