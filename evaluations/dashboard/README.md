@@ -36,6 +36,14 @@
 - **tvscreener** 目录归本类，按 Data 标准评测，见 [tvscreener](../data/README.md#tvscreener)。
 - **TradingView-API** 目录归本类，按 Data 标准评测，见 [TradingView-API](../data/README.md#tradingview-api)。
 
+## 新加入、尚未评测
+
+这些库在首轮试用之后才加入目录，还没有实测证据，所以没有卡片和分数。
+
+| 产品 | 加入目录 | 目录描述 |
+|---|---|---|
+| [vibe-astock](https://github.com/simonlin1212/vibe-astock) | 2026-09-27 | A 股短线复盘看板：涨停池·连板梯队·龙虎榜·板块资金一屏看完，赚钱效应/晋级率/梯队断层/情绪周期等派生指标纯计算直出（不经过 AI），AI 只把数据串成能读的盘面研判。全本地运… |
+
 ## 产品卡片
 
 <a id="a-share-heatmap"></a>

@@ -51,6 +51,34 @@ def slug(repo: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", repo.split("/")[-1].lower()).strip("-")
 
 
+def load_pending(products: list[dict]) -> dict[str, list[dict]]:
+    """Catalog entries (outside Knowledge & Collections) that have no card yet, grouped by catalog category."""
+    import yaml
+
+    carded = {p["repo"] for p in products}
+    snap = yaml.safe_load((ROOT / "snapshot.yaml").read_text())
+    pending: dict[str, list[dict]] = {}
+    for e in snap["entries"]:
+        if e["primary_category"] == "knowledge-and-collections" or e["repo"] in carded:
+            continue
+        pending.setdefault(e["primary_category"], []).append(
+            {"repo": e["repo"], "added": str(e["catalog_added_at"])[:10], "description": " ".join((e.get("description") or "").split())}
+        )
+    return pending
+
+
+PENDING: dict[str, list[dict]] = {}
+
+
+def pending_table(items: list[dict]) -> str:
+    rows = ["| 产品 | 加入目录 | 目录描述 |", "|---|---|---|"]
+    for e in items:
+        desc = e["description"].replace("|", "\\|")
+        desc = desc[:90] + ("…" if len(desc) > 90 else "")
+        rows.append(f"| [{e['repo'].split('/')[-1]}](https://github.com/{e['repo']}) | {e['added']} | {desc} |")
+    return "\n".join(rows)
+
+
 def load_products() -> list[dict]:
     products = []
     for f in sorted((EVAL / "assessments").glob("*.json")):
@@ -266,6 +294,8 @@ def render_category(cat_id: str, products: list[dict], all_products: list[dict])
             else:
                 out.append(f"- **{p['name']}** 目录归本类，按 {CATS[p['evaluated_as']]['name']} 标准评测，见 {product_link(p, page_dir)}。")
         out.append("")
+    if PENDING.get(cat_id):
+        out += ["## 新加入、尚未评测", "", "这些库在首轮试用之后才加入目录，还没有实测证据，所以没有卡片和分数。", "", pending_table(PENDING[cat_id]), ""]
     out += ["## 产品卡片", ""]
     for i, p in enumerate(ranked, 1):
         out.append(card(p, i, page_dir))
@@ -330,6 +360,12 @@ def render_hub(products: list[dict]) -> None:
         ver_txt = f"{round(sc['verified']*100)}%" if sc["score"] is not None else "—"
         out.append(f"| {product_link(p, EVAL)} | {CATS[p['evaluated_as']]['name']} | {score_txt} | {ver_txt} | {stage_compact(p)} | {short_status(p)} |")
     out.append("")
+    pend = [e | {"cat": c} for c in CATALOG_ORDER for e in PENDING.get(c, [])]
+    if pend:
+        out += ["## 新加入、尚未评测", "", "| 产品 | 目录类别 | 加入目录 |", "|---|---|---|"]
+        for e in pend:
+            out.append(f"| [{e['repo'].split('/')[-1]}](https://github.com/{e['repo']}) | [{CATS[e['cat']]['name']}]({CAT_DIR[e['cat']]}/README.md) | {e['added']} |")
+        out.append("")
     out += ["## 原始证据轮次", ""]
     rounds = sorted({p["evidence_dir"].rsplit("/", 1)[0] for p in products if p.get("evidence_dir")})
     for r in rounds:
@@ -357,16 +393,17 @@ def render_root(products: list[dict]) -> None:
     lines.append("")
     lines.append("[Pipeline 总览](evaluations/README.md) · [评测框架与标准](evaluations/FRAMEWORK.md)")
     lines.append("")
-    lines += ["| 类别 | 目标 | 评测数 | 类内首位 | 页面 |", "|---|---|---:|---|---|"]
+    lines += ["| 类别 | 目标 | 评测数 | 待评测 | 类内首位 | 页面 |", "|---|---|---:|---:|---|---|"]
     for cid in CATALOG_ORDER:
         cat = CATS[cid]
         ps = by_cat.get(cid, [])
         if cid == "knowledge-and-collections":
-            lines.append(f"| {cat['name']} | {cat['objective']} | — | — | — |")
+            lines.append(f"| {cat['name']} | {cat['objective']} | — | — | — | — |")
             continue
         ranked = sorted([p for p in ps if p["_score"]["ranked"]], key=rank_key)
         top = f"[{ranked[0]['name']}](evaluations/{CAT_DIR[cid]}/README.md#{slug(ranked[0]['repo'])}) · {ranked[0]['_score']['score']}" if ranked else "—"
-        lines.append(f"| {cat['name']} | {cat['objective']} | {len(ps)} | {top} | [打开](evaluations/{CAT_DIR[cid]}/README.md) |")
+        npend = len(PENDING.get(cid, []))
+        lines.append(f"| {cat['name']} | {cat['objective']} | {len(ps)} | {npend or '—'} | {top} | [打开](evaluations/{CAT_DIR[cid]}/README.md) |")
     lines.append("")
     lines.append("<!-- HUB:END -->")
     block = "\n".join(lines)
@@ -385,6 +422,7 @@ def render_root(products: list[dict]) -> None:
 
 def main() -> None:
     products = load_products()
+    PENDING.update(load_pending(products))
     for p in products:
         p["_score"] = score(p) if not p.get("stub") else {"score": None, "verified": 0.0, "applicable": 0.0, "ranked": False, "counts": {}}
     by_cat: dict[str, list[dict]] = {}

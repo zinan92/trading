@@ -119,6 +119,13 @@
 | [fomomo](full-trading-system/README.md#fomomo) | Full Trading System / Agent | 0 | 0% | `◐○○○◐○○○○○` | ⬜ 本轮只看到明确标注的模拟群消息与价格适配页，原生流程、真实群、行情与钱包都没有接入。 |
 | [Day1Global Skills](equity-research/2026-09-28/03-day1global-skills/findings.md) | Knowledge & Collections | — | — | `●··●◐○····` | 🟡 5 个 .skill 包与源码逐字节一致，BTC 评分 API 返回 41.3 且按权重复算一致；但文档写 13 指标、API 实为 14，情绪 Skill 把 0 个过热警告映射成 Panic，本轮未生成任何新研报。 |
 
+## 新加入、尚未评测
+
+| 产品 | 目录类别 | 加入目录 |
+|---|---|---|
+| [vibe-astock](https://github.com/simonlin1212/vibe-astock) | [Dashboard](dashboard/README.md) | 2026-09-27 |
+| [easy-stock](https://github.com/jundizhou/easy-stock) | [Full Trading System / Agent](full-trading-system/README.md) | 2026-09-27 |
+
 ## 原始证据轮次
 
 - [evaluations/dashboard/2026-09-28](dashboard/2026-09-28/README.md)
