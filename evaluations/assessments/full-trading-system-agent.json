@@ -1160,14 +1160,14 @@
         "strategy": "run",
         "backtest": "code",
         "lifecycle": "none",
-        "risk": "code",
+        "risk": "none",
         "execute": "none",
         "monitor": "run"
       },
       "criteria": {
         "F1": {
           "rating": "done",
-          "evidence": "10 环节中 8 个存在、5 个实测：获取、存档（研究记录本机保存）、指标（十维加权评分）、研判信号、看板跑通；清洗、回测、风控只有源码；策略管理与执行没有。",
+          "evidence": "10 环节中 7 个存在、5 个实测：获取、存档（研究记录本机保存）、指标（十维加权评分）、研判信号、看板跑通；清洗、回测只有源码；策略管理、下单前风控与执行没有，风控执行页给的是研究层仓位建议。",
           "shots": [
             "images/06-quick-600519.png",
             "images/07-quick-600519-scores.png",

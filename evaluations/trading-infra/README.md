@@ -27,7 +27,7 @@
 |---:|---|---:|---:|---|---|---|
 | 1 | [standard-broker](https://github.com/zinan92/standard-broker) | **75** | 100% | `◐······◐◐·` | 🟡 六个 canonical port、Paper preflight 与 capability-gap 阻断在本地实测成立；InMemory fixture 只返回 accepted 回执，不撮合、不成交、不改余额。 | [卡片](README.md#standard-broker) |
 | 2 | [vectorbt](https://github.com/polakowo/vectorbt) | **67** | 100% | `···●●●○○○○` | 🟡 两资产各 1,200 根合成小时线经 Portfolio.from_signals 得到 33 条交易记录、完整统计与 Plotly 图；但按声明依赖新装解析到 Plotly 7.1.0 时 import vectorbt 失败，锁到 6.3.0 才可用。 | [卡片](README.md#vectorbt) |
-| 3 | [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) | **52** | 85% | `◐·◐●●●◐◐◐○` | 🟡 本地 SIM 回测跑通：官方 10,000 bar quickstart 退出码 0，自建 4,000 bar EMA 回测产出 65 个仓位、130 笔模拟成交；实盘一侧的券商适配器、Testnet/Live 与费用/滑点模型未测。 | [卡片](README.md#nautilus-trader) |
+| 3 | [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) | **53** | 85% | `◐·◐●●●◐◐◐○` | 🟡 本地 SIM 回测跑通：官方 10,000 bar quickstart 退出码 0，自建 4,000 bar EMA 回测产出 65 个仓位、130 笔模拟成交；实盘一侧的券商适配器、Testnet/Live 与费用/滑点模型未测。 | [卡片](README.md#nautilus-trader) |
 | 4 | [CCXT](https://github.com/ccxt/ccxt) | **31** | 62% | `◐●·····○◐○` | 🟡 104 个交易所适配器可枚举，Binance 的 fetch_ticker/fetch_order_book/fetch_ohlcv 在进程内 fixture 下统一解析通过；0 次网络请求、0 次下单，真实交易所路径未验。 | [卡片](README.md#ccxt) |
 | 5 | [OctoBot](https://github.com/Drakkar-Software/OctoBot) | **10** | 40% | `◐○○○◐◐○○◐◐` | ❌ 3.0.0-beta2 安装与 CLI 可用，但干净的 simulator 启动因官方 tentacles 包缺少 .signature（HTTP 404）被拒绝安装，默认 profile 缺失，Web UI 未启动，任何交易流程都没跑通。 | [卡片](README.md#octobot) |
 
@@ -100,7 +100,7 @@
 备注：源码版本 1.1.0，Python 3.13.7、numpy 2.5.3、pandas 3.0.6。记录建议改归 Trading Strategy：它评估策略与组合，不提供 broker/行情连接。 首轮曾建议归 Trading Strategy；本框架把回测引擎放在 Trading Infra 的第 6 环，故不改建议。
 
 <a id="nautilus-trader"></a>
-### 3. NautilusTrader · 52/100 · 已验证 85%
+### 3. NautilusTrader · 53/100 · 已验证 85%
 
 <a href="2026-09-28/02-nautilus-trader/screenshots.md"><img src="2026-09-28/02-nautilus-trader/images/19-local-overview.png" alt="NautilusTrader 代表截图" width="560"></a>
 

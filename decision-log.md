@@ -27,3 +27,11 @@
 - **Alternatives rejected:** Writing placeholder cards with every criterion unverified, because it pads the catalog with fake rows.
 - **Evidence:** this PR; `python3 scripts/check-hub.py` passes with 2 pending.
 - **Gotchas:** The README wipe will recur on every export until the Park OS exporter preserves the `HUB` block; that fix lives in zinan92/park-operating-system.
+
+## 2026-10-04 — Scores round half up; equal scores share a rank
+
+- **Context:** FRAMEWORK.md promised 四舍五入, but `render-hub.py` used Python `round()`, which rounds halves to even. Vibe AStock's ratings sum to exactly 72.5 and showed as 72; twelve existing cards ending in .5 were also off by one in either direction.
+- **Decision:** Compute percentages with Decimal `ROUND_HALF_UP`. Equal scores share a rank (1, 2, 2, 2, 5); within a tie, order by verified ratio, then name.
+- **Why:** The framework text is the contract, and a tie broken by alphabet should not read as a lower rank.
+- **Evidence:** PR #27; scores that moved by one point: A Share Heatmap 83, Maverick MCP 83, Gloomberb 73, standard-kline 73, datafeed 73, NautilusTrader 53, KHunter 63, Qlib 58, a-stock-data 58, Chancode 43, Meme Radar 23, finhack 23.
+- **Gotchas:** Never use Python `round()` for displayed scores; use the `pct` helper.

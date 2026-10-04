@@ -91,6 +91,14 @@ def load_products() -> list[dict]:
     return products
 
 
+def pct(numerator: float, denominator: float) -> int:
+    """Percent rounded half up (四舍五入), computed exactly so 72.5 becomes 73, not 72."""
+    from decimal import Decimal, ROUND_HALF_UP
+
+    value = Decimal(str(numerator)) * 100 / Decimal(str(denominator))
+    return int(value.quantize(Decimal("1"), rounding=ROUND_HALF_UP))
+
+
 def score(p: dict) -> dict:
     cat = CATS[p["evaluated_as"]]
     total = applicable = verified = 0.0
@@ -108,7 +116,12 @@ def score(p: dict) -> dict:
         return {"score": None, "verified": 0.0, "applicable": 0.0, "ranked": False, "counts": counts}
     ratio = verified / applicable
     app_ratio = applicable / sum(c["weight"] for c in cat["criteria"])
-    return {"score": round(total / applicable * 100), "verified": ratio, "applicable": app_ratio, "ranked": ratio >= MIN_VERIFIED and app_ratio >= MIN_APPLICABLE, "counts": counts}
+    return {"score": pct(total, applicable), "verified": ratio, "verified_pct": pct(verified, applicable), "applicable_pct": pct(applicable, sum(c["weight"] for c in cat["criteria"])), "applicable": app_ratio, "ranked": ratio >= MIN_VERIFIED and app_ratio >= MIN_APPLICABLE, "counts": counts}
+
+
+def competition_ranks(products: list[dict]) -> list[int]:
+    """Equal scores share a rank (1, 2, 2, 2, 5); order within a tie stays by rank_key."""
+    return [1 + sum(1 for q in products if q["_score"]["score"] > p["_score"]["score"]) for p in products]
 
 
 def rank_key(p: dict):
@@ -170,7 +183,7 @@ def card(p: dict, rank: int | None, from_dir: Path) -> str:
     cat = CATS[p["evaluated_as"]]
     sc = p["_score"]
     head = f"{rank}. " if rank else ""
-    score_txt = f"{sc['score']}/100 · 已验证 {round(sc['verified']*100)}%" if sc["score"] is not None else "不排名"
+    score_txt = f"{sc['score']}/100 · 已验证 {sc['verified_pct']}%" if sc["score"] is not None else "不排名"
     out = [f'<a id="{slug(p["repo"])}"></a>', f"### {head}{p['name']} · {score_txt}", ""]
     if p.get("hero") and p.get("evidence_dir"):
         gal, _ = gallery_link(p, from_dir)
@@ -225,10 +238,10 @@ def card(p: dict, rank: int | None, from_dir: Path) -> str:
 
 def ranking_table(products: list[dict], from_dir: Path, page: str) -> str:
     rows = ["| 排名 | 产品 | 分数 | 已验证 | 环节 1–10 | 实测 | 卡片 |", "|---:|---|---:|---:|---|---|---|"]
-    for i, p in enumerate(products, 1):
+    for i, p in zip(competition_ranks(products), products):
         sc = p["_score"]
         rows.append(
-            f"| {i} | [{p['name']}](https://github.com/{p['repo']}) | **{sc['score']}** | {round(sc['verified']*100)}% | {stage_compact(p)} | {short_status(p)} | [卡片]({page}#{slug(p['repo'])}) |"
+            f"| {i} | [{p['name']}](https://github.com/{p['repo']}) | **{sc['score']}** | {sc['verified_pct']}% | {stage_compact(p)} | {short_status(p)} | [卡片]({page}#{slug(p['repo'])}) |"
         )
     return "\n".join(rows)
 
@@ -240,11 +253,11 @@ def unranked_table(products: list[dict], page: str) -> str:
         if not p.get("evidence_dir"):
             why = "按要求跳过"
         elif sc["applicable"] < MIN_APPLICABLE:
-            why = f"本类标准只有 {round(sc['applicable']*100)}% 适用，不属于本类产品"
+            why = f"本类标准只有 {sc['applicable_pct']}% 适用，不属于本类产品"
             if p.get("suggested_category"):
                 why += f"，建议归 {CATS[p['suggested_category']]['name']}"
         else:
-            why = f"已验证 {round(sc['verified']*100)}%，低于 {int(MIN_VERIFIED*100)}%"
+            why = f"已验证 {sc['verified_pct']}%，低于 {int(MIN_VERIFIED*100)}%"
         rows.append(f"| [{p['name']}](https://github.com/{p['repo']}) | {why}：{p['delivered']['summary']} | [卡片]({page}#{slug(p['repo'])}) |")
     return "\n".join(rows)
 
@@ -297,7 +310,7 @@ def render_category(cat_id: str, products: list[dict], all_products: list[dict])
     if PENDING.get(cat_id):
         out += ["## 新加入、尚未评测", "", "这些库在首轮试用之后才加入目录，还没有实测证据，所以没有卡片和分数。", "", pending_table(PENDING[cat_id]), ""]
     out += ["## 产品卡片", ""]
-    for i, p in enumerate(ranked, 1):
+    for i, p in zip(competition_ranks(ranked), ranked):
         out.append(card(p, i, page_dir))
     for p in unranked:
         out.append(card(p, None, page_dir))
@@ -357,7 +370,7 @@ def render_hub(products: list[dict]) -> None:
     for p in allp:
         sc = p["_score"]
         score_txt = str(sc["score"]) if sc["score"] is not None else "—"
-        ver_txt = f"{round(sc['verified']*100)}%" if sc["score"] is not None else "—"
+        ver_txt = f"{sc['verified_pct']}%" if sc["score"] is not None else "—"
         out.append(f"| {product_link(p, EVAL)} | {CATS[p['evaluated_as']]['name']} | {score_txt} | {ver_txt} | {stage_compact(p)} | {short_status(p)} |")
     out.append("")
     pend = [e | {"cat": c} for c in CATALOG_ORDER for e in PENDING.get(c, [])]

@@ -26,17 +26,17 @@
 | 排名 | 产品 | 分数 | 已验证 | 环节 1–10 | 实测 | 卡片 |
 |---:|---|---:|---:|---|---|---|
 | 1 | [FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) | **80** | 100% | `●●●·······` | ✅ 七类本地数据集合计 305,512 行全部可加载，AAPL / 600519.SS / 0700.HK 精确检索正确；BTC-USD 缺失与 .SH 后缀不匹配是接入边界。 | [卡片](README.md#financedatabase) |
-| 2 | [watchlist](https://github.com/zinan92/watchlist) | **80** | 100% | `·●●·······` | ✅ YAML 解析与引用校验 7/8 通过：16 资产 / 6 宏观 / 26 赛道 / 119 唯一 target；唯一 finding 是目录摘要（24/109）已过时。 | [卡片](README.md#watchlist) |
-| 3 | [datafeed](https://github.com/zinan92/datafeed) | **72** | 100% | `●●◐······●` | ✅ 上证、茅台、AAPL、BTC、美债 10Y、黄金均返回 count=5 的标准蜡烛；健康矩阵 0 单元有数据、ticker 搜索为 0、免费源标 entitlement_unverified。 | [卡片](README.md#datafeed) |
+| 1 | [watchlist](https://github.com/zinan92/watchlist) | **80** | 100% | `·●●·······` | ✅ YAML 解析与引用校验 7/8 通过：16 资产 / 6 宏观 / 26 赛道 / 119 唯一 target；唯一 finding 是目录摘要（24/109）已过时。 | [卡片](README.md#watchlist) |
+| 3 | [datafeed](https://github.com/zinan92/datafeed) | **73** | 100% | `●●◐······●` | ✅ 上证、茅台、AAPL、BTC、美债 10Y、黄金均返回 count=5 的标准蜡烛；健康矩阵 0 单元有数据、ticker 搜索为 0、免费源标 entitlement_unverified。 | [卡片](README.md#datafeed) |
 | 4 | [akshare](https://github.com/akfamily/akshare) | **68** | 100% | `●◐○·······` | 🟡 A 股日/分钟、ETF、AAPL、指数、期货、LPR、新闻真实取数至 09-24/25；东财日线 SSL 错误、ETF 现价 502，crypto_js_spot 仍为 2020/2023 旧价，FX 25 行买卖价全为 0。 | [卡片](README.md#akshare) |
 | 5 | [tickflow](https://github.com/tickflow-org/tickflow) | **60** | 100% | `●●○·······` | 🟡 免费入口取得 A 股、ETF、美股、港股日/周 K 与标的元数据；分钟线与实时行情被 PermissionError 拒绝，财报未测。 | [卡片](README.md#tickflow) |
-| 6 | [a-stock-data](https://github.com/simonlin1212/a-stock-data) | **57** | 100% | `●●○◐······` | 🟡 腾讯/新浪路径真实取得报价、日/周/5 分钟 K、复权因子与财报；百度均线 K 返回空且不报错，87 端点只测样本 16 个。 | [卡片](README.md#a-stock-data) |
+| 6 | [a-stock-data](https://github.com/simonlin1212/a-stock-data) | **58** | 100% | `●●○◐······` | 🟡 腾讯/新浪路径真实取得报价、日/周/5 分钟 K、复权因子与财报；百度均线 K 返回空且不报错，87 端点只测样本 16 个。 | [卡片](README.md#a-stock-data) |
 | 7 | [adata](https://github.com/1nchaos/adata) | **50** | 100% | `●●○·······` | 🟡 首次取得茅台 18 根日 K / 13 根周 K，补依赖后 ETF、指数分时、盘口有返回；复测茅台日 K 变 0 行、周 K 超时，两只股票现价因腾讯解析条件不匹配返回空表。 | [卡片](README.md#adata) |
-| 8 | [FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) | **50** | 100% | `●○○●······` | 🟡 无凭证时只公开 4 个工具：Binance 加密日/分钟线与百度新闻有结果；A 股、美股路由返回“没有已配置的数据源”。 | [卡片](README.md#financemcp) |
-| 9 | [global-stock-data](https://github.com/simonlin1212/global-stock-data) | **50** | 100% | `●◐○●······` | 🟡 财政部收益率曲线 185 日、CFTC 20 条、FINRA 单日 12,349 符号有真实结果；主卖点 CBOE 期权、SEC EDGAR 与行情报价本轮未调用。 | [卡片](README.md#global-stock-data) |
-| 10 | [quant-data-pipeline](https://github.com/zinan92/quant-data-pipeline) | **50** | 100% | `●◐◐◐◐··◐●●` | 🟡 商品 4 品种、加密 15 品种实时与 K 线、美股 5 指数、本地纸盘买卖闭环成功；A 股搜索/行情 500、K 线 404、概念为 0，新闻请求超时后拖垮后端。 | [卡片](README.md#quant-data-pipeline) |
+| 7 | [FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) | **50** | 100% | `●○○●······` | 🟡 无凭证时只公开 4 个工具：Binance 加密日/分钟线与百度新闻有结果；A 股、美股路由返回“没有已配置的数据源”。 | [卡片](README.md#financemcp) |
+| 7 | [global-stock-data](https://github.com/simonlin1212/global-stock-data) | **50** | 100% | `●◐○●······` | 🟡 财政部收益率曲线 185 日、CFTC 20 条、FINRA 单日 12,349 符号有真实结果；主卖点 CBOE 期权、SEC EDGAR 与行情报价本轮未调用。 | [卡片](README.md#global-stock-data) |
+| 7 | [quant-data-pipeline](https://github.com/zinan92/quant-data-pipeline) | **50** | 100% | `●◐◐◐◐··◐●●` | 🟡 商品 4 品种、加密 15 品种实时与 K 线、美股 5 指数、本地纸盘买卖闭环成功；A 股搜索/行情 500、K 线 404、概念为 0，新闻请求超时后拖垮后端。 | [卡片](README.md#quant-data-pipeline) |
 | 11 | [intel](https://github.com/zinan92/intel) | **40** | 100% | `●●●●·····●` | 🟡 隔离实例数分钟采集 4,610 篇、搜索可用、LLM 评分 500 篇；63 个事件 source_count 全为 1，跨源聚类没有通过样本。 | [卡片](README.md#intel) |
-| 12 | [tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | **40** | 80% | `●○○●●●····` | 🟡 39 个工具中 23 个场景有结果：美/A/港股筛选、BTC 技术分析与回测；双标的报价 SSL 失败，新闻/情绪需 Key，周日无法验证实时。 | [卡片](README.md#tradingview-mcp) |
+| 11 | [tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | **40** | 80% | `●○○●●●····` | 🟡 39 个工具中 23 个场景有结果：美/A/港股筛选、BTC 技术分析与回测；双标的报价 SSL 失败，新闻/情绪需 Key，周日无法验证实时。 | [卡片](README.md#tradingview-mcp) |
 | 13 | [TradingView-API](https://github.com/Mathieu2301/TradingView-API) | **38** | 75% | `●○○◐······` | 🟡 无 SESSION/SIGNATURE 的 SimpleChart 示例加载 BINANCE:BTCEUR 日线，再切换 ETHEUR、15 分钟与 Heikin Ashi 后正常关闭；50 tests passed、16 skipped，私有指标与账户 API 因无 cookie 未测，股票标的也未实取。 | [卡片](README.md#tradingview-api) |
 | 14 | [tvscreener](https://github.com/deepentropy/tvscreener) | **28** | 55% | `●◐○·······` | 🟡 无凭证的 S&P 500 公开查询 0.74 秒返回 10 行 DataFrame（含 NASDAQ:NVDA）；其余五类只在本地代码生成器构造了查询，没有实取；Valuation 预设生成了包里不存在的 StockField。 | [卡片](README.md#tvscreener) |
 
@@ -86,7 +86,7 @@
 备注：实测源码 2.4.0 晚于目录锁。
 
 <a id="watchlist"></a>
-### 2. watchlist · 80/100 · 已验证 100%
+### 1. watchlist · 80/100 · 已验证 100%
 
 <a href="2026-09-27/04-watchlist/screenshots.md"><img src="2026-09-27/04-watchlist/images/01-native-tree-y0.png" alt="watchlist 代表截图" width="560"></a>
 
@@ -117,7 +117,7 @@
 备注：目录描述“24 赛道 / 109 target”与当前源码“26 赛道 / 122 次归属”不一致，属目录摘要过时。
 
 <a id="datafeed"></a>
-### 3. datafeed · 72/100 · 已验证 100%
+### 3. datafeed · 73/100 · 已验证 100%
 
 <a href="2026-09-27/10-datafeed/screenshots.md"><img src="2026-09-27/10-datafeed/images/03-native-api-docs.png" alt="datafeed 代表截图" width="560"></a>
 
@@ -208,7 +208,7 @@
 证据：[12 张截图](2026-09-27/01-tickflow/screenshots.md) · [实测记录](2026-09-27/01-tickflow/trial-findings.md) · 实测版本 `c27f23c50386` · 目录锁 `c27f23c50386` · Python 库 · A股、美股、港股
 
 <a id="a-stock-data"></a>
-### 6. a-stock-data · 57/100 · 已验证 100%
+### 6. a-stock-data · 58/100 · 已验证 100%
 
 <a href="2026-09-27/09-a-stock-data/screenshots.md"><img src="2026-09-27/09-a-stock-data/images/04-a-stock-data.png" alt="a-stock-data 代表截图" width="560"></a>
 
@@ -270,7 +270,7 @@
 备注：截图 01–15 为补依赖后复测，16–18 为原始安装首次结果，19–20 为独立交叉核对。
 
 <a id="financemcp"></a>
-### 8. FinanceMCP · 50/100 · 已验证 100%
+### 7. FinanceMCP · 50/100 · 已验证 100%
 
 <a href="2026-09-27/02-financemcp/screenshots.md"><img src="2026-09-27/02-financemcp/images/03-finance-mcp.png" alt="FinanceMCP 代表截图" width="560"></a>
 
@@ -301,7 +301,7 @@
 备注：实测源码 4.11.2 晚于目录锁；结论只绑定实测版本。
 
 <a id="global-stock-data"></a>
-### 9. global-stock-data · 50/100 · 已验证 100%
+### 7. global-stock-data · 50/100 · 已验证 100%
 
 <a href="2026-09-27/08-global-stock-data/screenshots.md"><img src="2026-09-27/08-global-stock-data/images/02-global-stock-data.png" alt="global-stock-data 代表截图" width="560"></a>
 
@@ -332,7 +332,7 @@
 备注：指标函数只在 30 根合成 K 上烟测；实测源码 2.0.3 晚于目录锁。
 
 <a id="quant-data-pipeline"></a>
-### 10. quant-data-pipeline · 50/100 · 已验证 100%
+### 7. quant-data-pipeline · 50/100 · 已验证 100%
 
 <a href="2026-09-27/13-quant-data-pipeline/screenshots.md"><img src="2026-09-27/13-quant-data-pipeline/images/13-dashboard-section.png" alt="quant-data-pipeline 代表截图" width="560"></a>
 
@@ -394,7 +394,7 @@
 备注：事件聚类记入 indicator 环节；截图 14–25 对应 12 条探针，26 为数据库时间审计。
 
 <a id="tradingview-mcp"></a>
-### 12. tradingview-mcp · 40/100 · 已验证 80%
+### 11. tradingview-mcp · 40/100 · 已验证 80%
 
 <a href="2026-09-27/03-tradingview-mcp/screenshots.md"><img src="2026-09-27/03-tradingview-mcp/images/04-tradingview-mcp.png" alt="tradingview-mcp 代表截图" width="560"></a>
 

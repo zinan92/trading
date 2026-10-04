@@ -23,7 +23,7 @@
 
 | 排名 | 产品 | 分数 | 已验证 | 环节 1–10 | 实测 | 卡片 |
 |---:|---|---:|---:|---|---|---|
-| 1 | [Maverick MCP](https://github.com/wshobson/maverick-mcp) | **82** | 100% | `●○◐●●◐····` | 🟡 Core 1.1.0 的 37 个工具真实可用，AAPL 行情/技术/筛选与本地组合、自选、日志闭环跑通；深度研究与回测扩展未装，quote 的 timestamp 是取数时刻而非成交时间。 | [卡片](README.md#maverick-mcp) |
+| 1 | [Maverick MCP](https://github.com/wshobson/maverick-mcp) | **83** | 100% | `●○◐●●◐····` | 🟡 Core 1.1.0 的 37 个工具真实可用，AAPL 行情/技术/筛选与本地组合、自选、日志闭环跑通；深度研究与回测扩展未装，quote 的 timestamp 是取数时刻而非成交时间。 | [卡片](README.md#maverick-mcp) |
 | 2 | [Equity Research Skill](https://github.com/rollingSirius/equity-research-skill) | **60** | 80% | `○··●●○····` | 🟡 估值脚本与检查器可跑（DCF demo 57.5/股、检查器测试 7/7），但本轮未生成新的真实九章研报，作者 NVDA 示例被仓库自身检查器判 1 个 P1。 | [卡片](README.md#equity-research-skill) |
 | 3 | [Serenity Skill](https://github.com/muxuuu/serenity-skill) | **50** | 100% | `○··○◐○····` | 🟡 validate_skill.py 返回 OK，8 个参考文档、3 篇示例、6 个手工用例可用，作者 CPO 案例的两处一手来源抽查成立；但本轮未让宿主 Agent 从零完成新主题研究。 | [卡片](README.md#serenity-skill) |
 | 4 | [UZI Skill](https://github.com/wbh604/UZI-Skill) | **45** | 100% | `●◐◐●●○····` | 🟡 AAPL lite 真实生成 720KB 自包含 HTML 报告、分享卡与战报，覆盖率 72%；但币种、ROE 与来源叙述有可复验矛盾，critical_missing=true 时仍给精确价位，结论不能按已核验使用。 | [卡片](README.md#uzi-skill) |
@@ -44,7 +44,7 @@
 ## 产品卡片
 
 <a id="maverick-mcp"></a>
-### 1. Maverick MCP · 82/100 · 已验证 100%
+### 1. Maverick MCP · 83/100 · 已验证 100%
 
 <a href="2026-09-28/01-maverick-mcp/screenshots.md"><img src="2026-09-28/01-maverick-mcp/images/09-09-maverick-mcp.jpg" alt="Maverick MCP 代表截图" width="560"></a>
 

@@ -21,10 +21,10 @@ Pipeline：1 数据获取 → 2 清洗与标准化 → 3 数据存档 → 4 指�
 | 类别 | 目标 | 评测数 | 待评测 | 类内首位 | 页面 |
 |---|---|---:|---:|---|---|
 | Data | 取得正确、及时、完整的交易数据，最好免费，并且下游能直接接入。 | 15 | — | [FinanceDatabase](evaluations/data/README.md#financedatabase) · 80 | [打开](evaluations/data/README.md) |
-| Equity Research | 为买卖决策提供可核验、可复现的研判，而不是一段无法追溯的文字。 | 6 | — | [Maverick MCP](evaluations/equity-research/README.md#maverick-mcp) · 82 | [打开](evaluations/equity-research/README.md) |
+| Equity Research | 为买卖决策提供可核验、可复现的研判，而不是一段无法追溯的文字。 | 6 | — | [Maverick MCP](evaluations/equity-research/README.md#maverick-mcp) · 83 | [打开](evaluations/equity-research/README.md) |
 | Trading Strategy | 策略与指标知识库全面（尽量互斥且穷尽）、计算正确、能直接送进回测。 | 11 | — | [TA-Lib](evaluations/trading-strategy/README.md#ta-lib-python) · 80 | [打开](evaluations/trading-strategy/README.md) |
 | Trading Infra | 回测→风控→执行的骨架可靠，组件可以单独替换。 | 5 | — | [standard-broker](evaluations/trading-infra/README.md#standard-broker) · 75 | [打开](evaluations/trading-infra/README.md) |
-| Dashboard | 人能快速、清晰地找到信息，并在需要时干预。 | 7 | — | [A Share Heatmap](evaluations/dashboard/README.md#a-share-heatmap) · 82 | [打开](evaluations/dashboard/README.md) |
+| Dashboard | 人能快速、清晰地找到信息，并在需要时干预。 | 7 | — | [A Share Heatmap](evaluations/dashboard/README.md#a-share-heatmap) · 83 | [打开](evaluations/dashboard/README.md) |
 | Full Trading System / Agent | 有完整骨架，各环节先解耦再重耦，能跑通一次 paper 闭环。 | 16 | — | [tick-stock-panel](evaluations/full-trading-system/README.md#tick-stock-panel) · 70 | [打开](evaluations/full-trading-system/README.md) |
 | Knowledge & Collections | 参考资料，不评测。 | — | — | — | — |
 

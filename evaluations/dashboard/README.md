@@ -23,10 +23,10 @@
 
 | 排名 | 产品 | 分数 | 已验证 | 环节 1–10 | 实测 | 卡片 |
 |---:|---|---:|---:|---|---|---|
-| 1 | [A Share Heatmap](https://github.com/wenyuanw/a-share-heatmap) | **82** | 100% | `●·○······●` | ✅ 隔离运行下全市场 5,917 只股票按 32 个板块成图，九种市场范围、日/周/月/年、板块与涨跌筛选、自选增删、主题与分享预览全部实测可用；行情快照止于 2026-09-24。 | [卡片](README.md#a-share-heatmap) |
-| 2 | [Gloomberb](https://github.com/gloom-sh/gloomberb) | **72** | 100% | `●··●·····●` | ✅ 隔离环境无 key 取到 AAPL 延时报价，TUI 可进入主界面，产品自带 shot 命令生成的 15 个研究 pane 中 14 个完整可用；仅 Portfolio Analytics pane 没显示手工建立的 EVAL-ONLY 组合。 | [卡片](README.md#gloomberb) |
-| 3 | [standard-kline](https://github.com/zinan92/standard-kline) | **72** | 100% | `···●·····●` | ✅ 21/21 单测通过；隔离浏览器 harness 用 Lightweight Charts 5.2.0 渲染 400 根 synthetic OHLCV、EMA20/50/200、MACD、marker，空、加载、坏行、缺库状态与缩放平移全部按组件声明工作。 | [卡片](README.md#standard-kline) |
-| 4 | [Vibe AStock](https://github.com/simonlin1212/vibe-astock) | **72** | 100% | `●◐◐●●●○○○●` | 🟡 不接 AI 时盘面、梯队、个股研究、自选和日线回测引擎都跑通，时效基本标注清楚；但两处把 9 月 30 日数据标成休市日 10 月 3 日，复盘、辩论等深度功能必须接入 AI。 | [卡片](README.md#vibe-astock) |
+| 1 | [A Share Heatmap](https://github.com/wenyuanw/a-share-heatmap) | **83** | 100% | `●·○······●` | ✅ 隔离运行下全市场 5,917 只股票按 32 个板块成图，九种市场范围、日/周/月/年、板块与涨跌筛选、自选增删、主题与分享预览全部实测可用；行情快照止于 2026-09-24。 | [卡片](README.md#a-share-heatmap) |
+| 2 | [Gloomberb](https://github.com/gloom-sh/gloomberb) | **73** | 100% | `●··●·····●` | ✅ 隔离环境无 key 取到 AAPL 延时报价，TUI 可进入主界面，产品自带 shot 命令生成的 15 个研究 pane 中 14 个完整可用；仅 Portfolio Analytics pane 没显示手工建立的 EVAL-ONLY 组合。 | [卡片](README.md#gloomberb) |
+| 2 | [standard-kline](https://github.com/zinan92/standard-kline) | **73** | 100% | `···●·····●` | ✅ 21/21 单测通过；隔离浏览器 harness 用 Lightweight Charts 5.2.0 渲染 400 根 synthetic OHLCV、EMA20/50/200、MACD、marker，空、加载、坏行、缺库状态与缩放平移全部按组件声明工作。 | [卡片](README.md#standard-kline) |
+| 2 | [Vibe AStock](https://github.com/simonlin1212/vibe-astock) | **73** | 100% | `●◐◐●●●○○○●` | 🟡 不接 AI 时盘面、梯队、个股研究、自选和日线回测引擎都跑通，时效基本标注清楚；但两处把 9 月 30 日数据标成休市日 10 月 3 日，复盘、辩论等深度功能必须接入 AI。 | [卡片](README.md#vibe-astock) |
 | 5 | [Human K-line Review](https://github.com/zinan92/human-kline-review) | **65** | 100% | `◐··●·····●` | 🟡 在 400 根 synthetic SPY fixture 上完成周线、日线标注，显式跳过缺失的 4H，确认 Asset Review，用本地 mock 确认汇总后三种导出返回 200；真实 Macro Source 与 DeepSeek 未接，且复现了 autosave/complete 竞态。 | [卡片](README.md#human-kline-review) |
 | 6 | [Trading Desk](https://github.com/zinan92/trading-desk) | **40** | 80% | `·········●` | 🟡 /desk、/trade 页面与 health/assets 只读 API 均 HTTP 200，Overview、System、订单、持仓、成交、复盘、Supervisor 面板可浏览；市场 read model 为 blocked、0 bars，看不到任何行情、持仓或订单结果。 | [卡片](README.md#trading-desk) |
 | 7 | [OpenStock](https://github.com/Open-Dev-Society/OpenStock) | **30** | 80% | `●········●` | 🟡 公开首页显示 NYSE 市场状态与指数行情预览，数据说明与注册校验可用；/dashboard 与 /stocks/SPY 匿名访问被重定向到登录，追踪、提醒、公司详情三项核心声称本轮都没验到。 | [卡片](README.md#openstock) |
@@ -40,7 +40,7 @@
 ## 产品卡片
 
 <a id="a-share-heatmap"></a>
-### 1. A Share Heatmap · 82/100 · 已验证 100%
+### 1. A Share Heatmap · 83/100 · 已验证 100%
 
 <a href="2026-09-28/08-a-share-heatmap/screenshots.md"><img src="2026-09-28/08-a-share-heatmap/images/01-01-native-all-day.jpg" alt="A Share Heatmap 代表截图" width="560"></a>
 
@@ -73,7 +73,7 @@
 备注：目录归 Equity Research，锁为 c15f94e6；实测源码 6b4b6744 与目录锁不同。24 张截图从 equity-research/2026-09-28/02-a-share-heatmap（2026-09-27 试用）复用，文件哈希一致，本轮未重新运行产品；以市场宽度与板块看板为核心，建议改归 Dashboard。
 
 <a id="gloomberb"></a>
-### 2. Gloomberb · 72/100 · 已验证 100%
+### 2. Gloomberb · 73/100 · 已验证 100%
 
 <a href="2026-09-28/05-gloomberb/screenshots.md"><img src="2026-09-28/05-gloomberb/images/01-quote-monitor.png" alt="Gloomberb 代表截图" width="560"></a>
 
@@ -104,7 +104,7 @@
 备注：由 CLI 启动但提供可视研究终端，留在 Dashboard。15 张截图由产品自带 shot 命令在隔离配置（无 HOME、无 key）下生成，EVAL 水印标明评测环境。
 
 <a id="standard-kline"></a>
-### 3. standard-kline · 72/100 · 已验证 100%
+### 2. standard-kline · 73/100 · 已验证 100%
 
 <a href="2026-09-28/06-standard-kline/screenshots.md"><img src="2026-09-28/06-standard-kline/images/02-indicators-markers.jpg" alt="standard-kline 代表截图" width="560"></a>
 
@@ -135,7 +135,7 @@
 备注：首轮（Codex）建议把它移到 Trading Infra 作为 chart-rendering package；本框架下图表组件属于环节 10（monitor），因此保留 Dashboard 类、按组件评：V4 可接入是它的强项，V3 只按 synthetic 浏览器场景实际展示的 zoom/pan/fit 计。仓库 2026-09-27 归档并迁入 zinan92/trading-system（packages/standard-kline）。15 次截图中 1 次为无效试验未发布，14 张有效。
 
 <a id="vibe-astock"></a>
-### 4. Vibe AStock · 72/100 · 已验证 100%
+### 2. Vibe AStock · 73/100 · 已验证 100%
 
 <a href="2026-10-04/01-vibe-astock/screenshots.md"><img src="2026-10-04/01-vibe-astock/images/03-market-data.png" alt="Vibe AStock 代表截图" width="560"></a>
 
