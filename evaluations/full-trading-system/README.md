@@ -21,20 +21,23 @@
 
 ## 排名
 
+**怎么读这个排名：** easy-stock 排第 3，是因为它从数据到研判的前半段覆盖较全；它没有下单路径，回测也没接线，卡片建议改归 Equity Research。要找一副交易骨架，看 tick-stock-panel、KHunter 和 trading-system：它们有策略管理或执行代码，但本轮都还没跑通模拟盘闭环。
+
 | 排名 | 产品 | 分数 | 已验证 | 环节 1–10 | 实测 | 卡片 |
 |---:|---|---:|---:|---|---|---|
 | 1 | [tick-stock-panel](https://github.com/shy3130/tick-stock-panel) | **70** | 100% | `●●●●●●◐○◐●` | 🟡 选股与回测按声明跑通（65 只、114 笔），监控页面可用但 None 数据模式下无实时行情，LLM 能力未配置。 | [卡片](README.md#tick-stock-panel) |
-| 2 | [KHunter](https://github.com/ling-0729/KHunter) | **62** | 100% | `●○●◐●●◐○◐◐` | 🟡 真实数据、选股与回测都能在原生 Web 里跑，但样本只有 3 个标的、回测 0 笔交易，PTrade 交易闭环未验。 | [卡片](README.md#khunter) |
-| 3 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | **38** | 100% | `●○●○◐◐○○○◐` | 🟡 数据降级路径拿到 600519 真实日线，但核心 AI 报告与推送未配置未验证，dry-run 进程不退出。 | [卡片](README.md#daily-stock-analysis) |
+| 2 | [KHunter](https://github.com/ling-0729/KHunter) | **63** | 100% | `●○●◐●●◐○◐◐` | 🟡 真实数据、选股与回测都能在原生 Web 里跑，但样本只有 3 个标的、回测 0 笔交易，PTrade 交易闭环未验。 | [卡片](README.md#khunter) |
+| 3 | [easy-stock](https://github.com/jundizhou/easy-stock) | **50** | 100% | `●◐●●●◐○○○●` | 🟡 不接 AI 的量化速览、风控仓位建议、连板和指数页都跑通且数字与独立来源一致；AI 分析、持仓巡检和大 V 复盘因无模型与登录未验证，没有回测入口和下单路径。 | [卡片](README.md#easy-stock) |
+| 4 | [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | **38** | 100% | `●○●○◐◐○○○◐` | 🟡 数据降级路径拿到 600519 真实日线，但核心 AI 报告与推送未配置未验证，dry-run 进程不退出。 | [卡片](README.md#daily-stock-analysis) |
 | 4 | [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | **38** | 75% | `◐○◐◐◐◐●○◐◐` | 🟡 产品化界面完整、策略可生成验证并保存，但回测被日期选择问题挡住未提交，paper/live 未验。 | [卡片](README.md#quantdinger) |
-| 5 | [trading-system](https://github.com/zinan92/trading-system) | **38** | 75% | `◐◐◐○◐○◐◐◐●` | 🟡 Dashboard、Desk 与 /trade 代理本地可开，预部署闸门 pass，88 个聚焦测试通过；但行情 read-model 为 blocked、bar_count=0，系统保持 Paper/stopped，没有跑通一次 paper 闭环。 | [卡片](README.md#trading-system) |
-| 6 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | **38** | 75% | `◐○○◐◐◐◐○◐◐` | 🟡 结构完整、API 与主要页面可用，但缺模型与券商配置，研究、回测、订单三条核心路径都没有产出。 | [卡片](README.md#vibe-trading) |
-| 7 | [Sequoia-X](https://github.com/sngyai/Sequoia-X) | **30** | 85% | `●○○●●○○○○◐` | 🟡 选股扫描按声明跑通并命中 000333，但收盘后自动运行与飞书推送未验证。 | [卡片](README.md#sequoia-x) |
-| 8 | [finhack](https://github.com/FinHackCN/finhack) | **22** | 85% | `◐○◐◐◐◐○○◐○` | ❌ CLI 帮助与项目初始化可用，但因子、回测、交易三条关键命令全部失败，没有拿到任何回测结果。 | [卡片](README.md#finhack) |
-| 9 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | **21** | 100% | `◐··◐◐○·○○○` | ❌ CLI、12 节点图构建与本地模型工具调用可用，但一次完整分析都没跑完（240 秒超时、无最终评级）。 | [卡片](README.md#tradingagents) |
-| 10 | [go-stock](https://github.com/ArvinLovegood/go-stock) | **20** | 65% | `●○◐◐◐○○○○◐` | 🟡 原生 macOS 应用启动、自选股与日 K 可用，AI 分析被 VIP2 会员门槛挡住，AI 完整输出未验证。 | [卡片](README.md#go-stock) |
+| 4 | [trading-system](https://github.com/zinan92/trading-system) | **38** | 75% | `◐◐◐○◐○◐◐◐●` | 🟡 Dashboard、Desk 与 /trade 代理本地可开，预部署闸门 pass，88 个聚焦测试通过；但行情 read-model 为 blocked、bar_count=0，系统保持 Paper/stopped，没有跑通一次 paper 闭环。 | [卡片](README.md#trading-system) |
+| 4 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | **38** | 75% | `◐○○◐◐◐◐○◐◐` | 🟡 结构完整、API 与主要页面可用，但缺模型与券商配置，研究、回测、订单三条核心路径都没有产出。 | [卡片](README.md#vibe-trading) |
+| 8 | [Sequoia-X](https://github.com/sngyai/Sequoia-X) | **30** | 85% | `●○○●●○○○○◐` | 🟡 选股扫描按声明跑通并命中 000333，但收盘后自动运行与飞书推送未验证。 | [卡片](README.md#sequoia-x) |
+| 9 | [finhack](https://github.com/FinHackCN/finhack) | **23** | 85% | `◐○◐◐◐◐○○◐○` | ❌ CLI 帮助与项目初始化可用，但因子、回测、交易三条关键命令全部失败，没有拿到任何回测结果。 | [卡片](README.md#finhack) |
+| 10 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | **21** | 100% | `◐··◐◐○·○○○` | ❌ CLI、12 节点图构建与本地模型工具调用可用，但一次完整分析都没跑完（240 秒超时、无最终评级）。 | [卡片](README.md#tradingagents) |
+| 11 | [go-stock](https://github.com/ArvinLovegood/go-stock) | **20** | 65% | `●○◐◐◐○○○○◐` | 🟡 原生 macOS 应用启动、自选股与日 K 可用，AI 分析被 VIP2 会员门槛挡住，AI 完整输出未验证。 | [卡片](README.md#go-stock) |
 | 11 | [Vibe-Research](https://github.com/simonlin1212/Vibe-Research) | **20** | 65% | `◐○○○◐◐○○○◐` | 🟡 本地原生界面与主要页面能打开，但 AI 未接入，没有产出任何可核验的研究结论。 | [卡片](README.md#vibe-research) |
-| 12 | [TradeGenuis-Options](https://github.com/Theclues/TradeGenuis-Options) | **8** | 65% | `●○○○◐○○○○◐` | 🟡 Electron 能浏览素材、20 个 watchlist 项与 6 个机会，但 AI 分析与检索未配置，4 页素材拒收且更新出现冲突。 | [卡片](README.md#tradegenuis-options) |
+| 13 | [TradeGenuis-Options](https://github.com/Theclues/TradeGenuis-Options) | **8** | 65% | `●○○○◐○○○○◐` | 🟡 Electron 能浏览素材、20 个 watchlist 项与 6 个机会，但 AI 分析与检索未配置，4 页素材拒收且更新出现冲突。 | [卡片](README.md#tradegenuis-options) |
 
 ### 证据不足，不排名
 
@@ -47,14 +50,6 @@
 ## 分类说明
 
 - **trading-system** 目录归 Trading Infra，按本类标准评测并参与本类排名。
-
-## 新加入、尚未评测
-
-这些库在首轮试用之后才加入目录，还没有实测证据，所以没有卡片和分数。
-
-| 产品 | 加入目录 | 目录描述 |
-|---|---|---|
-| [easy-stock](https://github.com/jundizhou/easy-stock) | 2026-09-27 | A股行情分析与AI智能投研智能体：股票分析、量化交易分析、盘后复盘桌面工作台——easy stock |
 
 ## 产品卡片
 
@@ -90,7 +85,7 @@
 备注：本轮首选。clean 记 run 依据 pipeline 对 1321930 行全部完成处理；risk 记 none 因记录只提到模拟订单/撮合/台账，未见下单前风控。
 
 <a id="khunter"></a>
-### 2. KHunter · 62/100 · 已验证 100%
+### 2. KHunter · 63/100 · 已验证 100%
 
 <a href="2026-09-26/04-khunter/screenshots.md"><img src="2026-09-26/04-khunter/images/04-002.jpg" alt="KHunter 代表截图" width="560"></a>
 
@@ -120,8 +115,39 @@
 
 备注：F1 按环节计数为 done，但 4 个实测环节样本很小（3 标的、0 命中、0 笔交易），结论强度有限。
 
+<a id="easy-stock"></a>
+### 3. easy-stock · 50/100 · 已验证 100%
+
+<a href="2026-10-04/01-easy-stock/screenshots.md"><img src="2026-10-04/01-easy-stock/images/01-theme-radar.png" alt="easy-stock 代表截图" width="560"></a>
+
+| 1 获取 | 2 清洗 | 3 存档 | 4 指标 | 5 策略 | 6 回测 | 7 管理 | 8 风控 | 9 执行 | 10 看板 |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| ● | ◐ | ● | ● | ● | ◐ | ○ | ○ | ○ | ● |
+
+**声称：** A 股 AI 智能投研工作台：行情分析、题材研究、大 V 复盘、个股 AI 分析与持仓巡检，本地优先。
+
+**实测：** 🟡 不接 AI 的量化速览、风控仓位建议、连板和指数页都跑通且数字与独立来源一致；AI 分析、持仓巡检和大 V 复盘因无模型与登录未验证，没有回测入口和下单路径。
+
+| 标准 | 权重 | 评级 | 证据 |
+|---|---:|:--:|---|
+| F1 环节覆盖 | 25 | ✅ | 10 环节中 7 个存在、5 个实测：获取、存档（研究记录本机保存）、指标（十维加权评分）、研判信号、看板跑通；清洗、回测只有源码；策略管理、下单前风控与执行没有，风控执行页给的是研究层仓位建议。 [图1](2026-10-04/01-easy-stock/images/06-quick-600519.png) [图2](2026-10-04/01-easy-stock/images/07-quick-600519-scores.png) [图3](2026-10-04/01-easy-stock/images/14-limit-up-ladder.png) |
+| F2 解耦 | 20 | 🟡 | 后端按 provider 拆分 7 个数据源并逐个显示健康状态（6/7，Tushare 需 Token），前后端分离；但 inflection 回测引擎没有接入 API，组件替换只在源码层可见。 [图1](2026-10-04/01-easy-stock/images/02-theme-radar-degraded.png) [图2](2026-10-04/01-easy-stock/images/15-market-overview.png) |
+| F3 重耦跑通 | 25 | ❌ | 源码里没有券商接口或下单代码，回测函数也没有调用方，无法形成数据→信号→风控→模拟成交→持仓回读的闭环。 [图1](2026-10-04/01-easy-stock/images/20-build-and-tests.png) |
+| F4 风控与安全 | 15 | 🟡 | 没有任何实盘或下单路径，页面声明 API Key 只存后端不暴露给页面；风控执行在量化模式给出失效位 316.60 和建议仓位 0%—10%，但只是研究建议，没有订单级 fail-closed 可观察。 [图1](2026-10-04/01-easy-stock/images/11-risk-300750-sizing.png) [图2](2026-10-04/01-easy-stock/images/18-ai-chat-blocked.png) |
+| F5 运维交付 | 15 | 🟡 | npm ci、Go 与前端构建 1 分钟内完成，Go 21 个包与 Vitest 155 项通过；趋势题材同页重载后热度和日 K 变为不可用，持仓巡检直接报「未配置 Hermes 运行时路径」。 [图1](2026-10-04/01-easy-stock/images/20-build-and-tests.png) [图2](2026-10-04/01-easy-stock/images/01-theme-radar.png) [图3](2026-10-04/01-easy-stock/images/02-theme-radar-degraded.png) [图4](2026-10-04/01-easy-stock/images/13-portfolio-blocked.png) |
+
+**适合：** A 股盘后看题材主线、连板结构和单票多维量化评分，再决定是否花 Token 做 AI 研判。  
+**不适合：** 需要回测、策略管理、风控拦截或下单执行的完整交易系统。
+
+**未验证：** 个股 AI 快速、标准、深度研判；持仓 AI 巡检报告；大 V 复盘采集与每日共识（需雪球、淘股吧登录）；AI 对话与 Hermes Agent；Electron 桌面版与自动更新  
+**下一步：** 配置 Hermes 运行时和一个 API 来源，跑一次个股深度研究与持仓巡检，核对报告里的数字能否对回量化快照。
+
+证据：[20 张截图](2026-10-04/01-easy-stock/screenshots.md) · [实测记录](2026-10-04/01-easy-stock/findings.md) · 实测版本 `37a8c1bb3e2e` · 目录锁 `37a8c1bb3e2e` · Web 应用 · A股、新闻/事件
+
+备注：源码有带费用、滑点、次日成交和涨跌停规则的 inflection 回测，但没有 API 入口和测试；许可证为非商业使用。
+
 <a id="daily-stock-analysis"></a>
-### 3. daily_stock_analysis · 38/100 · 已验证 100%
+### 4. daily_stock_analysis · 38/100 · 已验证 100%
 
 <a href="2026-09-26/12-daily-stock-analysis/screenshots.md"><img src="2026-09-26/12-daily-stock-analysis/images/12-005.jpg" alt="daily_stock_analysis 代表截图" width="560"></a>
 
@@ -183,7 +209,7 @@
 备注：前后端来自两个仓库（QuantDinger / QuantDinger-Vue），界面问题不能直接归因单一仓库。lifecycle 记 run 依据策略注册入库这一步实测。
 
 <a id="trading-system"></a>
-### 5. trading-system · 38/100 · 已验证 75%
+### 4. trading-system · 38/100 · 已验证 75%
 
 <a href="../trading-infra/2026-09-28/03-trading-system/screenshots.md"><img src="../trading-infra/2026-09-28/03-trading-system/images/01-dashboard-overview.png" alt="trading-system 代表截图" width="560"></a>
 
@@ -216,7 +242,7 @@
 备注：目录归 Trading Infra，但它是完整平台，本卡按 Full Trading System / Agent 的 F1–F5 评；建议主类迁出，standard-broker 等组件留在 Infra。指标与回测环节本轮记录未见，按无计。浏览器只读：0 次写请求、0 个未捕获页面错误。
 
 <a id="vibe-trading"></a>
-### 6. Vibe-Trading · 38/100 · 已验证 75%
+### 4. Vibe-Trading · 38/100 · 已验证 75%
 
 <a href="2026-09-26/11-vibe-trading/screenshots.md"><img src="2026-09-26/11-vibe-trading/images/11-006.jpg" alt="Vibe-Trading 代表截图" width="560"></a>
 
@@ -247,7 +273,7 @@
 备注：markets 依据记录：免费 yfinance 可达（美股），A 股 Tushare token 缺失。实际试用 SHA 与目录锁不同。
 
 <a id="sequoia-x"></a>
-### 7. Sequoia-X · 30/100 · 已验证 85%
+### 8. Sequoia-X · 30/100 · 已验证 85%
 
 <a href="2026-09-26/06-sequoia-x/screenshots.md"><img src="2026-09-26/06-sequoia-x/images/06-008.jpg" alt="Sequoia-X 代表截图" width="560"></a>
 
@@ -278,7 +304,7 @@
 备注：记录定位为 CLI 选股引擎 / Trading Strategy；所有网页截图来自辅助试用台，上游无原生 Web UI。
 
 <a id="finhack"></a>
-### 8. finhack · 22/100 · 已验证 85%
+### 9. finhack · 23/100 · 已验证 85%
 
 <a href="2026-09-26/02-finhack/screenshots.md"><img src="2026-09-26/02-finhack/images/02-002.jpg" alt="finhack 代表截图" width="560"></a>
 
@@ -309,7 +335,7 @@
 备注：记录定位为量化开发框架 / Trading Infra。实际试用 PyPI 包，源码 SHA 未记录，与目录锁不能直接对应。
 
 <a id="tradingagents"></a>
-### 9. TradingAgents · 21/100 · 已验证 100%
+### 10. TradingAgents · 21/100 · 已验证 100%
 
 <a href="2026-09-26/14-tradingagents/screenshots.md"><img src="2026-09-26/14-tradingagents/images/14-001.jpg" alt="TradingAgents 代表截图" width="560"></a>
 
@@ -340,7 +366,7 @@
 备注：记录定位为 CLI 研究决策 Agent 框架；所有网页截图为 Product Lab 辅助页，上游只有 CLI/Python 包。超时不能全归于限流。实际试用 SHA 与目录锁不同。
 
 <a id="go-stock"></a>
-### 10. go-stock · 20/100 · 已验证 65%
+### 11. go-stock · 20/100 · 已验证 65%
 
 <a href="2026-09-26/01-go-stock/screenshots.md"><img src="2026-09-26/01-go-stock/images/01-001.jpg" alt="go-stock 代表截图" width="560"></a>
 
@@ -402,7 +428,7 @@
 备注：记录定位为个人投研 Agent / Equity Research。图库含 9 张编号 07-0xx 的手动截图，属本产品试用。实际试用 SHA 与目录锁不同。
 
 <a id="tradegenuis-options"></a>
-### 12. TradeGenuis-Options · 8/100 · 已验证 65%
+### 13. TradeGenuis-Options · 8/100 · 已验证 65%
 
 <a href="2026-09-26/05-tradegenuis-options/screenshots.md"><img src="2026-09-26/05-tradegenuis-options/images/05-004.jpg" alt="TradeGenuis-Options 代表截图" width="560"></a>
 
@@ -528,4 +554,5 @@
 ## 原始证据
 
 - [evaluations/full-trading-system/2026-09-26](../../evaluations/full-trading-system/2026-09-26/README.md)：该轮的实测记录、截图与首轮人工分，保留供复核。
+- [evaluations/full-trading-system/2026-10-04](../../evaluations/full-trading-system/2026-10-04/README.md)：该轮的实测记录、截图与首轮人工分，保留供复核。
 - [evaluations/trading-infra/2026-09-28](../../evaluations/trading-infra/2026-09-28/README.md)：该轮的实测记录、截图与首轮人工分，保留供复核。

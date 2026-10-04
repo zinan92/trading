@@ -374,7 +374,8 @@
           "weight": 15,
           "test": "安装、配置、监控、失败恢复。"
         }
-      ]
+      ],
+      "reading_note": "easy-stock 排第 3，是因为它从数据到研判的前半段覆盖较全；它没有下单路径，回测也没接线，卡片建议改归 Equity Research。要找一副交易骨架，看 tick-stock-panel、KHunter 和 trading-system：它们有策略管理或执行代码，但本轮都还没跑通模拟盘闭环。"
     },
     "knowledge-and-collections": {
       "name": "Knowledge & Collections",

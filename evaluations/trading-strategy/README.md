@@ -26,10 +26,10 @@
 | 1 | [TA-Lib](https://github.com/TA-Lib/ta-lib-python) | **80** | 100% | `···●······` | ✅ 锁定提交源码编译成功，80 项测试通过，201 个指标可枚举，500 根合成 OHLCV 上 SMA/RSI/MACD/BBANDS 经 NumPy/Pandas/Polars 三类接口均出值；实验性 stream 的 5 个递归指标与批量结果不一致。 | [卡片](README.md#ta-lib-python) |
 | 2 | [trading-strategy](https://github.com/zinan92/trading-strategy) | **70** | 100% | `···○●●◐◐··` | ✅ 隔离安装成功，12 个确定性场景按预期输出：6 级 DCA 入场 3994→3920、目标 4040/止损 3880，网格 90–130 五档与数量，同一根 bar 上硬止损优先于新增档；聚焦测试 38 通过。 | [卡片](README.md#trading-strategy) |
 | 3 | [CZSC](https://github.com/waditu/czsc) | **68** | 100% | `◐●·●●●····` | 🟡 离线链路 mock→质量检查→分析→研究/replay→回测→HTML 图表跑通；但核心 BI 固定基准 3 项失败，1.0.1 wheel 生成 31 笔而仓库基准为 43。 | [卡片](README.md#czsc) |
-| 4 | [Qlib](https://github.com/microsoft/qlib) | **57** | 100% | `●◐●●◐◐◐···` | 🟡 隔离安装、CN 简版数据、表达式、Alpha158、LightGBM 训练与 2,094 条样本外预测跑通；数据止于 2021-06-11，SimulatorExecutor 导入超 2 分钟未完成，组合回测未验证。 | [卡片](README.md#qlib) |
+| 4 | [Qlib](https://github.com/microsoft/qlib) | **58** | 100% | `●◐●●◐◐◐···` | 🟡 隔离安装、CN 简版数据、表达式、Alpha158、LightGBM 训练与 2,094 条样本外预测跑通；数据止于 2021-06-11，SimulatorExecutor 导入超 2 分钟未完成，组合回测未验证。 | [卡片](README.md#qlib) |
 | 5 | [chan.py](https://github.com/Vespa314/chan.py) | **50** | 100% | `◐··●◐○····` | ✅ 320 根合成日线上批处理与逐根 trigger_step 都得到 276 根合并 K 线、25 笔、7 段、2 个中枢、14 个买卖点并成功绘图；真实行情与策略收益未测。 | [卡片](README.md#chan-py) |
-| 6 | [trump-code](https://github.com/sstklen/trump-code) | **50** | 100% | `◐○●·●◐◐··●` | 🟡 历史 564 条已验证预测中 346 条正确，61.3% 可复算；最新帖停在 2026-03-25 而日报写 09-26，模型榜单为空，文章索引 404。 | [卡片](README.md#trump-code) |
-| 7 | [Chancode](https://github.com/zinan92/chancode) | **42** | 100% | `◐·◐◐●●··◐◐` | 🟡 7 根合成蜡烛的单次 replay 跑通（账户 10,000→约 10,201），前端 14 路由构建成功；README 的批量回放在干净 clone 因缺 check_out_param 与 D:/ 写死路径不可复现，后端、AI、行情均未运行。 | [卡片](README.md#chancode) |
+| 5 | [trump-code](https://github.com/sstklen/trump-code) | **50** | 100% | `◐○●·●◐◐··●` | 🟡 历史 564 条已验证预测中 346 条正确，61.3% 可复算；最新帖停在 2026-03-25 而日报写 09-26，模型榜单为空，文章索引 404。 | [卡片](README.md#trump-code) |
+| 7 | [Chancode](https://github.com/zinan92/chancode) | **43** | 100% | `◐·◐◐●●··◐◐` | 🟡 7 根合成蜡烛的单次 replay 跑通（账户 10,000→约 10,201），前端 14 路由构建成功；README 的批量回放在干净 clone 因缺 check_out_param 与 D:/ 写死路径不可复现，后端、AI、行情均未运行。 | [卡片](README.md#chancode) |
 | 8 | [FMZ strategies](https://github.com/fmzquant/strategies) | **40** | 100% | `···◐◐○····` | 🟡 5,806 篇 Markdown 全部含非空代码块、3 个 FMZ 原页 HTTP 200 可开；但无统一安装、运行器或回测，本地没有执行任何一条策略，Python 抽查 5 篇中 1 篇（R-Breaker）是 Python 2 语法。 | [卡片](README.md#strategies) |
 
 ### 证据不足，不排名
@@ -141,7 +141,7 @@
 备注：回测图为合成数据下的负结果（-112.12% 收益、126.54% 最大回撤），只作流程证据。
 
 <a id="qlib"></a>
-### 4. Qlib · 57/100 · 已验证 100%
+### 4. Qlib · 58/100 · 已验证 100%
 
 <a href="2026-09-28/10-qlib/screenshots.md"><img src="2026-09-28/10-qlib/images/11-11-out-of-sample-predictions.png" alt="Qlib 代表截图" width="560"></a>
 
@@ -205,7 +205,7 @@
 备注：README 称公开版不含策略与交易引擎，但源码含 CustomBuySellPoint、Features 与 strategy_demo，范围略宽于 README。
 
 <a id="trump-code"></a>
-### 6. trump-code · 50/100 · 已验证 100%
+### 5. trump-code · 50/100 · 已验证 100%
 
 <a href="../data/2026-09-27/11-trump-code/screenshots.md"><img src="../data/2026-09-27/11-trump-code/images/01-dashboard-hero.png" alt="trump-code 代表截图" width="560"></a>
 
@@ -238,7 +238,7 @@
 备注：目录归 Data，但角色是事件信号研究，本卡按 Trading Strategy 标准 S1–S5 评；截图 16–30 对应 15 条探针，31 为仓库 JSON 复算。实测源码晚于目录锁。
 
 <a id="chancode"></a>
-### 7. Chancode · 42/100 · 已验证 100%
+### 7. Chancode · 43/100 · 已验证 100%
 
 <a href="2026-09-28/07-chancode/screenshots.md"><img src="2026-09-28/07-chancode/images/04-synthetic-local-paper-replay.png" alt="Chancode 代表截图" width="560"></a>
 
@@ -331,7 +331,7 @@
 备注：实测提交 1819aa74（0.9.234）与目录锁 6bdaf1eb 不同。入口为 CLI + MCP，本轮评的是 CLI 拉起的本地 Dashboard。portfolio 标识固定显示 USER_LIVE，需结合页面的【合成演示数据】理解。
 
 <a id="meme-radar"></a>
-### Meme Radar · 22/100 · 已验证 30%
+### Meme Radar · 23/100 · 已验证 30%
 
 <a href="2026-09-28/03-meme-radar/screenshots.md"><img src="2026-09-28/03-meme-radar/images/01-initial-empty-no-key.png" alt="Meme Radar 代表截图" width="560"></a>
 

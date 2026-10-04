@@ -1,0 +1,106 @@
+{
+  "product": "simonlin1212/vibe-astock",
+  "tested_commit": "bd96df4045e7a4a68478862d18358139599fcf34",
+  "catalog_lock": "bd96df4045e7a4a68478862d18358139599fcf34",
+  "version": "v1.1.3",
+  "environment": {
+    "os": "macOS arm64",
+    "python": "3.12 (product venv)",
+    "node": "v26.8.1",
+    "go": "1.26.0",
+    "date": "2026-10-04 (Sunday, China National Day market closure)",
+    "last_a_share_session": "2026-09-30"
+  },
+  "isolation": "ASTOCK_DATA_HOME, ASTOCK_AGENT_HOME, VR_DATA_DIR and HOME pointed at a scratch directory; nothing written to the user home; server bound to 127.0.0.1:8910",
+  "not_done": [
+    "No AI source connected (Codex, Claude, WorkBuddy, API keys): would use the owner account and send data to a provider",
+    "No AI review, debate, news summary or AI-planned backtest generated",
+    "No 问财 key"
+  ],
+  "steps": [
+    {
+      "cmd": "sh scripts/setup",
+      "result": "exit 0 in 2m55s; doctor: platform, Python, Node/npm, Python deps, installer, dependency compatibility, Agent engine, browser UI all pass"
+    },
+    {
+      "cmd": "sh scripts/start --port 8910",
+      "result": "HTTP 200; doctor also confirms install matches source"
+    },
+    {
+      "cmd": "python -m pytest -q",
+      "result": "1021 passed, 1 failed, 5 skipped in 52.6s",
+      "failed": [
+        "tests/test_full_audit_fixes.py::test_cache_revision_preserved_and_recent_data_expires"
+      ],
+      "note": "A first run with the data-directory overrides produced 4 extra failures in TestVrUserDataGuard/TestFileFingerprint; they pass without the overrides, so they are attributed to the isolation setup, not the product"
+    },
+    {
+      "cmd": "plan_backtest(['600519.SH'], 2022-01-01, 2025-12-31, style='long'); run(plan, MaCross(20,60))",
+      "result": {
+        "bars": 969,
+        "source": "baostock qfq daily",
+        "total_return": "-5.14%",
+        "annualized": "-1.36%",
+        "max_drawdown": "-20.26%",
+        "sharpe": -0.07,
+        "trades": 9,
+        "win_rate": "44.44%",
+        "buy_and_hold_reference": "-24.12%",
+        "elapsed_s": 4.6,
+        "rules_disclosed": [
+          "T+1",
+          "no short",
+          "100-share lots",
+          "commission 2.5bp min 5 CNY, transfer 0.1bp, stamp 5bp sell",
+          "limit-up/down approximated"
+        ]
+      }
+    },
+    {
+      "cmd": "plan_backtest(style='t0')",
+      "result": "refused: unknown style, remedy lists long/swing/intraday"
+    },
+    {
+      "cmd": "plan_backtest(['600519.SH','AAPL'], style='long')",
+      "result": "refused: one market per run"
+    },
+    {
+      "cmd": "plan_backtest(['600519.SH'], style='intraday')",
+      "result": "refused: A-share T+1 cannot express intraday round trips"
+    },
+    {
+      "ui": "/daily-review",
+      "result": "banner 尚无今日行情 · 显示 2026-09-30 数据; 上证 3842.19 +0.31%; US/HK labelled 2026-10-02 close"
+    },
+    {
+      "ui": "watchlist add 600519 300750",
+      "result": "贵州茅台 1258.62 +1.86%, 宁德时代 291.11 +1.5%"
+    },
+    {
+      "ui": "/stock-data 600519",
+      "result": "quote time 2026-09-30 16:14:58; price 1258.62; PE(TTM) 19.32; PB 6.26; 48 institutions; 2026-06-30 revenue 922.78亿 +1.30%, net profit 445.17亿 -1.95%, ROE 16.75%; 200 research reports; PE history fetch failure shown explicitly"
+    },
+    {
+      "ui": "/yesterday-ladder",
+      "result": "sample 2026-09-29, quotes 2026-09-30, 57 names, 56 covered"
+    },
+    {
+      "ui": "/agent/intraday",
+      "result": "refuses to capture: 2026-10-04 market not open"
+    },
+    {
+      "ui": "/first-board and short-term sentiment panel",
+      "result": "52 limit-ups / 40 first boards labelled trading day 2026-10-03 (a closed holiday); the five-day heat table assigns the same 52 to 2026-09-30",
+      "defect": "stale data labelled with a non-trading date"
+    },
+    {
+      "ui": "/backtest (历史统计)",
+      "result": "requested 30 days, 14 usable, 16 trading days failed to fetch and were dropped; page states it is not a strategy backtest"
+    }
+  ],
+  "cross_checks": [
+    "600519 1258.62 and 300750 291.11 match easy-stock (independent product, same session)",
+    "2026 H1 fundamentals match easy-stock within rounding",
+    "上证 3842.19 matches easy-stock"
+  ]
+}

@@ -23,12 +23,13 @@
 
 | 排名 | 产品 | 分数 | 已验证 | 环节 1–10 | 实测 | 卡片 |
 |---:|---|---:|---:|---|---|---|
-| 1 | [A Share Heatmap](https://github.com/wenyuanw/a-share-heatmap) | **82** | 100% | `●·○······●` | ✅ 隔离运行下全市场 5,917 只股票按 32 个板块成图，九种市场范围、日/周/月/年、板块与涨跌筛选、自选增删、主题与分享预览全部实测可用；行情快照止于 2026-09-24。 | [卡片](README.md#a-share-heatmap) |
-| 2 | [Gloomberb](https://github.com/gloom-sh/gloomberb) | **72** | 100% | `●··●·····●` | ✅ 隔离环境无 key 取到 AAPL 延时报价，TUI 可进入主界面，产品自带 shot 命令生成的 15 个研究 pane 中 14 个完整可用；仅 Portfolio Analytics pane 没显示手工建立的 EVAL-ONLY 组合。 | [卡片](README.md#gloomberb) |
-| 3 | [standard-kline](https://github.com/zinan92/standard-kline) | **72** | 100% | `···●·····●` | ✅ 21/21 单测通过；隔离浏览器 harness 用 Lightweight Charts 5.2.0 渲染 400 根 synthetic OHLCV、EMA20/50/200、MACD、marker，空、加载、坏行、缺库状态与缩放平移全部按组件声明工作。 | [卡片](README.md#standard-kline) |
-| 4 | [Human K-line Review](https://github.com/zinan92/human-kline-review) | **65** | 100% | `◐··●·····●` | 🟡 在 400 根 synthetic SPY fixture 上完成周线、日线标注，显式跳过缺失的 4H，确认 Asset Review，用本地 mock 确认汇总后三种导出返回 200；真实 Macro Source 与 DeepSeek 未接，且复现了 autosave/complete 竞态。 | [卡片](README.md#human-kline-review) |
-| 5 | [Trading Desk](https://github.com/zinan92/trading-desk) | **40** | 80% | `·········●` | 🟡 /desk、/trade 页面与 health/assets 只读 API 均 HTTP 200，Overview、System、订单、持仓、成交、复盘、Supervisor 面板可浏览；市场 read model 为 blocked、0 bars，看不到任何行情、持仓或订单结果。 | [卡片](README.md#trading-desk) |
-| 6 | [OpenStock](https://github.com/Open-Dev-Society/OpenStock) | **30** | 80% | `●········●` | 🟡 公开首页显示 NYSE 市场状态与指数行情预览，数据说明与注册校验可用；/dashboard 与 /stocks/SPY 匿名访问被重定向到登录，追踪、提醒、公司详情三项核心声称本轮都没验到。 | [卡片](README.md#openstock) |
+| 1 | [A Share Heatmap](https://github.com/wenyuanw/a-share-heatmap) | **83** | 100% | `●·○······●` | ✅ 隔离运行下全市场 5,917 只股票按 32 个板块成图，九种市场范围、日/周/月/年、板块与涨跌筛选、自选增删、主题与分享预览全部实测可用；行情快照止于 2026-09-24。 | [卡片](README.md#a-share-heatmap) |
+| 2 | [Gloomberb](https://github.com/gloom-sh/gloomberb) | **73** | 100% | `●··●·····●` | ✅ 隔离环境无 key 取到 AAPL 延时报价，TUI 可进入主界面，产品自带 shot 命令生成的 15 个研究 pane 中 14 个完整可用；仅 Portfolio Analytics pane 没显示手工建立的 EVAL-ONLY 组合。 | [卡片](README.md#gloomberb) |
+| 2 | [standard-kline](https://github.com/zinan92/standard-kline) | **73** | 100% | `···●·····●` | ✅ 21/21 单测通过；隔离浏览器 harness 用 Lightweight Charts 5.2.0 渲染 400 根 synthetic OHLCV、EMA20/50/200、MACD、marker，空、加载、坏行、缺库状态与缩放平移全部按组件声明工作。 | [卡片](README.md#standard-kline) |
+| 2 | [Vibe AStock](https://github.com/simonlin1212/vibe-astock) | **73** | 100% | `●◐◐●●●○○○●` | 🟡 不接 AI 时盘面、梯队、个股研究、自选和日线回测引擎都跑通，时效基本标注清楚；但两处把 9 月 30 日数据标成休市日 10 月 3 日，复盘、辩论等深度功能必须接入 AI。 | [卡片](README.md#vibe-astock) |
+| 5 | [Human K-line Review](https://github.com/zinan92/human-kline-review) | **65** | 100% | `◐··●·····●` | 🟡 在 400 根 synthetic SPY fixture 上完成周线、日线标注，显式跳过缺失的 4H，确认 Asset Review，用本地 mock 确认汇总后三种导出返回 200；真实 Macro Source 与 DeepSeek 未接，且复现了 autosave/complete 竞态。 | [卡片](README.md#human-kline-review) |
+| 6 | [Trading Desk](https://github.com/zinan92/trading-desk) | **40** | 80% | `·········●` | 🟡 /desk、/trade 页面与 health/assets 只读 API 均 HTTP 200，Overview、System、订单、持仓、成交、复盘、Supervisor 面板可浏览；市场 read model 为 blocked、0 bars，看不到任何行情、持仓或订单结果。 | [卡片](README.md#trading-desk) |
+| 7 | [OpenStock](https://github.com/Open-Dev-Society/OpenStock) | **30** | 80% | `●········●` | 🟡 公开首页显示 NYSE 市场状态与指数行情预览，数据说明与注册校验可用；/dashboard 与 /stocks/SPY 匿名访问被重定向到登录，追踪、提醒、公司详情三项核心声称本轮都没验到。 | [卡片](README.md#openstock) |
 
 ## 分类说明
 
@@ -36,18 +37,10 @@
 - **tvscreener** 目录归本类，按 Data 标准评测，见 [tvscreener](../data/README.md#tvscreener)。
 - **TradingView-API** 目录归本类，按 Data 标准评测，见 [TradingView-API](../data/README.md#tradingview-api)。
 
-## 新加入、尚未评测
-
-这些库在首轮试用之后才加入目录，还没有实测证据，所以没有卡片和分数。
-
-| 产品 | 加入目录 | 目录描述 |
-|---|---|---|
-| [vibe-astock](https://github.com/simonlin1212/vibe-astock) | 2026-09-27 | A 股短线复盘看板：涨停池·连板梯队·龙虎榜·板块资金一屏看完，赚钱效应/晋级率/梯队断层/情绪周期等派生指标纯计算直出（不经过 AI），AI 只把数据串成能读的盘面研判。全本地运… |
-
 ## 产品卡片
 
 <a id="a-share-heatmap"></a>
-### 1. A Share Heatmap · 82/100 · 已验证 100%
+### 1. A Share Heatmap · 83/100 · 已验证 100%
 
 <a href="2026-09-28/08-a-share-heatmap/screenshots.md"><img src="2026-09-28/08-a-share-heatmap/images/01-01-native-all-day.jpg" alt="A Share Heatmap 代表截图" width="560"></a>
 
@@ -80,7 +73,7 @@
 备注：目录归 Equity Research，锁为 c15f94e6；实测源码 6b4b6744 与目录锁不同。24 张截图从 equity-research/2026-09-28/02-a-share-heatmap（2026-09-27 试用）复用，文件哈希一致，本轮未重新运行产品；以市场宽度与板块看板为核心，建议改归 Dashboard。
 
 <a id="gloomberb"></a>
-### 2. Gloomberb · 72/100 · 已验证 100%
+### 2. Gloomberb · 73/100 · 已验证 100%
 
 <a href="2026-09-28/05-gloomberb/screenshots.md"><img src="2026-09-28/05-gloomberb/images/01-quote-monitor.png" alt="Gloomberb 代表截图" width="560"></a>
 
@@ -111,7 +104,7 @@
 备注：由 CLI 启动但提供可视研究终端，留在 Dashboard。15 张截图由产品自带 shot 命令在隔离配置（无 HOME、无 key）下生成，EVAL 水印标明评测环境。
 
 <a id="standard-kline"></a>
-### 3. standard-kline · 72/100 · 已验证 100%
+### 2. standard-kline · 73/100 · 已验证 100%
 
 <a href="2026-09-28/06-standard-kline/screenshots.md"><img src="2026-09-28/06-standard-kline/images/02-indicators-markers.jpg" alt="standard-kline 代表截图" width="560"></a>
 
@@ -141,8 +134,39 @@
 
 备注：首轮（Codex）建议把它移到 Trading Infra 作为 chart-rendering package；本框架下图表组件属于环节 10（monitor），因此保留 Dashboard 类、按组件评：V4 可接入是它的强项，V3 只按 synthetic 浏览器场景实际展示的 zoom/pan/fit 计。仓库 2026-09-27 归档并迁入 zinan92/trading-system（packages/standard-kline）。15 次截图中 1 次为无效试验未发布，14 张有效。
 
+<a id="vibe-astock"></a>
+### 2. Vibe AStock · 73/100 · 已验证 100%
+
+<a href="2026-10-04/01-vibe-astock/screenshots.md"><img src="2026-10-04/01-vibe-astock/images/03-market-data.png" alt="Vibe AStock 代表截图" width="560"></a>
+
+| 1 获取 | 2 清洗 | 3 存档 | 4 指标 | 5 策略 | 6 回测 | 7 管理 | 8 风控 | 9 执行 | 10 看板 |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| ● | ◐ | ◐ | ● | ● | ● | ○ | ○ | ○ | ● |
+
+**声称：** A 股短线复盘与跟踪工作台：盘面观察、证据复盘、多空辩论、历史回测，本地网页运行，行情与统计不依赖 AI。
+
+**实测：** 🟡 不接 AI 时盘面、梯队、个股研究、自选和日线回测引擎都跑通，时效基本标注清楚；但两处把 9 月 30 日数据标成休市日 10 月 3 日，复盘、辩论等深度功能必须接入 AI。
+
+| 标准 | 权重 | 评级 | 证据 |
+|---|---:|:--:|---|
+| V1 清晰 | 25 | ✅ | 七个模块按工作流分组；每页顶部先写数据日期和口径，盘面数据一屏放指数、外围、自选与市场宽度，昨日梯队按板数固定分组并标覆盖 56/57。 [图1](2026-10-04/01-vibe-astock/images/03-market-data.png) [图2](2026-10-04/01-vibe-astock/images/06-yesterday-ladder.png) |
+| V2 时效标注 | 20 | 🟡 | 多数页面明确写「尚无今日行情 · 显示 2026-09-30 数据」，盘中核验拒绝在 2026-10-04 休市日抓快照；但首板分析和短线情绪把同一组 52 家涨停标为「2026-10-03」，而近 5 天热度把它归在 09-30。 [图1](2026-10-04/01-vibe-astock/images/03-market-data.png) [图2](2026-10-04/01-vibe-astock/images/07-intraday-check.png) [图3](2026-10-04/01-vibe-astock/images/08-first-board-date-label.png) [图4](2026-10-04/01-vibe-astock/images/09-five-day-heat.png) |
+| V3 可操作 | 20 | ✅ | 批量加自选 600519、300750 立即出价（1258.62、291.11）；个股研究查询 600519 返回行情、估值、财报和 200 条研报；回测引擎不经 AI 跑完茅台 MA20/MA60 并拒绝三个不成立的请求。 [图1](2026-10-04/01-vibe-astock/images/04-watchlist-added.png) [图2](2026-10-04/01-vibe-astock/images/11-stock-research-600519.png) [图3](2026-10-04/01-vibe-astock/images/19-backtest-engine-run.png) [图4](2026-10-04/01-vibe-astock/images/20-backtest-gate-refusals.png) |
+| V4 可接入 | 20 | 🟡 | 本机回环运行、无登录，回测引擎可作为 Python 模块直接调用；但数据源固定为公开接口（腾讯、东财、akshare、baostock），不能接入我们自己的行情，复盘、辩论、资讯要点和回测页面入口都要先接 AI。 [图1](2026-10-04/01-vibe-astock/images/01-ai-gate.png) [图2](2026-10-04/01-vibe-astock/images/13-backtest-page.png) [图3](2026-10-04/01-vibe-astock/images/19-backtest-engine-run.png) |
+| V5 稳定 | 15 | 🟡 | setup 体检 8 项通过，pytest 1021 通过 1 失败；历史统计请求 30 天只得到 14 天，16 个交易日取数失败被剔除；首板与热度页需要数十秒才加载完。 [图1](2026-10-04/01-vibe-astock/images/21-setup-and-tests.png) [图2](2026-10-04/01-vibe-astock/images/10-history-stats.png) |
+
+**适合：** 每天收盘后看 A 股短线情绪、昨日梯队和首板，并对单只票快速拉齐行情、估值和研报。  
+**不适合：** 需要接自有行情、需要盘中逐笔精度，或不愿把复盘材料交给外部 AI 的场景。
+
+**未验证：** AI 复盘报告与引用校验；多空辩论；资讯雷达的 AI 要点；交易时段内的实时动态与盘中快照；交易日志记账与个人风控统计  
+**下一步：** 开市日接入一个自有 API 来源，生成一次完整复盘，核对引用校验和日期标注是否仍把旧数据标成新日期。
+
+证据：[21 张截图](2026-10-04/01-vibe-astock/screenshots.md) · [实测记录](2026-10-04/01-vibe-astock/findings.md) · 实测版本 `bd96df4045e7` · 目录锁 `bd96df4045e7` · Web 应用 · A股、美股、港股、新闻/事件
+
+备注：带一个可独立调用的日线回测引擎（A股、美股、港股；买入持有、均线交叉、RSI），计入费用和市场规则；它不下单，交易日志里的「个人风控」是复盘统计，不拦截订单。
+
 <a id="human-kline-review"></a>
-### 4. Human K-line Review · 65/100 · 已验证 100%
+### 5. Human K-line Review · 65/100 · 已验证 100%
 
 <a href="2026-09-28/03-human-kline-review/screenshots.md"><img src="2026-09-28/03-human-kline-review/images/01-initial-overview.jpg" alt="Human K-line Review 代表截图" width="560"></a>
 
@@ -173,7 +197,7 @@
 备注：V5 判 failed 的依据是可复现的进度回退 bug 加 JS 测试套件整体失败；等待自动保存落盘后再点完成可绕过。25 次截图 21 张唯一，全部来自隔离 synthetic fixture 实例（8933 端口），未触碰既有 8932 服务的数据。
 
 <a id="trading-desk"></a>
-### 5. Trading Desk · 40/100 · 已验证 80%
+### 6. Trading Desk · 40/100 · 已验证 80%
 
 <a href="2026-09-28/02-trading-desk/screenshots.md"><img src="2026-09-28/02-trading-desk/images/desk-overview.png" alt="Trading Desk 代表截图" width="560"></a>
 
@@ -204,7 +228,7 @@
 备注：仓库 2026-09-27 归档并迁入 zinan92/trading-system（apps/trading-desk）；本卡按其 Dashboard 目录内证据给出完整 V1..V5，19 张截图与 trading-infra/2026-09-28/03-trading-system 同一轮隔离试用复用，未第二次启动系统。首轮建议它跟随宿主归 Full Trading System；本框架下它是宿主的环节 10 模块，canonical 分类由 Park OS 决定，这里不另提改类。
 
 <a id="openstock"></a>
-### 6. OpenStock · 30/100 · 已验证 80%
+### 7. OpenStock · 30/100 · 已验证 80%
 
 <a href="2026-09-28/01-openstock/screenshots.md"><img src="2026-09-28/01-openstock/images/01-landing-hero.jpg" alt="OpenStock 代表截图" width="560"></a>
 
@@ -237,3 +261,4 @@
 ## 原始证据
 
 - [evaluations/dashboard/2026-09-28](../../evaluations/dashboard/2026-09-28/README.md)：该轮的实测记录、截图与首轮人工分，保留供复核。
+- [evaluations/dashboard/2026-10-04](../../evaluations/dashboard/2026-10-04/README.md)：该轮的实测记录、截图与首轮人工分，保留供复核。
