@@ -1,0 +1,149 @@
+{
+  "product": "jundizhou/easy-stock",
+  "tested_commit": "37a8c1bb3e2e9cabeb11f94dbef50a8b955f1948",
+  "capture_date": "2026-10-04",
+  "count": 20,
+  "unique_sha256_count": 20,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-theme-radar.png",
+      "description": "趋势题材雷达首次加载：题材快照 2026-09-30，生物制品热度 88，主线个股梯队与日 K",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "39be362f8b4af0c246e9557d4a449bcf4b5ed94f6ddcaea466e790d0882710be"
+    },
+    {
+      "number": 2,
+      "file": "images/02-theme-radar-degraded.png",
+      "description": "同页再次打开：热度变为「强度未齐」，日 K 与多日指标显示暂不可用；数据源 6/7，Tushare 需要 Token",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "7bd46deedd858625888496ffc1e481689527535e3629b5c323567c4f78c8606f"
+    },
+    {
+      "number": 3,
+      "file": "images/03-influencer-reviews.png",
+      "description": "大V复盘日记：0 篇文章，雪球、淘股吧、微信公众号均为受限；微信历史文章接口已停用",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "190d74e8775fc178cd4de0a50e4f277eb6e540281ee89bcc9f7c8b271b6df78a"
+    },
+    {
+      "number": 4,
+      "file": "images/04-stock-analysis.png",
+      "description": "个股分析首页：已缓存 5,497 只 A 股，人气股并集 135",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "7684cf634be149c142315805e58a6a25e862caaf653659794ff727449d221019"
+    },
+    {
+      "number": 5,
+      "file": "images/05-analysis-modes.png",
+      "description": "分析模式选择：「量化速览」只用本地行情与规则、0 Token；其余三档需要 AI",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "e65051f1cd3a2e62a6c2f38339b6134a308b5bb0ce182996246054f41e14d76e"
+    },
+    {
+      "number": 6,
+      "file": "images/06-quick-600519.png",
+      "description": "600519 量化速览 9 秒完成，未调用 AI：1258.62 +1.9%，标注「量化快照 · 尚无AI研究结论」",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "85879d3467b835db73dd34bf070d1134248c70253d56563e75cbaaaf7cd014f1"
+    },
+    {
+      "number": 7,
+      "file": "images/07-quick-600519-scores.png",
+      "description": "600519 评分拆解：综合 55·C，十个维度带权重，风险压力 37",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "fd1ccdf006d7f1b286b62d1dd82593165626ccfab6c7964ec383510c57d620ab"
+    },
+    {
+      "number": 8,
+      "file": "images/08-quick-600519-evidence.png",
+      "description": "600519 证据：2026 中报营收同比 +1.3%、归母净利同比 -2.0%、ROE 16.8%；题材归因白酒",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "83681e17004a64adab839b10f7a90099a776566bf1c78764cccaa3df7f4ec055"
+    },
+    {
+      "number": 9,
+      "file": "images/09-risk-exec.png",
+      "description": "风控执行页：按结构失效位、账户风险预算和仓位上限反推可执行股数",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "5c0e4a0d3d1e246ea88b7c82c143776737c985b3e32db19cc5daf6f436aa2877"
+    },
+    {
+      "number": 10,
+      "file": "images/10-risk-300750.png",
+      "description": "风控执行 · 准备新开仓 · 300750 量化速览：291.11 +1.5%，综合 46·D",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "f64ed41d69d205ceb8fa839f564e134a47dc756c31b4357dea27a6583c939069"
+    },
+    {
+      "number": 11,
+      "file": "images/11-risk-300750-sizing.png",
+      "description": "300750 风控输出：风险压力 53，计划失效位 316.60，建议仓位 0%—10%",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "31a10d30fead97b2853281d2ae76efc116b4382c37e17f563b40d6170043d349"
+    },
+    {
+      "number": 12,
+      "file": "images/12-portfolio-input.png",
+      "description": "持仓 AI 巡检：均衡风格，录入 600519、300750 各 10%，现金 80%",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "99a872757ff8dd73998579083b0ca10231eb5952d761299fae1ecd35fdc0e4bc"
+    },
+    {
+      "number": 13,
+      "file": "images/13-portfolio-blocked.png",
+      "description": "点击开始巡检：明确提示「未配置 Hermes 运行时路径」，未生成报告",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "c991e656f04dff3f265e85ca7b7910d49bfb37be713344599171401117622d7b"
+    },
+    {
+      "number": 14,
+      "file": "images/14-limit-up-ladder.png",
+      "description": "短线连板：2026-09-30 · 最近交易日，涨停 52、连板 12、最高 7 板，7 日情绪时间轴",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "793ac3bb0e2b222b03c95b0de0b1152ac464ea6ba5636326ad0680d633bad946"
+    },
+    {
+      "number": 15,
+      "file": "images/15-market-overview.png",
+      "description": "行情总览：快讯 20 条、题材快照 2026-09-30、数据源 6/7",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "1235e8aa3f6a12584dd799ac6f63f945b8fb3a2cb1858a4eb5cf110acaf5668f"
+    },
+    {
+      "number": 16,
+      "file": "images/16-core-indexes.png",
+      "description": "市场核心指数：来源 eastmoney，标「已收盘」，上证 3842.19 +0.31%，行情时间 2026/9/30",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "ad5eb60e6b08f216105154cf4120a3b60c31d90d3996e549a8f8714eedcb7072"
+    },
+    {
+      "number": 17,
+      "file": "images/17-trader-notes.png",
+      "description": "游资心法库：21 位游资资料，本地知识库已同步",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "328411ddda95f14a0c321f90831fde34ce3c0e4b6bea646c35c4e344de1ed933"
+    },
+    {
+      "number": 18,
+      "file": "images/18-ai-chat-blocked.png",
+      "description": "AI 对话：Agent 运行时不可用，提示查看系统设置",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "5ced657d9401ffd160df46f4b83588ac24d1710650de012f99ccf629925a3a66"
+    },
+    {
+      "number": 19,
+      "file": "images/19-token-usage.png",
+      "description": "Token 统计：真实用量 0，本地估算单独列示",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "1d8c46f1d0f3b07ee1b49a11f4a4189d95917e5937c23ec56cb7a1ca6bed76f2"
+    },
+    {
+      "number": 20,
+      "file": "images/20-build-and-tests.png",
+      "description": "构建与测试：npm ci、Go 后端与前端构建通过；go test 21 个包通过、agent 包 2 项因 Hermes 运行时未安装超时；Vitest 155 项全过",
+      "kind": "辅助证据页（非产品原生界面，渲染命令行实测输出）",
+      "sha256": "8cbb288c3f79d1002261a8edac35895b439750e275142ac3017c6aca7e37e034"
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 {
   "authored": "2026-09-28",
-  "source_rounds": ["evaluations/dashboard/2026-09-28"],
+  "source_rounds": [
+    "evaluations/dashboard/2026-09-28",
+    "evaluations/dashboard/2026-10-04"
+  ],
   "products": [
     {
       "repo": "Open-Dev-Society/OpenStock",
@@ -11,38 +14,66 @@
       "tested_revision": "87df76a2ce58c33bc98b89760f4cc8f6527834d0（源码与测试）；公开部署 openstock-ods.vercel.app 的 SHA 未知",
       "catalog_lock": "87df76a2ce58c33bc98b89760f4cc8f6527834d0",
       "interface": "Web 应用",
-      "markets": ["美股"],
+      "markets": [
+        "美股"
+      ],
       "claimed": "开源的付费行情平台替代品：追踪实时价格、设置个性化提醒、查看公司详情，永久免费。",
       "delivered": {
         "status": "partial",
         "summary": "公开首页显示 NYSE 市场状态与指数行情预览，数据说明与注册校验可用；/dashboard 与 /stocks/SPY 匿名访问被重定向到登录，追踪、提醒、公司详情三项核心声称本轮都没验到。"
       },
-      "stages": {"fetch": "run", "clean": "na", "store": "na", "indicator": "na", "strategy": "na", "backtest": "na", "lifecycle": "na", "risk": "na", "execute": "na", "monitor": "run"},
+      "stages": {
+        "fetch": "run",
+        "clean": "na",
+        "store": "na",
+        "indicator": "na",
+        "strategy": "na",
+        "backtest": "na",
+        "lifecycle": "na",
+        "risk": "na",
+        "execute": "na",
+        "monitor": "run"
+      },
       "criteria": {
         "V1": {
           "rating": "partial",
           "evidence": "公开首屏有 NYSE 市场状态、指数行情预览和每小时缓存说明，功能入口一屏可见；但真正的 dashboard 在登录后，匿名首屏本质是营销页。",
-          "shots": ["images/01-landing-hero.jpg", "images/02-home-features.jpg"]
+          "shots": [
+            "images/01-landing-hero.jpg",
+            "images/02-home-features.jpg"
+          ]
         },
         "V2": {
           "rating": "partial",
           "evidence": "数据层级页明示社区版行情每小时刷新、云版 Coming soon，Architecture 页列出数据模式与缓存；账户内行情卡的时间戳本轮看不到。",
-          "shots": ["images/03-home-data-tiers.jpg", "images/08-api-docs.jpg"]
+          "shots": [
+            "images/03-home-data-tiers.jpg",
+            "images/08-api-docs.jpg"
+          ]
         },
         "V3": {
           "rating": "unverified",
           "evidence": "watchlist、告警、详情页都在登录后；匿名访问 /dashboard 与 /stocks/SPY 被重定向到 /sign-in，本轮只测到注册空表单的客户端必填提示，没有任何看板操作。",
-          "shots": ["images/13-dashboard-unauthenticated.jpg", "images/15-sign-up-empty-validation.jpg"]
+          "shots": [
+            "images/13-dashboard-unauthenticated.jpg",
+            "images/15-sign-up-empty-validation.jpg"
+          ]
         },
         "V4": {
           "rating": "failed",
           "evidence": "匿名访问 /dashboard 与 /stocks/SPY 均被重定向到登录；自托管需 MongoDB 与 Finnhub key，lib/better-auth/auth.ts 顶层连库、缺 MONGODB_URI 直接抛错，本地无法进入主屏，也不能接自有行情。",
-          "shots": ["images/13-dashboard-unauthenticated.jpg", "images/04-home-self-host.jpg"]
+          "shots": [
+            "images/13-dashboard-unauthenticated.jpg",
+            "images/04-home-self-host.jpg"
+          ]
         },
         "V5": {
           "rating": "partial",
           "evidence": "npm test 99 通过、4 跳过；公开页面全部可加载，刷新与关闭推广层状态正常；本地服务在 Docker daemon 报 containerd I/O error、无 DB 时阻断，跨端未测。",
-          "shots": ["images/16-home-after-reload.jpg", "images/17-home-promo-dismissed.jpg"]
+          "shots": [
+            "images/16-home-after-reload.jpg",
+            "images/17-home-promo-dismissed.jpg"
+          ]
         }
       },
       "best_for": "愿意注册账号、想要免费托管美股行情总览与邮件提醒的个人用户。",
@@ -73,32 +104,59 @@
         "status": "partial",
         "summary": "/desk、/trade 页面与 health/assets 只读 API 均 HTTP 200，Overview、System、订单、持仓、成交、复盘、Supervisor 面板可浏览；市场 read model 为 blocked、0 bars，看不到任何行情、持仓或订单结果。"
       },
-      "stages": {"fetch": "na", "clean": "na", "store": "na", "indicator": "na", "strategy": "na", "backtest": "na", "lifecycle": "na", "risk": "na", "execute": "na", "monitor": "run"},
+      "stages": {
+        "fetch": "na",
+        "clean": "na",
+        "store": "na",
+        "indicator": "na",
+        "strategy": "na",
+        "backtest": "na",
+        "lifecycle": "na",
+        "risk": "na",
+        "execute": "na",
+        "monitor": "run"
+      },
       "criteria": {
         "V1": {
           "rating": "partial",
           "evidence": "Overview、System 与订单/持仓/成交/复盘/Supervisor 的导航层级清楚；但 read model 为空时首屏没有任何关键行情或持仓信息。",
-          "shots": ["images/desk-overview.png", "images/integrated-trade-dashboard.png", "images/trade-nav-read.png"]
+          "shots": [
+            "images/desk-overview.png",
+            "images/integrated-trade-dashboard.png",
+            "images/trade-nav-read.png"
+          ]
         },
         "V2": {
           "rating": "partial",
           "evidence": "System 面板把空行情标为 blocked、bar count 0、系统 stopped/fail-closed，没有伪装成模拟行情；但没有真实数据，无法核对数据日期与延时的显示。",
-          "shots": ["images/desk-system.png", "images/desk-upper.png"]
+          "shots": [
+            "images/desk-system.png",
+            "images/desk-upper.png"
+          ]
         },
         "V3": {
           "rating": "unverified",
           "evidence": "本轮 GET-only，没有点击启动、确认、执行、平仓等写操作；无数据时筛选与切换无从验证。",
-          "shots": ["images/trade-orders-read.png", "images/trade-positions-read.png"]
+          "shots": [
+            "images/trade-orders-read.png",
+            "images/trade-positions-read.png"
+          ]
         },
         "V4": {
           "rating": "partial",
           "evidence": "本地无登录，同源 /trade 集成与 /api/health、/api/assets 契约可见，消费的是宿主自己的 SQLite fixture；但归档仓库不能单独安装运行，必须从 trading-system 宿主启动。",
-          "shots": ["images/desk-api-health.png", "images/desk-api-assets.png"]
+          "shots": [
+            "images/desk-api-health.png",
+            "images/desk-api-assets.png"
+          ]
         },
         "V5": {
           "rating": "partial",
           "evidence": "/desk、/api/health、/api/assets、/trade 均 HTTP 200，390px 手机与平板视图可渲染，空数据以 blocked 状态显示；只验证了 GET-only 空数据路径，没有带数据的加载与错误态。",
-          "shots": ["images/desk-mobile-390.png", "images/integrated-trade-tablet.png"]
+          "shots": [
+            "images/desk-mobile-390.png",
+            "images/integrated-trade-tablet.png"
+          ]
         }
       },
       "best_for": "在 trading-system 宿主内查看系统状态与订单、持仓、成交的只读面板。",
@@ -122,38 +180,70 @@
       "tested_revision": "无 Git commit（main 未生成提交）；以 source-fingerprint.json 的 SHA-256 固定 10 个关键源文件",
       "catalog_lock": "owned source",
       "interface": "Web 应用",
-      "markets": ["宏观", "美股"],
+      "markets": [
+        "宏观",
+        "美股"
+      ],
       "claimed": "Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later。",
       "delivered": {
         "status": "partial",
         "summary": "在 400 根 synthetic SPY fixture 上完成周线、日线标注，显式跳过缺失的 4H，确认 Asset Review，用本地 mock 确认汇总后三种导出返回 200；真实 Macro Source 与 DeepSeek 未接，且复现了 autosave/complete 竞态。"
       },
-      "stages": {"fetch": "code", "clean": "na", "store": "na", "indicator": "run", "strategy": "na", "backtest": "na", "lifecycle": "na", "risk": "na", "execute": "na", "monitor": "run"},
+      "stages": {
+        "fetch": "code",
+        "clean": "na",
+        "store": "na",
+        "indicator": "run",
+        "strategy": "na",
+        "backtest": "na",
+        "lifecycle": "na",
+        "risk": "na",
+        "execute": "na",
+        "monitor": "run"
+      },
       "criteria": {
         "V1": {
           "rating": "done",
           "evidence": "首屏即显示 400 根 K 线图与可展开的 Macro Source 来源、报告截止与状态；周线→日线→4H→资产确认的复盘顺序由 next_timeframe 明示，一步可达当前周期。",
-          "shots": ["images/01-initial-overview.jpg", "images/02-source-provenance-expanded.jpg", "images/10-weekly-completed.jpg"]
+          "shots": [
+            "images/01-initial-overview.jpg",
+            "images/02-source-provenance-expanded.jpg",
+            "images/10-weekly-completed.jpg"
+          ]
         },
         "V2": {
           "rating": "done",
           "evidence": "来源面板显示 Macro Source 身份、报告截止与 freshness；4H 在源中不存在时 fail-closed 显示 unavailable 而不冒充；页面全程标明 synthetic fixture 与 EVAL FIXTURE。",
-          "shots": ["images/02-source-provenance-expanded.jpg", "images/14-four-hour-unavailable.jpg"]
+          "shots": [
+            "images/02-source-provenance-expanded.jpg",
+            "images/14-four-hour-unavailable.jpg"
+          ]
         },
         "V3": {
           "rating": "partial",
           "evidence": "周线/日线切换、逐根观察、给 2026-08-21 那根 K 线加备注、草稿保存、显式跳过 4H、确认资产复盘均可用；但未确认 synthesis 时 JSON/Markdown/HTML 导出都返回 409 synthesis_unconfirmed，纯人工复盘无法从 UI 导出。",
-          "shots": ["images/08-key-candle-marker.jpg", "images/20-four-hour-skipped.jpg", "images/25-synthetic-summary-confirmed.jpg"]
+          "shots": [
+            "images/08-key-candle-marker.jpg",
+            "images/20-four-hour-skipped.jpg",
+            "images/25-synthetic-summary-confirmed.jpg"
+          ]
         },
         "V4": {
           "rating": "partial",
           "evidence": "本地 HTML 工作台无登录，Macro Source 可指向自备数据（本轮 400 根本地 synthetic 文件直接跑通）；但正式启动依赖 Macro Source 契约，导出前的 AI 汇总需要 DeepSeek 凭证。",
-          "shots": ["images/01-initial-overview.jpg", "images/23-summary-entry-mock-enabled.jpg"]
+          "shots": [
+            "images/01-initial-overview.jpg",
+            "images/23-summary-entry-mock-enabled.jpg"
+          ]
         },
         "V5": {
           "rating": "failed",
           "evidence": "日线完成约 0.66 秒后 700ms 自动保存追加空 draft，next_timeframe 从 four_hour 退回 daily，进度丢失可复现；Python 57 通过 1 失败（Playwright networkidle 30 秒超时），npm run test:js 7/7 失败。",
-          "shots": ["images/13-daily-completed.jpg", "images/17-daily-autosave-settled.jpg", "images/18-daily-completed-after-debounce.jpg"]
+          "shots": [
+            "images/13-daily-completed.jpg",
+            "images/17-daily-autosave-settled.jpg",
+            "images/18-daily-completed-after-debounce.jpg"
+          ]
         }
       },
       "best_for": "人工主导、按周线→日线→4H 顺序做宏观 K 线复盘并留存来源与逐根备注。",
@@ -178,18 +268,36 @@
       "tested_revision": "737c9764c1e58f364972a9106108b77e9fc1d6c0（包版本 0.4.1）",
       "catalog_lock": "737c9764c1e58f364972a9106108b77e9fc1d6c0",
       "interface": "Python 库",
-      "markets": ["美股", "加密", "外汇", "商品"],
+      "markets": [
+        "美股",
+        "加密",
+        "外汇",
+        "商品"
+      ],
       "claimed": "TradingView Screener API：股票、加密、外汇、债券、期货、Coin 六类筛选器的 Python 客户端。",
       "delivered": {
         "status": "partial",
         "summary": "无凭证的 S&P 500 公开查询 0.74 秒返回 10 行 DataFrame（含 NASDAQ:NVDA）；其余五类只在本地代码生成器构造了查询，没有实取；Valuation 预设生成了包里不存在的 StockField。"
       },
-      "stages": {"fetch": "run", "clean": "code", "store": "none", "indicator": "na", "strategy": "na", "backtest": "na", "lifecycle": "na", "risk": "na", "execute": "na", "monitor": "na"},
+      "stages": {
+        "fetch": "run",
+        "clean": "code",
+        "store": "none",
+        "indicator": "na",
+        "strategy": "na",
+        "backtest": "na",
+        "lifecycle": "na",
+        "risk": "na",
+        "execute": "na",
+        "monitor": "na"
+      },
       "criteria": {
         "D1": {
           "rating": "unverified",
           "evidence": "10 行结果的价格未与第二来源交叉核对；唯一明确的错误信号是 Valuation 预设触发的 AttributeError，发生在请求之前，不能说明服务端错误与空值如何呈现。",
-          "shots": ["images/17-valuation-preset.jpg"]
+          "shots": [
+            "images/17-valuation-preset.jpg"
+          ]
         },
         "D2": {
           "rating": "unverified",
@@ -199,17 +307,27 @@
         "D3": {
           "rating": "partial",
           "evidence": "代码生成器可切换 Stock、Crypto、Forex、Bond、Futures、Coin (DEX) 六类并生成有效查询配置；只有美股 stock 一类实际取到数据，其余五类未实取。",
-          "shots": ["images/02-crypto-screen.jpg", "images/02-forex-screen.jpg", "images/18-coin-screener-generated.jpg"]
+          "shots": [
+            "images/02-crypto-screen.jpg",
+            "images/02-forex-screen.jpg",
+            "images/18-coin-screener-generated.jpg"
+          ]
         },
         "D4": {
           "rating": "partial",
           "evidence": "无 API key、无账号即完成一次 S&P 500 公开查询，pip 安装 0.4.1 与 uv pip check 通过；限流与 TradingView 对非官方 screener 端点的使用条款未核。",
-          "shots": ["images/15-sp500-index-config.jpg", "images/08-price-filter-generated.jpg"]
+          "shots": [
+            "images/15-sp500-index-config.jpg",
+            "images/08-price-filter-generated.jpg"
+          ]
         },
         "D5": {
           "rating": "partial",
           "evidence": "输出为 pandas DataFrame，六列 Symbol、Name、Price、Change %、Volume、Update Mode；但 Valuation 预设生成的 StockField.EV_TO_EBITDA_TTM 在已安装包中不存在，照抄生成代码即 AttributeError。",
-          "shots": ["images/13-output-fields-selected.jpg", "images/17-valuation-preset.jpg"]
+          "shots": [
+            "images/13-output-fields-selected.jpg",
+            "images/17-valuation-preset.jpg"
+          ]
         }
       },
       "best_for": "用 Python 快速拉 TradingView 公开筛选结果做粗筛（美股已验）。",
@@ -234,38 +352,69 @@
       "tested_revision": "4dc1d5cd2714a65afd3c6c33c3fc551570090002（版本 0.13.3）",
       "catalog_lock": "4dc1d5cd2714a65afd3c6c33c3fc551570090002",
       "interface": "TUI",
-      "markets": ["美股", "宏观", "新闻/事件"],
+      "markets": [
+        "美股",
+        "宏观",
+        "新闻/事件"
+      ],
       "claimed": "Finance terminal, in your terminal：在终端里提供多市场金融研究终端。",
       "delivered": {
         "status": "done",
         "summary": "隔离环境无 key 取到 AAPL 延时报价，TUI 可进入主界面，产品自带 shot 命令生成的 15 个研究 pane 中 14 个完整可用；仅 Portfolio Analytics pane 没显示手工建立的 EVAL-ONLY 组合。"
       },
-      "stages": {"fetch": "run", "clean": "na", "store": "na", "indicator": "run", "strategy": "na", "backtest": "na", "lifecycle": "na", "risk": "na", "execute": "na", "monitor": "run"},
+      "stages": {
+        "fetch": "run",
+        "clean": "na",
+        "store": "na",
+        "indicator": "run",
+        "strategy": "na",
+        "backtest": "na",
+        "lifecycle": "na",
+        "risk": "na",
+        "execute": "na",
+        "monitor": "run"
+      },
       "criteria": {
         "V1": {
           "rating": "done",
           "evidence": "Quote Monitor 首屏即显示 AAPL 10 个主要报价字段与 delayed/CLOSED 状态；Sector Performance 11 个板块、Market Movers 25 行、Yield Curve 10 行各自一屏可读。",
-          "shots": ["images/01-quote-monitor.png", "images/08-sector-performance.png", "images/11-market-movers.png"]
+          "shots": [
+            "images/01-quote-monitor.png",
+            "images/08-sector-performance.png",
+            "images/11-market-movers.png"
+          ]
         },
         "V2": {
           "rating": "done",
           "evidence": "AAPL quote 明示 providerId=gloomberb-cloud、dataSource=delayed、sessionDate=2026-09-25、marketState=CLOSED；TUI 页眉同样显示 2026-09-25 的 SPY quote 与 CLOSED。",
-          "shots": ["images/01-quote-monitor.png", "images/07-intraday-price.png"]
+          "shots": [
+            "images/01-quote-monitor.png",
+            "images/07-intraday-price.png"
+          ]
         },
         "V3": {
           "rating": "partial",
           "evidence": "15 个 pane 中 14 个按参数（AAPL、AAPL vs MSFT）渲染可用，手工 EVAL-ONLY 组合（10 股 AAPL、成本 300 USD）CLI show 可读；但 Portfolio Analytics pane 仍显示空 Main Portfolio（rowCount=0、usable=false），TUI 内筛选与告警未实操。",
-          "shots": ["images/03-comparison-chart.png", "images/15-eval-only-portfolio.png"]
+          "shots": [
+            "images/03-comparison-chart.png",
+            "images/15-eval-only-portfolio.png"
+          ]
         },
         "V4": {
           "rating": "partial",
           "evidence": "无 key、无账号即可用 Gloomberb Cloud 延时数据，配置与 SQLite 可通过 ConfigStore 隔离到自定义目录；但没有接入自有行情源的路径，Web 版需要 Gloom Cloud 账号。",
-          "shots": ["images/01-quote-monitor.png", "images/15-eval-only-portfolio.png"]
+          "shots": [
+            "images/01-quote-monitor.png",
+            "images/15-eval-only-portfolio.png"
+          ]
         },
         "V5": {
           "rating": "partial",
           "evidence": "23 项定向测试通过，Economic Calendar 44 行、Top News 6 行等 14 个 pane 状态为 complete；1 个 pane 空态 unusable，未跑全量测试与发行包构建，错误态与桌面/Web 端未测。",
-          "shots": ["images/09-economic-calendar.png", "images/15-eval-only-portfolio.png"]
+          "shots": [
+            "images/09-economic-calendar.png",
+            "images/15-eval-only-portfolio.png"
+          ]
         }
       },
       "best_for": "在终端里无 key 快速查看美股延时报价、估值与基本面图、宏观日历、新闻和 SEC 文件。",
@@ -297,32 +446,62 @@
         "status": "done",
         "summary": "21/21 单测通过；隔离浏览器 harness 用 Lightweight Charts 5.2.0 渲染 400 根 synthetic OHLCV、EMA20/50/200、MACD、marker，空、加载、坏行、缺库状态与缩放平移全部按组件声明工作。"
       },
-      "stages": {"fetch": "na", "clean": "na", "store": "na", "indicator": "run", "strategy": "na", "backtest": "na", "lifecycle": "na", "risk": "na", "execute": "na", "monitor": "run"},
+      "stages": {
+        "fetch": "na",
+        "clean": "na",
+        "store": "na",
+        "indicator": "run",
+        "strategy": "na",
+        "backtest": "na",
+        "lifecycle": "na",
+        "risk": "na",
+        "execute": "na",
+        "monitor": "run"
+      },
       "criteria": {
         "V1": {
           "rating": "done",
           "evidence": "400 根 synthetic 蜡烛、成交量、EMA20/50/200、MACD、价位线与时间戳 marker 一屏呈现，synthetic 水印与 source 元数据在工具栏可见。",
-          "shots": ["images/01-synthetic-chart.jpg", "images/02-indicators-markers.jpg"]
+          "shots": [
+            "images/01-synthetic-chart.jpg",
+            "images/02-indicators-markers.jpg"
+          ]
         },
         "V2": {
           "rating": "partial",
           "evidence": "工具栏保留 provider/source/quality 元数据并显式标 synthetic，stale 与 blocked 状态有标识；但带 bars 的 stale/blocked payload 仍照常显示图表，只读约束要靠宿主。",
-          "shots": ["images/08-stale-source.jpg", "images/09-blocked-source.jpg"]
+          "shots": [
+            "images/08-stale-source.jpg",
+            "images/09-blocked-source.jpg"
+          ]
         },
         "V3": {
           "rating": "partial",
           "evidence": "zoom、pan、fit、auto-fit 可操作，极端范围被夹在数据区间内且无未捕获错误；组件本身没有周期切换、筛选、自选或告警，这些属于宿主。",
-          "shots": ["images/03-zoom-in.jpg", "images/04-pan-right.jpg", "images/05-fit-all-bars.jpg", "images/13-extreme-range-clamped.jpg"]
+          "shots": [
+            "images/03-zoom-in.jpg",
+            "images/04-pan-right.jpg",
+            "images/05-fit-all-bars.jpg",
+            "images/13-extreme-range-clamped.jpg"
+          ]
         },
         "V4": {
           "rating": "done",
           "evidence": "消费统一 OHLCV 加来源元数据的 payload，UMD 与 CommonJS 两种引入，无登录、不依赖任何行情 API；本轮直接用自备 400 根 synthetic 数据渲染，121 行输入中 1 行缺 OHLC 被丢弃、保留 120 根。",
-          "shots": ["images/01-synthetic-chart.jpg", "images/07-invalid-ohlc-row-dropped.jpg"]
+          "shots": [
+            "images/01-synthetic-chart.jpg",
+            "images/07-invalid-ohlc-row-dropped.jpg"
+          ]
         },
         "V5": {
           "rating": "partial",
           "evidence": "21/21 单测通过；空 payload 显示 NO LIVE KLINE DATA、loading 显示 LOADING KLINE、缺 Lightweight Charts 显示 CHART LIBRARY MISSING；但 synthetic 输入时安全水印覆盖缺库诊断，且未测移动端与多浏览器。",
-          "shots": ["images/10-empty-payload.jpg", "images/11-loading-source.jpg", "images/14-missing-peer-dependency.jpg", "images/15-missing-library-error-state.jpg"]
+          "shots": [
+            "images/10-empty-payload.jpg",
+            "images/11-loading-source.jpg",
+            "images/14-missing-peer-dependency.jpg",
+            "images/15-missing-library-error-state.jpg"
+          ]
         }
       },
       "best_for": "在自有 Web 看板里嵌入统一 OHLCV 的 K 线、EMA、MACD 图，并带来源与质量标注。",
@@ -346,38 +525,69 @@
       "tested_revision": "5baea86c8c7e576f13464919c86c3b4c4b0ecf4c（@mathieuc/tradingview 3.5.2）",
       "catalog_lock": "5baea86c8c7e576f13464919c86c3b4c4b0ecf4c",
       "interface": "JavaScript 库",
-      "markets": ["美股", "加密", "外汇"],
+      "markets": [
+        "美股",
+        "加密",
+        "外汇"
+      ],
       "claimed": "从 TradingView 获取实时行情：非官方 Node WebSocket 客户端，封装 chart/quote session、指标与回放。",
       "delivered": {
         "status": "partial",
         "summary": "无 SESSION/SIGNATURE 的 SimpleChart 示例加载 BINANCE:BTCEUR 日线，再切换 ETHEUR、15 分钟与 Heikin Ashi 后正常关闭；50 tests passed、16 skipped，私有指标与账户 API 因无 cookie 未测，股票标的也未实取。"
       },
-      "stages": {"fetch": "run", "clean": "none", "store": "none", "indicator": "code", "strategy": "na", "backtest": "na", "lifecycle": "na", "risk": "na", "execute": "na", "monitor": "na"},
+      "stages": {
+        "fetch": "run",
+        "clean": "none",
+        "store": "none",
+        "indicator": "code",
+        "strategy": "na",
+        "backtest": "na",
+        "lifecycle": "na",
+        "risk": "na",
+        "execute": "na",
+        "monitor": "na"
+      },
       "criteria": {
         "D1": {
           "rating": "unverified",
           "evidence": "原始价格只留在试用目录的 simplechart.log，没有复制进证据包，也未与第二来源交叉核对；错误契约只在单测层通过。",
-          "shots": ["images/11-error-contract-tests.jpg"]
+          "shots": [
+            "images/11-error-contract-tests.jpg"
+          ]
         },
         "D2": {
           "rating": "partial",
           "evidence": "公开 WebSocket 会话持续推送，日线切 15 分钟即时生效，25 秒后按时关闭；但没有独立核验时间戳语义，也没有记录成交时间与取数时间之差。",
-          "shots": ["images/10-live-chart-integration-test.jpg", "images/02-simple-chart-example.jpg"]
+          "shots": [
+            "images/10-live-chart-integration-test.jpg",
+            "images/02-simple-chart-example.jpg"
+          ]
         },
         "D3": {
           "rating": "partial",
           "evidence": "图表、quote、内置指标、回放、区间历史、search 与 quote session API 面广；本轮只实取一个公开加密市场，股票、外汇与私有指标未测。",
-          "shots": ["images/04-custom-chart-types.jpg", "images/07-replay-mode-example.jpg", "images/13-quote-session-source.jpg"]
+          "shots": [
+            "images/04-custom-chart-types.jpg",
+            "images/07-replay-mode-example.jpg",
+            "images/13-quote-session-source.jpg"
+          ]
         },
         "D4": {
           "rating": "partial",
           "evidence": "无 SESSION/SIGNATURE 即可加载公开图表并切换周期与图型；但自定义周期、区间历史与私有指标需登录 cookie（16 项测试因此跳过），且 README 自称非官方、无 SLA。",
-          "shots": ["images/01-readme-role-and-limitations.jpg", "images/05-custom-timeframe.jpg", "images/06-bounded-history-example.jpg"]
+          "shots": [
+            "images/01-readme-role-and-limitations.jpg",
+            "images/05-custom-timeframe.jpg",
+            "images/06-bounded-history-example.jpg"
+          ]
         },
         "D5": {
           "rating": "partial",
           "evidence": "npm ci 装 326 包后示例直接可跑，错误处理与 client 清理有示例；输出是库自有的事件式 JSON，不是 OHLCV 表或 DataFrame，清洗与存档全部交给下游。",
-          "shots": ["images/09-error-handling-example.jpg", "images/12-websocket-client-source.jpg"]
+          "shots": [
+            "images/09-error-handling-example.jpg",
+            "images/12-websocket-client-source.jpg"
+          ]
         }
       },
       "best_for": "在 Node 里免 key 订阅 TradingView 公开图表与报价的 WebSocket 数据流做原型。",
@@ -402,38 +612,70 @@
       "tested_revision": "6b4b6744ad16f44fcf1cff17d8813af29aad66f0（Next.js 16.3.3；2026-09-27 试用）",
       "catalog_lock": "c15f94e616cfa94747c3cc2e5caedd02341474f0",
       "interface": "Web 应用",
-      "markets": ["A股"],
+      "markets": [
+        "A股"
+      ],
       "claimed": "免费开源的 A 股热力图｜A 股大盘云图，各板块涨跌一眼可见。",
       "delivered": {
         "status": "done",
         "summary": "隔离运行下全市场 5,917 只股票按 32 个板块成图，九种市场范围、日/周/月/年、板块与涨跌筛选、自选增删、主题与分享预览全部实测可用；行情快照止于 2026-09-24。"
       },
-      "stages": {"fetch": "run", "clean": "na", "store": "none", "indicator": "na", "strategy": "na", "backtest": "na", "lifecycle": "na", "risk": "na", "execute": "na", "monitor": "run"},
+      "stages": {
+        "fetch": "run",
+        "clean": "na",
+        "store": "none",
+        "indicator": "na",
+        "strategy": "na",
+        "backtest": "na",
+        "lifecycle": "na",
+        "risk": "na",
+        "execute": "na",
+        "monitor": "run"
+      },
       "criteria": {
         "V1": {
           "rating": "done",
           "evidence": "首屏即为全市场热图，5,917 只股票按 32 个板块以颜色与面积呈现；上证、深证、沪深 300、中证 A50、A500、主板、创业板、科创板九种范围一键切换，沪深 300 精确 300 只。",
-          "shots": ["images/01-01-native-all-day.jpg", "images/04-04-native-hs300-day.jpg", "images/09-09-native-kcb-day.jpg"]
+          "shots": [
+            "images/01-01-native-all-day.jpg",
+            "images/04-04-native-hs300-day.jpg",
+            "images/09-09-native-kcb-day.jpg"
+          ]
         },
         "V2": {
           "rating": "done",
           "evidence": "页面与 API 显示来源标记 direct 与 updatedAt 2026-09-24 15:30/16:15（中国时区）；休市周末打开时不把快照说成当日行情。",
-          "shots": ["images/01-01-native-all-day.jpg", "images/13-13-native-turnover-thumbnails.jpg"]
+          "shots": [
+            "images/01-01-native-all-day.jpg",
+            "images/13-13-native-turnover-thumbnails.jpg"
+          ]
         },
         "V3": {
           "rating": "done",
           "evidence": "日/周/月/年切换、电子板块涨跌筛选、+2%~+4% 涨幅筛选、成交额缩略图均生效；搜索贵州茅台命中 600519.SH 加入自选后读到 1237 元、-1.14%，移除后自选归零；主题与分享预览可用。",
-          "shots": ["images/10-10-native-all-week.jpg", "images/14-14-native-electronics-falling.jpg", "images/16-16-native-all-plus2to4.jpg", "images/17-17-native-watchlist-maotai.jpg", "images/24-24-native-watchlist-removed.jpg"]
+          "shots": [
+            "images/10-10-native-all-week.jpg",
+            "images/14-14-native-electronics-falling.jpg",
+            "images/16-16-native-all-plus2to4.jpg",
+            "images/17-17-native-watchlist-maotai.jpg",
+            "images/24-24-native-watchlist-removed.jpg"
+          ]
         },
         "V4": {
           "rating": "partial",
           "evidence": "无登录，pnpm 本地即可跑，原生 HTTP API 与 Site tools（WebMCP）可被外部读写状态；但数据源固定为网站聚合快照，不能换成自有行情。",
-          "shots": ["images/20-20-native-webmcp-settings.jpg", "images/21-21-native-share-dialog.jpg"]
+          "shots": [
+            "images/20-20-native-webmcp-settings.jpg",
+            "images/21-21-native-share-dialog.jpg"
+          ]
         },
         "V5": {
           "rating": "partial",
           "evidence": "13 个 API 场景通过，非法 period 返回 HTTP 400，柔和与自定义主题切换正常；源不可用时的错误态、移动端与分享图下载未验。",
-          "shots": ["images/22-22-native-soft-theme.jpg", "images/23-23-native-custom-theme.jpg"]
+          "shots": [
+            "images/22-22-native-soft-theme.jpg",
+            "images/23-23-native-custom-theme.jpg"
+          ]
         }
       },
       "best_for": "快速看 A 股全市场与板块宽度、权重结构，并做轻量自选跟踪。",
@@ -448,6 +690,99 @@
       "suggested_category": "dashboard",
       "hero": "images/01-01-native-all-day.jpg",
       "notes": "目录归 Equity Research，锁为 c15f94e6；实测源码 6b4b6744 与目录锁不同。24 张截图从 equity-research/2026-09-28/02-a-share-heatmap（2026-09-27 试用）复用，文件哈希一致，本轮未重新运行产品；以市场宽度与板块看板为核心，建议改归 Dashboard。"
+    },
+    {
+      "repo": "simonlin1212/vibe-astock",
+      "name": "Vibe AStock",
+      "catalog_category": "dashboard",
+      "evaluated_as": "dashboard",
+      "evidence_dir": "evaluations/dashboard/2026-10-04/01-vibe-astock",
+      "tested_revision": "bd96df4045e7a4a68478862d18358139599fcf34",
+      "catalog_lock": "bd96df4045e7a4a68478862d18358139599fcf34",
+      "interface": "Web 应用",
+      "markets": [
+        "A股",
+        "美股",
+        "港股",
+        "新闻/事件"
+      ],
+      "claimed": "A 股短线复盘与跟踪工作台：盘面观察、证据复盘、多空辩论、历史回测，本地网页运行，行情与统计不依赖 AI。",
+      "delivered": {
+        "status": "partial",
+        "summary": "不接 AI 时盘面、梯队、个股研究、自选和日线回测引擎都跑通，时效基本标注清楚；但两处把 9 月 30 日数据标成休市日 10 月 3 日，复盘、辩论等深度功能必须接入 AI。"
+      },
+      "stages": {
+        "fetch": "run",
+        "clean": "code",
+        "store": "code",
+        "indicator": "run",
+        "strategy": "run",
+        "backtest": "run",
+        "lifecycle": "none",
+        "risk": "none",
+        "execute": "none",
+        "monitor": "run"
+      },
+      "criteria": {
+        "V1": {
+          "rating": "done",
+          "evidence": "七个模块按工作流分组；每页顶部先写数据日期和口径，盘面数据一屏放指数、外围、自选与市场宽度，昨日梯队按板数固定分组并标覆盖 56/57。",
+          "shots": [
+            "images/03-market-data.png",
+            "images/06-yesterday-ladder.png"
+          ]
+        },
+        "V2": {
+          "rating": "partial",
+          "evidence": "多数页面明确写「尚无今日行情 · 显示 2026-09-30 数据」，盘中核验拒绝在 2026-10-04 休市日抓快照；但首板分析和短线情绪把同一组 52 家涨停标为「2026-10-03」，而近 5 天热度把它归在 09-30。",
+          "shots": [
+            "images/03-market-data.png",
+            "images/07-intraday-check.png",
+            "images/08-first-board-date-label.png",
+            "images/09-five-day-heat.png"
+          ]
+        },
+        "V3": {
+          "rating": "done",
+          "evidence": "批量加自选 600519、300750 立即出价（1258.62、291.11）；个股研究查询 600519 返回行情、估值、财报和 200 条研报；回测引擎不经 AI 跑完茅台 MA20/MA60 并拒绝三个不成立的请求。",
+          "shots": [
+            "images/04-watchlist-added.png",
+            "images/11-stock-research-600519.png",
+            "images/19-backtest-engine-run.png",
+            "images/20-backtest-gate-refusals.png"
+          ]
+        },
+        "V4": {
+          "rating": "partial",
+          "evidence": "本机回环运行、无登录，回测引擎可作为 Python 模块直接调用；但数据源固定为公开接口（腾讯、东财、akshare、baostock），不能接入我们自己的行情，复盘、辩论、资讯要点和回测页面入口都要先接 AI。",
+          "shots": [
+            "images/01-ai-gate.png",
+            "images/13-backtest-page.png",
+            "images/19-backtest-engine-run.png"
+          ]
+        },
+        "V5": {
+          "rating": "partial",
+          "evidence": "setup 体检 8 项通过，pytest 1021 通过 1 失败；历史统计请求 30 天只得到 14 天，16 个交易日取数失败被剔除；首板与热度页需要数十秒才加载完。",
+          "shots": [
+            "images/21-setup-and-tests.png",
+            "images/10-history-stats.png"
+          ]
+        }
+      },
+      "best_for": "每天收盘后看 A 股短线情绪、昨日梯队和首板，并对单只票快速拉齐行情、估值和研报。",
+      "not_for": "需要接自有行情、需要盘中逐笔精度，或不愿把复盘材料交给外部 AI 的场景。",
+      "unverified": [
+        "AI 复盘报告与引用校验",
+        "多空辩论",
+        "资讯雷达的 AI 要点",
+        "交易时段内的实时动态与盘中快照",
+        "交易日志记账与个人风控统计"
+      ],
+      "next": "开市日接入一个自有 API 来源，生成一次完整复盘，核对引用校验和日期标注是否仍把旧数据标成新日期。",
+      "suggested_category": null,
+      "hero": "images/03-market-data.png",
+      "notes": "带一个可独立调用的日线回测引擎（A股、美股、港股；买入持有、均线交叉、RSI），计入费用和市场规则；它不下单，交易日志里的「个人风控」是复盘统计，不拦截订单。"
     }
   ]
 }

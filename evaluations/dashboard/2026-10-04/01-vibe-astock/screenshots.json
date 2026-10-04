@@ -1,0 +1,156 @@
+{
+  "product": "simonlin1212/vibe-astock",
+  "tested_commit": "bd96df4045e7a4a68478862d18358139599fcf34",
+  "capture_date": "2026-10-04",
+  "count": 21,
+  "unique_sha256_count": 21,
+  "screenshots": [
+    {
+      "number": 1,
+      "file": "images/01-ai-gate.png",
+      "description": "首次打开即弹出「请接入AI」：Codex、Claude、WorkBuddy 订阅或 API 密钥；本轮未接入任何来源",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "7bc5c2dcae40adbacd523daaa6dc0b7e5a351ef373a785c82a93fd1543969943"
+    },
+    {
+      "number": 2,
+      "file": "images/02-home.png",
+      "description": "首页：聊天框标注「未接入AI，请设置」，三组工具入口",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "abe586e11e61114c5112540b0ccc0992eca92e84a48edcc01e304922c1da92bf"
+    },
+    {
+      "number": 3,
+      "file": "images/03-market-data.png",
+      "description": "盘面数据：顶部标注「尚无今日行情 · 显示 2026-09-30 数据」，隔夜外围按美股、港股各自 2026-10-02 收盘标注",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "d428699eee291cd5d0ede94bb0c4ab152933ec0243c2bfcdd4b4691b2265375e"
+    },
+    {
+      "number": 4,
+      "file": "images/04-watchlist-added.png",
+      "description": "加自选 600519、300750：贵州茅台 1258.62 +1.86%、宁德时代 291.11 +1.5%；同屏「短线情绪 · 2026-10-03 收盘快照」把 9 月 30 日数据标成休市日",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "243472b83ea2f1ae8bb5685cb0e8db3b4134b930b5705baddec8f6ad78024b7c"
+    },
+    {
+      "number": 5,
+      "file": "images/05-live-moves.png",
+      "description": "实时动态：非交易时段，标明开盘后自动开始监控，异动 0 条",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "0d4747907b996123c898321441e7c2cc3be7ae6dfba6457c0b5d6f30f58d9bb1"
+    },
+    {
+      "number": 6,
+      "file": "images/06-yesterday-ladder.png",
+      "description": "昨日梯队：样本日期 2026-09-29 · 行情交易日 2026-09-30 · 全池 57 只覆盖 56 只，6 板新华传媒收盘涨停",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "f3669dca87511f2a0c1b354b21dc6e1323987aedcfbd05748e01334cfeadc555"
+    },
+    {
+      "number": 7,
+      "file": "images/07-intraday-check.png",
+      "description": "盘中核验：拒绝在 2026-10-04 抓快照（未开市），说明过点补不回来",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "e9429150450517c78ee0fe4c14ca8cd6365df396ec5cb4a461cde70b20ef0294"
+    },
+    {
+      "number": 8,
+      "file": "images/08-first-board-date-label.png",
+      "description": "首板分析：把 52 家涨停、40 家首板标为「交易日 2026-10-03」，同时提示 20261003 未返回涨停记录",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "1aa33f6fb9171d064e6aedacc0b697f423504cab547850324b9d7f9e61e51004"
+    },
+    {
+      "number": 9,
+      "file": "images/09-five-day-heat.png",
+      "description": "近5天热度：2026-09-23 至 09-30 涨停家数、最高板、炸板率；09-30 为 52 家、7 板",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "091808ae623e7c4a18f927ed15c6098086c411a453d8417f39c1be2775405665"
+    },
+    {
+      "number": 10,
+      "file": "images/10-history-stats.png",
+      "description": "历史统计：自称「不是策略回测」；请求 30 天实际 14 天，16 个交易日取数失败已剔除",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "84fa9af1f78414b5123c43782e6fd8b8b94422e9d494df1e16f4618e92b56b8c"
+    },
+    {
+      "number": 11,
+      "file": "images/11-stock-research-600519.png",
+      "description": "个股研究 600519：行情时点 2026-09-30 16:14:58，现价 1258.62、PE(TTM) 19.32、48 家机构覆盖；市盈率历史取数失败显式提示",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "d7d1489e83f67dda350a633cbaf904745f3c86424fe16349438b1d7a0afa8c8d"
+    },
+    {
+      "number": 12,
+      "file": "images/12-review-needs-ai.png",
+      "description": "复盘看板：最近已收盘交易日 2026-09-30，生成复盘需要 AI，本轮未生成",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "2acb7b37062b380aab2690ba3c3edc88228d0e79639de98945fa0aa408ea41d4"
+    },
+    {
+      "number": 13,
+      "file": "images/13-backtest-page.png",
+      "description": "回测页面：条件由 AI 整理后再交给确定性引擎；页面入口需接入 AI",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "81d4acbadb8df7223f43cf9a96aab5c27aad96be39cdfd544101be2d88652f2d"
+    },
+    {
+      "number": 14,
+      "file": "images/14-debate-needs-ai.png",
+      "description": "多空辩论：需要已保存的 AI 来源，本轮未运行",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "2aa53f39fab30a36082eb4d0b803f22122fab6243452ce038899ad8b6464724d"
+    },
+    {
+      "number": 15,
+      "file": "images/15-news-radar.png",
+      "description": "资讯雷达：无关注股票时明确提示先加自选",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "7e2a94547bcfdc79919d84c81ecd4edbe298a3734d3e6351c3f0a2476abd80a2"
+    },
+    {
+      "number": 16,
+      "file": "images/16-holdings.png",
+      "description": "持仓自选：持仓由交易日志聚合，空账本显示「当前没有未平仓的交易」",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "4597093e96231ceecd2ec3a0ae5cb49914c130df36e3bd28fd1c04c42af0125a"
+    },
+    {
+      "number": 17,
+      "file": "images/17-trade-journal.png",
+      "description": "交易日志：记一笔表单含计划止损、个人风控规则",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "d86e3a5df395834a1452ff1820e3917ca41dd81754a859eda3fc83d046c5913c"
+    },
+    {
+      "number": 18,
+      "file": "images/18-ai-settings.png",
+      "description": "接入 AI 设置页：订阅与 API 两类来源",
+      "kind": "原生产品界面（本地 Web）",
+      "sha256": "922684a9b2a2ebca85c8b6a86f14e7148a14a2241df6fc711f1a99dcabe16ee7"
+    },
+    {
+      "number": 19,
+      "file": "images/19-backtest-engine-run.png",
+      "description": "回测引擎不经 AI 直接调用：600519 MA20/MA60，2022-01-01→2025-12-31，969 根前复权日线，计入 T+1、整手、佣金印花税、涨跌停",
+      "kind": "辅助证据页（非产品原生界面，渲染命令行实测输出）",
+      "sha256": "0cf4829690647fac0c883b79fea158aeae18f8b13465a8b37e7093e179002162"
+    },
+    {
+      "number": 20,
+      "file": "images/20-backtest-gate-refusals.png",
+      "description": "回测闸口：未知口径、混合 A股+美股、A股做T 三个请求均被拒绝并给出改法",
+      "kind": "辅助证据页（非产品原生界面，渲染命令行实测输出）",
+      "sha256": "f8c50b982401a9cbf3921e640d3a9dcdf42ebeb49e2b6573276a9b5ae944407e"
+    },
+    {
+      "number": 21,
+      "file": "images/21-setup-and-tests.png",
+      "description": "安装体检 8 项通过；pytest 1021 通过、1 失败、5 跳过",
+      "kind": "辅助证据页（非产品原生界面，渲染命令行实测输出）",
+      "sha256": "04852baf397c1163746e22a1e4464ca2c955aa89c31bab43a7486eb8fbb547f3"
+    }
+  ]
+}

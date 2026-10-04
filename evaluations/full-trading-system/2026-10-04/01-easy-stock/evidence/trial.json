@@ -1,0 +1,93 @@
+{
+  "product": "jundizhou/easy-stock",
+  "tested_commit": "37a8c1bb3e2e9cabeb11f94dbef50a8b955f1948",
+  "catalog_lock": "37a8c1bb3e2e9cabeb11f94dbef50a8b955f1948",
+  "version": "between v1.3.0 and v1.3.1 (source build, Web workbench; Electron desktop shell not built)",
+  "environment": {
+    "os": "macOS arm64",
+    "python": "3.12 (product venv)",
+    "node": "v26.8.1",
+    "go": "1.26.0",
+    "date": "2026-10-04 (Sunday, China National Day market closure)",
+    "last_a_share_session": "2026-09-30"
+  },
+  "isolation": "Go backend run with HOME and A_STOCK_SETTINGS_PATH/REVIEW_DB/MARKET_EMOTION_DB/THEME_RADAR_DB/MASTERY_CACHE/LOG_DIR in a scratch directory; frontend Vite on 127.0.0.1:20073, backend 127.0.0.1:20081; npm install scripts not executed",
+  "not_done": [
+    "No model API key or Hermes runtime: AI analysis, portfolio inspection, AI chat, daily consensus not run",
+    "No 雪球 / 淘股吧 login: 大V复盘 collection not run",
+    "No Tushare token",
+    "Electron desktop app not built"
+  ],
+  "steps": [
+    {
+      "cmd": "ELECTRON_SKIP_BINARY_DOWNLOAD=1 npm ci",
+      "result": "exit 0 in 8s; npm did not run dependency install scripts"
+    },
+    {
+      "cmd": "go build ./cmd/server",
+      "result": "exit 0 in 23.7s"
+    },
+    {
+      "cmd": "npm --workspace frontend run build",
+      "result": "exit 0"
+    },
+    {
+      "cmd": "go test ./...",
+      "result": "21 packages ok, internal/agent FAIL",
+      "failed": [
+        "TestRuntimePromptAutoApprovesGatewayRequestsInsideSandbox: 启动 Hermes: context deadline exceeded",
+        "TestRuntimePromptAnswersHermes021ServerApprovalRequest: context deadline exceeded"
+      ],
+      "note": "both need the Hermes AI runtime, which is not installed"
+    },
+    {
+      "cmd": "npm --workspace frontend test -- --run",
+      "result": "25 files, 155 tests passed"
+    },
+    {
+      "cmd": "GET /api/health",
+      "result": "{\"ok\":true}"
+    },
+    {
+      "ui": "#themes first load",
+      "result": "theme snapshot 2026-09-30; 生物制品 heat 88; ladder and daily K"
+    },
+    {
+      "ui": "#themes second load",
+      "result": "heat shown as 强度未齐 --, daily K and multi-day indicators unavailable; data sources 6/7 (Tushare needs token)",
+      "defect": "same page degraded on reload"
+    },
+    {
+      "ui": "#stock-ai 600519 量化速览",
+      "result": "9s, no AI: 1258.62 +1.9%; composite 55·C over ten weighted dimensions; 2026 H1 revenue +1.3%, net profit -2.0%, ROE 16.8%"
+    },
+    {
+      "ui": "#stock-ai 风控执行 · 准备新开仓 · 300750 量化速览",
+      "result": "291.11 +1.5%; composite 46·D; risk pressure 53; invalidation 316.60; suggested position 0%-10%"
+    },
+    {
+      "ui": "#portfolio-inspection 600519 10% + 300750 10%",
+      "result": "blocked: 未配置 Hermes 运行时路径"
+    },
+    {
+      "ui": "#limit-up",
+      "result": "2026-09-30 · 最近交易日; 52 limit-ups, 12 multi-board, top 7 boards"
+    },
+    {
+      "ui": "#market/core-indexes",
+      "result": "source eastmoney:index; 已收盘; 上证 3842.19 +0.31%; quote time 2026/9/30; 2026-09-24 close 3888.37"
+    },
+    {
+      "code": "backend/internal/strategy/inflection/backtest.go",
+      "result": "RunBacktest with fees, slippage, next-bar entry and limit rules exists; no caller in the API and no test exercises it"
+    },
+    {
+      "code": "broker / order placement",
+      "result": "none found"
+    }
+  ],
+  "cross_checks": [
+    "600519 1258.62 and 300750 291.11 match vibe-astock",
+    "上证 3842.19 matches vibe-astock; 2026-09-24 close 3888.37 matches the 2026-09-27 Data round (datafeed record)"
+  ]
+}

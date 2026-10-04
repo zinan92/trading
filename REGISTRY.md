@@ -3,7 +3,7 @@
 > Current snapshot only. Put why a durable decision was made in
 > `decision-log.md`.
 
-**Last verified:** 2026-09-28 10:40 CST
+**Last verified:** 2026-10-04 17:20 CST
 
 **State authority:** this file for this project's current state
 **North Star:** none yet; the line's purpose is stated in the Park OS manual (Trading 线：交易与投研)
@@ -14,7 +14,7 @@ A scoped Trading catalog that works as a hub: every library is placed on the tra
 
 ## Where we are now
 
-66 catalog repos, synced from Park OS. 59 of them (all except Knowledge & Collections) have a pipeline evaluation card in `evaluations/assessments/`, rendered into `evaluations/README.md` and six category pages by `scripts/render-hub.py`. Criteria and weights live in `evaluations/criteria.json`. Raw first-round evidence stays in the dated round directories.
+68 catalog repos, synced from Park OS. All 61 outside Knowledge & Collections have a pipeline evaluation card (easy-stock and vibe-astock trialled 2026-10-04) in `evaluations/assessments/`, rendered into `evaluations/README.md` and six category pages by `scripts/render-hub.py`. Criteria and weights live in `evaluations/criteria.json`. Raw first-round evidence stays in the dated round directories.
 
 Gaps: no product completed a paper order→fill→position closed loop in the first round; six products were tested at a revision different from their catalog lock.
 

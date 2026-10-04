@@ -24,8 +24,8 @@ Pipeline：1 数据获取 → 2 清洗与标准化 → 3 数据存档 → 4 指�
 | Equity Research | 为买卖决策提供可核验、可复现的研判，而不是一段无法追溯的文字。 | 6 | — | [Maverick MCP](evaluations/equity-research/README.md#maverick-mcp) · 82 | [打开](evaluations/equity-research/README.md) |
 | Trading Strategy | 策略与指标知识库全面（尽量互斥且穷尽）、计算正确、能直接送进回测。 | 11 | — | [TA-Lib](evaluations/trading-strategy/README.md#ta-lib-python) · 80 | [打开](evaluations/trading-strategy/README.md) |
 | Trading Infra | 回测→风控→执行的骨架可靠，组件可以单独替换。 | 5 | — | [standard-broker](evaluations/trading-infra/README.md#standard-broker) · 75 | [打开](evaluations/trading-infra/README.md) |
-| Dashboard | 人能快速、清晰地找到信息，并在需要时干预。 | 6 | 1 | [A Share Heatmap](evaluations/dashboard/README.md#a-share-heatmap) · 82 | [打开](evaluations/dashboard/README.md) |
-| Full Trading System / Agent | 有完整骨架，各环节先解耦再重耦，能跑通一次 paper 闭环。 | 15 | 1 | [tick-stock-panel](evaluations/full-trading-system/README.md#tick-stock-panel) · 70 | [打开](evaluations/full-trading-system/README.md) |
+| Dashboard | 人能快速、清晰地找到信息，并在需要时干预。 | 7 | — | [A Share Heatmap](evaluations/dashboard/README.md#a-share-heatmap) · 82 | [打开](evaluations/dashboard/README.md) |
+| Full Trading System / Agent | 有完整骨架，各环节先解耦再重耦，能跑通一次 paper 闭环。 | 16 | — | [tick-stock-panel](evaluations/full-trading-system/README.md#tick-stock-panel) · 70 | [打开](evaluations/full-trading-system/README.md) |
 | Knowledge & Collections | 参考资料，不评测。 | — | — | — | — |
 
 <!-- HUB:END -->
@@ -114,7 +114,7 @@ Snapshot: `github-universe-2026-10-02-star-refresh-01` · canonical source: [Par
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
-| [simonlin1212/vibe-astock](https://github.com/simonlin1212/vibe-astock) | A 股短线复盘看板：涨停池·连板梯队·龙虎榜·板块资金一屏看完，赚钱效应/晋级率/梯队断层/情绪周期等派生指标纯计算直出（不经过 AI），AI 只把数据串成能读的盘面研判。全本地运行，可用 Claude/Codex 订阅免 API key。\| A-share short-term daily-review dashboard: derived sentiment metrics computed locally, AI only writes the narrative. No API key needed. | Starred | `2026-09-27` | `bd96df4045e7` |
+| [simonlin1212/vibe-astock](https://github.com/simonlin1212/vibe-astock) · [评测](evaluations/dashboard/README.md#vibe-astock) | A 股短线复盘看板：涨停池·连板梯队·龙虎榜·板块资金一屏看完，赚钱效应/晋级率/梯队断层/情绪周期等派生指标纯计算直出（不经过 AI），AI 只把数据串成能读的盘面研判。全本地运行，可用 Claude/Codex 订阅免 API key。\| A-share short-term daily-review dashboard: derived sentiment metrics computed locally, AI only writes the narrative. No API key needed. | Starred | `2026-09-27` | `bd96df4045e7` |
 | [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) · [评测](evaluations/dashboard/README.md#openstock) | OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free. | Starred | `2026-09-24` | `87df76a2ce58` |
 | [zinan92/trading-desk](https://github.com/zinan92/trading-desk) · [评测](evaluations/dashboard/README.md#trading-desk) | Archived 2026-09-27. Moved into zinan92/trading-system (apps/trading-desk) | Owned | `2026-09-14` | `owned source` · PRIVATE · ARCHIVED |
 | [zinan92/human-kline-review](https://github.com/zinan92/human-kline-review) · [评测](evaluations/dashboard/README.md#human-kline-review) | Park 人工宏观 K 线复盘与 DeepSeek 汇总：HTML-first，Telegram later | Owned | `2026-08-23` | `owned source` · PRIVATE |
@@ -127,7 +127,7 @@ Snapshot: `github-universe-2026-10-02-star-refresh-01` · canonical source: [Par
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
-| [jundizhou/easy-stock](https://github.com/jundizhou/easy-stock) | A股行情分析与AI智能投研智能体：股票分析、量化交易分析、盘后复盘桌面工作台——easy stock | Starred | `2026-09-27` | `37a8c1bb3e2e` |
+| [jundizhou/easy-stock](https://github.com/jundizhou/easy-stock) · [评测](evaluations/full-trading-system/README.md#easy-stock) | A股行情分析与AI智能投研智能体：股票分析、量化交易分析、盘后复盘桌面工作台——easy stock | Starred | `2026-09-27` | `37a8c1bb3e2e` |
 | [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) · [评测](evaluations/full-trading-system/README.md#go-stock) | 🦄🦄🦄AI赋能股票分析：AI加持的股票分析/选股工具。股票行情获取，AI热点资讯分析，AI资金/财务分析，涨跌报警推送。支持A股，港股，美股。支持市场整体/个股情绪分析，AI辅助选股等。数据全部保留在本地。支持DeepSeek，OpenAI， Ollama，LMStudio，AnythingLLM，硅基流动，火山方舟，阿里云百炼等平台或模型。 | Starred | `2026-09-24` | `c26304fafab0` |
 | [FinHackCN/finhack](https://github.com/FinHackCN/finhack) · [评测](evaluations/full-trading-system/README.md#finhack) | FinHack®，一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作。 | Starred | `2026-09-18` | `dedbbd0b7acc` |
 | [nishuzumi/fomomo](https://github.com/nishuzumi/fomomo) · [评测](evaluations/full-trading-system/README.md#fomomo) | No description | Starred | `2026-09-13` | `a2c6040392e3` · NEEDS_REVIEW |
