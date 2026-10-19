@@ -1,5 +1,5 @@
-snapshot_id: github-universe-2026-10-02-star-refresh-01
-generated_from_checksum: 8036d7497ce0a89e8e2ba8eba972c0f869998126ec2c6bb80038f20794ed3354
+snapshot_id: github-universe-2026-10-19-star-refresh-01
+generated_from_checksum: 070a36533552aeaaf4906daf8b54f87284167c30e2a60be1279df893f1d78291
 locks:
 - repo: tickflow-org/tickflow
   source_url: https://github.com/tickflow-org/tickflow
@@ -22,14 +22,6 @@ locks:
   content_lock:
     locked_ref: a1e54b07e5c21b375363607920f297c5adfbeed4
     locked_url: https://github.com/atilaahmettaner/tradingview-mcp/commit/a1e54b07e5c21b375363607920f297c5adfbeed4
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-- repo: HiThink-Tech/Financial-API
-  source_url: https://github.com/HiThink-Tech/Financial-API
-  content_lock:
-    locked_ref: 402574a6221d5e255dba47166df8e5abb7149938
-    locked_url: https://github.com/HiThink-Tech/Financial-API/commit/402574a6221d5e255dba47166df8e5abb7149938
     locked_at: '2026-09-14'
     update_policy: monthly_pr
     vendored: false

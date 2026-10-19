@@ -1,7 +1,7 @@
 universe: trading
-snapshot_id: github-universe-2026-10-02-star-refresh-01
+snapshot_id: github-universe-2026-10-19-star-refresh-01
 generated_from: zinan92/park-operating-system
-generated_from_checksum: 8036d7497ce0a89e8e2ba8eba972c0f869998126ec2c6bb80038f20794ed3354
+generated_from_checksum: 070a36533552aeaaf4906daf8b54f87284167c30e2a60be1279df893f1d78291
 entries:
 - universe: trading
   repo: tickflow-org/tickflow
@@ -134,46 +134,6 @@ entries:
     checked_at: '2026-09-14'
     pushed_at: '2026-09-03T14:22:57Z'
   catalog_added_at: '2026-09-03T12:36:57Z'
-- universe: trading
-  repo: HiThink-Tech/Financial-API
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: data
-  tags:
-  - api
-  - product
-  - research
-  - typescript
-  source_url: https://github.com/HiThink-Tech/Financial-API
-  visibility: public
-  archived: false
-  description: 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun
-    (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices,
-    sectors and limit-up data for AI agents, quantitative research and application development.
-  status: EXPLORING
-  review_status: needs_review
-  review_reason: 'new-star-review: A-share financial data API for AI agents and quantitative research; provisional market-data-feeds
-    placement.'
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun
-      (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements,
-      indices, sectors and limit-up data for AI agents, quantitative research and application development.
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-11T09:10:30Z'
-  content_lock:
-    locked_ref: 402574a6221d5e255dba47166df8e5abb7149938
-    locked_url: https://github.com/HiThink-Tech/Financial-API/commit/402574a6221d5e255dba47166df8e5abb7149938
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-  catalog_added_at: '2026-08-26T03:40:37Z'
 - universe: trading
   repo: 1nchaos/adata
   owned: false
@@ -2228,4 +2188,4 @@ entries:
     update_policy: monthly_pr
     vendored: false
   catalog_added_at: '2024-04-12T02:46:41Z'
-export_checksum: 847a682037034d4f44eaa237d8adf664354d5f713b40a7783f00374be2a20133
+export_checksum: aebafae239cff0c459e8a8369e832fbbede5063c89f0ef2184ed6e7d131c52df

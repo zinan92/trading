@@ -4,7 +4,7 @@
 
 **Trading 的 capability-first catalog：先按功能分类，再按加入时间从新到旧浏览。**
 
-[![Snapshot](https://img.shields.io/badge/snapshot-68%20repos-0969DA.svg)](snapshot.yaml)
+[![Snapshot](https://img.shields.io/badge/snapshot-67%20repos-0969DA.svg)](snapshot.yaml)
 [![Source](https://img.shields.io/badge/source-Park%20OS-8250DF.svg)](https://github.com/zinan92/park-operating-system)
 
 </div>
@@ -34,14 +34,14 @@ Pipeline：1 数据获取 → 2 清洗与标准化 → 3 数据存档 → 4 指�
 
 ```text
 in  canonical Park OS snapshot + source provenance + fixed commit locks
-out 68-repo Trading catalog, grouped by function and ordered newest-added first
+out 67-repo Trading catalog, grouped by function and ordered newest-added first
 
 fail snapshot checksum mismatch → stop before publishing
 fail missing created_at / starred_at → stop; do not guess ordering
 fail unclassified placement → keep needs_review; do not guess
 ```
 
-Snapshot: `github-universe-2026-10-02-star-refresh-01` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
+Snapshot: `github-universe-2026-10-19-star-refresh-01` · canonical source: [Park OS](https://github.com/zinan92/park-operating-system)
 
 ## How to read this page
 
@@ -52,7 +52,7 @@ Snapshot: `github-universe-2026-10-02-star-refresh-01` · canonical source: [Par
 
 ## Browse by function
 
-### Data (14)
+### Data (13)
 
 | Repo | Capability / description | Source | Added | Lock / flags |
 |---|---|---|---|---|
@@ -60,7 +60,6 @@ Snapshot: `github-universe-2026-10-02-star-refresh-01` · canonical source: [Par
 | [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) · [评测](evaluations/data/README.md#financemcp) | 这是一个金融领域相关的mcp,本项目通过集成 Tushare API 和 Binance API 为语言模型（如Claude）提供全面的实时金融数据访问能力，支持股票、基金、债券、宏观经济指标、稳定币、虚拟货币等多维度金融数据分析。其中也包含了金融数据查询、财经新闻查询、国家统计局数据查询等 | Starred | `2026-09-13` | `784c6176647a` |
 | [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) · [评测](evaluations/data/README.md#tradingview-mcp) | TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host. | Starred | `2026-09-12` | `a1e54b07e5c2` |
 | [zinan92/watchlist](https://github.com/zinan92/watchlist) · [评测](evaluations/data/README.md#watchlist) | Park Exposure Registry — 行情与新闻共用的唯一权威名单：6 条宏观主线 / 24 个中观赛道 / 109 个 target | Owned | `2026-09-03` | `owned source` |
-| [HiThink-Tech/Financial-API](https://github.com/HiThink-Tech/Financial-API) · [评测](evaluations/data/README.md#financial-api) | 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development. | Starred | `2026-08-26` | `402574a6221d` · NEEDS_REVIEW |
 | [1nchaos/adata](https://github.com/1nchaos/adata) · [评测](evaluations/data/README.md#adata) | 免费开源A股量化交易数据库； 专注A股，专注量化，向阳而生； 开放、纯净、持续、为Ai(爱)发电。为个人量化交易而生，保卫3000点，珍惜底部机会......【股票数据，股票行情数据，股票量化数据，股票交易数据，k线行情数据，股票概念数据，股票数据接口，行情数据接口，量化交易数据】【多数据源融合，动态设置代理，保障数据高可用性】 | Starred | `2026-07-15` | `b14f4e57b217` |
 | [JerBouma/FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) · [评测](evaluations/data/README.md#financedatabase) | This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets. | Starred | `2026-07-15` | `a174c97d3bba` |
 | [simonlin1212/global-stock-data](https://github.com/simonlin1212/global-stock-data) · [评测](evaluations/data/README.md#global-stock-data) | US stock market data for AI coding assistants — zero-auth, official sources. CBOE options with full Greeks + 0DTE flow, FINRA market-wide short volume, SEC EDGAR filing stream, and a free market-wide screener. 13 layers, 30+ endpoints, 11 sources. Every source labeled with its compliance tier. | Starred | `2026-07-09` | `fbf0ae47d64e` |
