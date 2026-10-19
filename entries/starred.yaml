@@ -1,4 +1,4 @@
-snapshot_id: github-universe-2026-10-02-star-refresh-01
+snapshot_id: github-universe-2026-10-19-star-refresh-01
 entries:
 - universe: trading
   repo: tickflow-org/tickflow
@@ -106,46 +106,6 @@ entries:
     update_policy: monthly_pr
     vendored: false
   catalog_added_at: '2026-09-12T03:41:23Z'
-- universe: trading
-  repo: HiThink-Tech/Financial-API
-  owned: false
-  starred: true
-  source_kind: starred
-  registry_repo: false
-  registry_role: null
-  primary_category: data
-  tags:
-  - api
-  - product
-  - research
-  - typescript
-  source_url: https://github.com/HiThink-Tech/Financial-API
-  visibility: public
-  archived: false
-  description: 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun
-    (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices,
-    sectors and limit-up data for AI agents, quantitative research and application development.
-  status: EXPLORING
-  review_status: needs_review
-  review_reason: 'new-star-review: A-share financial data API for AI agents and quantitative research; provisional market-data-feeds
-    placement.'
-  github_snapshot:
-    default_branch: main
-    visibility: public
-    archived: false
-    description: 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun
-      (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements,
-      indices, sectors and limit-up data for AI agents, quantitative research and application development.
-    license_spdx: MIT
-    checked_at: '2026-09-14'
-    pushed_at: '2026-09-11T09:10:30Z'
-  content_lock:
-    locked_ref: 402574a6221d5e255dba47166df8e5abb7149938
-    locked_url: https://github.com/HiThink-Tech/Financial-API/commit/402574a6221d5e255dba47166df8e5abb7149938
-    locked_at: '2026-09-14'
-    update_policy: monthly_pr
-    vendored: false
-  catalog_added_at: '2026-08-26T03:40:37Z'
 - universe: trading
   repo: 1nchaos/adata
   owned: false
